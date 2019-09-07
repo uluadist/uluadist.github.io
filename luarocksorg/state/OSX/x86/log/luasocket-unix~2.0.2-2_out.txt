@@ -1,0 +1,13 @@
+Installing https://rocks.moonscript.org/luasocket-unix-2.0.2-2.src.rock...
+Using https://rocks.moonscript.org/luasocket-unix-2.0.2-2.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c src/buffer.c -o src/buffer.o -DLUASOCKET_DEBUG -DUNIX_HAS_SUN_LEN
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c src/auxiliar.c -o src/auxiliar.o -DLUASOCKET_DEBUG -DUNIX_HAS_SUN_LEN
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c src/options.c -o src/options.o -DLUASOCKET_DEBUG -DUNIX_HAS_SUN_LEN
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c src/timeout.c -o src/timeout.o -DLUASOCKET_DEBUG -DUNIX_HAS_SUN_LEN
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c src/io.c -o src/io.o -DLUASOCKET_DEBUG -DUNIX_HAS_SUN_LEN
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c src/usocket.c -o src/usocket.o -DLUASOCKET_DEBUG -DUNIX_HAS_SUN_LEN
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c src/unix.c -o src/unix.o -DLUASOCKET_DEBUG -DUNIX_HAS_SUN_LEN
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o socket/unix.so -L/Users/sp/Dropbox/OSX/x86/luajit/lib src/buffer.o src/auxiliar.o src/options.o src/timeout.o src/io.o src/usocket.o src/unix.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+luasocket-unix 2.0.2-2 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

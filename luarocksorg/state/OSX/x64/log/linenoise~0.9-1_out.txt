@@ -1,0 +1,9 @@
+Installing https://luarocks.org/linenoise-0.9-1.rockspec...
+Using https://luarocks.org/linenoise-0.9-1.rockspec... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c linenoise.c -o linenoise.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c linenoiselib.c -o linenoiselib.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c encodings/utf8.c -o encodings/utf8.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o linenoise.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib linenoise.o linenoiselib.o encodings/utf8.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+linenoise 0.9-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

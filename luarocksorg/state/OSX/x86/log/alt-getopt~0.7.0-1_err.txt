@@ -1,0 +1,1 @@
+Warning: Failed searching manifest: Failed fetching manifest for https://rocks.moonscript.org - Failed downloading https://rocks.moonscript.org/manifest

@@ -1,0 +1,21 @@
+lua_lz4.c
+lz4.c
+lz4hc.c
+lz4frame.c
+xxhash.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+lua_lz4.obj : warning LNK4197: export 'luaopen_lz4' specified multiple times; using first specification
+   Creating library lz4.lib and object lz4.exp
+Installing https://luarocks.org/lua-lz4-1.0-1.src.rock...
+Using https://luarocks.org/lua-lz4-1.0-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folua_lz4.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lua_lz4.c -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Folz4/lz4.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lz4/lz4.c -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Folz4/lz4hc.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lz4/lz4hc.c -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Folz4/lz4frame.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lz4/lz4frame.c -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Folz4/xxhash.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lz4/xxhash.c -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+link -dll -def:lz4.def -out:lz4.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib lua_lz4.obj lz4/lz4.obj lz4/lz4hc.obj lz4/lz4frame.obj lz4/xxhash.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+lua-lz4 1.0-1 is now built and installed in C:\ste\x64\luarockstree (license: Apache License 2.0)
+

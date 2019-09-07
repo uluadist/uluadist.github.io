@@ -1,0 +1,6 @@
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -DVERSION='"1.2.11"'   -c -o cbor_c.o cbor_c.c
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -DVERSION='"1.2.11"'   -c -o dnf.o dnf.c
+gcc -std=c99 -shared -o cbor_c.so cbor_c.o dnf.o 
+gcc -g -fPIC -DVERSION='"1.2.11"'   -c -o cbor_c.o cbor_c.c
+Installing https://luarocks.org/org.conman.cbor-1.2.11-1.src.rock...
+Using https://luarocks.org/org.conman.cbor-1.2.11-1.src.rock... switching to 'build' mode

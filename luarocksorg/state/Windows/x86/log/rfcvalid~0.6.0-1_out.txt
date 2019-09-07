@@ -1,0 +1,5 @@
+implc.c
+src/implc.c(30): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+Installing https://luarocks.org/rfcvalid-0.6.0-1.rockspec...
+Using https://luarocks.org/rfcvalid-0.6.0-1.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/implc.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/implc.c

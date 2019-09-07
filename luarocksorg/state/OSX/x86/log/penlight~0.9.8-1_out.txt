@@ -1,0 +1,42 @@
+Archive:  penlight-0.9.8-core.zip
+  inflating: penlight-0.9.8/lua/pl/app.lua  
+  inflating: penlight-0.9.8/lua/pl/array2d.lua  
+  inflating: penlight-0.9.8/lua/pl/class.lua  
+  inflating: penlight-0.9.8/lua/pl/comprehension.lua  
+  inflating: penlight-0.9.8/lua/pl/config.lua  
+  inflating: penlight-0.9.8/lua/pl/data.lua  
+  inflating: penlight-0.9.8/lua/pl/Date.lua  
+  inflating: penlight-0.9.8/lua/pl/dir.lua  
+  inflating: penlight-0.9.8/lua/pl/file.lua  
+  inflating: penlight-0.9.8/lua/pl/func.lua  
+  inflating: penlight-0.9.8/lua/pl/init.lua  
+  inflating: penlight-0.9.8/lua/pl/input.lua  
+  inflating: penlight-0.9.8/lua/pl/lapp.lua  
+  inflating: penlight-0.9.8/lua/pl/lexer.lua  
+  inflating: penlight-0.9.8/lua/pl/List.lua  
+  inflating: penlight-0.9.8/lua/pl/luabalanced.lua  
+  inflating: penlight-0.9.8/lua/pl/Map.lua  
+  inflating: penlight-0.9.8/lua/pl/MultiMap.lua  
+  inflating: penlight-0.9.8/lua/pl/operator.lua  
+  inflating: penlight-0.9.8/lua/pl/OrderedMap.lua  
+  inflating: penlight-0.9.8/lua/pl/path.lua  
+  inflating: penlight-0.9.8/lua/pl/permute.lua  
+  inflating: penlight-0.9.8/lua/pl/platf/luajava.lua  
+  inflating: penlight-0.9.8/lua/pl/pretty.lua  
+  inflating: penlight-0.9.8/lua/pl/seq.lua  
+  inflating: penlight-0.9.8/lua/pl/Set.lua  
+  inflating: penlight-0.9.8/lua/pl/sip.lua  
+  inflating: penlight-0.9.8/lua/pl/strict.lua  
+  inflating: penlight-0.9.8/lua/pl/stringio.lua  
+  inflating: penlight-0.9.8/lua/pl/stringx.lua  
+  inflating: penlight-0.9.8/lua/pl/tablex.lua  
+  inflating: penlight-0.9.8/lua/pl/template.lua  
+  inflating: penlight-0.9.8/lua/pl/test.lua  
+  inflating: penlight-0.9.8/lua/pl/text.lua  
+  inflating: penlight-0.9.8/lua/pl/utils.lua  
+  inflating: penlight-0.9.8/lua/pl/xml.lua  
+Installing https://luarocks.org/penlight-0.9.8-1.src.rock...
+Using https://luarocks.org/penlight-0.9.8-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+penlight 0.9.8-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

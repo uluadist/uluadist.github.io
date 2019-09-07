@@ -1,0 +1,107 @@
+Warning: skipping dependency checks.
+dumptree.c:138:2: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+        CREATE(stack);
+        ^
+./cstring.h:19:26: note: expanded from macro 'CREATE'
+#define CREATE(x)       T(x) = (void*)(S(x) = (x).alloc = 0)
+                               ^
+1 warning generated.
+markdown.c:151:14: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+    if ( ret = bsearch(&key,blocktags,SZTAGS,sizeof key, (stfu)casort))
+         ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+markdown.c:151:14: note: place parentheses around the assignment to silence this warning
+    if ( ret = bsearch(&key,blocktags,SZTAGS,sizeof key, (stfu)casort))
+             ^
+         (                                                            )
+markdown.c:151:14: note: use '==' to turn this assignment into an equality comparison
+    if ( ret = bsearch(&key,blocktags,SZTAGS,sizeof key, (stfu)casort))
+             ^
+             ==
+markdown.c:623:12: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if ( para = (q != text) ) {
+             ~~~~~^~~~~~~~~~~~~
+markdown.c:623:12: note: place parentheses around the assignment to silence this warning
+        if ( para = (q != text) ) {
+                  ^
+             (                 )
+markdown.c:623:12: note: use '==' to turn this assignment into an equality comparison
+        if ( para = (q != text) ) {
+                  ^
+                  ==
+markdown.c:662:5: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+    CREATE(foot->tag);
+    ^
+./cstring.h:19:26: note: expanded from macro 'CREATE'
+#define CREATE(x)       T(x) = (void*)(S(x) = (x).alloc = 0)
+                               ^
+markdown.c:663:5: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+    CREATE(foot->link);
+    ^
+./cstring.h:19:26: note: expanded from macro 'CREATE'
+#define CREATE(x)       T(x) = (void*)(S(x) = (x).alloc = 0)
+                               ^
+markdown.c:664:5: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+    CREATE(foot->title);
+    ^
+./cstring.h:19:26: note: expanded from macro 'CREATE'
+#define CREATE(x)       T(x) = (void*)(S(x) = (x).alloc = 0)
+                               ^
+markdown.c:856:5: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+    CREATE(doc->ctx->in);
+    ^
+./cstring.h:19:26: note: expanded from macro 'CREATE'
+#define CREATE(x)       T(x) = (void*)(S(x) = (x).alloc = 0)
+                               ^
+markdown.c:858:5: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+    CREATE(*doc->ctx->footnotes);
+    ^
+./cstring.h:19:26: note: expanded from macro 'CREATE'
+#define CREATE(x)       T(x) = (void*)(S(x) = (x).alloc = 0)
+                               ^
+7 warnings generated.
+mkdio.c:46:5: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+    CREATE(p->text);
+    ^
+./cstring.h:19:26: note: expanded from macro 'CREATE'
+#define CREATE(x)       T(x) = (void*)(S(x) = (x).alloc = 0)
+                               ^
+mkdio.c:101:5: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+    CREATE(line);
+    ^
+./cstring.h:19:26: note: expanded from macro 'CREATE'
+#define CREATE(x)       T(x) = (void*)(S(x) = (x).alloc = 0)
+                               ^
+2 warnings generated.
+resource.c:82:2: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+        CREATE(f->in);
+        ^
+./cstring.h:19:26: note: expanded from macro 'CREATE'
+#define CREATE(x)       T(x) = (void*)(S(x) = (x).alloc = 0)
+                               ^
+resource.c:83:2: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+        CREATE(f->out);
+        ^
+./cstring.h:19:26: note: expanded from macro 'CREATE'
+#define CREATE(x)       T(x) = (void*)(S(x) = (x).alloc = 0)
+                               ^
+resource.c:84:2: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+        CREATE(f->Q);
+        ^
+./cstring.h:19:26: note: expanded from macro 'CREATE'
+#define CREATE(x)       T(x) = (void*)(S(x) = (x).alloc = 0)
+                               ^
+resource.c:89:6: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+            CREATE(*f->footnotes);
+            ^
+./cstring.h:19:26: note: expanded from macro 'CREATE'
+#define CREATE(x)       T(x) = (void*)(S(x) = (x).alloc = 0)
+                               ^
+4 warnings generated.
+ldiscount.c:110:20: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  doc = mkd_string(str, len, MKD_TABSTOP|MKD_NOHEADER);
+                   ^~~
+./markdown.h:108:34: note: passing argument to parameter here
+extern Document *mkd_string(char*,int, int);
+                                 ^
+1 warning generated.
+No existing manifest. Attempting to rebuild...

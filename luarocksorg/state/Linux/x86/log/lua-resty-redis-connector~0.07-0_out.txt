@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-resty-redis-connector-0.07-0.rockspec...
+Using https://luarocks.org/lua-resty-redis-connector-0.07-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-resty-redis-connector-0.07-0-710/lua-resty-redis-connector/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-resty-redis-connector 0.07-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: 2-clause BSD)
+

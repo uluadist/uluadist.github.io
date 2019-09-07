@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for ccrunx-image 0.3-1: ltext 
+Missing dependency for ccrunx-image 0.3-1: argparse 
+Missing dependency for ccrunx-image 0.3-1: ltext 
+Missing dependency for ccrunx-image 0.3-1: argparse 

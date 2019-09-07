@@ -1,0 +1,11 @@
+Warning: skipping dependency checks.
+/bin/sh: .././install-sh: Permission denied
+make[3]: *** [install-includeHEADERS] Error 1
+make[2]: *** [install-am] Error 2
+/bin/sh: .././install-sh: Permission denied
+make[3]: *** [install-libLTLIBRARIES] Error 1
+make[2]: *** [install-am] Error 2
+make[1]: *** [install-recursive] Error 1
+make: *** [xlslib] Error 2
+
+Error: Build error: Failed building.

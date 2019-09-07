@@ -1,0 +1,5 @@
+Installing https://luarocks.org/fennel-0.1.1-2.src.rock...
+Using https://luarocks.org/fennel-0.1.1-2.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+fennel 0.1.1-2 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

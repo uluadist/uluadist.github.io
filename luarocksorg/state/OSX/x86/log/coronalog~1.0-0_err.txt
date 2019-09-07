@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+Cloning into 'coronalog'...
+fatal: remote error: 
+  Repository not found.
+
+Error: Failed cloning git repository.

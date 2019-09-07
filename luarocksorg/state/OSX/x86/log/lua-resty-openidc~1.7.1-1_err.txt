@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-resty-openidc 1.7.1-1: lua-resty-http >= 0.08
+Missing dependency for lua-resty-openidc 1.7.1-1: lua-resty-jwt >= 0.2.0
+Missing dependency for lua-resty-openidc 1.7.1-1: lua-resty-session >= 2.8
+Missing dependency for lua-resty-openidc 1.7.1-1: lua-resty-http >= 0.08
+Missing dependency for lua-resty-openidc 1.7.1-1: lua-resty-jwt >= 0.2.0
+Missing dependency for lua-resty-openidc 1.7.1-1: lua-resty-session >= 2.8

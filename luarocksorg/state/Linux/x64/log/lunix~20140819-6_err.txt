@@ -1,0 +1,5 @@
+Warning: skipping dependency checks.
+fatal: Not a git repository (or any of the parent directories): .git
+make: *** [/tmp/luarocks_lunix-20140819-6-9084/lunix-20140819/src/5.1/unix.so] Error 1
+
+Error: Build error: Failed building.

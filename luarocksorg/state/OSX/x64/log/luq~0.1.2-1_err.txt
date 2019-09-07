@@ -1,0 +1,12 @@
+Warning: skipping dependency checks.
+src/luq_map.c:121:18: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+    elem->data = (void*)i;
+                 ^
+src/luq_map.c:133:12: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+    assert((void*)i == elem->data);
+           ^
+/usr/include/assert.h:93:25: note: expanded from macro 'assert'
+    (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __FILE__, __LINE__, #e) : (void)0)
+                        ^
+2 warnings generated.
+No existing manifest. Attempting to rebuild...

@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luacheck 0.22.1-1: luafilesystem >= 1.6.3
+Missing dependency for luacheck 0.22.1-1: luafilesystem >= 1.6.3

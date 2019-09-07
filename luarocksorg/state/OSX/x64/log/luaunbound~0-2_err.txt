@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+lunbound.c:8:10: fatal error: 'unbound.h' file not found
+#include <unbound.h>
+         ^
+1 error generated.
+
+Error: Build error: Failed compiling object lunbound.o

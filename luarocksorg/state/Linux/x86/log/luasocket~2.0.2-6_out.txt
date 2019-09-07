@@ -1,0 +1,28 @@
+Installing https://rocks.moonscript.org/luasocket-2.0.2-6.rockspec...
+Using https://rocks.moonscript.org/luasocket-2.0.2-6.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/mime.c -o src/mime.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -shared -o mime/core.so -L/home/sp/luajit/lib src/mime.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/luasocket.c -o src/luasocket.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/timeout.c -o src/timeout.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/buffer.c -o src/buffer.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/io.c -o src/io.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/auxiliar.c -o src/auxiliar.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/options.c -o src/options.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/inet.c -o src/inet.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/except.c -o src/except.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/select.c -o src/select.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/tcp.c -o src/tcp.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/udp.c -o src/udp.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/usocket.c -o src/usocket.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -shared -o socket/core.so -L/home/sp/luajit/lib src/luasocket.o src/timeout.o src/buffer.o src/io.o src/auxiliar.o src/options.o src/inet.o src/except.o src/select.o src/tcp.o src/udp.o src/usocket.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/buffer.c -o src/buffer.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/auxiliar.c -o src/auxiliar.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/options.c -o src/options.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/timeout.c -o src/timeout.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/io.c -o src/io.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/usocket.c -o src/usocket.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/unix.c -o src/unix.o -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -shared -o socket/unix.so -L/home/sp/luajit/lib src/buffer.o src/auxiliar.o src/options.o src/timeout.o src/io.o src/usocket.o src/unix.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+luasocket 2.0.2-6 is now built and installed in /home/sp/luarockstree (license: MIT)
+

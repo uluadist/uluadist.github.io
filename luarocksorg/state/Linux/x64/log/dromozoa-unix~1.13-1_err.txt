@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+configure: error: not a Lua interpreter
+
+Error: Build error: Failed building.

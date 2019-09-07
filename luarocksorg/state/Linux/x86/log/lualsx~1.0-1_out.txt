@@ -1,0 +1,11 @@
+Installing https://luarocks.org/lualsx-1.0-1.src.rock...
+Using https://luarocks.org/lualsx-1.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/lsx_sha256.c -o src/lsx_sha256.o -Iinclude
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/lsx_twofish.c -o src/lsx_twofish.o -Iinclude
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/lsx_bzero.c -o src/lsx_bzero.o -Iinclude
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/lsx_random.c -o src/lsx_random.o -Iinclude
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/lualsx.c -o src/lualsx.o -Iinclude
+gcc -shared -o lsx.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/lsx_sha256.o src/lsx_twofish.o src/lsx_bzero.o src/lsx_random.o src/lualsx.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lualsx 1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: zlib)
+

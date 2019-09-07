@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/objectlua-0.4.10-1.src.rock...
+Using https://rocks.moonscript.org/objectlua-0.4.10-1.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+objectlua 0.4.10-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

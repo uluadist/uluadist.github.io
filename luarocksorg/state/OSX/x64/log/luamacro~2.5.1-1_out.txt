@@ -1,0 +1,80 @@
+Archive:  luamacro-2.5.1.zip
+7b52dcd5a3ae68c0dcc6263ab1ad6e1d41855159
+   creating: LuaMacro/
+  inflating: LuaMacro/config.ld      
+  inflating: LuaMacro/docgen         
+  inflating: LuaMacro/docgen.bat     
+  inflating: LuaMacro/luam           
+  inflating: LuaMacro/macro.lua      
+   creating: LuaMacro/macro/
+  inflating: LuaMacro/macro/Getter.lua  
+  inflating: LuaMacro/macro/TokenList.lua  
+  inflating: LuaMacro/macro/all.lua  
+  inflating: LuaMacro/macro/assert.lua  
+  inflating: LuaMacro/macro/builtin.lua  
+  inflating: LuaMacro/macro/clexer.lua  
+  inflating: LuaMacro/macro/do.lua   
+  inflating: LuaMacro/macro/forall.lua  
+  inflating: LuaMacro/macro/ifelse.lua  
+  inflating: LuaMacro/macro/lambda.lua  
+  inflating: LuaMacro/macro/lc.lua   
+  inflating: LuaMacro/macro/lexer.lua  
+   creating: LuaMacro/macro/lib/
+  inflating: LuaMacro/macro/lib/class.lua  
+  inflating: LuaMacro/macro/lib/test.lua  
+  inflating: LuaMacro/macro/module.lua  
+  inflating: LuaMacro/macro/try.lua  
+  inflating: LuaMacro/macro/with.lua  
+  inflating: LuaMacro/readme.md      
+   creating: LuaMacro/tests/
+  inflating: LuaMacro/tests/cexport.lua  
+  inflating: LuaMacro/tests/class1.lc  
+  inflating: LuaMacro/tests/const.lua  
+  inflating: LuaMacro/tests/cskin.lua  
+  inflating: LuaMacro/tests/dll.c    
+  inflating: LuaMacro/tests/dollar.lua  
+ extracting: LuaMacro/tests/exit.tmp  
+  inflating: LuaMacro/tests/forall1.lua  
+  inflating: LuaMacro/tests/lc.lua   
+  inflating: LuaMacro/tests/list.lua  
+  inflating: LuaMacro/tests/mmath.lua  
+  inflating: LuaMacro/tests/mod.m.lua  
+  inflating: LuaMacro/tests/proto.lua  
+  inflating: LuaMacro/tests/qw.lua   
+  inflating: LuaMacro/tests/rawhash.lua  
+  inflating: LuaMacro/tests/readme.md  
+  inflating: LuaMacro/tests/run-tests.lua  
+  inflating: LuaMacro/tests/str.l.c  
+  inflating: LuaMacro/tests/test-assert.lua  
+  inflating: LuaMacro/tests/test-atm.lua  
+  inflating: LuaMacro/tests/test-block.lua  
+  inflating: LuaMacro/tests/test-case.lua  
+  inflating: LuaMacro/tests/test-const.lua  
+  inflating: LuaMacro/tests/test-cskin.lua  
+  inflating: LuaMacro/tests/test-do.lua  
+  inflating: LuaMacro/tests/test-dollar.lua  
+  inflating: LuaMacro/tests/test-forall.lua  
+  inflating: LuaMacro/tests/test-forall1.lua  
+ extracting: LuaMacro/tests/test-include.lua  
+  inflating: LuaMacro/tests/test-lambda.lua  
+  inflating: LuaMacro/tests/test-list.lua  
+  inflating: LuaMacro/tests/test-macro.lua  
+  inflating: LuaMacro/tests/test-mod.lua  
+  inflating: LuaMacro/tests/test-pl-list.lua  
+  inflating: LuaMacro/tests/test-proto.lua  
+ extracting: LuaMacro/tests/test-qw.lua  
+  inflating: LuaMacro/tests/test-rawhash.lua  
+ extracting: LuaMacro/tests/test-require.lua  
+  inflating: LuaMacro/tests/test-scope.lua  
+  inflating: LuaMacro/tests/test-test.lua  
+  inflating: LuaMacro/tests/test-try.lua  
+  inflating: LuaMacro/tests/test-with.lua  
+  inflating: LuaMacro/tests/test.inc  
+  inflating: LuaMacro/tests/tests.bat  
+  inflating: LuaMacro/tests/tests.lua  
+  inflating: LuaMacro/tests/winapi.lc  
+Installing https://rocks.moonscript.org/luamacro-2.5.1-1.rockspec...
+Using https://rocks.moonscript.org/luamacro-2.5.1-1.rockspec... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+luamacro 2.5.1-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+lunbound.c:8:21: fatal error: unbound.h: No such file or directory
+ #include <unbound.h>
+                     ^
+compilation terminated.
+
+Error: Build error: Failed compiling object lunbound.o

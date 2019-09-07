@@ -1,0 +1,6 @@
+Installing https://luarocks.org/eaw-abstraction-layer-0.1-2.rockspec...
+Using https://luarocks.org/eaw-abstraction-layer-0.1-2.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_eaw-abstraction-layer-0.1-2-8600/eaw-abstraction-layer/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+eaw-abstraction-layer 0.1-2 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

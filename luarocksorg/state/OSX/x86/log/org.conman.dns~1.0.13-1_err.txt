@@ -1,0 +1,11 @@
+Warning: skipping dependency checks.
+fatal: Not a git repository (or any of the parent directories): .git
+src/codec.c:522:20: warning: comparison of constant 65535 with expression of type 'const edns0_type_t' (aka 'const enum edns0_type') is always true [-Wtautological-constant-out-of-range-compare]
+  assert(opt->code <= UINT16_MAX);
+         ~~~~~~~~~ ^  ~~~~~~~~~~
+/usr/include/assert.h:93:25: note: expanded from macro 'assert'
+    (__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __FILE__, __LINE__, #e) : (void)0)
+                        ^
+1 warning generated.
+fatal: Not a git repository (or any of the parent directories): .git
+No existing manifest. Attempting to rebuild...

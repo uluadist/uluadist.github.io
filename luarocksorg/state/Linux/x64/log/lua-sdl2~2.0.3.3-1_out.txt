@@ -1,0 +1,15 @@
+-- The C compiler identification is GNU
+-- Check for working C compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/gcc
+-- Check for working C compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Looking for include files CMAKE_HAVE_PTHREAD_H
+-- Looking for include files CMAKE_HAVE_PTHREAD_H - found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+-- Configuring incomplete, errors occurred!
+Installing https://rocks.moonscript.org/lua-sdl2-2.0.3.3-1.src.rock...
+Using https://rocks.moonscript.org/lua-sdl2-2.0.3.3-1.src.rock... switching to 'build' mode

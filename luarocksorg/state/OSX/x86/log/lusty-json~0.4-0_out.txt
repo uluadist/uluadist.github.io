@@ -1,0 +1,5 @@
+Installing https://rocks.moonscript.org/lusty-json-0.4-0.rockspec...
+Using https://rocks.moonscript.org/lusty-json-0.4-0.rockspec... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lusty-json 0.4-0 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT <http://opensource.org/licenses/MIT>)
+

@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-dynamic-cors 0.1.0-2: lua-resty-redis-connector == 0.06-0
+Missing dependency for lua-dynamic-cors 0.1.0-2: lua-resty-redis == 0.26-0
+Missing dependency for lua-dynamic-cors 0.1.0-2: lua-resty-redis-connector == 0.06-0
+Missing dependency for lua-dynamic-cors 0.1.0-2: lua-resty-redis == 0.26-0

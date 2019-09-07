@@ -1,0 +1,23 @@
+LUA FOUND OK
+CMake Error at CMakeLists.txt:11 (message):
+  message called with incorrect number of arguments
+
+
+CMake Error at CMakeLists.txt:12 (message):
+  message called with incorrect number of arguments
+
+
+CMake Error at CMakeLists.txt:179 (INSTALL):
+  install Library TARGETS given no DESTINATION!
+
+
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+Boost_INCLUDE_DIR (ADVANCED)
+   used as include directory in directory C:/Users/sp/AppData/Local/Temp/luarocks_spaces-0.4-0-2461/libspaces
+LUA_INCLUDE_DIR (ADVANCED)
+   used as include directory in directory C:/Users/sp/AppData/Local/Temp/luarocks_spaces-0.4-0-2461/libspaces
+
+Warning: skipping dependency checks.
+
+Error: Build error: Failed cmake.

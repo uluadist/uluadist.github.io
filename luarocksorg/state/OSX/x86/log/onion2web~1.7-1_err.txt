@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for onion2web 1.7-1: socks5 >= 1.7
+Missing dependency for onion2web 1.7-1: socks5 >= 1.7

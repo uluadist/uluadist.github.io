@@ -1,0 +1,15 @@
+Warning: skipping dependency checks.
+luajson.c:103:23: warning: passing 'const unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        utf = fourhex2int(L, code);
+                             ^~~~
+luajson.c:87:39: note: passing argument to parameter 'code' here
+fourhex2int(lua_State *L, const char *code)
+                                      ^
+luajson.c:250:18: warning: passing 'char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                code2utf8(L, (*s) + 2, utfbuf);
+                                             ^~~~~~~~
+luajson.c:99:46: note: passing argument to parameter 'code' here
+code2utf8(lua_State *L, const unsigned char *code, char buf[4])
+                                             ^
+2 warnings generated.
+No existing manifest. Attempting to rebuild...

@@ -1,0 +1,20 @@
+mkdir so
+mkdir lib
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -fPIC -c -o so/luauuid.o src/luauuid.c
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -fPIC -c -o so/uuid_ns_dns.o src/uuid_ns_dns.c
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -fPIC -c -o so/uuid_ns_null.o src/uuid_ns_null.c
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -fPIC -c -o so/uuid_ns_oid.o src/uuid_ns_oid.c
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -fPIC -c -o so/uuid_ns_url.o src/uuid_ns_url.c
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -fPIC -c -o so/uuid_ns_x500.o src/uuid_ns_x500.c
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -fPIC -c -o so/uuidlib_cmp.o src/uuidlib_cmp.c
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -fPIC -c -o so/uuidlib_parse.o src/uuidlib_parse.c
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -fPIC -c -o so/uuidlib_toa.o src/uuidlib_toa.c
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -fPIC -c -o so/uuidlib_v1.o src/uuidlib_v1.c
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -fPIC -c -o so/uuidlib_v2.o src/uuidlib_v2.c
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -fPIC -c -o so/uuidlib_v3.o src/uuidlib_v3.c
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -fPIC -c -o so/uuidlib_v4.o src/uuidlib_v4.c
+gcc -std=c99 -O2 -fPIC -DNDEBUG -I/home/sp/Dropbox/Linux/x64/luajit//include -fPIC -c -o so/uuidlib_v5.o src/uuidlib_v5.c
+gcc -std=c99 -g -shared -o lib/lua-uuid.so so/luauuid.o so/uuid_ns_dns.o so/uuid_ns_null.o so/uuid_ns_oid.o so/uuid_ns_url.o so/uuid_ns_x500.o so/uuidlib_cmp.o so/uuidlib_parse.o so/uuidlib_toa.o so/uuidlib_v1.o so/uuidlib_v2.o so/uuidlib_v3.o so/uuidlib_v4.o so/uuidlib_v5.o -lrt -lcrypto
+gcc -g -Wall -Wextra -pedantic -fPIC -c -o so/luauuid.o src/luauuid.c
+Installing https://luarocks.org/org.conman.uuid-1.2.11-1.src.rock...
+Using https://luarocks.org/org.conman.uuid-1.2.11-1.src.rock... switching to 'build' mode

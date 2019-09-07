@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Error fetching file: Failed downloading https://github.com/jprjr/lua-whereami/archive/1.2.1.tar.gz - lua-whereami-1.2.1.tar.gz

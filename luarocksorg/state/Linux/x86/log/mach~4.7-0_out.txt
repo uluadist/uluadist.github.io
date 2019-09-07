@@ -1,0 +1,5 @@
+Installing https://luarocks.org/mach-4.7-0.rockspec...
+Using https://luarocks.org/mach-4.7-0.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+mach 4.7-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT <http://opensource.org/licenses/MIT>)
+

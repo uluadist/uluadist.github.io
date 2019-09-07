@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+ld: library not found for -luuid
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [all] Error 1
+
+Error: Build error: Failed building.

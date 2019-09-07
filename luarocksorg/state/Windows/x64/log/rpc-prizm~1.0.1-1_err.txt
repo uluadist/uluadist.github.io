@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for rpc-prizm 1.0.1-1: rapidjson ~> 0.4
+Missing dependency for rpc-prizm 1.0.1-1: rapidjson ~> 0.4

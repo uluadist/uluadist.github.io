@@ -1,0 +1,5 @@
+Installing https://luarocks.org/odielak-1.3-1.rockspec...
+Using https://luarocks.org/odielak-1.3-1.rockspec... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -c -O3 -Wall -fPIC -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include odielak.c -o odielak.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -shared -bundle -undefined dynamic_lookup -all_load odielak.o -o odielak.so
+make install CC="env MACOSX_DEPLOYMENT_TARGET=10.8 gcc" LDFLAGS="-bundle -undefined dynamic_lookup -all_load" CFLAGS="-O2 -fPIC" LUA_INCDIR="-I/Users/sp/Dropbox/OSX/x86/luajit//include" LUA_LIBDIR="/Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/odielak/1.3-1/lib"

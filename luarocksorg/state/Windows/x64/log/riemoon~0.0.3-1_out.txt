@@ -1,0 +1,3 @@
+Installing https://luarocks.org/riemoon-0.0.3-1.rockspec...
+Using https://luarocks.org/riemoon-0.0.3-1.rockspec... switching to 'build' mode
+autoreconf -i && ./configure --prefix=C:\ste\x64\luarockstree/lib/luarocks/rocks/riemoon/0.0.3-1 --libdir=C:\ste\x64\luarockstree/lib/luarocks/rocks/riemoon/0.0.3-1/lib --datadir=C:\ste\x64\luarockstree/lib/luarocks/rocks/riemoon/0.0.3-1/lua && make clean && make

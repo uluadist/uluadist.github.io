@@ -1,0 +1,9 @@
+Installing https://luarocks.org/lqmath-1.0.1-1.src.rock...
+Using https://luarocks.org/lqmath-1.0.1-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lqmath.c -o lqmath.o -I./src
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/imath.c -o src/imath.o -I./src
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/imrat.c -o src/imrat.o -I./src
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o qmath.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lqmath.o src/imath.o src/imrat.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lqmath 1.0.1-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

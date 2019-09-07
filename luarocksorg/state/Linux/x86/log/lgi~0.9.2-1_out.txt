@@ -1,0 +1,6 @@
+make -C lgi
+make[1]: Entering directory `/tmp/luarocks_lgi-0.9.2-1-7633/lgi/lgi'
+pkg-config --exists 'gobject-introspection-1.0 >= 0.10.8' --print-errors
+make[1]: Leaving directory `/tmp/luarocks_lgi-0.9.2-1-7633/lgi/lgi'
+Installing https://luarocks.org/lgi-0.9.2-1.src.rock...
+Using https://luarocks.org/lgi-0.9.2-1.src.rock... switching to 'build' mode

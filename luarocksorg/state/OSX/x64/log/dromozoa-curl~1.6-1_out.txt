@@ -1,0 +1,22 @@
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x64/luajit/include -Wall -W -O2 -fPIC -c easy.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x64/luajit/include -Wall -W -O2 -fPIC -c easy_getinfo.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x64/luajit/include -Wall -W -O2 -fPIC -c easy_handle.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x64/luajit/include -Wall -W -O2 -fPIC -c easy_setopt.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x64/luajit/include -Wall -W -O2 -fPIC -c error.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x64/luajit/include -Wall -W -O2 -fPIC -c httppost.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x64/luajit/include -Wall -W -O2 -fPIC -c httppost_handle.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x64/luajit/include -Wall -W -O2 -fPIC -c main.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x64/luajit/include -Wall -W -O2 -fPIC -c module.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x64/luajit/include -Wall -W -O2 -fPIC -c multi.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x64/luajit/include -Wall -W -O2 -fPIC -c multi_handle.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x64/luajit/include -Wall -W -O2 -fPIC -c multi_setopt.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x64/luajit/include -Wall -W -O2 -fPIC -c string_list.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x64/luajit/include -Wall -W -O2 -fPIC -c symbols.cpp
+c++ -L/Users/sp/Dropbox/OSX/x64/luajit/lib -bundle -undefined dynamic_lookup -all_load easy.o easy_getinfo.o easy_handle.o easy_setopt.o error.o httppost.o httppost_handle.o main.o module.o multi.o multi_handle.o multi_setopt.o string_list.o symbols.o -lcurl -ldl -o curl.so
+mkdir -p /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/dromozoa-curl/1.6-1/lib/dromozoa
+cp curl.so /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/dromozoa-curl/1.6-1/lib/dromozoa
+Installing https://luarocks.org/dromozoa-curl-1.6-1.src.rock...
+Using https://luarocks.org/dromozoa-curl-1.6-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+dromozoa-curl 1.6-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: GPL-3)
+

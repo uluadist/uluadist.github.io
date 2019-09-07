@@ -1,0 +1,12 @@
+Installing https://rocks.moonscript.org/lanes-3.10.0-1.rockspec...
+Using https://rocks.moonscript.org/lanes-3.10.0-1.rockspec... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/compat.c -o src/compat.o -Isrc
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/deep.c -o src/deep.o -Isrc
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/lanes.c -o src/lanes.o -Isrc
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/keeper.c -o src/keeper.o -Isrc
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/tools.c -o src/tools.o -Isrc
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/threading.c -o src/threading.o -Isrc
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o lanes/core.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib src/compat.o src/deep.o src/lanes.o src/keeper.o src/tools.o src/threading.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lanes 3.10.0-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

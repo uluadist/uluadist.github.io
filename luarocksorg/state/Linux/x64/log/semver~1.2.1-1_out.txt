@@ -1,0 +1,6 @@
+Initialized empty Git repository in /tmp/luarocks_semver-1.2.1-1-8343/semver.lua/.git/
+Installing https://luarocks.org/semver-1.2.1-1.rockspec...
+Using https://luarocks.org/semver-1.2.1-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+semver 1.2.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

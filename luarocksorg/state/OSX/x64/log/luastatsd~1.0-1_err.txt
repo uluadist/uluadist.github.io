@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luastatsd 1.0-1: luasocket >= 2.0.2
+Missing dependency for luastatsd 1.0-1: luasocket >= 2.0.2

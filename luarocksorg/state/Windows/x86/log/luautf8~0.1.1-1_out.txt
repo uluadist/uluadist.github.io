@@ -1,0 +1,10 @@
+lutf8lib.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+lua-utf8.def : error LNK2001: unresolved external symbol luaopen_lua-utf8
+lua-utf8.lib : fatal error LNK1120: 1 unresolved externals
+Installing https://luarocks.org/luautf8-0.1.1-1.src.rock...
+Using https://luarocks.org/luautf8-0.1.1-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folutf8lib.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ lutf8lib.c
+link -dll -def:lua-utf8.def -out:lua-utf8.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib lutf8lib.obj

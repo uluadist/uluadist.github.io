@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+Cloning into 'luajit-gumbo'...
+Warning: variable CFLAGS was not passed in build_variables
+fatal: Not a git repository (or any of the parent directories): .git
+make: *** [gumbo-parser/autogen.sh] Error 128
+
+Error: Build error: Failed building.

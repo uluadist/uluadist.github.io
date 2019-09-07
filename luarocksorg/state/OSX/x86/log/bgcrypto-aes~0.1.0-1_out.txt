@@ -1,0 +1,65 @@
+Archive:  v0.1.0.zip
+fc34b7b2ecebe482482621dd6fa2f51ec047f347
+   creating: lua-bgcrypto-aes-0.1.0/
+   creating: lua-bgcrypto-aes-0.1.0/.appveyor/
+  inflating: lua-bgcrypto-aes-0.1.0/.appveyor/install.bat  
+  inflating: lua-bgcrypto-aes-0.1.0/.appveyor/set_compiler_env.bat  
+  inflating: lua-bgcrypto-aes-0.1.0/.appveyor/winmake.bat  
+  inflating: lua-bgcrypto-aes-0.1.0/.gitignore  
+  inflating: lua-bgcrypto-aes-0.1.0/.travis.yml  
+   creating: lua-bgcrypto-aes-0.1.0/.travis/
+  inflating: lua-bgcrypto-aes-0.1.0/.travis/platform.sh  
+  inflating: lua-bgcrypto-aes-0.1.0/.travis/setenv_lua.sh  
+  inflating: lua-bgcrypto-aes-0.1.0/.travis/setup_lua.sh  
+  inflating: lua-bgcrypto-aes-0.1.0/LICENSE  
+  inflating: lua-bgcrypto-aes-0.1.0/README.md  
+  inflating: lua-bgcrypto-aes-0.1.0/appveyor.yml  
+  inflating: lua-bgcrypto-aes-0.1.0/lakeconfig.lua  
+  inflating: lua-bgcrypto-aes-0.1.0/lakefile  
+   creating: lua-bgcrypto-aes-0.1.0/msvc/
+  inflating: lua-bgcrypto-aes-0.1.0/msvc/lbgcrypto.sln  
+  inflating: lua-bgcrypto-aes-0.1.0/msvc/lbgcrypto.vcxproj  
+  inflating: lua-bgcrypto-aes-0.1.0/msvc/lbgcrypto.vcxproj.filters  
+   creating: lua-bgcrypto-aes-0.1.0/rockspecs/
+  inflating: lua-bgcrypto-aes-0.1.0/rockspecs/bgcrypto-aes-0.1.0-1.rockspec  
+  inflating: lua-bgcrypto-aes-0.1.0/rockspecs/bgcrypto-aes-scm-0.rockspec  
+   creating: lua-bgcrypto-aes-0.1.0/src/
+ extracting: lua-bgcrypto-aes-0.1.0/src/aes.def  
+   creating: lua-bgcrypto-aes-0.1.0/src/aes/
+  inflating: lua-bgcrypto-aes-0.1.0/src/aes/aes.h  
+  inflating: lua-bgcrypto-aes-0.1.0/src/aes/aes_modes.c  
+  inflating: lua-bgcrypto-aes-0.1.0/src/aes/aes_ni.c  
+  inflating: lua-bgcrypto-aes-0.1.0/src/aes/aes_ni.h  
+  inflating: lua-bgcrypto-aes-0.1.0/src/aes/aes_via_ace.h  
+  inflating: lua-bgcrypto-aes-0.1.0/src/aes/aescrypt.c  
+  inflating: lua-bgcrypto-aes-0.1.0/src/aes/aeskey.c  
+  inflating: lua-bgcrypto-aes-0.1.0/src/aes/aesopt.h  
+  inflating: lua-bgcrypto-aes-0.1.0/src/aes/aestab.c  
+  inflating: lua-bgcrypto-aes-0.1.0/src/aes/aestab.h  
+  inflating: lua-bgcrypto-aes-0.1.0/src/aes/brg_endian.h  
+  inflating: lua-bgcrypto-aes-0.1.0/src/aes/brg_types.h  
+  inflating: lua-bgcrypto-aes-0.1.0/src/aes/stdint-msvc2008.h  
+  inflating: lua-bgcrypto-aes-0.1.0/src/l52util.c  
+  inflating: lua-bgcrypto-aes-0.1.0/src/l52util.h  
+  inflating: lua-bgcrypto-aes-0.1.0/src/laes.c  
+   creating: lua-bgcrypto-aes-0.1.0/src/lua/
+  inflating: lua-bgcrypto-aes-0.1.0/src/lua/cmac.lua  
+   creating: lua-bgcrypto-aes-0.1.0/src/lua/private/
+  inflating: lua-bgcrypto-aes-0.1.0/src/lua/private/bit.lua  
+   creating: lua-bgcrypto-aes-0.1.0/test/
+  inflating: lua-bgcrypto-aes-0.1.0/test/.luacov  
+  inflating: lua-bgcrypto-aes-0.1.0/test/test_aes.lua  
+  inflating: lua-bgcrypto-aes-0.1.0/test/utest_aes.lua  
+Installing https://luarocks.org/bgcrypto-aes-0.1.0-1.src.rock...
+Using https://luarocks.org/bgcrypto-aes-0.1.0-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/aes/aes_modes.c -o src/aes/aes_modes.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/aes
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/aes/aescrypt.c -o src/aes/aescrypt.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/aes
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/aes/aeskey.c -o src/aes/aeskey.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/aes
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/aes/aestab.c -o src/aes/aestab.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/aes
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/aes/aes_ni.c -o src/aes/aes_ni.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/aes
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/l52util.c -o src/l52util.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/aes
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/laes.c -o src/laes.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/aes
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o bgcrypto/aes.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/aes/aes_modes.o src/aes/aescrypt.o src/aes/aeskey.o src/aes/aestab.o src/aes/aes_ni.o src/l52util.o src/laes.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+bgcrypto-aes 0.1.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: BSD)
+

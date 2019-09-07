@@ -1,0 +1,11 @@
+pre_generated-llthreads.nobj.c
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\stdbool.h(16): warning C4005: 'false': macro redefinition
+src/pre_generated-llthreads.nobj.c(57): note: see previous definition of 'false'
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+LINK : fatal error LNK1181: cannot open input file 'pthread.lib'
+Installing https://luarocks.org/lua-llthreads-1.2-1.src.rock...
+Using https://luarocks.org/lua-llthreads-1.2-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/pre_generated-llthreads.nobj.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/pre_generated-llthreads.nobj.c
+link -dll -def:llthreads.def -out:llthreads.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib src/pre_generated-llthreads.nobj.obj pthread.lib

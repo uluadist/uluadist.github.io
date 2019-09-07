@@ -1,0 +1,7 @@
+gcc -I/home/sp/Dropbox/Linux/x86/luajit//include -DOPENSSL_cleanse=explicit_bzero -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG `pkg-config --cflags libsodium` -O0 -c -o compat/safebfuns.o compat/safebfuns.c
+gcc -I/home/sp/Dropbox/Linux/x86/luajit//include -DOPENSSL_cleanse=explicit_bzero -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG `pkg-config --cflags libsodium`   -c -o compat/arc4random/arc4random.o compat/arc4random/arc4random.c
+gcc -I/home/sp/Dropbox/Linux/x86/luajit//include -DOPENSSL_cleanse=explicit_bzero -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG `pkg-config --cflags libsodium`   -c -o compat/sha/sha512.o compat/sha/sha512.c
+gcc -I/home/sp/Dropbox/Linux/x86/luajit//include -DOPENSSL_cleanse=explicit_bzero -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG `pkg-config --cflags libsodium`   -c -o compat/getentropy/getentropy_linux.o compat/getentropy/getentropy_linux.c
+gcc -I/home/sp/Dropbox/Linux/x86/luajit//include -DOPENSSL_cleanse=explicit_bzero -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG `pkg-config --cflags libsodium`   -c -o src/main.o src/main.c
+Installing https://luarocks.org/symmetric-1.1-4.src.rock...
+Using https://luarocks.org/symmetric-1.1-4.src.rock... switching to 'build' mode

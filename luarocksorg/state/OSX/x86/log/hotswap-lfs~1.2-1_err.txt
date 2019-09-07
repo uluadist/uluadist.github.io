@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for hotswap-lfs 1.2-1: hotswap >= 1
+Missing dependency for hotswap-lfs 1.2-1: luafilesystem >= 1
+Missing dependency for hotswap-lfs 1.2-1: hotswap >= 1
+Missing dependency for hotswap-lfs 1.2-1: luafilesystem >= 1

@@ -1,0 +1,65 @@
+Warning: skipping dependency checks.
+In file included from lua_brotli.cc:4:
+In file included from ./brotli/enc/encode.h:25:
+./brotli/enc/./hash.h:673:8: error: no type named 'unique_ptr' in namespace 'std'
+  std::unique_ptr<H1> hash_h1;
+  ~~~~~^
+./brotli/enc/./hash.h:673:18: error: expected member name or ';' after declaration specifiers
+  std::unique_ptr<H1> hash_h1;
+  ~~~~~~~~~~~~~~~^
+./brotli/enc/./hash.h:674:8: error: no type named 'unique_ptr' in namespace 'std'
+  std::unique_ptr<H2> hash_h2;
+  ~~~~~^
+./brotli/enc/./hash.h:674:18: error: expected member name or ';' after declaration specifiers
+  std::unique_ptr<H2> hash_h2;
+  ~~~~~~~~~~~~~~~^
+./brotli/enc/./hash.h:675:8: error: no type named 'unique_ptr' in namespace 'std'
+  std::unique_ptr<H3> hash_h3;
+  ~~~~~^
+./brotli/enc/./hash.h:675:18: error: expected member name or ';' after declaration specifiers
+  std::unique_ptr<H3> hash_h3;
+  ~~~~~~~~~~~~~~~^
+./brotli/enc/./hash.h:676:8: error: no type named 'unique_ptr' in namespace 'std'
+  std::unique_ptr<H4> hash_h4;
+  ~~~~~^
+./brotli/enc/./hash.h:676:18: error: expected member name or ';' after declaration specifiers
+  std::unique_ptr<H4> hash_h4;
+  ~~~~~~~~~~~~~~~^
+./brotli/enc/./hash.h:677:8: error: no type named 'unique_ptr' in namespace 'std'
+  std::unique_ptr<H5> hash_h5;
+  ~~~~~^
+./brotli/enc/./hash.h:677:18: error: expected member name or ';' after declaration specifiers
+  std::unique_ptr<H5> hash_h5;
+  ~~~~~~~~~~~~~~~^
+./brotli/enc/./hash.h:678:8: error: no type named 'unique_ptr' in namespace 'std'
+  std::unique_ptr<H6> hash_h6;
+  ~~~~~^
+./brotli/enc/./hash.h:678:18: error: expected member name or ';' after declaration specifiers
+  std::unique_ptr<H6> hash_h6;
+  ~~~~~~~~~~~~~~~^
+./brotli/enc/./hash.h:679:8: error: no type named 'unique_ptr' in namespace 'std'
+  std::unique_ptr<H7> hash_h7;
+  ~~~~~^
+./brotli/enc/./hash.h:679:18: error: expected member name or ';' after declaration specifiers
+  std::unique_ptr<H7> hash_h7;
+  ~~~~~~~~~~~~~~~^
+./brotli/enc/./hash.h:680:8: error: no type named 'unique_ptr' in namespace 'std'
+  std::unique_ptr<H8> hash_h8;
+  ~~~~~^
+./brotli/enc/./hash.h:680:18: error: expected member name or ';' after declaration specifiers
+  std::unique_ptr<H8> hash_h8;
+  ~~~~~~~~~~~~~~~^
+./brotli/enc/./hash.h:681:8: error: no type named 'unique_ptr' in namespace 'std'
+  std::unique_ptr<H9> hash_h9;
+  ~~~~~^
+./brotli/enc/./hash.h:681:18: error: expected member name or ';' after declaration specifiers
+  std::unique_ptr<H9> hash_h9;
+  ~~~~~~~~~~~~~~~^
+./brotli/enc/./hash.h:636:15: error: use of undeclared identifier 'hash_h1'
+      case 1: hash_h1.reset(new H1); break;
+              ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make: *** [lua_brotli.o] Error 1
+
+Error: Build error: Failed building.

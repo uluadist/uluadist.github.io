@@ -1,0 +1,7 @@
+Archive:  lake1.4.1-core.zip
+  inflating: Lake/lake               
+Installing https://rocks.moonscript.org/lake-1.4.1-1.src.rock...
+Using https://rocks.moonscript.org/lake-1.4.1-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lake 1.4.1-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

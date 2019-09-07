@@ -1,0 +1,6 @@
+Installing https://luarocks.org/rocksolver-0.3-2.rockspec...
+Using https://luarocks.org/rocksolver-0.3-2.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_rocksolver-0.3-2-7930/rocksolver/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+rocksolver 0.3-2 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

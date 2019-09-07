@@ -1,0 +1,3 @@
+Installing https://luarocks.org/lulpeg-0.1.0-1.src.rock...
+Using https://luarocks.org/lulpeg-0.1.0-1.src.rock... switching to 'build' mode
+scripts/make.sh

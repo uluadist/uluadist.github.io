@@ -1,0 +1,3 @@
+c++ -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -std=c++11 -c lua_brotli.cc -o lua_brotli.o
+Installing https://rocks.moonscript.org/lua-brotli-1.0-2.src.rock...
+Using https://rocks.moonscript.org/lua-brotli-1.0-2.src.rock... switching to 'build' mode

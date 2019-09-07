@@ -1,0 +1,14 @@
+gcc -I/home/sp/Dropbox/Linux/x86/luajit//include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG -O0 -c -o compat/safebfuns.o compat/safebfuns.c
+gcc -I/home/sp/Dropbox/Linux/x86/luajit//include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/bcrypt/bcrypt.o compat/bcrypt/bcrypt.c
+gcc -I/home/sp/Dropbox/Linux/x86/luajit//include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/bcrypt/blowfish.o compat/bcrypt/blowfish.c
+gcc -I/home/sp/Dropbox/Linux/x86/luajit//include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/arc4random/arc4random.o compat/arc4random/arc4random.c
+gcc -I/home/sp/Dropbox/Linux/x86/luajit//include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/strlcpy.o compat/strlcpy.c
+gcc -I/home/sp/Dropbox/Linux/x86/luajit//include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/sha/sha512.o compat/sha/sha512.c
+gcc -I/home/sp/Dropbox/Linux/x86/luajit//include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/getentropy/getentropy_linux.o compat/getentropy/getentropy_linux.c
+gcc -I/home/sp/Dropbox/Linux/x86/luajit//include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o src/main.o src/main.c
+gcc -o bcrypt.so compat/safebfuns.o compat/bcrypt/bcrypt.o compat/bcrypt/blowfish.o compat/arc4random/arc4random.o compat/strlcpy.o compat/sha/sha512.o compat/getentropy/getentropy_linux.o src/main.o -shared -lrt
+Installing https://luarocks.org/bcrypt-2.1-3.src.rock...
+Using https://luarocks.org/bcrypt-2.1-3.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+bcrypt 2.1-3 is now built and installed in /home/sp/PrjLocal/luarockstree (license: ISC)
+

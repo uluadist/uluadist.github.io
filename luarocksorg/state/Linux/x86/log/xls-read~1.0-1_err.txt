@@ -1,0 +1,17 @@
+Warning: skipping dependency checks.
+make: Warning: File `Makefile' has modification time 6e+08 s in the future
+make[1]: Warning: File `Makefile' has modification time 6e+08 s in the future
+make[2]: Warning: File `Makefile' has modification time 6e+08 s in the future
+make[2]: warning: Clock skew detected. Your build may be incomplete.
+make[2]: Warning: File `.deps/endian.Plo' has modification time 6e+08 s in the future
+make[2]: warning: Clock skew detected. Your build may be incomplete.
+make[2]: Warning: File `.deps/test2.Po' has modification time 6e+08 s in the future
+make[2]: warning: Clock skew detected. Your build may be incomplete.
+make[2]: Warning: File `Makefile' has modification time 6e+08 s in the future
+make[2]: warning: Clock skew detected. Your build may be incomplete.
+make[1]: warning: Clock skew detected. Your build may be incomplete.
+configure: error: newly created file is older than distributed files!
+Check your system clock
+make: *** [xlslib] Error 1
+
+Error: Build error: Failed building.

@@ -1,0 +1,8 @@
+Installing https://luarocks.org/lua-http-parser-2.7-0.src.rock...
+Using https://luarocks.org/lua-http-parser-2.7-0.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c http-parser/http_parser.c -o http-parser/http_parser.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c lua-http-parser.c -o lua-http-parser.o
+gcc -shared -o http/parser.so -L/home/sp/Dropbox/Linux/x86/luajit//lib http-parser/http_parser.o lua-http-parser.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-http-parser 2.7-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

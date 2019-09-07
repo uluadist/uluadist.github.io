@@ -1,0 +1,2 @@
+
+Error: C:\Users\sp\AppData\Local\Temp/luarocks_dromozoa-curl-1.17-1-7812/dromozoa-curl-1.17-1.rockspec: Unknown field test

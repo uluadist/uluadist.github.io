@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+install: mkdir //usr/local/lib: Permission denied
+make: *** [install] Error 71
+
+Error: Build error: Failed installing.

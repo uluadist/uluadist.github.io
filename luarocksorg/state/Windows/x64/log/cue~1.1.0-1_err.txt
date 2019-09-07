@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for cue 1.1.0-1: cl >= 20100607
+Missing dependency for cue 1.1.0-1: cl >= 20100607

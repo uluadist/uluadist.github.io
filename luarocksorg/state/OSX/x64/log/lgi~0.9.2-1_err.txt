@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+make[1]: pkg-config: No such file or directory
+make[1]: *** [.depcheck] Error 1
+make: *** [all] Error 2
+
+Error: Build error: Failed building.

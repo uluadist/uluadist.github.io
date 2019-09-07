@@ -1,0 +1,5 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+make: *** No targets specified and no makefile found.  Stop.
+
+Error: Build error: Failed building.

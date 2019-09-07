@@ -1,0 +1,5 @@
+gcc -c -O2 -fPIC -fPIC -I/home/sp/luajit//include lua_ip.c -o lua_ip.o
+gcc -shared -L/home/sp/luajit//lib -o lua_ip.so lua_ip.o
+/home/sp/luajit//bin/lua test/lua_ip_test.lua
+Installing https://rocks.moonscript.org/lua_ip-0.1-2.rockspec...
+Using https://rocks.moonscript.org/lua_ip-0.1-2.rockspec... switching to 'build' mode

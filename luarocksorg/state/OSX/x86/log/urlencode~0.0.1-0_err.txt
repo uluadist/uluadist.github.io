@@ -1,0 +1,36 @@
+Warning: skipping dependency checks.
+src/lua-urlencode.c:30:16: warning: returning 'char [1]' from a function with result type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        return "";
+               ^~
+src/lua-urlencode.c:33:29: warning: passing 'const uint8_t *' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    const long len = strlen(input);
+                            ^~~~~
+/usr/include/string.h:82:28: note: passing argument to parameter here
+size_t   strlen(const char *);
+                            ^
+src/lua-urlencode.c:75:20: warning: initializing 'const uint8_t *' (aka 'const unsigned char *') with an expression of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    const uint8_t* input = luaL_checkstring(L, 1);
+                   ^       ~~~~~~~~~~~~~~~~~~~~~~
+src/lua-urlencode.c:77:23: warning: passing 'const uint8_t *' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    lua_pushstring(L, encoded);
+                      ^~~~~~~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:164:59: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushstring) (lua_State *L, const char *s);
+                                                          ^
+src/lua-urlencode.c:103:29: warning: passing 'const uint8_t *' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    const long len = strlen(input);
+                            ^~~~~
+/usr/include/string.h:82:28: note: passing argument to parameter here
+size_t   strlen(const char *);
+                            ^
+src/lua-urlencode.c:160:20: warning: initializing 'const uint8_t *' (aka 'const unsigned char *') with an expression of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    const uint8_t* input = luaL_checkstring(L, 1);
+                   ^       ~~~~~~~~~~~~~~~~~~~~~~
+src/lua-urlencode.c:163:23: warning: passing 'const uint8_t *' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    lua_pushstring(L, decoded);
+                      ^~~~~~~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:164:59: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushstring) (lua_State *L, const char *s);
+                                                          ^
+7 warnings generated.
+No existing manifest. Attempting to rebuild...

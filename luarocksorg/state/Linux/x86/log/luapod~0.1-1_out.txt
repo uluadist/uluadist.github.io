@@ -1,0 +1,4 @@
+Installing https://rocks.moonscript.org/luapod-0.1-1.all.rock...
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+
+luapod 0.1-1 is now installed in /home/sp/luarockstree (license: MIT/X11)

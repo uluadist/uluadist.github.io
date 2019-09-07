@@ -1,0 +1,4 @@
+Z:\sp\Dropbox\Windows\x64\luarocks\tools\cp: omitting directory `struct.lua'
+Warning: skipping dependency checks.
+
+Error: Build error: Failed installing struct.lua in C:\ste\x64\luarockstree/lib/luarocks/rocks/struct.lua/0.2-0/lua/struct.lua

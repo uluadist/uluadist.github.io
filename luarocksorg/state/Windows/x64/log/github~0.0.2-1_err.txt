@@ -1,0 +1,18 @@
+Cloning into 'lua-github'...
+Note: checking out '40f70006270f6237d051928b06bfc938fdf80a0d'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for github 0.0.2-1: lpeg ~> 0.12-1
+Missing dependency for github 0.0.2-1: httpclient ~> 0.1.0-7
+Missing dependency for github 0.0.2-1: lpeg ~> 0.12-1
+Missing dependency for github 0.0.2-1: httpclient ~> 0.1.0-7

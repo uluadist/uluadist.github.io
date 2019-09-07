@@ -1,0 +1,7 @@
+Installing https://luarocks.org/mpack-1.0.8-0.rockspec...
+Using https://luarocks.org/mpack-1.0.8-0.rockspec... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lmpack.c -o lmpack.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o mpack.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lmpack.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+mpack 1.0.8-0 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

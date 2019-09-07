@@ -1,0 +1,3 @@
+Installing https://luarocks.org/physfs-0.1-2.src.rock...
+Using https://luarocks.org/physfs-0.1-2.src.rock... switching to 'build' mode
+sh osxbuild.sh

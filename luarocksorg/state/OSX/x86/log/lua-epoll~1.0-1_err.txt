@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+lepoll.c:11:10: fatal error: 'sys/epoll.h' file not found
+#include <sys/epoll.h>
+         ^
+1 error generated.
+
+Error: Build error: Failed compiling object lepoll.o

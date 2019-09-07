@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for nodemculuamocks 1.0-5: luaunit 
+Missing dependency for nodemculuamocks 1.0-5: luaunit 

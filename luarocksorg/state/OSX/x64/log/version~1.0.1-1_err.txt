@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: src/version.lua: No such file or directory
+
+Error: Build error: Failed installing src/version.lua in /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/version/1.0.1-1/lua/version.lua

@@ -1,0 +1,22 @@
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c easy.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c easy_getinfo.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c easy_handle.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c easy_setopt.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c error.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c httppost.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c httppost_handle.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c main.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c module.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c multi.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c multi_handle.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c multi_setopt.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c string_list.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c symbols.cpp
+g++ -L/home/sp/Dropbox/Linux/x64/luajit//lib -shared easy.o easy_getinfo.o easy_handle.o easy_setopt.o error.o httppost.o httppost_handle.o main.o module.o multi.o multi_handle.o multi_setopt.o string_list.o symbols.o -lcurl -ldl -o curl.so
+mkdir -p /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/dromozoa-curl/1.6-1/lib/dromozoa
+cp curl.so /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/dromozoa-curl/1.6-1/lib/dromozoa
+Installing https://luarocks.org/dromozoa-curl-1.6-1.src.rock...
+Using https://luarocks.org/dromozoa-curl-1.6-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+dromozoa-curl 1.6-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: GPL-3)
+

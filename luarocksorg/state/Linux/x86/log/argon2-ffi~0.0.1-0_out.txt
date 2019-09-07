@@ -1,0 +1,6 @@
+Installing https://luarocks.org/argon2-ffi-0.0.1-0.rockspec...
+Using https://luarocks.org/argon2-ffi-0.0.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_argon2-ffi-0.0.1-0-1690/lua-argon2-ffi/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+argon2-ffi 0.0.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

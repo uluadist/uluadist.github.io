@@ -1,0 +1,6 @@
+Initialized empty Git repository in /tmp/luarocks_onion2web-1.2-1-3372/onion2web/.git/
+Installing https://rocks.moonscript.org/onion2web-1.2-1.rockspec...
+Using https://rocks.moonscript.org/onion2web-1.2-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+onion2web 1.2-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

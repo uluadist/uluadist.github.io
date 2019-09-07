@@ -1,0 +1,5 @@
+cdb.c
+src/cdb.c(12): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+Installing https://luarocks.org/cdb-1.0-1.rockspec...
+Using https://luarocks.org/cdb-1.0-1.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/cdb.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/cdb.c -Iinc

@@ -1,0 +1,12 @@
+lmurmurhash3.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library murmurhash3.lib and object murmurhash3.exp
+Installing https://luarocks.org/murmurhash3-1.2-0.src.rock...
+Using https://luarocks.org/murmurhash3-1.2-0.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folmurmurhash3.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lmurmurhash3.c
+link -dll -def:murmurhash3.def -out:murmurhash3.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib lmurmurhash3.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+murmurhash3 1.2-0 is now built and installed in C:\ste\x64\luarockstree (license: Public domain)
+

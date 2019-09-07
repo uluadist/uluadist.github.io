@@ -1,0 +1,3 @@
+Installing https://luarocks.org/lunary-optim-20181002-1.src.rock...
+Using https://luarocks.org/lunary-optim-20181002-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c serial/optim.c -o serial/optim.o -DLUAMOD_API=LUALIB_API -Dluaopen_module=luaopen_serial_optim

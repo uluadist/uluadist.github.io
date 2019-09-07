@@ -1,0 +1,15 @@
+Cloning into 'lua-cdb'...
+Note: checking out 'b9c69134971ea5704121164f4e054c8394e8a6b0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Warning: skipping dependency checks.
+
+Error: Build error: Failed compiling object src/cdb.obj

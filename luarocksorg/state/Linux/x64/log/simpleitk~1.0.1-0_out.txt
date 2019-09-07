@@ -1,0 +1,14 @@
+Archive:  v1.0.1.zip
+bb1fb609259ad77011275128498cef117aa20f91
+   creating: SimpleITKLuaRock-1.0.1/
+  inflating: SimpleITKLuaRock-1.0.1/CMakeLists.txt  
+  inflating: SimpleITKLuaRock-1.0.1/README.md  
+  inflating: SimpleITKLuaRock-1.0.1/circle.yml  
+   creating: SimpleITKLuaRock-1.0.1/examples/
+  inflating: SimpleITKLuaRock-1.0.1/examples/SimpleDerivative.lua  
+  inflating: SimpleITKLuaRock-1.0.1/simpleitk-0.10-0.rockspec  
+  inflating: SimpleITKLuaRock-1.0.1/simpleitk-1.0-0.rockspec  
+  inflating: SimpleITKLuaRock-1.0.1/simpleitk-1.0.1-0.rockspec  
+-- Configuring incomplete, errors occurred!
+Installing https://luarocks.org/simpleitk-1.0.1-0.rockspec...
+Using https://luarocks.org/simpleitk-1.0.1-0.rockspec... switching to 'build' mode

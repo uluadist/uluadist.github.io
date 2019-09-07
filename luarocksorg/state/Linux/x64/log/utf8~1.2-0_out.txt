@@ -1,0 +1,7 @@
+Installing https://luarocks.org/utf8-1.2-0.src.rock...
+Using https://luarocks.org/utf8-1.2-0.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c lutf8lib.c -o lutf8lib.o
+gcc -shared -o utf8.so -L/home/sp/Dropbox/Linux/x64/luajit//lib lutf8lib.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+utf8 1.2-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

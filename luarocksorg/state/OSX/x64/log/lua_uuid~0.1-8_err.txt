@@ -1,0 +1,19 @@
+Warning: skipping dependency checks.
+make: pkg-config: Command not found
+make: pkg-config: Command not found
+/Users/sp/Dropbox/OSX/x64/luajit/bin/lua: test/lua_uuid_test.lua:3: module 'lua_uuid' not found:
+	no field package.preload['lua_uuid']
+	no file '/Users/sp/Dropbox/Prj/scilua/head/lua_uuid/init.lua'
+	no file '/Users/sp/Dropbox/Prj/scilua/head/lua_uuid.lua'
+	no file '/Users/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151027/OSX/x64/lua_uuid/init.lua'
+	no file '/Users/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151027/OSX/x64/lua_uuid.lua'
+	no file './lua_uuid.lua'
+	no file '/Users/sp/Dropbox/Prj/scilua/head/lua_uuid.so'
+	no file '/Users/sp/Dropbox/Prj/scilua/head/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	test/lua_uuid_test.lua:3: in main chunk
+	[C]: at 0x0100001540
+make: *** [lua_uuid.so] Error 1
+
+Error: Build error: Failed building.

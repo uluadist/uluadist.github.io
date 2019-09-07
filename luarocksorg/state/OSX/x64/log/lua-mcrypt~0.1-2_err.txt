@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+lmcryptlib.c:6:10: fatal error: 'mcrypt.h' file not found
+#include <mcrypt.h>
+         ^
+1 error generated.
+
+Error: Build error: Failed compiling object lmcryptlib.o

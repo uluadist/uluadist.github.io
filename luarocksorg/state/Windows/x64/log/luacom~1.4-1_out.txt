@@ -1,0 +1,10 @@
+	if not exist .\lib  mkdir .\lib
+	if not exist .\obj\lua5.1  mkdir .\obj\lua5.1
+	cl /c /DLUACOM_DLL=\"luacom.dll\" /EHsc -IZ:/sp/Dropbox/Windows/x64/luajit/src/ -I.\include -I.\src\library -DWIN32 -D_CRT_SECURE_NO_DEPRECATE -nologo -MD -Zi -O2 -DNDEBUG -DCOMPAT51 /Fo.\obj\lua5.1/LuaAux.obj .\src\library\LuaAux.cpp
+LuaAux.cpp
+.\src\library\LuaAux.cpp(49): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'lua_Number'
+	cl /c /DLUACOM_DLL=\"luacom.dll\" /EHsc -IZ:/sp/Dropbox/Windows/x64/luajit/src/ -I.\include -I.\src\library -DWIN32 -D_CRT_SECURE_NO_DEPRECATE -nologo -MD -Zi -O2 -DNDEBUG -DCOMPAT51 /Fo.\obj\lua5.1/luabeans.obj .\src\library\luabeans.cpp
+luabeans.cpp
+	"Z:/sp/Dropbox/Windows/x64/luajit/src/\luac5.1.exe" -o ".\src\library\luacom5.lo" ".\src\library\luacom5.lua"
+Installing https://luarocks.org/luacom-1.4-1.src.rock...
+Using https://luarocks.org/luacom-1.4-1.src.rock... switching to 'build' mode

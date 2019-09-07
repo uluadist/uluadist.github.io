@@ -1,0 +1,4 @@
+Using LUALIB:Z:/sp/Dropbox/Windows/x64/luajit/src//lua51.lib
+Warning: skipping dependency checks.
+
+Error: Build error: Failed building.

@@ -1,0 +1,7 @@
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.5 or higher is required.  You are running version 3.3.2
+
+
+Warning: skipping dependency checks.
+
+Error: Build error: Failed cmake.

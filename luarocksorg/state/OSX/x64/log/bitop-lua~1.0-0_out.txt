@@ -1,0 +1,5 @@
+Installing https://luarocks.org/bitop-lua-1.0-0.src.rock...
+Using https://luarocks.org/bitop-lua-1.0-0.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+bitop-lua 1.0-0 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

@@ -1,0 +1,21 @@
+Warning: skipping dependency checks.
+-- LUA_RAPIDJSON_VERSION: 0.6.1
+In file included from /tmp/luarocks_rapidjson-0.6.1-1-7483/lua-rapidjson/src/Document.cpp:14:
+/tmp/luarocks_rapidjson-0.6.1-1-7483/lua-rapidjson/src/values.hpp:234:10: error: calling a private constructor of class 'rapidjson::GenericValue<rapidjson::UTF8<char>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >'
+                return details::toValue(L, idx, 0, allocator);
+                       ^
+/tmp/luarocks_rapidjson-0.6.1-1-7483/lua-rapidjson/rapidjson/include/rapidjson/document.h:605:5: note: declared private here
+    GenericValue(const GenericValue& rhs);
+    ^
+/tmp/luarocks_rapidjson-0.6.1-1-7483/lua-rapidjson/src/Document.cpp:115:12: error: calling a private constructor of class 'rapidjson::GenericValue<rapidjson::UTF8<char>, rapidjson::MemoryPoolAllocator<rapidjson::CrtAllocator> >'
+        Value v = values::toValue(L, 3, doc->GetAllocator());
+                  ^
+/tmp/luarocks_rapidjson-0.6.1-1-7483/lua-rapidjson/rapidjson/include/rapidjson/document.h:605:5: note: declared private here
+    GenericValue(const GenericValue& rhs);
+    ^
+2 errors generated.
+make[2]: *** [CMakeFiles/lua-rapidjson.dir/src/Document.cpp.o] Error 1
+make[1]: *** [CMakeFiles/lua-rapidjson.dir/all] Error 2
+make: *** [all] Error 2
+
+Error: Build error: Failed building.

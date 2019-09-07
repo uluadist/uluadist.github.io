@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for emma 1.0-0: middleclass >= 4.0
+Missing dependency for emma 1.0-0: middleclass >= 4.0

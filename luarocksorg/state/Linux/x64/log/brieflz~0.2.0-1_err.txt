@@ -1,0 +1,76 @@
+Warning: skipping dependency checks.
+vendor/brieflz/src/brieflz.c: In function ‘blz_pack’:
+vendor/brieflz/src/brieflz.c:466:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+  for (unsigned long i = 0; i < LOOKUP_SIZE; ++i) {
+  ^
+vendor/brieflz/src/brieflz.c:466:2: note: use option -std=c99 or -std=gnu99 to compile your code
+In file included from vendor/brieflz/src/brieflz.c:546:0:
+vendor/brieflz/src/brieflz_lazy.h: In function ‘blz_pack_lazy’:
+vendor/brieflz/src/brieflz_lazy.h:76:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+  for (unsigned long i = 0; i < LOOKUP_SIZE; ++i) {
+  ^
+In file included from vendor/brieflz/src/brieflz.c:547:0:
+vendor/brieflz/src/brieflz_hashbucket.h: In function ‘blz_pack_hashbucket’:
+vendor/brieflz/src/brieflz_hashbucket.h:93:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+  for (unsigned long i = 0; i < LOOKUP_SIZE * bucket_size; ++i) {
+  ^
+vendor/brieflz/src/brieflz_hashbucket.h:105:4: error: ‘for’ loop initial declarations are only allowed in C99 mode
+    for (unsigned int i = 0; i < bucket_size; ++i) {
+    ^
+vendor/brieflz/src/brieflz_hashbucket.h:160:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+     for (unsigned int i = 0; i < bucket_size; ++i) {
+     ^
+In file included from vendor/brieflz/src/brieflz.c:548:0:
+vendor/brieflz/src/brieflz_leparse.h: In function ‘blz_pack_leparse’:
+vendor/brieflz/src/brieflz_leparse.h:83:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+   for (unsigned long i = 1; i < src_size; ++i) {
+   ^
+vendor/brieflz/src/brieflz_leparse.h:113:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+  for (unsigned long i = 0; i < (1UL << bits); ++i) {
+  ^
+vendor/brieflz/src/brieflz_leparse.h:119:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+   for (unsigned long i = 0; i <= last_match_pos; ++i) {
+   ^
+vendor/brieflz/src/brieflz_leparse.h:137:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+  for (unsigned long cur = last_match_pos; cur > 0; --cur) {
+  ^
+vendor/brieflz/src/brieflz_leparse.h:178:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+     for (unsigned long i = max_len + 1; i <= len; ++i) {
+     ^
+vendor/brieflz/src/brieflz_leparse.h:225:21: error: redefinition of ‘i’
+  for (unsigned long i = 1; i < src_size; i += mlen[i]) {
+                     ^
+vendor/brieflz/src/brieflz_leparse.h:113:21: note: previous definition of ‘i’ was here
+  for (unsigned long i = 0; i < (1UL << bits); ++i) {
+                     ^
+vendor/brieflz/src/brieflz_leparse.h:225:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+  for (unsigned long i = 1; i < src_size; i += mlen[i]) {
+  ^
+In file included from vendor/brieflz/src/brieflz.c:549:0:
+vendor/brieflz/src/brieflz_ssparse.h: In function ‘blz_pack_ssparse’:
+vendor/brieflz/src/brieflz_ssparse.h:82:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+   for (unsigned long i = 1; i < src_size; ++i) {
+   ^
+vendor/brieflz/src/brieflz_ssparse.h:112:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+  for (unsigned long i = 0; i < (1UL << bits); ++i) {
+  ^
+vendor/brieflz/src/brieflz_ssparse.h:118:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+   for (unsigned long i = 0; i <= last_match_pos; ++i) {
+   ^
+vendor/brieflz/src/brieflz_ssparse.h:136:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+  for (unsigned long cur = last_match_pos; cur > 0; --cur) {
+  ^
+vendor/brieflz/src/brieflz_ssparse.h:177:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+     for (unsigned long i = max_len + 1; i <= len; ++i) {
+     ^
+vendor/brieflz/src/brieflz_ssparse.h:208:21: error: redefinition of ‘i’
+  for (unsigned long i = 1; i < src_size; i += mlen[i]) {
+                     ^
+vendor/brieflz/src/brieflz_ssparse.h:112:21: note: previous definition of ‘i’ was here
+  for (unsigned long i = 0; i < (1UL << bits); ++i) {
+                     ^
+vendor/brieflz/src/brieflz_ssparse.h:208:2: error: ‘for’ loop initial declarations are only allowed in C99 mode
+  for (unsigned long i = 1; i < src_size; i += mlen[i]) {
+  ^
+
+Error: Build error: Failed compiling object vendor/brieflz/src/brieflz.o

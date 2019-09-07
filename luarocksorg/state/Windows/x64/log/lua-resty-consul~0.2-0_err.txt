@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-resty-consul 0.2-0: lua-resty-http 
+Missing dependency for lua-resty-consul 0.2-0: lua-resty-http 

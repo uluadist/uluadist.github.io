@@ -1,0 +1,12 @@
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include   -c -o lua_lz4.o lua_lz4.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include   -c -o lz4/lz4.o lz4/lz4.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include   -c -o lz4/lz4hc.o lz4/lz4hc.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include   -c -o lz4/lz4frame.o lz4/lz4frame.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include   -c -o lz4/xxhash.o lz4/xxhash.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -L/Users/sp/Dropbox/OSX/x86/luajit//lib lua_lz4.o lz4/lz4.o lz4/lz4hc.o lz4/lz4frame.o lz4/xxhash.o -o lz4.so
+cp lz4.so /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-lz4/1.0-1/lib
+Installing https://luarocks.org/lua-lz4-1.0-1.src.rock...
+Using https://luarocks.org/lua-lz4-1.0-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lua-lz4 1.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: Apache License 2.0)
+

@@ -1,0 +1,17 @@
+dub.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\exception(361): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+osc_core.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\exception(361): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+osc.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\exception(361): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+OscOutboundPacketStream.cpp
+c:\users\sp\appdata\local\temp\luarocks_osc-1.0.1-1-5150\osc\src\vendor\osc\OscHostEndianness.h(122): fatal error C1189: #error:  please edit OSCHostEndianness.h or define one of {OSC_HOST_LITTLE_ENDIAN, OSC_HOST_BIG_ENDIAN} to configure endianness
+Installing https://luarocks.org/osc-1.0.1-1.src.rock...
+Using https://luarocks.org/osc-1.0.1-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/bind/dub/dub.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/bind/dub/dub.cpp -Iinclude -Isrc/bind -Isrc/vendor
+cl /nologo /MD /O2 -c -Fosrc/bind/osc_core.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/bind/osc_core.cpp -Iinclude -Isrc/bind -Isrc/vendor
+cl /nologo /MD /O2 -c -Fosrc/osc.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/osc.cpp -Iinclude -Isrc/bind -Isrc/vendor
+cl /nologo /MD /O2 -c -Fosrc/vendor/osc/OscOutboundPacketStream.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/vendor/osc/OscOutboundPacketStream.cpp -Iinclude -Isrc/bind -Isrc/vendor

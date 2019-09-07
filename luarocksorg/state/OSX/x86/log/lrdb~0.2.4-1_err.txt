@@ -1,0 +1,106 @@
+Warning: skipping dependency checks.
+Cloning into 'LRDB'...
+Note: checking out '7144514a607cb5bc322ed41c7c5e954d6fbeb140'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+Warning: unmatched variable LUALIB
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   lrdb_server
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+In file included from /tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/src/debug_server_module.cpp:6:
+In file included from /tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/server.hpp:8:
+In file included from /tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/debugger.hpp:12:
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/third_party/picojson/picojson.h:249:39: error: no member named 'move' in namespace 'std'
+    u_.string_ = new std::string(std::move(s));
+                                 ~~~~~^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/third_party/picojson/picojson.h:253:32: error: no member named 'move' in namespace 'std'
+    u_.array_ = new array(std::move(a));
+                          ~~~~~^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/third_party/picojson/picojson.h:257:34: error: no member named 'move' in namespace 'std'
+    u_.object_ = new object(std::move(o));
+                            ~~~~~^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/third_party/picojson/picojson.h:386:66: error: no member named 'move' in namespace 'std'
+  MOVESET(std::string, string, u_.string_ = new std::string(std::move(_val));)
+                                                            ~~~~~^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/third_party/picojson/picojson.h:384:5: note: expanded from macro 'MOVESET'
+    setter                        \
+    ^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/third_party/picojson/picojson.h:387:52: error: no member named 'move' in namespace 'std'
+  MOVESET(array, array, u_.array_ = new array(std::move(_val));)
+                                              ~~~~~^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/third_party/picojson/picojson.h:384:5: note: expanded from macro 'MOVESET'
+    setter                        \
+    ^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/third_party/picojson/picojson.h:388:56: error: no member named 'move' in namespace 'std'
+  MOVESET(object, object, u_.object_ = new object(std::move(_val));)
+                                                  ~~~~~^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/third_party/picojson/picojson.h:384:5: note: expanded from macro 'MOVESET'
+    setter                        \
+    ^
+In file included from /tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/src/debug_server_module.cpp:6:
+In file included from /tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/server.hpp:8:
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/debugger.hpp:614:16: error: no type named 'function' in namespace 'std'
+  typedef std::function<void(debugger& debugger)> pause_handler_type;
+          ~~~~~^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/debugger.hpp:614:24: error: expected member name or ';' after declaration specifiers
+  typedef std::function<void(debugger& debugger)> pause_handler_type;
+  ~~~~~~~~~~~~~~~~~~~~~^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/debugger.hpp:615:16: error: no type named 'function' in namespace 'std'
+  typedef std::function<void(debugger& debugger)> tick_handler_type;
+          ~~~~~^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/debugger.hpp:615:24: error: expected member name or ';' after declaration specifiers
+  typedef std::function<void(debugger& debugger)> tick_handler_type;
+  ~~~~~~~~~~~~~~~~~~~~~^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/debugger.hpp:674:25: error: unknown type name 'tick_handler_type'
+  void set_tick_handler(tick_handler_type handler) { tick_handler_ = handler; }
+                        ^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/debugger.hpp:679:26: error: unknown type name 'pause_handler_type'
+  void set_pause_handler(pause_handler_type handler) {
+                         ^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/debugger.hpp:972:3: error: unknown type name 'pause_handler_type'
+  pause_handler_type pause_handler_;
+  ^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/debugger.hpp:973:3: error: unknown type name 'tick_handler_type'
+  tick_handler_type tick_handler_;
+  ^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/debugger.hpp:865:32: error: no member named 'to_string' in namespace 'std'
+          debuginfo.eval((std::to_string(breakpoint.hit_count) +
+                          ~~~~~^
+In file included from /tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/src/debug_server_module.cpp:6:
+In file included from /tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/server.hpp:9:
+In file included from /tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/message.hpp:4:
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/optional.hpp:148:17: error: no type named 'aligned_storage' in namespace 'std'
+                typename std::aligned_storage<sizeof(T),
+                ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/optional.hpp:148:32: error: expected member name or ';' after declaration specifiers
+                typename std::aligned_storage<sizeof(T),
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/optional.hpp:29:19: error: use of undeclared identifier 'storage_'
+                                value_ = new(&storage_) T(other.value());
+                                              ^
+/tmp/luarocks_lrdb-0.2.4-1-4191/LRDB/include/lrdb/optional.hpp:34:18: error: use of undeclared identifier 'storage_'
+                        value_ = new(&storage_) T(value);
+                                      ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make[2]: *** [CMakeFiles/lrdb_server.dir/src/debug_server_module.cpp.o] Error 1
+make[1]: *** [CMakeFiles/lrdb_server.dir/all] Error 2
+make: *** [all] Error 2
+
+Error: Build error: Failed building.

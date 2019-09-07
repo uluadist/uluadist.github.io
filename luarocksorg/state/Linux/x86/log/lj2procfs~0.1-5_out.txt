@@ -1,0 +1,5 @@
+Installing https://rocks.moonscript.org/lj2procfs-0.1-5.rockspec...
+Using https://rocks.moonscript.org/lj2procfs-0.1-5.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lj2procfs 0.1-5 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+mkdir: /usr/local/share/wtf/data/honeybot/fake/welcome: Permission denied
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+
+Error: Build error: Failed building.

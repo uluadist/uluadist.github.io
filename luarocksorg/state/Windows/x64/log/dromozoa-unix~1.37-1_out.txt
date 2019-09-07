@@ -1,0 +1,3 @@
+Installing https://luarocks.org/dromozoa-unix-1.37-1.src.rock...
+Using https://luarocks.org/dromozoa-unix-1.37-1.src.rock... switching to 'build' mode
+env PATH="Z:/sp/Dropbox/Windows/x64/luajit/src:$PATH" CPPFLAGS='-IZ:/sp/Dropbox/Windows/x64/luajit/src' CXXFLAGS='-Wall -W -Wno-missing-field-initializers /nologo /MD /O2' LDFLAGS='-LZ:/sp/Dropbox/Windows/x64/luajit/src' LUA='luajit.exe' ./configure --prefix='C:\ste\x64\luarockstree/lib/luarocks/rocks/dromozoa-unix/1.37-1' && make

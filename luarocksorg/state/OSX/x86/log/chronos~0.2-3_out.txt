@@ -1,0 +1,18 @@
+Archive:  v0.2-3.zip
+626fe46458d3618022fef320b1fa20a17b304a18
+   creating: chronos-0.2-3/
+  inflating: chronos-0.2-3/.gitignore  
+  inflating: chronos-0.2-3/LICENSE   
+  inflating: chronos-0.2-3/README.md  
+   creating: chronos-0.2-3/rockspecs/
+  inflating: chronos-0.2-3/rockspecs/chronos-0.2-0.rockspec  
+  inflating: chronos-0.2-3/rockspecs/chronos-0.2-1.rockspec  
+  inflating: chronos-0.2-3/rockspecs/chronos-0.2-2.rockspec  
+  inflating: chronos-0.2-3/rockspecs/chronos-0.2-3.rockspec  
+   creating: chronos-0.2-3/src/
+  inflating: chronos-0.2-3/src/chronos.c  
+  inflating: chronos-0.2-3/update_rockspec.lua  
+Installing https://luarocks.org/chronos-0.2-3.src.rock...
+Using https://luarocks.org/chronos-0.2-3.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/chronos.c -o src/chronos.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o chronos.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/chronos.o -lrt

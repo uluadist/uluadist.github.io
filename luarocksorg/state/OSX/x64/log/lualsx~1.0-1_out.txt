@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lualsx-1.0-1.src.rock...
+Using https://luarocks.org/lualsx-1.0-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/lsx_sha256.c -o src/lsx_sha256.o -Iinclude
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/lsx_twofish.c -o src/lsx_twofish.o -Iinclude
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/lsx_bzero.c -o src/lsx_bzero.o -Iinclude
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/lsx_random.c -o src/lsx_random.o -Iinclude

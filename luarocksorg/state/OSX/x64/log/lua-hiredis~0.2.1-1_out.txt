@@ -1,0 +1,12 @@
+Installing https://rocks.moonscript.org/lua-hiredis-0.2.1-1.src.rock...
+Using https://rocks.moonscript.org/lua-hiredis-0.2.1-1.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/lua-hiredis.c -o src/lua-hiredis.o -Isrc/ -Ilib/hiredis/
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lib/hiredis/net.c -o lib/hiredis/net.o -Isrc/ -Ilib/hiredis/
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lib/hiredis/async.c -o lib/hiredis/async.o -Isrc/ -Ilib/hiredis/
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lib/hiredis/dict.c -o lib/hiredis/dict.o -Isrc/ -Ilib/hiredis/
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lib/hiredis/hiredis.c -o lib/hiredis/hiredis.o -Isrc/ -Ilib/hiredis/
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lib/hiredis/sds.c -o lib/hiredis/sds.o -Isrc/ -Ilib/hiredis/
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o hiredis.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib src/lua-hiredis.o lib/hiredis/net.o lib/hiredis/async.o lib/hiredis/dict.o lib/hiredis/hiredis.o lib/hiredis/sds.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lua-hiredis 0.2.1-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

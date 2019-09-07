@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Error fetching file: Failed downloading https://github.com/SimpleITK/SimpleITKLuaRock/archive/v1.2.2.zip - v1.2.2.zip

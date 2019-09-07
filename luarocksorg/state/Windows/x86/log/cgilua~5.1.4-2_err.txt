@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for cgilua 5.1.4-2: luafilesystem >= 1.5.0
+Missing dependency for cgilua 5.1.4-2: luafilesystem >= 1.5.0

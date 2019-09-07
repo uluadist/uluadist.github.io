@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luassert 1.7.10-0: say >= 1.2-1
+Missing dependency for luassert 1.7.10-0: say >= 1.2-1

@@ -1,0 +1,7 @@
+Installing https://luarocks.org/cputime-0.2.0-0.src.rock...
+Using https://luarocks.org/cputime-0.2.0-0.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/lua-cputime.c -o src/lua-cputime.o
+gcc -shared -o cputime.so -L/home/sp/Dropbox/Linux/x64/luajit//lib src/lua-cputime.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+cputime 0.2.0-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

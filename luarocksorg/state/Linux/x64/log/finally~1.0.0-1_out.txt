@@ -1,0 +1,16 @@
+Archive:  v1.0.0.zip
+a65afdf4954f1e56b218bfb4608d924b9c01ada9
+   creating: lua-finally-1.0.0/
+  inflating: lua-finally-1.0.0/.gitignore  
+  inflating: lua-finally-1.0.0/README.md  
+  inflating: lua-finally-1.0.0/finally-scm-0.rockspec  
+  inflating: lua-finally-1.0.0/finally.c  
+  inflating: lua-finally-1.0.0/finally.lua  
+  inflating: lua-finally-1.0.0/test.lua  
+Installing https://rocks.moonscript.org/finally-1.0.0-1.src.rock...
+Using https://rocks.moonscript.org/finally-1.0.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c finally.c -o finally.o
+gcc -shared -o finally.so -L/home/sp/luajit//lib finally.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+finally 1.0.0-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

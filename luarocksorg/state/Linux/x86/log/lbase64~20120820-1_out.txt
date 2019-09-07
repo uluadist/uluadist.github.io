@@ -1,0 +1,8 @@
+Installing https://rocks.moonscript.org/lbase64-20120820-1.src.rock...
+Using https://rocks.moonscript.org/lbase64-20120820-1.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lbase64.c -o lbase64.o
+gcc -shared -o base64.so -L/home/sp/luajit/lib lbase64.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lbase64 20120820-1 is now built and installed in /home/sp/luarockstree (license: Public domain)
+

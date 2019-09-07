@@ -1,0 +1,32 @@
+Archive:  v1.3.1.zip
+3e590f9f297c1a8b8d8ca7e70de3dfc24dc86314
+   creating: strict-1.3.1/
+  inflating: strict-1.3.1/.gitignore  
+  inflating: strict-1.3.1/.luacov    
+  inflating: strict-1.3.1/.travis.yml  
+  inflating: strict-1.3.1/AUTHORS.md  
+  inflating: strict-1.3.1/LICENSE.md  
+  inflating: strict-1.3.1/Makefile   
+  inflating: strict-1.3.1/NEWS.md    
+  inflating: strict-1.3.1/README.md  
+   creating: strict-1.3.1/build-aux/
+  inflating: strict-1.3.1/build-aux/config.ld.in  
+   creating: strict-1.3.1/doc/
+  inflating: strict-1.3.1/doc/index.html  
+  inflating: strict-1.3.1/doc/ldoc.css  
+   creating: strict-1.3.1/lib/
+   creating: strict-1.3.1/lib/std/
+   creating: strict-1.3.1/lib/std/strict/
+  inflating: strict-1.3.1/lib/std/strict/_base.lua  
+  inflating: strict-1.3.1/lib/std/strict/init.lua  
+ extracting: strict-1.3.1/lib/std/strict/version.lua  
+   creating: strict-1.3.1/spec/
+  inflating: strict-1.3.1/spec/spec_helper.lua  
+  inflating: strict-1.3.1/spec/strict_spec.yaml  
+  inflating: strict-1.3.1/spec/version_spec.yaml  
+  inflating: strict-1.3.1/std.strict-1.3.1-1.rockspec  
+Installing https://luarocks.org/std.strict-1.3.1-1.src.rock...
+Using https://luarocks.org/std.strict-1.3.1-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+std.strict 1.3.1-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

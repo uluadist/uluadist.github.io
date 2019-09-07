@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for str 0.1.1-0: luautf8 >= 0.1.1-1
+Missing dependency for str 0.1.1-0: luautf8 >= 0.1.1-1

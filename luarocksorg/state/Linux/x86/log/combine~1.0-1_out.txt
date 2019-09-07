@@ -1,0 +1,3 @@
+Installing https://luarocks.org/combine-1.0-1.rockspec...
+Using https://luarocks.org/combine-1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_combine-1.0-1-6250/combine/.git/

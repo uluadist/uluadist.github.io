@@ -1,0 +1,5 @@
+Installing https://luarocks.org/lovebird-0.4-4.src.rock...
+Using https://luarocks.org/lovebird-0.4-4.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lovebird 0.4-4 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree 
+

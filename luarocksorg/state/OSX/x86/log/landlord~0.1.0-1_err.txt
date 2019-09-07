@@ -1,0 +1,57 @@
+Warning: skipping dependency checks.
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:2896:35: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                                        (wOutCardUser==wUndersideUser&&GetCardLogicValue(cbTurnCardData[0])<GetCardLogicValue(m_cbAllCardData[wUndersideUser][0]) || wOutCardUser==wUpsideUser&&GetCardLogicValue(cbTurnCardData[0])<GetCardLogicValue(m_cbAllCardData[wUpsideUser][0])) && 
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:2896:35: note: place parentheses around the '&&' expression to silence this warning
+                                        (wOutCardUser==wUndersideUser&&GetCardLogicValue(cbTurnCardData[0])<GetCardLogicValue(m_cbAllCardData[wUndersideUser][0]) || wOutCardUser==wUpsideUser&&GetCardLogicValue(cbTurnCardData[0])<GetCardLogicValue(m_cbAllCardData[wUpsideUser][0])) && 
+                                                                     ^
+                                         (                                                                                                                       )
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:2896:156: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                                        (wOutCardUser==wUndersideUser&&GetCardLogicValue(cbTurnCardData[0])<GetCardLogicValue(m_cbAllCardData[wUndersideUser][0]) || wOutCardUser==wUpsideUser&&GetCardLogicValue(cbTurnCardData[0])<GetCardLogicValue(m_cbAllCardData[wUpsideUser][0])) && 
+                                                                                                                                                                  ~~ ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:2896:156: note: place parentheses around the '&&' expression to silence this warning
+                                        (wOutCardUser==wUndersideUser&&GetCardLogicValue(cbTurnCardData[0])<GetCardLogicValue(m_cbAllCardData[wUndersideUser][0]) || wOutCardUser==wUpsideUser&&GetCardLogicValue(cbTurnCardData[0])<GetCardLogicValue(m_cbAllCardData[wUpsideUser][0])) && 
+                                                                                                                                                                                              ^
+                                                                                                                                                                     (                                                                                                                 )
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:2953:34: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                                (wOutCardUser==wUndersideUser&&m_cbUserCardCount[wUndersideUser]<=5 || wOutCardUser==wUpsideUser&&m_cbUserCardCount[wUpsideUser]<=5))
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ~~
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:2953:34: note: place parentheses around the '&&' expression to silence this warning
+                                (wOutCardUser==wUndersideUser&&m_cbUserCardCount[wUndersideUser]<=5 || wOutCardUser==wUpsideUser&&m_cbUserCardCount[wUpsideUser]<=5))
+                                                             ^
+                                 (                                                                 )
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:2953:101: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                                (wOutCardUser==wUndersideUser&&m_cbUserCardCount[wUndersideUser]<=5 || wOutCardUser==wUpsideUser&&m_cbUserCardCount[wUpsideUser]<=5))
+                                                                                                    ~~ ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:2953:101: note: place parentheses around the '&&' expression to silence this warning
+                                (wOutCardUser==wUndersideUser&&m_cbUserCardCount[wUndersideUser]<=5 || wOutCardUser==wUpsideUser&&m_cbUserCardCount[wUpsideUser]<=5))
+                                                                                                                                ^
+                                                                                                       (                                                           )
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:3522:65: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                        if((BankerOutCardTypeResult[cbOutCardType].cbCardTypeCount>0 && 
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:3522:65: note: place parentheses around the '&&' expression to silence this warning
+                        if((BankerOutCardTypeResult[cbOutCardType].cbCardTypeCount>0 && 
+                                                                                     ^
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:3531:65: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                        if((BankerOutCardTypeResult[cbOutCardType].cbCardTypeCount>0 && 
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:3531:65: note: place parentheses around the '&&' expression to silence this warning
+                        if((BankerOutCardTypeResult[cbOutCardType].cbCardTypeCount>0 && 
+                                                                                     ^
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:3619:114: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                                        (GetCardLogicValue(CanOutCard.cbCardData[Index][0])<=11 || (cbMinSingleCardCount[i]<cbOriginSingleCardCount)&&GetCardLogicValue(CanOutCard.cbCardData[Index][0])<=13)) &&
+                                                                                                ~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:3619:114: note: place parentheses around the '&&' expression to silence this warning
+                                        (GetCardLogicValue(CanOutCard.cbCardData[Index][0])<=11 || (cbMinSingleCardCount[i]<cbOriginSingleCardCount)&&GetCardLogicValue(CanOutCard.cbCardData[Index][0])<=13)) &&
+                                                                                                                                                    ^
+                                                                                                   (                                                                                                        )
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:4350:114: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                                        (GetCardLogicValue(CanOutCard.cbCardData[Index][0])<=11 || (cbMinSingleCardCount[i]<cbOriginSingleCardCount)&&GetCardLogicValue(CanOutCard.cbCardData[Index][0])<=13)) &&
+                                                                                                ~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/luarocks_landlord-0.1.0-1-6623/FightTheLandlord/src/AndroidAI.cpp:4350:114: note: place parentheses around the '&&' expression to silence this warning
+                                        (GetCardLogicValue(CanOutCard.cbCardData[Index][0])<=11 || (cbMinSingleCardCount[i]<cbOriginSingleCardCount)&&GetCardLogicValue(CanOutCard.cbCardData[Index][0])<=13)) &&
+                                                                                                                                                    ^
+                                                                                                   (                                                                                                        )
+8 warnings generated.
+No existing manifest. Attempting to rebuild...

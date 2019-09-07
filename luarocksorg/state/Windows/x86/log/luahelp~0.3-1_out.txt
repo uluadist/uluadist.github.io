@@ -1,0 +1,12 @@
+help.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library help.lib and object help.exp
+Installing https://luarocks.org/luahelp-0.3-1.src.rock...
+Using https://luarocks.org/luahelp-0.3-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fohelp.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ help.c
+link -dll -def:help.def -out:help.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib help.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+luahelp 0.3-1 is now built and installed in C:\ste\x86\luarockstree (license: Public domain)
+

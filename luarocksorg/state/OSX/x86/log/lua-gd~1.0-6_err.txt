@@ -1,0 +1,35 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+configure: WARNING: libpng is required - see http://www.libpng.org/pub/png/
+configure: WARNING: not found - disabling freetype support
+gd.c:298:14: warning: using integer absolute value function 'abs' when argument is of floating point type [-Wabsolute-value]
+      diff = abs (HWB1.H - HWB2.H);
+             ^
+gd.c:298:14: note: use function 'fabsf' instead
+      diff = abs (HWB1.H - HWB2.H);
+             ^~~
+             fabsf
+1 warning generated.
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libgd.a(gd_jpeg.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libgd.a(gd_png.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libgd.a(gdcache.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libgd.a(gd_jpeg.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libgd.a(gd_png.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libgd.a(gdcache.o) has no symbols
+circletexttest.c:17:3: warning: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))'
+  exit (0);
+  ^
+circletexttest.c:17:3: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 warning generated.
+install: /usr/local/bin/gdlib-config: Permission denied
+make[3]: *** [install-binSCRIPTS] Error 71
+make[2]: *** [install-am] Error 2
+make[1]: *** [install-recursive] Error 1
+make: *** [gd] Error 2
+
+Error: Build error: Failed building.

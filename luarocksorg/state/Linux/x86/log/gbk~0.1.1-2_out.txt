@@ -1,0 +1,23 @@
+Archive:  0.1.1.zip
+ac7837907a6cd0823ddd753956f5f057efccfbc4
+   creating: luagbk-0.1.1/
+  inflating: luagbk-0.1.1/.gitignore  
+  inflating: luagbk-0.1.1/README.md  
+  inflating: luagbk-0.1.1/gbk-scm-0.rockspec  
+  inflating: luagbk-0.1.1/gbk.h      
+  inflating: luagbk-0.1.1/lgbk.c     
+  inflating: luagbk-0.1.1/lpinyin.c  
+  inflating: luagbk-0.1.1/parse_bestfit.lua  
+  inflating: luagbk-0.1.1/parse_unihan_readings.lua  
+  inflating: luagbk-0.1.1/pinyin.h   
+ extracting: luagbk-0.1.1/test.lua   
+  inflating: luagbk-0.1.1/test_py.lua  
+Installing https://rocks.moonscript.org/gbk-0.1.1-2.src.rock...
+Using https://rocks.moonscript.org/gbk-0.1.1-2.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lpinyin.c -o lpinyin.o
+gcc -shared -o pinyin.so -L/home/sp/luajit/lib lpinyin.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lgbk.c -o lgbk.o
+gcc -shared -o gbk.so -L/home/sp/luajit/lib lgbk.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+gbk 0.1.1-2 is now built and installed in /home/sp/luarockstree (license: MIT)
+

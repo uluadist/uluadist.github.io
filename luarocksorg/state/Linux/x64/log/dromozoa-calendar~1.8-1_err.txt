@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_dromozoa-calendar-1.8-1-1543/dromozoa-calendar-1.8-1.rockspec: Unknown field test

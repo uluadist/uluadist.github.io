@@ -1,0 +1,12 @@
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -DVERSION='"1.0.13"' -fPIC -c -o src/luadns.oo src/luadns.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -DVERSION='"1.0.13"' -fPIC -c -o src/codec.oo src/codec.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -DVERSION='"1.0.13"' -fPIC -c -o src/mappings.oo src/mappings.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -DVERSION='"1.0.13"' -fPIC -c -o src/netsimple.oo src/netsimple.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o src/dns.so src/luadns.oo src/codec.oo src/mappings.oo src/netsimple.oo
+/usr/bin/install -d /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/org.conman.dns/1.0.13-1/lib/org/conman
+/usr/bin/install src/dns.so /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/org.conman.dns/1.0.13-1/lib/org/conman
+Installing https://luarocks.org/org.conman.dns-1.0.13-1.src.rock...
+Using https://luarocks.org/org.conman.dns-1.0.13-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+org.conman.dns 1.0.13-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: LGPL)
+

@@ -1,0 +1,5 @@
+lcurses.c
+src/core/lcurses/lcurses.c(86): fatal error C1083: Cannot open include file: 'curses.h': No such file or directory
+Installing https://luarocks.org/ltui-1.3-1.src.rock...
+Using https://luarocks.org/ltui-1.3-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/core/lcurses/lcurses.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/core/lcurses/lcurses.c

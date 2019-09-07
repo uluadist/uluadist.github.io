@@ -1,0 +1,31 @@
+Archive:  v0.5.zip
+15f4d1320770e3ef51d6a951de6e326965866fa7
+   creating: lpeg_patterns-0.5/
+  inflating: lpeg_patterns-0.5/.busted  
+  inflating: lpeg_patterns-0.5/.luacheckrc  
+  inflating: lpeg_patterns-0.5/LICENSE.md  
+  inflating: lpeg_patterns-0.5/NEWS  
+  inflating: lpeg_patterns-0.5/README.md  
+  inflating: lpeg_patterns-0.5/lpeg_patterns-0.5-0.rockspec  
+   creating: lpeg_patterns-0.5/lpeg_patterns/
+  inflating: lpeg_patterns-0.5/lpeg_patterns/IPv4.lua  
+  inflating: lpeg_patterns-0.5/lpeg_patterns/IPv6.lua  
+  inflating: lpeg_patterns-0.5/lpeg_patterns/core.lua  
+  inflating: lpeg_patterns-0.5/lpeg_patterns/email.lua  
+  inflating: lpeg_patterns-0.5/lpeg_patterns/http.lua  
+  inflating: lpeg_patterns-0.5/lpeg_patterns/language.lua  
+  inflating: lpeg_patterns-0.5/lpeg_patterns/phone.lua  
+  inflating: lpeg_patterns-0.5/lpeg_patterns/uri.lua  
+  inflating: lpeg_patterns-0.5/lpeg_patterns/util.lua  
+   creating: lpeg_patterns-0.5/spec/
+  inflating: lpeg_patterns-0.5/spec/IPv6_spec.lua  
+  inflating: lpeg_patterns-0.5/spec/email_spec.lua  
+  inflating: lpeg_patterns-0.5/spec/http_spec.lua  
+  inflating: lpeg_patterns-0.5/spec/language_spec.lua  
+  inflating: lpeg_patterns-0.5/spec/phone_spec.lua  
+  inflating: lpeg_patterns-0.5/spec/uri_spec.lua  
+Installing https://luarocks.org/lpeg_patterns-0.5-0.src.rock...
+Using https://luarocks.org/lpeg_patterns-0.5-0.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lpeg_patterns 0.5-0 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

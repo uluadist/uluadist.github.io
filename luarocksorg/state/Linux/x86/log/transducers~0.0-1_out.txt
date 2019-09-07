@@ -1,0 +1,3 @@
+Installing https://rocks.moonscript.org/transducers-0.0-1.rockspec...
+Using https://rocks.moonscript.org/transducers-0.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_transducers-0.0-1-6063/transducers.lua/.git/

@@ -1,0 +1,5 @@
+Installing https://luarocks.org/bigint-1.0.2-1.src.rock...
+Using https://luarocks.org/bigint-1.0.2-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c BigInt.cpp -o BigInt.o -DVERSION="1.02"
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c mainlib.c -o mainlib.o -DVERSION="1.02"
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c bigint-glue.cpp -o bigint-glue.o -DVERSION="1.02"

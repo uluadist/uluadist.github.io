@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for hprose 1.3.0-1: date 
+Missing dependency for hprose 1.3.0-1: luasocket 
+Missing dependency for hprose 1.3.0-1: date 
+Missing dependency for hprose 1.3.0-1: luasocket 

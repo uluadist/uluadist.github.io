@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-resty-mlcache-1.0.1-1.rockspec...
+Using https://luarocks.org/lua-resty-mlcache-1.0.1-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-resty-mlcache-1.0.1-1-7844/lua-resty-mlcache/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-resty-mlcache 1.0.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

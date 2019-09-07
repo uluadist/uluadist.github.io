@@ -1,0 +1,24 @@
+Warning: skipping dependency checks.
+Note: checking out 'v0.1.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at f77438f... noglobal take 2
+hdr_histogram.c: In function ‘hdr_reset_internal_counters’:
+hdr_histogram.c:211:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+     for (int i = 0; i < h->counts_len; i++)
+     ^
+hdr_histogram.c:211:5: note: use option -std=c99 or -std=gnu99 to compile your code
+hdr_histogram.c: In function ‘shift_lowest_half_bucket_contents_left’:
+hdr_histogram.c:385:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+     for (int from_index = 1; from_index < h->sub_bucket_half_count; from_index++)
+     ^
+
+Error: Build error: Failed compiling object hdr_histogram.o

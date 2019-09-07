@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for kong-oidc 1.0.4-0: lua-resty-openidc ~> 1.4.0-1
+Missing dependency for kong-oidc 1.0.4-0: lua-resty-openidc ~> 1.4.0-1

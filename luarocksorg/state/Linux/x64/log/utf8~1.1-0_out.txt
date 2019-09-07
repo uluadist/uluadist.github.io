@@ -1,0 +1,8 @@
+Initialized empty Git repository in /tmp/luarocks_utf8-1.1-0-6379/luautf8/.git/
+Installing https://rocks.moonscript.org/utf8-1.1-0.rockspec...
+Using https://rocks.moonscript.org/utf8-1.1-0.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c lutf8lib.c -o lutf8lib.o
+gcc -shared -o utf8.so -L/home/sp/luajit//lib lutf8lib.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+utf8 1.1-0 is now built and installed in /home/sp/luarockstree (license: MIT)
+

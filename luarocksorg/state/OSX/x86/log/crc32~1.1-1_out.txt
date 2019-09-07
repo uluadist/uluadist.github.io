@@ -1,0 +1,4 @@
+Installing https://luarocks.org/crc32-1.1-1.src.rock...
+Using https://luarocks.org/crc32-1.1-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c crc32.c -o crc32.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c wrap.c -o wrap.o

@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for copastimer 0.4.3-1: copas >= 1.1.6
+Missing dependency for copastimer 0.4.3-1: copas >= 1.1.6

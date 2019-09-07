@@ -1,0 +1,4 @@
+Installing https://rocks.moonscript.org/crc32-1.0-1.src.rock...
+Using https://rocks.moonscript.org/crc32-1.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c crc32.c -o crc32.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c wrap.c -o wrap.o

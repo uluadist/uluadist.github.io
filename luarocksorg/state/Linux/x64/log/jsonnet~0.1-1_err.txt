@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+cp: cannot create regular file `/usr/lib64/libjsonnet.so': Permission denied
+make: *** [install] Error 1
+
+Error: Build error: Failed building.

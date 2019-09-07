@@ -1,0 +1,10 @@
+Installing https://rocks.moonscript.org/bigint-1.0.0-1.rockspec...
+Using https://rocks.moonscript.org/bigint-1.0.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_bigint-1.0.0-1-3920/lua-bigint/.git/
+gcc -O2 -fPIC -I/home/sp/luajit//include -c BigInt.cpp -o BigInt.o -DVERSION="1.0"
+gcc -O2 -fPIC -I/home/sp/luajit//include -c mainlib.c -o mainlib.o -DVERSION="1.0"
+gcc -O2 -fPIC -I/home/sp/luajit//include -c bigint-glue.cpp -o bigint-glue.o -DVERSION="1.0"
+gcc -shared -o bigint.so -L/home/sp/luajit//lib BigInt.o mainlib.o bigint-glue.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+bigint 1.0.0-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

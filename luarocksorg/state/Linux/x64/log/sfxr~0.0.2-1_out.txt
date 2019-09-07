@@ -1,0 +1,6 @@
+Installing https://luarocks.org/sfxr-0.0.2-1.rockspec...
+Using https://luarocks.org/sfxr-0.0.2-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_sfxr-0.0.2-1-3523/sfxrlua/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+sfxr 0.0.2-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

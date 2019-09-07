@@ -1,0 +1,470 @@
+cd ./lib-gd && pwd && chmod +x ./configure && ./configure && make -i clean && make && make install && cd ..
+/tmp/luarocks_lua-gd-1.0-6-2495/lua-gd/lib-gd
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking for gcc... env MACOSX_DEPLOYMENT_TARGET=10.8 gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether env MACOSX_DEPLOYMENT_TARGET=10.8 gcc accepts -g... yes
+checking for env MACOSX_DEPLOYMENT_TARGET=10.8 gcc option to accept ANSI C... none needed
+checking for style of include used by make... GNU
+checking dependency style of env MACOSX_DEPLOYMENT_TARGET=10.8 gcc... gcc3
+checking for gcc... (cached) env MACOSX_DEPLOYMENT_TARGET=10.8 gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether env MACOSX_DEPLOYMENT_TARGET=10.8 gcc accepts -g... (cached) yes
+checking for env MACOSX_DEPLOYMENT_TARGET=10.8 gcc option to accept ANSI C... (cached) none needed
+checking dependency style of env MACOSX_DEPLOYMENT_TARGET=10.8 gcc... (cached) gcc3
+checking for a BSD-compatible install... /usr/bin/install -c
+checking build system type... i386-apple-darwin15.3.0
+checking host system type... i386-apple-darwin15.3.0
+checking for ld used by GCC... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking for /Library/Developer/CommandLineTools/usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm
+checking for a sed that does not truncate output... /usr/bin/sed
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... file_magic Mach-O dynamically linked shared library
+checking command to parse /usr/bin/nm output... ok
+checking how to run the C preprocessor... env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -E
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for ranlib... ranlib
+checking for strip... strip
+checking for objdir... .libs
+checking for env option to produce PIC... -fno-common
+checking if env PIC flag -fno-common works... yes
+checking if env static flag -static works... no
+checking if env supports -c -o file.o... yes
+checking if env supports -c -o file.lo... yes
+checking if env supports -fno-rtti -fno-exceptions... yes
+checking whether the linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking how to hardcode library paths into programs... unsupported
+checking whether stripping libraries is possible... no
+checking dynamic linker characteristics... darwin15.3.0 dyld
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether -lc should be explicitly linked in... yes
+creating libtool
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for ranlib... (cached) ranlib
+checking for X... no
+checking for ANSI C header files... (cached) yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for ld used by GCC... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking for shared library run path origin... done
+checking for iconv... yes
+checking how to link with libiconv... -liconv
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking iconv.h usability... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking whether iconv.h defines iconv_t... yes
+checking for sin... yes
+checking for deflate in -lz... yes
+checking for libpng12-config... no
+checking for libpng-config... no
+checking png.h usability... no
+checking png.h presence... no
+checking for png.h... no
+checking libpng/png.h usability... no
+checking libpng/png.h presence... no
+checking for libpng/png.h... no
+checking for png_create_read_struct in -lpng... no
+checking for freetype-config... no
+checking for FT_Init_FreeType in -lfreetype... no
+checking ft2build.h usability... no
+checking ft2build.h presence... no
+checking for ft2build.h... no
+no
+checking for FcInit in -lfontconfig... no
+checking for jpeg_set_defaults in -ljpeg... no
+checking for XpmReadFileToXpmImage in -lXpm... no
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking for cc_r... env MACOSX_DEPLOYMENT_TARGET=10.8 gcc
+
+** Configuration summary for gd 2.0.33:
+
+   Support for PNG library:          no
+   Support for JPEG library:         no
+   Support for Freetype 2.x library: no
+   Support for Fontconfig library:   no
+   Support for Xpm library:          no
+   Support for pthreads:             yes
+
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config/Makefile
+config.status: creating config/gdlib-config
+config.status: creating test/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+Making clean in test
+rm -rf .libs _libs
+rm -f *.lo
+Making clean in config
+rm -rf .libs _libs
+rm -f *.lo
+Making clean in .
+ rm -f annotate annotate
+ rm -f gdparttopng gdparttopng
+ rm -f gdtopng gdtopng
+ rm -f gd2copypal gd2copypal
+ rm -f gd2topng gd2topng
+ rm -f pngtogd pngtogd
+ rm -f pngtogd2 pngtogd2
+ rm -f webpng webpng
+ rm -f gd2togif gd2togif
+ rm -f gdcmpgif gdcmpgif
+ rm -f giftogd2 giftogd2
+test -z "libgd.la" || rm -f libgd.la
+rm -f "./so_locations"
+rm -rf .libs _libs
+ rm -f fontsizetest fontsizetest
+ rm -f fontwheeltest fontwheeltest
+ rm -f gdtest gdtest
+ rm -f gddemo gddemo
+ rm -f gd2time gd2time
+ rm -f gdtestft gdtestft
+ rm -f testac testac
+ rm -f circletexttest circletexttest
+ rm -f testtr testtr
+ rm -f fontconfigtest fontconfigtest
+ rm -f gifanimtest gifanimtest
+rm -f *.o
+rm -f *.lo
+/Library/Developer/CommandLineTools/usr/bin/make  all-recursive
+Making all in config
+make[3]: Nothing to be done for `all'.
+Making all in test
+make[3]: Nothing to be done for `all'.
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd.lo -MD -MP -MF ".deps/gd.Tpo" -c -o gd.lo gd.c; \
+	then mv -f ".deps/gd.Tpo" ".deps/gd.Plo"; else rm -f ".deps/gd.Tpo"; exit 1; fi
+mkdir .libs
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd.lo -MD -MP -MF .deps/gd.Tpo -c gd.c  -fno-common -DPIC -o .libs/gd.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd.lo -MD -MP -MF .deps/gd.Tpo -c gd.c -o gd.o >/dev/null 2>&1
+mv -f .libs/gd.lo gd.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdfx.lo -MD -MP -MF ".deps/gdfx.Tpo" -c -o gdfx.lo gdfx.c; \
+	then mv -f ".deps/gdfx.Tpo" ".deps/gdfx.Plo"; else rm -f ".deps/gdfx.Tpo"; exit 1; fi
+rm -f .libs/gdfx.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdfx.lo -MD -MP -MF .deps/gdfx.Tpo -c gdfx.c  -fno-common -DPIC -o .libs/gdfx.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdfx.lo -MD -MP -MF .deps/gdfx.Tpo -c gdfx.c -o gdfx.o >/dev/null 2>&1
+mv -f .libs/gdfx.lo gdfx.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd_security.lo -MD -MP -MF ".deps/gd_security.Tpo" -c -o gd_security.lo gd_security.c; \
+	then mv -f ".deps/gd_security.Tpo" ".deps/gd_security.Plo"; else rm -f ".deps/gd_security.Tpo"; exit 1; fi
+rm -f .libs/gd_security.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_security.lo -MD -MP -MF .deps/gd_security.Tpo -c gd_security.c  -fno-common -DPIC -o .libs/gd_security.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_security.lo -MD -MP -MF .deps/gd_security.Tpo -c gd_security.c -o gd_security.o >/dev/null 2>&1
+mv -f .libs/gd_security.lo gd_security.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd_gd.lo -MD -MP -MF ".deps/gd_gd.Tpo" -c -o gd_gd.lo gd_gd.c; \
+	then mv -f ".deps/gd_gd.Tpo" ".deps/gd_gd.Plo"; else rm -f ".deps/gd_gd.Tpo"; exit 1; fi
+rm -f .libs/gd_gd.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_gd.lo -MD -MP -MF .deps/gd_gd.Tpo -c gd_gd.c  -fno-common -DPIC -o .libs/gd_gd.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_gd.lo -MD -MP -MF .deps/gd_gd.Tpo -c gd_gd.c -o gd_gd.o >/dev/null 2>&1
+mv -f .libs/gd_gd.lo gd_gd.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd_gd2.lo -MD -MP -MF ".deps/gd_gd2.Tpo" -c -o gd_gd2.lo gd_gd2.c; \
+	then mv -f ".deps/gd_gd2.Tpo" ".deps/gd_gd2.Plo"; else rm -f ".deps/gd_gd2.Tpo"; exit 1; fi
+rm -f .libs/gd_gd2.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_gd2.lo -MD -MP -MF .deps/gd_gd2.Tpo -c gd_gd2.c  -fno-common -DPIC -o .libs/gd_gd2.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_gd2.lo -MD -MP -MF .deps/gd_gd2.Tpo -c gd_gd2.c -o gd_gd2.o >/dev/null 2>&1
+mv -f .libs/gd_gd2.lo gd_gd2.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd_io.lo -MD -MP -MF ".deps/gd_io.Tpo" -c -o gd_io.lo gd_io.c; \
+	then mv -f ".deps/gd_io.Tpo" ".deps/gd_io.Plo"; else rm -f ".deps/gd_io.Tpo"; exit 1; fi
+rm -f .libs/gd_io.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_io.lo -MD -MP -MF .deps/gd_io.Tpo -c gd_io.c  -fno-common -DPIC -o .libs/gd_io.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_io.lo -MD -MP -MF .deps/gd_io.Tpo -c gd_io.c -o gd_io.o >/dev/null 2>&1
+mv -f .libs/gd_io.lo gd_io.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd_io_dp.lo -MD -MP -MF ".deps/gd_io_dp.Tpo" -c -o gd_io_dp.lo gd_io_dp.c; \
+	then mv -f ".deps/gd_io_dp.Tpo" ".deps/gd_io_dp.Plo"; else rm -f ".deps/gd_io_dp.Tpo"; exit 1; fi
+rm -f .libs/gd_io_dp.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_io_dp.lo -MD -MP -MF .deps/gd_io_dp.Tpo -c gd_io_dp.c  -fno-common -DPIC -o .libs/gd_io_dp.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_io_dp.lo -MD -MP -MF .deps/gd_io_dp.Tpo -c gd_io_dp.c -o gd_io_dp.o >/dev/null 2>&1
+mv -f .libs/gd_io_dp.lo gd_io_dp.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd_gif_in.lo -MD -MP -MF ".deps/gd_gif_in.Tpo" -c -o gd_gif_in.lo gd_gif_in.c; \
+	then mv -f ".deps/gd_gif_in.Tpo" ".deps/gd_gif_in.Plo"; else rm -f ".deps/gd_gif_in.Tpo"; exit 1; fi
+rm -f .libs/gd_gif_in.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_gif_in.lo -MD -MP -MF .deps/gd_gif_in.Tpo -c gd_gif_in.c  -fno-common -DPIC -o .libs/gd_gif_in.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_gif_in.lo -MD -MP -MF .deps/gd_gif_in.Tpo -c gd_gif_in.c -o gd_gif_in.o >/dev/null 2>&1
+mv -f .libs/gd_gif_in.lo gd_gif_in.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd_gif_out.lo -MD -MP -MF ".deps/gd_gif_out.Tpo" -c -o gd_gif_out.lo gd_gif_out.c; \
+	then mv -f ".deps/gd_gif_out.Tpo" ".deps/gd_gif_out.Plo"; else rm -f ".deps/gd_gif_out.Tpo"; exit 1; fi
+rm -f .libs/gd_gif_out.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_gif_out.lo -MD -MP -MF .deps/gd_gif_out.Tpo -c gd_gif_out.c  -fno-common -DPIC -o .libs/gd_gif_out.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_gif_out.lo -MD -MP -MF .deps/gd_gif_out.Tpo -c gd_gif_out.c -o gd_gif_out.o >/dev/null 2>&1
+mv -f .libs/gd_gif_out.lo gd_gif_out.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd_io_file.lo -MD -MP -MF ".deps/gd_io_file.Tpo" -c -o gd_io_file.lo gd_io_file.c; \
+	then mv -f ".deps/gd_io_file.Tpo" ".deps/gd_io_file.Plo"; else rm -f ".deps/gd_io_file.Tpo"; exit 1; fi
+rm -f .libs/gd_io_file.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_io_file.lo -MD -MP -MF .deps/gd_io_file.Tpo -c gd_io_file.c  -fno-common -DPIC -o .libs/gd_io_file.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_io_file.lo -MD -MP -MF .deps/gd_io_file.Tpo -c gd_io_file.c -o gd_io_file.o >/dev/null 2>&1
+mv -f .libs/gd_io_file.lo gd_io_file.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd_io_ss.lo -MD -MP -MF ".deps/gd_io_ss.Tpo" -c -o gd_io_ss.lo gd_io_ss.c; \
+	then mv -f ".deps/gd_io_ss.Tpo" ".deps/gd_io_ss.Plo"; else rm -f ".deps/gd_io_ss.Tpo"; exit 1; fi
+rm -f .libs/gd_io_ss.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_io_ss.lo -MD -MP -MF .deps/gd_io_ss.Tpo -c gd_io_ss.c  -fno-common -DPIC -o .libs/gd_io_ss.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_io_ss.lo -MD -MP -MF .deps/gd_io_ss.Tpo -c gd_io_ss.c -o gd_io_ss.o >/dev/null 2>&1
+mv -f .libs/gd_io_ss.lo gd_io_ss.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd_jpeg.lo -MD -MP -MF ".deps/gd_jpeg.Tpo" -c -o gd_jpeg.lo gd_jpeg.c; \
+	then mv -f ".deps/gd_jpeg.Tpo" ".deps/gd_jpeg.Plo"; else rm -f ".deps/gd_jpeg.Tpo"; exit 1; fi
+rm -f .libs/gd_jpeg.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_jpeg.lo -MD -MP -MF .deps/gd_jpeg.Tpo -c gd_jpeg.c  -fno-common -DPIC -o .libs/gd_jpeg.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_jpeg.lo -MD -MP -MF .deps/gd_jpeg.Tpo -c gd_jpeg.c -o gd_jpeg.o >/dev/null 2>&1
+mv -f .libs/gd_jpeg.lo gd_jpeg.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd_png.lo -MD -MP -MF ".deps/gd_png.Tpo" -c -o gd_png.lo gd_png.c; \
+	then mv -f ".deps/gd_png.Tpo" ".deps/gd_png.Plo"; else rm -f ".deps/gd_png.Tpo"; exit 1; fi
+rm -f .libs/gd_png.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_png.lo -MD -MP -MF .deps/gd_png.Tpo -c gd_png.c  -fno-common -DPIC -o .libs/gd_png.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_png.lo -MD -MP -MF .deps/gd_png.Tpo -c gd_png.c -o gd_png.o >/dev/null 2>&1
+mv -f .libs/gd_png.lo gd_png.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd_ss.lo -MD -MP -MF ".deps/gd_ss.Tpo" -c -o gd_ss.lo gd_ss.c; \
+	then mv -f ".deps/gd_ss.Tpo" ".deps/gd_ss.Plo"; else rm -f ".deps/gd_ss.Tpo"; exit 1; fi
+rm -f .libs/gd_ss.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_ss.lo -MD -MP -MF .deps/gd_ss.Tpo -c gd_ss.c  -fno-common -DPIC -o .libs/gd_ss.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_ss.lo -MD -MP -MF .deps/gd_ss.Tpo -c gd_ss.c -o gd_ss.o >/dev/null 2>&1
+mv -f .libs/gd_ss.lo gd_ss.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd_topal.lo -MD -MP -MF ".deps/gd_topal.Tpo" -c -o gd_topal.lo gd_topal.c; \
+	then mv -f ".deps/gd_topal.Tpo" ".deps/gd_topal.Plo"; else rm -f ".deps/gd_topal.Tpo"; exit 1; fi
+rm -f .libs/gd_topal.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_topal.lo -MD -MP -MF .deps/gd_topal.Tpo -c gd_topal.c  -fno-common -DPIC -o .libs/gd_topal.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_topal.lo -MD -MP -MF .deps/gd_topal.Tpo -c gd_topal.c -o gd_topal.o >/dev/null 2>&1
+mv -f .libs/gd_topal.lo gd_topal.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd_wbmp.lo -MD -MP -MF ".deps/gd_wbmp.Tpo" -c -o gd_wbmp.lo gd_wbmp.c; \
+	then mv -f ".deps/gd_wbmp.Tpo" ".deps/gd_wbmp.Plo"; else rm -f ".deps/gd_wbmp.Tpo"; exit 1; fi
+rm -f .libs/gd_wbmp.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_wbmp.lo -MD -MP -MF .deps/gd_wbmp.Tpo -c gd_wbmp.c  -fno-common -DPIC -o .libs/gd_wbmp.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gd_wbmp.lo -MD -MP -MF .deps/gd_wbmp.Tpo -c gd_wbmp.c -o gd_wbmp.o >/dev/null 2>&1
+mv -f .libs/gd_wbmp.lo gd_wbmp.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdcache.lo -MD -MP -MF ".deps/gdcache.Tpo" -c -o gdcache.lo gdcache.c; \
+	then mv -f ".deps/gdcache.Tpo" ".deps/gdcache.Plo"; else rm -f ".deps/gdcache.Tpo"; exit 1; fi
+rm -f .libs/gdcache.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdcache.lo -MD -MP -MF .deps/gdcache.Tpo -c gdcache.c  -fno-common -DPIC -o .libs/gdcache.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdcache.lo -MD -MP -MF .deps/gdcache.Tpo -c gdcache.c -o gdcache.o >/dev/null 2>&1
+mv -f .libs/gdcache.lo gdcache.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdfontg.lo -MD -MP -MF ".deps/gdfontg.Tpo" -c -o gdfontg.lo gdfontg.c; \
+	then mv -f ".deps/gdfontg.Tpo" ".deps/gdfontg.Plo"; else rm -f ".deps/gdfontg.Tpo"; exit 1; fi
+rm -f .libs/gdfontg.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdfontg.lo -MD -MP -MF .deps/gdfontg.Tpo -c gdfontg.c  -fno-common -DPIC -o .libs/gdfontg.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdfontg.lo -MD -MP -MF .deps/gdfontg.Tpo -c gdfontg.c -o gdfontg.o >/dev/null 2>&1
+mv -f .libs/gdfontg.lo gdfontg.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdfontl.lo -MD -MP -MF ".deps/gdfontl.Tpo" -c -o gdfontl.lo gdfontl.c; \
+	then mv -f ".deps/gdfontl.Tpo" ".deps/gdfontl.Plo"; else rm -f ".deps/gdfontl.Tpo"; exit 1; fi
+rm -f .libs/gdfontl.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdfontl.lo -MD -MP -MF .deps/gdfontl.Tpo -c gdfontl.c  -fno-common -DPIC -o .libs/gdfontl.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdfontl.lo -MD -MP -MF .deps/gdfontl.Tpo -c gdfontl.c -o gdfontl.o >/dev/null 2>&1
+mv -f .libs/gdfontl.lo gdfontl.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdfontmb.lo -MD -MP -MF ".deps/gdfontmb.Tpo" -c -o gdfontmb.lo gdfontmb.c; \
+	then mv -f ".deps/gdfontmb.Tpo" ".deps/gdfontmb.Plo"; else rm -f ".deps/gdfontmb.Tpo"; exit 1; fi
+rm -f .libs/gdfontmb.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdfontmb.lo -MD -MP -MF .deps/gdfontmb.Tpo -c gdfontmb.c  -fno-common -DPIC -o .libs/gdfontmb.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdfontmb.lo -MD -MP -MF .deps/gdfontmb.Tpo -c gdfontmb.c -o gdfontmb.o >/dev/null 2>&1
+mv -f .libs/gdfontmb.lo gdfontmb.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdfonts.lo -MD -MP -MF ".deps/gdfonts.Tpo" -c -o gdfonts.lo gdfonts.c; \
+	then mv -f ".deps/gdfonts.Tpo" ".deps/gdfonts.Plo"; else rm -f ".deps/gdfonts.Tpo"; exit 1; fi
+rm -f .libs/gdfonts.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdfonts.lo -MD -MP -MF .deps/gdfonts.Tpo -c gdfonts.c  -fno-common -DPIC -o .libs/gdfonts.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdfonts.lo -MD -MP -MF .deps/gdfonts.Tpo -c gdfonts.c -o gdfonts.o >/dev/null 2>&1
+mv -f .libs/gdfonts.lo gdfonts.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdfontt.lo -MD -MP -MF ".deps/gdfontt.Tpo" -c -o gdfontt.lo gdfontt.c; \
+	then mv -f ".deps/gdfontt.Tpo" ".deps/gdfontt.Plo"; else rm -f ".deps/gdfontt.Tpo"; exit 1; fi
+rm -f .libs/gdfontt.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdfontt.lo -MD -MP -MF .deps/gdfontt.Tpo -c gdfontt.c  -fno-common -DPIC -o .libs/gdfontt.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdfontt.lo -MD -MP -MF .deps/gdfontt.Tpo -c gdfontt.c -o gdfontt.o >/dev/null 2>&1
+mv -f .libs/gdfontt.lo gdfontt.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdft.lo -MD -MP -MF ".deps/gdft.Tpo" -c -o gdft.lo gdft.c; \
+	then mv -f ".deps/gdft.Tpo" ".deps/gdft.Plo"; else rm -f ".deps/gdft.Tpo"; exit 1; fi
+rm -f .libs/gdft.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdft.lo -MD -MP -MF .deps/gdft.Tpo -c gdft.c  -fno-common -DPIC -o .libs/gdft.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdft.lo -MD -MP -MF .deps/gdft.Tpo -c gdft.c -o gdft.o >/dev/null 2>&1
+mv -f .libs/gdft.lo gdft.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdhelpers.lo -MD -MP -MF ".deps/gdhelpers.Tpo" -c -o gdhelpers.lo gdhelpers.c; \
+	then mv -f ".deps/gdhelpers.Tpo" ".deps/gdhelpers.Plo"; else rm -f ".deps/gdhelpers.Tpo"; exit 1; fi
+rm -f .libs/gdhelpers.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdhelpers.lo -MD -MP -MF .deps/gdhelpers.Tpo -c gdhelpers.c  -fno-common -DPIC -o .libs/gdhelpers.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdhelpers.lo -MD -MP -MF .deps/gdhelpers.Tpo -c gdhelpers.c -o gdhelpers.o >/dev/null 2>&1
+mv -f .libs/gdhelpers.lo gdhelpers.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdkanji.lo -MD -MP -MF ".deps/gdkanji.Tpo" -c -o gdkanji.lo gdkanji.c; \
+	then mv -f ".deps/gdkanji.Tpo" ".deps/gdkanji.Plo"; else rm -f ".deps/gdkanji.Tpo"; exit 1; fi
+rm -f .libs/gdkanji.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdkanji.lo -MD -MP -MF .deps/gdkanji.Tpo -c gdkanji.c  -fno-common -DPIC -o .libs/gdkanji.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdkanji.lo -MD -MP -MF .deps/gdkanji.Tpo -c gdkanji.c -o gdkanji.o >/dev/null 2>&1
+mv -f .libs/gdkanji.lo gdkanji.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdtables.lo -MD -MP -MF ".deps/gdtables.Tpo" -c -o gdtables.lo gdtables.c; \
+	then mv -f ".deps/gdtables.Tpo" ".deps/gdtables.Plo"; else rm -f ".deps/gdtables.Tpo"; exit 1; fi
+rm -f .libs/gdtables.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdtables.lo -MD -MP -MF .deps/gdtables.Tpo -c gdtables.c  -fno-common -DPIC -o .libs/gdtables.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdtables.lo -MD -MP -MF .deps/gdtables.Tpo -c gdtables.c -o gdtables.o >/dev/null 2>&1
+mv -f .libs/gdtables.lo gdtables.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdxpm.lo -MD -MP -MF ".deps/gdxpm.Tpo" -c -o gdxpm.lo gdxpm.c; \
+	then mv -f ".deps/gdxpm.Tpo" ".deps/gdxpm.Plo"; else rm -f ".deps/gdxpm.Tpo"; exit 1; fi
+rm -f .libs/gdxpm.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdxpm.lo -MD -MP -MF .deps/gdxpm.Tpo -c gdxpm.c  -fno-common -DPIC -o .libs/gdxpm.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT gdxpm.lo -MD -MP -MF .deps/gdxpm.Tpo -c gdxpm.c -o gdxpm.o >/dev/null 2>&1
+mv -f .libs/gdxpm.lo gdxpm.lo
+if /bin/sh ./libtool --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT wbmp.lo -MD -MP -MF ".deps/wbmp.Tpo" -c -o wbmp.lo wbmp.c; \
+	then mv -f ".deps/wbmp.Tpo" ".deps/wbmp.Plo"; else rm -f ".deps/wbmp.Tpo"; exit 1; fi
+rm -f .libs/wbmp.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT wbmp.lo -MD -MP -MF .deps/wbmp.Tpo -c wbmp.c  -fno-common -DPIC -o .libs/wbmp.lo
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -MT wbmp.lo -MD -MP -MF .deps/wbmp.Tpo -c wbmp.c -o wbmp.o >/dev/null 2>&1
+mv -f .libs/wbmp.lo wbmp.lo
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o libgd.la -rpath /usr/local/lib -version-info 2:0:0 gd.lo gdfx.lo gd_security.lo gd_gd.lo gd_gd2.lo gd_io.lo gd_io_dp.lo gd_gif_in.lo gd_gif_out.lo gd_io_file.lo gd_io_ss.lo gd_jpeg.lo gd_png.lo gd_ss.lo gd_topal.lo gd_wbmp.lo gdcache.lo gdfontg.lo gdfontl.lo gdfontmb.lo gdfonts.lo gdfontt.lo gdft.lo gdhelpers.lo gdkanji.lo gdtables.lo gdxpm.lo wbmp.lo  -lz  -liconv
+rm -fr .libs/libgd.la .libs/libgd.* .libs/libgd.*
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -r -keep_private_externs -nostdlib -o .libs/libgd.2.0.0.dylib-master.o  gd.lo gdfx.lo gd_security.lo gd_gd.lo gd_gd2.lo gd_io.lo gd_io_dp.lo gd_gif_in.lo gd_gif_out.lo gd_io_file.lo gd_io_ss.lo gd_jpeg.lo gd_png.lo gd_ss.lo gd_topal.lo gd_wbmp.lo gdcache.lo gdfontg.lo gdfontl.lo gdfontmb.lo gdfonts.lo gdfontt.lo gdft.lo gdhelpers.lo gdkanji.lo gdtables.lo gdxpm.lo wbmp.lo && env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -dynamiclib -flat_namespace -undefined suppress -o .libs/libgd.2.0.0.dylib .libs/libgd.2.0.0.dylib-master.o  -lz -liconv -lc -install_name /usr/local/lib/libgd.2.dylib -compatibility_version 3 -current_version 3.0
+(cd .libs && rm -f libgd.2.dylib && ln -s libgd.2.0.0.dylib libgd.2.dylib)
+(cd .libs && rm -f libgd.dylib && ln -s libgd.2.0.0.dylib libgd.dylib)
+ar cru .libs/libgd.a  gd.o gdfx.o gd_security.o gd_gd.o gd_gd2.o gd_io.o gd_io_dp.o gd_gif_in.o gd_gif_out.o gd_io_file.o gd_io_ss.o gd_jpeg.o gd_png.o gd_ss.o gd_topal.o gd_wbmp.o gdcache.o gdfontg.o gdfontl.o gdfontmb.o gdfonts.o gdfontt.o gdft.o gdhelpers.o gdkanji.o gdtables.o gdxpm.o wbmp.o 
+ranlib .libs/libgd.a
+creating libgd.la
+(cd .libs && rm -f libgd.la && ln -s ../libgd.la libgd.la)
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT annotate.o -MD -MP -MF ".deps/annotate.Tpo" -c -o annotate.o annotate.c; \
+	then mv -f ".deps/annotate.Tpo" ".deps/annotate.Po"; else rm -f ".deps/annotate.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o annotate  annotate.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/annotate annotate.o  -L./.libs -lgd -lz -liconv
+creating annotate
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdparttopng.o -MD -MP -MF ".deps/gdparttopng.Tpo" -c -o gdparttopng.o gdparttopng.c; \
+	then mv -f ".deps/gdparttopng.Tpo" ".deps/gdparttopng.Po"; else rm -f ".deps/gdparttopng.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o gdparttopng  gdparttopng.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/gdparttopng gdparttopng.o  -L./.libs -lgd -lz -liconv
+creating gdparttopng
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdtopng.o -MD -MP -MF ".deps/gdtopng.Tpo" -c -o gdtopng.o gdtopng.c; \
+	then mv -f ".deps/gdtopng.Tpo" ".deps/gdtopng.Po"; else rm -f ".deps/gdtopng.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o gdtopng  gdtopng.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/gdtopng gdtopng.o  -L./.libs -lgd -lz -liconv
+creating gdtopng
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd2copypal.o -MD -MP -MF ".deps/gd2copypal.Tpo" -c -o gd2copypal.o gd2copypal.c; \
+	then mv -f ".deps/gd2copypal.Tpo" ".deps/gd2copypal.Po"; else rm -f ".deps/gd2copypal.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o gd2copypal  gd2copypal.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/gd2copypal gd2copypal.o  -L./.libs -lgd -lz -liconv
+creating gd2copypal
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd2topng.o -MD -MP -MF ".deps/gd2topng.Tpo" -c -o gd2topng.o gd2topng.c; \
+	then mv -f ".deps/gd2topng.Tpo" ".deps/gd2topng.Po"; else rm -f ".deps/gd2topng.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o gd2topng  gd2topng.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/gd2topng gd2topng.o  -L./.libs -lgd -lz -liconv
+creating gd2topng
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT pngtogd.o -MD -MP -MF ".deps/pngtogd.Tpo" -c -o pngtogd.o pngtogd.c; \
+	then mv -f ".deps/pngtogd.Tpo" ".deps/pngtogd.Po"; else rm -f ".deps/pngtogd.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o pngtogd  pngtogd.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/pngtogd pngtogd.o  -L./.libs -lgd -lz -liconv
+creating pngtogd
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT pngtogd2.o -MD -MP -MF ".deps/pngtogd2.Tpo" -c -o pngtogd2.o pngtogd2.c; \
+	then mv -f ".deps/pngtogd2.Tpo" ".deps/pngtogd2.Po"; else rm -f ".deps/pngtogd2.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o pngtogd2  pngtogd2.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/pngtogd2 pngtogd2.o  -L./.libs -lgd -lz -liconv
+creating pngtogd2
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT webpng.o -MD -MP -MF ".deps/webpng.Tpo" -c -o webpng.o webpng.c; \
+	then mv -f ".deps/webpng.Tpo" ".deps/webpng.Po"; else rm -f ".deps/webpng.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o webpng  webpng.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/webpng webpng.o  -L./.libs -lgd -lz -liconv
+creating webpng
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd2togif.o -MD -MP -MF ".deps/gd2togif.Tpo" -c -o gd2togif.o gd2togif.c; \
+	then mv -f ".deps/gd2togif.Tpo" ".deps/gd2togif.Po"; else rm -f ".deps/gd2togif.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o gd2togif  gd2togif.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/gd2togif gd2togif.o  -L./.libs -lgd -lz -liconv
+creating gd2togif
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdcmpgif.o -MD -MP -MF ".deps/gdcmpgif.Tpo" -c -o gdcmpgif.o gdcmpgif.c; \
+	then mv -f ".deps/gdcmpgif.Tpo" ".deps/gdcmpgif.Po"; else rm -f ".deps/gdcmpgif.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o gdcmpgif  gdcmpgif.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/gdcmpgif gdcmpgif.o  -L./.libs -lgd -lz -liconv
+creating gdcmpgif
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT giftogd2.o -MD -MP -MF ".deps/giftogd2.Tpo" -c -o giftogd2.o giftogd2.c; \
+	then mv -f ".deps/giftogd2.Tpo" ".deps/giftogd2.Po"; else rm -f ".deps/giftogd2.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o giftogd2  giftogd2.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/giftogd2 giftogd2.o  -L./.libs -lgd -lz -liconv
+creating giftogd2
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT fontsizetest.o -MD -MP -MF ".deps/fontsizetest.Tpo" -c -o fontsizetest.o fontsizetest.c; \
+	then mv -f ".deps/fontsizetest.Tpo" ".deps/fontsizetest.Po"; else rm -f ".deps/fontsizetest.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o fontsizetest  fontsizetest.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/fontsizetest fontsizetest.o  -L./.libs -lgd -lz -liconv
+creating fontsizetest
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT fontwheeltest.o -MD -MP -MF ".deps/fontwheeltest.Tpo" -c -o fontwheeltest.o fontwheeltest.c; \
+	then mv -f ".deps/fontwheeltest.Tpo" ".deps/fontwheeltest.Po"; else rm -f ".deps/fontwheeltest.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o fontwheeltest  fontwheeltest.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/fontwheeltest fontwheeltest.o  -L./.libs -lgd -lz -liconv
+creating fontwheeltest
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdtest.o -MD -MP -MF ".deps/gdtest.Tpo" -c -o gdtest.o gdtest.c; \
+	then mv -f ".deps/gdtest.Tpo" ".deps/gdtest.Po"; else rm -f ".deps/gdtest.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o gdtest  gdtest.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/gdtest gdtest.o  -L./.libs -lgd -lz -liconv
+creating gdtest
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gddemo.o -MD -MP -MF ".deps/gddemo.Tpo" -c -o gddemo.o gddemo.c; \
+	then mv -f ".deps/gddemo.Tpo" ".deps/gddemo.Po"; else rm -f ".deps/gddemo.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o gddemo  gddemo.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/gddemo gddemo.o  -L./.libs -lgd -lz -liconv
+creating gddemo
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gd2time.o -MD -MP -MF ".deps/gd2time.Tpo" -c -o gd2time.o gd2time.c; \
+	then mv -f ".deps/gd2time.Tpo" ".deps/gd2time.Po"; else rm -f ".deps/gd2time.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o gd2time  gd2time.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/gd2time gd2time.o  -L./.libs -lgd -lz -liconv
+creating gd2time
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gdtestft.o -MD -MP -MF ".deps/gdtestft.Tpo" -c -o gdtestft.o gdtestft.c; \
+	then mv -f ".deps/gdtestft.Tpo" ".deps/gdtestft.Po"; else rm -f ".deps/gdtestft.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o gdtestft  gdtestft.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/gdtestft gdtestft.o  -L./.libs -lgd -lz -liconv
+creating gdtestft
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT testac.o -MD -MP -MF ".deps/testac.Tpo" -c -o testac.o testac.c; \
+	then mv -f ".deps/testac.Tpo" ".deps/testac.Po"; else rm -f ".deps/testac.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o testac  testac.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/testac testac.o  -L./.libs -lgd -lz -liconv
+creating testac
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT circletexttest.o -MD -MP -MF ".deps/circletexttest.Tpo" -c -o circletexttest.o circletexttest.c; \
+	then mv -f ".deps/circletexttest.Tpo" ".deps/circletexttest.Po"; else rm -f ".deps/circletexttest.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o circletexttest  circletexttest.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/circletexttest circletexttest.o  -L./.libs -lgd -lz -liconv
+creating circletexttest
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT testtr.o -MD -MP -MF ".deps/testtr.Tpo" -c -o testtr.o testtr.c; \
+	then mv -f ".deps/testtr.Tpo" ".deps/testtr.Po"; else rm -f ".deps/testtr.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o testtr  testtr.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/testtr testtr.o  -L./.libs -lgd -lz -liconv
+creating testtr
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT fontconfigtest.o -MD -MP -MF ".deps/fontconfigtest.Tpo" -c -o fontconfigtest.o fontconfigtest.c; \
+	then mv -f ".deps/fontconfigtest.Tpo" ".deps/fontconfigtest.Po"; else rm -f ".deps/fontconfigtest.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o fontconfigtest  fontconfigtest.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/fontconfigtest fontconfigtest.o  -L./.libs -lgd -lz -liconv
+creating fontconfigtest
+if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gifanimtest.o -MD -MP -MF ".deps/gifanimtest.Tpo" -c -o gifanimtest.o gifanimtest.c; \
+	then mv -f ".deps/gifanimtest.Tpo" ".deps/gifanimtest.Po"; else rm -f ".deps/gifanimtest.Tpo"; exit 1; fi
+/bin/sh ./libtool --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -g -O2   -o gifanimtest  gifanimtest.o ./libgd.la -lz  -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -g -O2 -o .libs/gifanimtest gifanimtest.o  -L./.libs -lgd -lz -liconv
+creating gifanimtest
+Making install in config
+test -z "/usr/local/bin" || /bin/sh ../config/mkinstalldirs "/usr/local/bin"
+ /usr/bin/install -c 'gdlib-config' '/usr/local/bin/gdlib-config'
+Installing https://luarocks.org/lua-gd-1.0-6.src.rock...
+Using https://luarocks.org/lua-gd-1.0-6.src.rock... switching to 'build' mode

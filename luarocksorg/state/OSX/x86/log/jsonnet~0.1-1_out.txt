@@ -1,0 +1,7 @@
+cd libjsonnet && make libjsonnet.so && cp libjsonnet.so  /usr/lib64/ && cd ../ &&  cp jsonnet.lua /usr/local/share/luajit-*/
+c++ -c -g -O3 -Wall -Wextra -pedantic -std=c++0x -fPIC lexer.cpp -o lexer.o
+((od -v -Anone -t u1 std.jsonnet | tr " " "\n" | grep -v "^$" | tr "\n" "," ) && echo "0") > std.jsonnet.h
+echo >> std.jsonnet.h
+c++ -c -g -O3 -Wall -Wextra -pedantic -std=c++0x -fPIC parser.cpp -o parser.o
+Installing https://rocks.moonscript.org/jsonnet-0.1-1.src.rock...
+Using https://rocks.moonscript.org/jsonnet-0.1-1.src.rock... switching to 'build' mode

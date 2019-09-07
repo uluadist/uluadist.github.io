@@ -1,0 +1,5 @@
+Installing https://luarocks.org/lua-resty-libr3-1.1-0.rockspec...
+Using https://luarocks.org/lua-resty-libr3-1.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-resty-libr3-1.1-0-5108/lua-resty-libr3/.git/
+git clone -b 2.0.2-iresty https://github.com/iresty/r3.git
+Initialized empty Git repository in /tmp/luarocks_lua-resty-libr3-1.1-0-5108/lua-resty-libr3/r3/.git/

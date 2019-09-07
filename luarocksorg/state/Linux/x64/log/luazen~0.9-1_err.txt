@@ -1,0 +1,686 @@
+Warning: skipping dependency checks.
+src/mono.c: In function ‘crypto_memcmp’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:108:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, n) {
+     ^
+src/mono.c:48:28: note: use option -std=c99 or -std=gnu99 to compile your code
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:108:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, n) {
+     ^
+src/mono.c: In function ‘crypto_zerocmp’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:117:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, n) {
+     ^
+src/mono.c: In function ‘blake2b_compress’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:185:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, 8) {
+     ^
+src/mono.c:197:10: error: redefinition of ‘i’
+     FOR (i, 0, 12) {
+          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:185:10: note: previous definition of ‘i’ was here
+     FOR (i, 0, 8) {
+          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:197:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, 12) {
+     ^
+src/mono.c:214:10: error: redefinition of ‘i’
+     FOR (i, 0, 8) {
+          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:197:10: note: previous definition of ‘i’ was here
+     FOR (i, 0, 12) {
+          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:214:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, 8) {
+     ^
+src/mono.c: In function ‘blake2b_reset_input’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:221:5: note: in expansion of macro ‘FOR’
+     FOR(i, 0, 16) {
+     ^
+src/mono.c: In function ‘crypto_blake2b_general_init’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:240:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, 8) {
+     ^
+src/mono.c: In function ‘crypto_blake2b_update’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:276:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, nb_words) {
+     ^
+src/mono.c:287:10: error: redefinition of ‘i’
+     FOR (i, 0, remainder) {
+          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:276:10: note: previous definition of ‘i’ was here
+     FOR (i, 0, nb_words) {
+          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:287:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, remainder) {
+     ^
+src/mono.c: In function ‘crypto_blake2b_final’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:297:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, nb_words) {
+     ^
+src/mono.c:300:10: error: redefinition of ‘i’
+     FOR (i, nb_words * 8, ctx->hash_size) {
+          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:297:10: note: previous definition of ‘i’ was here
+     FOR (i, 0, nb_words) {
+          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:300:5: note: in expansion of macro ‘FOR’
+     FOR (i, nb_words * 8, ctx->hash_size) {
+     ^
+src/mono.c: In function ‘load_block’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:345:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, 128) {
+     ^
+src/mono.c: In function ‘store_block’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:352:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, 128) {
+     ^
+src/mono.c: In function ‘copy_block’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:357:49: note: in expansion of macro ‘FOR’
+ static void copy_block(block *o,const block*in){FOR(i,0,128) o->a[i] = in->a[i];}
+                                                 ^
+src/mono.c: In function ‘xor_block’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:358:49: note: in expansion of macro ‘FOR’
+ static void  xor_block(block *o,const block*in){FOR(i,0,128) o->a[i]^= in->a[i];}
+                                                 ^
+src/mono.c: In function ‘g_rounds’:
+src/mono.c:411:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+     for (int i = 0; i < 128; i += 16) {
+     ^
+src/mono.c:422:14: error: redefinition of ‘i’
+     for (int i = 0; i < 16; i += 2) {
+              ^
+src/mono.c:411:14: note: previous definition of ‘i’ was here
+     for (int i = 0; i < 128; i += 16) {
+              ^
+src/mono.c:422:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+     for (int i = 0; i < 16; i += 2) {
+     ^
+src/mono.c: In function ‘gidx_refresh’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:496:5: note: in expansion of macro ‘FOR’
+     FOR (i, 7, 128) { ctx->b.a[i] = 0; } // ...then zero the rest out
+     ^
+src/mono.c: In function ‘crypto_argon2i’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:614:5: note: in expansion of macro ‘FOR’
+     FOR (pass_number, 0, nb_iterations) {
+     ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:617:9: note: in expansion of macro ‘FOR’
+         FOR (segment, 0, 4) {
+         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:627:13: note: in expansion of macro ‘FOR’
+             FOR (current_block, segment_start, segment_end) {
+             ^
+src/mono.c: In function ‘fe_0’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:660:49: note: in expansion of macro ‘FOR’
+ static void fe_0   (fe h) {                     FOR(i,0,10) h[i] = 0;          }
+                                                 ^
+src/mono.c: In function ‘fe_1’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:661:49: note: in expansion of macro ‘FOR’
+ static void fe_1   (fe h) {          h[0] = 1;  FOR(i,1,10) h[i] = 0;          }
+                                                 ^
+src/mono.c: In function ‘fe_neg’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:662:49: note: in expansion of macro ‘FOR’
+ static void fe_neg (fe h,const fe f)           {FOR(i,0,10) h[i] = -f[i];      }
+                                                 ^
+src/mono.c: In function ‘fe_add’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:663:49: note: in expansion of macro ‘FOR’
+ static void fe_add (fe h,const fe f,const fe g){FOR(i,0,10) h[i] = f[i] + g[i];}
+                                                 ^
+src/mono.c: In function ‘fe_sub’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:664:49: note: in expansion of macro ‘FOR’
+ static void fe_sub (fe h,const fe f,const fe g){FOR(i,0,10) h[i] = f[i] - g[i];}
+                                                 ^
+src/mono.c: In function ‘fe_copy’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:665:49: note: in expansion of macro ‘FOR’
+ static void fe_copy(fe h,const fe f)           {FOR(i,0,10) h[i] = f[i];       }
+                                                 ^
+src/mono.c: In function ‘fe_cswap’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:669:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, 10) {
+     ^
+src/mono.c: In function ‘fe_carry’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:689:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, 10) { h[i] = t[i]; }
+     ^
+src/mono.c: In function ‘fe_mul_small’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:711:5: note: in expansion of macro ‘FOR’
+     FOR(i, 0, 10) {
+     ^
+src/mono.c: In function ‘fe_invert’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:817:20: note: in expansion of macro ‘FOR’
+     fe_sq(t2, t1); FOR (i, 1,   5) fe_sq(t2, t2); fe_mul(t1 , t2, t1);
+                    ^
+src/mono.c:818:25: error: redefinition of ‘i’
+     fe_sq(t2, t1); FOR (i, 1,  10) fe_sq(t2, t2); fe_mul(t2 , t2, t1);
+                         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:817:25: note: previous definition of ‘i’ was here
+     fe_sq(t2, t1); FOR (i, 1,   5) fe_sq(t2, t2); fe_mul(t1 , t2, t1);
+                         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:818:20: note: in expansion of macro ‘FOR’
+     fe_sq(t2, t1); FOR (i, 1,  10) fe_sq(t2, t2); fe_mul(t2 , t2, t1);
+                    ^
+src/mono.c:819:25: error: redefinition of ‘i’
+     fe_sq(t3, t2); FOR (i, 1,  20) fe_sq(t3, t3); fe_mul(t2 , t3, t2);
+                         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:818:25: note: previous definition of ‘i’ was here
+     fe_sq(t2, t1); FOR (i, 1,  10) fe_sq(t2, t2); fe_mul(t2 , t2, t1);
+                         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:819:20: note: in expansion of macro ‘FOR’
+     fe_sq(t3, t2); FOR (i, 1,  20) fe_sq(t3, t3); fe_mul(t2 , t3, t2);
+                    ^
+src/mono.c:820:25: error: redefinition of ‘i’
+     fe_sq(t2, t2); FOR (i, 1,  10) fe_sq(t2, t2); fe_mul(t1 , t2, t1);
+                         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:819:25: note: previous definition of ‘i’ was here
+     fe_sq(t3, t2); FOR (i, 1,  20) fe_sq(t3, t3); fe_mul(t2 , t3, t2);
+                         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:820:20: note: in expansion of macro ‘FOR’
+     fe_sq(t2, t2); FOR (i, 1,  10) fe_sq(t2, t2); fe_mul(t1 , t2, t1);
+                    ^
+src/mono.c:821:25: error: redefinition of ‘i’
+     fe_sq(t2, t1); FOR (i, 1,  50) fe_sq(t2, t2); fe_mul(t2 , t2, t1);
+                         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:820:25: note: previous definition of ‘i’ was here
+     fe_sq(t2, t2); FOR (i, 1,  10) fe_sq(t2, t2); fe_mul(t1 , t2, t1);
+                         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:821:20: note: in expansion of macro ‘FOR’
+     fe_sq(t2, t1); FOR (i, 1,  50) fe_sq(t2, t2); fe_mul(t2 , t2, t1);
+                    ^
+src/mono.c:822:25: error: redefinition of ‘i’
+     fe_sq(t3, t2); FOR (i, 1, 100) fe_sq(t3, t3); fe_mul(t2 , t3, t2);
+                         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:821:25: note: previous definition of ‘i’ was here
+     fe_sq(t2, t1); FOR (i, 1,  50) fe_sq(t2, t2); fe_mul(t2 , t2, t1);
+                         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:822:20: note: in expansion of macro ‘FOR’
+     fe_sq(t3, t2); FOR (i, 1, 100) fe_sq(t3, t3); fe_mul(t2 , t3, t2);
+                    ^
+src/mono.c:823:25: error: redefinition of ‘i’
+     fe_sq(t2, t2); FOR (i, 1,  50) fe_sq(t2, t2); fe_mul(t1 , t2, t1);
+                         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:822:25: note: previous definition of ‘i’ was here
+     fe_sq(t3, t2); FOR (i, 1, 100) fe_sq(t3, t3); fe_mul(t2 , t3, t2);
+                         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:823:20: note: in expansion of macro ‘FOR’
+     fe_sq(t2, t2); FOR (i, 1,  50) fe_sq(t2, t2); fe_mul(t1 , t2, t1);
+                    ^
+src/mono.c:824:25: error: redefinition of ‘i’
+     fe_sq(t1, t1); FOR (i, 1,   5) fe_sq(t1, t1); fe_mul(out, t1, t0);
+                         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:823:25: note: previous definition of ‘i’ was here
+     fe_sq(t2, t2); FOR (i, 1,  50) fe_sq(t2, t2); fe_mul(t1 , t2, t1);
+                         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:824:20: note: in expansion of macro ‘FOR’
+     fe_sq(t1, t1); FOR (i, 1,   5) fe_sq(t1, t1); fe_mul(out, t1, t0);
+                    ^
+src/mono.c: In function ‘fe_pow22523’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:835:21: note: in expansion of macro ‘FOR’
+     fe_sq(t1, t0);  FOR (i, 1,   5) fe_sq(t1, t1);  fe_mul(t0, t1, t0);
+                     ^
+src/mono.c:836:26: error: redefinition of ‘i’
+     fe_sq(t1, t0);  FOR (i, 1,  10) fe_sq(t1, t1);  fe_mul(t1, t1, t0);
+                          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:835:26: note: previous definition of ‘i’ was here
+     fe_sq(t1, t0);  FOR (i, 1,   5) fe_sq(t1, t1);  fe_mul(t0, t1, t0);
+                          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:836:21: note: in expansion of macro ‘FOR’
+     fe_sq(t1, t0);  FOR (i, 1,  10) fe_sq(t1, t1);  fe_mul(t1, t1, t0);
+                     ^
+src/mono.c:837:26: error: redefinition of ‘i’
+     fe_sq(t2, t1);  FOR (i, 1,  20) fe_sq(t2, t2);  fe_mul(t1, t2, t1);
+                          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:836:26: note: previous definition of ‘i’ was here
+     fe_sq(t1, t0);  FOR (i, 1,  10) fe_sq(t1, t1);  fe_mul(t1, t1, t0);
+                          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:837:21: note: in expansion of macro ‘FOR’
+     fe_sq(t2, t1);  FOR (i, 1,  20) fe_sq(t2, t2);  fe_mul(t1, t2, t1);
+                     ^
+src/mono.c:838:26: error: redefinition of ‘i’
+     fe_sq(t1, t1);  FOR (i, 1,  10) fe_sq(t1, t1);  fe_mul(t0, t1, t0);
+                          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:837:26: note: previous definition of ‘i’ was here
+     fe_sq(t2, t1);  FOR (i, 1,  20) fe_sq(t2, t2);  fe_mul(t1, t2, t1);
+                          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:838:21: note: in expansion of macro ‘FOR’
+     fe_sq(t1, t1);  FOR (i, 1,  10) fe_sq(t1, t1);  fe_mul(t0, t1, t0);
+                     ^
+src/mono.c:839:26: error: redefinition of ‘i’
+     fe_sq(t1, t0);  FOR (i, 1,  50) fe_sq(t1, t1);  fe_mul(t1, t1, t0);
+                          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:838:26: note: previous definition of ‘i’ was here
+     fe_sq(t1, t1);  FOR (i, 1,  10) fe_sq(t1, t1);  fe_mul(t0, t1, t0);
+                          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:839:21: note: in expansion of macro ‘FOR’
+     fe_sq(t1, t0);  FOR (i, 1,  50) fe_sq(t1, t1);  fe_mul(t1, t1, t0);
+                     ^
+src/mono.c:840:26: error: redefinition of ‘i’
+     fe_sq(t2, t1);  FOR (i, 1, 100) fe_sq(t2, t2);  fe_mul(t1, t2, t1);
+                          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:839:26: note: previous definition of ‘i’ was here
+     fe_sq(t1, t0);  FOR (i, 1,  50) fe_sq(t1, t1);  fe_mul(t1, t1, t0);
+                          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:840:21: note: in expansion of macro ‘FOR’
+     fe_sq(t2, t1);  FOR (i, 1, 100) fe_sq(t2, t2);  fe_mul(t1, t2, t1);
+                     ^
+src/mono.c:841:26: error: redefinition of ‘i’
+     fe_sq(t1, t1);  FOR (i, 1,  50) fe_sq(t1, t1);  fe_mul(t0, t1, t0);
+                          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:840:26: note: previous definition of ‘i’ was here
+     fe_sq(t2, t1);  FOR (i, 1, 100) fe_sq(t2, t2);  fe_mul(t1, t2, t1);
+                          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:841:21: note: in expansion of macro ‘FOR’
+     fe_sq(t1, t1);  FOR (i, 1,  50) fe_sq(t1, t1);  fe_mul(t0, t1, t0);
+                     ^
+src/mono.c:842:26: error: redefinition of ‘i’
+     fe_sq(t0, t0);  FOR (i, 1,   2) fe_sq(t0, t0);  fe_mul(out, t0, z);
+                          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:841:26: note: previous definition of ‘i’ was here
+     fe_sq(t1, t1);  FOR (i, 1,  50) fe_sq(t1, t1);  fe_mul(t0, t1, t0);
+                          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:842:21: note: in expansion of macro ‘FOR’
+     fe_sq(t0, t0);  FOR (i, 1,   2) fe_sq(t0, t0);  fe_mul(out, t0, z);
+                     ^
+src/mono.c: In function ‘fe_tobytes’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:848:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, 10) {
+     ^
+src/mono.c:852:10: error: redefinition of ‘i’
+     FOR (i, 0, 5) {
+          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:848:10: note: previous definition of ‘i’ was here
+     FOR (i, 0, 10) {
+          ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:852:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, 5) {
+     ^
+src/mono.c: In function ‘x25519_ladder’:
+src/mono.c:914:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+     for (int pos = 254; pos >= 0; --pos) {
+     ^
+src/mono.c: In function ‘crypto_x25519’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:948:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, 32) {
+     ^
+src/mono.c: In function ‘ge_from_xy’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:986:5: note: in expansion of macro ‘FOR’
+     FOR (i, 0, 10) {
+     ^
+src/mono.c: In function ‘modL’:
+src/mono.c:1148:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+     for (unsigned i = 63; i >= 32; i--) {
+     ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:1150:9: note: in expansion of macro ‘FOR’
+         FOR (j, i-32, i-12) {
+         ^
+src/mono.c:1159:9: error: conflicting types for ‘i’
+     FOR(i, 0, 32) {
+         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:1148:19: note: previous definition of ‘i’ was here
+     for (unsigned i = 63; i >= 32; i--) {
+                   ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:1159:5: note: in expansion of macro ‘FOR’
+     FOR(i, 0, 32) {
+     ^
+src/mono.c:1164:9: error: redefinition of ‘i’
+     FOR(i, 0, 32) {
+         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:1159:9: note: previous definition of ‘i’ was here
+     FOR(i, 0, 32) {
+         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:1164:5: note: in expansion of macro ‘FOR’
+     FOR(i, 0, 32) {
+     ^
+src/mono.c:1167:9: error: redefinition of ‘i’
+     FOR(i, 0, 32) {
+         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:1164:9: note: previous definition of ‘i’ was here
+     FOR(i, 0, 32) {
+         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:1167:5: note: in expansion of macro ‘FOR’
+     FOR(i, 0, 32) {
+     ^
+src/mono.c: In function ‘reduce’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:1176:5: note: in expansion of macro ‘FOR’
+     FOR(i, 0, 64) {
+     ^
+src/mono.c: In function ‘crypto_sign’:
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:1244:5: note: in expansion of macro ‘FOR’
+     FOR(i,  0, 32) { s[i] = (u64) r[i]; }
+     ^
+src/mono.c:1245:9: error: redefinition of ‘i’
+     FOR(i, 32, 64) { s[i] = 0;          }
+         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:1244:9: note: previous definition of ‘i’ was here
+     FOR(i,  0, 32) { s[i] = (u64) r[i]; }
+         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:1245:5: note: in expansion of macro ‘FOR’
+     FOR(i, 32, 64) { s[i] = 0;          }
+     ^
+src/mono.c:1246:9: error: redefinition of ‘i’
+     FOR(i,  0, 32) {
+         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:1245:9: note: previous definition of ‘i’ was here
+     FOR(i, 32, 64) { s[i] = 0;          }
+         ^
+src/mono.c:48:41: note: in definition of macro ‘FOR’
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                                         ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:1246:5: note: in expansion of macro ‘FOR’
+     FOR(i,  0, 32) {
+     ^
+src/mono.c:48:28: error: ‘for’ loop initial declarations are only allowed in C99 mode
+ #define FOR(i, start, end) for (size_t (i) = (start); (i) < (end); (i)++)
+                            ^
+src/mono.c:1247:9: note: in expansion of macro ‘FOR’
+         FOR(j, 0, 32) {
+         ^
+
+Error: Build error: Failed compiling object src/mono.o

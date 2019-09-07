@@ -1,0 +1,5 @@
+Installing https://rocks.moonscript.org/luma-0.2-1.src.rock...
+Using https://rocks.moonscript.org/luma-0.2-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+luma 0.2-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

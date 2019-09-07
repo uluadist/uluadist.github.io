@@ -1,0 +1,12 @@
+-- The C compiler identification is AppleClang 7.0.0.7000176
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x86/cc
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x86/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Could NOT find Lua51 (missing:  LUA_LIBRARIES LUA_INCLUDE_DIR) 
+-- Configuring incomplete, errors occurred!
+See also "/tmp/luarocks_lua-http-parser-1.0-1-9777/lua-http-parser/CMakeFiles/CMakeOutput.log".
+Installing https://rocks.moonscript.org/lua-http-parser-1.0-1.src.rock...
+Using https://rocks.moonscript.org/lua-http-parser-1.0-1.src.rock... switching to 'build' mode

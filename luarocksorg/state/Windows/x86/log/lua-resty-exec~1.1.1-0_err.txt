@@ -1,0 +1,16 @@
+Cloning into 'lua-resty-exec'...
+Note: checking out '4e22234d7db819138c6d4fac8dc8b2974e91347b'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-resty-exec 1.1.1-0: netstring >= 1.0.2
+Missing dependency for lua-resty-exec 1.1.1-0: netstring >= 1.0.2

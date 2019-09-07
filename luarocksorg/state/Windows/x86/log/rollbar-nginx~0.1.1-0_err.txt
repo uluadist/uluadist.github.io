@@ -1,0 +1,16 @@
+Cloning into 'rollbar-nginx'...
+Note: checking out '15ea6fce1e635c45a371a5063e4615378b9fb0f0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for rollbar-nginx 0.1.1-0: lua-resty-http == 0.08
+Missing dependency for rollbar-nginx 0.1.1-0: lua-resty-http == 0.08

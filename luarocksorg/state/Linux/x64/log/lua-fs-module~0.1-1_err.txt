@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+error: gnutls_handshake() failed: A TLS fatal alert has been received. while accessing https://github.com/xiedacon/lua-fs-module.git/info/refs
+
+fatal: HTTP request failed
+
+Error: Failed cloning git repository.

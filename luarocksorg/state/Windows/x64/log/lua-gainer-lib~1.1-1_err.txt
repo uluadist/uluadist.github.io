@@ -1,0 +1,14 @@
+Cloning into 'lua-gainer-lib'...
+Note: checking out '9d0643a4398e44e0367f75349118fee9d4a00e8a'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...

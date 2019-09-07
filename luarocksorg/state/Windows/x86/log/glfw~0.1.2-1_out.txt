@@ -1,0 +1,31 @@
+lua-glfw.c
+context.c
+init.c
+input.c
+monitor.c
+vulkan.c
+window.c
+wgl_context.c
+egl_context.c
+win32_init.c
+win32_joystick.c
+win32_monitor.c
+win32_time.c
+win32_tls.c
+c1: fatal error C1083: Cannot open source file: 'glfw/src/win32_tls.c': No such file or directory
+Installing https://luarocks.org/glfw-0.1.2-1.src.rock...
+Using https://luarocks.org/glfw-0.1.2-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folua-glfw.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src lua-glfw.c -D_GLFW_WIN32 -D_GLFW_USE_OPENGL -D_GLFW_WGL -D_GLFW_BUILD_DLL -Iglfw/include
+cl /nologo /MD /O2 -c -Foglfw/src/context.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src glfw/src/context.c -D_GLFW_WIN32 -D_GLFW_USE_OPENGL -D_GLFW_WGL -D_GLFW_BUILD_DLL -Iglfw/include
+cl /nologo /MD /O2 -c -Foglfw/src/init.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src glfw/src/init.c -D_GLFW_WIN32 -D_GLFW_USE_OPENGL -D_GLFW_WGL -D_GLFW_BUILD_DLL -Iglfw/include
+cl /nologo /MD /O2 -c -Foglfw/src/input.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src glfw/src/input.c -D_GLFW_WIN32 -D_GLFW_USE_OPENGL -D_GLFW_WGL -D_GLFW_BUILD_DLL -Iglfw/include
+cl /nologo /MD /O2 -c -Foglfw/src/monitor.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src glfw/src/monitor.c -D_GLFW_WIN32 -D_GLFW_USE_OPENGL -D_GLFW_WGL -D_GLFW_BUILD_DLL -Iglfw/include
+cl /nologo /MD /O2 -c -Foglfw/src/vulkan.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src glfw/src/vulkan.c -D_GLFW_WIN32 -D_GLFW_USE_OPENGL -D_GLFW_WGL -D_GLFW_BUILD_DLL -Iglfw/include
+cl /nologo /MD /O2 -c -Foglfw/src/window.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src glfw/src/window.c -D_GLFW_WIN32 -D_GLFW_USE_OPENGL -D_GLFW_WGL -D_GLFW_BUILD_DLL -Iglfw/include
+cl /nologo /MD /O2 -c -Foglfw/src/wgl_context.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src glfw/src/wgl_context.c -D_GLFW_WIN32 -D_GLFW_USE_OPENGL -D_GLFW_WGL -D_GLFW_BUILD_DLL -Iglfw/include
+cl /nologo /MD /O2 -c -Foglfw/src/egl_context.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src glfw/src/egl_context.c -D_GLFW_WIN32 -D_GLFW_USE_OPENGL -D_GLFW_WGL -D_GLFW_BUILD_DLL -Iglfw/include
+cl /nologo /MD /O2 -c -Foglfw/src/win32_init.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src glfw/src/win32_init.c -D_GLFW_WIN32 -D_GLFW_USE_OPENGL -D_GLFW_WGL -D_GLFW_BUILD_DLL -Iglfw/include
+cl /nologo /MD /O2 -c -Foglfw/src/win32_joystick.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src glfw/src/win32_joystick.c -D_GLFW_WIN32 -D_GLFW_USE_OPENGL -D_GLFW_WGL -D_GLFW_BUILD_DLL -Iglfw/include
+cl /nologo /MD /O2 -c -Foglfw/src/win32_monitor.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src glfw/src/win32_monitor.c -D_GLFW_WIN32 -D_GLFW_USE_OPENGL -D_GLFW_WGL -D_GLFW_BUILD_DLL -Iglfw/include
+cl /nologo /MD /O2 -c -Foglfw/src/win32_time.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src glfw/src/win32_time.c -D_GLFW_WIN32 -D_GLFW_USE_OPENGL -D_GLFW_WGL -D_GLFW_BUILD_DLL -Iglfw/include
+cl /nologo /MD /O2 -c -Foglfw/src/win32_tls.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src glfw/src/win32_tls.c -D_GLFW_WIN32 -D_GLFW_USE_OPENGL -D_GLFW_WGL -D_GLFW_BUILD_DLL -Iglfw/include

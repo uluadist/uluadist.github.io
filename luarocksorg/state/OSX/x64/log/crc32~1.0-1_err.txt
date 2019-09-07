@@ -1,0 +1,79 @@
+Warning: skipping dependency checks.
+wrap.c:54:21: error: expected ';' after top level declarator
+typedef LUA_UNSIGNED lua_Unsigned;
+                    ^
+                    ;
+wrap.c:110:45: error: unknown type name 'lua_Unsigned'; did you mean 'unsigned'?
+static void lua_pushunsigned (lua_State *L, lua_Unsigned u) {
+                                            ^~~~~~~~~~~~
+                                            unsigned
+wrap.c:112:7: error: use of undeclared identifier 'lua_Unsigned'; did you mean 'unsigned'?
+  n = lua_unsigned2number(u);
+      ^
+wrap.c:106:15: note: expanded from macro 'lua_unsigned2number'
+    (((u) <= (lua_Unsigned)INT_MAX) ? (lua_Number)(int)(u) : (lua_Number)(u))
+              ^
+wrap.c:112:7: error: expected expression
+wrap.c:106:15: note: expanded from macro 'lua_unsigned2number'
+    (((u) <= (lua_Unsigned)INT_MAX) ? (lua_Number)(int)(u) : (lua_Number)(u))
+              ^
+wrap.c:118:8: error: unknown type name 'lua_Unsigned'; did you mean 'unsigned'?
+static lua_Unsigned luaL_checkunsigned (lua_State *L, int arg) {
+       ^~~~~~~~~~~~
+       unsigned
+wrap.c:119:3: error: use of undeclared identifier 'lua_Unsigned'; did you mean 'unsigned'?
+  lua_Unsigned r;
+  ^~~~~~~~~~~~
+  unsigned
+wrap.c:122:3: error: use of undeclared identifier 'lua_Unsigned'; did you mean 'unsigned'?
+  lua_number2unsigned(r, x);
+  ^
+wrap.c:87:64: note: expanded from macro 'lua_number2unsigned'
+#define lua_number2unsigned(i,n)        lua_number2int32(i, n, lua_Unsigned)
+                                                               ^
+wrap.c:85:12: note: expanded from macro 'lua_number2int32'
+    (i) = (t)u.l_p[LUA_IEEEENDIAN]; }
+           ^
+wrap.c:122:3: error: expected expression
+wrap.c:87:64: note: expanded from macro 'lua_number2unsigned'
+#define lua_number2unsigned(i,n)        lua_number2int32(i, n, lua_Unsigned)
+                                                               ^
+wrap.c:85:12: note: expanded from macro 'lua_number2int32'
+    (i) = (t)u.l_p[LUA_IEEEENDIAN]; }
+           ^
+wrap.c:160:7: warning: assigning to 'const uint8_t *' (aka 'const unsigned char *') from 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        data = lua_tolstring (L, 2, &data_len);
+             ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+wrap.c:183:22: warning: passing 'uint8_t [4]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, crcout_str, 4);
+                            ^~~~~~~~~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+wrap.c:190:10: warning: passing 'uint8_t [9]' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        sprintf(crcout_str, "%8.8x", *_crc32);
+                ^~~~~~~~~~
+/usr/include/secure/_stdio.h:47:28: note: expanded from macro 'sprintf'
+  __builtin___sprintf_chk (str, 0, __darwin_obsz(str), __VA_ARGS__)
+                           ^
+wrap.c:191:22: warning: passing 'uint8_t [9]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, crcout_str, 8);
+                            ^~~~~~~~~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+wrap.c:211:7: warning: assigning to 'const uint8_t *' (aka 'const unsigned char *') from 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        data = lua_tolstring (L, 2, &data_len);
+             ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+wrap.c:217:18: warning: initializing 'const uint8_t *' (aka 'const unsigned char *') with an expression of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                const uint8_t *crcin_str = lua_tolstring(L,1, &crc_len);
+                               ^           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+wrap.c:235:23: warning: passing 'uint8_t [4]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                lua_pushlstring (L, crcout_str, 4);
+                                    ^~~~~~~~~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+7 warnings and 8 errors generated.
+
+Error: Build error: Failed compiling object wrap.o

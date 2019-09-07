@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/valua-0.2.2-2.rockspec...
+Using https://rocks.moonscript.org/valua-0.2.2-2.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_valua-0.2.2-2-8039/valua/.git/
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+valua 0.2.2-2 is now built and installed in /home/sp/luarockstree (license: MIT)
+

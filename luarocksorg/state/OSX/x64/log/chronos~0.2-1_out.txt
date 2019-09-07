@@ -1,0 +1,19 @@
+Archive:  v0.2-1.zip
+40838b0e4da0ce674d8ef704325375ff99648346
+   creating: chronos-0.2-1/
+  inflating: chronos-0.2-1/.gitignore  
+  inflating: chronos-0.2-1/LICENSE   
+  inflating: chronos-0.2-1/README.md  
+   creating: chronos-0.2-1/rockspecs/
+  inflating: chronos-0.2-1/rockspecs/chronos-0.2-0.rockspec  
+  inflating: chronos-0.2-1/rockspecs/chronos-0.2-1.rockspec  
+   creating: chronos-0.2-1/src/
+  inflating: chronos-0.2-1/src/chronos.c  
+  inflating: chronos-0.2-1/update_rockspec.lua  
+Installing https://rocks.moonscript.org/chronos-0.2-1.src.rock...
+Using https://rocks.moonscript.org/chronos-0.2-1.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/chronos.c -o src/chronos.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o chronos.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib src/chronos.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+chronos 0.2-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

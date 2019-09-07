@@ -1,0 +1,5 @@
+flock.c
+flock.c(4): fatal error C1083: Cannot open include file: 'sys/file.h': No such file or directory
+Installing https://luarocks.org/luaflock-1.0.1-1.src.rock...
+Using https://luarocks.org/luaflock-1.0.1-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Foflock.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src flock.c

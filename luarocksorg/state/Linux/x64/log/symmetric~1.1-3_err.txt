@@ -1,0 +1,29 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+Package libsodium was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libsodium.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libsodium' found
+Package libsodium was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libsodium.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libsodium' found
+Package libsodium was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libsodium.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libsodium' found
+Package libsodium was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libsodium.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libsodium' found
+Package libsodium was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libsodium.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libsodium' found
+src/main.c:19:20: fatal error: sodium.h: No such file or directory
+ #include <sodium.h>
+                    ^
+compilation terminated.
+make: *** [src/main.o] Error 1
+
+Error: Build error: Failed building.

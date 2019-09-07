@@ -1,0 +1,47 @@
+Archive:  v0.1.zip
+5cb0498a5bc12adb60d618f0b4f50a19fb575bd1
+   creating: lua-spawn-0.1/
+ extracting: lua-spawn-0.1/.gitignore  
+  inflating: lua-spawn-0.1/.luacheckrc  
+  inflating: lua-spawn-0.1/.travis.yml  
+  inflating: lua-spawn-0.1/LICENSE   
+ extracting: lua-spawn-0.1/NEWS      
+  inflating: lua-spawn-0.1/README.md  
+   creating: lua-spawn-0.1/examples/
+  inflating: lua-spawn-0.1/examples/pipes.lua  
+  inflating: lua-spawn-0.1/spawn-0.1-0.rockspec  
+   creating: lua-spawn-0.1/spawn/
+  inflating: lua-spawn-0.1/spawn/init.lua  
+  inflating: lua-spawn-0.1/spawn/posix.c  
+  inflating: lua-spawn-0.1/spawn/wait.lua  
+   creating: lua-spawn-0.1/spec/
+  inflating: lua-spawn-0.1/spec/init_spec.lua  
+   creating: lua-spawn-0.1/vendor/
+   creating: lua-spawn-0.1/vendor/compat-5.3/
+  inflating: lua-spawn-0.1/vendor/compat-5.3/.gitignore  
+  inflating: lua-spawn-0.1/vendor/compat-5.3/.travis.yml  
+  inflating: lua-spawn-0.1/vendor/compat-5.3/LICENSE  
+  inflating: lua-spawn-0.1/vendor/compat-5.3/README.md  
+   creating: lua-spawn-0.1/vendor/compat-5.3/c-api/
+  inflating: lua-spawn-0.1/vendor/compat-5.3/c-api/compat-5.3.c  
+  inflating: lua-spawn-0.1/vendor/compat-5.3/c-api/compat-5.3.h  
+   creating: lua-spawn-0.1/vendor/compat-5.3/compat53/
+  inflating: lua-spawn-0.1/vendor/compat-5.3/compat53/init.lua  
+  inflating: lua-spawn-0.1/vendor/compat-5.3/compat53/module.lua  
+  inflating: lua-spawn-0.1/vendor/compat-5.3/lprefix.h  
+  inflating: lua-spawn-0.1/vendor/compat-5.3/lstrlib.c  
+  inflating: lua-spawn-0.1/vendor/compat-5.3/ltablib.c  
+  inflating: lua-spawn-0.1/vendor/compat-5.3/lutf8lib.c  
+   creating: lua-spawn-0.1/vendor/compat-5.3/rockspecs/
+  inflating: lua-spawn-0.1/vendor/compat-5.3/rockspecs/compat53-0.1-1.rockspec  
+  inflating: lua-spawn-0.1/vendor/compat-5.3/rockspecs/compat53-0.2-1.rockspec  
+  inflating: lua-spawn-0.1/vendor/compat-5.3/rockspecs/compat53-0.3-1.rockspec  
+  inflating: lua-spawn-0.1/vendor/compat-5.3/rockspecs/compat53-0.4-1.rockspec  
+  inflating: lua-spawn-0.1/vendor/compat-5.3/rockspecs/compat53-0.5-1.rockspec  
+  inflating: lua-spawn-0.1/vendor/compat-5.3/rockspecs/compat53-scm-0.rockspec  
+   creating: lua-spawn-0.1/vendor/compat-5.3/tests/
+  inflating: lua-spawn-0.1/vendor/compat-5.3/tests/test.lua  
+  inflating: lua-spawn-0.1/vendor/compat-5.3/tests/testmod.c  
+Installing https://luarocks.org/spawn-0.1-0.src.rock...
+Using https://luarocks.org/spawn-0.1-0.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c spawn/posix.c -o spawn/posix.o -D_POSIX_C_SOURCE=200809L -D_GNU_SOURCE -Ivendor/compat-5.3/c-api/

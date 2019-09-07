@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-resty-dns-client 2.0.0-1: lrandom 
+Missing dependency for lua-resty-dns-client 2.0.0-1: penlight > 1.1, < 2.0
+Missing dependency for lua-resty-dns-client 2.0.0-1: lrandom 
+Missing dependency for lua-resty-dns-client 2.0.0-1: penlight > 1.1, < 2.0

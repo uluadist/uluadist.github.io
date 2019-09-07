@@ -1,0 +1,16 @@
+Archive:  luno-20141204.zip
+  inflating: luno-20141204/argReader.lua  
+  inflating: luno-20141204/base.lua  
+  inflating: luno-20141204/functional.lua  
+  inflating: luno-20141204/init.lua  
+  inflating: luno-20141204/io.lua    
+  inflating: luno-20141204/luno-make-1.rockspec  
+  inflating: luno-20141204/oop.lua   
+  inflating: luno-20141204/string.lua  
+  inflating: luno-20141204/table.lua  
+  inflating: luno-20141204/util.lua  
+Installing https://rocks.moonscript.org/luno-20141204-1.rockspec...
+Using https://rocks.moonscript.org/luno-20141204-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+luno 20141204-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

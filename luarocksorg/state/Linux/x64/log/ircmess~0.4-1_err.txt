@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+In file included from ircmess.c:2:0:
+ircmess.c: In function ‘l_irc_parse’:
+/home/sp/luajit//include/lauxlib.h:97:31: warning: initialization discards ‘const’ qualifier from pointer target type [enabled by default]
+ #define luaL_checkstring(L,n) (luaL_checklstring(L, (n), NULL))
+                               ^
+ircmess.c:12:15: note: in expansion of macro ‘luaL_checkstring’
+  char * arg = luaL_checkstring(l, 1);
+               ^
+No existing manifest. Attempting to rebuild...

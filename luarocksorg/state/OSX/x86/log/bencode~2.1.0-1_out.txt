@@ -1,0 +1,18 @@
+Archive:  lua-bencode-2.1.0.zip
+   creating: lua-bencode-2.1.0/
+  inflating: lua-bencode-2.1.0/bencode.lua  
+  inflating: lua-bencode-2.1.0/COPYING  
+   creating: lua-bencode-2.1.0/examples/
+  inflating: lua-bencode-2.1.0/examples/dumptorrent.lua  
+  inflating: lua-bencode-2.1.0/RELNOTES  
+   creating: lua-bencode-2.1.0/tests/
+  inflating: lua-bencode-2.1.0/tests/compare.lua  
+  inflating: lua-bencode-2.1.0/tests/neg_int.lua  
+  inflating: lua-bencode-2.1.0/tests/NOTE  
+  inflating: lua-bencode-2.1.0/tests/runtests.lua  
+  inflating: lua-bencode-2.1.0/tests/short_string.lua  
+Installing https://rocks.moonscript.org/bencode-2.1.0-1.src.rock...
+Using https://rocks.moonscript.org/bencode-2.1.0-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+bencode 2.1.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

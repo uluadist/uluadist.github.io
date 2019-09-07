@@ -1,0 +1,4 @@
+Installing https://rocks.moonscript.org/cosmo-14.03.04-1.all.rock...
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+
+cosmo 14.03.04-1 is now installed in /home/sp/luarockstree (license: MIT/X11)

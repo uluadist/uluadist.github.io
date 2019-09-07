@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+Cloning into 'lunzip'...
+lunzip.c:5:10: fatal error: 'zlib/contrib/minizip/unzip.h' file not found
+#include "zlib/contrib/minizip/unzip.h"
+         ^
+1 error generated.
+
+Error: Build error: Failed compiling object lunzip.o

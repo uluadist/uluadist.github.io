@@ -1,0 +1,22 @@
+Warning: skipping dependency checks.
+Cloning into 'lbuffer'...
+lbufflib.c:957:27: warning: incompatible pointer types passing 'size_t *' (aka 'unsigned long *') to parameter of type 'unsigned int *' [-Wincompatible-pointer-types]
+    parse_optint(&I(fmt), wide);
+                          ^~~~
+lbufflib.c:947:57: note: passing argument to parameter 'pn' here
+static int parse_optint(const char **str, unsigned int *pn) {
+                                                        ^
+lbufflib.c:963:31: warning: incompatible pointer types passing 'size_t *' (aka 'unsigned long *') to parameter of type 'unsigned int *' [-Wincompatible-pointer-types]
+        parse_optint(&I(fmt), &ucount);
+                              ^~~~~~~
+lbufflib.c:947:57: note: passing argument to parameter 'pn' here
+static int parse_optint(const char **str, unsigned int *pn) {
+                                                        ^
+lbufflib.c:1307:9: warning: implicit declaration of function 'luaI_openlib' is invalid in C99 [-Wimplicit-function-declaration]
+        luaL_setfuncs(L, libs, 0); /* 3->2 */
+        ^
+./lbuffer.h:29:41: note: expanded from macro 'luaL_setfuncs'
+#  define luaL_setfuncs(L,l,nups)       luaI_openlib((L),NULL,(l),(nups))
+                                        ^
+3 warnings generated.
+No existing manifest. Attempting to rebuild...

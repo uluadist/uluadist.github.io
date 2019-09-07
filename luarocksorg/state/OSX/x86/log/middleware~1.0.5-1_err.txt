@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for middleware 1.0.5-1: lua-resty-http 
+Missing dependency for middleware 1.0.5-1: lua-resty-http 

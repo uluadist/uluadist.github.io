@@ -1,0 +1,19 @@
+Warning: skipping dependency checks.
+Warning: unmatched variable CMAKE_BUILD_TYPE
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CFLAGS
+
+
+Cloning into 'SimpleITKSuperbuild'...
+Already on 'master'
+CMake Error at CMakeLists.txt:15 (cmake_minimum_required):
+  CMake 3.10 or higher is required.  You are running version 3.3.1
+
+
+make[2]: *** [SimpleITKSuperbuild-prefix/src/SimpleITKSuperbuild-stamp/SimpleITKSuperbuild-configure] Error 1
+make[1]: *** [CMakeFiles/SimpleITKSuperbuild.dir/all] Error 2
+make: *** [all] Error 2
+
+Error: Build error: Failed building.

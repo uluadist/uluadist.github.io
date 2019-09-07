@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+src/ctc.c: In function ‘constant_time_memeq’:
+src/ctc.c:14:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+     for(size_t i = 0; i < len; i++)
+     ^
+src/ctc.c:14:5: note: use option -std=c99 or -std=gnu99 to compile your code
+
+Error: Build error: Failed compiling object src/ctc.o

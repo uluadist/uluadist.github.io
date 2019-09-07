@@ -1,0 +1,32 @@
+Warning: skipping dependency checks.
+Note: checking out 'v1.6.1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at 9ef6139... Add rockspecs/process-1.6.1-1.rockspec
+src/process.c: In function ‘getgname_lua’:
+src/process.c:133:50: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     t id = (t)(lua_isnoneornil( L, 1 ) ? getid() : luaL_checkinteger( L, 1 )); \
+                                                  ^
+src/process.c:208:5: note: in expansion of macro ‘getname_lua’
+     getname_lua( L, gid_t, gid2gname, getgid );
+     ^
+src/process.c: In function ‘getuname_lua’:
+src/process.c:133:50: warning: signed and unsigned type in conditional expression [-Wsign-compare]
+     t id = (t)(lua_isnoneornil( L, 1 ) ? getid() : luaL_checkinteger( L, 1 )); \
+                                                  ^
+src/process.c:245:5: note: in expansion of macro ‘getname_lua’
+     getname_lua( L, uid_t, uid2uname, getuid );
+     ^
+src/process.c: In function ‘getsid_lua’:
+src/process.c:278:5: warning: implicit declaration of function ‘getsid’ [-Wimplicit-function-declaration]
+     pid_t sid = getsid( pid );
+     ^
+No existing manifest. Attempting to rebuild...

@@ -1,0 +1,8 @@
+Installing https://rocks.moonscript.org/snowflake-1.0-1.rockspec...
+Using https://rocks.moonscript.org/snowflake-1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_snowflake-1.0-1-1524/lua-snowflake/.git/
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/main.c -o src/main.o
+gcc -shared -o snowflake.so -L/home/sp/luajit/lib src/main.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+snowflake 1.0-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

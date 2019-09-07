@@ -1,0 +1,18 @@
+Warning: skipping dependency checks.
+In file included from error.cpp:18:
+common.hpp:21:17: error: png.h: No such file or directory
+In file included from error.cpp:18:
+common.hpp:26: error: variable or field ‘error_fn’ declared void
+common.hpp:26: error: ‘png_structp’ was not declared in this scope
+common.hpp:26: error: ‘png_const_charp’ was not declared in this scope
+common.hpp:36: error: ‘png_structp’ does not name a type
+common.hpp:37: error: ‘png_infop’ does not name a type
+common.hpp:54: error: ‘png_structp’ does not name a type
+common.hpp:55: error: ‘png_infop’ does not name a type
+common.hpp:59: error: ‘png_bytepp’ does not name a type
+error.cpp:21: error: variable or field ‘error_fn’ declared void
+error.cpp:21: error: ‘png_structp’ was not declared in this scope
+error.cpp:21: error: ‘png_const_charp’ was not declared in this scope
+make: *** [error.o] Error 1
+
+Error: Build error: Failed building.

@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+In file included from lua-nanovg.c:7:
+./lbind.h:5:10: fatal error: 'lua.h' file not found
+#include <lua.h>
+         ^
+1 error generated.
+make: *** [macosx] Error 1
+
+Error: Build error: Failed building.

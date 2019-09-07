@@ -1,0 +1,3 @@
+Installing https://luarocks.org/wtf-plugin-honeybot-fake-drupal-data-0.2-1.rockspec...
+Using https://luarocks.org/wtf-plugin-honeybot-fake-drupal-data-0.2-1.rockspec... switching to 'build' mode
+WTFBASE=/usr/local/share/wtf/data/;PACKAGEPATH=honeybot/fake/drupal;test -d $WTFBASE$PACKAGEPATH || mkdir -p $WTFBASE$PACKAGEPATH;cp -R _data/* $WTFBASE$PACKAGEPATH

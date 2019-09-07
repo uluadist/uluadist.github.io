@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+cc1plus: error: unrecognized command line option "-std=c++11"
+make: *** [main.o] Error 1
+
+Error: Build error: Failed building.

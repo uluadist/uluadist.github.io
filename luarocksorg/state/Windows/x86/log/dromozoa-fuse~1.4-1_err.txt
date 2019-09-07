@@ -1,0 +1,2 @@
+
+Error: C:\Users\sp\AppData\Local\Temp/luarocks_dromozoa-fuse-1.4-1-7766/dromozoa-fuse-1.4-1.rockspec: Unknown field test

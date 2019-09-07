@@ -1,0 +1,6 @@
+Installing https://luarocks.org/pash-1.0-1.rockspec...
+Using https://luarocks.org/pash-1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_pash-1.0-1-6908/pash/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+pash 1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

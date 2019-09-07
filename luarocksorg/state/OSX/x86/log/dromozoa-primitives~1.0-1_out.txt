@@ -1,0 +1,10 @@
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x86/luajit//include -Wall -W -O2 -fPIC -c module.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x86/luajit//include -Wall -W -O2 -fPIC -c uint64.cpp
+c++ -L/Users/sp/Dropbox/OSX/x86/luajit//lib -bundle -undefined dynamic_lookup -all_load module.o uint64.o -ldl -o primitives.so
+mkdir -p /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/dromozoa-primitives/1.0-1/lib/dromozoa
+cp primitives.so /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/dromozoa-primitives/1.0-1/lib/dromozoa
+Installing https://luarocks.org/dromozoa-primitives-1.0-1.src.rock...
+Using https://luarocks.org/dromozoa-primitives-1.0-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+dromozoa-primitives 1.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: GPL-3)
+

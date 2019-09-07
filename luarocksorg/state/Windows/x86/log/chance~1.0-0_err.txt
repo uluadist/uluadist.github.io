@@ -1,0 +1,23 @@
+Cloning into 'chance'...
+Warning: skipping dependency checks.
+
+Error: Failed initializing build back-end for build type 'buildin': module 'luarocks.build.buildin' not found:No LuaRocks module found for luarocks.build.buildin
+	no field package.preload['luarocks.build.buildin']
+	no file 'Z:\sp\Dropbox\Windows\x86\luarocks\lua\luarocks\build\buildin.lua'
+	no file 'Z:\sp\Dropbox\Windows\x86\luarocks\lua\luarocks\build\buildin\init.lua'
+	no file 'Z:/sp/Dropbox/Prj/scilua/head/luarocks\build\buildin/init.lua'
+	no file 'Z:/sp/Dropbox/Prj/scilua/head/luarocks\build\buildin.lua'
+	no file 'Z:/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/Windows/x86/luarocks\build\buildin/init.lua'
+	no file 'Z:/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/Windows/x86/luarocks\build\buildin.lua'
+	no file 'C:\Users\sp\AppData\Roaming/luarocks/share/lua/5.1/luarocks\build\buildin.lua'
+	no file 'C:\Users\sp\AppData\Roaming/luarocks/share/lua/5.1/luarocks\build\buildin/init.lua'
+	no file 'C:\ste\x86\luarockstree/share/lua/5.1/luarocks\build\buildin.lua'
+	no file 'C:\ste\x86\luarockstree/share/lua/5.1/luarocks\build\buildin/init.lua'
+	no file 'Z:/sp/Dropbox/Prj/scilua/head/luarocks\build\buildin.dll'
+	no file 'Z:/sp/Dropbox/Prj/scilua/head/loadall.dll'
+	no file 'C:\Users\sp\AppData\Roaming/luarocks/lib/lua/5.1/luarocks\build\buildin.dll'
+	no file 'C:\ste\x86\luarockstree/lib/lua/5.1/luarocks\build\buildin.dll'
+	no file 'Z:/sp/Dropbox/Prj/scilua/head/luarocks.dll'
+	no file 'Z:/sp/Dropbox/Prj/scilua/head/loadall.dll'
+	no file 'C:\Users\sp\AppData\Roaming/luarocks/lib/lua/5.1/luarocks.dll'
+	no file 'C:\ste\x86\luarockstree/lib/lua/5.1/luarocks.dll'

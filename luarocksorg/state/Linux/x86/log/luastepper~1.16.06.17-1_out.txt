@@ -1,0 +1,4 @@
+Installing https://luarocks.org/luastepper-1.16.06.17-1.rockspec...
+Using https://luarocks.org/luastepper-1.16.06.17-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_luastepper-1.16.06.17-1-1588/LuaStepper/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c LuaStepper.c -o LuaStepper.o

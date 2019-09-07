@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luapod 0.1-1: lpeg >= 0.6
+Missing dependency for luapod 0.1-1: lpeg >= 0.6

@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+/Library/Developer/CommandLineTools/usr/bin/c99: illegal option -- f
+usage: c99 [-cEgs] [-D name[=value]] [-I directory] ... [-L directory] ...
+       [-o outfile] [-O optlevel] [-U name]... [-W 64] operand ...
+make: *** [so/luauuid.o] Error 1
+
+Error: Build error: Failed building.

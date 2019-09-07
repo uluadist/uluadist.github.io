@@ -1,0 +1,4 @@
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -shared -fPIC -std=c11 -D_GNU_SOURCE -Wall -Wextra -Wno-nonnull -Wwrite-strings -Wformat=2 -DNDEBUG -I/Users/sp/Dropbox/OSX/x64/luajit/include   -c -o src/main.o src/main.c
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -o setuid.so src/main.o -O2 -shared -fPIC -std=c11 -D_GNU_SOURCE -Wall -Wextra -Wno-nonnull -Wwrite-strings -Wformat=2 -DNDEBUG -I/Users/sp/Dropbox/OSX/x64/luajit/include 
+Installing https://rocks.moonscript.org/setuid-1.0-1.src.rock...
+Using https://rocks.moonscript.org/setuid-1.0-1.src.rock... switching to 'build' mode

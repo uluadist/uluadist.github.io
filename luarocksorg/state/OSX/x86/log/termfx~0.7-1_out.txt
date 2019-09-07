@@ -1,0 +1,30 @@
+cp ./termbox/src/termbox.h .
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c termfx.c -o termfx.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c termfx_color.c -o termfx_color.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c tbutils.c -o tbutils.o
+(cd ./termbox; \
+	unset CC; \
+	./waf configure ; \
+	./waf build --targets=termbox_static -v )
+Setting top to                           : /private/tmp/luarocks_termfx-0.7-1-1944/termfx-0.7-1/termbox 
+Setting out to                           : /private/tmp/luarocks_termfx-0.7-1-1944/termfx-0.7-1/termbox/build 
+Checking for 'clang' (C compiler)        : /Users/sp/Dropbox/Bin/OSX/x86/clang 
+'configure' finished successfully (0.067s)
+Waf: Entering directory `/private/tmp/luarocks_termfx-0.7-1-1944/termfx-0.7-1/termbox/build'
+[1/3] c: src/termbox.c -> build/src/termbox.c.2.o
+15:04:38 runner ['/Users/sp/Dropbox/Bin/OSX/x86/clang', '-O2', '-fPIC', '-std=gnu99', '-Wall', '-Wextra', '-D_XOPEN_SOURCE', '-O3', '../src/termbox.c', '-c', '-o', '/private/tmp/luarocks_termfx-0.7-1-1944/termfx-0.7-1/termbox/build/src/termbox.c.2.o']
+[2/3] c: src/utf8.c -> build/src/utf8.c.2.o
+15:04:38 runner ['/Users/sp/Dropbox/Bin/OSX/x86/clang', '-O2', '-fPIC', '-std=gnu99', '-Wall', '-Wextra', '-D_XOPEN_SOURCE', '-O3', '../src/utf8.c', '-c', '-o', '/private/tmp/luarocks_termfx-0.7-1-1944/termfx-0.7-1/termbox/build/src/utf8.c.2.o']
+[3/3] cstlib: build/src/termbox.c.2.o build/src/utf8.c.2.o -> build/src/libtermbox.a
+15:04:38 runner ['/usr/bin/ar', 'rcs', 'src/libtermbox.a', 'src/termbox.c.2.o', 'src/utf8.c.2.o']
+Waf: Leaving directory `/private/tmp/luarocks_termfx-0.7-1-1944/termfx-0.7-1/termbox/build'
+'build' finished successfully (0.425s)
+cp termbox/build/src/libtermbox.a libtermbox.a
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o termfx.so -L/Users/sp/Dropbox/OSX/x86/luajit/lib termfx.o termfx_color.o tbutils.o -L. -ltermbox
+mkdir -p /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/termfx/0.7-1/lib
+cp termfx.so /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/termfx/0.7-1/lib
+Installing https://rocks.moonscript.org/termfx-0.7-1.src.rock...
+Using https://rocks.moonscript.org/termfx-0.7-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+termfx 0.7-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

@@ -1,0 +1,16 @@
+Archive:  0.2.zip
+e876945bef18b6458a385488ef115831a0851213
+   creating: luasolr-0.2/
+  inflating: luasolr-0.2/LICENSE.txt  
+  inflating: luasolr-0.2/README.md   
+   creating: luasolr-0.2/example/
+  inflating: luasolr-0.2/example/example.lua  
+   creating: luasolr-0.2/lua/
+  inflating: luasolr-0.2/lua/solr.lua  
+   creating: luasolr-0.2/rockspecs/
+  inflating: luasolr-0.2/rockspecs/solr-0.1-1.rockspec  
+Installing https://rocks.moonscript.org/solr-0.2-1.rockspec...
+Using https://rocks.moonscript.org/solr-0.2-1.rockspec... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+solr 0.2-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

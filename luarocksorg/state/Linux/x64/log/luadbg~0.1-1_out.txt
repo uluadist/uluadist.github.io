@@ -1,0 +1,6 @@
+Initialized empty Git repository in /tmp/luarocks_luadbg-0.1-1-2683/luadbg/.git/
+Installing https://rocks.moonscript.org/luadbg-0.1-1.rockspec...
+Using https://rocks.moonscript.org/luadbg-0.1-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+luadbg 0.1-1 is now built and installed in /home/sp/luarockstree (license: LGP-v3)
+

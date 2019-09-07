@@ -1,0 +1,5 @@
+Installing https://luarocks.org/tapered-2.0.1-1.src.rock...
+Using https://luarocks.org/tapered-2.0.1-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+tapered 2.0.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: BSD 3-Clause)
+

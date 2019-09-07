@@ -1,0 +1,4 @@
+Initialized empty Git repository in /tmp/luarocks_luajit-gumbo-0.1-2-3958/luajit-gumbo/.git/
+git submodule init
+Installing https://rocks.moonscript.org/luajit-gumbo-0.1-2.rockspec...
+Using https://rocks.moonscript.org/luajit-gumbo-0.1-2.rockspec... switching to 'build' mode

@@ -1,0 +1,4 @@
+Z:\sp\Dropbox\Windows\x64\luarocks\tools\cp: omitting directory `Moan.lua'
+Warning: skipping dependency checks.
+
+Error: Build error: Failed installing Moan.lua in C:\ste\x64\luarockstree/lib/luarocks/rocks/moan/1.0-1/lua/moan.lua

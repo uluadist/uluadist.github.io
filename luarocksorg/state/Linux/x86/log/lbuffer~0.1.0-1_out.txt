@@ -1,0 +1,9 @@
+Initialized empty Git repository in /tmp/luarocks_lbuffer-0.1.0-1-6893/lbuffer/.git/
+Installing https://rocks.moonscript.org/lbuffer-0.1.0-1.rockspec...
+Using https://rocks.moonscript.org/lbuffer-0.1.0-1.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lbuffer.c -o lbuffer.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lbufflib.c -o lbufflib.o
+gcc -shared -o buffer.so -L/home/sp/luajit/lib lbuffer.o lbufflib.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lbuffer 0.1.0-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

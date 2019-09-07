@@ -1,0 +1,15 @@
+Installing https://luarocks.org/lanes-3.13.0-0.rockspec...
+Using https://luarocks.org/lanes-3.13.0-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lanes-3.13.0-0-890/lanes/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/compat.c -o src/compat.o -Isrc
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/deep.c -o src/deep.o -Isrc
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/lanes.c -o src/lanes.o -Isrc
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/linda.c -o src/linda.o -Isrc
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/keeper.c -o src/keeper.o -Isrc
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/tools.c -o src/tools.o -Isrc
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/threading.c -o src/threading.o -Isrc
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/universe.c -o src/universe.o -Isrc
+gcc -shared -o lanes/core.so -L/home/sp/Dropbox/Linux/x64/luajit//lib src/compat.o src/deep.o src/lanes.o src/linda.o src/keeper.o src/tools.o src/threading.o src/universe.o -lpthread
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lanes 3.13.0-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/cassandra-0.5-7.rockspec...
+Using https://rocks.moonscript.org/cassandra-0.5-7.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_cassandra-0.5-7-6351/lua-resty-cassandra/.git/
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+cassandra 0.5-7 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

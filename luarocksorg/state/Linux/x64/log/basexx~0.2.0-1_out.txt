@@ -1,0 +1,5 @@
+Installing https://rocks.moonscript.org/basexx-0.2.0-1.rockspec...
+Using https://rocks.moonscript.org/basexx-0.2.0-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+basexx 0.2.0-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

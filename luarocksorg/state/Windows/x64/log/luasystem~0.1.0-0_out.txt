@@ -1,0 +1,9 @@
+core.c
+compat.c
+time.c
+src/time.c(54): error C2065: 'DBL_MAX': undeclared identifier
+Installing https://luarocks.org/luasystem-0.1.0-0.src.rock...
+Using https://luarocks.org/luasystem-0.1.0-0.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/core.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/core.c
+cl /nologo /MD /O2 -c -Fosrc/compat.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/compat.c
+cl /nologo /MD /O2 -c -Fosrc/time.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/time.c

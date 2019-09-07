@@ -1,0 +1,740 @@
+Warning: skipping dependency checks.
+src/sha/hmac.c:38:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha1_begin;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:39:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha1_hash;
+                    ^ ~~~~~~~~~
+src/sha/hmac.c:40:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha1_end;
+                    ^ ~~~~~~~~
+src/sha/hmac.c:47:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha224_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:48:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha224_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:49:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha224_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:56:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha256_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:57:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha256_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:58:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha256_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:65:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha384_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:66:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha384_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:67:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha384_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:74:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:75:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:76:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:81:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_256_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:82:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_256_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:83:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_256_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:88:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_224_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:89:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_224_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:90:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_224_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:95:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_192_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:96:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_192_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:97:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_192_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:102:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_128_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:103:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_128_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:104:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_128_end;
+                    ^ ~~~~~~~~~~~~~~
+27 warnings generated.
+src/sha/hmac.c:38:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha1_begin;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:39:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha1_hash;
+                    ^ ~~~~~~~~~
+src/sha/hmac.c:40:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha1_end;
+                    ^ ~~~~~~~~
+src/sha/hmac.c:47:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha224_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:48:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha224_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:49:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha224_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:56:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha256_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:57:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha256_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:58:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha256_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:65:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha384_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:66:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha384_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:67:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha384_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:74:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:75:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:76:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:81:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_256_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:82:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_256_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:83:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_256_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:88:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_224_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:89:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_224_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:90:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_224_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:95:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_192_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:96:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_192_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:97:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_192_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:102:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_128_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:103:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_128_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:104:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_128_end;
+                    ^ ~~~~~~~~~~~~~~
+27 warnings generated.
+src/sha/hmac.c:38:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha1_begin;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:39:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha1_hash;
+                    ^ ~~~~~~~~~
+src/sha/hmac.c:40:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha1_end;
+                    ^ ~~~~~~~~
+src/sha/hmac.c:47:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha224_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:48:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha224_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:49:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha224_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:56:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha256_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:57:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha256_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:58:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha256_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:65:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha384_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:66:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha384_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:67:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha384_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:74:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:75:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:76:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:81:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_256_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:82:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_256_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:83:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_256_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:88:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_224_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:89:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_224_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:90:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_224_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:95:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_192_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:96:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_192_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:97:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_192_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:102:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_128_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:103:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_128_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:104:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_128_end;
+                    ^ ~~~~~~~~~~~~~~
+27 warnings generated.
+src/sha/hmac.c:38:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha1_begin;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:39:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha1_hash;
+                    ^ ~~~~~~~~~
+src/sha/hmac.c:40:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha1_end;
+                    ^ ~~~~~~~~
+src/sha/hmac.c:47:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha224_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:48:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha224_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:49:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha224_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:56:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha256_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:57:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha256_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:58:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha256_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:65:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha384_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:66:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha384_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:67:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha384_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:74:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:75:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:76:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:81:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_256_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:82:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_256_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:83:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_256_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:88:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_224_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:89:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_224_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:90:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_224_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:95:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_192_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:96:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_192_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:97:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_192_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:102:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_128_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:103:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_128_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:104:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_128_end;
+                    ^ ~~~~~~~~~~~~~~
+27 warnings generated.
+src/sha/hmac.c:38:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha1_begin;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:39:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha1_hash;
+                    ^ ~~~~~~~~~
+src/sha/hmac.c:40:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha1_end;
+                    ^ ~~~~~~~~
+src/sha/hmac.c:47:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha224_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:48:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha224_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:49:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha224_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:56:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha256_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:57:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha256_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:58:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha256_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:65:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha384_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:66:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha384_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:67:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha384_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:74:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:75:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:76:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:81:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_256_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:82:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_256_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:83:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_256_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:88:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_224_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:89:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_224_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:90:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_224_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:95:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_192_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:96:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_192_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:97:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_192_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:102:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_128_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:103:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_128_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:104:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_128_end;
+                    ^ ~~~~~~~~~~~~~~
+27 warnings generated.
+src/sha/hmac.c:38:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha1_begin;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:39:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha1_hash;
+                    ^ ~~~~~~~~~
+src/sha/hmac.c:40:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha1_end;
+                    ^ ~~~~~~~~
+src/sha/hmac.c:47:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha224_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:48:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha224_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:49:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha224_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:56:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha256_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:57:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha256_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:58:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha256_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:65:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha384_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:66:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha384_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:67:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha384_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:74:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:75:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:76:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:81:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_256_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:82:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_256_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:83:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_256_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:88:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_224_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:89:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_224_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:90:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_224_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:95:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_192_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:96:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_192_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:97:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_192_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:102:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_128_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:103:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_128_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:104:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_128_end;
+                    ^ ~~~~~~~~~~~~~~
+27 warnings generated.
+src/sha/hmac.c:38:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha1_begin;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:39:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha1_hash;
+                    ^ ~~~~~~~~~
+src/sha/hmac.c:40:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha1_end;
+                    ^ ~~~~~~~~
+src/sha/hmac.c:47:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha224_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:48:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha224_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:49:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha224_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:56:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha256_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:57:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha256_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:58:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha256_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:65:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha384_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:66:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha384_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:67:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha384_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:74:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:75:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:76:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:81:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_256_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:82:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_256_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:83:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_256_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:88:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_224_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:89:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_224_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:90:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_224_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:95:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_192_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:96:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_192_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:97:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_192_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:102:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_128_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:103:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_128_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:104:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_128_end;
+                    ^ ~~~~~~~~~~~~~~
+27 warnings generated.
+src/sha/hmac.c:38:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha1_begin;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:39:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha1_hash;
+                    ^ ~~~~~~~~~
+src/sha/hmac.c:40:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha1_end;
+                    ^ ~~~~~~~~
+src/sha/hmac.c:47:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha224_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:48:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha224_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:49:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha224_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:56:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha256_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:57:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha256_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:58:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha256_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:65:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha384_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:66:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha384_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:67:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha384_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:74:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:75:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:76:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:81:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_256_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:82:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_256_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:83:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_256_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:88:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_224_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:89:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_224_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:90:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_224_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:95:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_192_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:96:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_192_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:97:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_192_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:102:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_128_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:103:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_128_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:104:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_128_end;
+                    ^ ~~~~~~~~~~~~~~
+27 warnings generated.
+src/sha/hmac.c:38:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha1_begin;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:39:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha1_hash;
+                    ^ ~~~~~~~~~
+src/sha/hmac.c:40:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha1_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha1_end;
+                    ^ ~~~~~~~~
+src/sha/hmac.c:47:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha224_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:48:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha224_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:49:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha224_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha224_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:56:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha256_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:57:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha256_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:58:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha256_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha256_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:65:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha384_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:66:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha384_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:67:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha384_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha384_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:74:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_begin;
+                    ^ ~~~~~~~~~~~~
+src/sha/hmac.c:75:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_hash;
+                    ^ ~~~~~~~~~~~
+src/sha/hmac.c:76:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_end;
+                    ^ ~~~~~~~~~~
+src/sha/hmac.c:81:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_256_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:82:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_256_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:83:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_256_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:88:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_224_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:89:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_224_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:90:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_224_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:95:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_192_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:96:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_192_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:97:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_192_end;
+                    ^ ~~~~~~~~~~~~~~
+src/sha/hmac.c:102:21: warning: incompatible pointer types assigning to 'hf_begin *' (aka 'void (*)(void *)') from 'void (sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_begin = sha512_128_begin;
+                    ^ ~~~~~~~~~~~~~~~~
+src/sha/hmac.c:103:21: warning: incompatible pointer types assigning to 'hf_hash *' (aka 'void (*)(const void *, unsigned long, void *)') from 'void (const unsigned char *, unsigned long, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_hash  = sha512_128_hash;
+                    ^ ~~~~~~~~~~~~~~~
+src/sha/hmac.c:104:21: warning: incompatible pointer types assigning to 'hf_end *' (aka 'void (*)(void *, void *)') from 'void (unsigned char *, sha512_ctx *)' [-Wincompatible-pointer-types]
+        cx->f_end   = sha512_128_end;
+                    ^ ~~~~~~~~~~~~~~
+27 warnings generated.
+No existing manifest. Attempting to rebuild...

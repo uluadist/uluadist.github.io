@@ -1,0 +1,19 @@
+Warning: skipping dependency checks.
+Cloning into 'sleep'...
+Note: checking out '16a051a4742320fbd0d7e490717967901ca741c0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+CMake Error at CMakeLists.txt:10 (message):
+  Variable `LUA_INCLUDE_DIR' expected to be defined.
+
+
+
+Error: Build error: Failed cmake.

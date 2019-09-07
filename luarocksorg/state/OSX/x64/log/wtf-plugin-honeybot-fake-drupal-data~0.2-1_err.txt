@@ -1,0 +1,18 @@
+Warning: skipping dependency checks.
+Cloning into 'wtf-plugin-honeybot-fake-drupal'...
+Note: checking out 'fdc1dbd08c457c8510a4ceba8800a27f03614f43'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+mkdir: /usr/local/share/wtf/data/honeybot/fake/drupal: Permission denied
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+
+Error: Build error: Failed building.

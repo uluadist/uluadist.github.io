@@ -1,0 +1,6 @@
+Initialized empty Git repository in /tmp/luarocks_socks5-1.5-1-206/lua-resty-socks5/.git/
+Installing https://rocks.moonscript.org/socks5-1.5-1.rockspec...
+Using https://rocks.moonscript.org/socks5-1.5-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+socks5 1.5-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

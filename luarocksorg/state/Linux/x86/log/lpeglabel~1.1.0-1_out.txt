@@ -1,0 +1,11 @@
+Installing https://luarocks.org/lpeglabel-1.1.0-1.src.rock...
+Using https://luarocks.org/lpeglabel-1.1.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c lpcap.c -o lpcap.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c lpcode.c -o lpcode.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c lpprint.c -o lpprint.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c lptree.c -o lptree.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c lpvm.c -o lpvm.o
+gcc -shared -o lpeglabel.so -L/home/sp/Dropbox/Linux/x86/luajit//lib lpcap.o lpcode.o lpprint.o lptree.o lpvm.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lpeglabel 1.1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

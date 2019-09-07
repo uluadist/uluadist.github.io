@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for org.conman.parsers.json 1.1.1-1: lpeg >= 0.10
+Missing dependency for org.conman.parsers.json 1.1.1-1: lpeg >= 0.10

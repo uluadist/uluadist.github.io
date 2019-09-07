@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_luarocks-3.2.0-1-3279/luarocks-3.2.0-1.rockspec: Unknown field test

@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for http-digest 1.2.1-1: md5 
+Missing dependency for http-digest 1.2.1-1: luasocket 
+Missing dependency for http-digest 1.2.1-1: md5 
+Missing dependency for http-digest 1.2.1-1: luasocket 

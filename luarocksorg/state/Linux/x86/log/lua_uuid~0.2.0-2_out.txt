@@ -1,0 +1,4 @@
+Installing https://rocks.moonscript.org/lua_uuid-0.2.0-2.rockspec...
+Using https://rocks.moonscript.org/lua_uuid-0.2.0-2.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua_uuid-0.2.0-2-9502/lua-uuid/.git/
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lua_uuid.c -o lua_uuid.o

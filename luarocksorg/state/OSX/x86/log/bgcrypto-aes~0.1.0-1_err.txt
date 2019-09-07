@@ -1,0 +1,63 @@
+Warning: skipping dependency checks.
+In file included from src/aes/aes_modes.c:60:
+src/aes/aes_via_ace.h:405:34: warning: function cannot return qualified void type 'volatile void' [-Wqualified-void-return-type]
+INLINE volatile  void via_ecb_op5(
+                                 ^
+src/aes/aes_via_ace.h:419:34: warning: function cannot return qualified void type 'volatile void' [-Wqualified-void-return-type]
+INLINE volatile  void via_cbc_op6(
+                                 ^
+src/aes/aes_via_ace.h:434:34: warning: function cannot return qualified void type 'volatile void' [-Wqualified-void-return-type]
+INLINE volatile  void via_cbc_op7(
+                                 ^
+src/aes/aes_via_ace.h:452:34: warning: function cannot return qualified void type 'volatile void' [-Wqualified-void-return-type]
+INLINE volatile  void via_cfb_op6(
+                                 ^
+src/aes/aes_via_ace.h:467:34: warning: function cannot return qualified void type 'volatile void' [-Wqualified-void-return-type]
+INLINE volatile  void via_cfb_op7(
+                                 ^
+src/aes/aes_via_ace.h:485:34: warning: function cannot return qualified void type 'volatile void' [-Wqualified-void-return-type]
+INLINE volatile  void via_ofb_op6(
+                                 ^
+src/aes/aes_modes.c:169:20: warning: assigning to 'uint8_t *' (aka 'unsigned char *') from 'const uint8_t *' (aka 'const unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                ip = (ALIGN_OFFSET( ibuf, 16 ) ? buf : ibuf);
+                   ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/aes/aes_modes.c:231:20: warning: assigning to 'uint8_t *' (aka 'unsigned char *') from 'const uint8_t *' (aka 'const unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                ip = (ALIGN_OFFSET( ibuf, 16 ) ? buf : ibuf);
+                   ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/aes/aes_modes.c:300:20: warning: assigning to 'uint8_t *' (aka 'unsigned char *') from 'const uint8_t *' (aka 'const unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                ip = (ALIGN_OFFSET( ibuf, 16 ) ? buf : ibuf);
+                   ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/aes/aes_modes.c:398:20: warning: assigning to 'uint8_t *' (aka 'unsigned char *') from 'const uint8_t *' (aka 'const unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                ip = (ALIGN_OFFSET( ibuf, 16 ) ? buf : ibuf);
+                   ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/aes/aes_modes.c:510:24: warning: assigning to 'uint8_t *' (aka 'unsigned char *') from 'const uint8_t *' (aka 'const unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                    ip = (ALIGN_OFFSET( ibuf, 16 ) ? buf : ibuf);
+                       ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/aes/aes_modes.c:638:24: warning: assigning to 'uint8_t *' (aka 'unsigned char *') from 'const uint8_t *' (aka 'const unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                    ip = (ALIGN_OFFSET( ibuf, 16 ) ? buf : ibuf);
+                       ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/aes/aes_modes.c:776:24: warning: assigning to 'uint8_t *' (aka 'unsigned char *') from 'const uint8_t *' (aka 'const unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+                    ip = (ALIGN_OFFSET( ibuf, 16 ) ? buf : ibuf);
+                       ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+13 warnings generated.
+In file included from src/aes/aeskey.c:32:
+src/aes/aes_via_ace.h:405:34: warning: function cannot return qualified void type 'volatile void' [-Wqualified-void-return-type]
+INLINE volatile  void via_ecb_op5(
+                                 ^
+src/aes/aes_via_ace.h:419:34: warning: function cannot return qualified void type 'volatile void' [-Wqualified-void-return-type]
+INLINE volatile  void via_cbc_op6(
+                                 ^
+src/aes/aes_via_ace.h:434:34: warning: function cannot return qualified void type 'volatile void' [-Wqualified-void-return-type]
+INLINE volatile  void via_cbc_op7(
+                                 ^
+src/aes/aes_via_ace.h:452:34: warning: function cannot return qualified void type 'volatile void' [-Wqualified-void-return-type]
+INLINE volatile  void via_cfb_op6(
+                                 ^
+src/aes/aes_via_ace.h:467:34: warning: function cannot return qualified void type 'volatile void' [-Wqualified-void-return-type]
+INLINE volatile  void via_cfb_op7(
+                                 ^
+src/aes/aes_via_ace.h:485:34: warning: function cannot return qualified void type 'volatile void' [-Wqualified-void-return-type]
+INLINE volatile  void via_ofb_op6(
+                                 ^
+6 warnings generated.
+No existing manifest. Attempting to rebuild...

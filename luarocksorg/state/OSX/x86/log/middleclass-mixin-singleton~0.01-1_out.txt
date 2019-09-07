@@ -1,0 +1,17 @@
+Archive:  v0.01.zip
+824d7312fb8540c57eec1a74d8edbbe287d4def1
+   creating: middleclass-mixin-singleton-0.01/
+  inflating: middleclass-mixin-singleton-0.01/README.pod  
+   creating: middleclass-mixin-singleton-0.01/middleclass/
+   creating: middleclass-mixin-singleton-0.01/middleclass/mixin/
+  inflating: middleclass-mixin-singleton-0.01/middleclass/mixin/singleton.lua  
+   creating: middleclass-mixin-singleton-0.01/rockspecs/
+  inflating: middleclass-mixin-singleton-0.01/rockspecs/middleclass-mixin-singleton-0.01-1.rockspec  
+  inflating: middleclass-mixin-singleton-0.01/rockspecs/middleclass-mixin-singleton-scm.rockspec  
+   creating: middleclass-mixin-singleton-0.01/t/
+  inflating: middleclass-mixin-singleton-0.01/t/mixin-singleton.lua  
+Installing https://luarocks.org/middleclass-mixin-singleton-0.01-1.src.rock...
+Using https://luarocks.org/middleclass-mixin-singleton-0.01-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+middleclass-mixin-singleton 0.01-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

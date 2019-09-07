@@ -1,0 +1,3 @@
+/Users/sp/Dropbox/OSX/x64/luajit/bin/lua platform.lua
+Installing https://rocks.moonscript.org/opencl-1.2.0-1.src.rock...
+Using https://rocks.moonscript.org/opencl-1.2.0-1.src.rock... switching to 'build' mode

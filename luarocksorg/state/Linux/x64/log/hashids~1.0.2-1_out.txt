@@ -1,0 +1,7 @@
+Installing https://luarocks.org/hashids-1.0.2-1.src.rock...
+Using https://luarocks.org/hashids-1.0.2-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/clib.c -o src/clib.o
+gcc -shared -o hashids/clib.so -L/home/sp/Dropbox/Linux/x64/luajit//lib src/clib.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+hashids 1.0.2-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

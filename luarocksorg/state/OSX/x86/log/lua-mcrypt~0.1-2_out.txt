@@ -1,0 +1,3 @@
+Installing https://luarocks.org/lua-mcrypt-0.1-2.rockspec...
+Using https://luarocks.org/lua-mcrypt-0.1-2.rockspec... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c lmcryptlib.c -o lmcryptlib.o

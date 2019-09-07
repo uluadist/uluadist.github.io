@@ -1,0 +1,12 @@
+lpath.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library path.lib and object path.exp
+Installing https://luarocks.org/lpath-0.1.0-1.rockspec...
+Using https://luarocks.org/lpath-0.1.0-1.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folpath.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lpath.c
+link -dll -def:path.def -out:path.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib lpath.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+lpath 0.1.0-1 is now built and installed in C:\ste\x64\luarockstree (license: MIT/X11)
+

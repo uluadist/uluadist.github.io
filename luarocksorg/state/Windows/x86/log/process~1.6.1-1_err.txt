@@ -1,0 +1,21 @@
+Cloning into 'lua-process'...
+Note: checking out '9ef61396f56ee04fdeb5117f7b107c287a24f90f'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+
+Microsoft (R) Program Maintenance Utility Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+NMAKE : fatal error U1052: file 'Makefile.win' not found
+Stop.
+Warning: skipping dependency checks.
+
+Error: Build error: Failed building.

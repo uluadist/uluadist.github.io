@@ -1,0 +1,3 @@
+Installing https://luarocks.org/mwcrng-1.2-1.src.rock...
+Using https://luarocks.org/mwcrng-1.2-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c l_rng.c -o l_rng.o

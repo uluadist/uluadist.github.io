@@ -1,0 +1,9 @@
+Warning: skipping dependency checks.
+fatal: Not a git repository (or any of the parent directories): .git
+cbor_c.c:28:10: fatal error: 'lua.h' file not found
+#include <lua.h>
+         ^
+1 error generated.
+make: *** [cbor_c.o] Error 1
+
+Error: Build error: Failed building.

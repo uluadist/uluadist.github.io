@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Error fetching file: Failed downloading https://github.com/jprjr/lua-resty-mpd/archive/1.0.0.tar.gz - lua-resty-mpd-1.0.0.tar.gz

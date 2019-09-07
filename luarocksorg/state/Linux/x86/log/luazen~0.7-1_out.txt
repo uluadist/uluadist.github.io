@@ -1,0 +1,13 @@
+Installing https://luarocks.org/luazen-0.7-1.src.rock...
+Using https://luarocks.org/luazen-0.7-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/luazen.c -o src/luazen.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/base58.c -o src/base58.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/lzf_c.c -o src/lzf_c.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/lzf_d.c -o src/lzf_d.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/md5.c -o src/md5.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/sha1.c -o src/sha1.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/rc4.c -o src/rc4.o
+gcc -shared -o luazen.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/luazen.o src/base58.o src/lzf_c.o src/lzf_d.o src/md5.o src/sha1.o src/rc4.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+luazen 0.7-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

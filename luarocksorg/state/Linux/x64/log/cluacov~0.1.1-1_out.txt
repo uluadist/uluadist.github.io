@@ -1,0 +1,9 @@
+Installing https://luarocks.org/cluacov-0.1.1-1.src.rock...
+Using https://luarocks.org/cluacov-0.1.1-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/cluacov/deepactivelines.c -o src/cluacov/deepactivelines.o
+gcc -shared -o cluacov/deepactivelines.so -L/home/sp/Dropbox/Linux/x64/luajit//lib src/cluacov/deepactivelines.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/cluacov/hook.c -o src/cluacov/hook.o
+gcc -shared -o cluacov/hook.so -L/home/sp/Dropbox/Linux/x64/luajit//lib src/cluacov/hook.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+cluacov 0.1.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-resty-statsd-3.0.2-1.rockspec...
+Using https://luarocks.org/lua-resty-statsd-3.0.2-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-resty-statsd-3.0.2-1-8441/lua-resty-statsd/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-resty-statsd 3.0.2-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

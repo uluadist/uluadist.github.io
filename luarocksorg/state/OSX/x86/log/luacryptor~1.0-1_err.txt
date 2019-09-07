@@ -1,0 +1,69 @@
+Warning: skipping dependency checks.
+luacryptorext.c:847:28: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    calc_sha256(sha256sum, password, password_s);
+                           ^~~~~~~~
+luacryptorext.c:818:22: note: passing argument to parameter 'text' here
+        const uint8* text, size_t size) {
+                     ^
+luacryptorext.c:891:17: warning: passing 'char *' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        xor_ctr(b_out, i);
+                ^~~~~
+luacryptorext.c:808:36: note: passing argument to parameter 'block' here
+static void xor_ctr(unsigned char* block, unsigned int ctr) {
+                                   ^
+luacryptorext.c:892:24: warning: passing 'char *' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        encrypt(K, QF, b_out);
+                       ^~~~~
+luacryptorext.c:387:52: note: passing argument to parameter 'PT' here
+static void encrypt(u32 K[40], u32 S[4][256], BYTE PT[16])
+                                                   ^
+luacryptorext.c:893:19: warning: passing 'char *' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        xor_block(b_out, b_in, BLOCK_BYTES);
+                  ^~~~~
+luacryptorext.c:799:29: note: passing argument to parameter 'dst' here
+static void xor_block(BYTE* dst, const BYTE* src, int size) {
+                            ^
+luacryptorext.c:893:26: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        xor_block(b_out, b_in, BLOCK_BYTES);
+                         ^~~~
+luacryptorext.c:799:46: note: passing argument to parameter 'src' here
+static void xor_block(BYTE* dst, const BYTE* src, int size) {
+                                             ^
+luacryptorext.c:901:17: warning: passing 'char [16]' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        xor_ctr(block, normal_blocks);
+                ^~~~~
+luacryptorext.c:808:36: note: passing argument to parameter 'block' here
+static void xor_ctr(unsigned char* block, unsigned int ctr) {
+                                   ^
+luacryptorext.c:902:24: warning: passing 'char [16]' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        encrypt(K, QF, block);
+                       ^~~~~
+luacryptorext.c:387:52: note: passing argument to parameter 'PT' here
+static void encrypt(u32 K[40], u32 S[4][256], BYTE PT[16])
+                                                   ^
+luacryptorext.c:904:19: warning: passing 'char *' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        xor_block(b_out, b_in, last_block_size);
+                  ^~~~~
+luacryptorext.c:799:29: note: passing argument to parameter 'dst' here
+static void xor_block(BYTE* dst, const BYTE* src, int size) {
+                            ^
+luacryptorext.c:904:26: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        xor_block(b_out, b_in, last_block_size);
+                         ^~~~
+luacryptorext.c:799:46: note: passing argument to parameter 'src' here
+static void xor_block(BYTE* dst, const BYTE* src, int size) {
+                                             ^
+luacryptorext.c:929:28: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    calc_sha256(sha256sum, text, size);
+                           ^~~~
+luacryptorext.c:818:22: note: passing argument to parameter 'text' here
+        const uint8* text, size_t size) {
+                     ^
+luacryptorext.c:930:24: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    lua_pushlstring(L, sha256sum, 32);
+                       ^~~~~~~~~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+11 warnings generated.
+No existing manifest. Attempting to rebuild...

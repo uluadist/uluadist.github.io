@@ -1,0 +1,4 @@
+Z:\sp\Dropbox\Windows\x86\luarocks\tools\cp: cannot stat `dedlit/dedlit.lua': No such file or directory
+Warning: skipping dependency checks.
+
+Error: Failed copying dedlit/dedlit.lua

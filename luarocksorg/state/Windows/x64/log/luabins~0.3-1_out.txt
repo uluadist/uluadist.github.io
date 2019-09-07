@@ -1,0 +1,6 @@
+load.c
+src/load.c(140): error C2065: 'LUAI_BITSINT': undeclared identifier
+src/load.c(142): error C2065: 'LUAI_BITSINT': undeclared identifier
+Installing https://luarocks.org/luabins-0.3-1.src.rock...
+Using https://luarocks.org/luabins-0.3-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/load.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/load.c -Isrc/

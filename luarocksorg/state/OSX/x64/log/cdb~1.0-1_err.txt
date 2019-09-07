@@ -1,0 +1,42 @@
+Warning: skipping dependency checks.
+Cloning into 'lua-cdb'...
+Note: checking out 'b9c69134971ea5704121164f4e054c8394e8a6b0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+src/lcdb.c:30:44: warning: passing 'long *' to parameter of type 'size_t *' (aka 'unsigned long *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        const char *fn = luaL_checklstring( L, 1, &n );
+                                                  ^~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lauxlib.h:38:67: note: passing argument to parameter 'l' here
+                                                          size_t *l);
+                                                                  ^
+src/lcdb.c:62:31: warning: passing 'long *' to parameter of type 'size_t *' (aka 'unsigned long *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        k = luaL_checklstring( L, 2, &l );
+                                     ^~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lauxlib.h:38:67: note: passing argument to parameter 'l' here
+                                                          size_t *l);
+                                                                  ^
+src/lcdb.c:63:37: warning: passing 'int *' to parameter of type 'unsigned int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        switch ( cdb_read( &lcdb->cdb, &v, &vlen, k, klen = (int)l ) ) {
+                                           ^~~~~
+inc/cdb.h:27:52: note: passing argument to parameter 'dlen' here
+int cdb_read ( Cdb *cdb, char **dst, unsigned int *dlen,
+                                                   ^
+src/lcdb.c:63:44: warning: passing 'const char *' to parameter of type 'const uchar *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        switch ( cdb_read( &lcdb->cdb, &v, &vlen, k, klen = (int)l ) ) {
+                                                  ^
+inc/cdb.h:28:16: note: passing argument to parameter 'key' here
+                const uchar *key, unsigned int klen );
+                             ^
+src/lcdb.c:68:37: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                luaL_error( L, "lcdb_get - cdb `%s<B4> is corrupt", lcdb->fn );
+                                                  ^~~~
+5 warnings generated.
+No existing manifest. Attempting to rebuild...

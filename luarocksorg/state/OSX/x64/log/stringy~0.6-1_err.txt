@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+In file included from stringy/stringy.c:14:
+stringy/fastsearch.h:112:23: warning: comparison of unsigned expression >= 0 is always true [-Wtautological-compare]
+        for (i = w; i >= 0; i--) {
+                    ~ ^  ~
+1 warning generated.
+No existing manifest. Attempting to rebuild...

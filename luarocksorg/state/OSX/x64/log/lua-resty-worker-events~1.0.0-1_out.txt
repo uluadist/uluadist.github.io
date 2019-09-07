@@ -1,0 +1,5 @@
+Installing https://luarocks.org/lua-resty-worker-events-1.0.0-1.src.rock...
+Using https://luarocks.org/lua-resty-worker-events-1.0.0-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lua-resty-worker-events 1.0.0-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: Apache 2.0)
+

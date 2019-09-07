@@ -1,0 +1,4 @@
+Installing https://luarocks.org/luatz-0.3-1.all.rock...
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+
+luatz 0.3-1 is now installed in C:\ste\x86\luarockstree (license: MIT/X11)

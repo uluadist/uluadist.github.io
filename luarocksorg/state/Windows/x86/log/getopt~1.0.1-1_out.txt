@@ -1,0 +1,5 @@
+argv.c
+argv.c(7): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+Installing https://luarocks.org/getopt-1.0.1-1.src.rock...
+Using https://luarocks.org/getopt-1.0.1-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Foargv.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src argv.c -DVERSION="1.01"

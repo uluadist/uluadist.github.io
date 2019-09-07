@@ -1,0 +1,7 @@
+Installing https://luarocks.org/smithsnmp-0.8-2.src.rock...
+Using https://luarocks.org/smithsnmp-0.8-2.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c 3rd/crypto/openssl_aes.c -o 3rd/crypto/openssl_aes.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c 3rd/crypto/openssl_aes_cfb.c -o 3rd/crypto/openssl_aes_cfb.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c 3rd/crypto/openssl_aes_core.c -o 3rd/crypto/openssl_aes_core.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c 3rd/crypto/openssl_cfb128.c -o 3rd/crypto/openssl_cfb128.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c 3rd/crypto/openssl_md5.c -o 3rd/crypto/openssl_md5.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX

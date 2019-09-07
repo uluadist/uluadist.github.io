@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: cannot stat `lib/resty/jit-uuid.lua': No such file or directory
+
+Error: Build error: Failed installing lib/resty/jit-uuid.lua in /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/lua-resty-jit-uuid/0.0.2-0/lua/resty/jit-uuid.lua

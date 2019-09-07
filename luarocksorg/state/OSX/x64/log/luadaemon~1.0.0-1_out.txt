@@ -1,0 +1,3 @@
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -I /include -fPIC -c daemon.c -o daemon.o
+Installing https://rocks.moonscript.org/luadaemon-1.0.0-1.src.rock...
+Using https://rocks.moonscript.org/luadaemon-1.0.0-1.src.rock... switching to 'build' mode

@@ -1,0 +1,4 @@
+Z:\sp\Dropbox\Windows\x64\luarocks\2.2\tools\cp: cannot stat `locales/zh-CN.lua': No such file or directory
+Warning: skipping dependency checks.
+
+Error: Build error: Failed installing locales/zh-CN.lua in C:\ste\x64\luarockstree/lib/luarocks/rocks/babel/1.2-1/lua/locales/zh-CN.lua

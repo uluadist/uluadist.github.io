@@ -1,0 +1,6 @@
+Initialized empty Git repository in /tmp/luarocks_moon-redis-0.1-1-3828/moon-redis/.git/
+Installing https://rocks.moonscript.org/moon-redis-0.1-1.rockspec...
+Using https://rocks.moonscript.org/moon-redis-0.1-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+moon-redis 0.1-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

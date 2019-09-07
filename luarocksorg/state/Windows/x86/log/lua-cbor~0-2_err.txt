@@ -1,0 +1,5 @@
+'hg' is not recognized as an internal or external command,
+operable program or batch file.
+Warning: skipping dependency checks.
+
+Error: Failed cloning hg repository.

@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for xcomposer 3.2.1-0: dromozoa-utf8 
+Missing dependency for xcomposer 3.2.1-0: argparse 
+Missing dependency for xcomposer 3.2.1-0: dromozoa-utf8 
+Missing dependency for xcomposer 3.2.1-0: argparse 

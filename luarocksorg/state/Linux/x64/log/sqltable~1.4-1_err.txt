@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for sqltable 1.4-1: luadbi 
+Missing dependency for sqltable 1.4-1: luadbi 

@@ -1,0 +1,9 @@
+Warning: skipping dependency checks.
+/bin/sh: mecab-config: not found
+lua-mecab.cpp:10:19: fatal error: mecab.h: No such file or directory
+ #include <mecab.h>
+                   ^
+compilation terminated.
+make: *** [lua-mecab.o] Error 1
+
+Error: Build error: Failed building.

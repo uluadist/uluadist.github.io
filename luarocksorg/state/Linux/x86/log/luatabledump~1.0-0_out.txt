@@ -1,0 +1,3 @@
+Initialized empty Git repository in /tmp/luarocks_luatabledump-1.0-0-8191/luaTableDump/.git/
+Installing https://luarocks.org/luatabledump-1.0-0.rockspec...
+Using https://luarocks.org/luatabledump-1.0-0.rockspec... switching to 'build' mode

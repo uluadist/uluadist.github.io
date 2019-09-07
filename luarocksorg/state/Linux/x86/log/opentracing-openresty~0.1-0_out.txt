@@ -1,0 +1,6 @@
+Installing https://luarocks.org/opentracing-openresty-0.1-0.rockspec...
+Using https://luarocks.org/opentracing-openresty-0.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_opentracing-openresty-0.1-0-4023/opentracing-openresty/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+opentracing-openresty 0.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: Apache 2.0)
+

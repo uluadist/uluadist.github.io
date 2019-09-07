@@ -1,0 +1,3 @@
+Installing https://luarocks.org/libqrpng-0.1-0.rockspec...
+Using https://luarocks.org/libqrpng-0.1-0.rockspec... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c qrpng.c -o qrpng.o

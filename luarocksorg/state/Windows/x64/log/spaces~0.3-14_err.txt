@@ -1,0 +1,8 @@
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+Boost_INCLUDE_DIR (ADVANCED)
+   used as include directory in directory C:/Users/sp/AppData/Local/Temp/luarocks_spaces-0.3-14-8754/libspaces
+
+Warning: skipping dependency checks.
+
+Error: Build error: Failed cmake.

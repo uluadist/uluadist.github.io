@@ -1,0 +1,26 @@
+Warning: skipping dependency checks.
+lua-physfs.c:2:10: fatal error: 'lua.h' file not found
+#include <lua.h>
+         ^
+1 error generated.
+physfs/archiver_lzma.c:305:14: warning: overflow converting case value to switch condition type (2147500037 to -2147467259) [-Wswitch]
+        case SZE_FAIL:
+             ^
+physfs/lzma/C/Archive/7z/../../Types.h:74:18: note: expanded from macro 'SZE_FAIL'
+#define SZE_FAIL (0x80004005L)
+                 ^
+physfs/archiver_lzma.c:302:14: warning: overflow converting case value to switch condition type (2147500033 to -2147467263) [-Wswitch]
+        case SZE_NOTIMPL:
+             ^
+physfs/lzma/C/Archive/7z/../../Types.h:73:21: note: expanded from macro 'SZE_NOTIMPL'
+#define SZE_NOTIMPL (0x80004001L)
+                    ^
+physfs/archiver_lzma.c:296:14: warning: overflow converting case value to switch condition type (2147942414 to -2147024882) [-Wswitch]
+        case SZE_OUTOFMEMORY:
+             ^
+physfs/lzma/C/Archive/7z/../../Types.h:72:25: note: expanded from macro 'SZE_OUTOFMEMORY'
+#define SZE_OUTOFMEMORY (0x8007000EL)
+                        ^
+3 warnings generated.
+
+Error: Build error: Failed building.

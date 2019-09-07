@@ -1,0 +1,16 @@
+mkdir so
+mkdir lib
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -fPIC -undefined dynamic_lookup -all_load -c -o so/luauuid.o src/luauuid.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -fPIC -undefined dynamic_lookup -all_load -c -o so/uuid_ns_dns.o src/uuid_ns_dns.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -fPIC -undefined dynamic_lookup -all_load -c -o so/uuid_ns_null.o src/uuid_ns_null.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -fPIC -undefined dynamic_lookup -all_load -c -o so/uuid_ns_oid.o src/uuid_ns_oid.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -fPIC -undefined dynamic_lookup -all_load -c -o so/uuid_ns_url.o src/uuid_ns_url.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -fPIC -undefined dynamic_lookup -all_load -c -o so/uuid_ns_x500.o src/uuid_ns_x500.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -fPIC -undefined dynamic_lookup -all_load -c -o so/uuidlib_cmp.o src/uuidlib_cmp.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -fPIC -undefined dynamic_lookup -all_load -c -o so/uuidlib_parse.o src/uuidlib_parse.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -fPIC -undefined dynamic_lookup -all_load -c -o so/uuidlib_toa.o src/uuidlib_toa.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -fPIC -undefined dynamic_lookup -all_load -c -o so/uuidlib_v1.o src/uuidlib_v1.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -fPIC -undefined dynamic_lookup -all_load -c -o so/uuidlib_v2.o src/uuidlib_v2.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -fPIC -undefined dynamic_lookup -all_load -c -o so/uuidlib_v3.o src/uuidlib_v3.c
+Installing https://luarocks.org/org.conman.uuid-1.2.5-2.src.rock...
+Using https://luarocks.org/org.conman.uuid-1.2.5-2.src.rock... switching to 'build' mode

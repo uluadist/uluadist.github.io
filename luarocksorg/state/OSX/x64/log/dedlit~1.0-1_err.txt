@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: dedlit/dedlit.lua: No such file or directory
+
+Error: Failed copying dedlit/dedlit.lua

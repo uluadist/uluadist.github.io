@@ -1,0 +1,4 @@
+Installing https://luarocks.org/mmdblua-0.1-0.all.rock...
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+
+mmdblua 0.1-0 is now installed in C:\ste\x86\luarockstree (license: MIT)

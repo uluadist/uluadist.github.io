@@ -1,0 +1,56 @@
+Archive:  v1.0.3.zip
+5c7da7ddf5c162575642bfe2bcc6c87cd8d7194c
+   creating: librs232-1.0.3/
+  inflating: librs232-1.0.3/.gitignore  
+ extracting: librs232-1.0.3/AUTHORS  
+  inflating: librs232-1.0.3/COPYING  
+ extracting: librs232-1.0.3/ChangeLog  
+  inflating: librs232-1.0.3/Makefile.am  
+ extracting: librs232-1.0.3/TODO     
+  inflating: librs232-1.0.3/autogen.sh  
+   creating: librs232-1.0.3/bindings/
+  inflating: librs232-1.0.3/bindings/Makefile.am  
+   creating: librs232-1.0.3/bindings/lua/
+  inflating: librs232-1.0.3/bindings/lua/Makefile.am  
+  inflating: librs232-1.0.3/bindings/lua/luars232.c  
+  inflating: librs232-1.0.3/bindings/lua/test.lua  
+  inflating: librs232-1.0.3/configure.in  
+   creating: librs232-1.0.3/doc/
+  inflating: librs232-1.0.3/doc/example.lua  
+   creating: librs232-1.0.3/include/
+ extracting: librs232-1.0.3/include/Makefile.am  
+   creating: librs232-1.0.3/include/librs232/
+  inflating: librs232-1.0.3/include/librs232/Makefile.am  
+  inflating: librs232-1.0.3/include/librs232/qrs232.h  
+  inflating: librs232-1.0.3/include/librs232/rs232.h  
+  inflating: librs232-1.0.3/include/librs232/rs232_posix.h  
+  inflating: librs232-1.0.3/include/librs232/rs232_windows.h  
+   creating: librs232-1.0.3/src/
+  inflating: librs232-1.0.3/src/Makefile.am  
+  inflating: librs232-1.0.3/src/librs232.pc.in  
+  inflating: librs232-1.0.3/src/qrs232.cpp  
+  inflating: librs232-1.0.3/src/resource.rc  
+  inflating: librs232-1.0.3/src/resource_lua.rc  
+  inflating: librs232-1.0.3/src/rs232.c  
+  inflating: librs232-1.0.3/src/rs232_posix.c  
+  inflating: librs232-1.0.3/src/rs232_test.c  
+  inflating: librs232-1.0.3/src/rs232_windows.c  
+   creating: librs232-1.0.3/wince/
+  inflating: librs232-1.0.3/wince/librs232lua.vcproj  
+   creating: librs232-1.0.3/windows/
+   creating: librs232-1.0.3/windows/vs2k5/
+   creating: librs232-1.0.3/windows/vs2k5/librs232/
+  inflating: librs232-1.0.3/windows/vs2k5/librs232/librs232.vcproj  
+   creating: librs232-1.0.3/windows/vs2k5/librs232lua/
+  inflating: librs232-1.0.3/windows/vs2k5/librs232lua/librs232lua.vcproj  
+   creating: librs232-1.0.3/windows/vs2k5/test/
+  inflating: librs232-1.0.3/windows/vs2k5/test/test.vcproj  
+Installing https://rocks.moonscript.org/luars232-1.0.3-3.src.rock...
+Using https://rocks.moonscript.org/luars232-1.0.3-3.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/rs232.c -o src/rs232.o -DLUAROCKS_HACK -std=gnu99 -Iinclude
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/rs232_posix.c -o src/rs232_posix.o -DLUAROCKS_HACK -std=gnu99 -Iinclude
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c bindings/lua/luars232.c -o bindings/lua/luars232.o -DLUAROCKS_HACK -std=gnu99 -Iinclude
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o luars232.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib src/rs232.o src/rs232_posix.o bindings/lua/luars232.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+luars232 1.0.3-3 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

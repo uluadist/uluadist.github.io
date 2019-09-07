@@ -1,0 +1,3 @@
+Installing https://luarocks.org/pegdebug-0.40-1.rockspec...
+Using https://luarocks.org/pegdebug-0.40-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_pegdebug-0.40-1-7310/PegDebug/.git/

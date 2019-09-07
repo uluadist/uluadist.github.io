@@ -1,0 +1,12 @@
+Installing https://rocks.moonscript.org/ltermbox-0.2-1.src.rock...
+Using https://rocks.moonscript.org/ltermbox-0.2-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lua/ltermbox.c -o lua/ltermbox.o -I./
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c termbox.c -o termbox.o -I./
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c term.c -o term.o -I./
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c input.c -o input.o -I./
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c ringbuffer.c -o ringbuffer.o -I./
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c utf8.c -o utf8.o -I./
+gcc -shared -o ltermbox.so -L/home/sp/luajit/lib lua/ltermbox.o termbox.o term.o input.o ringbuffer.o utf8.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+ltermbox 0.2-1 is now built and installed in /home/sp/luarockstree (license: New BSD License)
+

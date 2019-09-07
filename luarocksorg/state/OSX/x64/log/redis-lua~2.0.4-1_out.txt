@@ -1,0 +1,5 @@
+Installing https://rocks.moonscript.org/redis-lua-2.0.4-1.src.rock...
+Using https://rocks.moonscript.org/redis-lua-2.0.4-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+redis-lua 2.0.4-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

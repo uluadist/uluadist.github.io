@@ -1,0 +1,13 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+/bin/sh: pkg-config: command not found
+/bin/sh: pkg-config: command not found
+/bin/sh: pkg-config: command not found
+/bin/sh: pkg-config: command not found
+src/main.c:19:10: fatal error: 'sodium.h' file not found
+#include <sodium.h>
+         ^
+1 error generated.
+make: *** [src/main.o] Error 1
+
+Error: Build error: Failed building.

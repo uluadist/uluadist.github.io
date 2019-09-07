@@ -1,0 +1,4 @@
+Z:\sp\Dropbox\Windows\x86\luarocks\tools\cp: omitting directory `is.lua'
+Warning: skipping dependency checks.
+
+Error: Build error: Failed installing is.lua in C:\ste\x86\luarockstree/lib/luarocks/rocks/is/0.1.0-1/lua/is.lua

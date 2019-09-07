@@ -1,0 +1,9 @@
+Warning: skipping dependency checks.
+In file included from context.cpp:18:
+./common.hpp:23:10: fatal error: 'zmq.h' file not found
+#include <zmq.h>
+         ^
+1 error generated.
+make: *** [context.o] Error 1
+
+Error: Build error: Failed building.

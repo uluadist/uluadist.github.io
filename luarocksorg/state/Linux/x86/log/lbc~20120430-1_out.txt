@@ -1,0 +1,8 @@
+Installing https://rocks.moonscript.org/lbc-20120430-1.src.rock...
+Using https://rocks.moonscript.org/lbc-20120430-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lbc.c -o lbc.o -I.
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c number.c -o number.o -I.
+gcc -shared -o bc.so -L/home/sp/luajit/lib lbc.o number.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lbc 20120430-1 is now built and installed in /home/sp/luarockstree (license: GNU General Public License version 2 or later)
+

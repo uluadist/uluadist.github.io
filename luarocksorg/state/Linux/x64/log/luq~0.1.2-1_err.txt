@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+src/luq_map.c: In function ‘luq_map_self_test’:
+src/luq_map.c:121:18: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+     elem->data = (void*)i;
+                  ^
+In file included from src/luq_map.c:4:0:
+src/luq_map.c:133:12: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+     assert((void*)i == elem->data);
+            ^
+No existing manifest. Attempting to rebuild...

@@ -1,0 +1,8 @@
+Installing https://luarocks.org/bitlib-23-2.src.rock...
+Using https://luarocks.org/bitlib-23-2.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c lbitlib.c -o lbitlib.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o bit.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib lbitlib.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+bitlib 23-2 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

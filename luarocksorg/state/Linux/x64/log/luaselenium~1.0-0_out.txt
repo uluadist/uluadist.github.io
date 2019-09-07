@@ -1,0 +1,6 @@
+Initialized empty Git repository in /tmp/luarocks_luaselenium-1.0-0-4138/luaselenium/.git/
+Installing https://rocks.moonscript.org/luaselenium-1.0-0.rockspec...
+Using https://rocks.moonscript.org/luaselenium-1.0-0.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+luaselenium 1.0-0 is now built and installed in /home/sp/luarockstree (license: MIT)
+

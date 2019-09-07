@@ -1,0 +1,5 @@
+Installing https://luarocks.org/lunary-core-20181002-1.src.rock...
+Using https://luarocks.org/lunary-core-20181002-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lunary-core 20181002-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+error: pathspec '0.2' did not match any file(s) known to git.
+
+Error: Failed to check out the "0.2" tag or branch.

@@ -1,0 +1,5 @@
+Warning: skipping dependency checks.
+Cloning into 'luarequest'...
+cp: request.lua: No such file or directory
+
+Error: Build error: Failed installing request.lua in /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/luarequest/0.1-1/lua/luarequest.lua

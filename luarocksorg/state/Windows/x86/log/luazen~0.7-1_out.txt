@@ -1,0 +1,7 @@
+luazen.c
+src/luazen.c(172): error C2057: expected constant expression
+src/luazen.c(172): error C2466: cannot allocate an array of constant size 0
+src/luazen.c(172): error C2133: 'drop': unknown size
+Installing https://luarocks.org/luazen-0.7-1.src.rock...
+Using https://luarocks.org/luazen-0.7-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/luazen.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/luazen.c

@@ -1,0 +1,12 @@
+Installing https://luarocks.org/odielak-1.2-1.rockspec...
+Using https://luarocks.org/odielak-1.2-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_odielak-1.2-1-2770/odielak/.git/
+gcc -c -O3 -Wall -fPIC -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include odielak.c -o odielak.o
+gcc -shared -shared odielak.o -o odielak.so
+mkdir -p /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/odielak/1.2-1/lib
+cp odielak.so /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/odielak/1.2-1/lib/odielak.so
+chmod 755 /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/odielak/1.2-1/lib/odielak.so
+make install CC="gcc" LDFLAGS="-shared" CFLAGS="-O2 -fPIC" LUA_INCDIR="-I/home/sp/Dropbox/Linux/x64/luajit//include" LUA_LIBDIR="/home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/odielak/1.2-1/lib"
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+odielak 1.2-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

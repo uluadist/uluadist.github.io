@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for mobdebug 0.55-1: luasocket >= 2.0
+Missing dependency for mobdebug 0.55-1: luasocket >= 2.0

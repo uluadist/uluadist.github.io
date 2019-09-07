@@ -1,0 +1,7 @@
+Installing https://luarocks.org/native-0.1.0-1.src.rock...
+Using https://luarocks.org/native-0.1.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c native.c -o native.o
+gcc -shared -o native.so -L/home/sp/Dropbox/Linux/x86/luajit//lib native.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+native 0.1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

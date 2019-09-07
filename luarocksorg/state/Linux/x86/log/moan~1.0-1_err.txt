@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: omitting directory `Moan.lua'
+
+Error: Build error: Failed installing Moan.lua in /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/moan/1.0-1/lua/moan.lua

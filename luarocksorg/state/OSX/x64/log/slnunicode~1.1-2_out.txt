@@ -1,0 +1,10 @@
+Installing https://rocks.moonscript.org/slnunicode-1.1-2.src.rock...
+Using https://rocks.moonscript.org/slnunicode-1.1-2.src.rock... switching to 'build' mode
+Applying patch fix.patch...
+Do not use 'module' as a build type. Use 'builtin' instead.
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c slnunico.c -o slnunico.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c slnudata.c -o slnudata.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o unicode.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib slnunico.o slnudata.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+slnunicode 1.1-2 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: Tcl License + MIT/X11)
+

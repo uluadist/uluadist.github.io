@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for c3 1.0-42: ansicolors 
+Missing dependency for c3 1.0-42: ansicolors 

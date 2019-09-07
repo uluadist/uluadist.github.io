@@ -1,0 +1,13 @@
+lua_system_constants.c
+lua_system_constants.c(39): error C2065: 'S_IRUSR': undeclared identifier
+lua_system_constants.c(44): error C2065: 'S_IWUSR': undeclared identifier
+lua_system_constants.c(49): error C2065: 'S_IXUSR': undeclared identifier
+lua_system_constants.c(55): error C2065: 'S_IRGRP': undeclared identifier
+lua_system_constants.c(60): error C2065: 'S_IWGRP': undeclared identifier
+lua_system_constants.c(65): error C2065: 'S_IXGRP': undeclared identifier
+lua_system_constants.c(71): error C2065: 'S_IROTH': undeclared identifier
+lua_system_constants.c(76): error C2065: 'S_IWOTH': undeclared identifier
+lua_system_constants.c(81): error C2065: 'S_IXOTH': undeclared identifier
+Installing https://luarocks.org/lua_system_constants-0.1.3-0.rockspec...
+Using https://luarocks.org/lua_system_constants-0.1.3-0.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folua_system_constants.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src lua_system_constants.c

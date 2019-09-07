@@ -1,0 +1,206 @@
+cd ./lib_src && pwd && make -i clean && chmod +x ./configure && ./configure && make && make install && cd ..
+/tmp/luarocks_xls-read-1.0-1-3892/xls-read/lib_src
+Making clean in include
+rm -rf .libs _libs
+rm -f *.lo
+Making clean in src
+ rm -f xls2csv
+test -z "libxlsreader.la" || rm -f libxlsreader.la
+rm -f ./so_locations
+rm -rf .libs _libs
+rm -f *.o
+rm -f *.lo
+Making clean in test
+ rm -f test
+rm -rf .libs _libs
+ rm -f test test2
+rm -f *.o
+test -z "test.log" || rm -f test.log
+test -z "test.trs" || rm -f test.trs
+test -z "test-suite.log" || rm -f test-suite.log
+rm -f *.lo
+rm -rf .libs _libs
+rm -f *.lo
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking build system type... x86_64-apple-darwin15.3.0
+checking host system type... x86_64-apple-darwin15.3.0
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... env MACOSX_DEPLOYMENT_TARGET=10.8 gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether env MACOSX_DEPLOYMENT_TARGET=10.8 gcc accepts -g... yes
+checking for env MACOSX_DEPLOYMENT_TARGET=10.8 gcc option to accept ISO C89... none needed
+checking dependency style of env MACOSX_DEPLOYMENT_TARGET=10.8 gcc... gcc3
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by env MACOSX_DEPLOYMENT_TARGET=10.8 gcc... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm
+checking the name lister (/usr/bin/nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 196608
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /Library/Developer/CommandLineTools/usr/bin/ld option to reload object files... -r
+checking for objdump... no
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm output from env MACOSX_DEPLOYMENT_TARGET=10.8 gcc object... ok
+checking for dsymutil... dsymutil
+checking for nmedit... nmedit
+checking for lipo... lipo
+checking for otool... otool
+checking for otool64... no
+checking for -single_module linker flag... yes
+checking for -exported_symbols_list linker flag... yes
+checking for -force_load linker flag... yes
+checking how to run the C preprocessor... env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc supports -fno-rtti -fno-exceptions... yes
+checking for env MACOSX_DEPLOYMENT_TARGET=10.8 gcc option to produce PIC... -fno-common -DPIC
+checking if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc PIC flag -fno-common -DPIC works... yes
+checking if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc static flag -static works... no
+checking if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc supports -c -o file.o... yes
+checking if env MACOSX_DEPLOYMENT_TARGET=10.8 gcc supports -c -o file.o... (cached) yes
+checking whether the env MACOSX_DEPLOYMENT_TARGET=10.8 gcc linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin15.3.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for gcc... (cached) env MACOSX_DEPLOYMENT_TARGET=10.8 gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether env MACOSX_DEPLOYMENT_TARGET=10.8 gcc accepts -g... (cached) yes
+checking for env MACOSX_DEPLOYMENT_TARGET=10.8 gcc option to accept ISO C89... (cached) none needed
+checking dependency style of env MACOSX_DEPLOYMENT_TARGET=10.8 gcc... (cached) gcc3
+checking for env MACOSX_DEPLOYMENT_TARGET=10.8 gcc option to accept ISO C99... none needed
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking whether the g++ linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fno-common -DPIC
+checking if g++ PIC flag -fno-common -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin15.3.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking for pkg-config... no
+checking for pow... yes
+checking for strdup... yes
+checking for asprintf... yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking for an ANSI C-conforming const... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking for size_t... yes
+checking iconv.h usability... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking for iconv... no
+checking for iconv in -liconv... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating include/Makefile
+config.status: creating include/libxls/Makefile
+config.status: creating src/Makefile
+config.status: creating test/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: ---
+configure: catdoc users: avoid xls2csv conflicts, use ./configure --program-prefix=lib to get libxls2csv
+configure: ---
+/Library/Developer/CommandLineTools/usr/bin/make  all-recursive
+Making all in include
+make[3]: Nothing to be done for `all'.
+Making all in src
+/bin/sh ../libtool  --tag=CC   --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -O2 -fPIC -MT xlstool.lo -MD -MP -MF .deps/xlstool.Tpo -c -o xlstool.lo xlstool.c
+libtool: compile:  env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O2 -fPIC -MT xlstool.lo -MD -MP -MF .deps/xlstool.Tpo -c xlstool.c  -fno-common -DPIC -o .libs/xlstool.o
+libtool: compile:  env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O2 -fPIC -MT xlstool.lo -MD -MP -MF .deps/xlstool.Tpo -c xlstool.c -o xlstool.o >/dev/null 2>&1
+mv -f .deps/xlstool.Tpo .deps/xlstool.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -O2 -fPIC -MT endian.lo -MD -MP -MF .deps/endian.Tpo -c -o endian.lo endian.c
+libtool: compile:  env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O2 -fPIC -MT endian.lo -MD -MP -MF .deps/endian.Tpo -c endian.c  -fno-common -DPIC -o .libs/endian.o
+libtool: compile:  env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O2 -fPIC -MT endian.lo -MD -MP -MF .deps/endian.Tpo -c endian.c -o endian.o >/dev/null 2>&1
+mv -f .deps/endian.Tpo .deps/endian.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -O2 -fPIC -MT ole.lo -MD -MP -MF .deps/ole.Tpo -c -o ole.lo ole.c
+libtool: compile:  env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O2 -fPIC -MT ole.lo -MD -MP -MF .deps/ole.Tpo -c ole.c  -fno-common -DPIC -o .libs/ole.o
+libtool: compile:  env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O2 -fPIC -MT ole.lo -MD -MP -MF .deps/ole.Tpo -c ole.c -o ole.o >/dev/null 2>&1
+mv -f .deps/ole.Tpo .deps/ole.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -O2 -fPIC -MT xls.lo -MD -MP -MF .deps/xls.Tpo -c -o xls.lo xls.c
+libtool: compile:  env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O2 -fPIC -MT xls.lo -MD -MP -MF .deps/xls.Tpo -c xls.c  -fno-common -DPIC -o .libs/xls.o
+libtool: compile:  env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O2 -fPIC -MT xls.lo -MD -MP -MF .deps/xls.Tpo -c xls.c -o xls.o >/dev/null 2>&1
+mv -f .deps/xls.Tpo .deps/xls.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -O2 -fPIC -version-info 3:1:2 -liconv   -o libxlsreader.la -rpath /usr/local/libxls/lib xlstool.lo endian.lo ole.lo xls.lo  
+libtool: link: env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -dynamiclib -Wl,-undefined -Wl,dynamic_lookup -o .libs/libxlsreader.1.dylib  .libs/xlstool.o .libs/endian.o .libs/ole.o .libs/xls.o   -liconv    -install_name  /usr/local/libxls/lib/libxlsreader.1.dylib -compatibility_version 4 -current_version 4.1 -Wl,-single_module
+libtool: link: (cd ".libs" && rm -f "libxlsreader.dylib" && ln -s "libxlsreader.1.dylib" "libxlsreader.dylib")
+libtool: link: ar cru .libs/libxlsreader.a  xlstool.o endian.o ole.o xls.o
+libtool: link: ranlib .libs/libxlsreader.a
+libtool: link: ( cd ".libs" && rm -f "libxlsreader.la" && ln -s "../libxlsreader.la" "libxlsreader.la" )
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -O2 -fPIC -MT xls2csv.o -MD -MP -MF .deps/xls2csv.Tpo -c -o xls2csv.o xls2csv.c
+mv -f .deps/xls2csv.Tpo .deps/xls2csv.Po
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -O2 -fPIC -MT getopt.o -MD -MP -MF .deps/getopt.Tpo -c -o getopt.o getopt.c
+mv -f .deps/getopt.Tpo .deps/getopt.Po
+/bin/sh ../libtool  --tag=CC   --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -O2 -fPIC   -o xls2csv xls2csv.o getopt.o libxlsreader.la 
+libtool: link: env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -o .libs/xls2csv xls2csv.o getopt.o  ./.libs/libxlsreader.dylib -liconv
+Making all in test
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -O2 -fPIC -MT test.o -MD -MP -MF .deps/test.Tpo -c -o test.o test.c
+mv -f .deps/test.Tpo .deps/test.Po
+/bin/sh ../libtool  --tag=CC   --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -O2 -fPIC   -o test test.o ../src/libxlsreader.la 
+libtool: link: env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -o .libs/test test.o  ../src/.libs/libxlsreader.dylib -liconv
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -O2 -fPIC -MT test2.o -MD -MP -MF .deps/test2.Tpo -c -o test2.o test2.c
+mv -f .deps/test2.Tpo .deps/test2.Po
+/bin/sh ../libtool  --tag=CC   --mode=link env MACOSX_DEPLOYMENT_TARGET=10.8 gcc  -O2 -fPIC   -o test2 test2.o ../src/libxlsreader.la 
+libtool: link: env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -o .libs/test2 test2.o  ../src/.libs/libxlsreader.dylib -liconv
+make[3]: Nothing to be done for `all-am'.
+Making install in include
+make[3]: Nothing to be done for `install-exec-am'.
+ .././install-sh -c -d '/usr/local/libxls/include'
+Making install in src
+ .././install-sh -c -d '/usr/local/libxls/lib'
+Making install in test
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+Installing https://luarocks.org/xls-read-1.0-1.src.rock...
+Using https://luarocks.org/xls-read-1.0-1.src.rock... switching to 'build' mode

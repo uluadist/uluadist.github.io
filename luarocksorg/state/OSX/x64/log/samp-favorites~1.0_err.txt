@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_luarocks-rockspec-samp-favorites-1.0-2284/samp-favorites-1.0.rockspec: Type mismatch on field version: invalid value 1.0 does not match '[%w.]+-[%d]+'

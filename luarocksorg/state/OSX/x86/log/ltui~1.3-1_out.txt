@@ -1,0 +1,7 @@
+Installing https://luarocks.org/ltui-1.3-1.src.rock...
+Using https://luarocks.org/ltui-1.3-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/core/lcurses/lcurses.c -o src/core/lcurses/lcurses.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o ltui.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/core/lcurses/lcurses.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+ltui 1.3-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: Apache-2.0)
+

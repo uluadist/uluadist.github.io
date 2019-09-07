@@ -1,0 +1,10 @@
+/Users/sp/Dropbox/OSX/x64/luajit/bin/lua mkinc.lua `basename expectsrc.inc .inc`
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lpty.c -o lpty.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load  -o lpty.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lpty.o
+mkdir -p /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/lpty/1.2.1-1/lib
+cp lpty.so /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/lpty/1.2.1-1/lib
+Installing https://luarocks.org/lpty-1.2.1-1.src.rock...
+Using https://luarocks.org/lpty-1.2.1-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lpty 1.2.1-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

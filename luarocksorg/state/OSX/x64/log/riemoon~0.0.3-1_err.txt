@@ -1,0 +1,5 @@
+Warning: skipping dependency checks.
+Cloning into 'riemoon'...
+sh: autoreconf: command not found
+
+Error: Build error: Failed building.

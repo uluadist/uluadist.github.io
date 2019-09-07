@@ -1,0 +1,91 @@
+-- Building for: Visual Studio 14 2015
+-- The C compiler identification is MSVC 19.0.23026.0
+-- The CXX compiler identification is MSVC 19.0.23026.0
+-- Check for working C compiler using: Visual Studio 14 2015
+-- Check for working C compiler using: Visual Studio 14 2015 -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler using: Visual Studio 14 2015
+-- Check for working CXX compiler using: Visual Studio 14 2015 -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/sp/AppData/Local/Temp/luarocks_netfoxpack-0.1.3-1-8033/netfoxpack/build.luarocks
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/21/2017 7:43:15 AM.
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\ALL_BUILD.vcxproj" on node 1 (default targets).
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\ALL_BUILD.vcxproj" (1) is building "C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "x64\Release\ZERO_CHECK\".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\ZERO_CHECK.vcxproj]
+  Creating directory "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Checking Build System
+  CMake does not need to re-run because C:/Users/sp/AppData/Local/Temp/luarocks_netfoxpack-0.1.3-1-8033/netfoxpack/build.luarocks/CMakeFiles/generate.stamp is up-to-date.
+FinalizeBuildStatus:
+  Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+  Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\ZERO_CHECK.vcxproj" (default targets).
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\ALL_BUILD.vcxproj" (1) is building "C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\netfoxpack.vcxproj" (3) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "netfoxpack.dir\Release\".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\netfoxpack.vcxproj]
+  Creating directory "C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\Release\".
+  Creating directory "netfoxpack.dir\Release\netfoxpack.tlog\".
+InitializeBuildStatus:
+  Creating "netfoxpack.dir\Release\netfoxpack.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule C:/Users/sp/AppData/Local/Temp/luarocks_netfoxpack-0.1.3-1-8033/netfoxpack/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\CMakeFiles\generate.stamp is up-to-date.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IZ:\sp\Dropbox\Windows\x64\luajit\src /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D LUA_BUILD_AS_DLL /D LUA_LIB /D _CRT_NONSTDC_NO_DEPRECATE /D _LARGEFILE_SOURCE /D _FILE_OFFSET_BITS=64 /D _GNU_SOURCE /D "CMAKE_INTDIR=\"Release\"" /D netfoxpack_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"netfoxpack.dir\Release\\" /Fd"netfoxpack.dir\Release\vc140.pdb" /Gd /TP /errorReport:queue  _D_CRT_SECURE_NO_WARNINGS "C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\src\lua_netfoxpack.cpp" "C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\LuaFunction.cpp"
+  _D_CRT_SECURE_NO_WARNINGS
+c1xx : fatal error C1083: Cannot open source file: '_D_CRT_SECURE_NO_WARNINGS': No such file or directory [C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\netfoxpack.vcxproj]
+  lua_netfoxpack.cpp
+C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\src\lua_netfoxpack.cpp(231): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data [C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\netfoxpack.vcxproj]
+C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\src\lua_netfoxpack.cpp(286): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\netfoxpack.vcxproj]
+C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\src\lua_netfoxpack.cpp(300): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data [C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\netfoxpack.vcxproj]
+  LuaFunction.cpp
+  Generating Code...
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\netfoxpack.vcxproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\ALL_BUILD.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\ZERO_CHECK.vcxproj" (default target) (2) ->
+(PrepareForBuild target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\ZERO_CHECK.vcxproj]
+
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\netfoxpack.vcxproj" (default target) (3) ->
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\netfoxpack.vcxproj]
+
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\netfoxpack.vcxproj" (default target) (3) ->
+(ClCompile target) -> 
+  C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\src\lua_netfoxpack.cpp(231): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data [C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\netfoxpack.vcxproj]
+  C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\src\lua_netfoxpack.cpp(286): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\netfoxpack.vcxproj]
+  C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\src\lua_netfoxpack.cpp(300): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data [C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\netfoxpack.vcxproj]
+
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\netfoxpack.vcxproj" (default target) (3) ->
+(ClCompile target) -> 
+  c1xx : fatal error C1083: Cannot open source file: '_D_CRT_SECURE_NO_WARNINGS': No such file or directory [C:\Users\sp\AppData\Local\Temp\luarocks_netfoxpack-0.1.3-1-8033\netfoxpack\build.luarocks\netfoxpack.vcxproj]
+
+    5 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:02.13
+Installing https://luarocks.org/netfoxpack-0.1.3-1.src.rock...
+Using https://luarocks.org/netfoxpack-0.1.3-1.src.rock... switching to 'build' mode

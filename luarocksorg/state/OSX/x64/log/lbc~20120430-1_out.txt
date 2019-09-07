@@ -1,0 +1,8 @@
+Installing https://rocks.moonscript.org/lbc-20120430-1.src.rock...
+Using https://rocks.moonscript.org/lbc-20120430-1.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lbc.c -o lbc.o -I.
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c number.c -o number.o -I.
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o bc.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lbc.o number.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lbc 20120430-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: GNU General Public License version 2 or later)
+

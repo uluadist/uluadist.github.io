@@ -1,0 +1,13 @@
+Warning: skipping dependency checks.
+/Users/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/OSX/x64/luajit: build-aux/luke:1446: assign to undeclared variable 'err'
+stack traceback:
+	[C]: in function 'error'
+	...j/scilua/head/luajit/2_1_head20151128/OSX/x64/strict.lua:28: in function '__newindex'
+	build-aux/luke:1446: in function 'loadstring'
+	build-aux/luke:954: in function 'loadluke'
+	build-aux/luke:200: in function 'parse_arguments'
+	build-aux/luke:59: in function 'main'
+	build-aux/luke:1671: in main chunk
+	[C]: at 0x0100001340
+
+Error: Build error: Failed building.

@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Error fetching file: Failed downloading http://cloud.github.com/downloads/nrk/lazybag/lazybag-1.0.0-0.tar.gz

@@ -1,0 +1,7 @@
+Installing https://luarocks.org/base64mix-1.0.0-1.rockspec...
+Using https://luarocks.org/base64mix-1.0.0-1.rockspec... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/base64.c -o src/base64.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o base64mix.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/base64.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+base64mix 1.0.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

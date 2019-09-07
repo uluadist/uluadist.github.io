@@ -1,0 +1,23 @@
+Cloning into 'memreader'...
+Note: checking out '2cad21ab330f060940f124ede9fbc4c657bb580b'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+CMake Error at C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake:148 (message):
+  Could NOT find Lua (missing: LUA_LIBRARIES LUA_INCLUDE_DIR)
+Call Stack (most recent call first):
+  C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake:388 (_FPHSA_FAILURE_MESSAGE)
+  C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindLua.cmake:167 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  CMakeLists.txt:5 (find_package)
+
+
+Warning: skipping dependency checks.
+
+Error: Build error: Failed cmake.

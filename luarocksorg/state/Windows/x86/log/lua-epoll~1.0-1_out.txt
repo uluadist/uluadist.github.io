@@ -1,0 +1,5 @@
+lepoll.c
+lepoll.c(11): fatal error C1083: Cannot open include file: 'sys/epoll.h': No such file or directory
+Installing https://luarocks.org/lua-epoll-1.0-1.src.rock...
+Using https://luarocks.org/lua-epoll-1.0-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folepoll.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src lepoll.c

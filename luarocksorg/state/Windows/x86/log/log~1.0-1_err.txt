@@ -1,0 +1,6 @@
+Cloning into 'lua-log'...
+fatal: remote error: 
+  Repository not found.
+Warning: skipping dependency checks.
+
+Error: Failed cloning git repository.

@@ -1,0 +1,19 @@
+Archive:  1.0.0.zip
+5315b4b0ed35c5f2d761ba6d4b4b914a7ddd1362
+   creating: lua-utils-1.0.0/
+  inflating: lua-utils-1.0.0/LICENSE  
+  inflating: lua-utils-1.0.0/README.md  
+  inflating: lua-utils-1.0.0/Rakefile  
+   creating: lua-utils-1.0.0/lib/
+   creating: lua-utils-1.0.0/lib/utils/
+  inflating: lua-utils-1.0.0/lib/utils/string.lua  
+  inflating: lua-utils-1.0.0/lib/utils/table.lua  
+  inflating: lua-utils-1.0.0/lua-utils.lua  
+  inflating: lua-utils-1.0.0/lua-utils.rockspec  
+   creating: lua-utils-1.0.0/samples/
+  inflating: lua-utils-1.0.0/samples/sample.lua  
+Installing https://luarocks.org/lua-utils-1.0.0-0.src.rock...
+Using https://luarocks.org/lua-utils-1.0.0-0.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lua-utils 1.0.0-0 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

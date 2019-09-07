@@ -1,0 +1,3 @@
+Installing https://luarocks.org/hdrhistogram-0.1.9-1.src.rock...
+Using https://luarocks.org/hdrhistogram-0.1.9-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c hdr_histogram.c -o hdr_histogram.o -DDIST_VERSION="0.1.9"

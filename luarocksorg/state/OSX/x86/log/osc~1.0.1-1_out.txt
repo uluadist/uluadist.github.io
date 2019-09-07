@@ -1,0 +1,13 @@
+Installing https://luarocks.org/osc-1.0.1-1.src.rock...
+Using https://luarocks.org/osc-1.0.1-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/bind/dub/dub.cpp -o src/bind/dub/dub.o -Iinclude -Isrc/bind -Isrc/vendor
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/bind/osc_core.cpp -o src/bind/osc_core.o -Iinclude -Isrc/bind -Isrc/vendor
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/osc.cpp -o src/osc.o -Iinclude -Isrc/bind -Isrc/vendor
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/vendor/osc/OscOutboundPacketStream.cpp -o src/vendor/osc/OscOutboundPacketStream.o -Iinclude -Isrc/bind -Isrc/vendor
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/vendor/osc/OscPrintReceivedElements.cpp -o src/vendor/osc/OscPrintReceivedElements.o -Iinclude -Isrc/bind -Isrc/vendor
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/vendor/osc/OscReceivedElements.cpp -o src/vendor/osc/OscReceivedElements.o -Iinclude -Isrc/bind -Isrc/vendor
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/vendor/osc/OscTypes.cpp -o src/vendor/osc/OscTypes.o -Iinclude -Isrc/bind -Isrc/vendor
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o osc/core.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/bind/dub/dub.o src/bind/osc_core.o src/osc.o src/vendor/osc/OscOutboundPacketStream.o src/vendor/osc/OscPrintReceivedElements.o src/vendor/osc/OscReceivedElements.o src/vendor/osc/OscTypes.o -lstdc++
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+osc 1.0.1-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

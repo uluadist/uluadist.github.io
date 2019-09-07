@@ -1,0 +1,6 @@
+Installing https://luarocks.org/mpd-1.2.0-1.rockspec...
+Using https://luarocks.org/mpd-1.2.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_mpd-1.2.0-1-6557/lua-mpd/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+mpd 1.2.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

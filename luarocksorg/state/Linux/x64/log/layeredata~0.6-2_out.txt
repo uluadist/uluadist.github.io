@@ -1,0 +1,5 @@
+Installing https://luarocks.org/layeredata-0.6-2.src.rock...
+Using https://luarocks.org/layeredata-0.6-2.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+layeredata 0.6-2 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

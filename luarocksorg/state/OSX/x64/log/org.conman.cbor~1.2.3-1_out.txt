@@ -1,0 +1,14 @@
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -O2 -fPIC -DNDEBUG -I/Users/sp/Dropbox/OSX/x64/luajit/include -DVERSION='"1.2.3"'   -c -o cbor_c.o cbor_c.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -O2 -fPIC -DNDEBUG -I/Users/sp/Dropbox/OSX/x64/luajit/include -DVERSION='"1.2.3"'   -c -o dnf.o dnf.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -bundle -undefined dynamic_lookup -all_load -o cbor_c.so cbor_c.o dnf.o 
+/usr/bin/install -d /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/org.conman.cbor/1.2.3-1/lib/org/conman
+/usr/bin/install -d /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/org.conman.cbor/1.2.3-1/lua/org/conman
+/usr/bin/install cbor_c.so    /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/org.conman.cbor/1.2.3-1/lib/org/conman/cbor_c.so
+/usr/bin/install -m 644    cbor.lua     /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/org.conman.cbor/1.2.3-1/lua/org/conman/cbor.lua
+/usr/bin/install -m 644    cbor_s.lua   /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/org.conman.cbor/1.2.3-1/lua/org/conman/cbor_s.lua
+/usr/bin/install -m 644    cbormisc.lua /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/org.conman.cbor/1.2.3-1/lua/org/conman/cbormisc.lua
+Installing https://luarocks.org/org.conman.cbor-1.2.3-1.src.rock...
+Using https://luarocks.org/org.conman.cbor-1.2.3-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+org.conman.cbor 1.2.3-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: LGPL-3)
+

@@ -1,0 +1,21 @@
+Archive:  v0.2.zip
+79e42175e6d4292c4e6b622c53b379a55b964532
+   creating: lua-testy-0.2/
+ extracting: lua-testy-0.2/.gitignore  
+  inflating: lua-testy-0.2/README.md  
+   creating: lua-testy-0.2/rockspecs/
+  inflating: lua-testy-0.2/rockspecs/testy-0.1-1.rockspec  
+  inflating: lua-testy-0.2/rockspecs/testy-0.2-1.rockspec  
+   creating: lua-testy-0.2/src/
+  inflating: lua-testy-0.2/src/testy.lua  
+   creating: lua-testy-0.2/tests/
+  inflating: lua-testy-0.2/tests/module1.lua  
+  inflating: lua-testy-0.2/tests/module2.lua  
+  inflating: lua-testy-0.2/tests/module3.lua  
+ extracting: lua-testy-0.2/tests/script1.lua  
+  inflating: lua-testy-0.2/testy-scm-0.rockspec  
+Installing https://luarocks.org/testy-0.2-51.src.rock...
+Using https://luarocks.org/testy-0.2-51.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+testy 0.2-51 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

@@ -1,0 +1,9 @@
+Installing https://luarocks.org/xxtea-1.0.1-1.rockspec...
+Using https://luarocks.org/xxtea-1.0.1-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_xxtea-1.0.1-1-4755/xxtea-lua/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/xxtea.c -o src/xxtea.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/lua_xxtea.c -o src/lua_xxtea.o
+gcc -shared -o xxtea.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/xxtea.o src/lua_xxtea.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+xxtea 1.0.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

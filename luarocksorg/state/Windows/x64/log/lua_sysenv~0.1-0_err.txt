@@ -1,0 +1,14 @@
+Cloning into 'lua_sysenv'...
+Note: checking out 'c2a8ec5faf5acd86e64adf549bb08bcd1a4d3fb7'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...

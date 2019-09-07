@@ -1,0 +1,6 @@
+Installing https://luarocks.org/rockspec2cmake-0.2-1.rockspec...
+Using https://luarocks.org/rockspec2cmake-0.2-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_rockspec2cmake-0.2-1-68/rockspec2cmake/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+rockspec2cmake 0.2-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

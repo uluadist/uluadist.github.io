@@ -1,0 +1,7 @@
+Cloning into 'lua-resty-dogstatsd'...
+fatal: remote error: 
+  Repository `mediba-system/lua-resty-dogstatsd' is disabled.
+Please ask the owner to check their account.
+Warning: skipping dependency checks.
+
+Error: Failed cloning git repository.

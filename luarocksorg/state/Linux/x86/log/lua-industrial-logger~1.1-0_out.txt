@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-industrial-logger-1.1-0.rockspec...
+Using https://luarocks.org/lua-industrial-logger-1.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-industrial-logger-1.1-0-8146/lua-industrial-logger/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-industrial-logger 1.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

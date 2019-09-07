@@ -1,0 +1,58 @@
+Archive:  v0.1.5.zip
+48ec293bbd3546b7f8ff9ebf789be2a5a820379a
+   creating: ZipWriter-0.1.5/
+  inflating: ZipWriter-0.1.5/.travis.yml  
+   creating: ZipWriter-0.1.5/.travis/
+  inflating: ZipWriter-0.1.5/.travis/platform.sh  
+  inflating: ZipWriter-0.1.5/.travis/setup_lua.sh  
+  inflating: ZipWriter-0.1.5/.travis/setup_openssl.sh  
+  inflating: ZipWriter-0.1.5/CMakeLists.txt  
+  inflating: ZipWriter-0.1.5/LICENCE.txt  
+  inflating: ZipWriter-0.1.5/README.md  
+   creating: ZipWriter-0.1.5/cmake/
+  inflating: ZipWriter-0.1.5/cmake/FindLua.cmake  
+  inflating: ZipWriter-0.1.5/cmake/dist.cmake  
+  inflating: ZipWriter-0.1.5/cmake/lua.cmake  
+   creating: ZipWriter-0.1.5/deps/
+  inflating: ZipWriter-0.1.5/deps/lbase64-0.1-1.rockspec  
+  inflating: ZipWriter-0.1.5/deps/lbase64-0.1-2.rockspec  
+  inflating: ZipWriter-0.1.5/deps/lzlib-0.4.work3-1.rockspec  
+  inflating: ZipWriter-0.1.5/deps/lzlib-scm.mot-0.rockspec  
+  inflating: ZipWriter-0.1.5/deps/struct-1.4-1.rockspec  
+  inflating: ZipWriter-0.1.5/dist.info  
+   creating: ZipWriter-0.1.5/doc/
+  inflating: ZipWriter-0.1.5/doc/APPNOTE.TXT  
+  inflating: ZipWriter-0.1.5/lakeconfig.lua  
+  inflating: ZipWriter-0.1.5/lakefile  
+   creating: ZipWriter-0.1.5/lua/
+  inflating: ZipWriter-0.1.5/lua/ZipWriter.lua  
+   creating: ZipWriter-0.1.5/lua/ZipWriter/
+  inflating: ZipWriter-0.1.5/lua/ZipWriter/binary_converter.lua  
+  inflating: ZipWriter-0.1.5/lua/ZipWriter/bit.lua  
+  inflating: ZipWriter-0.1.5/lua/ZipWriter/charset.lua  
+   creating: ZipWriter-0.1.5/lua/ZipWriter/encrypt/
+  inflating: ZipWriter-0.1.5/lua/ZipWriter/encrypt/aes.lua  
+   creating: ZipWriter-0.1.5/lua/ZipWriter/encrypt/aes/
+  inflating: ZipWriter-0.1.5/lua/ZipWriter/encrypt/aes/AesFileEncrypt.lua  
+  inflating: ZipWriter-0.1.5/lua/ZipWriter/module.lua  
+  inflating: ZipWriter-0.1.5/lua/ZipWriter/utils.lua  
+   creating: ZipWriter-0.1.5/lua/ZipWriter/win/
+  inflating: ZipWriter-0.1.5/lua/ZipWriter/win/cp.lua  
+   creating: ZipWriter-0.1.5/rockspecs/
+  inflating: ZipWriter-0.1.5/rockspecs/zipwriter-0.1.0-1.rockspec  
+  inflating: ZipWriter-0.1.5/rockspecs/zipwriter-0.1.1-1.rockspec  
+  inflating: ZipWriter-0.1.5/rockspecs/zipwriter-0.1.2-1.rockspec  
+  inflating: ZipWriter-0.1.5/rockspecs/zipwriter-0.1.3-1.rockspec  
+  inflating: ZipWriter-0.1.5/rockspecs/zipwriter-0.1.4-1.rockspec  
+  inflating: ZipWriter-0.1.5/rockspecs/zipwriter-scm-0.rockspec  
+   creating: ZipWriter-0.1.5/test/
+  inflating: ZipWriter-0.1.5/test/.luacov  
+  inflating: ZipWriter-0.1.5/test/test.lua  
+  inflating: ZipWriter-0.1.5/test/utils.lua  
+   creating: ZipWriter-0.1.5/utils/
+  inflating: ZipWriter-0.1.5/utils/mkarch.lua  
+Installing https://luarocks.org/zipwriter-0.1.5-1.rockspec...
+Using https://luarocks.org/zipwriter-0.1.5-1.rockspec... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+zipwriter 0.1.5-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

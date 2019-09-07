@@ -1,0 +1,12 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+/bin/sh: pkg-config: command not found
+/bin/sh: pkg-config: command not found
+/bin/sh: pkg-config: command not found
+compat/sha/sha512.c:13:10: fatal error: 'openssl/opensslconf.h' file not found
+#include <openssl/opensslconf.h>
+         ^
+1 error generated.
+make: *** [compat/sha/sha512.o] Error 1
+
+Error: Build error: Failed building.

@@ -1,0 +1,4 @@
+Installing https://luarocks.org/luahtml-1.1.1-1.all.rock...
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+
+luahtml 1.1.1-1 is now installed in C:\ste\x64\luarockstree (license: Public Domain)

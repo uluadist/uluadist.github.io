@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua_system_constants-0.1.2-0.rockspec...
+Using https://luarocks.org/lua_system_constants-0.1.2-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua_system_constants-0.1.2-0-9332/lua-system-constants/.git/
+gcc -c -O2 -fPIC -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include lua_system_constants.c -o lua_system_constants.o
+gcc -shared -L/home/sp/Dropbox/Linux/x64/luajit//lib -o lua_system_constants.so lua_system_constants.o
+/home/sp/Dropbox/Linux/x64/luajit//bin/lua test/lua_system_constants_test.lua

@@ -1,0 +1,4 @@
+Cloning into 'lbuffer'...
+Warning: skipping dependency checks.
+
+Error: Build error: Failed compiling module buffer.dll

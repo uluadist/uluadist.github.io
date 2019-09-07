@@ -1,0 +1,4 @@
+Z:\sp\Dropbox\Windows\x86\luarocks\tools\cp: cannot stat `\\lib\\x86_64-linux-gnu\\libuuid.so.1': No such file or directory
+Warning: skipping dependency checks.
+
+Error: Failed copying /lib/x86_64-linux-gnu/libuuid.so.1

@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: src/layeredata/init.lua: No such file or directory
+
+Error: Build error: Failed installing src/layeredata/init.lua in /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/layeredata/0.5-20/lua/layeredata/init.lua

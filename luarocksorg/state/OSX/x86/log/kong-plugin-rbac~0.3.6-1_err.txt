@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for kong-plugin-rbac 0.3.6-1: lodash == 0.02-0
+Missing dependency for kong-plugin-rbac 0.3.6-1: router == 2.1-0
+Missing dependency for kong-plugin-rbac 0.3.6-1: lodash == 0.02-0
+Missing dependency for kong-plugin-rbac 0.3.6-1: router == 2.1-0

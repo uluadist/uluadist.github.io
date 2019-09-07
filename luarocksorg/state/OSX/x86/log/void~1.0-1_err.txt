@@ -1,0 +1,54 @@
+Warning: skipping dependency checks.
+src/void.c:34:6: warning: assigning to 'const uint8_t *' (aka 'const unsigned char *') from 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        str = luaL_checklstring(L,2,&len);
+            ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/void.c:35:2: warning: operator '<<' has lower precedence than '+'; '+' will be evaluated first [-Wshift-op-parentheses]
+        HASH(hash,str,len);
+        ^~~~~~~~~~~~~~~~~~
+src/void.h:98:29: note: expanded from macro 'HASH'
+    hash = hash << 5 + hash + key[len]
+                ~~ ~~~~~~~~~^~~~~~~~~~
+src/void.c:35:2: note: place parentheses around the '+' expression to silence this warning
+        HASH(hash,str,len);
+        ^~~~~~~~~~~~~~~~~~
+src/void.h:98:29: note: expanded from macro 'HASH'
+    hash = hash << 5 + hash + key[len]
+                   ~~~~~~~~~^~~~~~~~~~
+src/void.c:37:19: warning: passing 'const uint8_t *' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        nd->key = strdup(str);
+                         ^~~
+/usr/include/string.h:117:26: note: passing argument to parameter here
+char    *strdup(const char *);
+                            ^
+src/void.c:37:10: warning: assigning to 'uint8_t *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        nd->key = strdup(str);
+                ^ ~~~~~~~~~~~
+src/void.c:52:15: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        if(!strcmp(ud->key,str)) break;
+                                   ^~~~~~~
+/usr/include/string.h:77:25: note: passing argument to parameter here
+int      strcmp(const char *, const char *);
+                            ^
+src/void.c:52:23: warning: passing 'const uint8_t *' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        if(!strcmp(ud->key,str)) break;
+                                           ^~~
+/usr/include/string.h:77:39: note: passing argument to parameter here
+int      strcmp(const char *, const char *);
+                                          ^
+src/void.c:197:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                }else{
+                 ^
+src/void.c:602:10: warning: implicit declaration of function 'read' is invalid in C99 [-Wimplicit-function-declaration]
+                        ret = RECV(((SOCKET)luaL_checkinteger(L,2)),ud->data,ud->size);
+                              ^
+src/void.h:61:21: note: expanded from macro 'RECV'
+#define RECV(s,d,l) read(s,d,l)
+                    ^
+src/void.c:627:10: warning: implicit declaration of function 'write' is invalid in C99 [-Wimplicit-function-declaration]
+                        ret = SEND(((SOCKET)luaL_checkinteger(L,2)),ud->data,ud->size);
+                              ^
+src/void.h:60:21: note: expanded from macro 'SEND'
+#define SEND(s,d,l) write(s,d,l)
+                    ^
+9 warnings generated.
+No existing manifest. Attempting to rebuild...

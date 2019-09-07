@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for layeredata 0.5-3: uuid 
+Missing dependency for layeredata 0.5-3: c3 
+Missing dependency for layeredata 0.5-3: coronest 
+Missing dependency for layeredata 0.5-3: uuid 
+Missing dependency for layeredata 0.5-3: c3 
+Missing dependency for layeredata 0.5-3: coronest 

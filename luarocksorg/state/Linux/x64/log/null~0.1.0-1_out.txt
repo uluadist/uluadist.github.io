@@ -1,0 +1,18 @@
+Archive:  v0.1.0.zip
+aa5d92df1ef1055bc123cc9485076e22bb2b4565
+   creating: lua-null-0.1.0/
+  inflating: lua-null-0.1.0/.gitignore  
+  inflating: lua-null-0.1.0/LICENSE  
+  inflating: lua-null-0.1.0/README.md  
+   creating: lua-null-0.1.0/rockspecs/
+  inflating: lua-null-0.1.0/rockspecs/null-0.1.0-1.rockspec  
+  inflating: lua-null-0.1.0/rockspecs/null-scm-0.rockspec  
+   creating: lua-null-0.1.0/src/
+  inflating: lua-null-0.1.0/src/lnull.c  
+Installing https://luarocks.org/null-0.1.0-1.src.rock...
+Using https://luarocks.org/null-0.1.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/lnull.c -o src/lnull.o
+gcc -shared -o null.so -L/home/sp/Dropbox/Linux/x64/luajit//lib src/lnull.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+null 0.1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

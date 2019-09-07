@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+src/core/lcurses/lcurses.c:86:20: fatal error: curses.h: No such file or directory
+ #include <curses.h>
+                    ^
+compilation terminated.
+
+Error: Build error: Failed compiling object src/core/lcurses/lcurses.o

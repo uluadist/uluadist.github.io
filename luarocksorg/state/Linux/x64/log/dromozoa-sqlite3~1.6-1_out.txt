@@ -1,0 +1,4 @@
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c bind/bind.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c context.cpp
+Installing https://luarocks.org/dromozoa-sqlite3-1.6-1.src.rock...
+Using https://luarocks.org/dromozoa-sqlite3-1.6-1.src.rock... switching to 'build' mode

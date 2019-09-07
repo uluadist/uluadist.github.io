@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+Cloning into 'lpath'...
+lpath.c:30:78: warning: control reaches end of non-void function [-Wreturn-type]
+{ lua_pushlightuserdata(L, (void*)p); lua_insert(L, -2); lua_rawset(L, idx); }
+                                                                             ^
+1 warning generated.
+No existing manifest. Attempting to rebuild...

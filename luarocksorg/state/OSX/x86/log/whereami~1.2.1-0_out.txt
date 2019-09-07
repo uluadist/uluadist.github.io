@@ -1,0 +1,8 @@
+Installing https://luarocks.org/whereami-1.2.1-0.rockspec...
+Using https://luarocks.org/whereami-1.2.1-0.rockspec... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c lua-whereami.c -o lua-whereami.o -Iwhereami/src
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c whereami/src/whereami.c -o whereami/src/whereami.o -Iwhereami/src
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o whereami/core.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib lua-whereami.o whereami/src/whereami.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+whereami 1.2.1-0 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

@@ -1,0 +1,17 @@
+Warning: skipping dependency checks.
+/Users/sp/Dropbox/OSX/x86/luajit/bin/lua: test/lua_ip_test.lua:3: module 'lua_ip' not found:
+	no field package.preload['lua_ip']
+	no file '/Users/sp/Dropbox/Prj/scilua/head/lua_ip/init.lua'
+	no file '/Users/sp/Dropbox/Prj/scilua/head/lua_ip.lua'
+	no file '/Users/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/OSX/x86/lua_ip/init.lua'
+	no file '/Users/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/OSX/x86/lua_ip.lua'
+	no file './lua_ip.lua'
+	no file '/Users/sp/Dropbox/Prj/scilua/head/lua_ip.so'
+	no file '/Users/sp/Dropbox/Prj/scilua/head/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	test/lua_ip_test.lua:3: in main chunk
+	[C]: at 0x00002030
+make: *** [lua_ip.so] Error 1
+
+Error: Build error: Failed building.

@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_lamda-0.1.0-1-3082/lamda-0.1.0-1.rockspec: Unknown field test_dependencies

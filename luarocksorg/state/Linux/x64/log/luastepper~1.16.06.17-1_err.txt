@@ -1,0 +1,62 @@
+Warning: skipping dependency checks.
+Note: checking out '1.16.06'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at ca4ab45... Updated the table2string method in LuaStepper.c and lStepper.lua. updated the rockspec
+LuaStepper.c: In function ‘callParentFunc’:
+LuaStepper.c:137:14: error: ‘LUA_OK’ undeclared (first use in this function)
+         case LUA_OK:
+              ^
+LuaStepper.c:137:14: note: each undeclared identifier is reported only once for each function it appears in
+LuaStepper.c:155:14: error: ‘LUA_ERRGCMM’ undeclared (first use in this function)
+         case LUA_ERRGCMM:
+              ^
+LuaStepper.c: In function ‘addTask’:
+LuaStepper.c:325:50: error: ‘luaopen_coroutine’ undeclared (first use in this function)
+     luaL_requiref(taskq[i].luaVM, LUA_COLIBNAME, luaopen_coroutine, 1);          // Coroutine library
+                                                  ^
+LuaStepper.c:330:51: error: ‘luaopen_bit32’ undeclared (first use in this function)
+     luaL_requiref(taskq[i].luaVM, LUA_BITLIBNAME, luaopen_bit32, 1);             // Bit library
+                                                   ^
+LuaStepper.c:546:14: error: ‘LUA_OK’ undeclared (first use in this function)
+         case LUA_OK:
+              ^
+LuaStepper.c:558:22: error: ‘LUA_ERRGCMM’ undeclared (first use in this function)
+                 case LUA_ERRGCMM:
+                      ^
+LuaStepper.c: In function ‘setTaskData’:
+LuaStepper.c:1018:57: error: ‘LUA_RIDX_GLOBALS’ undeclared (first use in this function)
+     lua_rawgeti(taskq[tIndex].luaVM, LUA_REGISTRYINDEX, LUA_RIDX_GLOBALS);
+                                                         ^
+LuaStepper.c: In function ‘taskStatus’:
+LuaStepper.c:1212:9: error: ‘LUA_OK’ undeclared (first use in this function)
+    case LUA_OK:
+         ^
+LuaStepper.c: In function ‘runLoop’:
+LuaStepper.c:1279:11: error: ‘LUA_OK’ undeclared (first use in this function)
+      case LUA_OK:
+           ^
+LuaStepper.c:1294:7: warning: passing argument 2 of ‘lua_resume’ makes integer from pointer without a cast [enabled by default]
+       switch(lua_resume(taskq[i].thread,NULL,0))
+       ^
+In file included from LuaStepper.c:24:0:
+/home/sp/Dropbox/Linux/x64/luajit//include/lua.h:214:15: note: expected ‘int’ but argument is of type ‘void *’
+ LUA_API int  (lua_resume) (lua_State *L, int narg);
+               ^
+LuaStepper.c:1294:7: error: too many arguments to function ‘lua_resume’
+       switch(lua_resume(taskq[i].thread,NULL,0))
+       ^
+In file included from LuaStepper.c:24:0:
+/home/sp/Dropbox/Linux/x64/luajit//include/lua.h:214:15: note: declared here
+ LUA_API int  (lua_resume) (lua_State *L, int narg);
+               ^
+
+Error: Build error: Failed compiling object LuaStepper.o

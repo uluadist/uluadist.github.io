@@ -1,0 +1,24 @@
+Archive:  v0.2.zip
+6b8c8c576efaddce92cd5e596459aa03311075a7
+   creating: lpeg_patterns-0.2/
+  inflating: lpeg_patterns-0.2/.busted  
+  inflating: lpeg_patterns-0.2/.luacheckrc  
+  inflating: lpeg_patterns-0.2/README.md  
+  inflating: lpeg_patterns-0.2/lpeg_patterns-0.2-0.rockspec  
+   creating: lpeg_patterns-0.2/lpeg_patterns/
+  inflating: lpeg_patterns-0.2/lpeg_patterns/IPv4.lua  
+  inflating: lpeg_patterns-0.2/lpeg_patterns/IPv6.lua  
+  inflating: lpeg_patterns-0.2/lpeg_patterns/core.lua  
+  inflating: lpeg_patterns-0.2/lpeg_patterns/email.lua  
+  inflating: lpeg_patterns-0.2/lpeg_patterns/phone.lua  
+  inflating: lpeg_patterns-0.2/lpeg_patterns/uri.lua  
+   creating: lpeg_patterns-0.2/spec/
+  inflating: lpeg_patterns-0.2/spec/IPv6_spec.lua  
+  inflating: lpeg_patterns-0.2/spec/email_spec.lua  
+  inflating: lpeg_patterns-0.2/spec/phone_spec.lua  
+  inflating: lpeg_patterns-0.2/spec/uri_spec.lua  
+Installing https://rocks.moonscript.org/lpeg_patterns-0.2-0.src.rock...
+Using https://rocks.moonscript.org/lpeg_patterns-0.2-0.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lpeg_patterns 0.2-0 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

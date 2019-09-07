@@ -1,0 +1,20 @@
+Installing https://rocks.moonscript.org/simulua-0.1-1.src.rock...
+Using https://rocks.moonscript.org/simulua-0.1-1.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lib/ranlib.c -o lib/ranlib.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lib/mt.c -o lib/mt.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lib/rng.c -o lib/rng.o
+gcc -shared -o rng.so -L/home/sp/luajit/lib lib/ranlib.o lib/mt.o lib/rng.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lib/stack.c -o lib/stack.o
+gcc -shared -o stack.so -L/home/sp/luajit/lib lib/stack.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lib/queue.c -o lib/queue.o
+gcc -shared -o queue.so -L/home/sp/luajit/lib lib/queue.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lib/binomial.c -o lib/binomial.o
+gcc -shared -o binomial.so -L/home/sp/luajit/lib lib/binomial.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lib/dcdflib.c -o lib/dcdflib.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lib/ipmpar.c -o lib/ipmpar.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lib/cdf.c -o lib/cdf.o
+gcc -shared -o cdf.so -L/home/sp/luajit/lib lib/dcdflib.o lib/ipmpar.o lib/cdf.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+simulua 0.1-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

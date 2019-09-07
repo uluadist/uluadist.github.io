@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+Warning: unmatched variable LUA_DIR
+daemon.c:13:10: fatal error: 'lua.h' file not found
+#include "lua.h"
+         ^
+1 error generated.
+make: *** [daemon.o] Error 1
+
+Error: Build error: Failed building.

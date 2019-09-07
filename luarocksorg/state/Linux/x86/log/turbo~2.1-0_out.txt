@@ -1,0 +1,15 @@
+Installing https://luarocks.org/turbo-2.1-0.rockspec...
+Using https://luarocks.org/turbo-2.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_turbo-2.1-0-2952/turbo/.git/
+make -C deps/http-parser library
+make[1]: Entering directory `/tmp/luarocks_turbo-2.1-0-2952/turbo/deps/http-parser'
+gcc  -I. -fPIC -DHTTP_PARSER_STRICT=0  -O3  -Wall -Wextra -Werror -c http_parser.c -o libhttp_parser.o
+gcc  -shared -Wl,-soname=libhttp_parser.so.2.1 -o libhttp_parser.so.2.1 libhttp_parser.o
+make[1]: Leaving directory `/tmp/luarocks_turbo-2.1-0-2952/turbo/deps/http-parser'
+gcc -Ideps/http-parser/ -shared -O3 -Wall -g  -fPIC deps/http-parser/libhttp_parser.o deps/turbo_ffi_wrap.c -o libtffi_wrap.so  -lcrypto -lssl
+==== Installing Turbo.lua v2.1.0 to: ====
+==== /usr/local/lib/lua/5.1 and ====
+==== /usr/local/share/luajit-2.0.4 ====
+mkdir -p /usr/local/lib
+mkdir -p /usr/local/bin
+mkdir -p /usr/local/share/lua/5.1/turbo

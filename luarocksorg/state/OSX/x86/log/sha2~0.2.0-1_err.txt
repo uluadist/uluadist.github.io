@@ -1,0 +1,94 @@
+Warning: skipping dependency checks.
+sha2.c:627:31: warning: 'memset' call operates on objects of type 'SHA256_CTX' (aka 'struct _SHA256_CTX') while the size is based on a different type 'SHA256_CTX *' (aka 'struct _SHA256_CTX *') [-Wsizeof-pointer-memaccess]
+        MEMSET_BZERO(context, sizeof(context));
+                     ~~~~~~~         ^~~~~~~
+sha2.c:627:31: note: did you mean to dereference the argument to 'sizeof' (and multiply it by the number of elements)?
+        MEMSET_BZERO(context, sizeof(context));
+                                     ^~~~~~~
+sha2.c:648:32: warning: 'memset' call operates on objects of type 'SHA256_CTX' (aka 'struct _SHA256_CTX') while the size is based on a different type 'SHA256_CTX *' (aka 'struct _SHA256_CTX *') [-Wsizeof-pointer-memaccess]
+                MEMSET_BZERO(context, sizeof(context));
+                             ~~~~~~~         ^~~~~~~
+sha2.c:648:32: note: did you mean to dereference the argument to 'sizeof' (and multiply it by the number of elements)?
+                MEMSET_BZERO(context, sizeof(context));
+                                             ^~~~~~~
+sha2.c:957:31: warning: 'memset' call operates on objects of type 'SHA512_CTX' (aka 'struct _SHA512_CTX') while the size is based on a different type 'SHA512_CTX *' (aka 'struct _SHA512_CTX *') [-Wsizeof-pointer-memaccess]
+        MEMSET_BZERO(context, sizeof(context));
+                     ~~~~~~~         ^~~~~~~
+sha2.c:957:31: note: did you mean to dereference the argument to 'sizeof' (and multiply it by the number of elements)?
+        MEMSET_BZERO(context, sizeof(context));
+                                     ^~~~~~~
+sha2.c:977:32: warning: 'memset' call operates on objects of type 'SHA512_CTX' (aka 'struct _SHA512_CTX') while the size is based on a different type 'SHA512_CTX *' (aka 'struct _SHA512_CTX *') [-Wsizeof-pointer-memaccess]
+                MEMSET_BZERO(context, sizeof(context));
+                             ~~~~~~~         ^~~~~~~
+sha2.c:977:32: note: did you mean to dereference the argument to 'sizeof' (and multiply it by the number of elements)?
+                MEMSET_BZERO(context, sizeof(context));
+                                             ^~~~~~~
+sha2.c:1032:31: warning: 'memset' call operates on objects of type 'SHA384_CTX' (aka 'struct _SHA512_CTX') while the size is based on a different type 'SHA384_CTX *' (aka 'struct _SHA512_CTX *') [-Wsizeof-pointer-memaccess]
+        MEMSET_BZERO(context, sizeof(context));
+                     ~~~~~~~         ^~~~~~~
+sha2.c:1032:31: note: did you mean to dereference the argument to 'sizeof' (and multiply it by the number of elements)?
+        MEMSET_BZERO(context, sizeof(context));
+                                     ^~~~~~~
+sha2.c:1052:32: warning: 'memset' call operates on objects of type 'SHA384_CTX' (aka 'struct _SHA512_CTX') while the size is based on a different type 'SHA384_CTX *' (aka 'struct _SHA512_CTX *') [-Wsizeof-pointer-memaccess]
+                MEMSET_BZERO(context, sizeof(context));
+                             ~~~~~~~         ^~~~~~~
+sha2.c:1052:32: note: did you mean to dereference the argument to 'sizeof' (and multiply it by the number of elements)?
+                MEMSET_BZERO(context, sizeof(context));
+                                             ^~~~~~~
+6 warnings generated.
+sha2lib.c:37:26: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        SHA256_Update(&context, data, len);
+                                ^~~~
+./sha2.h:131:47: note: passing argument to parameter here
+void SHA256_Update(SHA256_CTX*, const uint8_t*, size_t);
+                                              ^
+sha2lib.c:38:15: warning: passing 'char [32]' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        SHA256_Final(digest, &context);
+                     ^~~~~~
+./sha2.h:132:26: note: passing argument to parameter here
+void SHA256_Final(uint8_t[SHA256_DIGEST_LENGTH], SHA256_CTX*);
+                         ^
+sha2lib.c:53:14: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        SHA256_Data(data, len, digest);
+                    ^~~~
+./sha2.h:134:33: note: passing argument to parameter here
+char* SHA256_Data(const uint8_t*, size_t, char[SHA256_DIGEST_STRING_LENGTH]);
+                                ^
+sha2lib.c:70:26: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        SHA384_Update(&context, data, len);
+                                ^~~~
+./sha2.h:137:47: note: passing argument to parameter here
+void SHA384_Update(SHA384_CTX*, const uint8_t*, size_t);
+                                              ^
+sha2lib.c:71:15: warning: passing 'char [48]' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        SHA384_Final(digest, &context);
+                     ^~~~~~
+./sha2.h:138:26: note: passing argument to parameter here
+void SHA384_Final(uint8_t[SHA384_DIGEST_LENGTH], SHA384_CTX*);
+                         ^
+sha2lib.c:86:14: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        SHA384_Data(data, len, digest);
+                    ^~~~
+./sha2.h:140:33: note: passing argument to parameter here
+char* SHA384_Data(const uint8_t*, size_t, char[SHA384_DIGEST_STRING_LENGTH]);
+                                ^
+sha2lib.c:103:26: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        SHA512_Update(&context, data, len);
+                                ^~~~
+./sha2.h:143:47: note: passing argument to parameter here
+void SHA512_Update(SHA512_CTX*, const uint8_t*, size_t);
+                                              ^
+sha2lib.c:104:15: warning: passing 'char [64]' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        SHA512_Final(digest, &context);
+                     ^~~~~~
+./sha2.h:144:26: note: passing argument to parameter here
+void SHA512_Final(uint8_t[SHA512_DIGEST_LENGTH], SHA512_CTX*);
+                         ^
+sha2lib.c:119:14: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        SHA512_Data(data, len, digest);
+                    ^~~~
+./sha2.h:146:33: note: passing argument to parameter here
+char* SHA512_Data(const uint8_t*, size_t, char[SHA512_DIGEST_STRING_LENGTH]);
+                                ^
+9 warnings generated.
+No existing manifest. Attempting to rebuild...

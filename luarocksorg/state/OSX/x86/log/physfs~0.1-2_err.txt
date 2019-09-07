@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+lua-physfs.c:2:10: fatal error: 'lua.h' file not found
+#include <lua.h>
+         ^
+1 error generated.
+
+Error: Build error: Failed building.

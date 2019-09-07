@@ -1,0 +1,6 @@
+openssl_aes.c
+c:\users\sp\appdata\local\temp\luarocks_smithsnmp-0.8-2-2452\smithsnmp-0.8.1\core\utils.h(77): error C2010: '.': unexpected in macro formal parameter list
+c:\users\sp\appdata\local\temp\luarocks_smithsnmp-0.8-2-2452\smithsnmp-0.8.1\3rd\crypto\../../core/snmp.h(234): warning C4311: 'type cast': pointer truncation from 'list_head *' to 'unsigned long'
+Installing https://luarocks.org/smithsnmp-0.8-2.src.rock...
+Using https://luarocks.org/smithsnmp-0.8-2.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fo3rd/crypto/openssl_aes.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src 3rd/crypto/openssl_aes.c -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX

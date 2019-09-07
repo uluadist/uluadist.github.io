@@ -1,0 +1,6 @@
+Installing https://luarocks.org/cwnu-drcom-3.2-0.rockspec...
+Using https://luarocks.org/cwnu-drcom-3.2-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_cwnu-drcom-3.2-0-3388/cwnu-drcom.lua/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+cwnu-drcom 3.2-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: GNU GPL v3)
+

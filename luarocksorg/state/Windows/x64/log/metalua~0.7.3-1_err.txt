@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for metalua 0.7.3-1: metalua-compiler == 0.7.3
+Missing dependency for metalua 0.7.3-1: alt-getopt ~> 0.7
+Missing dependency for metalua 0.7.3-1: checks ~> 1.0
+Missing dependency for metalua 0.7.3-1: metalua-compiler == 0.7.3
+Missing dependency for metalua 0.7.3-1: alt-getopt ~> 0.7
+Missing dependency for metalua 0.7.3-1: checks ~> 1.0

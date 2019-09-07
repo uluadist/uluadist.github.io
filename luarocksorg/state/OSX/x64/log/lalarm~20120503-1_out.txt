@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/lalarm-20120503-1.src.rock...
+Using https://rocks.moonscript.org/lalarm-20120503-1.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lalarm.c -o lalarm.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o alarm.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lalarm.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lalarm 20120503-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: Public domain)
+

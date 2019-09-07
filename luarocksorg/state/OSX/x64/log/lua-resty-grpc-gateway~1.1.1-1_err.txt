@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-resty-grpc-gateway 1.1.1-1: lua-protobuf 
+Missing dependency for lua-resty-grpc-gateway 1.1.1-1: lua-protobuf 

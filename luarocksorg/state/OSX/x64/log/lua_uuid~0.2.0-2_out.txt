@@ -1,0 +1,4 @@
+Installing https://rocks.moonscript.org/lua_uuid-0.2.0-2.rockspec...
+Using https://rocks.moonscript.org/lua_uuid-0.2.0-2.rockspec... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lua_uuid.c -o lua_uuid.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o lua_uuid.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lua_uuid.o -luuid

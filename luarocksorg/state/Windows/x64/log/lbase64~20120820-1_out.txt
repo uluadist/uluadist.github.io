@@ -1,0 +1,13 @@
+lbase64.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library base64.lib and object base64.exp
+Installing https://luarocks.org/lbase64-20120820-1.src.rock...
+Using https://luarocks.org/lbase64-20120820-1.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+cl /nologo /MD /O2 -c -Folbase64.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lbase64.c
+link -dll -def:base64.def -out:base64.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib lbase64.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+lbase64 20120820-1 is now built and installed in C:\ste\x64\luarockstree (license: Public domain)
+

@@ -1,0 +1,8 @@
+Archive:  lglob-0.8.zip
+  inflating: lglob/lglob             
+  inflating: lglob/README.md         
+Installing https://rocks.moonscript.org/lglob-0.8-1.src.rock...
+Using https://rocks.moonscript.org/lglob-0.8-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lglob 0.8-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

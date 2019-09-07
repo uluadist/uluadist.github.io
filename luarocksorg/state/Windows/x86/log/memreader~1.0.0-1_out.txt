@@ -1,0 +1,10 @@
+-- Building for: Visual Studio 14 2015
+-- The C compiler identification is MSVC 19.0.23026.0
+-- Check for working C compiler using: Visual Studio 14 2015
+-- Check for working C compiler using: Visual Studio 14 2015 -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/sp/AppData/Local/Temp/luarocks_memreader-1.0.0-1-1373/memreader/build.luarocks/CMakeFiles/CMakeOutput.log".
+Installing https://luarocks.org/memreader-1.0.0-1.rockspec...
+Using https://luarocks.org/memreader-1.0.0-1.rockspec... switching to 'build' mode

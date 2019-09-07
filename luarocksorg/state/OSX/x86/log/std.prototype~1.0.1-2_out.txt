@@ -1,0 +1,38 @@
+Archive:  v1.0.1.zip
+ba25869f30682a86e42124e3bfaf36255ab2b698
+   creating: prototype-1.0.1/
+  inflating: prototype-1.0.1/.gitignore  
+  inflating: prototype-1.0.1/.travis.yml  
+  inflating: prototype-1.0.1/AUTHORS.md  
+  inflating: prototype-1.0.1/LICENSE.md  
+  inflating: prototype-1.0.1/Makefile  
+  inflating: prototype-1.0.1/NEWS.md  
+  inflating: prototype-1.0.1/README.md  
+   creating: prototype-1.0.1/doc/
+  inflating: prototype-1.0.1/doc/config.ld.in  
+   creating: prototype-1.0.1/lib/
+   creating: prototype-1.0.1/lib/std/
+   creating: prototype-1.0.1/lib/std/prototype/
+  inflating: prototype-1.0.1/lib/std/prototype/_base.lua  
+  inflating: prototype-1.0.1/lib/std/prototype/container.lua  
+  inflating: prototype-1.0.1/lib/std/prototype/init.lua  
+  inflating: prototype-1.0.1/lib/std/prototype/object.lua  
+  inflating: prototype-1.0.1/lib/std/prototype/set.lua  
+  inflating: prototype-1.0.1/lib/std/prototype/strbuf.lua  
+  inflating: prototype-1.0.1/lib/std/prototype/trie.lua  
+ extracting: prototype-1.0.1/lib/std/prototype/version.lua  
+   creating: prototype-1.0.1/specs/
+  inflating: prototype-1.0.1/specs/_base_spec.yaml  
+  inflating: prototype-1.0.1/specs/container_spec.yaml  
+  inflating: prototype-1.0.1/specs/init_spec.yaml  
+  inflating: prototype-1.0.1/specs/object_spec.yaml  
+  inflating: prototype-1.0.1/specs/set_spec.yaml  
+  inflating: prototype-1.0.1/specs/spec_helper.lua  
+  inflating: prototype-1.0.1/specs/strbuf_spec.yaml  
+  inflating: prototype-1.0.1/specs/trie_spec.yaml  
+  inflating: prototype-1.0.1/std.prototype-1.0.1-1.rockspec  
+Installing https://luarocks.org/std.prototype-1.0.1-2.src.rock...
+Using https://luarocks.org/std.prototype-1.0.1-2.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+std.prototype 1.0.1-2 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

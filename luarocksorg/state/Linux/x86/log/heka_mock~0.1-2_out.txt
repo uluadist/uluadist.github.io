@@ -1,0 +1,6 @@
+Installing https://luarocks.org/heka_mock-0.1-2.rockspec...
+Using https://luarocks.org/heka_mock-0.1-2.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_heka_mock-0.1-2-9337/heka_mock/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+heka_mock 0.1-2 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

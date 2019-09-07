@@ -1,0 +1,9 @@
+Installing https://luarocks.org/blowfish-0.1-1.rockspec...
+Using https://luarocks.org/blowfish-0.1-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_blowfish-0.1-1-1777/lua-blowfish/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/lua_blowfish.c -o src/lua_blowfish.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/blowfish.c -o src/blowfish.o
+gcc -shared -o blowfish.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/lua_blowfish.o src/blowfish.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+blowfish 0.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: LGPL)
+

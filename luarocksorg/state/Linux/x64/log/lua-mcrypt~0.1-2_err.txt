@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+lmcryptlib.c:6:20: fatal error: mcrypt.h: No such file or directory
+ #include <mcrypt.h>
+                    ^
+compilation terminated.
+
+Error: Build error: Failed compiling object lmcryptlib.o

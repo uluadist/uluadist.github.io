@@ -1,0 +1,18 @@
+Warning: skipping dependency checks.
+Note: checking out '0.0.1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at 7a4ea47... init commit
+Warning: unmatched variable INSTALL_DIR
+cp: cannot create regular file `/usr/local/bin/busted': Permission denied
+make: *** [install] Error 1
+
+Error: Build error: Failed installing.

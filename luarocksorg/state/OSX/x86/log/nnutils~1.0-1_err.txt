@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: logger.lua: No such file or directory
+
+Error: Build error: Failed installing logger.lua in /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/nnutils/1.0-1/lua/nnutils/logger.lua

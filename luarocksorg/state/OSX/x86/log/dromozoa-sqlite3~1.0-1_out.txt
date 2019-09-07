@@ -1,0 +1,15 @@
+c++ -I/Users/sp/Dropbox/OSX/x86/luajit/include -Wall -W -O2 -fPIC -c dbh.cpp
+c++ -I/Users/sp/Dropbox/OSX/x86/luajit/include -Wall -W -O2 -fPIC -c error.cpp
+c++ -I/Users/sp/Dropbox/OSX/x86/luajit/include -Wall -W -O2 -fPIC -c log_level.cpp
+c++ -I/Users/sp/Dropbox/OSX/x86/luajit/include -Wall -W -O2 -fPIC -c set_field.cpp
+c++ -I/Users/sp/Dropbox/OSX/x86/luajit/include -Wall -W -O2 -fPIC -c sqlite3.cpp
+c++ -I/Users/sp/Dropbox/OSX/x86/luajit/include -Wall -W -O2 -fPIC -c sth.cpp
+c++ -I/Users/sp/Dropbox/OSX/x86/luajit/include -Wall -W -O2 -fPIC -c success.cpp
+c++ -L/Users/sp/Dropbox/OSX/x86/luajit/lib -bundle -undefined dynamic_lookup -all_load dbh.o error.o log_level.o set_field.o sqlite3.o sth.o success.o -lsqlite3 -ldl -o sqlite3.so
+mkdir -p /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/dromozoa-sqlite3/1.0-1/lib/dromozoa
+cp sqlite3.so /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/dromozoa-sqlite3/1.0-1/lib/dromozoa
+Installing https://rocks.moonscript.org/dromozoa-sqlite3-1.0-1.src.rock...
+Using https://rocks.moonscript.org/dromozoa-sqlite3-1.0-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+dromozoa-sqlite3 1.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: GPL-3)
+

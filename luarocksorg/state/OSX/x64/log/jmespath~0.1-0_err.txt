@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: jmespath.lua is a directory (not copied).
+
+Error: Build error: Failed installing jmespath.lua in /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/jmespath/0.1-0/lua/jmespath.lua

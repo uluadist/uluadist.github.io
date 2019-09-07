@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_luarocks-rockspec-lualog-0.1-3-2512/lualog-0.1-3.rockspec: Unknown field issues_url

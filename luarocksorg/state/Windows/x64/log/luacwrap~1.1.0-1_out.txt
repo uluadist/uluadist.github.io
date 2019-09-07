@@ -1,0 +1,25 @@
+testluacwrap.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library testluacwrap.lib and object testluacwrap.exp
+luaaux.c
+luacwrap.c
+wrapnumeric.c
+defconstants.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library luacwrap.lib and object luacwrap.exp
+Installing https://luarocks.org/luacwrap-1.1.0-1.src.rock...
+Using https://luarocks.org/luacwrap-1.1.0-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/testluacwrap.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/testluacwrap.c -DWIN32 -DNDEBUG -D_WINDOWS -D_USRDLL -DWINVER=0x0600 -D_WIN32_WINNT=0x0600 -D_WIN32_IE=0x0600 -I./include
+link -dll -def:testluacwrap.def -out:testluacwrap.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib src/testluacwrap.obj
+cl /nologo /MD /O2 -c -Fosrc/luaaux.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/luaaux.c -DWIN32 -DNDEBUG -D_WINDOWS -D_USRDLL -DWINVER=0x0600 -D_WIN32_WINNT=0x0600 -D_WIN32_IE=0x0600 -I./include
+cl /nologo /MD /O2 -c -Fosrc/luacwrap.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/luacwrap.c -DWIN32 -DNDEBUG -D_WINDOWS -D_USRDLL -DWINVER=0x0600 -D_WIN32_WINNT=0x0600 -D_WIN32_IE=0x0600 -I./include
+cl /nologo /MD /O2 -c -Fosrc/wrapnumeric.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/wrapnumeric.c -DWIN32 -DNDEBUG -D_WINDOWS -D_USRDLL -DWINVER=0x0600 -D_WIN32_WINNT=0x0600 -D_WIN32_IE=0x0600 -I./include
+cl /nologo /MD /O2 -c -Fosrc/defconstants.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/defconstants.c -DWIN32 -DNDEBUG -D_WINDOWS -D_USRDLL -DWINVER=0x0600 -D_WIN32_WINNT=0x0600 -D_WIN32_IE=0x0600 -I./include
+link -dll -def:luacwrap.def -out:luacwrap.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib src/luaaux.obj src/luacwrap.obj src/wrapnumeric.obj src/defconstants.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+luacwrap 1.1.0-1 is now built and installed in C:\ste\x64\luarockstree (license: MIT/X11)
+

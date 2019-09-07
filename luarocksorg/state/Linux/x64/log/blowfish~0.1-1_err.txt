@@ -1,0 +1,14 @@
+Warning: skipping dependency checks.
+Note: checking out 'v0.1-1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at 0d39375... Added LuaRocks support
+No existing manifest. Attempting to rebuild...

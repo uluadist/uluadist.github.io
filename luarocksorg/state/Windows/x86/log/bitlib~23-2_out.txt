@@ -1,0 +1,13 @@
+lbitlib.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library bit.lib and object bit.exp
+Installing https://luarocks.org/bitlib-23-2.src.rock...
+Using https://luarocks.org/bitlib-23-2.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+cl /nologo /MD /O2 -c -Folbitlib.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ lbitlib.c
+link -dll -def:bit.def -out:bit.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib lbitlib.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+bitlib 23-2 is now built and installed in C:\ste\x86\luarockstree (license: MIT/X11)
+

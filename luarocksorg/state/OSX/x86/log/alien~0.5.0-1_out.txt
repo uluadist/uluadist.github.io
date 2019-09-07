@@ -1,0 +1,212 @@
+cat executables | xargs chmod +x
+cd libffi && ./configure --disable-shared CC=gcc
+checking build system type... i386-apple-darwin15.0.0
+checking host system type... i386-apple-darwin15.0.0
+checking target system type... i386-apple-darwin15.0.0
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking dependency style of gcc... gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ld used by gcc... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking for /Library/Developer/CommandLineTools/usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm
+checking whether ln -s works... yes
+checking how to recognize dependent libraries... pass_all
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... gfortran
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether gfortran accepts -g... yes
+checking the maximum length of command line arguments... 196608
+checking command to parse /usr/bin/nm output from gcc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking for dsymutil... dsymutil
+checking for nmedit... nmedit
+checking for -single_module linker flag... yes
+checking for -exported_symbols_list linker flag... yes
+checking if gcc supports -fno-rtti -fno-exceptions... yes
+checking for gcc option to produce PIC... -fno-common
+checking if gcc PIC flag -fno-common works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking whether the gcc linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin15.0.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by g++... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking whether the g++ linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fno-common
+checking if g++ PIC flag -fno-common works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking whether the g++ linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin15.0.0 dyld
+(cached) (cached) checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for gfortran option to produce PIC... -fno-common
+checking if gfortran PIC flag -fno-common works... yes
+checking if gfortran static flag -static works... no
+checking if gfortran supports -c -o file.o... yes
+checking whether the gfortran linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin15.0.0 dyld
+(cached) (cached) checking how to hardcode library paths into programs... immediate
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking for mmap... yes
+checking for sys/mman.h... (cached) yes
+checking for mmap... (cached) yes
+checking whether read-only mmap of a plain file works... yes
+checking whether mmap from /dev/zero works... no
+checking for MAP_ANON(YMOUS)... yes
+checking whether mmap with MAP_ANON(YMOUS) works... yes
+checking for ANSI C header files... (cached) yes
+checking for memcpy... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking size of double... 8
+checking size of long double... 16
+checking whether byte ordering is bigendian... no
+checking assembler .cfi pseudo-op support... yes
+checking whether .eh_frame section should be read-only... no
+checking for __attribute__((visibility("hidden")))... no
+configure: creating ./config.status
+config.status: creating include/Makefile
+config.status: creating include/ffi.h
+config.status: creating Makefile
+config.status: creating testsuite/Makefile
+config.status: creating man/Makefile
+config.status: creating libffi.pc
+config.status: creating fficonfig.h
+config.status: linking src/x86/ffitarget.h to include/ffitarget.h
+config.status: executing depfiles commands
+config.status: executing include commands
+config.status: executing src commands
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -c -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -Ilibffi/include -o src/alien/core.o src/alien/core.c
+cd libffi && make CC=gcc
+/Library/Developer/CommandLineTools/usr/bin/make "AR_FLAGS=" "CC_FOR_BUILD=" "CFLAGS=-O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN" "CXXFLAGS=-g -O2" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "JC1FLAGS=" "LDFLAGS=" "LIBCFLAGS=" "LIBCFLAGS_FOR_TARGET=" "MAKE=/Library/Developer/CommandLineTools/usr/bin/make" "MAKEINFO=/bin/sh /tmp/luarocks_alien-0.5.0-1-6817/alien-0.5.0/libffi/missing --run makeinfo " "PICFLAG=" "PICFLAG_FOR_TARGET=" "RUNTESTFLAGS=" "SHELL=/bin/sh" "exec_prefix=/usr/local" "infodir=/usr/local/share/info" "libdir=/usr/local/lib" "prefix=/usr/local" "AR=ar" "AS=as" "CC=gcc" "CXX=g++" "LD=ld" "NM=" "RANLIB=ranlib" "DESTDIR=" all-recursive
+Making all in include
+make[3]: Nothing to be done for `all'.
+Making all in testsuite
+make[3]: Nothing to be done for `all'.
+Making all in man
+make[3]: Nothing to be done for `all'.
+depbase=`echo src/debug.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I. -I./include -Iinclude -I./src  -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/debug.lo -MD -MP -MF $depbase.Tpo -c -o src/debug.lo src/debug.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+ gcc -DHAVE_CONFIG_H -I. -I. -I./include -Iinclude -I./src -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/debug.lo -MD -MP -MF src/.deps/debug.Tpo -c src/debug.c -o src/debug.o
+depbase=`echo src/prep_cif.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I. -I./include -Iinclude -I./src  -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/prep_cif.lo -MD -MP -MF $depbase.Tpo -c -o src/prep_cif.lo src/prep_cif.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+ gcc -DHAVE_CONFIG_H -I. -I. -I./include -Iinclude -I./src -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/prep_cif.lo -MD -MP -MF src/.deps/prep_cif.Tpo -c src/prep_cif.c -o src/prep_cif.o
+depbase=`echo src/types.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I. -I./include -Iinclude -I./src  -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/types.lo -MD -MP -MF $depbase.Tpo -c -o src/types.lo src/types.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+ gcc -DHAVE_CONFIG_H -I. -I. -I./include -Iinclude -I./src -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/types.lo -MD -MP -MF src/.deps/types.Tpo -c src/types.c -o src/types.o
+depbase=`echo src/raw_api.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I. -I./include -Iinclude -I./src  -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/raw_api.lo -MD -MP -MF $depbase.Tpo -c -o src/raw_api.lo src/raw_api.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+ gcc -DHAVE_CONFIG_H -I. -I. -I./include -Iinclude -I./src -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/raw_api.lo -MD -MP -MF src/.deps/raw_api.Tpo -c src/raw_api.c -o src/raw_api.o
+depbase=`echo src/java_raw_api.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I. -I./include -Iinclude -I./src  -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/java_raw_api.lo -MD -MP -MF $depbase.Tpo -c -o src/java_raw_api.lo src/java_raw_api.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+ gcc -DHAVE_CONFIG_H -I. -I. -I./include -Iinclude -I./src -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/java_raw_api.lo -MD -MP -MF src/.deps/java_raw_api.Tpo -c src/java_raw_api.c -o src/java_raw_api.o
+depbase=`echo src/closures.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I. -I./include -Iinclude -I./src  -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/closures.lo -MD -MP -MF $depbase.Tpo -c -o src/closures.lo src/closures.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+ gcc -DHAVE_CONFIG_H -I. -I. -I./include -Iinclude -I./src -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/closures.lo -MD -MP -MF src/.deps/closures.Tpo -c src/closures.c -o src/closures.o
+depbase=`echo src/x86/ffi.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I. -I./include -Iinclude -I./src  -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/x86/ffi.lo -MD -MP -MF $depbase.Tpo -c -o src/x86/ffi.lo src/x86/ffi.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+ gcc -DHAVE_CONFIG_H -I. -I. -I./include -Iinclude -I./src -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/x86/ffi.lo -MD -MP -MF src/x86/.deps/ffi.Tpo -c src/x86/ffi.c -o src/x86/ffi.o
+depbase=`echo src/x86/darwin.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I. -I./include -Iinclude -I./src  -I. -I./include -Iinclude -I./src -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/x86/darwin.lo -MD -MP -MF $depbase.Tpo -c -o src/x86/darwin.lo src/x86/darwin.S &&\
+	mv -f $depbase.Tpo $depbase.Plo
+ gcc -DHAVE_CONFIG_H -I. -I. -I./include -Iinclude -I./src -I. -I./include -Iinclude -I./src -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/x86/darwin.lo -MD -MP -MF src/x86/.deps/darwin.Tpo -c src/x86/darwin.S -o src/x86/darwin.o
+depbase=`echo src/x86/ffi64.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I. -I./include -Iinclude -I./src  -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/x86/ffi64.lo -MD -MP -MF $depbase.Tpo -c -o src/x86/ffi64.lo src/x86/ffi64.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+ gcc -DHAVE_CONFIG_H -I. -I. -I./include -Iinclude -I./src -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/x86/ffi64.lo -MD -MP -MF src/x86/.deps/ffi64.Tpo -c src/x86/ffi64.c -o src/x86/ffi64.o
+depbase=`echo src/x86/darwin64.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/sh ./libtool   --mode=compile gcc -DHAVE_CONFIG_H -I.  -I. -I./include -Iinclude -I./src  -I. -I./include -Iinclude -I./src -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/x86/darwin64.lo -MD -MP -MF $depbase.Tpo -c -o src/x86/darwin64.lo src/x86/darwin64.S &&\
+	mv -f $depbase.Tpo $depbase.Plo
+ gcc -DHAVE_CONFIG_H -I. -I. -I./include -Iinclude -I./src -I. -I./include -Iinclude -I./src -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -MT src/x86/darwin64.lo -MD -MP -MF src/x86/.deps/darwin64.Tpo -c src/x86/darwin64.S -o src/x86/darwin64.o
+/bin/sh ./libtool --tag=CC   --mode=link gcc -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN -version-info `grep -v '^#' ./libtool-version`  -o libffi.la -rpath /usr/local/lib src/debug.lo src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo     src/x86/ffi.lo src/x86/darwin.lo src/x86/ffi64.lo src/x86/darwin64.lo                    
+mkdir .libs
+ar cru .libs/libffi.a  src/debug.o src/prep_cif.o src/types.o src/raw_api.o src/java_raw_api.o src/closures.o src/x86/ffi.o src/x86/darwin.o src/x86/ffi64.o src/x86/darwin64.o
+ranlib .libs/libffi.a
+creating libffi.la
+(cd .libs && rm -f libffi.la && ln -s ../libffi.la libffi.la)
+/bin/sh ./libtool --tag=CC   --mode=link gcc -Wall -g -fexceptions -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -DDARWIN   -o libffi_convenience.la  src/debug.lo src/prep_cif.lo src/types.lo src/raw_api.lo src/java_raw_api.lo src/closures.lo     src/x86/ffi.lo src/x86/darwin.lo src/x86/ffi64.lo src/x86/darwin64.lo                    
+ar cru .libs/libffi_convenience.a  src/debug.o src/prep_cif.o src/types.o src/raw_api.o src/java_raw_api.o src/closures.o src/x86/ffi.o src/x86/darwin.o src/x86/ffi64.o src/x86/darwin64.o
+ranlib .libs/libffi_convenience.a
+creating libffi_convenience.la
+(cd .libs && rm -f libffi_convenience.la && ln -s ../libffi_convenience.la libffi_convenience.la)
+export MACOSX_DEPLOYMENT_TARGET=10.3; export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -o src/alien/core.so src/alien/core.o -lgcc -Llibffi/.libs -lffi
+Installing https://rocks.moonscript.org/alien-0.5.0-1.src.rock...
+Using https://rocks.moonscript.org/alien-0.5.0-1.src.rock... switching to 'build' mode

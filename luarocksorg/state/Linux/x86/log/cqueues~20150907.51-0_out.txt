@@ -1,0 +1,80 @@
+mkdir -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1
+gcc -O2 -std=gnu99 -fPIC -g -Wall -Wextra  -Wno-missing-field-initializers  -Wno-override-init -Wno-unused -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -D_REENTRANT -D_THREAD_SAFE -D_GNU_SOURCE -DLUA_COMPAT_APIINTCASTS -DCQUEUES_VENDOR='"william@25thandClement.com"' -DCQUEUES_VERSION=20150907L   -c -o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/cqueues.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/cqueues.c
+mkdir -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1
+gcc -O2 -std=gnu99 -fPIC -g -Wall -Wextra  -Wno-missing-field-initializers  -Wno-override-init -Wno-unused -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -D_REENTRANT -D_THREAD_SAFE -D_GNU_SOURCE -DLUA_COMPAT_APIINTCASTS -DCQUEUES_VENDOR='"william@25thandClement.com"' -DCQUEUES_VERSION=20150907L   -c -o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/socket.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/socket.c
+cd /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src && m4 /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/errno.c.m4 >| /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/errno.c.tmp
+mv /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/errno.c.tmp /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/errno.c
+mkdir -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1
+gcc -O2 -std=gnu99 -fPIC -g -Wall -Wextra  -Wno-missing-field-initializers  -Wno-override-init -Wno-unused -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -D_REENTRANT -D_THREAD_SAFE -D_GNU_SOURCE -DLUA_COMPAT_APIINTCASTS -DCQUEUES_VENDOR='"william@25thandClement.com"' -DCQUEUES_VERSION=20150907L   -c -o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/errno.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/errno.c
+mkdir -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1
+gcc -O2 -std=gnu99 -fPIC -g -Wall -Wextra  -Wno-missing-field-initializers  -Wno-override-init -Wno-unused -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -D_REENTRANT -D_THREAD_SAFE -D_GNU_SOURCE -DLUA_COMPAT_APIINTCASTS -DCQUEUES_VENDOR='"william@25thandClement.com"' -DCQUEUES_VERSION=20150907L   -c -o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/signal.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/signal.c
+mkdir -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1
+gcc -O2 -std=gnu99 -fPIC -g -Wall -Wextra  -Wno-missing-field-initializers  -Wno-override-init -Wno-unused -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -D_REENTRANT -D_THREAD_SAFE -D_GNU_SOURCE -DLUA_COMPAT_APIINTCASTS -DCQUEUES_VENDOR='"william@25thandClement.com"' -DCQUEUES_VERSION=20150907L   -c -o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/thread.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/thread.c
+mkdir -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1
+gcc -O2 -std=gnu99 -fPIC -g -Wall -Wextra  -Wno-missing-field-initializers  -Wno-override-init -Wno-unused -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -D_REENTRANT -D_THREAD_SAFE -D_GNU_SOURCE -DLUA_COMPAT_APIINTCASTS -DCQUEUES_VENDOR='"william@25thandClement.com"' -DCQUEUES_VERSION=20150907L   -c -o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/notify.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/notify.c
+mkdir -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1
+gcc -O2 -std=gnu99 -fPIC -g -Wall -Wextra  -Wno-missing-field-initializers  -Wno-override-init -Wno-unused -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -D_REENTRANT -D_THREAD_SAFE -D_GNU_SOURCE -DLUA_COMPAT_APIINTCASTS -DCQUEUES_VENDOR='"william@25thandClement.com"' -DCQUEUES_VERSION=20150907L   -c -o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/dns.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.c
+gcc -O2 -std=gnu99 -fPIC -g -Wall -Wextra  -Wno-missing-field-initializers  -Wno-override-init -Wno-unused -O2 -fPIC -D_REENTRANT -D_THREAD_SAFE -D_GNU_SOURCE -DSOCKET_DEBUG -DDNS_RANDOM=RAND_bytes  -c -o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/lib/socket.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/lib/socket.c
+gcc -O2 -std=gnu99 -fPIC -g -Wall -Wextra  -Wno-missing-field-initializers  -Wno-override-init -Wno-unused -O2 -fPIC -D_REENTRANT -D_THREAD_SAFE -D_GNU_SOURCE -DSOCKET_DEBUG -DDNS_RANDOM=RAND_bytes  -c -o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/lib/dns.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/lib/dns.c
+gcc -O2 -std=gnu99 -fPIC -g -Wall -Wextra  -Wno-missing-field-initializers  -Wno-override-init -Wno-unused -O2 -fPIC -D_REENTRANT -D_THREAD_SAFE -D_GNU_SOURCE -DSOCKET_DEBUG -DDNS_RANDOM=RAND_bytes  -c -o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/lib/notify.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/lib/notify.c
+ar cr /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/lib/libnonlua.a /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/lib/socket.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/lib/dns.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/lib/notify.o
+ranlib /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/lib/libnonlua.a
+gcc -o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/cqueues.so /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/cqueues.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/socket.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/errno.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/signal.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/thread.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/notify.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/dns.o /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/lib/libnonlua.a -shared   -L/home/sp/luajit/lib -L/home/sp/luajit/lib -lssl -lcrypto -lpthread -ldl -lrt -lm 
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lib
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/5.1/cqueues.so /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lib/_cqueues.so
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/cqueues.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/cqueues.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/socket.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/socket.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/socket.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/errno.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/errno.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/errno.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/signal.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/signal.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/signal.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/thread.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/thread.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/thread.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/notify.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/notify.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/notify.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/condition.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/condition.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/condition.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/promise.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/promise.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/promise.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/auxlib.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/auxlib.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/auxlib.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/dns.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.resolver.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/dns
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.resolver.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/dns/resolver.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.config.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/dns
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.config.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/dns/config.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.hosts.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/dns
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.hosts.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/dns/hosts.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.hints.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/dns
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.hints.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/dns/hints.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.record.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/dns
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.record.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/dns/record.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.packet.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/dns
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.packet.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/dns/packet.lua
+true -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.resolvers.lua
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/dns
+cp -p /tmp/luarocks_cqueues-20150907.51-0-7153/cqueues-rel-20150907/src/dns.resolvers.lua /home/sp/luarockstree/lib/luarocks/rocks/cqueues/20150907.51-0/lua/cqueues/dns/resolvers.lua
+Installing https://rocks.moonscript.org/cqueues-20150907.51-0.src.rock...
+Using https://rocks.moonscript.org/cqueues-20150907.51-0.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+cqueues 20150907.51-0 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

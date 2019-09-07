@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: hfun.lua: No such file or directory
+
+Error: Build error: Failed installing hfun.lua in /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/hfun/0.2.1-4/lua/hfun.lua

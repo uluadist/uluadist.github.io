@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lice-lua 0.1.2-1: luafilesystem >= 1.4.2
+Missing dependency for lice-lua 0.1.2-1: luafilesystem >= 1.4.2

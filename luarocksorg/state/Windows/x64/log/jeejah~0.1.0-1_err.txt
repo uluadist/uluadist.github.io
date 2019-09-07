@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Directory jeejah not found inside archive jeejah.git

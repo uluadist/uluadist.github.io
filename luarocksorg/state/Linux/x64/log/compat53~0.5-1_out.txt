@@ -1,0 +1,37 @@
+Archive:  v0.5.zip
+6f3deeaa6a4743e1f5148c613addb3f94a22d2df
+   creating: lua-compat-5.3-0.5/
+  inflating: lua-compat-5.3-0.5/.gitignore  
+  inflating: lua-compat-5.3-0.5/LICENSE  
+  inflating: lua-compat-5.3-0.5/README.md  
+   creating: lua-compat-5.3-0.5/c-api/
+  inflating: lua-compat-5.3-0.5/c-api/compat-5.3.c  
+  inflating: lua-compat-5.3-0.5/c-api/compat-5.3.h  
+   creating: lua-compat-5.3-0.5/compat53/
+  inflating: lua-compat-5.3-0.5/compat53/init.lua  
+  inflating: lua-compat-5.3-0.5/compat53/module.lua  
+  inflating: lua-compat-5.3-0.5/lprefix.h  
+  inflating: lua-compat-5.3-0.5/lstrlib.c  
+  inflating: lua-compat-5.3-0.5/ltablib.c  
+  inflating: lua-compat-5.3-0.5/lutf8lib.c  
+   creating: lua-compat-5.3-0.5/rockspecs/
+  inflating: lua-compat-5.3-0.5/rockspecs/compat53-0.1-1.rockspec  
+  inflating: lua-compat-5.3-0.5/rockspecs/compat53-0.2-1.rockspec  
+  inflating: lua-compat-5.3-0.5/rockspecs/compat53-0.3-1.rockspec  
+  inflating: lua-compat-5.3-0.5/rockspecs/compat53-0.4-1.rockspec  
+  inflating: lua-compat-5.3-0.5/rockspecs/compat53-0.5-1.rockspec  
+  inflating: lua-compat-5.3-0.5/rockspecs/compat53-scm-0.rockspec  
+   creating: lua-compat-5.3-0.5/tests/
+  inflating: lua-compat-5.3-0.5/tests/test.lua  
+  inflating: lua-compat-5.3-0.5/tests/testmod.c  
+Installing https://luarocks.org/compat53-0.5-1.src.rock...
+Using https://luarocks.org/compat53-0.5-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c lstrlib.c -o lstrlib.o
+gcc -shared -o compat53/string.so -L/home/sp/Dropbox/Linux/x64/luajit//lib lstrlib.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c lutf8lib.c -o lutf8lib.o
+gcc -shared -o compat53/utf8.so -L/home/sp/Dropbox/Linux/x64/luajit//lib lutf8lib.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c ltablib.c -o ltablib.o
+gcc -shared -o compat53/table.so -L/home/sp/Dropbox/Linux/x64/luajit//lib ltablib.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+compat53 0.5-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

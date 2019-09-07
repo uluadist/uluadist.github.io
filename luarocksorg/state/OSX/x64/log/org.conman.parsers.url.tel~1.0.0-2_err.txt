@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for org.conman.parsers.url.tel 1.0.0-2: org.conman.parsers.abnf >= 1.0.0
+Missing dependency for org.conman.parsers.url.tel 1.0.0-2: lpeg >= 1.0.1
+Missing dependency for org.conman.parsers.url.tel 1.0.0-2: org.conman.parsers.abnf >= 1.0.0
+Missing dependency for org.conman.parsers.url.tel 1.0.0-2: lpeg >= 1.0.1

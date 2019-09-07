@@ -1,0 +1,6 @@
+Initialized empty Git repository in /tmp/luarocks_awesome-autostart-1.0-1-7673/awesome-autostart/.git/
+Installing https://luarocks.org/awesome-autostart-1.0-1.rockspec...
+Using https://luarocks.org/awesome-autostart-1.0-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+awesome-autostart 1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

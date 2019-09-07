@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_authy-lua-0.1.0-4-115/authy-lua-0.1.0-4.rockspec: Unknown field extra_dependencies

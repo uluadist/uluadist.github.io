@@ -1,0 +1,8 @@
+Installing https://rocks.moonscript.org/lua-inih-0.1-1.src.rock...
+Using https://rocks.moonscript.org/lua-inih-0.1-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/lua-inih.c -o src/lua-inih.o -Isrc/ -Ilib/inih/
+gcc -O2 -fPIC -I/home/sp/luajit//include -c lib/inih/ini.c -o lib/inih/ini.o -Isrc/ -Ilib/inih/
+gcc -shared -o inih.so -L/home/sp/luajit//lib src/lua-inih.o lib/inih/ini.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lua-inih 0.1-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

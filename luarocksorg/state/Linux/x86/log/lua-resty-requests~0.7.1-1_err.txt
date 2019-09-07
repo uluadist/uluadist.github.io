@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-resty-requests 0.7.1-1: lua-resty-socket == 0.0.4
+Missing dependency for lua-resty-requests 0.7.1-1: lua-resty-socket == 0.0.4

@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+successfully patched C:\Users\sp\AppData\Local\Temp/luarocks_lposix-20031107-1-1777/posix/lposix.c
+Hunk 1 found at offset 9...
+successfully patched C:\Users\sp\AppData\Local\Temp/luarocks_lposix-20031107-1-1777/posix/lposix.c
+Hunk 1 found at offset 9 (fuzz 2)...
+successfully patched C:\Users\sp\AppData\Local\Temp/luarocks_lposix-20031107-1-1777/posix/lposix.c
+
+Error: Build error: Failed compiling object lposix.obj

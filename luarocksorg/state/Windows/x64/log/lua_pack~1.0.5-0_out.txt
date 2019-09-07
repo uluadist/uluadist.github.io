@@ -1,0 +1,12 @@
+lua_pack.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library lua_pack.lib and object lua_pack.exp
+Installing https://luarocks.org/lua_pack-1.0.5-0.rockspec...
+Using https://luarocks.org/lua_pack-1.0.5-0.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folua_pack.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src lua_pack.c
+link -dll -def:lua_pack.def -out:lua_pack.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib lua_pack.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+lua_pack 1.0.5-0 is now built and installed in C:\ste\x64\luarockstree (license: MIT)
+

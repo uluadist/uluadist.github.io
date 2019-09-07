@@ -1,0 +1,16 @@
+Warning: skipping dependency checks.
+Note: checking out 'v3.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at 7f7d998... Add debug infomation
+No existing manifest. Attempting to rebuild...
+Missing dependency for cwnu-drcom 3.0-0: luasocket >= 3.0rc1-2
+Missing dependency for cwnu-drcom 3.0-0: luasocket >= 3.0rc1-2

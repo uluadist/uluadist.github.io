@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+src/context.c:8:10: fatal error: 'openssl/ssl.h' file not found
+#include <openssl/ssl.h>
+         ^
+1 error generated.
+
+Error: Build error: Failed compiling object src/context.o

@@ -1,0 +1,218 @@
+-- Building for: Visual Studio 14 2015
+-- The C compiler identification is MSVC 19.0.23026.0
+-- The CXX compiler identification is MSVC 19.0.23026.0
+-- Check for working C compiler using: Visual Studio 14 2015
+-- Check for working C compiler using: Visual Studio 14 2015 -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler using: Visual Studio 14 2015
+-- Check for working CXX compiler using: Visual Studio 14 2015 -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-1.0.1-0-8750/SimpleITKLuaRock-1.0.1/build.luarocks
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 1/8/2018 8:35:13 PM.
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\ALL_BUILD.vcxproj" on node 1 (default targets).
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\ALL_BUILD.vcxproj" (1) is building "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj" (2) on node 1 (default targets).
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj" (2) is building "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild-download.vcxproj" (3) on node 1 (default targets).
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild-download.vcxproj" (3) is building "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\ZERO_CHECK.vcxproj" (4) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "x64\Release\ZERO_CHECK\".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\ZERO_CHECK.vcxproj]
+  Creating directory "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Checking Build System
+  CMake does not need to re-run because C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-1.0.1-0-8750/SimpleITKLuaRock-1.0.1/build.luarocks/CMakeFiles/generate.stamp is up-to-date.
+FinalizeBuildStatus:
+  Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+  Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\ZERO_CHECK.vcxproj" (default targets).
+PrepareForBuild:
+  Creating directory "x64\Release\SimpleITKSuperbuild-download\".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild-download.vcxproj]
+  Creating directory "x64\Release\SimpleITKSuperbuild-download\SimpleIT.87687B13.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Release\SimpleITKSuperbuild-download\SimpleIT.87687B13.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ComputeCustomBuildOutput:
+  Creating directory "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild-download-prefix\src\SimpleITKSuperbuild-download-stamp\Release\".
+  Creating directory "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\CMakeFiles\Release\".
+CustomBuild:
+  Building Custom Rule C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-1.0.1-0-8750/SimpleITKLuaRock-1.0.1/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\CMakeFiles\generate.stamp is up-to-date.
+  Creating directories for 'SimpleITKSuperbuild-download'
+  Performing download step (git clone) for 'SimpleITKSuperbuild-download'
+  Cloning into 'SimpleITKSuperbuild'...
+  Checking out files:  39% (582/1490)   
+  Checking out files:  40% (596/1490)   
+  Checking out files:  41% (611/1490)   
+  Checking out files:  42% (626/1490)   
+  Checking out files:  43% (641/1490)   
+  Checking out files:  44% (656/1490)   
+  Checking out files:  45% (671/1490)   
+  Checking out files:  46% (686/1490)   
+  Checking out files:  47% (701/1490)   
+  Checking out files:  48% (716/1490)   
+  Checking out files:  49% (731/1490)   
+  Checking out files:  50% (745/1490)   
+  Checking out files:  51% (760/1490)   
+  Checking out files:  52% (775/1490)   
+  Checking out files:  53% (790/1490)   
+  Checking out files:  54% (805/1490)   
+  Checking out files:  55% (820/1490)   
+  Checking out files:  56% (835/1490)   
+  Checking out files:  57% (850/1490)   
+  Checking out files:  58% (865/1490)   
+  Checking out files:  59% (880/1490)   
+  Checking out files:  60% (894/1490)   
+  Checking out files:  61% (909/1490)   
+  Checking out files:  62% (924/1490)   
+  Checking out files:  63% (939/1490)   
+  Checking out files:  64% (954/1490)   
+  Checking out files:  65% (969/1490)   
+  Checking out files:  66% (984/1490)   
+  Checking out files:  67% (999/1490)   
+  Checking out files:  68% (1014/1490)   
+  Checking out files:  69% (1029/1490)   
+  Checking out files:  70% (1043/1490)   
+  Checking out files:  71% (1058/1490)   
+  Checking out files:  72% (1073/1490)   
+  Checking out files:  73% (1088/1490)   
+  Checking out files:  74% (1103/1490)   
+  Checking out files:  75% (1118/1490)   
+  Checking out files:  76% (1133/1490)   
+  Checking out files:  77% (1148/1490)   
+  Checking out files:  78% (1163/1490)   
+  Checking out files:  79% (1178/1490)   
+  Checking out files:  80% (1192/1490)   
+  Checking out files:  81% (1207/1490)   
+  Checking out files:  82% (1222/1490)   
+  Checking out files:  83% (1237/1490)   
+  Checking out files:  84% (1252/1490)   
+  Checking out files:  85% (1267/1490)   
+  Checking out files:  86% (1282/1490)   
+  Checking out files:  87% (1297/1490)   
+  Checking out files:  88% (1312/1490)   
+  Checking out files:  89% (1327/1490)   
+  Checking out files:  90% (1341/1490)   
+  Checking out files:  91% (1356/1490)   
+  Checking out files:  92% (1371/1490)   
+  Checking out files:  93% (1386/1490)   
+  Checking out files:  94% (1401/1490)   
+  Checking out files:  95% (1416/1490)   
+  Checking out files:  96% (1431/1490)   
+  Checking out files:  97% (1446/1490)   
+  Checking out files:  98% (1461/1490)   
+  Checking out files:  99% (1476/1490)   
+  Checking out files: 100% (1490/1490)   
+  Checking out files: 100% (1490/1490), done.
+  Your branch is up-to-date with 'origin/master'.
+  Already on 'master'
+  Performing update step for 'SimpleITKSuperbuild-download'
+  Current branch master is up to date.
+  No patch step for 'SimpleITKSuperbuild-download'
+  No configure step for 'SimpleITKSuperbuild-download'
+  No build step for 'SimpleITKSuperbuild-download'
+  No install step for 'SimpleITKSuperbuild-download'
+  Completed 'SimpleITKSuperbuild-download'
+FinalizeBuildStatus:
+  Deleting file "x64\Release\SimpleITKSuperbuild-download\SimpleIT.87687B13.tlog\unsuccessfulbuild".
+  Touching "x64\Release\SimpleITKSuperbuild-download\SimpleIT.87687B13.tlog\SimpleITKSuperbuild-download.lastbuildstate".
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild-download.vcxproj" (default targets).
+PrepareForBuild:
+  Creating directory "x64\Release\SimpleITKSuperbuild\".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj]
+  Creating directory "x64\Release\SimpleITKSuperbuild\SimpleIT.3882BD86.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Release\SimpleITKSuperbuild\SimpleIT.3882BD86.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ComputeCustomBuildOutput:
+  Creating directory "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild-prefix\src\SimpleITKSuperbuild-stamp\Release\".
+CustomBuild:
+  Building Custom Rule C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-1.0.1-0-8750/SimpleITKLuaRock-1.0.1/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\CMakeFiles\generate.stamp is up-to-date.
+  Creating directories for 'SimpleITKSuperbuild'
+  No download step for 'SimpleITKSuperbuild'
+  No update step for 'SimpleITKSuperbuild'
+  No patch step for 'SimpleITKSuperbuild'
+  Performing configure step for 'SimpleITKSuperbuild'
+  loading initial cache file C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-1.0.1-0-8750/SimpleITKLuaRock-1.0.1/build.luarocks/SimpleITKSuperbuild-prefix/tmp/SimpleITKSuperbuild-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.23026.0
+  -- The CXX compiler identification is MSVC 19.0.23026.0
+  -- Check for working C compiler using: Visual Studio 14 2015
+  -- Check for working C compiler using: Visual Studio 14 2015 -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler using: Visual Studio 14 2015
+  -- Check for working CXX compiler using: Visual Studio 14 2015 -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Found Git: C:/Program Files (x86)/Git/cmd/git.exe (found version "1.9.5.msysgit.1") 
+  -- Performing Test CXX_HAS_stdcxx11
+  -- Performing Test CXX_HAS_stdcxx11 - Failed
+CUSTOMBUILD : CMake error : Could not create file: [C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-1.0.1-0-8750/SimpleITKLuaRock-1.0.1/build.luarocks/SimpleITKSuperbuild-build/CMakeTmp/link_flags/gnu_ld_ignore/MODULE/SHARED/build/CMakeFiles/73406ca2d1be935a15a95291bf4558ea/generate.stamp.rule]  No such file or directory [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj]
+CUSTOMBUILD : CMake error : Internal CMake error, TryCompile generation of cmake failed [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj]
+  -- Performing Test Weak Link MODULE -> SHARED (gnu_ld_ignore) - Failed
+CUSTOMBUILD : CMake error : Could not create file: [C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-1.0.1-0-8750/SimpleITKLuaRock-1.0.1/build.luarocks/SimpleITKSuperbuild-build/CMakeTmp/link_flags/osx_dynamic_lookup/MODULE/SHARED/build/CMakeFiles/073de4a3f1ae95e7614fddbca97050cc/generate.stamp.rule]  No such file or directory [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj]
+CUSTOMBUILD : CMake error : Internal CMake error, TryCompile generation of cmake failed [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj]
+  -- Performing Test Weak Link MODULE -> SHARED (osx_dynamic_lookup) - Failed
+  -- Performing Test Weak Link MODULE -> SHARED (no_flag) - Failed
+  CMake Error at C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake:148 (message):
+    Could NOT find Lua (missing: LUA_LIBRARIES LUA_INCLUDE_DIR)
+  Call Stack (most recent call first):
+    C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake:388 (_FPHSA_FAILURE_MESSAGE)
+    C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindLua.cmake:167 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+    C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-1.0.1-0-8750/SimpleITKLuaRock-1.0.1/build.luarocks/SimpleITKSuperbuild/CMake/sitkLanguageOptions.cmake:46 (find_package)
+    SuperBuild.cmake:270 (include)
+    CMakeLists.txt:38 (include)
+  
+  
+  -- Configuring incomplete, errors occurred!
+  See also "C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-1.0.1-0-8750/SimpleITKLuaRock-1.0.1/build.luarocks/SimpleITKSuperbuild-build/CMakeFiles/CMakeOutput.log".
+  See also "C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-1.0.1-0-8750/SimpleITKLuaRock-1.0.1/build.luarocks/SimpleITKSuperbuild-build/CMakeFiles/CMakeError.log".
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\ALL_BUILD.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj" (default target) (2) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild-download.vcxproj" (default target) (3) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\ZERO_CHECK.vcxproj" (default target) (4) ->
+(PrepareForBuild target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\ZERO_CHECK.vcxproj]
+
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj" (default target) (2) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild-download.vcxproj" (default target) (3) ->
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild-download.vcxproj]
+
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj" (default target) (2) ->
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj]
+
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj" (default target) (2) ->
+(CustomBuild target) -> 
+  CUSTOMBUILD : CMake error : Could not create file: [C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-1.0.1-0-8750/SimpleITKLuaRock-1.0.1/build.luarocks/SimpleITKSuperbuild-build/CMakeTmp/link_flags/gnu_ld_ignore/MODULE/SHARED/build/CMakeFiles/73406ca2d1be935a15a95291bf4558ea/generate.stamp.rule]  No such file or directory [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj]
+  CUSTOMBUILD : CMake error : Internal CMake error, TryCompile generation of cmake failed [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj]
+  CUSTOMBUILD : CMake error : Could not create file: [C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-1.0.1-0-8750/SimpleITKLuaRock-1.0.1/build.luarocks/SimpleITKSuperbuild-build/CMakeTmp/link_flags/osx_dynamic_lookup/MODULE/SHARED/build/CMakeFiles/073de4a3f1ae95e7614fddbca97050cc/generate.stamp.rule]  No such file or directory [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj]
+  CUSTOMBUILD : CMake error : Internal CMake error, TryCompile generation of cmake failed [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-1.0.1-0-8750\SimpleITKLuaRock-1.0.1\build.luarocks\SimpleITKSuperbuild.vcxproj]
+
+    3 Warning(s)
+    4 Error(s)
+
+Time Elapsed 00:01:03.78
+Installing https://luarocks.org/simpleitk-1.0.1-0.rockspec...
+Using https://luarocks.org/simpleitk-1.0.1-0.rockspec... switching to 'build' mode

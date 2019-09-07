@@ -1,0 +1,16 @@
+lhasher.c
+blake2b.c
+base58.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library hasher.lib and object hasher.exp
+Installing https://luarocks.org/hasher-0.1.0-1.src.rock...
+Using https://luarocks.org/hasher-0.1.0-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folhasher.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src lhasher.c -I./src
+cl /nologo /MD /O2 -c -Fosrc/blake2b.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/blake2b.c -I./src
+cl /nologo /MD /O2 -c -Fosrc/base58.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/base58.c -I./src
+link -dll -def:hasher.def -out:hasher.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib lhasher.obj src/blake2b.obj src/base58.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+hasher 0.1.0-1 is now built and installed in C:\ste\x86\luarockstree (license: MIT)
+

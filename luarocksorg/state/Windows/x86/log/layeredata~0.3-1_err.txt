@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for layeredata 0.3-1: c3 >= 1
+Missing dependency for layeredata 0.3-1: coronest >= 1
+Missing dependency for layeredata 0.3-1: yaml >= 1
+Missing dependency for layeredata 0.3-1: serpent >= 0
+Missing dependency for layeredata 0.3-1: c3 >= 1
+Missing dependency for layeredata 0.3-1: coronest >= 1
+Missing dependency for layeredata 0.3-1: yaml >= 1
+Missing dependency for layeredata 0.3-1: serpent >= 0

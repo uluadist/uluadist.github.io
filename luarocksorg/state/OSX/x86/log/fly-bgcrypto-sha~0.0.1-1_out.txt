@@ -1,0 +1,132 @@
+Archive:  0.0.1.zip
+6475c8fc58edaa634ee11b8d25dc9f1e3426dc06
+   creating: lua-bgcrypto-sha-0.0.1/
+   creating: lua-bgcrypto-sha-0.0.1/.appveyor/
+  inflating: lua-bgcrypto-sha-0.0.1/.appveyor/install.bat  
+  inflating: lua-bgcrypto-sha-0.0.1/.appveyor/set_compiler_env.bat  
+  inflating: lua-bgcrypto-sha-0.0.1/.appveyor/winmake.bat  
+  inflating: lua-bgcrypto-sha-0.0.1/.gitignore  
+  inflating: lua-bgcrypto-sha-0.0.1/.travis.yml  
+   creating: lua-bgcrypto-sha-0.0.1/.travis/
+  inflating: lua-bgcrypto-sha-0.0.1/.travis/platform.sh  
+  inflating: lua-bgcrypto-sha-0.0.1/.travis/setenv_lua.sh  
+  inflating: lua-bgcrypto-sha-0.0.1/.travis/setup_lua.sh  
+  inflating: lua-bgcrypto-sha-0.0.1/LICENSE  
+  inflating: lua-bgcrypto-sha-0.0.1/README.md  
+  inflating: lua-bgcrypto-sha-0.0.1/appveyor.yml  
+   creating: lua-bgcrypto-sha-0.0.1/examples/
+  inflating: lua-bgcrypto-sha-0.0.1/examples/AesFileEncrypt.lua  
+  inflating: lua-bgcrypto-sha-0.0.1/lakeconfig.lua  
+  inflating: lua-bgcrypto-sha-0.0.1/lakefile  
+   creating: lua-bgcrypto-sha-0.0.1/rockspecs/
+  inflating: lua-bgcrypto-sha-0.0.1/rockspecs/bgcrypto-hmac-scm-0.rockspec  
+  inflating: lua-bgcrypto-sha-0.0.1/rockspecs/bgcrypto-lmd5-scm-0.rockspec  
+  inflating: lua-bgcrypto-sha-0.0.1/rockspecs/bgcrypto-pbkdf2-0.0.1-1.rockspec  
+  inflating: lua-bgcrypto-sha-0.0.1/rockspecs/bgcrypto-sha-scm-0.rockspec  
+   creating: lua-bgcrypto-sha-0.0.1/src/
+  inflating: lua-bgcrypto-sha-0.0.1/src/l52util.c  
+  inflating: lua-bgcrypto-sha-0.0.1/src/l52util.h  
+  inflating: lua-bgcrypto-sha-0.0.1/src/lsha.c  
+  inflating: lua-bgcrypto-sha-0.0.1/src/lsha.inc  
+  inflating: lua-bgcrypto-sha-0.0.1/src/lsha1.c  
+  inflating: lua-bgcrypto-sha-0.0.1/src/lsha224.c  
+  inflating: lua-bgcrypto-sha-0.0.1/src/lsha256.c  
+  inflating: lua-bgcrypto-sha-0.0.1/src/lsha384.c  
+  inflating: lua-bgcrypto-sha-0.0.1/src/lsha512.c  
+  inflating: lua-bgcrypto-sha-0.0.1/src/lsha512_128.c  
+  inflating: lua-bgcrypto-sha-0.0.1/src/lsha512_192.c  
+  inflating: lua-bgcrypto-sha-0.0.1/src/lsha512_224.c  
+  inflating: lua-bgcrypto-sha-0.0.1/src/lsha512_256.c  
+   creating: lua-bgcrypto-sha-0.0.1/src/lua/
+  inflating: lua-bgcrypto-sha-0.0.1/src/lua/hmac.lua  
+  inflating: lua-bgcrypto-sha-0.0.1/src/lua/md5.lua  
+  inflating: lua-bgcrypto-sha-0.0.1/src/lua/pbkdf2.lua  
+   creating: lua-bgcrypto-sha-0.0.1/src/lua/private/
+  inflating: lua-bgcrypto-sha-0.0.1/src/lua/private/bit.lua  
+  inflating: lua-bgcrypto-sha-0.0.1/src/lua/private/digest.lua  
+  inflating: lua-bgcrypto-sha-0.0.1/src/lua/ripemd160.lua  
+   creating: lua-bgcrypto-sha-0.0.1/src/sha/
+  inflating: lua-bgcrypto-sha-0.0.1/src/sha/brg_endian.h  
+  inflating: lua-bgcrypto-sha-0.0.1/src/sha/brg_types.h  
+  inflating: lua-bgcrypto-sha-0.0.1/src/sha/hmac.c  
+  inflating: lua-bgcrypto-sha-0.0.1/src/sha/hmac.h  
+  inflating: lua-bgcrypto-sha-0.0.1/src/sha/pwd2key.c  
+  inflating: lua-bgcrypto-sha-0.0.1/src/sha/pwd2key.h  
+  inflating: lua-bgcrypto-sha-0.0.1/src/sha/sha1.c  
+  inflating: lua-bgcrypto-sha-0.0.1/src/sha/sha1.h  
+  inflating: lua-bgcrypto-sha-0.0.1/src/sha/sha2.c  
+  inflating: lua-bgcrypto-sha-0.0.1/src/sha/sha2.h  
+  inflating: lua-bgcrypto-sha-0.0.1/src/sha/stdint-msvc2008.h  
+ extracting: lua-bgcrypto-sha-0.0.1/src/sha1.def  
+ extracting: lua-bgcrypto-sha-0.0.1/src/sha224.def  
+ extracting: lua-bgcrypto-sha-0.0.1/src/sha256.def  
+ extracting: lua-bgcrypto-sha-0.0.1/src/sha384.def  
+ extracting: lua-bgcrypto-sha-0.0.1/src/sha512.def  
+ extracting: lua-bgcrypto-sha-0.0.1/src/sha512_128.def  
+ extracting: lua-bgcrypto-sha-0.0.1/src/sha512_192.def  
+ extracting: lua-bgcrypto-sha-0.0.1/src/sha512_224.def  
+ extracting: lua-bgcrypto-sha-0.0.1/src/sha512_256.def  
+   creating: lua-bgcrypto-sha-0.0.1/test/
+  inflating: lua-bgcrypto-sha-0.0.1/test/.luacov  
+  inflating: lua-bgcrypto-sha-0.0.1/test/test_pbkdf2.lua  
+  inflating: lua-bgcrypto-sha-0.0.1/test/test_sha.lua  
+  inflating: lua-bgcrypto-sha-0.0.1/test/utest_sha.lua  
+Installing https://luarocks.org/fly-bgcrypto-sha-0.0.1-1.src.rock...
+Using https://luarocks.org/fly-bgcrypto-sha-0.0.1-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/l52util.c -o src/l52util.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha1.c -o src/sha/sha1.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha2.c -o src/sha/sha2.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/hmac.c -o src/sha/hmac.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/lsha512_192.c -o src/lsha512_192.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o bgcrypto/sha512_192.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/l52util.o src/sha/sha1.o src/sha/sha2.o src/sha/hmac.o src/lsha512_192.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/l52util.c -o src/l52util.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha1.c -o src/sha/sha1.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha2.c -o src/sha/sha2.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/hmac.c -o src/sha/hmac.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/lsha224.c -o src/lsha224.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o bgcrypto/sha224.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/l52util.o src/sha/sha1.o src/sha/sha2.o src/sha/hmac.o src/lsha224.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/l52util.c -o src/l52util.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha1.c -o src/sha/sha1.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha2.c -o src/sha/sha2.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/hmac.c -o src/sha/hmac.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/lsha512_224.c -o src/lsha512_224.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o bgcrypto/sha512_224.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/l52util.o src/sha/sha1.o src/sha/sha2.o src/sha/hmac.o src/lsha512_224.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/l52util.c -o src/l52util.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha1.c -o src/sha/sha1.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha2.c -o src/sha/sha2.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/hmac.c -o src/sha/hmac.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/lsha512.c -o src/lsha512.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o bgcrypto/sha512.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/l52util.o src/sha/sha1.o src/sha/sha2.o src/sha/hmac.o src/lsha512.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/l52util.c -o src/l52util.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha1.c -o src/sha/sha1.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha2.c -o src/sha/sha2.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/hmac.c -o src/sha/hmac.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/lsha1.c -o src/lsha1.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o bgcrypto/sha1.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/l52util.o src/sha/sha1.o src/sha/sha2.o src/sha/hmac.o src/lsha1.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/l52util.c -o src/l52util.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha1.c -o src/sha/sha1.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha2.c -o src/sha/sha2.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/hmac.c -o src/sha/hmac.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/lsha384.c -o src/lsha384.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o bgcrypto/sha384.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/l52util.o src/sha/sha1.o src/sha/sha2.o src/sha/hmac.o src/lsha384.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/l52util.c -o src/l52util.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha1.c -o src/sha/sha1.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha2.c -o src/sha/sha2.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/hmac.c -o src/sha/hmac.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/lsha512_128.c -o src/lsha512_128.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o bgcrypto/sha512_128.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/l52util.o src/sha/sha1.o src/sha/sha2.o src/sha/hmac.o src/lsha512_128.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/l52util.c -o src/l52util.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha1.c -o src/sha/sha1.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha2.c -o src/sha/sha2.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/hmac.c -o src/sha/hmac.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/lsha256.c -o src/lsha256.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o bgcrypto/sha256.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/l52util.o src/sha/sha1.o src/sha/sha2.o src/sha/hmac.o src/lsha256.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/l52util.c -o src/l52util.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha1.c -o src/sha/sha1.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/sha2.c -o src/sha/sha2.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/sha/hmac.c -o src/sha/hmac.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/lsha512_256.c -o src/lsha512_256.o -DRETURN_VALUES -DVOID_RETURN=void -DINT_RETURN=int -Isrc/sha
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o bgcrypto/sha512_256.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/l52util.o src/sha/sha1.o src/sha/sha2.o src/sha/hmac.o src/lsha512_256.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+fly-bgcrypto-sha 0.0.1-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: BSD)
+

@@ -1,0 +1,5 @@
+Warning: skipping dependency checks.
+Switched to a new branch 'devel'
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-resty-healthcheck-iresty 1.0.1-1: lua-resty-worker-events >= 1.0.0
+Missing dependency for lua-resty-healthcheck-iresty 1.0.1-1: lua-resty-worker-events >= 1.0.0

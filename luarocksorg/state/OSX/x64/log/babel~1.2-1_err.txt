@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: locales/zh-CN.lua: No such file or directory
+
+Error: Build error: Failed installing locales/zh-CN.lua in /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/babel/1.2-1/lua/locales/zh-CN.lua

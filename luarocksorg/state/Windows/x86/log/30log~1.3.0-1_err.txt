@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Error fetching file: Failed downloading https://github.com/Yonaba/30log/archive/30log-1.3.0-1.tar.gz - 30log-1.3.0-1.tar.gz

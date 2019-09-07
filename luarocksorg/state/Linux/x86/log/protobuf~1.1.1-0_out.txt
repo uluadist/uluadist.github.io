@@ -1,0 +1,8 @@
+Installing https://luarocks.org/protobuf-1.1.1-0.rockspec...
+Using https://luarocks.org/protobuf-1.1.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_protobuf-1.1.1-0-6591/protobuf-lua/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c protobuf/pb.c -o protobuf/pb.o
+gcc -shared -o protobuf/pb.so -L/home/sp/Dropbox/Linux/x86/luajit//lib protobuf/pb.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+protobuf 1.1.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

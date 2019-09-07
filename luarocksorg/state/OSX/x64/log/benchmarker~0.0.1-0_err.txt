@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for benchmarker 0.0.1-0: hires-time >= 0.1.0-0
+Missing dependency for benchmarker 0.0.1-0: cputime >= 0.2.0-0
+Missing dependency for benchmarker 0.0.1-0: hires-time >= 0.1.0-0
+Missing dependency for benchmarker 0.0.1-0: cputime >= 0.2.0-0

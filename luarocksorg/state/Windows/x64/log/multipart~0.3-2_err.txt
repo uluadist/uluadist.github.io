@@ -1,0 +1,16 @@
+Cloning into 'lua-multipart'...
+Note: checking out '2841f5bc19be29f55f1d6e0b33849fff9b5cabc9'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for multipart 0.3-2: stringy ~> 0.4-1
+Missing dependency for multipart 0.3-2: stringy ~> 0.4-1

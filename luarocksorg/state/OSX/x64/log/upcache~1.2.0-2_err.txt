@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for upcache 1.2.0-2: lua-resty-string >= 0.09
+Missing dependency for upcache 1.2.0-2: lua-messagepack >= 0.5.1
+Missing dependency for upcache 1.2.0-2: lua-resty-jwt >= 0.2.0
+Missing dependency for upcache 1.2.0-2: lua-resty-string >= 0.09
+Missing dependency for upcache 1.2.0-2: lua-messagepack >= 0.5.1
+Missing dependency for upcache 1.2.0-2: lua-resty-jwt >= 0.2.0

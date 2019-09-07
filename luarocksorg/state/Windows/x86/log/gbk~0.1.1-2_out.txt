@@ -1,0 +1,19 @@
+lpinyin.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library pinyin.lib and object pinyin.exp
+lgbk.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library gbk.lib and object gbk.exp
+Installing https://luarocks.org/gbk-0.1.1-2.src.rock...
+Using https://luarocks.org/gbk-0.1.1-2.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folpinyin.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ lpinyin.c
+link -dll -def:pinyin.def -out:pinyin.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib lpinyin.obj
+cl /nologo /MD /O2 -c -Folgbk.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ lgbk.c
+link -dll -def:gbk.def -out:gbk.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib lgbk.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+gbk 0.1.1-2 is now built and installed in C:\ste\x86\luarockstree (license: MIT)
+

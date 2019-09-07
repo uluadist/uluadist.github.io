@@ -1,0 +1,12 @@
+gcc -std=c99 -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -DVERSION='"v1.0.14"' -fPIC -c -o src/luadns.oo src/luadns.c
+gcc -std=c99 -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -DVERSION='"v1.0.14"' -fPIC -c -o src/codec.oo src/codec.c
+gcc -std=c99 -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -DVERSION='"v1.0.14"' -fPIC -c -o src/mappings.oo src/mappings.c
+gcc -std=c99 -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -DVERSION='"v1.0.14"' -fPIC -c -o src/netsimple.oo src/netsimple.c
+gcc -std=c99 -shared -o src/dns.so src/luadns.oo src/codec.oo src/mappings.oo src/netsimple.oo
+/usr/bin/install -d /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/org.conman.dns/1.0.14-1/lib/org/conman
+/usr/bin/install src/dns.so /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/org.conman.dns/1.0.14-1/lib/org/conman
+Installing https://luarocks.org/org.conman.dns-1.0.14-1.src.rock...
+Using https://luarocks.org/org.conman.dns-1.0.14-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+org.conman.dns 1.0.14-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: LGPL)
+

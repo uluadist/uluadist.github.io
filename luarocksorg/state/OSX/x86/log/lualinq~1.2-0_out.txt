@@ -1,0 +1,6 @@
+Archive:  lualinq.zip
+  inflating: lualinq.lua             
+  inflating: LuaLinq.pdf             
+  inflating: readme.txt              
+Installing https://rocks.moonscript.org/lualinq-1.2-0.rockspec...
+Using https://rocks.moonscript.org/lualinq-1.2-0.rockspec... switching to 'build' mode

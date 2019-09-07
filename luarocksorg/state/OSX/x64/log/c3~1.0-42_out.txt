@@ -1,0 +1,5 @@
+Installing https://luarocks.org/c3-1.0-42.src.rock...
+Using https://luarocks.org/c3-1.0-42.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+c3 1.0-42 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

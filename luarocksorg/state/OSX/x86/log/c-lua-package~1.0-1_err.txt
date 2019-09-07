@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+src/c-lua.c:116:14: error: __int128 is not supported on this target
+    unsigned __int128 uuid_num;
+             ^
+src/c-lua.c:135:14: error: __int128 is not supported on this target
+    unsigned __int128 uuid_num;
+             ^
+2 errors generated.
+
+Error: Build error: Failed compiling object src/c-lua.o

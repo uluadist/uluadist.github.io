@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for cosy-formalisms 0.1-5: layeredata 
+Missing dependency for cosy-formalisms 0.1-5: layeredata 

@@ -1,0 +1,5 @@
+Installing https://luarocks.org/fsoutcall-1.0.1-8.rockspec...
+Using https://luarocks.org/fsoutcall-1.0.1-8.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+fsoutcall 1.0.1-8 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

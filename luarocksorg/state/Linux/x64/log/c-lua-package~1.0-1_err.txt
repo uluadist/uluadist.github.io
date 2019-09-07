@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+src/c-lua.c:4:23: fatal error: uuid/uuid.h: No such file or directory
+ #include <uuid/uuid.h>
+                       ^
+compilation terminated.
+
+Error: Build error: Failed compiling object src/c-lua.o

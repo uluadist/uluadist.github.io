@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for raven-lua-rjson 0.1-1: rapidjson 
+Missing dependency for raven-lua-rjson 0.1-1: rapidjson 

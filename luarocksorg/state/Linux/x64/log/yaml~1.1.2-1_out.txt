@@ -1,0 +1,17 @@
+Installing https://rocks.moonscript.org/yaml-1.1.2-1.src.rock...
+Using https://rocks.moonscript.org/yaml-1.1.2-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/api.c -o src/api.o -Isrc
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/b64.c -o src/b64.o -Isrc
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/dumper.c -o src/dumper.o -Isrc
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/emitter.c -o src/emitter.o -Isrc
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/loader.c -o src/loader.o -Isrc
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/lyaml.c -o src/lyaml.o -Isrc
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/parser.c -o src/parser.o -Isrc
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/reader.c -o src/reader.o -Isrc
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/scanner.c -o src/scanner.o -Isrc
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/strtod.c -o src/strtod.o -Isrc
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/writer.c -o src/writer.o -Isrc
+gcc -shared -o yaml/core.so -L/home/sp/luajit//lib src/api.o src/b64.o src/dumper.o src/emitter.o src/loader.o src/lyaml.o src/parser.o src/reader.o src/scanner.o src/strtod.o src/writer.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+yaml 1.1.2-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

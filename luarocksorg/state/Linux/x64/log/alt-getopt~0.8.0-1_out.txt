@@ -1,0 +1,5 @@
+Installing https://luarocks.org/alt-getopt-0.8.0-1.src.rock...
+Using https://luarocks.org/alt-getopt-0.8.0-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+alt-getopt 0.8.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

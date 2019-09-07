@@ -1,0 +1,10 @@
+chash.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+librestychash.def : error LNK2001: unresolved external symbol luaopen_librestychash
+librestychash.lib : fatal error LNK1120: 1 unresolved externals
+Installing https://luarocks.org/lua-resty-balancer-0.02rc5-0.rockspec...
+Using https://luarocks.org/lua-resty-balancer-0.02rc5-0.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fochash.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src chash.c
+link -dll -def:librestychash.def -out:librestychash.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib chash.obj

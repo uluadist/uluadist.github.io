@@ -1,0 +1,34 @@
+api.c
+b64.c
+dumper.c
+emitter.c
+loader.c
+lyaml.c
+parser.c
+reader.c
+scanner.c
+strtod.c
+src/strtod.c(24): warning C4273: '_errno': inconsistent dll linkage
+C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt\errno.h(17): note: see previous definition of '_errno'
+writer.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library yaml/core.lib and object yaml/core.exp
+Installing https://luarocks.org/yaml-1.1.2-1.src.rock...
+Using https://luarocks.org/yaml-1.1.2-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/api.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/api.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/b64.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/b64.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/dumper.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/dumper.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/emitter.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/emitter.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/loader.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/loader.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/lyaml.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/lyaml.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/parser.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/parser.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/reader.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/reader.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/scanner.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/scanner.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/strtod.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/strtod.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/writer.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/writer.c -Isrc
+link -dll -def:core.def -out:yaml/core.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib src/api.obj src/b64.obj src/dumper.obj src/emitter.obj src/loader.obj src/lyaml.obj src/parser.obj src/reader.obj src/scanner.obj src/strtod.obj src/writer.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+yaml 1.1.2-1 is now built and installed in C:\ste\x86\luarockstree (license: MIT)
+

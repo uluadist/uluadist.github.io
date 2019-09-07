@@ -1,0 +1,20 @@
+Warning: skipping dependency checks.
+Cloning into 'Luapress'...
+Note: checking out '264ce1883c85e3ba659e65f5324bb4198eabf902'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+No existing manifest. Attempting to rebuild...
+Missing dependency for luapress 3.2-0: lustache 
+Missing dependency for luapress 3.2-0: luafilesystem 
+Missing dependency for luapress 3.2-0: ansicolors 
+Missing dependency for luapress 3.2-0: lustache 
+Missing dependency for luapress 3.2-0: luafilesystem 
+Missing dependency for luapress 3.2-0: ansicolors 

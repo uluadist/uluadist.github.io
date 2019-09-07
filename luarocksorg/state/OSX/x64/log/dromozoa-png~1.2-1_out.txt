@@ -1,0 +1,3 @@
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x64/luajit/include -Wall -W -O2 -fPIC -c error.cpp
+Installing https://luarocks.org/dromozoa-png-1.2-1.src.rock...
+Using https://luarocks.org/dromozoa-png-1.2-1.src.rock... switching to 'build' mode

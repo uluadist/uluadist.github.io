@@ -1,0 +1,21 @@
+clocks.c
+core_profiler.c
+function_meter.c
+stack.c
+lua50_profiler.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library profiler.lib and object profiler.exp
+Installing https://luarocks.org/luaprofiler-2.0.2-2.src.rock...
+Using https://luarocks.org/luaprofiler-2.0.2-2.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+cl /nologo /MD /O2 -c -Fosrc/clocks.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/clocks.c
+cl /nologo /MD /O2 -c -Fosrc/core_profiler.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/core_profiler.c
+cl /nologo /MD /O2 -c -Fosrc/function_meter.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/function_meter.c
+cl /nologo /MD /O2 -c -Fosrc/stack.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/stack.c
+cl /nologo /MD /O2 -c -Fosrc/lua50_profiler.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/lua50_profiler.c
+link -dll -def:profiler.def -out:profiler.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib src/clocks.obj src/core_profiler.obj src/function_meter.obj src/stack.obj src/lua50_profiler.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+luaprofiler 2.0.2-2 is now built and installed in C:\ste\x86\luarockstree (license: MIT/X11)
+

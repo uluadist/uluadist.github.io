@@ -1,0 +1,8 @@
+Installing https://luarocks.org/ref-0.1.0-1.rockspec...
+Using https://luarocks.org/ref-0.1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_ref-0.1.0-1-176/lua-ref/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/ref.c -o src/ref.o
+gcc -shared -o ref.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/ref.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+ref 0.1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

@@ -1,0 +1,25 @@
+Archive:  v0.1.0.zip
+3eb46cc48740be897fe3f81cb9214890afb941dd
+   creating: lua-dynamic-cors-0.1.0/
+ extracting: lua-dynamic-cors-0.1.0/.gitignore  
+  inflating: lua-dynamic-cors-0.1.0/Dockerfile  
+  inflating: lua-dynamic-cors-0.1.0/Dockerfile.sentinel  
+  inflating: lua-dynamic-cors-0.1.0/Dockerfile.test  
+  inflating: lua-dynamic-cors-0.1.0/LICENSE  
+  inflating: lua-dynamic-cors-0.1.0/README.md  
+  inflating: lua-dynamic-cors-0.1.0/cors-0.1.0-1.rockspec  
+  inflating: lua-dynamic-cors-0.1.0/cors.lua  
+  inflating: lua-dynamic-cors-0.1.0/docker-compose.yml  
+  inflating: lua-dynamic-cors-0.1.0/nginx.conf  
+  inflating: lua-dynamic-cors-0.1.0/nginx_cors.conf  
+  inflating: lua-dynamic-cors-0.1.0/sentinel-entrypoint.sh  
+  inflating: lua-dynamic-cors-0.1.0/server.sh  
+   creating: lua-dynamic-cors-0.1.0/t/
+  inflating: lua-dynamic-cors-0.1.0/t/cors.t  
+  inflating: lua-dynamic-cors-0.1.0/t/reindex  
+  inflating: lua-dynamic-cors-0.1.0/wait-for-it.sh  
+Installing https://luarocks.org/lua-dynamic-cors-0.1.0-2.src.rock...
+Using https://luarocks.org/lua-dynamic-cors-0.1.0-2.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lua-dynamic-cors 0.1.0-2 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

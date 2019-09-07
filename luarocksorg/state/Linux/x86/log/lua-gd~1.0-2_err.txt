@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+make: Warning: File `Makefile' has modification time 6e+08 s in the future
+configure: error: newly created file is older than distributed files!
+Check your system clock
+make: *** [gd] Error 1
+
+Error: Build error: Failed building.

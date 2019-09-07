@@ -1,0 +1,41 @@
+CC           = env MACOSX_DEPLOYMENT_TARGET=10.8 gcc
+CFLAGS       = -O2 -fPIC
+CPPFLAGS     = -I/Users/sp/Dropbox/OSX/x64/luajit/include
+LDFLAGS      = -L/Users/sp/Dropbox/OSX/x64/luajit/lib
+LIBFLAG      = -bundle -undefined dynamic_lookup -all_load
+LUA          = /Users/sp/Dropbox/OSX/x64/luajit/bin/lua
+LUA_VERSION  = 5.1
+LUA_INCDIR   = /Users/sp/Dropbox/OSX/x64/luajit/include
+DESTDIR      = 
+INST_PREFIX  = /usr/local
+INST_BINDIR  = /usr/local/bin
+INST_LIBDIR  = /usr/local/lib/lua/5.1
+INST_LUADIR  = /usr/local/share/lua/5.1
+INST_CONFDIR = /usr/local/etc
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include  -c -o src/ber.o src/ber.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include  -c -o src/ber_util.o src/ber_util.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include  -c -o src/luaber.o src/luaber.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include  -c -o src/mmodr.o src/mmodr.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o ber.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib src/ber.o src/ber_util.o src/luaber.o src/mmodr.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include  -c -o src/asn/asn.o src/asn/asn.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include  -c -o src/asn/map.o src/asn/map.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -o asn2odr -L/Users/sp/Dropbox/OSX/x64/luajit/lib src/asn/asn.o src/asn/map.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include  -c -o src/pdu/pdu.o src/pdu/pdu.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -o odr2pdu -L/Users/sp/Dropbox/OSX/x64/luajit/lib src/pdu/pdu.o src/mmodr.o
+CC           = env MACOSX_DEPLOYMENT_TARGET=10.8 gcc
+CFLAGS       = -fPIC
+CPPFLAGS     = 
+LDFLAGS      = 
+LIBFLAG      = -shared
+LUA          = lua
+LUA_VERSION  = 
+LUA_INCDIR   = 
+DESTDIR      = 
+INST_PREFIX  = /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/ber/0.3.1-1
+INST_BINDIR  = /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/ber/0.3.1-1/bin
+INST_LIBDIR  = /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/ber/0.3.1-1/lib
+INST_LUADIR  = /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/ber/0.3.1-1/lua
+INST_CONFDIR = /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/ber/0.3.1-1/conf
+install -Dm755 ber.so /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/ber/0.3.1-1/lib/ber.so
+Installing https://luarocks.org/ber-0.3.1-1.src.rock...
+Using https://luarocks.org/ber-0.3.1-1.src.rock... switching to 'build' mode

@@ -1,0 +1,9 @@
+Warning: skipping dependency checks.
+BigInt.cpp: In member function ‘BigInt BigInt::inv(const BigInt&) const’:
+BigInt.cpp:1386:12: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    bi_p[0] = (const char *)"0";
+            ^
+BigInt.cpp:1422:10: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   bi_ret = (const char *)"0";
+          ^
+No existing manifest. Attempting to rebuild...

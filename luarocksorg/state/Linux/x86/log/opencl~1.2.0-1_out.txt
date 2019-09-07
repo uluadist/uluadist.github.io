@@ -1,0 +1,5 @@
+make[1]: Entering directory `/tmp/luarocks_opencl-1.2.0-1-8543/lua-opencl/test'
+/home/sp/luajit/bin/lua platform.lua
+make[1]: Leaving directory `/tmp/luarocks_opencl-1.2.0-1-8543/lua-opencl/test'
+Installing https://rocks.moonscript.org/opencl-1.2.0-1.src.rock...
+Using https://rocks.moonscript.org/opencl-1.2.0-1.src.rock... switching to 'build' mode

@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-vcard-1.0-1.rockspec...
+Using https://luarocks.org/lua-vcard-1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-vcard-1.0-1-5471/lua-vcard/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-vcard 1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

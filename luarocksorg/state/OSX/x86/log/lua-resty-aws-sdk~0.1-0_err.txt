@@ -1,0 +1,5 @@
+Warning: skipping dependency checks.
+clang: error: no such file or directory: 'lib/resty/aws/sns'
+clang: error: no input files
+
+Error: Build error: Failed compiling object .o

@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for krpc 0.4.8-0: luasocket 
+Missing dependency for krpc 0.4.8-0: protobuf 
+Missing dependency for krpc 0.4.8-0: penlight 
+Missing dependency for krpc 0.4.8-0: luasocket 
+Missing dependency for krpc 0.4.8-0: protobuf 
+Missing dependency for krpc 0.4.8-0: penlight 

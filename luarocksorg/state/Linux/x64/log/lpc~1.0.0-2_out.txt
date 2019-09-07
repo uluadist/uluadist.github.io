@@ -1,0 +1,9 @@
+gcc -O2 -fPIC -I/home/sp/luajit//include -c lpc.c -o lpc.o
+gcc -shared -o lpc.so lpc.o
+install -d /home/sp/luarockstree/lib/luarocks/rocks/lpc/1.0.0-2/lib
+install lpc.so /home/sp/luarockstree/lib/luarocks/rocks/lpc/1.0.0-2/lib
+Installing https://rocks.moonscript.org/lpc-1.0.0-2.src.rock...
+Using https://rocks.moonscript.org/lpc-1.0.0-2.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lpc 1.0.0-2 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

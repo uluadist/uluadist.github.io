@@ -1,0 +1,32 @@
+luasocket.c
+timeout.c
+buffer.c
+io.c
+auxiliar.c
+options.c
+inet.c
+except.c
+select.c
+tcp.c
+udp.c
+wsocket.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+core.def : error LNK2001: unresolved external symbol luaopen_socket-lanes_core
+socket-lanes/core.lib : fatal error LNK1120: 1 unresolved externals
+Installing https://luarocks.org/luasocket-lanes-3.0-3.src.rock...
+Using https://luarocks.org/luasocket-lanes-3.0-3.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/luasocket.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/luasocket.c -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DNDEBUG -DLUASOCKET_API=__declspec(dllexport) -DMIME_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/timeout.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/timeout.c -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DNDEBUG -DLUASOCKET_API=__declspec(dllexport) -DMIME_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/buffer.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/buffer.c -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DNDEBUG -DLUASOCKET_API=__declspec(dllexport) -DMIME_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/io.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/io.c -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DNDEBUG -DLUASOCKET_API=__declspec(dllexport) -DMIME_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/auxiliar.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/auxiliar.c -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DNDEBUG -DLUASOCKET_API=__declspec(dllexport) -DMIME_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/options.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/options.c -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DNDEBUG -DLUASOCKET_API=__declspec(dllexport) -DMIME_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/inet.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/inet.c -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DNDEBUG -DLUASOCKET_API=__declspec(dllexport) -DMIME_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/except.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/except.c -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DNDEBUG -DLUASOCKET_API=__declspec(dllexport) -DMIME_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/select.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/select.c -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DNDEBUG -DLUASOCKET_API=__declspec(dllexport) -DMIME_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/tcp.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/tcp.c -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DNDEBUG -DLUASOCKET_API=__declspec(dllexport) -DMIME_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/udp.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/udp.c -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DNDEBUG -DLUASOCKET_API=__declspec(dllexport) -DMIME_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/wsocket.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/wsocket.c -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DNDEBUG -DLUASOCKET_API=__declspec(dllexport) -DMIME_API=__declspec(dllexport)
+link -dll -def:core.def -out:socket-lanes/core.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib src/luasocket.obj src/timeout.obj src/buffer.obj src/io.obj src/auxiliar.obj src/options.obj src/inet.obj src/except.obj src/select.obj src/tcp.obj src/udp.obj src/wsocket.obj ws2_32.lib

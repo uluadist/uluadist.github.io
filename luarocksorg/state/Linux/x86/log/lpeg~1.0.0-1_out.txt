@@ -1,0 +1,11 @@
+Installing https://rocks.moonscript.org/lpeg-1.0.0-1.src.rock...
+Using https://rocks.moonscript.org/lpeg-1.0.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lpcap.c -o lpcap.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lpcode.c -o lpcode.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lpprint.c -o lpprint.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lptree.c -o lptree.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lpvm.c -o lpvm.o
+gcc -shared -o lpeg.so -L/home/sp/luajit/lib lpcap.o lpcode.o lpprint.o lptree.o lpvm.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lpeg 1.0.0-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

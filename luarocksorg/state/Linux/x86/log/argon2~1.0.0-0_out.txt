@@ -1,0 +1,4 @@
+Installing https://rocks.moonscript.org/argon2-1.0.0-0.rockspec...
+Using https://rocks.moonscript.org/argon2-1.0.0-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_argon2-1.0.0-0-9503/lua-argon2/.git/
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c largon2.c -o largon2.o -I

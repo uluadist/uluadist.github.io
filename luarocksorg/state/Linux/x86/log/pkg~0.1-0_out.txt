@@ -1,0 +1,3 @@
+Installing https://luarocks.org/pkg-0.1-0.rockspec...
+Using https://luarocks.org/pkg-0.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_pkg-0.1-0-9216/package/.git/

@@ -1,0 +1,28 @@
+Warning: skipping dependency checks.
+Note: checking out '0.1.1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at 68d1a0b... release: 0.1.1
+/home/sp/luajit/bin/lua: test/lua_system_constants_test.lua:1: module 'lua_system_constants' not found:
+	no field package.preload['lua_system_constants']
+	no file '/home/sp/Dropbox/Prj/scilua/head/lua_system_constants/init.lua'
+	no file '/home/sp/Dropbox/Prj/scilua/head/lua_system_constants.lua'
+	no file '/home/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/Linux/x86/lua_system_constants/init.lua'
+	no file '/home/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/Linux/x86/lua_system_constants.lua'
+	no file '/home/sp/Dropbox/Prj/scilua/head/lua_system_constants.so'
+	no file '/home/sp/Dropbox/Prj/scilua/head/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	test/lua_system_constants_test.lua:1: in main chunk
+	[C]: at 0x0804c6e0
+make: *** [lua_system_constants.so] Error 1
+
+Error: Build error: Failed building.

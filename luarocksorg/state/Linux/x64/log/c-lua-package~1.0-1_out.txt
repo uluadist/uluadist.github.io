@@ -1,0 +1,3 @@
+Installing https://luarocks.org/c-lua-package-1.0-1.src.rock...
+Using https://luarocks.org/c-lua-package-1.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/c-lua.c -o src/c-lua.o

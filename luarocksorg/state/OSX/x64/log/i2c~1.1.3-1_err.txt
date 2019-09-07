@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+lua-i2c.c:29:10: fatal error: 'linux/i2c-dev.h' file not found
+#include <linux/i2c-dev.h>
+         ^
+1 error generated.
+
+Error: Build error: Failed compiling object lua-i2c.o

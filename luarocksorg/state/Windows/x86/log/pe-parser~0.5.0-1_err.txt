@@ -1,0 +1,4 @@
+Z:\sp\Dropbox\Windows\x86\luarocks\tools\cp: cannot stat `bin/pe-parser.lua': No such file or directory
+Warning: skipping dependency checks.
+
+Error: Failed copying bin/pe-parser.lua

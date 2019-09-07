@@ -1,0 +1,13 @@
+Warning: skipping dependency checks.
+src/lua-chan.c:137:5: warning: implicit declaration of function 'clock_gettime' is invalid in C99 [-Wimplicit-function-declaration]
+    clock_gettime(CLOCK_REALTIME, ts);
+    ^
+src/lua-chan.c:137:19: error: use of undeclared identifier 'CLOCK_REALTIME'
+    clock_gettime(CLOCK_REALTIME, ts);
+                  ^
+src/lua-chan.c:455:8: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+static chan_pushqueue(lua_State* L, struct queue_t* q)
+~~~~~~ ^
+2 warnings and 1 error generated.
+
+Error: Build error: Failed compiling object src/lua-chan.o

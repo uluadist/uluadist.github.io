@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lualines 1.0-0: alt-getopt >= 0.7
+Missing dependency for lualines 1.0-0: alt-getopt >= 0.7

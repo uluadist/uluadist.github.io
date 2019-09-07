@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+src/captcha.c:7:10: fatal error: 'gd.h' file not found
+#include <gd.h>
+         ^
+1 error generated.
+
+Error: Build error: Failed compiling object src/captcha.o

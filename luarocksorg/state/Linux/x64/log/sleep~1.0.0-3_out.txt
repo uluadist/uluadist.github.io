@@ -1,0 +1,9 @@
+Installing https://luarocks.org/sleep-1.0.0-3.rockspec...
+Using https://luarocks.org/sleep-1.0.0-3.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_sleep-1.0.0-3-8312/sleep/.git/
+-- The C compiler identification is GNU
+-- Check for working C compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/gcc
+-- Check for working C compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Configuring incomplete, errors occurred!

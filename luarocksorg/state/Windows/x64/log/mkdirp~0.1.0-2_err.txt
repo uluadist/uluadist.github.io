@@ -1,0 +1,4 @@
+Z:\sp\Dropbox\Windows\x64\luarocks\tools\cp: omitting directory `mkdirp.lua'
+Warning: skipping dependency checks.
+
+Error: Build error: Failed installing mkdirp.lua in C:\ste\x64\luarockstree/lib/luarocks/rocks/mkdirp/0.1.0-2/lua/mkdirp.lua

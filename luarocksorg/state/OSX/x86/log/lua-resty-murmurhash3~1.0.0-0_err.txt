@@ -1,0 +1,15 @@
+Warning: skipping dependency checks.
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   murmurhash3
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+cp: libmurmurhash3.so: No such file or directory
+
+Error: Failed copying libmurmurhash3.so

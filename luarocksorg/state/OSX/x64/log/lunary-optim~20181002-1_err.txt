@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+serial/optim.c:342:1: error: unknown type name 'LUNARY_API'
+LUNARY_API int luaopen_module(lua_State* L)
+^
+serial/optim.c:342:12: error: expected identifier or '('
+LUNARY_API int luaopen_module(lua_State* L)
+           ^
+2 errors generated.
+
+Error: Build error: Failed compiling object serial/optim.o

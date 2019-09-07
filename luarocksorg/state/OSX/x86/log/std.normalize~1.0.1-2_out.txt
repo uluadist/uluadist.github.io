@@ -1,0 +1,36 @@
+Archive:  v1.0.1.zip
+1dcde3d393fa6fbe842866f58411b5d74da7ec8e
+   creating: normalize-1.0.1/
+ extracting: normalize-1.0.1/.gitignore  
+  inflating: normalize-1.0.1/.luacov  
+  inflating: normalize-1.0.1/.travis.yml  
+  inflating: normalize-1.0.1/AUTHORS.md  
+  inflating: normalize-1.0.1/LICENSE.md  
+  inflating: normalize-1.0.1/Makefile  
+  inflating: normalize-1.0.1/NEWS.md  
+  inflating: normalize-1.0.1/README.md  
+   creating: normalize-1.0.1/doc/
+  inflating: normalize-1.0.1/doc/config.ld.in  
+  inflating: normalize-1.0.1/doc/index.html  
+  inflating: normalize-1.0.1/doc/ldoc.css  
+   creating: normalize-1.0.1/lib/
+   creating: normalize-1.0.1/lib/std/
+   creating: normalize-1.0.1/lib/std/normalize/
+  inflating: normalize-1.0.1/lib/std/normalize/_base.lua  
+  inflating: normalize-1.0.1/lib/std/normalize/_debug.lua  
+  inflating: normalize-1.0.1/lib/std/normalize/_strict.lua  
+  inflating: normalize-1.0.1/lib/std/normalize/_typecheck.lua  
+  inflating: normalize-1.0.1/lib/std/normalize/init.lua  
+ extracting: normalize-1.0.1/lib/std/normalize/version.lua  
+   creating: normalize-1.0.1/specs/
+  inflating: normalize-1.0.1/specs/_strict_spec.yaml  
+  inflating: normalize-1.0.1/specs/_typecheck_spec.yaml  
+  inflating: normalize-1.0.1/specs/init_spec.yaml  
+  inflating: normalize-1.0.1/specs/spec_helper.lua  
+  inflating: normalize-1.0.1/specs/version_spec.yaml  
+  inflating: normalize-1.0.1/std.normalize-1.0.1-2.rockspec  
+Installing https://luarocks.org/std.normalize-1.0.1-2.src.rock...
+Using https://luarocks.org/std.normalize-1.0.1-2.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+std.normalize 1.0.1-2 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

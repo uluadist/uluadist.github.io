@@ -1,0 +1,16 @@
+ldecNumber.c
+decNumber.c
+decContext.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library ldecNumber.lib and object ldecNumber.exp
+Installing https://luarocks.org/ldecnumber-2.1-3.src.rock...
+Using https://luarocks.org/ldecnumber-2.1-3.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -FoldecNumber.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ ldecNumber.c -IdecNumber
+cl /nologo /MD /O2 -c -FodecNumber/decNumber.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ decNumber/decNumber.c -IdecNumber
+cl /nologo /MD /O2 -c -FodecNumber/decContext.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ decNumber/decContext.c -IdecNumber
+link -dll -def:ldecNumber.def -out:ldecNumber.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib ldecNumber.obj decNumber/decNumber.obj decNumber/decContext.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+ldecnumber 2.1-3 is now built and installed in C:\ste\x64\luarockstree (license: MIT/X11)
+

@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+In file included from main.cpp:2:
+./gq/Node.hpp:34:10: fatal error: 'boost/utility/string_ref.hpp' file not found
+#include <boost/utility/string_ref.hpp>
+         ^
+1 error generated.
+make: *** [main.o] Error 1
+
+Error: Build error: Failed building.

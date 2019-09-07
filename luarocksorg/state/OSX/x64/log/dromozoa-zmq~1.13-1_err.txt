@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_dromozoa-zmq-1.13-1-5089/dromozoa-zmq-1.13-1.rockspec: Unknown field test

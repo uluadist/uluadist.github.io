@@ -1,0 +1,32 @@
+Warning: skipping dependency checks.
+Note: checking out 'v1.0.0-3'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at 16a051a... Add build status badges and update build instructions [ci skip]
+CMake Warning at CMakeLists.txt:8 (find_package):
+  Could not find module FindLua.cmake or a configuration file for package
+  Lua.
+
+  Adjust CMAKE_MODULE_PATH to find FindLua.cmake or set Lua_DIR to the
+  directory containing a CMake configuration file for Lua.  The file will
+  have one of the following names:
+
+    LuaConfig.cmake
+    lua-config.cmake
+
+
+
+CMake Error at CMakeLists.txt:10 (message):
+  Variable `LUA_INCLUDE_DIR' expected to be defined.
+
+
+
+Error: Build error: Failed cmake.

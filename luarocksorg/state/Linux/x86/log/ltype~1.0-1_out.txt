@@ -1,0 +1,8 @@
+Installing https://rocks.moonscript.org/ltype-1.0-1.rockspec...
+Using https://rocks.moonscript.org/ltype-1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_ltype-1.0-1-6868/ltype/.git/
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/ltype/core.c -o src/ltype/core.o
+gcc -shared -o ltype/core.so -L/home/sp/luajit/lib src/ltype/core.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+ltype 1.0-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

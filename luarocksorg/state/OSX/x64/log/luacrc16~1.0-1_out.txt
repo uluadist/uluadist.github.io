@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/luacrc16-1.0-1.rockspec...
+Using https://rocks.moonscript.org/luacrc16-1.0-1.rockspec... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c crc16.c -o crc16.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o crc16.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib crc16.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+luacrc16 1.0-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

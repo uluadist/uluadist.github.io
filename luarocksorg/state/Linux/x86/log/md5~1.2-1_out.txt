@@ -1,0 +1,13 @@
+Installing https://rocks.moonscript.org/md5-1.2-1.src.rock...
+Using https://rocks.moonscript.org/md5-1.2-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/compat-5.2.c -o src/compat-5.2.o -Isrc/
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/md5.c -o src/md5.o -Isrc/
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/md5lib.c -o src/md5lib.o -Isrc/
+gcc -shared -o md5/core.so -L/home/sp/luajit/lib src/compat-5.2.o src/md5.o src/md5lib.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/compat-5.2.c -o src/compat-5.2.o -Isrc/
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/des56.c -o src/des56.o -Isrc/
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/ldes56.c -o src/ldes56.o -Isrc/
+gcc -shared -o des56.so -L/home/sp/luajit/lib src/compat-5.2.o src/des56.o src/ldes56.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+md5 1.2-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

@@ -1,0 +1,8 @@
+Installing https://rocks.moonscript.org/slncrypto-1.1-1.src.rock...
+Using https://rocks.moonscript.org/slncrypto-1.1-1.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c slncrypt.c -o slncrypt.o
+gcc -shared -o crypto.so -L/home/sp/luajit/lib slncrypt.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+slncrypto 1.1-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

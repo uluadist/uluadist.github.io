@@ -1,0 +1,57 @@
+Archive:  sha2-0.2.0.zip
+   creating: sha2-0.2.0/
+  inflating: sha2-0.2.0/sha2.c       
+  inflating: sha2-0.2.0/sha2.h       
+  inflating: sha2-0.2.0/sha2lib.c    
+   creating: sha2-0.2.0/hmac/
+  inflating: sha2-0.2.0/hmac/sha2.lua  
+  inflating: sha2-0.2.0/hmac.lua     
+   creating: sha2-0.2.0/tests/
+  inflating: sha2-0.2.0/tests/test_hmac.lua  
+  inflating: sha2-0.2.0/tests/test_sha2.lua  
+   creating: sha2-0.2.0/tests/testvectors/
+  inflating: sha2-0.2.0/tests/testvectors/vector001.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector001.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector002.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector002.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector003.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector003.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector004.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector004.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector005.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector005.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector006.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector006.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector007.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector007.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector008.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector008.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector009.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector009.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector010.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector010.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector011.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector011.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector012.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector012.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector013.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector013.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector014.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector014.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector015.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector015.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector016.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector016.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector017.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector017.info  
+  inflating: sha2-0.2.0/tests/testvectors/vector018.dat  
+  inflating: sha2-0.2.0/tests/testvectors/vector018.info  
+  inflating: sha2-0.2.0/hmac/md5.lua  
+Installing https://rocks.moonscript.org/sha2-0.2.0-1.src.rock...
+Using https://rocks.moonscript.org/sha2-0.2.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c sha2.c -o sha2.o -DSHA2_USE_INTTYPES_H -DBYTE_ORDER -DLITTLE_ENDIAN -I.
+gcc -O2 -fPIC -I/home/sp/luajit//include -c sha2lib.c -o sha2lib.o -DSHA2_USE_INTTYPES_H -DBYTE_ORDER -DLITTLE_ENDIAN -I.
+gcc -shared -o sha2.so -L/home/sp/luajit//lib sha2.o sha2lib.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+sha2 0.2.0-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

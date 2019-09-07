@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/multipart-0.2-1.rockspec...
+Using https://rocks.moonscript.org/multipart-0.2-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_multipart-0.2-1-4220/lua-multipart/.git/
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+multipart 0.2-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

@@ -1,0 +1,9 @@
+Warning: skipping dependency checks.
+CMake Error at deps/uv.cmake:28 (cmake_minimum_required):
+  CMake 2.8.9 or higher is required.  You are running version 2.8.0
+Call Stack (most recent call first):
+  CMakeLists.txt:44 (include)
+
+
+
+Error: Build error: Failed cmake.

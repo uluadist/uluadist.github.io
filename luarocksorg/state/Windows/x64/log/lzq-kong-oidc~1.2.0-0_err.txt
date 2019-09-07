@@ -1,0 +1,4 @@
+Z:\sp\Dropbox\Windows\x64\luarocks\tools\cp: cannot stat `kong/plugins/oidc/schema.lua': No such file or directory
+Warning: skipping dependency checks.
+
+Error: Build error: Failed installing kong/plugins/oidc/schema.lua in C:\ste\x64\luarockstree/lib/luarocks/rocks/lzq-kong-oidc/1.2.0-0/lua/kong/plugins/oidc/schema.lua

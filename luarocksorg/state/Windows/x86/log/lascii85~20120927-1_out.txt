@@ -1,0 +1,13 @@
+lascii85.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library ascii85.lib and object ascii85.exp
+Installing https://luarocks.org/lascii85-20120927-1.src.rock...
+Using https://luarocks.org/lascii85-20120927-1.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+cl /nologo /MD /O2 -c -Folascii85.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ lascii85.c
+link -dll -def:ascii85.def -out:ascii85.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib lascii85.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+lascii85 20120927-1 is now built and installed in C:\ste\x86\luarockstree (license: Public domain)
+

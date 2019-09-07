@@ -1,0 +1,8 @@
+Installing https://luarocks.org/hex-1.0.2-1.rockspec...
+Using https://luarocks.org/hex-1.0.2-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_hex-1.0.2-1-9575/lua-hex/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/hex.c -o src/hex.o
+gcc -shared -o hex.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/hex.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+hex 1.0.2-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

@@ -1,0 +1,64 @@
+Warning: skipping dependency checks.
+l_rng.c:7:8: error: unknown type name 'uint32_t'
+static uint32_t seeds[NUMBER_OF_SEEDS];
+       ^
+l_rng.c:8:8: error: unknown type name 'uint32_t'
+static uint32_t carry = 362436;
+       ^
+l_rng.c:12:15: error: unknown type name 'uint32_t'
+void init_rng(uint32_t metaseed)
+              ^
+l_rng.c:15:13: error: expected ';' after expression
+    uint32_t x = 0, y = 0, z = 0, w = 0, v = 0;
+            ^
+            ;
+l_rng.c:15:5: error: use of undeclared identifier 'uint32_t'
+    uint32_t x = 0, y = 0, z = 0, w = 0, v = 0;
+    ^
+l_rng.c:15:14: error: use of undeclared identifier 'x'
+    uint32_t x = 0, y = 0, z = 0, w = 0, v = 0;
+             ^
+l_rng.c:15:21: error: use of undeclared identifier 'y'
+    uint32_t x = 0, y = 0, z = 0, w = 0, v = 0;
+                    ^
+l_rng.c:15:28: error: use of undeclared identifier 'z'
+    uint32_t x = 0, y = 0, z = 0, w = 0, v = 0;
+                           ^
+l_rng.c:15:35: error: use of undeclared identifier 'w'
+    uint32_t x = 0, y = 0, z = 0, w = 0, v = 0;
+                                  ^
+l_rng.c:15:42: error: use of undeclared identifier 'v'
+    uint32_t x = 0, y = 0, z = 0, w = 0, v = 0;
+                                         ^
+l_rng.c:17:5: error: use of undeclared identifier 'x'
+    x = metaseed;
+    ^
+l_rng.c:20:17: error: expected ';' after expression
+        uint32_t t = (x^(x>>7));
+                ^
+                ;
+l_rng.c:20:9: error: use of undeclared identifier 'uint32_t'
+        uint32_t t = (x^(x>>7));
+        ^
+l_rng.c:20:18: error: use of undeclared identifier 't'
+        uint32_t t = (x^(x>>7));
+                 ^
+l_rng.c:20:26: error: use of undeclared identifier 'x'
+        uint32_t t = (x^(x>>7));
+                         ^
+l_rng.c:20:23: error: use of undeclared identifier 'x'
+        uint32_t t = (x^(x>>7));
+                      ^
+l_rng.c:21:9: error: use of undeclared identifier 'x'
+        x = y;
+        ^
+l_rng.c:21:13: error: use of undeclared identifier 'y'
+        x = y;
+            ^
+l_rng.c:22:9: error: use of undeclared identifier 'y'
+        y = z;
+        ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+
+Error: Build error: Failed compiling object l_rng.o

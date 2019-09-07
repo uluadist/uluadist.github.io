@@ -1,0 +1,11 @@
+Warning: skipping dependency checks.
+make: Warning: File `Makefile' has modification time 6.9e+08 s in the future
+make: warning: Clock skew detected. Your build may be incomplete.
+make: Warning: File `Makefile' has modification time 6.9e+08 s in the future
+src/luauuid.c:35:17: fatal error: lua.h: No such file or directory
+ #include <lua.h>
+                 ^
+compilation terminated.
+make: *** [so/luauuid.o] Error 1
+
+Error: Build error: Failed installing.

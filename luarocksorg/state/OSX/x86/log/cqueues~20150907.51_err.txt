@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+/private/tmp/luarocks_cqueues-20150907.51-0-6415/cqueues-rel-20150907/mk/vendor.cc: line 7: export: `-E': not a valid identifier
+/private/tmp/luarocks_cqueues-20150907.51-0-6415/cqueues-rel-20150907/mk/vendor.cc: line 7: export: `-': not a valid identifier
+luapath: export MACOSX_DEPLOYMENT_TARGET=10.8; gcc: command not found
+luapath: export MACOSX_DEPLOYMENT_TARGET=10.8; gcc: command not found
+luapath: export MACOSX_DEPLOYMENT_TARGET=10.8; gcc: command not found
+Unable to find Lua 5.1 API headers (CPPFLAGS=)
+make: *** [/private/tmp/luarocks_cqueues-20150907.51-0-6415/cqueues-rel-20150907/src/5.1/cqueues.o] Error 1
+
+Error: Build error: Failed building.

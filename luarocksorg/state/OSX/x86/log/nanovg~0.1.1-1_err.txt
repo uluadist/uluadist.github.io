@@ -1,0 +1,5 @@
+Warning: skipping dependency checks.
+tar: Damaged tar archive
+tar: Error exit delayed from previous errors.
+
+Error: Failed extracting 0.1.1.tar.gz

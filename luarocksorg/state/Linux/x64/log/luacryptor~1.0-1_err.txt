@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+luacryptorext.c: In function ‘get_random_bytes’:
+luacryptorext.c:795:10: warning: ignoring return value of ‘fread’, declared with attribute warn_unused_result [-Wunused-result]
+     fread(buffer, size, 1, urandom);
+          ^
+No existing manifest. Attempting to rebuild...

@@ -1,0 +1,13 @@
+cd libjsonnet && make libjsonnet.so && cp libjsonnet.so  /usr/lib64/ && cd ../ &&  cp jsonnet.lua /usr/local/share/luajit-*/
+make[1]: Entering directory `/tmp/luarocks_jsonnet-0.1-1-694/luajit-jsonnet/libjsonnet'
+g++ -c -g -O3 -Wall -Wextra -pedantic -std=c++0x -fPIC lexer.cpp -o lexer.o
+((od -v -Anone -t u1 std.jsonnet | tr " " "\n" | grep -v "^$" | tr "\n" "," ) && echo "0") > std.jsonnet.h
+echo >> std.jsonnet.h
+g++ -c -g -O3 -Wall -Wextra -pedantic -std=c++0x -fPIC parser.cpp -o parser.o
+g++ -c -g -O3 -Wall -Wextra -pedantic -std=c++0x -fPIC static_analysis.cpp -o static_analysis.o
+g++ -c -g -O3 -Wall -Wextra -pedantic -std=c++0x -fPIC vm.cpp -o vm.o
+g++ -c -g -O3 -Wall -Wextra -pedantic -std=c++0x -fPIC libjsonnet.cpp -o libjsonnet.o
+g++  lexer.o parser.o static_analysis.o vm.o libjsonnet.o -shared -o libjsonnet.so
+make[1]: Leaving directory `/tmp/luarocks_jsonnet-0.1-1-694/luajit-jsonnet/libjsonnet'
+Installing https://rocks.moonscript.org/jsonnet-0.1-1.src.rock...
+Using https://rocks.moonscript.org/jsonnet-0.1-1.src.rock... switching to 'build' mode

@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for vinspect 0.0.2-1: lcurses >= 9.0.0
+Missing dependency for vinspect 0.0.2-1: lcurses >= 9.0.0

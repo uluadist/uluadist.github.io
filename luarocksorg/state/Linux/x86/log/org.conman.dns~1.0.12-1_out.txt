@@ -1,0 +1,8 @@
+c99 -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include  -c -o src/luadns.oo src/luadns.c
+c99 -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include  -c -o src/codec.oo src/codec.c
+c99 -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include  -c -o src/mappings.oo src/mappings.c
+c99 -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include  -c -o src/netsimple.oo src/netsimple.c
+c99 -shared -o src/dns.so src/luadns.oo src/codec.oo src/mappings.oo src/netsimple.oo
+gcc -Wall -Wextra -pedantic -g  -c -o src/luadns.oo src/luadns.c
+Installing https://luarocks.org/org.conman.dns-1.0.12-1.src.rock...
+Using https://luarocks.org/org.conman.dns-1.0.12-1.src.rock... switching to 'build' mode

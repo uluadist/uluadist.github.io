@@ -1,0 +1,52 @@
+Archive:  JSON4Lua-0.9.30.zip
+   creating: JSON4Lua-0.9.30/
+   creating: JSON4Lua-0.9.30/doc/
+  inflating: JSON4Lua-0.9.30/doc/cgilua_patch.html  
+   creating: __MACOSX/
+   creating: __MACOSX/JSON4Lua-0.9.30/
+   creating: __MACOSX/JSON4Lua-0.9.30/doc/
+  inflating: __MACOSX/JSON4Lua-0.9.30/doc/._cgilua_patch.html  
+  inflating: JSON4Lua-0.9.30/doc/index.html  
+  inflating: __MACOSX/JSON4Lua-0.9.30/doc/._index.html  
+  inflating: JSON4Lua-0.9.30/doc/INSTALL.txt  
+  inflating: __MACOSX/JSON4Lua-0.9.30/doc/._INSTALL.txt  
+  inflating: JSON4Lua-0.9.30/doc/LICENCE.txt  
+  inflating: __MACOSX/JSON4Lua-0.9.30/doc/._LICENCE.txt  
+   creating: JSON4Lua-0.9.30/doc/pics/
+  inflating: JSON4Lua-0.9.30/doc/pics/json4lua.gif  
+   creating: __MACOSX/JSON4Lua-0.9.30/doc/pics/
+  inflating: __MACOSX/JSON4Lua-0.9.30/doc/pics/._json4lua.gif  
+  inflating: JSON4Lua-0.9.30/doc/pics/lunartone.gif  
+  inflating: __MACOSX/JSON4Lua-0.9.30/doc/pics/._lunartone.gif  
+  inflating: __MACOSX/JSON4Lua-0.9.30/doc/._pics  
+  inflating: JSON4Lua-0.9.30/doc/README.txt  
+  inflating: JSON4Lua-0.9.30/doc/VERSION.txt  
+  inflating: __MACOSX/JSON4Lua-0.9.30/doc/._VERSION.txt  
+  inflating: __MACOSX/JSON4Lua-0.9.30/._doc  
+   creating: JSON4Lua-0.9.30/examples/
+  inflating: JSON4Lua-0.9.30/examples/example.lua  
+   creating: __MACOSX/JSON4Lua-0.9.30/examples/
+  inflating: __MACOSX/JSON4Lua-0.9.30/examples/._example.lua  
+  inflating: JSON4Lua-0.9.30/examples/jsonrpc.lua  
+  inflating: __MACOSX/JSON4Lua-0.9.30/examples/._jsonrpc.lua  
+  inflating: JSON4Lua-0.9.30/examples/tests.lua  
+  inflating: __MACOSX/JSON4Lua-0.9.30/examples/._tests.lua  
+  inflating: JSON4Lua-0.9.30/examples/timetrials.lua  
+  inflating: __MACOSX/JSON4Lua-0.9.30/examples/._timetrials.lua  
+  inflating: __MACOSX/JSON4Lua-0.9.30/._examples  
+   creating: JSON4Lua-0.9.30/json/
+  inflating: JSON4Lua-0.9.30/json/json.lua  
+   creating: __MACOSX/JSON4Lua-0.9.30/json/
+  inflating: __MACOSX/JSON4Lua-0.9.30/json/._json.lua  
+  inflating: JSON4Lua-0.9.30/json/rpc.lua  
+  inflating: __MACOSX/JSON4Lua-0.9.30/json/._rpc.lua  
+  inflating: JSON4Lua-0.9.30/json/rpcserver.lua  
+  inflating: __MACOSX/JSON4Lua-0.9.30/json/._rpcserver.lua  
+  inflating: __MACOSX/JSON4Lua-0.9.30/._json  
+  inflating: __MACOSX/._JSON4Lua-0.9.30  
+Installing https://rocks.moonscript.org/json4lua-0.9.30-1.src.rock...
+Using https://rocks.moonscript.org/json4lua-0.9.30-1.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+json4lua 0.9.30-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: GPL)
+

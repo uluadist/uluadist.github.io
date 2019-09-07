@@ -1,0 +1,8 @@
+Installing https://rocks.moonscript.org/bitlib-23-2.src.rock...
+Using https://rocks.moonscript.org/bitlib-23-2.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+gcc -O2 -fPIC -I/home/sp/luajit//include -c lbitlib.c -o lbitlib.o
+gcc -shared -o bit.so -L/home/sp/luajit//lib lbitlib.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+bitlib 23-2 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

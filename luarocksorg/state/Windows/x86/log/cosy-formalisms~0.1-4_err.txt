@@ -1,0 +1,4 @@
+Z:\sp\Dropbox\Windows\x86\luarocks\tools\cp: cannot stat `src/cosy/formalism/graph/labeled/vertices.lua': No such file or directory
+Warning: skipping dependency checks.
+
+Error: Build error: Failed installing src/cosy/formalism/graph/labeled/vertices.lua in C:\ste\x86\luarockstree/lib/luarocks/rocks/cosy-formalisms/0.1-4/lua/cosy/formalism/graph/labeled/vertices.lua

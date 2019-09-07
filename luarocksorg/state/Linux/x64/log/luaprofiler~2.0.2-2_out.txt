@@ -1,0 +1,12 @@
+Installing https://rocks.moonscript.org/luaprofiler-2.0.2-2.src.rock...
+Using https://rocks.moonscript.org/luaprofiler-2.0.2-2.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/clocks.c -o src/clocks.o
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/core_profiler.c -o src/core_profiler.o
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/function_meter.c -o src/function_meter.o
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/stack.c -o src/stack.o
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/lua50_profiler.c -o src/lua50_profiler.o
+gcc -shared -o profiler.so -L/home/sp/luajit//lib src/clocks.o src/core_profiler.o src/function_meter.o src/stack.o src/lua50_profiler.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+luaprofiler 2.0.2-2 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

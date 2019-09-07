@@ -1,0 +1,12 @@
+Installing https://rocks.moonscript.org/luaprofiler-2.0.2-2.src.rock...
+Using https://rocks.moonscript.org/luaprofiler-2.0.2-2.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/clocks.c -o src/clocks.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/core_profiler.c -o src/core_profiler.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/function_meter.c -o src/function_meter.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/stack.c -o src/stack.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/lua50_profiler.c -o src/lua50_profiler.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o profiler.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib src/clocks.o src/core_profiler.o src/function_meter.o src/stack.o src/lua50_profiler.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+luaprofiler 2.0.2-2 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

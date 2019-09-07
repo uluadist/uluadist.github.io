@@ -1,0 +1,8 @@
+Installing https://luarocks.org/whereami-1.2.1-0.rockspec...
+Using https://luarocks.org/whereami-1.2.1-0.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c lua-whereami.c -o lua-whereami.o -Iwhereami/src
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c whereami/src/whereami.c -o whereami/src/whereami.o -Iwhereami/src
+gcc -shared -o whereami/core.so -L/home/sp/Dropbox/Linux/x64/luajit//lib lua-whereami.o whereami/src/whereami.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+whereami 1.2.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

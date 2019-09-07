@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Error fetching file: Failed downloading https://bitbucket.org/wilhelmy/lua-bencode/downloads/lua-bencode-2.2.0.zip - lua-bencode-2.2.0.zip

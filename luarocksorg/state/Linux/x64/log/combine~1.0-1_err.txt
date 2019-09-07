@@ -1,0 +1,16 @@
+Warning: skipping dependency checks.
+Note: checking out 'v1.0.1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at 4cae6aa... Recompile, add rockspec
+cp: cannot stat `src/combine.lua': No such file or directory
+
+Error: Build error: Failed installing src/combine.lua in /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/combine/1.0-1/lua/combine.lua

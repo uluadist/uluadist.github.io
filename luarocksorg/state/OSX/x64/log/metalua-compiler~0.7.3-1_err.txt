@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for metalua-compiler 0.7.3-1: metalua-parser >= 0.7.3
+Missing dependency for metalua-compiler 0.7.3-1: luafilesystem ~> 1.6
+Missing dependency for metalua-compiler 0.7.3-1: metalua-parser >= 0.7.3
+Missing dependency for metalua-compiler 0.7.3-1: luafilesystem ~> 1.6

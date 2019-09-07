@@ -1,0 +1,17 @@
+lua-nanovg.c
+c:\users\sp\appdata\local\temp\luarocks_nanovg-0.1.0-1-2647\lua-nanovg-0.1.0\lbind.h(343): warning C4028: formal parameter 2 different from declaration
+nanovg.c
+gl_2_0_core.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library nvg.lib and object nvg.exp
+Installing https://luarocks.org/nanovg-0.1.0-1.src.rock...
+Using https://luarocks.org/nanovg-0.1.0-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folua-nanovg.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ lua-nanovg.c
+cl /nologo /MD /O2 -c -Fonanovg/src/nanovg.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ nanovg/src/nanovg.c
+cl /nologo /MD /O2 -c -Fogl_2_0_core.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ gl_2_0_core.c
+link -dll -def:nvg.def -out:nvg.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib lua-nanovg.obj nanovg/src/nanovg.obj gl_2_0_core.obj opengl32.lib
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+nanovg 0.1.0-1 is now built and installed in C:\ste\x86\luarockstree (license: MIT)
+

@@ -1,0 +1,7 @@
+Installing https://luarocks.org/luaproxy-1.1.4-1.rockspec...
+Using https://luarocks.org/luaproxy-1.1.4-1.rockspec... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c luaproxy.c -o luaproxy.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o proxy.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib luaproxy.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+luaproxy 1.1.4-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: 3-clause BSD)
+

@@ -1,0 +1,4 @@
+Installing https://rocks.moonscript.org/docopt-0.1-0.all.rock...
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+
+docopt 0.1-0 is now installed in /home/sp/luarockstree (license: MIT)

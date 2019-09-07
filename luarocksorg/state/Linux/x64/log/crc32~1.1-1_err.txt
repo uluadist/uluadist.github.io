@@ -1,0 +1,46 @@
+Warning: skipping dependency checks.
+wrap.c:54:22: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘lua_Unsigned’
+ typedef LUA_UNSIGNED lua_Unsigned;
+                      ^
+wrap.c:72:7: error: unknown type name ‘LUAI_INT32’
+ union luai_Cast2 { double l_d; LUAI_INT32 l_p[2]; };
+       ^
+wrap.c:113:45: error: unknown type name ‘lua_Unsigned’
+ static void lua_pushunsigned (lua_State *L, lua_Unsigned u) {
+                                             ^
+wrap.c:121:1: error: unknown type name ‘lua_Unsigned’
+ static lua_Unsigned luaL_checkunsigned (lua_State *L, int arg) {
+ ^
+wrap.c: In function ‘luaL_checkunsigned’:
+wrap.c:122:3: error: unknown type name ‘lua_Unsigned’
+   lua_Unsigned r;
+   ^
+wrap.c:87:64: error: ‘lua_Unsigned’ undeclared (first use in this function)
+ #define lua_number2unsigned(i,n)        lua_number2int32(i, n, lua_Unsigned)
+                                                                ^
+wrap.c:85:12: note: in definition of macro ‘lua_number2int32’
+     (i) = (t)u.l_p[LUA_IEEEENDIAN]; }
+            ^
+wrap.c:125:3: note: in expansion of macro ‘lua_number2unsigned’
+   lua_number2unsigned(r, x);
+   ^
+wrap.c:87:64: note: each undeclared identifier is reported only once for each function it appears in
+ #define lua_number2unsigned(i,n)        lua_number2int32(i, n, lua_Unsigned)
+                                                                ^
+wrap.c:85:12: note: in definition of macro ‘lua_number2int32’
+     (i) = (t)u.l_p[LUA_IEEEENDIAN]; }
+            ^
+wrap.c:125:3: note: in expansion of macro ‘lua_number2unsigned’
+   lua_number2unsigned(r, x);
+   ^
+wrap.c:85:14: error: expected ‘;’ before ‘u’
+     (i) = (t)u.l_p[LUA_IEEEENDIAN]; }
+              ^
+wrap.c:87:41: note: in expansion of macro ‘lua_number2int32’
+ #define lua_number2unsigned(i,n)        lua_number2int32(i, n, lua_Unsigned)
+                                         ^
+wrap.c:125:3: note: in expansion of macro ‘lua_number2unsigned’
+   lua_number2unsigned(r, x);
+   ^
+
+Error: Build error: Failed compiling object wrap.o

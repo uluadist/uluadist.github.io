@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Error fetching file: Failed downloading https://github.com/jprjr/netstring.lua/archive/1.0.3.tar.gz - netstring.lua-1.0.3.tar.gz

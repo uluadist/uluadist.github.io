@@ -1,0 +1,9 @@
+Installing https://rocks.moonscript.org/tdb-1.0-1.rockspec...
+Using https://rocks.moonscript.org/tdb-1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_tdb-1.0-1-6014/lua-tdb/.git/
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/tdb.c -o src/tdb.o -DLUA_BINDING=1 -Iinc
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/ltdb.c -o src/ltdb.o -DLUA_BINDING=1 -Iinc
+gcc -shared -o tdb.so -L/home/sp/luajit/lib src/tdb.o src/ltdb.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+tdb 1.0-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

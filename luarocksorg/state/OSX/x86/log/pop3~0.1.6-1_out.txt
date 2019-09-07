@@ -1,0 +1,61 @@
+Archive:  v0.1.6.zip
+4468ab522ab2b4d0a41d96ed024d07c255867707
+   creating: lua-pop3-0.1.6/
+  inflating: lua-pop3-0.1.6/.travis.yml  
+  inflating: lua-pop3-0.1.6/CMakeLists.txt  
+  inflating: lua-pop3-0.1.6/LICENCE.txt  
+  inflating: lua-pop3-0.1.6/README.md  
+   creating: lua-pop3-0.1.6/cmake/
+  inflating: lua-pop3-0.1.6/cmake/FindLua.cmake  
+  inflating: lua-pop3-0.1.6/cmake/dist.cmake  
+  inflating: lua-pop3-0.1.6/cmake/lua.cmake  
+  inflating: lua-pop3-0.1.6/dist.info  
+   creating: lua-pop3-0.1.6/examples/
+  inflating: lua-pop3-0.1.6/examples/example.lua  
+  inflating: lua-pop3-0.1.6/lakeconfig.lua  
+  inflating: lua-pop3-0.1.6/lakefile  
+   creating: lua-pop3-0.1.6/lua/
+  inflating: lua-pop3-0.1.6/lua/config.ld  
+  inflating: lua-pop3-0.1.6/lua/pop3.lua  
+   creating: lua-pop3-0.1.6/lua/pop3/
+  inflating: lua-pop3-0.1.6/lua/pop3/charset.lua  
+  inflating: lua-pop3-0.1.6/lua/pop3/message.lua  
+  inflating: lua-pop3-0.1.6/lua/pop3/module.lua  
+   creating: lua-pop3-0.1.6/lua/pop3/win/
+  inflating: lua-pop3-0.1.6/lua/pop3/win/cp.lua  
+   creating: lua-pop3-0.1.6/rockspecs/
+  inflating: lua-pop3-0.1.6/rockspecs/pop3-0.1.0-1.rockspec  
+  inflating: lua-pop3-0.1.6/rockspecs/pop3-0.1.1-1.rockspec  
+  inflating: lua-pop3-0.1.6/rockspecs/pop3-0.1.2-1.rockspec  
+  inflating: lua-pop3-0.1.6/rockspecs/pop3-0.1.3-1.rockspec  
+  inflating: lua-pop3-0.1.6/rockspecs/pop3-0.1.4-1.rockspec  
+  inflating: lua-pop3-0.1.6/rockspecs/pop3-0.1.5-1.rockspec  
+  inflating: lua-pop3-0.1.6/rockspecs/pop3-0.1.6-1.rockspec  
+  inflating: lua-pop3-0.1.6/rockspecs/pop3-scm-0.rockspec  
+   creating: lua-pop3-0.1.6/test/
+  inflating: lua-pop3-0.1.6/test/.luacov  
+  inflating: lua-pop3-0.1.6/test/test-message.lua  
+   creating: lua-pop3-0.1.6/test/tests/
+   creating: lua-pop3-0.1.6/test/tests/test1/
+  inflating: lua-pop3-0.1.6/test/tests/test1/1.jpg  
+  inflating: lua-pop3-0.1.6/test/tests/test1/SEP7-8.png  
+  inflating: lua-pop3-0.1.6/test/tests/test1/kokouk.bmp  
+  inflating: lua-pop3-0.1.6/test/tests/test1/logo.jpg  
+  inflating: lua-pop3-0.1.6/test/tests/test1/test.eml  
+  inflating: lua-pop3-0.1.6/test/tests/test1/text.html  
+  inflating: lua-pop3-0.1.6/test/tests/test1/text.txt  
+   creating: lua-pop3-0.1.6/test/tests/test2/
+  inflating: lua-pop3-0.1.6/test/tests/test2/test.eml  
+  inflating: lua-pop3-0.1.6/test/tests/test2/text.html  
+  inflating: lua-pop3-0.1.6/test/tests/test2/text.txt  
+   creating: lua-pop3-0.1.6/test/tests/test3/
+  inflating: lua-pop3-0.1.6/test/tests/test3/html.html  
+  inflating: lua-pop3-0.1.6/test/tests/test3/test.eml  
+ extracting: lua-pop3-0.1.6/test/tests/test3/text1.txt  
+ extracting: lua-pop3-0.1.6/test/tests/test3/text2.txt  
+  inflating: lua-pop3-0.1.6/test/utils.lua  
+Installing https://luarocks.org/pop3-0.1.6-1.src.rock...
+Using https://luarocks.org/pop3-0.1.6-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+pop3 0.1.6-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

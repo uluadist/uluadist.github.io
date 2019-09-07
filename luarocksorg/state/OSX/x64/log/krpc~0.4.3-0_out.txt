@@ -1,0 +1,39 @@
+Archive:  krpc-0.4.3.zip
+   creating: krpc-0.4.3/
+  inflating: krpc-0.4.3/COPYING.LESSER  
+  inflating: krpc-0.4.3/LICENSE      
+ extracting: krpc-0.4.3/VERSION.txt  
+  inflating: krpc-0.4.3/COPYING      
+  inflating: krpc-0.4.3/CHANGES.txt  
+   creating: krpc-0.4.3/lua/
+   creating: krpc-0.4.3/lua/krpc/
+   creating: krpc-0.4.3/lua/krpc/test/
+  inflating: krpc-0.4.3/lua/krpc/test/test_objects.lua  
+  inflating: krpc-0.4.3/lua/krpc/test/init.lua  
+  inflating: krpc-0.4.3/lua/krpc/test/test_types.lua  
+  inflating: krpc-0.4.3/lua/krpc/test/servertest.lua  
+  inflating: krpc-0.4.3/lua/krpc/test/test_platform.lua  
+  inflating: krpc-0.4.3/lua/krpc/test/test_attributes.lua  
+  inflating: krpc-0.4.3/lua/krpc/test/test_performance.lua  
+  inflating: krpc-0.4.3/lua/krpc/test/test_encodedecode.lua  
+  inflating: krpc-0.4.3/lua/krpc/test/test_client.lua  
+  inflating: krpc-0.4.3/lua/krpc/test/test_encoder.lua  
+  inflating: krpc-0.4.3/lua/krpc/test/test_decoder.lua  
+  inflating: krpc-0.4.3/lua/krpc/test/test_snake_case.lua  
+  inflating: krpc-0.4.3/lua/krpc/service.lua  
+   creating: krpc-0.4.3/lua/krpc/schema/
+  inflating: krpc-0.4.3/lua/krpc/schema/KRPC.lua  
+  inflating: krpc-0.4.3/lua/krpc/init.lua  
+  inflating: krpc-0.4.3/lua/krpc/client.lua  
+  inflating: krpc-0.4.3/lua/krpc/types.lua  
+  inflating: krpc-0.4.3/lua/krpc/attributes.lua  
+  inflating: krpc-0.4.3/lua/krpc/platform.lua  
+  inflating: krpc-0.4.3/lua/krpc/connection.lua  
+  inflating: krpc-0.4.3/lua/krpc/decoder.lua  
+  inflating: krpc-0.4.3/lua/krpc/encoder.lua  
+  inflating: krpc-0.4.3/README.txt   
+Installing https://luarocks.org/krpc-0.4.3-0.rockspec...
+Using https://luarocks.org/krpc-0.4.3-0.rockspec... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+krpc 0.4.3-0 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: GNU LGPL v3)
+

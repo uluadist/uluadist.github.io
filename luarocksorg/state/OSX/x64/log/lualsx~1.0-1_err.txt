@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+src/lsx_random.c:133:2: error: "We don't know how to get random data on your platform"
+#error "We don't know how to get random data on your platform"
+ ^
+1 error generated.
+
+Error: Build error: Failed compiling object src/lsx_random.o

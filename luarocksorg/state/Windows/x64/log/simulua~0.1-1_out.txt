@@ -1,0 +1,47 @@
+ranlib.c
+lib/ranlib.c(18): warning C4005: 'min': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt\stdlib.h(1283): note: see previous definition of 'min'
+lib/ranlib.c(19): warning C4005: 'max': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt\stdlib.h(1282): note: see previous definition of 'max'
+mt.c
+rng.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library rng.lib and object rng.exp
+stack.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library stack.lib and object stack.exp
+queue.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library queue.lib and object queue.exp
+binomial.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library binomial.lib and object binomial.exp
+dcdflib.c
+ipmpar.c
+cdf.c
+lib/cdf.c(206): error C2065: 'M_LN2': undeclared identifier
+lib/cdf.c(481): error C2065: 'M_PI': undeclared identifier
+Installing https://luarocks.org/simulua-0.1-1.src.rock...
+Using https://luarocks.org/simulua-0.1-1.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+cl /nologo /MD /O2 -c -Folib/ranlib.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lib/ranlib.c
+cl /nologo /MD /O2 -c -Folib/mt.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lib/mt.c
+cl /nologo /MD /O2 -c -Folib/rng.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lib/rng.c
+link -dll -def:rng.def -out:rng.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib lib/ranlib.obj lib/mt.obj lib/rng.obj
+cl /nologo /MD /O2 -c -Folib/stack.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lib/stack.c
+link -dll -def:stack.def -out:stack.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib lib/stack.obj
+cl /nologo /MD /O2 -c -Folib/queue.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lib/queue.c
+link -dll -def:queue.def -out:queue.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib lib/queue.obj
+cl /nologo /MD /O2 -c -Folib/binomial.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lib/binomial.c
+link -dll -def:binomial.def -out:binomial.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib lib/binomial.obj
+cl /nologo /MD /O2 -c -Folib/dcdflib.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lib/dcdflib.c
+cl /nologo /MD /O2 -c -Folib/ipmpar.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lib/ipmpar.c
+cl /nologo /MD /O2 -c -Folib/cdf.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lib/cdf.c

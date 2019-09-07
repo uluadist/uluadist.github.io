@@ -1,0 +1,4 @@
+Installing https://rocks.moonscript.org/luadoc-3.0.1-1.all.rock...
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+
+luadoc 3.0.1-1 is now installed in /home/sp/luarockstree (license: MIT/X11)

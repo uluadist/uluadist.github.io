@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luacov-cobertura 0.2-1: luacov 
+Missing dependency for luacov-cobertura 0.2-1: luacov 

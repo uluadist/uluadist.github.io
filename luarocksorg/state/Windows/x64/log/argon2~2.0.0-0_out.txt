@@ -1,0 +1,3 @@
+Installing https://luarocks.org/argon2-2.0.0-0.rockspec...
+Using https://luarocks.org/argon2-2.0.0-0.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/argon2.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/argon2.c -I

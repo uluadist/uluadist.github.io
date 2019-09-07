@@ -1,0 +1,176 @@
+Warning: skipping dependency checks.
+3rd/crypto/openssl_md5.c:107:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(A,B,C,D,X( 0), 7,0xd76aa478L);       HOST_c2l(data,l); X( 2)=l;
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:108:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(D,A,B,C,X( 1),12,0xe8c7b756L);       HOST_c2l(data,l); X( 3)=l;
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:109:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(C,D,A,B,X( 2),17,0x242070dbL);       HOST_c2l(data,l); X( 4)=l;
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:110:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(B,C,D,A,X( 3),22,0xc1bdceeeL);       HOST_c2l(data,l); X( 5)=l;
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:111:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(A,B,C,D,X( 4), 7,0xf57c0fafL);       HOST_c2l(data,l); X( 6)=l;
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:112:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(D,A,B,C,X( 5),12,0x4787c62aL);       HOST_c2l(data,l); X( 7)=l;
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:113:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(C,D,A,B,X( 6),17,0xa8304613L);       HOST_c2l(data,l); X( 8)=l;
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:114:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(B,C,D,A,X( 7),22,0xfd469501L);       HOST_c2l(data,l); X( 9)=l;
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:115:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(A,B,C,D,X( 8), 7,0x698098d8L);       HOST_c2l(data,l); X(10)=l;
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:116:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(D,A,B,C,X( 9),12,0x8b44f7afL);       HOST_c2l(data,l); X(11)=l;
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:117:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(C,D,A,B,X(10),17,0xffff5bb1L);       HOST_c2l(data,l); X(12)=l;
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:118:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(B,C,D,A,X(11),22,0x895cd7beL);       HOST_c2l(data,l); X(13)=l;
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:119:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(A,B,C,D,X(12), 7,0x6b901122L);       HOST_c2l(data,l); X(14)=l;
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:120:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(D,A,B,C,X(13),12,0xfd987193L);       HOST_c2l(data,l); X(15)=l;
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:121:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(C,D,A,B,X(14),17,0xa679438eL);
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:122:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R0(B,C,D,A,X(15),22,0x49b40821L);
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:113:11: note: expanded from macro 'R0'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:124:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R1(A,B,C,D,X( 1), 5,0xf61e2562L);
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:118:11: note: expanded from macro 'R1'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:125:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R1(D,A,B,C,X( 6), 9,0xc040b340L);
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:118:11: note: expanded from macro 'R1'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+3rd/crypto/openssl_md5.c:126:5: error: unsupported inline asm: input with type 'unsigned long' matching output with type 'unsigned int'
+        R1(C,D,A,B,X(11),14,0x265e5a51L);
+        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3rd/crypto/openssl_md5_local.h:118:11: note: expanded from macro 'R1'
+        a=ROTATE(a,s); \
+                 ^
+3rd/crypto/openssl_md32_common.h:168:19: note: expanded from macro 'ROTATE'
+                                : "I"(n), "0"(a)        \
+                                              ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+
+Error: Build error: Failed compiling object 3rd/crypto/openssl_md5.o

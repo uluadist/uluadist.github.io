@@ -1,0 +1,9 @@
+Archive:  v0.10.zip
+8d165af6d1186d4cb6948635c54e2709314dacd9
+   creating: SimpleITKLuaRock-0.10/
+  inflating: SimpleITKLuaRock-0.10/CMakeLists.txt  
+  inflating: SimpleITKLuaRock-0.10/README.md  
+  inflating: SimpleITKLuaRock-0.10/simpleitk-0.10-0.rockspec  
+-- Configuring incomplete, errors occurred!
+Installing https://luarocks.org/simpleitk-0.10-0.rockspec...
+Using https://luarocks.org/simpleitk-0.10-0.rockspec... switching to 'build' mode

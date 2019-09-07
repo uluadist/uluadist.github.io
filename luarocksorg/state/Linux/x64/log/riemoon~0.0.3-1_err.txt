@@ -1,0 +1,15 @@
+Warning: skipping dependency checks.
+configure.ac:4: installing `./missing'
+Makefile.am: installing `./depcomp'
+configure: error: Package requirements (lua) were not met:
+
+No package 'lua5.3', 'lua5.2', 'lua5.1' or 'luajit' found.
+
+Consider adjusting the PKG_CONFIG_PATH environment variable if you
+installed software in a non-standard prefix.
+
+Alternatively, you may set the environment variables LUA_CFLAGS
+and LUA_LIBS to avoid the need to call pkg-config.
+See the pkg-config man page for more details.
+
+Error: Build error: Failed building.

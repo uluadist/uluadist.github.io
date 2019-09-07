@@ -1,0 +1,21 @@
+Warning: skipping dependency checks.
+/bin/sh: mecab-config: not found
+lua-mecab.cpp:10:19: error: mecab.h: No such file or directory
+lua-mecab.cpp: In function ‘int newTagger(lua_State*)’:
+lua-mecab.cpp:33: error: ‘MeCab’ has not been declared
+lua-mecab.cpp:33: error: ‘s’ was not declared in this scope
+lua-mecab.cpp:33: error: ‘MeCab’ has not been declared
+lua-mecab.cpp:33: error: expected primary-expression before ‘)’ token
+lua-mecab.cpp:33: error: expected ‘;’ before ‘lua_newuserdata’
+lua-mecab.cpp:37: error: ‘MeCab’ has not been declared
+lua-mecab.cpp:39: error: ‘MeCab’ has not been declared
+lua-mecab.cpp: At global scope:
+lua-mecab.cpp:48: error: ‘MeCab’ has not been declared
+lua-mecab.cpp:48: error: expected initializer before ‘*’ token
+lua-mecab.cpp: In function ‘int parseMecab(lua_State*)’:
+lua-mecab.cpp:56: error: ‘MeCab’ has not been declared
+lua-mecab.cpp:56: error: ‘c’ was not declared in this scope
+lua-mecab.cpp:56: error: ‘checkTagger’ was not declared in this scope
+make: *** [lua-mecab.o] Error 1
+
+Error: Build error: Failed building.

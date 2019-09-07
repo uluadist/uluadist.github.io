@@ -1,0 +1,10 @@
+Installing https://luarocks.org/getopt-1.0.1-1.src.rock...
+Using https://luarocks.org/getopt-1.0.1-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c argv.c -o argv.o -DVERSION="1.01"
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c options.c -o options.o -DVERSION="1.01"
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c getopt.c -o getopt.o -DVERSION="1.01"
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c set-lua-variable.c -o set-lua-variable.o -DVERSION="1.01"
+gcc -shared -o getopt.so -L/home/sp/Dropbox/Linux/x64/luajit//lib argv.o options.o getopt.o set-lua-variable.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+getopt 1.0.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

@@ -1,0 +1,12 @@
+luacryptorext.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library luacryptorext.lib and object luacryptorext.exp
+Installing https://luarocks.org/luacryptor-1.0-1.rockspec...
+Using https://luarocks.org/luacryptor-1.0-1.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Foluacryptorext.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ luacryptorext.c
+link -dll -def:luacryptorext.def -out:luacryptorext.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib luacryptorext.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+luacryptor 1.0-1 is now built and installed in C:\ste\x86\luarockstree (license: GPL-2+)
+

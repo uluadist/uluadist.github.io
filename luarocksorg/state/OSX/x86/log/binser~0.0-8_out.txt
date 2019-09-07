@@ -1,0 +1,5 @@
+Installing https://luarocks.org/binser-0.0-8.src.rock...
+Using https://luarocks.org/binser-0.0-8.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+binser 0.0-8 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

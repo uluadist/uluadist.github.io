@@ -1,0 +1,15 @@
+Warning: skipping dependency checks.
+lbufflib.c: In function ‘parse_fmtargs’:
+lbufflib.c:957:5: warning: passing argument 2 of ‘parse_optint’ from incompatible pointer type [enabled by default]
+     parse_optint(&I(fmt), wide);
+     ^
+lbufflib.c:947:12: note: expected ‘unsigned int *’ but argument is of type ‘size_t *’
+ static int parse_optint(const char **str, unsigned int *pn) {
+            ^
+lbufflib.c:963:9: warning: passing argument 2 of ‘parse_optint’ from incompatible pointer type [enabled by default]
+         parse_optint(&I(fmt), &ucount);
+         ^
+lbufflib.c:947:12: note: expected ‘unsigned int *’ but argument is of type ‘size_t *’
+ static int parse_optint(const char **str, unsigned int *pn) {
+            ^
+No existing manifest. Attempting to rebuild...

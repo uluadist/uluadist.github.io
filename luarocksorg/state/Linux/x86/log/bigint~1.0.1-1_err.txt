@@ -1,0 +1,33 @@
+Warning: skipping dependency checks.
+BigInt.cpp: In member function ‘BigInt BigInt::inv(const BigInt&) const’:
+BigInt.cpp:1411:12: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    bi_p[0] = (const char *)"0";
+            ^
+BigInt.cpp:1447:10: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+   bi_ret = (const char *)"0";
+          ^
+bigint-glue.cpp: In function ‘void construct_bigint(lua_State*, int)’:
+bigint-glue.cpp:74:45: error: call of overloaded ‘BigInt(lua_Integer)’ is ambiguous
+     *b = new BigInt(lua_tointeger(L, argidx));
+                                             ^
+bigint-glue.cpp:74:45: note: candidates are:
+In file included from bigint-glue.cpp:40:0:
+BigInt.h:61:2: note: BigInt::BigInt(const unsigned char*) <near match>
+  BigInt(const unsigned char*);
+  ^
+BigInt.h:61:2: note:   no known conversion for argument 1 from ‘lua_Integer {aka int}’ to ‘const unsigned char*’
+BigInt.h:60:2: note: BigInt::BigInt(const char*) <near match>
+  BigInt(const char*);
+  ^
+BigInt.h:60:2: note:   no known conversion for argument 1 from ‘lua_Integer {aka int}’ to ‘const char*’
+BigInt.h:59:2: note: BigInt::BigInt(long unsigned int)
+  BigInt(unsigned long);
+  ^
+BigInt.h:58:2: note: BigInt::BigInt(long int)
+  BigInt(long);
+  ^
+BigInt.h:55:2: note: BigInt::BigInt(const BigInt&)
+  BigInt(const BigInt&);
+  ^
+
+Error: Build error: Failed compiling object bigint-glue.o

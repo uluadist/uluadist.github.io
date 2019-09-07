@@ -1,0 +1,11 @@
+Installing https://rocks.moonscript.org/darksidesync-1.0-1.src.rock...
+Using https://rocks.moonscript.org/darksidesync-1.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c darksidesync/darksidesync.c -o darksidesync/darksidesync.o -D_GNU_SOURCE
+gcc -O2 -fPIC -I/home/sp/luajit//include -c darksidesync/delivery.c -o darksidesync/delivery.o -D_GNU_SOURCE
+gcc -O2 -fPIC -I/home/sp/luajit//include -c darksidesync/locking.c -o darksidesync/locking.o -D_GNU_SOURCE
+gcc -O2 -fPIC -I/home/sp/luajit//include -c darksidesync/udpsocket.c -o darksidesync/udpsocket.o -D_GNU_SOURCE
+gcc -O2 -fPIC -I/home/sp/luajit//include -c darksidesync/waithandle.c -o darksidesync/waithandle.o -D_GNU_SOURCE
+gcc -shared -o darksidesync.so -L/home/sp/luajit//lib darksidesync/darksidesync.o darksidesync/delivery.o darksidesync/locking.o darksidesync/udpsocket.o darksidesync/waithandle.o -lpthread
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+darksidesync 1.0-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

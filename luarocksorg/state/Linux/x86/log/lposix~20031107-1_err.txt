@@ -1,0 +1,11 @@
+Warning: skipping dependency checks.
+successfully patched /tmp/luarocks_lposix-20031107-1-7885/posix/lposix.c
+Hunk 1 found at offset 9...
+successfully patched /tmp/luarocks_lposix-20031107-1-7885/posix/lposix.c
+Hunk 1 found at offset 9 (fuzz 2)...
+successfully patched /tmp/luarocks_lposix-20031107-1-7885/posix/lposix.c
+In file included from lposix.c:48:0:
+modemuncher.c:38:3: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+  {(char)NULL,      (mode_t)-1} /* do not delete this line */
+   ^
+No existing manifest. Attempting to rebuild...

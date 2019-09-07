@@ -1,0 +1,4 @@
+Installing https://luarocks.org/argparse-0.7.0-1.all.rock...
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+
+argparse 0.7.0-1 is now installed in /home/sp/PrjLocal/luarockstree (license: MIT)

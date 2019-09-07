@@ -1,0 +1,7 @@
+Installing https://luarocks.org/luafilesystem-1.6.3-2.src.rock...
+Using https://luarocks.org/luafilesystem-1.6.3-2.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/lfs.c -o src/lfs.o
+gcc -shared -o lfs.so -L/home/sp/Dropbox/Linux/x64/luajit//lib src/lfs.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+luafilesystem 1.6.3-2 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

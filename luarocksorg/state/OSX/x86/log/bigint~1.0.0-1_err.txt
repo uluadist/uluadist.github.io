@@ -1,0 +1,28 @@
+Warning: skipping dependency checks.
+Cloning into 'lua-bigint'...
+Note: checking out 'fbd6ebca418877d82b4f87a2acadec2975a37eff'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+bigint-glue.cpp:74:14: error: call to constructor of 'BigInt' is ambiguous
+    *b = new BigInt(lua_tointeger(L, argidx));
+             ^      ~~~~~~~~~~~~~~~~~~~~~~~~
+./BigInt.h:58:2: note: candidate constructor
+        BigInt(long);
+        ^
+./BigInt.h:59:2: note: candidate constructor
+        BigInt(unsigned long);
+        ^
+./BigInt.h:55:2: note: candidate constructor
+        BigInt(const BigInt&);
+        ^
+1 error generated.
+
+Error: Build error: Failed compiling object bigint-glue.o

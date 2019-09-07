@@ -1,0 +1,16 @@
+Archive:  v0.2.4-1.zip
+f429ae6c1bf84f04127b1f2594f25806cc3ef1d4
+   creating: web/
+ extracting: web/.gitignore          
+  inflating: web/Makefile            
+   creating: web/spec/
+  inflating: web/spec/request_spec.lua  
+  inflating: web/spec/url_parsing_spec.lua  
+   creating: web/src/
+  inflating: web/src/web.lua         
+  inflating: web/web-0.2.4-1.rockspec  
+Installing https://luarocks.org/web-0.2.4-1.src.rock...
+Using https://luarocks.org/web-0.2.4-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+web 0.2.4-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: GPLv3)
+

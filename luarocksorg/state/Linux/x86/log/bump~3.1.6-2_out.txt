@@ -1,0 +1,6 @@
+Installing https://luarocks.org/bump-3.1.6-2.rockspec...
+Using https://luarocks.org/bump-3.1.6-2.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_bump-3.1.6-2-6401/bump.lua/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+bump 3.1.6-2 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

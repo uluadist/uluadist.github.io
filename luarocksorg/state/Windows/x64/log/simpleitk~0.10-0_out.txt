@@ -1,0 +1,251 @@
+-- Building for: Visual Studio 14 2015
+-- The C compiler identification is MSVC 19.0.23026.0
+-- The CXX compiler identification is MSVC 19.0.23026.0
+-- Check for working C compiler using: Visual Studio 14 2015
+-- Check for working C compiler using: Visual Studio 14 2015 -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler using: Visual Studio 14 2015
+-- Check for working CXX compiler using: Visual Studio 14 2015 -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-0.10-0-911/SimpleITKLuaRock-0.10/build.luarocks
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/11/2016 12:56:13 AM.
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\ALL_BUILD.vcxproj" on node 1 (default targets).
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\ALL_BUILD.vcxproj" (1) is building "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild.vcxproj" (2) on node 1 (default targets).
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild.vcxproj" (2) is building "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild-download.vcxproj" (3) on node 1 (default targets).
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild-download.vcxproj" (3) is building "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\ZERO_CHECK.vcxproj" (4) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "x64\Release\ZERO_CHECK\".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\ZERO_CHECK.vcxproj]
+  Creating directory "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Checking Build System
+  CMake does not need to re-run because C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-0.10-0-911/SimpleITKLuaRock-0.10/build.luarocks/CMakeFiles/generate.stamp is up-to-date.
+FinalizeBuildStatus:
+  Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+  Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\ZERO_CHECK.vcxproj" (default targets).
+PrepareForBuild:
+  Creating directory "x64\Release\SimpleITKSuperbuild-download\".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild-download.vcxproj]
+  Creating directory "x64\Release\SimpleITKSuperbuild-download\SimpleIT.3CB99800.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Release\SimpleITKSuperbuild-download\SimpleIT.3CB99800.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ComputeCustomBuildOutput:
+  Creating directory "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild-download-prefix\src\SimpleITKSuperbuild-download-stamp\Release\".
+  Creating directory "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\CMakeFiles\Release\".
+CustomBuild:
+  Building Custom Rule C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-0.10-0-911/SimpleITKLuaRock-0.10/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\CMakeFiles\generate.stamp is up-to-date.
+  Creating directories for 'SimpleITKSuperbuild-download'
+  Performing download step (git clone) for 'SimpleITKSuperbuild-download'
+  Cloning into 'SimpleITKSuperbuild'...
+  Checking out files:  13% (147/1108)   
+  Checking out files:  14% (156/1108)   
+  Checking out files:  15% (167/1108)   
+  Checking out files:  16% (178/1108)   
+  Checking out files:  17% (189/1108)   
+  Checking out files:  18% (200/1108)   
+  Checking out files:  19% (211/1108)   
+  Checking out files:  20% (222/1108)   
+  Checking out files:  21% (233/1108)   
+  Checking out files:  22% (244/1108)   
+  Checking out files:  23% (255/1108)   
+  Checking out files:  24% (266/1108)   
+  Checking out files:  25% (277/1108)   
+  Checking out files:  26% (289/1108)   
+  Checking out files:  27% (300/1108)   
+  Checking out files:  28% (311/1108)   
+  Checking out files:  28% (315/1108)   
+  Checking out files:  29% (322/1108)   
+  Checking out files:  30% (333/1108)   
+  Checking out files:  31% (344/1108)   
+  Checking out files:  32% (355/1108)   
+  Checking out files:  33% (366/1108)   
+  Checking out files:  34% (377/1108)   
+  Checking out files:  35% (388/1108)   
+  Checking out files:  36% (399/1108)   
+  Checking out files:  36% (403/1108)   
+  Checking out files:  37% (410/1108)   
+  Checking out files:  38% (422/1108)   
+  Checking out files:  39% (433/1108)   
+  Checking out files:  40% (444/1108)   
+  Checking out files:  41% (455/1108)   
+  Checking out files:  42% (466/1108)   
+  Checking out files:  43% (477/1108)   
+  Checking out files:  44% (488/1108)   
+  Checking out files:  45% (499/1108)   
+  Checking out files:  46% (510/1108)   
+  Checking out files:  47% (521/1108)   
+  Checking out files:  48% (532/1108)   
+  Checking out files:  48% (538/1108)   
+  Checking out files:  49% (543/1108)   
+  Checking out files:  50% (554/1108)   
+  Checking out files:  51% (566/1108)   
+  Checking out files:  52% (577/1108)   
+  Checking out files:  53% (588/1108)   
+  Checking out files:  54% (599/1108)   
+  Checking out files:  55% (610/1108)   
+  Checking out files:  56% (621/1108)   
+  Checking out files:  57% (632/1108)   
+  Checking out files:  58% (643/1108)   
+  Checking out files:  59% (654/1108)   
+  Checking out files:  60% (665/1108)   
+  Checking out files:  60% (666/1108)   
+  Checking out files:  61% (676/1108)   
+  Checking out files:  62% (687/1108)   
+  Checking out files:  63% (699/1108)   
+  Checking out files:  64% (710/1108)   
+  Checking out files:  65% (721/1108)   
+  Checking out files:  66% (732/1108)   
+  Checking out files:  67% (743/1108)   
+  Checking out files:  68% (754/1108)   
+  Checking out files:  69% (765/1108)   
+  Checking out files:  70% (776/1108)   
+  Checking out files:  71% (787/1108)   
+  Checking out files:  72% (798/1108)   
+  Checking out files:  73% (809/1108)   
+  Checking out files:  74% (820/1108)   
+  Checking out files:  75% (831/1108)   
+  Checking out files:  76% (843/1108)   
+  Checking out files:  77% (854/1108)   
+  Checking out files:  78% (865/1108)   
+  Checking out files:  79% (876/1108)   
+  Checking out files:  80% (887/1108)   
+  Checking out files:  80% (888/1108)   
+  Checking out files:  81% (898/1108)   
+  Checking out files:  82% (909/1108)   
+  Checking out files:  83% (920/1108)   
+  Checking out files:  84% (931/1108)   
+  Checking out files:  85% (942/1108)   
+  Checking out files:  86% (953/1108)   
+  Checking out files:  87% (964/1108)   
+  Checking out files:  88% (976/1108)   
+  Checking out files:  89% (987/1108)   
+  Checking out files:  90% (998/1108)   
+  Checking out files:  91% (1009/1108)   
+  Checking out files:  92% (1020/1108)   
+  Checking out files:  93% (1031/1108)   
+  Checking out files:  94% (1042/1108)   
+  Checking out files:  94% (1043/1108)   
+  Checking out files:  95% (1053/1108)   
+  Checking out files:  96% (1064/1108)   
+  Checking out files:  97% (1075/1108)   
+  Checking out files:  98% (1086/1108)   
+  Checking out files:  99% (1097/1108)   
+  Checking out files: 100% (1108/1108)   
+  Checking out files: 100% (1108/1108), done.
+  Note: checking out 'v0.10.0'.
+  
+  You are in 'detached HEAD' state. You can look around, make experimental
+  changes and commit them, and you can discard any commits you make in this
+  state without impacting any branches by performing another checkout.
+  
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -b with the checkout command again. Example:
+  
+    git checkout -b new_branch_name
+  
+  HEAD is now at 5c8b37e... Merge topic 'FixDoxygenCommandsAndEventSnippets'
+  Performing update step for 'SimpleITKSuperbuild-download'
+  No patch step for 'SimpleITKSuperbuild-download'
+  No configure step for 'SimpleITKSuperbuild-download'
+  No build step for 'SimpleITKSuperbuild-download'
+  No install step for 'SimpleITKSuperbuild-download'
+  Completed 'SimpleITKSuperbuild-download'
+FinalizeBuildStatus:
+  Deleting file "x64\Release\SimpleITKSuperbuild-download\SimpleIT.3CB99800.tlog\unsuccessfulbuild".
+  Touching "x64\Release\SimpleITKSuperbuild-download\SimpleIT.3CB99800.tlog\SimpleITKSuperbuild-download.lastbuildstate".
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild-download.vcxproj" (default targets).
+PrepareForBuild:
+  Creating directory "x64\Release\SimpleITKSuperbuild\".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild.vcxproj]
+  Creating directory "x64\Release\SimpleITKSuperbuild\SimpleIT.B1A79A46.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Release\SimpleITKSuperbuild\SimpleIT.B1A79A46.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ComputeCustomBuildOutput:
+  Creating directory "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild-prefix\src\SimpleITKSuperbuild-stamp\Release\".
+CustomBuild:
+  Building Custom Rule C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-0.10-0-911/SimpleITKLuaRock-0.10/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\CMakeFiles\generate.stamp is up-to-date.
+  Creating directories for 'SimpleITKSuperbuild'
+  No download step for 'SimpleITKSuperbuild'
+  No update step for 'SimpleITKSuperbuild'
+  No patch step for 'SimpleITKSuperbuild'
+  Performing configure step for 'SimpleITKSuperbuild'
+  loading initial cache file C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-0.10-0-911/SimpleITKLuaRock-0.10/build.luarocks/SimpleITKSuperbuild-prefix/tmp/SimpleITKSuperbuild-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.23026.0
+  -- The CXX compiler identification is MSVC 19.0.23026.0
+  -- Check for working C compiler using: Visual Studio 14 2015
+  -- Check for working C compiler using: Visual Studio 14 2015 -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler using: Visual Studio 14 2015
+  -- Check for working CXX compiler using: Visual Studio 14 2015 -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Found Git: C:/Program Files (x86)/Git/cmd/git.exe (found version "1.9.5.msysgit.1") 
+  -- Performing Test CXX_HAS_stdcxx11
+  -- Performing Test CXX_HAS_stdcxx11 - Failed
+  -- Performing Test SITK_UNDEFINED_SYMBOLS_ALLOWED - Failed
+  CMake Error at C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake:148 (message):
+    Could NOT find Lua (missing: LUA_LIBRARIES LUA_INCLUDE_DIR)
+  Call Stack (most recent call first):
+    C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake:388 (_FPHSA_FAILURE_MESSAGE)
+    C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindLua.cmake:167 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+    C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-0.10-0-911/SimpleITKLuaRock-0.10/build.luarocks/SimpleITKSuperbuild/CMake/sitkLanguageOptions.cmake:40 (find_package)
+    SuperBuild.cmake:236 (include)
+    CMakeLists.txt:24 (include)
+  
+  
+  -- Configuring incomplete, errors occurred!
+  See also "C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-0.10-0-911/SimpleITKLuaRock-0.10/build.luarocks/SimpleITKSuperbuild-build/CMakeFiles/CMakeOutput.log".
+  See also "C:/Users/sp/AppData/Local/Temp/luarocks_luarocks-source-simpleitk-0.10-0-911/SimpleITKLuaRock-0.10/build.luarocks/SimpleITKSuperbuild-build/CMakeFiles/CMakeError.log".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 1. [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild.vcxproj]
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild.vcxproj" (default targets) -- FAILED.
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\ALL_BUILD.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild.vcxproj" (default target) (2) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild-download.vcxproj" (default target) (3) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\ZERO_CHECK.vcxproj" (default target) (4) ->
+(PrepareForBuild target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\ZERO_CHECK.vcxproj]
+
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild.vcxproj" (default target) (2) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild-download.vcxproj" (default target) (3) ->
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild-download.vcxproj]
+
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild.vcxproj" (default target) (2) ->
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild.vcxproj]
+
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild.vcxproj" (default target) (2) ->
+(CustomBuild target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 1. [C:\Users\sp\AppData\Local\Temp\luarocks_luarocks-source-simpleitk-0.10-0-911\SimpleITKLuaRock-0.10\build.luarocks\SimpleITKSuperbuild.vcxproj]
+
+    3 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:01:57.50
+Installing https://luarocks.org/simpleitk-0.10-0.rockspec...
+Using https://luarocks.org/simpleitk-0.10-0.rockspec... switching to 'build' mode

@@ -1,0 +1,20 @@
+Installing https://luarocks.org/pbc-0.1.0-1.src.rock...
+Using https://luarocks.org/pbc-0.1.0-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/context.c -o src/context.o -I.
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/varint.c -o src/varint.o -I.
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/array.c -o src/array.o -I.
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/pattern.c -o src/pattern.o -I.
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/register.c -o src/register.o -I.
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/proto.c -o src/proto.o -I.
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/map.c -o src/map.o -I.
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/alloc.c -o src/alloc.o -I.
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/rmessage.c -o src/rmessage.o -I.
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/wmessage.c -o src/wmessage.o -I.
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/bootstrap.c -o src/bootstrap.o -I.
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/stringpool.c -o src/stringpool.o -I.
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/decode.c -o src/decode.o -I.
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c binding/lua/pbc-lua.c -o binding/lua/pbc-lua.o -I.
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o protobuf/c.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/context.o src/varint.o src/array.o src/pattern.o src/register.o src/proto.o src/map.o src/alloc.o src/rmessage.o src/wmessage.o src/bootstrap.o src/stringpool.o src/decode.o binding/lua/pbc-lua.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+pbc 0.1.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: The MIT License)
+

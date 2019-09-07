@@ -1,0 +1,6 @@
+Installing https://luarocks.org/objectlua-0.4.10-1.src.rock...
+Using https://luarocks.org/objectlua-0.4.10-1.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+objectlua 0.4.10-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

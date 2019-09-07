@@ -1,0 +1,142 @@
+Warning: skipping dependency checks.
+In file included from lua5.1/lobject.h:15:0,
+                 from lua5.1/lstate.h:12,
+                 from lua5.1/ldebug.h:11,
+                 from lbci_multi.c:34:
+lua5.1/llimits.h:18:1: error: unknown type name ‘LUAI_UINT32’
+ typedef LUAI_UINT32 lu_int32;
+ ^
+lua5.1/llimits.h:20:1: error: unknown type name ‘LUAI_UMEM’
+ typedef LUAI_UMEM lu_mem;
+ ^
+lua5.1/llimits.h:22:1: error: unknown type name ‘LUAI_MEM’
+ typedef LUAI_MEM l_mem;
+ ^
+lua5.1/llimits.h:47:1: error: unknown type name ‘LUAI_USER_ALIGNMENT_T’
+ typedef LUAI_USER_ALIGNMENT_T L_Umaxalign;
+ ^
+In file included from lua5.1/lstate.h:12:0,
+                 from lua5.1/ldebug.h:11,
+                 from lbci_multi.c:34:
+lua5.1/lobject.h:365:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘const’
+ LUAI_DATA const TValue luaO_nilobject_;
+           ^
+lua5.1/lobject.h:369:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘int’
+ LUAI_FUNC int luaO_log2 (unsigned int x);
+           ^
+lua5.1/lobject.h:370:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘int’
+ LUAI_FUNC int luaO_int2fb (unsigned int x);
+           ^
+lua5.1/lobject.h:371:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘int’
+ LUAI_FUNC int luaO_fb2int (int x);
+           ^
+lua5.1/lobject.h:372:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘int’
+ LUAI_FUNC int luaO_rawequalObj (const TValue *t1, const TValue *t2);
+           ^
+lua5.1/lobject.h:373:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘int’
+ LUAI_FUNC int luaO_str2d (const char *s, lua_Number *result);
+           ^
+lua5.1/lobject.h:374:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘const’
+ LUAI_FUNC const char *luaO_pushvfstring (lua_State *L, const char *fmt,
+           ^
+lua5.1/lobject.h:376:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘const’
+ LUAI_FUNC const char *luaO_pushfstring (lua_State *L, const char *fmt, ...);
+           ^
+lua5.1/lobject.h:377:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘void’
+ LUAI_FUNC void luaO_chunkid (char *out, const char *source, size_t len);
+           ^
+In file included from lua5.1/lstate.h:13:0,
+                 from lua5.1/ldebug.h:11,
+                 from lbci_multi.c:34:
+lua5.1/ltm.h:46:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘const’
+ LUAI_DATA const char *const luaT_typenames[];
+           ^
+lua5.1/ltm.h:49:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘const’
+ LUAI_FUNC const TValue *luaT_gettm (Table *events, TMS event, TString *ename);
+           ^
+lua5.1/ltm.h:50:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘const’
+ LUAI_FUNC const TValue *luaT_gettmbyobj (lua_State *L, const TValue *o,
+           ^
+lua5.1/ltm.h:52:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘void’
+ LUAI_FUNC void luaT_init (lua_State *L);
+           ^
+In file included from lua5.1/lzio.h:13:0,
+                 from lua5.1/lstate.h:14,
+                 from lua5.1/ldebug.h:11,
+                 from lbci_multi.c:34:
+lua5.1/lmem.h:41:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘void’
+ LUAI_FUNC void *luaM_realloc_ (lua_State *L, void *block, size_t oldsize,
+           ^
+lua5.1/lmem.h:43:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘void’
+ LUAI_FUNC void *luaM_toobig (lua_State *L);
+           ^
+lua5.1/lmem.h:44:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘void’
+ LUAI_FUNC void *luaM_growaux_ (lua_State *L, void *block, int *size,
+           ^
+In file included from lua5.1/lstate.h:14:0,
+                 from lua5.1/ldebug.h:11,
+                 from lbci_multi.c:34:
+lua5.1/lzio.h:46:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘char’
+ LUAI_FUNC char *luaZ_openspace (lua_State *L, Mbuffer *buff, size_t n);
+           ^
+lua5.1/lzio.h:47:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘void’
+ LUAI_FUNC void luaZ_init (lua_State *L, ZIO *z, lua_Reader reader,
+           ^
+lua5.1/lzio.h:49:1: error: unknown type name ‘LUAI_FUNC’
+ LUAI_FUNC size_t luaZ_read (ZIO* z, void* b, size_t n); /* read next n bytes */
+ ^
+lua5.1/lzio.h:49:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘luaZ_read’
+ LUAI_FUNC size_t luaZ_read (ZIO* z, void* b, size_t n); /* read next n bytes */
+                  ^
+lua5.1/lzio.h:50:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘int’
+ LUAI_FUNC int luaZ_lookahead (ZIO *z);
+           ^
+lua5.1/lzio.h:65:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘int’
+ LUAI_FUNC int luaZ_fill (ZIO *z);
+           ^
+In file included from lua5.1/ldebug.h:11:0,
+                 from lbci_multi.c:34:
+lua5.1/lstate.h:165:1: error: unknown type name ‘LUAI_FUNC’
+ LUAI_FUNC lua_State *luaE_newthread (lua_State *L);
+ ^
+lua5.1/lstate.h:165:21: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ LUAI_FUNC lua_State *luaE_newthread (lua_State *L);
+                     ^
+lua5.1/lstate.h:166:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘void’
+ LUAI_FUNC void luaE_freethread (lua_State *L, lua_State *L1);
+           ^
+In file included from lbci_multi.c:34:0:
+lua5.1/ldebug.h:21:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘void’
+ LUAI_FUNC void luaG_typeerror (lua_State *L, const TValue *o,
+           ^
+lua5.1/ldebug.h:23:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘void’
+ LUAI_FUNC void luaG_concaterror (lua_State *L, StkId p1, StkId p2);
+           ^
+lua5.1/ldebug.h:24:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘void’
+ LUAI_FUNC void luaG_aritherror (lua_State *L, const TValue *p1,
+           ^
+lua5.1/ldebug.h:26:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘int’
+ LUAI_FUNC int luaG_ordererror (lua_State *L, const TValue *p1,
+           ^
+lua5.1/ldebug.h:28:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘void’
+ LUAI_FUNC void luaG_runerror (lua_State *L, const char *fmt, ...);
+           ^
+lua5.1/ldebug.h:29:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘void’
+ LUAI_FUNC void luaG_errormsg (lua_State *L);
+           ^
+lua5.1/ldebug.h:30:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘int’
+ LUAI_FUNC int luaG_checkcode (const Proto *pt);
+           ^
+lua5.1/ldebug.h:31:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘int’
+ LUAI_FUNC int luaG_checkopenop (Instruction i);
+           ^
+In file included from lua5.1/lopcodes.c:11:0,
+                 from lbci_multi.c:39:
+lua5.1/lopcodes.h:252:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘const’
+ LUAI_DATA const lu_byte luaP_opmodes[NUM_OPCODES];
+           ^
+lua5.1/lopcodes.h:261:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘const’
+ LUAI_DATA const char *const luaP_opnames[NUM_OPCODES+1];  /* opcode names */
+           ^
+
+Error: Build error: Failed compiling object lbci_multi.o

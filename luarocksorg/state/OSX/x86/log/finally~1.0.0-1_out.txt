@@ -1,0 +1,16 @@
+Archive:  v1.0.0.zip
+a65afdf4954f1e56b218bfb4608d924b9c01ada9
+   creating: lua-finally-1.0.0/
+  inflating: lua-finally-1.0.0/.gitignore  
+  inflating: lua-finally-1.0.0/README.md  
+  inflating: lua-finally-1.0.0/finally-scm-0.rockspec  
+  inflating: lua-finally-1.0.0/finally.c  
+  inflating: lua-finally-1.0.0/finally.lua  
+  inflating: lua-finally-1.0.0/test.lua  
+Installing https://luarocks.org/finally-1.0.0-1.src.rock...
+Using https://luarocks.org/finally-1.0.0-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c finally.c -o finally.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o finally.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib finally.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+finally 1.0.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

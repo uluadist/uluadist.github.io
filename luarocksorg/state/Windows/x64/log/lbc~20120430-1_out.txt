@@ -1,0 +1,18 @@
+lbc.c
+lbc.c(173): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(bc_num,bc_num,bc_num *,int)'
+lbc.c(178): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(bc_num,bc_num,bc_num *,int)'
+lbc.c(183): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(bc_num,bc_num,bc_num *,int)'
+lbc.c(188): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(bc_num,bc_num,bc_num *,int)'
+number.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library bc.lib and object bc.exp
+Installing https://luarocks.org/lbc-20120430-1.src.rock...
+Using https://luarocks.org/lbc-20120430-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folbc.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lbc.c -I.
+cl /nologo /MD /O2 -c -Fonumber.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ number.c -I.
+link -dll -def:bc.def -out:bc.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib lbc.obj number.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+lbc 20120430-1 is now built and installed in C:\ste\x64\luarockstree (license: GNU General Public License version 2 or later)
+

@@ -1,0 +1,6 @@
+Installing https://luarocks.org/pegdebug-0.40-2.rockspec...
+Using https://luarocks.org/pegdebug-0.40-2.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_pegdebug-0.40-2-220/PegDebug/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+pegdebug 0.40-2 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

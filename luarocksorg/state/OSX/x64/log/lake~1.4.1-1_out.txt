@@ -1,0 +1,7 @@
+Archive:  lake1.4.1-core.zip
+  inflating: Lake/lake               
+Installing https://luarocks.org/lake-1.4.1-1.src.rock...
+Using https://luarocks.org/lake-1.4.1-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lake 1.4.1-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

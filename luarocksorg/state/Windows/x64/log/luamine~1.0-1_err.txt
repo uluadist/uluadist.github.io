@@ -1,0 +1,5 @@
+Cloning into 'luamine'...
+Z:\sp\Dropbox\Windows\x64\luarocks\tools\cp: cannot stat `divs.lua': No such file or directory
+Warning: skipping dependency checks.
+
+Error: Build error: Failed installing divs.lua in C:\ste\x64\luarockstree/lib/luarocks/rocks/luamine/1.0-1/lua/discretization.lua

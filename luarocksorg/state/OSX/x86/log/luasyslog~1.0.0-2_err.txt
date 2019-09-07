@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luasyslog 1.0.0-2: lualogging >= 1.1.4
+Missing dependency for luasyslog 1.0.0-2: lualogging >= 1.1.4

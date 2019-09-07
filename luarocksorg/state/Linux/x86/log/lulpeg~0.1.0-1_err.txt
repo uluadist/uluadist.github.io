@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+scripts/make.sh: line 4: luajit: command not found
+
+Error: Build error: Failed building.

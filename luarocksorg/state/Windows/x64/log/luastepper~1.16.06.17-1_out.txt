@@ -1,0 +1,38 @@
+LuaStepper.c
+LuaStepper.c(137): error C2065: 'LUA_OK': undeclared identifier
+LuaStepper.c(155): error C2065: 'LUA_ERRGCMM': undeclared identifier
+LuaStepper.c(137): error C2051: case expression not constant
+LuaStepper.c(155): error C2051: case expression not constant
+LuaStepper.c(325): error C2065: 'luaopen_coroutine': undeclared identifier
+LuaStepper.c(330): error C2065: 'luaopen_bit32': undeclared identifier
+LuaStepper.c(546): error C2065: 'LUA_OK': undeclared identifier
+LuaStepper.c(551): error C2065: 'LUA_OK': undeclared identifier
+LuaStepper.c(558): error C2065: 'LUA_ERRGCMM': undeclared identifier
+LuaStepper.c(583): error C2065: 'LUA_ERRGCMM': undeclared identifier
+LuaStepper.c(611): error C2065: 'LUA_OK': undeclared identifier
+LuaStepper.c(616): error C2065: 'LUA_OK': undeclared identifier
+LuaStepper.c(623): error C2065: 'LUA_ERRGCMM': undeclared identifier
+LuaStepper.c(648): error C2065: 'LUA_ERRGCMM': undeclared identifier
+LuaStepper.c(671): error C2065: 'LUA_OK': undeclared identifier
+LuaStepper.c(546): error C2051: case expression not constant
+LuaStepper.c(551): error C2051: case expression not constant
+LuaStepper.c(558): error C2051: case expression not constant
+LuaStepper.c(583): error C2051: case expression not constant
+LuaStepper.c(611): error C2051: case expression not constant
+LuaStepper.c(616): error C2051: case expression not constant
+LuaStepper.c(623): error C2051: case expression not constant
+LuaStepper.c(648): error C2051: case expression not constant
+LuaStepper.c(671): error C2051: case expression not constant
+LuaStepper.c(1018): error C2065: 'LUA_RIDX_GLOBALS': undeclared identifier
+LuaStepper.c(1212): error C2065: 'LUA_OK': undeclared identifier
+LuaStepper.c(1212): error C2051: case expression not constant
+LuaStepper.c(1279): error C2065: 'LUA_OK': undeclared identifier
+LuaStepper.c(1294): warning C4047: 'function': 'int' differs in levels of indirection from 'void *'
+LuaStepper.c(1294): warning C4024: 'lua_resume': different types for formal and actual parameter 2
+LuaStepper.c(1294): warning C4020: 'lua_resume': too many actual parameters
+LuaStepper.c(1296): error C2065: 'LUA_OK': undeclared identifier
+LuaStepper.c(1279): error C2051: case expression not constant
+LuaStepper.c(1296): error C2051: case expression not constant
+Installing https://luarocks.org/luastepper-1.16.06.17-1.rockspec...
+Using https://luarocks.org/luastepper-1.16.06.17-1.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -FoLuaStepper.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src LuaStepper.c

@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+make: *** [/tmp/luarocks_cqueues-20150119.51-0-3908/cqueues-rel-20150119/src/5.1/cqueues.o] Error 1
+
+Error: Build error: Failed building.

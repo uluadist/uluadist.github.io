@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Build error: Failed compiling object src/c-lua.obj

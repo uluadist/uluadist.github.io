@@ -1,0 +1,82 @@
+Archive:  v0.1.0.zip
+a743c3d92393b2c653fc1521adcbd54f00ca0f84
+   creating: lua-bgcrypto-sha-0.1.0/
+   creating: lua-bgcrypto-sha-0.1.0/.appveyor/
+  inflating: lua-bgcrypto-sha-0.1.0/.appveyor/install.bat  
+  inflating: lua-bgcrypto-sha-0.1.0/.appveyor/set_compiler_env.bat  
+  inflating: lua-bgcrypto-sha-0.1.0/.appveyor/winmake.bat  
+  inflating: lua-bgcrypto-sha-0.1.0/.gitignore  
+  inflating: lua-bgcrypto-sha-0.1.0/.travis.yml  
+   creating: lua-bgcrypto-sha-0.1.0/.travis/
+  inflating: lua-bgcrypto-sha-0.1.0/.travis/platform.sh  
+  inflating: lua-bgcrypto-sha-0.1.0/.travis/setenv_lua.sh  
+  inflating: lua-bgcrypto-sha-0.1.0/.travis/setup_lua.sh  
+  inflating: lua-bgcrypto-sha-0.1.0/LICENSE  
+  inflating: lua-bgcrypto-sha-0.1.0/README.md  
+  inflating: lua-bgcrypto-sha-0.1.0/appveyor.yml  
+   creating: lua-bgcrypto-sha-0.1.0/examples/
+  inflating: lua-bgcrypto-sha-0.1.0/examples/AesFileEncrypt.lua  
+  inflating: lua-bgcrypto-sha-0.1.0/lakeconfig.lua  
+  inflating: lua-bgcrypto-sha-0.1.0/lakefile  
+   creating: lua-bgcrypto-sha-0.1.0/rockspecs/
+  inflating: lua-bgcrypto-sha-0.1.0/rockspecs/bgcrypto-hmac-0.1.0-1.rockspec  
+  inflating: lua-bgcrypto-sha-0.1.0/rockspecs/bgcrypto-hmac-scm-0.rockspec  
+  inflating: lua-bgcrypto-sha-0.1.0/rockspecs/bgcrypto-lmd5-0.1.0-1.rockspec  
+  inflating: lua-bgcrypto-sha-0.1.0/rockspecs/bgcrypto-lmd5-scm-0.rockspec  
+  inflating: lua-bgcrypto-sha-0.1.0/rockspecs/bgcrypto-pbkdf2-0.1.0-1.rockspec  
+  inflating: lua-bgcrypto-sha-0.1.0/rockspecs/bgcrypto-pbkdf2-scm-0.rockspec  
+  inflating: lua-bgcrypto-sha-0.1.0/rockspecs/bgcrypto-sha-0.1.0-1.rockspec  
+  inflating: lua-bgcrypto-sha-0.1.0/rockspecs/bgcrypto-sha-scm-0.rockspec  
+   creating: lua-bgcrypto-sha-0.1.0/src/
+  inflating: lua-bgcrypto-sha-0.1.0/src/l52util.c  
+  inflating: lua-bgcrypto-sha-0.1.0/src/l52util.h  
+  inflating: lua-bgcrypto-sha-0.1.0/src/lsha.c  
+  inflating: lua-bgcrypto-sha-0.1.0/src/lsha.inc  
+  inflating: lua-bgcrypto-sha-0.1.0/src/lsha1.c  
+  inflating: lua-bgcrypto-sha-0.1.0/src/lsha224.c  
+  inflating: lua-bgcrypto-sha-0.1.0/src/lsha256.c  
+  inflating: lua-bgcrypto-sha-0.1.0/src/lsha384.c  
+  inflating: lua-bgcrypto-sha-0.1.0/src/lsha512.c  
+  inflating: lua-bgcrypto-sha-0.1.0/src/lsha512_128.c  
+  inflating: lua-bgcrypto-sha-0.1.0/src/lsha512_192.c  
+  inflating: lua-bgcrypto-sha-0.1.0/src/lsha512_224.c  
+  inflating: lua-bgcrypto-sha-0.1.0/src/lsha512_256.c  
+   creating: lua-bgcrypto-sha-0.1.0/src/lua/
+  inflating: lua-bgcrypto-sha-0.1.0/src/lua/hmac.lua  
+  inflating: lua-bgcrypto-sha-0.1.0/src/lua/md5.lua  
+  inflating: lua-bgcrypto-sha-0.1.0/src/lua/pbkdf2.lua  
+   creating: lua-bgcrypto-sha-0.1.0/src/lua/private/
+  inflating: lua-bgcrypto-sha-0.1.0/src/lua/private/bit.lua  
+  inflating: lua-bgcrypto-sha-0.1.0/src/lua/private/digest.lua  
+  inflating: lua-bgcrypto-sha-0.1.0/src/lua/ripemd160.lua  
+   creating: lua-bgcrypto-sha-0.1.0/src/sha/
+  inflating: lua-bgcrypto-sha-0.1.0/src/sha/brg_endian.h  
+  inflating: lua-bgcrypto-sha-0.1.0/src/sha/brg_types.h  
+  inflating: lua-bgcrypto-sha-0.1.0/src/sha/hmac.c  
+  inflating: lua-bgcrypto-sha-0.1.0/src/sha/hmac.h  
+  inflating: lua-bgcrypto-sha-0.1.0/src/sha/pwd2key.c  
+  inflating: lua-bgcrypto-sha-0.1.0/src/sha/pwd2key.h  
+  inflating: lua-bgcrypto-sha-0.1.0/src/sha/sha1.c  
+  inflating: lua-bgcrypto-sha-0.1.0/src/sha/sha1.h  
+  inflating: lua-bgcrypto-sha-0.1.0/src/sha/sha2.c  
+  inflating: lua-bgcrypto-sha-0.1.0/src/sha/sha2.h  
+  inflating: lua-bgcrypto-sha-0.1.0/src/sha/stdint-msvc2008.h  
+ extracting: lua-bgcrypto-sha-0.1.0/src/sha1.def  
+ extracting: lua-bgcrypto-sha-0.1.0/src/sha224.def  
+ extracting: lua-bgcrypto-sha-0.1.0/src/sha256.def  
+ extracting: lua-bgcrypto-sha-0.1.0/src/sha384.def  
+ extracting: lua-bgcrypto-sha-0.1.0/src/sha512.def  
+ extracting: lua-bgcrypto-sha-0.1.0/src/sha512_128.def  
+ extracting: lua-bgcrypto-sha-0.1.0/src/sha512_192.def  
+ extracting: lua-bgcrypto-sha-0.1.0/src/sha512_224.def  
+ extracting: lua-bgcrypto-sha-0.1.0/src/sha512_256.def  
+   creating: lua-bgcrypto-sha-0.1.0/test/
+  inflating: lua-bgcrypto-sha-0.1.0/test/.luacov  
+  inflating: lua-bgcrypto-sha-0.1.0/test/test_pbkdf2.lua  
+  inflating: lua-bgcrypto-sha-0.1.0/test/test_sha.lua  
+  inflating: lua-bgcrypto-sha-0.1.0/test/utest_sha.lua  
+Installing https://luarocks.org/bgcrypto-hmac-0.1.0-1.src.rock...
+Using https://luarocks.org/bgcrypto-hmac-0.1.0-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+bgcrypto-hmac 0.1.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: BSD)
+

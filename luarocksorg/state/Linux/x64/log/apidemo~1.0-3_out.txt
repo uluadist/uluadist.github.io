@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/apidemo-1.0-3.src.rock...
+Using https://rocks.moonscript.org/apidemo-1.0-3.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c apidemo.c -o apidemo.o
+gcc -shared -o apidemo.so -L/home/sp/luajit//lib apidemo.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+apidemo 1.0-3 is now built and installed in /home/sp/luarockstree (license: public domain)
+

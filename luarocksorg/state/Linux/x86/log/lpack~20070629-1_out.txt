@@ -1,0 +1,8 @@
+Installing https://rocks.moonscript.org/lpack-20070629-1.src.rock...
+Using https://rocks.moonscript.org/lpack-20070629-1.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lpack.c -o lpack.o
+gcc -shared -o pack.so -L/home/sp/luajit/lib lpack.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lpack 20070629-1 is now built and installed in /home/sp/luarockstree (license: Public domain)
+

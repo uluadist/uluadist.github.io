@@ -1,0 +1,3 @@
+Installing https://luarocks.org/teateatea-1.0-1.rockspec...
+Using https://luarocks.org/teateatea-1.0-1.rockspec... switching to 'build' mode
+make install CC="cl" LDFLAGS="/nologo /dll" CFLAGS="/nologo /MD /O2" LUA_INCDIR="-IZ:/sp/Dropbox/Windows/x86/luajit/src" LUA_LIBDIR="C:\ste\x86\luarockstree/lib/luarocks/rocks/teateatea/1.0-1/lib"

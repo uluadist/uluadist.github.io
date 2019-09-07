@@ -1,0 +1,3 @@
+Initialized empty Git repository in /tmp/luarocks_chance-1.0-0-676/chance/.git/
+Installing https://luarocks.org/chance-1.0-0.rockspec...
+Using https://luarocks.org/chance-1.0-0.rockspec... switching to 'build' mode

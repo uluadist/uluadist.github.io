@@ -1,0 +1,30 @@
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /mnt/hgfs/Dropbox/Bin/Linux/x86/gcc
+-- Check for working C compiler: /mnt/hgfs/Dropbox/Bin/Linux/x86/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /mnt/hgfs/Dropbox/Bin/Linux/x86/c++
+-- Check for working CXX compiler: /mnt/hgfs/Dropbox/Bin/Linux/x86/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/luarocks_rapidjson-0.4.2-1-700/lua-rapidjson/build.luarocks
+Scanning dependencies of target rapidjson
+[100%] Building CXX object CMakeFiles/rapidjson.dir/src/rapidjson.cpp.o
+/tmp/luarocks_rapidjson-0.4.2-1-700/lua-rapidjson/src/rapidjson.cpp: In member function ‘bool ToLuaHandler::Uint(unsigned int)’:
+/tmp/luarocks_rapidjson-0.4.2-1-700/lua-rapidjson/src/rapidjson.cpp:205: warning: comparison between signed and unsigned integer expressions
+/tmp/luarocks_rapidjson-0.4.2-1-700/lua-rapidjson/src/rapidjson.cpp: In member function ‘bool ToLuaHandler::Uint64(uint64_t)’:
+/tmp/luarocks_rapidjson-0.4.2-1-700/lua-rapidjson/src/rapidjson.cpp:221: warning: comparison between signed and unsigned integer expressions
+Linking CXX shared module rapidjson.so
+[100%] Built target rapidjson
+[100%] Built target rapidjson
+Install the project...
+-- Install configuration: ""
+-- Installing: /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/rapidjson/0.4.2-1/lib/rapidjson.so
+Installing https://luarocks.org/rapidjson-0.4.2-1.src.rock...
+Using https://luarocks.org/rapidjson-0.4.2-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+rapidjson 0.4.2-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

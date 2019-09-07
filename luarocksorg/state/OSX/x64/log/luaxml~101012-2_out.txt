@@ -1,0 +1,20 @@
+Archive:  LuaXML_101012.zip
+  inflating: lua51.dll               
+  inflating: lua.exe                 
+  inflating: LuaXml.cdr              
+  inflating: LuaXML_lib.c            
+  inflating: LuaXML_lib.dll          
+  inflating: LuaXML_lib.so           
+  inflating: LuaXml.lua              
+ extracting: LuaXml.png              
+  inflating: Makefile                
+  inflating: readme.txt              
+  inflating: test.lua                
+  inflating: test.xml                
+Installing https://rocks.moonscript.org/luaxml-101012-2.src.rock...
+Using https://rocks.moonscript.org/luaxml-101012-2.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c LuaXML_lib.c -o LuaXML_lib.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o LuaXML_lib.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib LuaXML_lib.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+luaxml 101012-2 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

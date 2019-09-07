@@ -1,0 +1,14 @@
+Archive:  lua-logger-v1.0.0.zip
+05e3d9dd4fffd0f3255c22cff270d2954002461e
+   creating: lua-logger-v1.0.0/
+  inflating: lua-logger-v1.0.0/.gitignore  
+  inflating: lua-logger-v1.0.0/COPYRIGHT  
+  inflating: lua-logger-v1.0.0/README.md  
+  inflating: lua-logger-v1.0.0/logger-1.0.0-1.rockspec  
+  inflating: lua-logger-v1.0.0/logger-scm-0.rockspec  
+  inflating: lua-logger-v1.0.0/logger.lua  
+Installing https://luarocks.org/logger-1.0.0-1.src.rock...
+Using https://luarocks.org/logger-1.0.0-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+logger 1.0.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

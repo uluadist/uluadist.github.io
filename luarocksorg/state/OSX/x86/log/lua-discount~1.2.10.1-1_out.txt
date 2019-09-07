@@ -1,0 +1,13 @@
+Installing https://luarocks.org/lua-discount-1.2.10.1-1.src.rock...
+Using https://luarocks.org/lua-discount-1.2.10.1-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c docheader.c -o docheader.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c dumptree.c -o dumptree.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c generate.c -o generate.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c markdown.c -o markdown.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c mkdio.c -o mkdio.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c resource.c -o resource.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c ldiscount.c -o ldiscount.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o discount.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib docheader.o dumptree.o generate.o markdown.o mkdio.o resource.o ldiscount.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lua-discount 1.2.10.1-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: BSD)
+

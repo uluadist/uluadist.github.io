@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+
+gzip: 0.1.2-0.tar.gz: unexpected end of file
+No existing manifest. Attempting to rebuild...

@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/luahelp-0.3-1.src.rock...
+Using https://rocks.moonscript.org/luahelp-0.3-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c help.c -o help.o
+gcc -shared -o help.so -L/home/sp/luajit//lib help.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+luahelp 0.3-1 is now built and installed in /home/sp/luarockstree (license: Public domain)
+

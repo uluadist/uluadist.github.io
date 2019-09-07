@@ -1,0 +1,6 @@
+Installing https://luarocks.org/uulua-1.0-1.rockspec...
+Using https://luarocks.org/uulua-1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_uulua-1.0-1-8605/uulua/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+uulua 1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: Unlicense)
+

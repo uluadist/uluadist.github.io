@@ -1,0 +1,15 @@
+BigInt.cpp
+mainlib.c
+bigint-glue.cpp
+bigint-glue.cpp(75): error C2668: 'BigInt::BigInt': ambiguous call to overloaded function
+c:\users\sp\appdata\local\temp\luarocks_bigint-1.0.2-1-1354\lua-bigint\BigInt.h(55): note: could be 'BigInt::BigInt(const BigInt &)'
+c:\users\sp\appdata\local\temp\luarocks_bigint-1.0.2-1-1354\lua-bigint\BigInt.h(61): note: or       'BigInt::BigInt(const unsigned char *)'
+c:\users\sp\appdata\local\temp\luarocks_bigint-1.0.2-1-1354\lua-bigint\BigInt.h(60): note: or       'BigInt::BigInt(const char *)'
+c:\users\sp\appdata\local\temp\luarocks_bigint-1.0.2-1-1354\lua-bigint\BigInt.h(59): note: or       'BigInt::BigInt(unsigned long)'
+c:\users\sp\appdata\local\temp\luarocks_bigint-1.0.2-1-1354\lua-bigint\BigInt.h(58): note: or       'BigInt::BigInt(long)'
+bigint-glue.cpp(75): note: while trying to match the argument list '(lua_Integer)'
+Installing https://luarocks.org/bigint-1.0.2-1.src.rock...
+Using https://luarocks.org/bigint-1.0.2-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -FoBigInt.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src BigInt.cpp -DVERSION="1.02"
+cl /nologo /MD /O2 -c -Fomainlib.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src mainlib.c -DVERSION="1.02"
+cl /nologo /MD /O2 -c -Fobigint-glue.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src bigint-glue.cpp -DVERSION="1.02"

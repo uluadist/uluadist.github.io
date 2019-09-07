@@ -1,0 +1,27 @@
+Warning: skipping dependency checks.
+slncrypt.c:143:35: warning: incompatible pointer types passing 'int *' to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+                bytes = luaL_checklstring(L, 2, &len);
+                                                ^~~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lauxlib.h:38:67: note: passing argument to parameter 'l' here
+                                                          size_t *l);
+                                                                  ^
+slncrypt.c:150:34: warning: incompatible pointer types passing 'int *' to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+        bytes = luaL_checklstring(L, 1, &len);
+                                        ^~~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lauxlib.h:38:67: note: passing argument to parameter 'l' here
+                                                          size_t *l);
+                                                                  ^
+slncrypt.c:765:46: warning: incompatible pointer types passing 'int *' to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+        const char *bytes = luaL_checklstring(L, 1, &len);
+                                                    ^~~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lauxlib.h:38:67: note: passing argument to parameter 'l' here
+                                                          size_t *l);
+                                                                  ^
+slncrypt.c:822:42: warning: incompatible pointer types passing 'int *' to parameter of type 'size_t *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+        const char *s = luaL_checklstring(L, 1, &len);
+                                                ^~~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lauxlib.h:38:67: note: passing argument to parameter 'l' here
+                                                          size_t *l);
+                                                                  ^
+4 warnings generated.
+No existing manifest. Attempting to rebuild...

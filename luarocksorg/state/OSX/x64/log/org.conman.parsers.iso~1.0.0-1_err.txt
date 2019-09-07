@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for org.conman.parsers.iso 1.0.0-1: org.conman.parsers.iso.char >= 1.0.0
+Missing dependency for org.conman.parsers.iso 1.0.0-1: org.conman.parsers.iso.control >= 1.0.0
+Missing dependency for org.conman.parsers.iso 1.0.0-1: lpeg >= 1.0.0
+Missing dependency for org.conman.parsers.iso 1.0.0-1: org.conman.parsers.iso.char >= 1.0.0
+Missing dependency for org.conman.parsers.iso 1.0.0-1: org.conman.parsers.iso.control >= 1.0.0
+Missing dependency for org.conman.parsers.iso 1.0.0-1: lpeg >= 1.0.0

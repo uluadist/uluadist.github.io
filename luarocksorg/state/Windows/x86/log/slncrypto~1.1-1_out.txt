@@ -1,0 +1,13 @@
+slncrypt.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library crypto.lib and object crypto.exp
+Installing https://luarocks.org/slncrypto-1.1-1.src.rock...
+Using https://luarocks.org/slncrypto-1.1-1.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+cl /nologo /MD /O2 -c -Foslncrypt.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ slncrypt.c
+link -dll -def:crypto.def -out:crypto.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib slncrypt.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+slncrypto 1.1-1 is now built and installed in C:\ste\x86\luarockstree (license: MIT/X11)
+

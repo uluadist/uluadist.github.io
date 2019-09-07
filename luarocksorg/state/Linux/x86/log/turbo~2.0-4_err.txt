@@ -1,0 +1,18 @@
+Warning: skipping dependency checks.
+Note: checking out 'v2.0.4'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at f43bffa... Release 2.0.4 version bump and rockspec added. Also fix issue #237 add OSX to rockspec platforms.
+Warning: variable CFLAGS was not passed in build_variables
+mkdir: cannot create directory `/usr/local/share/lua': Permission denied
+make: *** [install] Error 1
+
+Error: Build error: Failed installing.

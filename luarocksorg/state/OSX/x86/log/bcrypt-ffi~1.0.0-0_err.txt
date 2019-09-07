@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+src/bcrypt.c:51:10: fatal error: 'openssl/rand.h' file not found
+#include <openssl/rand.h>
+         ^
+1 error generated.
+
+Error: Build error: Failed compiling object src/bcrypt.o

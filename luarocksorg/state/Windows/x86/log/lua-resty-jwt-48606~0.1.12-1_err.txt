@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Unrecognized filename extension .

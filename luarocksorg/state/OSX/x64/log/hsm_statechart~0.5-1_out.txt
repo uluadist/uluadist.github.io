@@ -1,0 +1,13 @@
+Installing https://rocks.moonscript.org/hsm_statechart-0.5-1.src.rock...
+Using https://rocks.moonscript.org/hsm_statechart-0.5-1.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c hsm/hsm_context.c -o hsm/hsm_context.o -I.
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c hsm/hsm_machine.c -o hsm/hsm_machine.o -I.
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c hsm/builder/hash.c -o hsm/builder/hash.o -I.
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c hsm/builder/lower.c -o hsm/builder/lower.o -I.
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c hsm/builder/hsm_builder.c -o hsm/builder/hsm_builder.o -I.
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c hsm/hula/hula.c -o hsm/hula/hula.o -I.
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c hsm/hula/hula_lib.c -o hsm/hula/hula_lib.o -I.
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o hsm_statechart.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib hsm/hsm_context.o hsm/hsm_machine.o hsm/builder/hash.o hsm/builder/lower.o hsm/builder/hsm_builder.o hsm/hula/hula.o hsm/hula/hula_lib.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+hsm_statechart 0.5-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: New BSD License)
+

@@ -1,0 +1,33 @@
+Warning: skipping dependency checks.
+slncrypt.c: In function ‘crypto_sha1’:
+slncrypt.c:143:3: warning: passing argument 3 of ‘luaL_checklstring’ from incompatible pointer type [enabled by default]
+   bytes = luaL_checklstring(L, 2, &len);
+   ^
+In file included from slncrypt.c:42:0:
+/home/sp/luajit//include/lauxlib.h:37:25: note: expected ‘size_t *’ but argument is of type ‘int *’
+ LUALIB_API const char *(luaL_checklstring) (lua_State *L, int numArg,
+                         ^
+slncrypt.c:150:2: warning: passing argument 3 of ‘luaL_checklstring’ from incompatible pointer type [enabled by default]
+  bytes = luaL_checklstring(L, 1, &len);
+  ^
+In file included from slncrypt.c:42:0:
+/home/sp/luajit//include/lauxlib.h:37:25: note: expected ‘size_t *’ but argument is of type ‘int *’
+ LUALIB_API const char *(luaL_checklstring) (lua_State *L, int numArg,
+                         ^
+slncrypt.c: In function ‘bfishCBC’:
+slncrypt.c:765:2: warning: passing argument 3 of ‘luaL_checklstring’ from incompatible pointer type [enabled by default]
+  const char *bytes = luaL_checklstring(L, 1, &len);
+  ^
+In file included from slncrypt.c:42:0:
+/home/sp/luajit//include/lauxlib.h:37:25: note: expected ‘size_t *’ but argument is of type ‘int *’
+ LUALIB_API const char *(luaL_checklstring) (lua_State *L, int numArg,
+                         ^
+slncrypt.c: In function ‘crypto_bfish’:
+slncrypt.c:822:2: warning: passing argument 3 of ‘luaL_checklstring’ from incompatible pointer type [enabled by default]
+  const char *s = luaL_checklstring(L, 1, &len);
+  ^
+In file included from slncrypt.c:42:0:
+/home/sp/luajit//include/lauxlib.h:37:25: note: expected ‘size_t *’ but argument is of type ‘int *’
+ LUALIB_API const char *(luaL_checklstring) (lua_State *L, int numArg,
+                         ^
+No existing manifest. Attempting to rebuild...

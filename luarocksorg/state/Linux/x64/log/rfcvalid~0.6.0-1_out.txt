@@ -1,0 +1,8 @@
+Installing https://luarocks.org/rfcvalid-0.6.0-1.rockspec...
+Using https://luarocks.org/rfcvalid-0.6.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_rfcvalid-0.6.0-1-5872/lua-rfcvalid/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/implc.c -o src/implc.o
+gcc -shared -o rfcvalid/implc.so -L/home/sp/Dropbox/Linux/x64/luajit//lib src/implc.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+rfcvalid 0.6.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

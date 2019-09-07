@@ -1,0 +1,15 @@
+Warning: skipping dependency checks.
+luaLZO.c:120:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring(L, out, (size_t) (out_len + PADSIZE));
+                           ^~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luaLZO.c:159:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring(L, out, (size_t) out_len);
+                           ^~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+2 warnings generated.
+No existing manifest. Attempting to rebuild...

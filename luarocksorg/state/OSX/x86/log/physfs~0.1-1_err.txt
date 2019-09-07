@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+lua-physfs.c:5:10: fatal error: 'physfs.h' file not found
+#include "physfs.h"
+         ^
+1 error generated.
+
+Error: Build error: Failed compiling object lua-physfs.o

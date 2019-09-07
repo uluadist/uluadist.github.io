@@ -1,0 +1,7 @@
+Installing https://luarocks.org/bin-5.1-0.rockspec...
+Using https://luarocks.org/bin-5.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_bin-5.1-0-2819/bin/.git/
+Branch v5.1.0 set up to track remote branch v5.1.0 from origin.
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+bin 5.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

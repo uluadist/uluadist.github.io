@@ -1,0 +1,5 @@
+lua-nanovg.c
+c:\users\sp\appdata\local\temp\luarocks_nanovg-0.1.2-0-9846\lua-nanovg-0.1.2\gles2.h(834): fatal error C1083: Cannot open include file: 'GL/glx.h': No such file or directory
+Installing https://luarocks.org/nanovg-0.1.2-0.src.rock...
+Using https://luarocks.org/nanovg-0.1.2-0.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folua-nanovg.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src lua-nanovg.c

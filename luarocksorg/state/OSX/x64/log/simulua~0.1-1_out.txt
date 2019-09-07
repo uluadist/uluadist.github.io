@@ -1,0 +1,20 @@
+Installing https://rocks.moonscript.org/simulua-0.1-1.src.rock...
+Using https://rocks.moonscript.org/simulua-0.1-1.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lib/ranlib.c -o lib/ranlib.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lib/mt.c -o lib/mt.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lib/rng.c -o lib/rng.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o rng.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lib/ranlib.o lib/mt.o lib/rng.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lib/stack.c -o lib/stack.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o stack.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lib/stack.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lib/queue.c -o lib/queue.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o queue.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lib/queue.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lib/binomial.c -o lib/binomial.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o binomial.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lib/binomial.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lib/dcdflib.c -o lib/dcdflib.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lib/ipmpar.c -o lib/ipmpar.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lib/cdf.c -o lib/cdf.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o cdf.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lib/dcdflib.o lib/ipmpar.o lib/cdf.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+simulua 0.1-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

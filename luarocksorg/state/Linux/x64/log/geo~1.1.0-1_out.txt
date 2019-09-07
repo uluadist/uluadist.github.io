@@ -1,0 +1,8 @@
+Installing https://luarocks.org/geo-1.1.0-1.rockspec...
+Using https://luarocks.org/geo-1.1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_geo-1.1.0-1-2381/lua-geo/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c geo.c -o geo.o
+gcc -shared -o geo.so -L/home/sp/Dropbox/Linux/x64/luajit//lib geo.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+geo 1.1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

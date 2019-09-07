@@ -1,0 +1,13 @@
+Warning: skipping dependency checks.
+src/core_profiler.c:134:13: warning: 'tmpnam' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of tmpnam(3), it is highly recommended that you use mkstemp(3) instead. [-Wdeprecated-declarations]
+  randstr = tmpnam(NULL);
+            ^
+/usr/include/stdio.h:276:7: note: 'tmpnam' has been explicitly marked deprecated here
+char    *tmpnam(char *);
+         ^
+1 warning generated.
+src/lua50_profiler.c:175:5: warning: implicit declaration of function 'lprofP_close_core_profiler' is invalid in C99 [-Wimplicit-function-declaration]
+    lprofP_close_core_profiler(S);
+    ^
+1 warning generated.
+No existing manifest. Attempting to rebuild...

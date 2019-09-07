@@ -1,0 +1,10 @@
+Installing https://luarocks.org/getopt-1.0.0-1.src.rock...
+Using https://luarocks.org/getopt-1.0.0-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c argv.c -o argv.o -DVERSION="1.0"
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c options.c -o options.o -DVERSION="1.0"
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c getopt.c -o getopt.o -DVERSION="1.0"
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c set-lua-variable.c -o set-lua-variable.o -DVERSION="1.0"
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o getopt.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib argv.o options.o getopt.o set-lua-variable.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+getopt 1.0.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

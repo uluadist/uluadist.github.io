@@ -1,0 +1,33 @@
+luazen.c
+base58.c
+lzf_c.c
+lzf_d.c
+mono.c
+norx.c
+md5.c
+rc4.c
+brieflz.c
+depacks.c
+randombytes.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library luazen.lib and object luazen.exp
+randombytes.obj : error LNK2019: unresolved external symbol __imp_CryptAcquireContextA referenced in function randombytes
+randombytes.obj : error LNK2019: unresolved external symbol __imp_CryptReleaseContext referenced in function randombytes
+randombytes.obj : error LNK2019: unresolved external symbol __imp_CryptGenRandom referenced in function randombytes
+luazen.dll : fatal error LNK1120: 3 unresolved externals
+Installing https://luarocks.org/luazen-0.9-1.rockspec...
+Using https://luarocks.org/luazen-0.9-1.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/luazen.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/luazen.c
+cl /nologo /MD /O2 -c -Fosrc/base58.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/base58.c
+cl /nologo /MD /O2 -c -Fosrc/lzf_c.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/lzf_c.c
+cl /nologo /MD /O2 -c -Fosrc/lzf_d.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/lzf_d.c
+cl /nologo /MD /O2 -c -Fosrc/mono.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/mono.c
+cl /nologo /MD /O2 -c -Fosrc/norx.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/norx.c
+cl /nologo /MD /O2 -c -Fosrc/md5.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/md5.c
+cl /nologo /MD /O2 -c -Fosrc/rc4.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/rc4.c
+cl /nologo /MD /O2 -c -Fosrc/brieflz.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/brieflz.c
+cl /nologo /MD /O2 -c -Fosrc/depacks.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/depacks.c
+cl /nologo /MD /O2 -c -Fosrc/randombytes.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/randombytes.c
+link -dll -def:luazen.def -out:luazen.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib src/luazen.obj src/base58.obj src/lzf_c.obj src/lzf_d.obj src/mono.obj src/norx.obj src/md5.obj src/rc4.obj src/brieflz.obj src/depacks.obj src/randombytes.obj

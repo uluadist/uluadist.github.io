@@ -1,0 +1,5 @@
+Installing https://rocks.moonscript.org/require-0.1.7-2.src.rock...
+Using https://rocks.moonscript.org/require-0.1.7-2.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+require 0.1.7-2 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

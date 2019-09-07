@@ -1,0 +1,27 @@
+Archive:  v0.1.1.zip
+46810964fa6ab83cf315ef91d64a674856562812
+   creating: lua-EventEmitter-0.1.1/
+  inflating: lua-EventEmitter-0.1.1/.travis.yml  
+  inflating: lua-EventEmitter-0.1.1/LICENSE  
+  inflating: lua-EventEmitter-0.1.1/README.md  
+   creating: lua-EventEmitter-0.1.1/examples/
+  inflating: lua-EventEmitter-0.1.1/examples/basic.lua  
+  inflating: lua-EventEmitter-0.1.1/examples/extend_30log.lua  
+   creating: lua-EventEmitter-0.1.1/rockspecs/
+  inflating: lua-EventEmitter-0.1.1/rockspecs/eventemitter-0.1.0-1.rockspec  
+  inflating: lua-EventEmitter-0.1.1/rockspecs/eventemitter-0.1.1-1.rockspec  
+  inflating: lua-EventEmitter-0.1.1/rockspecs/eventemitter-scm-0.rockspec  
+   creating: lua-EventEmitter-0.1.1/src/
+   creating: lua-EventEmitter-0.1.1/src/lua/
+  inflating: lua-EventEmitter-0.1.1/src/lua/EventEmitter.lua  
+   creating: lua-EventEmitter-0.1.1/src/lua/EventEmitter/
+  inflating: lua-EventEmitter-0.1.1/src/lua/EventEmitter/utils.lua  
+   creating: lua-EventEmitter-0.1.1/test/
+  inflating: lua-EventEmitter-0.1.1/test/.luacov  
+  inflating: lua-EventEmitter-0.1.1/test/test.lua  
+  inflating: lua-EventEmitter-0.1.1/test/utils.lua  
+Installing https://luarocks.org/eventemitter-0.1.1-1.src.rock...
+Using https://luarocks.org/eventemitter-0.1.1-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+eventemitter 0.1.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

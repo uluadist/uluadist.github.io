@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/luapress-3.2-0.rockspec...
+Using https://rocks.moonscript.org/luapress-3.2-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_luapress-3.2-0-5196/Luapress/.git/
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+luapress 3.2-0 is now built and installed in /home/sp/luarockstree (license: MIT)
+

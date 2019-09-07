@@ -1,0 +1,8 @@
+Installing https://rocks.moonscript.org/mixlua-0.2.7-2.src.rock...
+Using https://rocks.moonscript.org/mixlua-0.2.7-2.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c mixlua.c -o mixlua.o
+gcc -shared -o mixlua.so -L/home/sp/luajit/lib mixlua.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+mixlua 0.2.7-2 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

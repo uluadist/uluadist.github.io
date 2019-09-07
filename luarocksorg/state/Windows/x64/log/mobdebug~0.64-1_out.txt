@@ -1,0 +1,5 @@
+Installing https://luarocks.org/mobdebug-0.64-1.rockspec...
+Using https://luarocks.org/mobdebug-0.64-1.rockspec... switching to 'build' mode
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+mobdebug 0.64-1 is now built and installed in C:\ste\x64\luarockstree (license: MIT/X11)
+

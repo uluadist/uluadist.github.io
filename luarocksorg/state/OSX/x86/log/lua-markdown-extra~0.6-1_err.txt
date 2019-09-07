@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-markdown-extra 0.6-1: yaml 
+Missing dependency for lua-markdown-extra 0.6-1: cmark 
+Missing dependency for lua-markdown-extra 0.6-1: yaml 
+Missing dependency for lua-markdown-extra 0.6-1: cmark 

@@ -1,0 +1,18 @@
+Cloning into 'lua-halo'...
+Note: checking out 'e98815ac8d215de702c5b809751f5b0c4ce77f8a'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for halo 1.1.9-1: dump >= 0.1.1
+Missing dependency for halo 1.1.9-1: loadchunk >= 0.1.0
+Missing dependency for halo 1.1.9-1: dump >= 0.1.1
+Missing dependency for halo 1.1.9-1: loadchunk >= 0.1.0

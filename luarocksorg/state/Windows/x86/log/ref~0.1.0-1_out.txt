@@ -1,0 +1,12 @@
+ref.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library ref.lib and object ref.exp
+Installing https://luarocks.org/ref-0.1.0-1.rockspec...
+Using https://luarocks.org/ref-0.1.0-1.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/ref.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/ref.c
+link -dll -def:ref.def -out:ref.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib src/ref.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+ref 0.1.0-1 is now built and installed in C:\ste\x86\luarockstree (license: MIT/X11)
+

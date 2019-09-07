@@ -1,0 +1,6 @@
+Installing https://luarocks.org/wtf-0.1-1.rockspec...
+Using https://luarocks.org/wtf-0.1-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_wtf-0.1-1-1490/wtf/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+wtf 0.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

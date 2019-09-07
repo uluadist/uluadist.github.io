@@ -1,0 +1,12 @@
+Installing https://luarocks.org/sleep-1.0.0-3.rockspec...
+Using https://luarocks.org/sleep-1.0.0-3.rockspec... switching to 'build' mode
+-- The C compiler identification is AppleClang 7.0.2.7000181
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x86/cc
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x86/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Could NOT find Lua (missing:  LUA_LIBRARIES LUA_INCLUDE_DIR) 
+-- Configuring incomplete, errors occurred!
+See also "/tmp/luarocks_sleep-1.0.0-3-6153/sleep/build.luarocks/CMakeFiles/CMakeOutput.log".

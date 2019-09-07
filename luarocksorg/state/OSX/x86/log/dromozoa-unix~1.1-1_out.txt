@@ -1,0 +1,12 @@
+c++ -I/Users/sp/Dropbox/OSX/x86/luajit/include -Wall -W -Wno-missing-field-initializers -O2 -fPIC -c gettimeofday.cpp
+c++ -I/Users/sp/Dropbox/OSX/x86/luajit/include -Wall -W -Wno-missing-field-initializers -O2 -fPIC -c common.cpp
+c++ -L/Users/sp/Dropbox/OSX/x86/luajit/lib -bundle -undefined dynamic_lookup -all_load gettimeofday.o common.o  -o gettimeofday.so
+c++ -I/Users/sp/Dropbox/OSX/x86/luajit/include -Wall -W -Wno-missing-field-initializers -O2 -fPIC -c nanosleep.cpp
+c++ -L/Users/sp/Dropbox/OSX/x86/luajit/lib -bundle -undefined dynamic_lookup -all_load nanosleep.o common.o  -o nanosleep.so
+mkdir -p /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/dromozoa-unix/1.1-1/lib/dromozoa/unix
+cp gettimeofday.so nanosleep.so /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/dromozoa-unix/1.1-1/lib/dromozoa/unix
+Installing https://rocks.moonscript.org/dromozoa-unix-1.1-1.src.rock...
+Using https://rocks.moonscript.org/dromozoa-unix-1.1-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+dromozoa-unix 1.1-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: GPL-3)
+

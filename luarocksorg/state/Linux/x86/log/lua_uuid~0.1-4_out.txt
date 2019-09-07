@@ -1,0 +1,3 @@
+Installing https://rocks.moonscript.org/lua_uuid-0.1-4.rockspec...
+Using https://rocks.moonscript.org/lua_uuid-0.1-4.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lua_uuid.c -o lua_uuid.o

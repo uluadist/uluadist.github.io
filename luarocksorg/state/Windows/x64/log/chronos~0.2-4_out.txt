@@ -1,0 +1,12 @@
+chronos.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library chronos.lib and object chronos.exp
+Installing https://luarocks.org/chronos-0.2-4.src.rock...
+Using https://luarocks.org/chronos-0.2-4.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/chronos.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/chronos.c
+link -dll -def:chronos.def -out:chronos.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib src/chronos.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+chronos 0.2-4 is now built and installed in C:\ste\x64\luarockstree (license: MIT/X11)
+

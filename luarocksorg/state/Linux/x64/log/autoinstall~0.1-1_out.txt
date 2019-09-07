@@ -1,0 +1,4 @@
+Installing https://rocks.moonscript.org/autoinstall-0.1-1.src.rock...
+Using https://rocks.moonscript.org/autoinstall-0.1-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/autoinstall.c -o src/autoinstall.o
+gcc -shared -o autoinstall.so -L/home/sp/luajit//lib src/autoinstall.o -lc -ldl -llua5.1

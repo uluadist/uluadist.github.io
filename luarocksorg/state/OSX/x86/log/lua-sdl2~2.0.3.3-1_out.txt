@@ -1,0 +1,11 @@
+-- The C compiler identification is AppleClang 7.0.0.7000176
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x86/cc
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x86/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring incomplete, errors occurred!
+See also "/tmp/luarocks_lua-sdl2-2.0.3.3-1-8760/luasdl2-2.0.3-3/CMakeFiles/CMakeOutput.log".
+Installing https://rocks.moonscript.org/lua-sdl2-2.0.3.3-1.src.rock...
+Using https://rocks.moonscript.org/lua-sdl2-2.0.3.3-1.src.rock... switching to 'build' mode

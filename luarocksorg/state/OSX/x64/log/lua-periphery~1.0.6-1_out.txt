@@ -1,0 +1,6 @@
+cd c-periphery; /Library/Developer/CommandLineTools/usr/bin/make
+mkdir obj
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -std=gnu99 -pedantic -Wall -Wextra -Wno-unused-parameter -Wno-pointer-to-int-cast  -fPIC  -c src/gpio.c -o obj/gpio.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -std=gnu99 -pedantic -Wall -Wextra -Wno-unused-parameter -Wno-pointer-to-int-cast  -fPIC  -c src/spi.c -o obj/spi.o
+Installing https://rocks.moonscript.org/lua-periphery-1.0.6-1.src.rock...
+Using https://rocks.moonscript.org/lua-periphery-1.0.6-1.src.rock... switching to 'build' mode

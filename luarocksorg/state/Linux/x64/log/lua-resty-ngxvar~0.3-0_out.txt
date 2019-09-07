@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-resty-ngxvar-0.3-0.rockspec...
+Using https://luarocks.org/lua-resty-ngxvar-0.3-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-resty-ngxvar-0.3-0-5400/lua-var-nginx-module/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-resty-ngxvar 0.3-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: Apache License 2.0)
+

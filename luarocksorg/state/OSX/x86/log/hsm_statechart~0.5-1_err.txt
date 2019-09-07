@@ -1,0 +1,36 @@
+Warning: skipping dependency checks.
+hsm/hsm_machine.c:153:14: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+      if (res=(test==state)) {
+          ~~~^~~~~~~~~~~~~~
+hsm/hsm_machine.c:153:14: note: place parentheses around the assignment to silence this warning
+      if (res=(test==state)) {
+             ^
+          (                )
+hsm/hsm_machine.c:153:14: note: use '==' to turn this assignment into an equality comparison
+      if (res=(test==state)) {
+             ^
+             ==
+hsm/hsm_machine.c:246:24: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  while ( initial_state= hsm->current->initial ) 
+          ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+hsm/hsm_machine.c:246:24: note: place parentheses around the assignment to silence this warning
+  while ( initial_state= hsm->current->initial ) 
+                       ^
+          (                                   )
+hsm/hsm_machine.c:246:24: note: use '==' to turn this assignment into an equality comparison
+  while ( initial_state= hsm->current->initial ) 
+                       ^
+                       ==
+2 warnings generated.
+hsm/builder/hsm_builder.c:701:13: warning: enumeration values '_hsm_begin', '_hsm_action_ud', and '_hsm_goto' not handled in switch [-Wswitch]
+    switch (status->evt->type) 
+            ^
+hsm/builder/hsm_builder.c:854:17: warning: 8 enumeration values not handled in switch: '_hsm_begin', '_hsm_end', '_hsm_enter_ud'... [-Wswitch]
+        switch (status->evt->type) {
+                ^
+2 warnings generated.
+hsm/hula/hula.c:71:10: warning: expression result unused [-Wunused-value]
+    for (element; element<=len; ++element, ++count) {
+         ^~~~~~~
+1 warning generated.
+No existing manifest. Attempting to rebuild...

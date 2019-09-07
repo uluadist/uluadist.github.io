@@ -1,0 +1,5 @@
+Installing https://rocks.moonscript.org/dub-2.2.4-1.src.rock...
+Using https://rocks.moonscript.org/dub-2.2.4-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+dub 2.2.4-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

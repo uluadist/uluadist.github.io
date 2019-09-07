@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-schema-validation-1.0-1.rockspec...
+Using https://luarocks.org/lua-schema-validation-1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-schema-validation-1.0-1-3874/lua-schema-validation/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-schema-validation 1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

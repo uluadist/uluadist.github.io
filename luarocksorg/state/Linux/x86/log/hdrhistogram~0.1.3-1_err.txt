@@ -1,0 +1,12 @@
+Warning: skipping dependency checks.
+hdr_histogram.c: In function ‘hdr_reset_internal_counters’:
+hdr_histogram.c:211:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+     for (int i = 0; i < h->counts_len; i++)
+     ^
+hdr_histogram.c:211:5: note: use option -std=c99 or -std=gnu99 to compile your code
+hdr_histogram.c: In function ‘shift_lowest_half_bucket_contents_left’:
+hdr_histogram.c:385:5: error: ‘for’ loop initial declarations are only allowed in C99 mode
+     for (int from_index = 1; from_index < h->sub_bucket_half_count; from_index++)
+     ^
+
+Error: Build error: Failed compiling object hdr_histogram.o

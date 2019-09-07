@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for kong-plugin-jwt-crafter 1.0-0: lua-resty-jwt ~> 0.1.10-1
+Missing dependency for kong-plugin-jwt-crafter 1.0-0: inspect ~> 3.1.0
+Missing dependency for kong-plugin-jwt-crafter 1.0-0: lua-resty-jwt ~> 0.1.10-1
+Missing dependency for kong-plugin-jwt-crafter 1.0-0: inspect ~> 3.1.0

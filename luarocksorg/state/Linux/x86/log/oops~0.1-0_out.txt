@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/oops-0.1-0.rockspec...
+Using https://rocks.moonscript.org/oops-0.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_oops-0.1-0-2921/oops/.git/
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+oops 0.1-0 is now built and installed in /home/sp/luarockstree (license: BSD)
+

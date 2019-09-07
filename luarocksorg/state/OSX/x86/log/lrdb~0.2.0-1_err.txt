@@ -1,0 +1,134 @@
+Warning: skipping dependency checks.
+Cloning into 'LRDB'...
+Note: checking out '037a333ab48abdcbb603e51f7424e4f19d79548b'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+Warning: unmatched variable LUALIB
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   lrdb_server
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/src/debug_server_module.cpp:6:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/server.hpp:8:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/debugger.hpp:12:
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/picojson/picojson.h:249:39: error: no member named 'move' in namespace 'std'
+    u_.string_ = new std::string(std::move(s));
+                                 ~~~~~^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/picojson/picojson.h:253:32: error: no member named 'move' in namespace 'std'
+    u_.array_ = new array(std::move(a));
+                          ~~~~~^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/picojson/picojson.h:257:34: error: no member named 'move' in namespace 'std'
+    u_.object_ = new object(std::move(o));
+                            ~~~~~^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/picojson/picojson.h:386:66: error: no member named 'move' in namespace 'std'
+  MOVESET(std::string, string, u_.string_ = new std::string(std::move(_val));)
+                                                            ~~~~~^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/picojson/picojson.h:384:5: note: expanded from macro 'MOVESET'
+    setter                        \
+    ^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/picojson/picojson.h:387:52: error: no member named 'move' in namespace 'std'
+  MOVESET(array, array, u_.array_ = new array(std::move(_val));)
+                                              ~~~~~^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/picojson/picojson.h:384:5: note: expanded from macro 'MOVESET'
+    setter                        \
+    ^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/picojson/picojson.h:388:56: error: no member named 'move' in namespace 'std'
+  MOVESET(object, object, u_.object_ = new object(std::move(_val));)
+                                                  ~~~~~^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/picojson/picojson.h:384:5: note: expanded from macro 'MOVESET'
+    setter                        \
+    ^
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/src/debug_server_module.cpp:6:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/server.hpp:8:
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/debugger.hpp:584:16: error: no type named 'function' in namespace 'std'
+  typedef std::function<void(debugger& debugger)> pause_handler_type;
+          ~~~~~^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/debugger.hpp:584:24: error: expected member name or ';' after declaration specifiers
+  typedef std::function<void(debugger& debugger)> pause_handler_type;
+  ~~~~~~~~~~~~~~~~~~~~~^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/debugger.hpp:585:16: error: no type named 'function' in namespace 'std'
+  typedef std::function<void(debugger& debugger)> tick_handler_type;
+          ~~~~~^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/debugger.hpp:585:24: error: expected member name or ';' after declaration specifiers
+  typedef std::function<void(debugger& debugger)> tick_handler_type;
+  ~~~~~~~~~~~~~~~~~~~~~^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/debugger.hpp:644:25: error: unknown type name 'tick_handler_type'
+  void set_tick_handler(tick_handler_type handler) { tick_handler_ = handler; }
+                        ^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/debugger.hpp:649:26: error: unknown type name 'pause_handler_type'
+  void set_pause_handler(pause_handler_type handler) {
+                         ^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/debugger.hpp:922:3: error: unknown type name 'pause_handler_type'
+  pause_handler_type pause_handler_;
+  ^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/debugger.hpp:923:3: error: unknown type name 'tick_handler_type'
+  tick_handler_type tick_handler_;
+  ^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/debugger.hpp:815:44: error: no member named 'to_string' in namespace 'std'
+          debuginfo.eval(("return " + std::to_string(breakpoint.hit_count) +
+                                      ~~~~~^
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/src/debug_server_module.cpp:6:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/server.hpp:19:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/server/command_stream_socket.hpp:17:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio.hpp:19:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/basic_datagram_socket.hpp:20:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/basic_socket.hpp:20:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/basic_io_object.hpp:19:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/io_service.hpp:24:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/detail/wrapped_handler.hpp:18:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/detail/bind_handler.hpp:19:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/detail/handler_alloc_helpers.hpp:19:
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/detail/addressof.hpp:30:12: error: no member named 'addressof' in namespace 'std'
+using std::addressof;
+      ~~~~~^
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/src/debug_server_module.cpp:6:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/server.hpp:19:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/server/command_stream_socket.hpp:17:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio.hpp:19:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/basic_datagram_socket.hpp:20:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/basic_socket.hpp:20:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/basic_io_object.hpp:19:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/io_service.hpp:24:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/detail/wrapped_handler.hpp:18:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/detail/bind_handler.hpp:19:
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/detail/handler_alloc_helpers.hpp:37:49: error: no member named 'addressof' in namespace 'asio::detail'
+  return asio_handler_allocate(s, asio::detail::addressof(h));
+                                  ~~~~~~~~~~~~~~^
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/detail/handler_alloc_helpers.hpp:48:47: error: no member named 'addressof' in namespace 'asio::detail'
+  asio_handler_deallocate(p, s, asio::detail::addressof(h));
+                                ~~~~~~~~~~~~~~^
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/src/debug_server_module.cpp:6:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/server.hpp:19:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/include/lrdb/server/command_stream_socket.hpp:17:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio.hpp:19:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/basic_datagram_socket.hpp:20:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/basic_socket.hpp:20:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/basic_io_object.hpp:19:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/io_service.hpp:24:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/detail/wrapped_handler.hpp:18:
+In file included from /tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/detail/bind_handler.hpp:20:
+/tmp/luarocks_lrdb-0.2.0-1-8788/LRDB/third_party/asio/asio/include/asio/detail/handler_cont_helpers.hpp:37:21: error: no member named 'addressof' in namespace 'asio::detail'
+      asio::detail::addressof(context));
+      ~~~~~~~~~~~~~~^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make[2]: *** [CMakeFiles/lrdb_server.dir/src/debug_server_module.cpp.o] Error 1
+make[1]: *** [CMakeFiles/lrdb_server.dir/all] Error 2
+make: *** [all] Error 2
+
+Error: Build error: Failed building.

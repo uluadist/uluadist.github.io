@@ -1,0 +1,9 @@
+Warning: skipping dependency checks.
+fatal: Not a git repository (or any of the parent directories): .git
+/Users/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/OSX/x64/luajit: (command line):1: function arguments expected near '<eof>'
+/Library/Developer/CommandLineTools/usr/bin/c99: illegal option -- f
+usage: c99 [-cEgs] [-D name[=value]] [-I directory] ... [-L directory] ...
+       [-o outfile] [-O optlevel] [-U name]... [-W 64] operand ...
+make: *** [src/luadns.oo] Error 1
+
+Error: Build error: Failed building.

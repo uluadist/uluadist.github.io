@@ -1,0 +1,5 @@
+Warning: skipping dependency checks.
+/usr/bin/ld: cannot find -llua5.1
+collect2: error: ld returned 1 exit status
+
+Error: Build error: Failed compiling module autoinstall.so

@@ -1,0 +1,11 @@
+Installing https://luarocks.org/lua-resty-radixtree-0.5-0.rockspec...
+Using https://luarocks.org/lua-resty-radixtree-0.5-0.rockspec... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -std=c99 -g -DBUILDING_SO -c src/rax.c -o src/rax.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -std=c99 -g -DBUILDING_SO -c src/easy_rax.c -o src/easy_rax.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -fvisibility=hidden src/rax.o src/easy_rax.o -o librestyradixtree.dylib
+install -d /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-radixtree/0.5-0/lua/resty/
+install lib/resty/*.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-radixtree/0.5-0/lua/resty/
+install librestyradixtree.dylib /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-radixtree/0.5-0/lib/
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lua-resty-radixtree 0.5-0 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: Apache License 2.0)
+

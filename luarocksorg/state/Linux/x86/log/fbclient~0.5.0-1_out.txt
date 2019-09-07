@@ -1,0 +1,39 @@
+Archive:  fbclient-0.5.0.zip
+   creating: fbclient-0.5.0/
+   creating: fbclient-0.5.0/lua/
+   creating: fbclient-0.5.0/lua/fbclient/
+  inflating: fbclient-0.5.0/lua/fbclient/binding.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/blob.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/blob_info.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/bpb.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/class.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/datetime.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/db_info.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/decimal_lbc.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/decimal_ldecnumber.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/decimal_lmapm.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/dpb.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/error_codes.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/event.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/info.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/init.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/list.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/package.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/pb.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/schema.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/service_class.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/service_wrapper.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/sql_info.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/status_vector.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/tpb.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/tr_info.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/util.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/version.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/wrapper.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/xsqlda.lua  
+  inflating: fbclient-0.5.0/lua/fbclient/xsqlvar.lua  
+Installing https://rocks.moonscript.org/fbclient-0.5.0-1.src.rock...
+Using https://rocks.moonscript.org/fbclient-0.5.0-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+fbclient 0.5.0-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

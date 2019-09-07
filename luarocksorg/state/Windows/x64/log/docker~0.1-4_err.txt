@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for docker 0.1-4: deviant >= 0.1
+Missing dependency for docker 0.1-4: web >= 0.2
+Missing dependency for docker 0.1-4: deviant >= 0.1
+Missing dependency for docker 0.1-4: web >= 0.2

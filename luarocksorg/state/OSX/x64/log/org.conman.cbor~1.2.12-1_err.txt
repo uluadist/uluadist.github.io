@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+No existing manifest. Attempting to rebuild...
+Missing dependency for org.conman.cbor 1.2.12-1: lpeg ~= 1.0
+Missing dependency for org.conman.cbor 1.2.12-1: lpeg ~= 1.0

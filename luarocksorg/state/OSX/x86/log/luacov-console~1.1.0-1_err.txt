@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luacov-console 1.1.0-1: argparse 
+Missing dependency for luacov-console 1.1.0-1: luacov > 0.5
+Missing dependency for luacov-console 1.1.0-1: luafilesystem 
+Missing dependency for luacov-console 1.1.0-1: argparse 
+Missing dependency for luacov-console 1.1.0-1: luacov > 0.5
+Missing dependency for luacov-console 1.1.0-1: luafilesystem 

@@ -1,0 +1,9 @@
+Installing https://rocks.moonscript.org/cdb-1.0-1.rockspec...
+Using https://rocks.moonscript.org/cdb-1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_cdb-1.0-1-7683/lua-cdb/.git/
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/cdb.c -o src/cdb.o -Iinc
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/lcdb.c -o src/lcdb.o -Iinc
+gcc -shared -o cdb.so -L/home/sp/luajit//lib src/cdb.o src/lcdb.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+cdb 1.0-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

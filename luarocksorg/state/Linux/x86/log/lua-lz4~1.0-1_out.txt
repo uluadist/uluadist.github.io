@@ -1,0 +1,12 @@
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1   -c -o lua_lz4.o lua_lz4.c
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1   -c -o lz4/lz4.o lz4/lz4.c
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1   -c -o lz4/lz4hc.o lz4/lz4hc.c
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1   -c -o lz4/lz4frame.o lz4/lz4frame.c
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1   -c -o lz4/xxhash.o lz4/xxhash.c
+gcc -shared -L/home/sp/luajit/lib lua_lz4.o lz4/lz4.o lz4/lz4hc.o lz4/lz4frame.o lz4/xxhash.o -o lz4.so
+cp lz4.so /home/sp/luarockstree/lib/luarocks/rocks/lua-lz4/1.0-1/lib
+Installing https://rocks.moonscript.org/lua-lz4-1.0-1.src.rock...
+Using https://rocks.moonscript.org/lua-lz4-1.0-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lua-lz4 1.0-1 is now built and installed in /home/sp/luarockstree (license: Apache License 2.0)
+

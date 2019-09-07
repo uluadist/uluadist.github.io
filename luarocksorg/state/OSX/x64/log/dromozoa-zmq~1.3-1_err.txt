@@ -1,0 +1,5 @@
+Warning: skipping dependency checks.
+configure: WARNING: no valid ZMQ installation was found
+configure: error: could not find zmq
+
+Error: Build error: Failed building.

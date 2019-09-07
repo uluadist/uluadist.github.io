@@ -1,0 +1,4 @@
+Installing https://luarocks.org/pe-parser-0.5.0-2.all.rock...
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+
+pe-parser 0.5.0-2 is now installed in C:\ste\x86\luarockstree (license: MIT X11)

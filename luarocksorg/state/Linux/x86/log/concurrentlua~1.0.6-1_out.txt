@@ -1,0 +1,115 @@
+Archive:  v1.0.6.zip
+a4af8a6b17a3230dad736d66b9fe5511f9c182de
+   creating: concurrentlua-1.0.6/
+ extracting: concurrentlua-1.0.6/AUTHORS  
+  inflating: concurrentlua-1.0.6/LICENSE  
+  inflating: concurrentlua-1.0.6/Makefile  
+  inflating: concurrentlua-1.0.6/NEWS  
+  inflating: concurrentlua-1.0.6/README  
+   creating: concurrentlua-1.0.6/doc/
+  inflating: concurrentlua-1.0.6/doc/concurrentlua.png  
+  inflating: concurrentlua-1.0.6/doc/manual.html  
+  inflating: concurrentlua-1.0.6/doc/stylesheet.css  
+   creating: concurrentlua-1.0.6/samples/
+  inflating: concurrentlua-1.0.6/samples/example1.lua  
+  inflating: concurrentlua-1.0.6/samples/example2.lua  
+  inflating: concurrentlua-1.0.6/samples/example3.lua  
+  inflating: concurrentlua-1.0.6/samples/example4a.lua  
+  inflating: concurrentlua-1.0.6/samples/example4b.lua  
+  inflating: concurrentlua-1.0.6/samples/example5a.lua  
+  inflating: concurrentlua-1.0.6/samples/example5b.lua  
+   creating: concurrentlua-1.0.6/src/
+  inflating: concurrentlua-1.0.6/src/Makefile  
+   creating: concurrentlua-1.0.6/src/cldaemon/
+  inflating: concurrentlua-1.0.6/src/cldaemon/Makefile  
+  inflating: concurrentlua-1.0.6/src/cldaemon/cldaemon.c  
+   creating: concurrentlua-1.0.6/src/clpmd/
+  inflating: concurrentlua-1.0.6/src/clpmd/Makefile  
+  inflating: concurrentlua-1.0.6/src/clpmd/clpmd  
+   creating: concurrentlua-1.0.6/src/cltime/
+  inflating: concurrentlua-1.0.6/src/cltime/Makefile  
+  inflating: concurrentlua-1.0.6/src/cltime/cltime.c  
+   creating: concurrentlua-1.0.6/src/concurrent/
+  inflating: concurrentlua-1.0.6/src/concurrent/Makefile  
+   creating: concurrentlua-1.0.6/src/concurrent/distributed/
+  inflating: concurrentlua-1.0.6/src/concurrent/distributed/Makefile  
+  inflating: concurrentlua-1.0.6/src/concurrent/distributed/cookie.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/distributed/init.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/distributed/link.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/distributed/message.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/distributed/monitor.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/distributed/network.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/distributed/node.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/distributed/process.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/distributed/register.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/distributed/scheduler.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/init.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/link.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/message.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/monitor.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/option.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/process.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/register.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/root.lua  
+  inflating: concurrentlua-1.0.6/src/concurrent/scheduler.lua  
+   creating: concurrentlua-1.0.6/test/
+  inflating: concurrentlua-1.0.6/test/concurrent.sh  
+   creating: concurrentlua-1.0.6/test/concurrent/
+  inflating: concurrentlua-1.0.6/test/concurrent/link1.lua  
+  inflating: concurrentlua-1.0.6/test/concurrent/link2.lua  
+  inflating: concurrentlua-1.0.6/test/concurrent/message1.lua  
+  inflating: concurrentlua-1.0.6/test/concurrent/monitor1.lua  
+  inflating: concurrentlua-1.0.6/test/concurrent/monitor2.lua  
+  inflating: concurrentlua-1.0.6/test/concurrent/process1.lua  
+  inflating: concurrentlua-1.0.6/test/concurrent/process2.lua  
+  inflating: concurrentlua-1.0.6/test/concurrent/register1.lua  
+  inflating: concurrentlua-1.0.6/test/concurrent/register2.lua  
+  inflating: concurrentlua-1.0.6/test/concurrent/trapexit1.lua  
+  inflating: concurrentlua-1.0.6/test/concurrent/trapexit2.lua  
+   creating: concurrentlua-1.0.6/test/distributed/
+  inflating: concurrentlua-1.0.6/test/distributed/cookie1a.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/cookie1b.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/cookie2a.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/cookie2b.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/link1a.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/link1b.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/link2a.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/link2b.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/link2c.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/message1a.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/message1b.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/monitor1a.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/monitor1b.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/monitor2a.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/monitor2b.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/monitor2c.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/node1a.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/node1b.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/process1a.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/process1b.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/process2a.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/process2b.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/register1a.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/register1b.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/register2a.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/register2b.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/register2c.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/trapexit1a.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/trapexit1b.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/trapexit2a.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/trapexit2b.lua  
+  inflating: concurrentlua-1.0.6/test/distributed/trapexit2c.lua  
+  inflating: concurrentlua-1.0.6/test/distributed2a.sh  
+  inflating: concurrentlua-1.0.6/test/distributed2b.sh  
+  inflating: concurrentlua-1.0.6/test/distributed3a.sh  
+  inflating: concurrentlua-1.0.6/test/distributed3b.sh  
+  inflating: concurrentlua-1.0.6/test/distributed3c.sh  
+Installing https://luarocks.org/concurrentlua-1.0.6-1.src.rock...
+Using https://luarocks.org/concurrentlua-1.0.6-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/cldaemon/cldaemon.c -o src/cldaemon/cldaemon.o
+gcc -shared -o cldaemon.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/cldaemon/cldaemon.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/cltime/cltime.c -o src/cltime/cltime.o
+gcc -shared -o cltime.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/cltime/cltime.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+concurrentlua 1.0.6-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

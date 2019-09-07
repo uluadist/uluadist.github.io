@@ -1,0 +1,26 @@
+lstrlib.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library compat53/string.lib and object compat53/string.exp
+lutf8lib.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library compat53/utf8.lib and object compat53/utf8.exp
+ltablib.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library compat53/table.lib and object compat53/table.exp
+Installing https://luarocks.org/compat53-0.5-1.src.rock...
+Using https://luarocks.org/compat53-0.5-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folstrlib.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src lstrlib.c
+link -dll -def:string.def -out:compat53/string.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib lstrlib.obj
+cl /nologo /MD /O2 -c -Folutf8lib.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src lutf8lib.c
+link -dll -def:utf8.def -out:compat53/utf8.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib lutf8lib.obj
+cl /nologo /MD /O2 -c -Foltablib.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src ltablib.c
+link -dll -def:table.def -out:compat53/table.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib ltablib.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+compat53 0.5-1 is now built and installed in C:\ste\x86\luarockstree (license: MIT)
+

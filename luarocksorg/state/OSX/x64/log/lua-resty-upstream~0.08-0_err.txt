@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-resty-upstream 0.08-0: lua-resty-http >= 0.09
+Missing dependency for lua-resty-upstream 0.08-0: lua-resty-http >= 0.09

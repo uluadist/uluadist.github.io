@@ -1,0 +1,11 @@
+CMake Error at C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake:148 (message):
+  Could NOT find Lua51 (missing: LUA_LIBRARIES LUA_INCLUDE_DIR)
+Call Stack (most recent call first):
+  C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake:388 (_FPHSA_FAILURE_MESSAGE)
+  C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/FindLua51.cmake:94 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  CMakeLists.txt:3 (find_package)
+
+
+Warning: skipping dependency checks.
+
+Error: Build error: Failed cmake.

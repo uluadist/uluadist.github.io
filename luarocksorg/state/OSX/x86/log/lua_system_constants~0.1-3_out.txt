@@ -1,0 +1,5 @@
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -c -O2 -fPIC -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include lua_system_constants.c -o lua_system_constants.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -L/Users/sp/Dropbox/OSX/x86/luajit/lib -o lua_system_constants.so lua_system_constants.o
+/Users/sp/Dropbox/OSX/x86/luajit/bin/lua test/lua_system_constants_test.lua
+Installing https://rocks.moonscript.org/lua_system_constants-0.1-3.rockspec...
+Using https://rocks.moonscript.org/lua_system_constants-0.1-3.rockspec... switching to 'build' mode

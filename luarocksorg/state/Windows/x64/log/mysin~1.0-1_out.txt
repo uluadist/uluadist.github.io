@@ -1,0 +1,10 @@
+library.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mysin.def : error LNK2001: unresolved external symbol luaopen_mysin
+mysin.lib : fatal error LNK1120: 1 unresolved externals
+Installing https://luarocks.org/mysin-1.0-1.src.rock...
+Using https://luarocks.org/mysin-1.0-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folibrary.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src library.c
+link -dll -def:mysin.def -out:mysin.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib library.obj

@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-resty-jit-uuid-0.0.4-1.rockspec...
+Using https://luarocks.org/lua-resty-jit-uuid-0.0.4-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-resty-jit-uuid-0.0.4-1-30/lua-resty-jit-uuid/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-resty-jit-uuid 0.0.4-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

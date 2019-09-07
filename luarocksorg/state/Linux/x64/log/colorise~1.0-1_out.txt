@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/colorise-1.0-1.rockspec...
+Using https://rocks.moonscript.org/colorise-1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_colorise-1.0-1-9090/colorise-lua/.git/
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+colorise 1.0-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

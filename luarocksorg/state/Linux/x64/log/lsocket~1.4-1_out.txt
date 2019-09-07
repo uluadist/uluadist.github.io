@@ -1,0 +1,9 @@
+gcc -O2 -fPIC -I/home/sp/luajit//include -c lsocket.c -o lsocket.o
+gcc -shared  -o lsocket.so lsocket.o
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/lsocket/1.4-1/lib
+cp lsocket.so /home/sp/luarockstree/lib/luarocks/rocks/lsocket/1.4-1/lib
+Installing https://rocks.moonscript.org/lsocket-1.4-1.src.rock...
+Using https://rocks.moonscript.org/lsocket-1.4-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lsocket 1.4-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

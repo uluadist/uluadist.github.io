@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: cannot stat `validate/args.lua': No such file or directory
+
+Error: Build error: Failed installing validate/args.lua in /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/validate-args/1.5.9-1/lua/validate/args.lua

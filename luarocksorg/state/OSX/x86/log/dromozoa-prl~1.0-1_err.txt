@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+make: *** No rule to make target `/Library/Frameworks/ParallelsVirtualizationSDK.framework/Headers/PrlKeys.h', needed by `key.hpp'.  Stop.
+
+Error: Build error: Failed building.

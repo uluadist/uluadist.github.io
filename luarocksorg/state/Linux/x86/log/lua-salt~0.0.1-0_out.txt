@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-salt-0.0.1-0.rockspec...
+Using https://luarocks.org/lua-salt-0.0.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-salt-0.0.1-0-9364/lua-salt/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-salt 0.0.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

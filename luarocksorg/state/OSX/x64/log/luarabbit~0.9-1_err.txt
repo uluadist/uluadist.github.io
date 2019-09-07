@@ -1,0 +1,27 @@
+Warning: skipping dependency checks.
+src/luarabbit.c:88:24: warning: passing 'const char *' to parameter of type 'const u8 *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        ECRYPT_keysetup(&ctx, k, 16, 8);
+                              ^
+src/rabbit-sync.h:88:13: note: passing argument to parameter 'key' here
+  const u8* key, 
+            ^
+src/luarabbit.c:89:23: warning: passing 'const char *' to parameter of type 'const u8 *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        ECRYPT_ivsetup(&ctx, iv);
+                             ^~
+src/rabbit-sync.h:100:13: note: passing argument to parameter 'iv' here
+  const u8* iv);
+            ^
+src/luarabbit.c:90:32: warning: passing 'const char *' to parameter of type 'const u8 *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        ECRYPT_process_bytes(0, &ctx, p, e, pln); // 1st param is ignored
+                                      ^
+src/rabbit-sync.h:159:13: note: passing argument to parameter 'input' here
+  const u8* input, 
+            ^
+src/luarabbit.c:90:35: warning: passing 'char *' to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        ECRYPT_process_bytes(0, &ctx, p, e, pln); // 1st param is ignored
+                                         ^
+src/rabbit-sync.h:160:7: note: passing argument to parameter 'output' here
+  u8* output, 
+      ^
+4 warnings generated.
+No existing manifest. Attempting to rebuild...

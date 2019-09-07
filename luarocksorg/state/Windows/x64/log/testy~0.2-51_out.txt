@@ -1,0 +1,5 @@
+Installing https://luarocks.org/testy-0.2-51.src.rock...
+Using https://luarocks.org/testy-0.2-51.src.rock... switching to 'build' mode
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+testy 0.2-51 is now built and installed in C:\ste\x64\luarockstree (license: MIT)
+

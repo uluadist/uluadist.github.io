@@ -1,0 +1,14 @@
+lsqlite3.c
+sqlite3.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library lsqlite3complete.lib and object lsqlite3complete.exp
+Installing https://luarocks.org/lsqlite3complete-0.9.5-1.src.rock...
+Using https://luarocks.org/lsqlite3complete-0.9.5-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folsqlite3.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src lsqlite3.c -DLSQLITE_VERSION="0.9.5" -Dluaopen_lsqlite3=luaopen_lsqlite3complete
+cl /nologo /MD /O2 -c -Fosqlite3.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src sqlite3.c -DLSQLITE_VERSION="0.9.5" -Dluaopen_lsqlite3=luaopen_lsqlite3complete
+link -dll -def:lsqlite3complete.def -out:lsqlite3complete.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib lsqlite3.obj sqlite3.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+lsqlite3complete 0.9.5-1 is now built and installed in C:\ste\x64\luarockstree (license: MIT)
+

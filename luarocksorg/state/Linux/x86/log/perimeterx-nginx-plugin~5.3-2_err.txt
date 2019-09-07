@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+install: cannot create directory `//usr/local/lib/lua': Permission denied
+make: *** [install] Error 1
+
+Error: Build error: Failed installing.

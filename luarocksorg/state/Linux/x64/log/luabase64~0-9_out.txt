@@ -1,0 +1,9 @@
+Installing https://luarocks.org/luabase64-0-9.src.rock...
+Using https://luarocks.org/luabase64-0-9.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/LuaBase64.c -o src/LuaBase64.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/b64enc.c -o src/b64enc.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/b64dec.c -o src/b64dec.o
+gcc -shared -o LuaBase64/c.so -L/home/sp/Dropbox/Linux/x64/luajit//lib src/LuaBase64.o src/b64enc.o src/b64dec.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+luabase64 0-9 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

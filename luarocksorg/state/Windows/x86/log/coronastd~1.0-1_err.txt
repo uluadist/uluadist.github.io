@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for coronastd 1.0-1: luacheck >= 0.17.0
+Missing dependency for coronastd 1.0-1: luacheck >= 0.17.0

@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for wiola 0.5.1-1: luarestyredis 
+Missing dependency for wiola 0.5.1-1: lua-messagepack >= 0.3
+Missing dependency for wiola 0.5.1-1: rapidjson >= 0.3
+Missing dependency for wiola 0.5.1-1: luarestyredis 
+Missing dependency for wiola 0.5.1-1: lua-messagepack >= 0.3
+Missing dependency for wiola 0.5.1-1: rapidjson >= 0.3

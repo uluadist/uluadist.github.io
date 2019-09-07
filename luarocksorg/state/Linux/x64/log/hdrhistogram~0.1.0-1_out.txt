@@ -1,0 +1,4 @@
+Installing https://luarocks.org/hdrhistogram-0.1.0-1.rockspec...
+Using https://luarocks.org/hdrhistogram-0.1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_hdrhistogram-0.1.0-1-7277/lua_hdrhistogram/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c hdr_histogram.c -o hdr_histogram.o -DDIST_VERSION="0.1.0"

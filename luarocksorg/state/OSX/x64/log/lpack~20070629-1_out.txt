@@ -1,0 +1,8 @@
+Installing https://rocks.moonscript.org/lpack-20070629-1.src.rock...
+Using https://rocks.moonscript.org/lpack-20070629-1.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lpack.c -o lpack.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o pack.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lpack.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lpack 20070629-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: Public domain)
+

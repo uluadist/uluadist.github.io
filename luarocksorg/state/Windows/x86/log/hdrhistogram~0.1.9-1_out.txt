@@ -1,0 +1,13 @@
+hdr_histogram.c
+lua_hdrhistogram.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library hdrhistogram/hdr.lib and object hdrhistogram/hdr.exp
+hdr_histogram.obj : error LNK2019: unresolved external symbol ___builtin_clzll referenced in function _counts_index_for
+hdrhistogram/hdr.dll : fatal error LNK1120: 1 unresolved externals
+Installing https://luarocks.org/hdrhistogram-0.1.9-1.src.rock...
+Using https://luarocks.org/hdrhistogram-0.1.9-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fohdr_histogram.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src hdr_histogram.c -DDIST_VERSION="0.1.9"
+cl /nologo /MD /O2 -c -Folua_hdrhistogram.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src lua_hdrhistogram.c -DDIST_VERSION="0.1.9"
+link -dll -def:hdr.def -out:hdrhistogram/hdr.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib hdr_histogram.obj lua_hdrhistogram.obj

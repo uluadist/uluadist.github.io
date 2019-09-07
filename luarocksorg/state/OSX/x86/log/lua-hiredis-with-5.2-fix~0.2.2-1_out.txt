@@ -1,0 +1,12 @@
+Installing https://luarocks.org/lua-hiredis-with-5.2-fix-0.2.2-1.rockspec...
+Using https://luarocks.org/lua-hiredis-with-5.2-fix-0.2.2-1.rockspec... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/lua-hiredis.c -o src/lua-hiredis.o -Isrc/ -Ilib/ -Ilib/hiredis/
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c lib/hiredis/net.c -o lib/hiredis/net.o -Isrc/ -Ilib/ -Ilib/hiredis/
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c lib/hiredis/async.c -o lib/hiredis/async.o -Isrc/ -Ilib/ -Ilib/hiredis/
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c lib/hiredis/dict.c -o lib/hiredis/dict.o -Isrc/ -Ilib/ -Ilib/hiredis/
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c lib/hiredis/hiredis.c -o lib/hiredis/hiredis.o -Isrc/ -Ilib/ -Ilib/hiredis/
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c lib/hiredis/sds.c -o lib/hiredis/sds.o -Isrc/ -Ilib/ -Ilib/hiredis/
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o hiredis.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/lua-hiredis.o lib/hiredis/net.o lib/hiredis/async.o lib/hiredis/dict.o lib/hiredis/hiredis.o lib/hiredis/sds.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lua-hiredis-with-5.2-fix 0.2.2-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

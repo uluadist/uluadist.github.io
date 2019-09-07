@@ -1,0 +1,5 @@
+Installing https://rocks.moonscript.org/middleclass-3.1-0.rockspec...
+Using https://rocks.moonscript.org/middleclass-3.1-0.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+middleclass 3.1-0 is now built and installed in /home/sp/luarockstree (license: MIT)
+

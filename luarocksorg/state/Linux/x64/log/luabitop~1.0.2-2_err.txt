@@ -1,0 +1,2 @@
+
+Error: Rock luabitop 2.0.4-1 was found but it is provided by VM or 'rocks_provided' in the config file.

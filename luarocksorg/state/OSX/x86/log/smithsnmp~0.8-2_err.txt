@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+core/agentx_tcp_transport.c:23:10: fatal error: 'sys/signalfd.h' file not found
+#include <sys/signalfd.h>
+         ^
+1 error generated.
+
+Error: Build error: Failed compiling object core/agentx_tcp_transport.o

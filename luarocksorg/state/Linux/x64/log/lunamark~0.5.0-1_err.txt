@@ -1,0 +1,22 @@
+Warning: skipping dependency checks.
+Note: checking out '0.5.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at 572b8fa... Bump version to 0.5.0, update changelog.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lunamark 0.5.0-1: luautf8 >= 0.1.1
+Missing dependency for lunamark 0.5.0-1: lpeg >= 0.10
+Missing dependency for lunamark 0.5.0-1: alt-getopt >= 0.7
+Missing dependency for lunamark 0.5.0-1: cosmo >= 10.0
+Missing dependency for lunamark 0.5.0-1: luautf8 >= 0.1.1
+Missing dependency for lunamark 0.5.0-1: lpeg >= 0.10
+Missing dependency for lunamark 0.5.0-1: alt-getopt >= 0.7
+Missing dependency for lunamark 0.5.0-1: cosmo >= 10.0

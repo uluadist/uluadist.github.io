@@ -1,0 +1,9 @@
+Installing https://luarocks.org/brieflz-0.1.2-1.src.rock...
+Using https://luarocks.org/brieflz-0.1.2-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/brieflz.c -o src/brieflz.o -Ivendor/brieflz
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c vendor/brieflz/brieflz.c -o vendor/brieflz/brieflz.o -Ivendor/brieflz
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c vendor/brieflz/depacks.c -o vendor/brieflz/depacks.o -Ivendor/brieflz
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o brieflz.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib src/brieflz.o vendor/brieflz/brieflz.o vendor/brieflz/depacks.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+brieflz 0.1.2-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: zlib)
+

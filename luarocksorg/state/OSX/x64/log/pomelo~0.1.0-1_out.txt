@@ -1,0 +1,36 @@
+-- The C compiler identification is AppleClang 7.0.2.7000181
+-- The CXX compiler identification is AppleClang 7.0.2.7000181
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x64/cc
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x64/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Users/sp/Dropbox/Bin/OSX/x64/c++
+-- Check for working CXX compiler: /Users/sp/Dropbox/Bin/OSX/x64/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could NOT find PkgConfig (missing:  PKG_CONFIG_EXECUTABLE) 
+-- Looking for dlopen in dl
+-- Looking for dlopen in dl - found
+-- Looking for kstat_lookup in kstat
+-- Looking for kstat_lookup in kstat - not found
+-- Looking for kvm_open in kvm
+-- Looking for kvm_open in kvm - not found
+-- Looking for gethostbyname in nsl
+-- Looking for gethostbyname in nsl - not found
+-- Looking for perfstat_cpu in perfstat
+-- Looking for perfstat_cpu in perfstat - not found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - not found
+-- Looking for sendfile in sendfile
+-- Looking for sendfile in sendfile - not found
+-- Could NOT find LibUV (missing:  LIBUV_LIBRARY LIBUV_INCLUDE_DIR) 
+-- Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the system variable OPENSSL_ROOT_DIR (missing:  OPENSSL_INCLUDE_DIR) 
+-- Configuring incomplete, errors occurred!
+See also "/tmp/luarocks_pomelo-0.1.0-1-5012/lua-pomelo/build.luarocks/CMakeFiles/CMakeOutput.log".
+See also "/tmp/luarocks_pomelo-0.1.0-1-5012/lua-pomelo/build.luarocks/CMakeFiles/CMakeError.log".
+Installing https://luarocks.org/pomelo-0.1.0-1.src.rock...
+Using https://luarocks.org/pomelo-0.1.0-1.src.rock... switching to 'build' mode

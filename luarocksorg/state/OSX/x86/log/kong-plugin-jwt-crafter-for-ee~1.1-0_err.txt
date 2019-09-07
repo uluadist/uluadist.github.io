@@ -1,0 +1,18 @@
+Warning: skipping dependency checks.
+Cloning into 'kong-plugin-jwt-crafter-for-ee'...
+Note: checking out 'a4c51d2d13715955298b9cc6a198fff2874f3ec8'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+No existing manifest. Attempting to rebuild...
+Missing dependency for kong-plugin-jwt-crafter-for-ee 1.1-0: lua-resty-jwt >= 0.1.10-1
+Missing dependency for kong-plugin-jwt-crafter-for-ee 1.1-0: inspect ~> 3.1.0
+Missing dependency for kong-plugin-jwt-crafter-for-ee 1.1-0: lua-resty-jwt >= 0.1.10-1
+Missing dependency for kong-plugin-jwt-crafter-for-ee 1.1-0: inspect ~> 3.1.0

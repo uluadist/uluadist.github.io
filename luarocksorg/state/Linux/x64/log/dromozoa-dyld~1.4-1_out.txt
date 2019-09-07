@@ -1,0 +1,11 @@
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c handle.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c module.cpp
+g++ -Ibind -I/home/sp/Dropbox/Linux/x64/luajit//include -Wall -W -O2 -fPIC -c symbol.cpp
+g++ -L/home/sp/Dropbox/Linux/x64/luajit//lib -shared handle.o module.o symbol.o -ldl -o dyld.so
+mkdir -p /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/dromozoa-dyld/1.4-1/lib/dromozoa
+cp dyld.so /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/dromozoa-dyld/1.4-1/lib/dromozoa
+Installing https://luarocks.org/dromozoa-dyld-1.4-1.src.rock...
+Using https://luarocks.org/dromozoa-dyld-1.4-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+dromozoa-dyld 1.4-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: GPL-3)
+

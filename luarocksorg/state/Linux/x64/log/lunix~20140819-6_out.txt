@@ -1,0 +1,4 @@
+test "5.1" = ""
+Installing https://rocks.moonscript.org/lunix-20140819-6.src.rock...
+Using https://rocks.moonscript.org/lunix-20140819-6.src.rock... switching to 'build' mode
+make all5.1

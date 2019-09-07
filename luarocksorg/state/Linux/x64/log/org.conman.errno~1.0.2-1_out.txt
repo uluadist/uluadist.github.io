@@ -1,0 +1,7 @@
+Installing https://luarocks.org/org.conman.errno-1.0.2-1.src.rock...
+Using https://luarocks.org/org.conman.errno-1.0.2-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c errno.c -o errno.o
+gcc -shared -o org/conman/errno.so -L/home/sp/Dropbox/Linux/x64/luajit//lib errno.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+org.conman.errno 1.0.2-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: LGPL)
+

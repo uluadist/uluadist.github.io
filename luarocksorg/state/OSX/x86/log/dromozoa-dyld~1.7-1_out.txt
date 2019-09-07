@@ -1,0 +1,11 @@
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x86/luajit//include -Wall -W -O2 -fPIC -c handle.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x86/luajit//include -Wall -W -O2 -fPIC -c module.cpp
+c++ -Ibind -I/Users/sp/Dropbox/OSX/x86/luajit//include -Wall -W -O2 -fPIC -c symbol.cpp
+c++ -L/Users/sp/Dropbox/OSX/x86/luajit//lib -bundle -undefined dynamic_lookup -all_load handle.o module.o symbol.o -ldl -o dyld.so
+mkdir -p /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/dromozoa-dyld/1.7-1/lib/dromozoa
+cp dyld.so /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/dromozoa-dyld/1.7-1/lib/dromozoa
+Installing https://luarocks.org/dromozoa-dyld-1.7-1.src.rock...
+Using https://luarocks.org/dromozoa-dyld-1.7-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+dromozoa-dyld 1.7-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: GPL-3)
+

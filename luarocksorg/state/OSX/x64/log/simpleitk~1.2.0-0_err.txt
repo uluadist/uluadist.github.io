@@ -1,0 +1,20 @@
+Warning: skipping dependency checks.
+Warning: unmatched variable CMAKE_BUILD_TYPE
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CFLAGS
+
+
+Cloning into 'SimpleITKSuperbuild'...
+Checking out files:  38% (625/1616)   Checking out files:  39% (631/1616)   Checking out files:  40% (647/1616)   Checking out files:  41% (663/1616)   Checking out files:  42% (679/1616)   Checking out files:  43% (695/1616)   Checking out files:  44% (712/1616)   Checking out files:  45% (728/1616)   Checking out files:  46% (744/1616)   Checking out files:  47% (760/1616)   Checking out files:  48% (776/1616)   Checking out files:  49% (792/1616)   Checking out files:  50% (808/1616)   Checking out files:  51% (825/1616)   Checking out files:  52% (841/1616)   Checking out files:  53% (857/1616)   Checking out files:  54% (873/1616)   Checking out files:  55% (889/1616)   Checking out files:  56% (905/1616)   Checking out files:  57% (922/1616)   Checking out files:  58% (938/1616)   Checking out files:  59% (954/1616)   Checking out files:  60% (970/1616)   Checking out files:  61% (986/1616)   Checking out files:  62% (1002/1616)   Checking out files:  63% (1019/1616)   Checking out files:  64% (1035/1616)   Checking out files:  65% (1051/1616)   Checking out files:  66% (1067/1616)   Checking out files:  67% (1083/1616)   Checking out files:  68% (1099/1616)   Checking out files:  69% (1116/1616)   Checking out files:  70% (1132/1616)   Checking out files:  71% (1148/1616)   Checking out files:  72% (1164/1616)   Checking out files:  73% (1180/1616)   Checking out files:  74% (1196/1616)   Checking out files:  75% (1212/1616)   Checking out files:  76% (1229/1616)   Checking out files:  77% (1245/1616)   Checking out files:  78% (1261/1616)   Checking out files:  79% (1277/1616)   Checking out files:  80% (1293/1616)   Checking out files:  81% (1309/1616)   Checking out files:  82% (1326/1616)   Checking out files:  83% (1342/1616)   Checking out files:  84% (1358/1616)   Checking out files:  85% (1374/1616)   Checking out files:  86% (1390/1616)   Checking out files:  87% (1406/1616)   Checking out files:  88% (1423/1616)   Checking out files:  89% (1439/1616)   Checking out files:  90% (1455/1616)   Checking out files:  91% (1471/1616)   Checking out files:  92% (1487/1616)   Checking out files:  93% (1503/1616)   Checking out files:  94% (1520/1616)   Checking out files:  95% (1536/1616)   Checking out files:  96% (1552/1616)   Checking out files:  97% (1568/1616)   Checking out files:  98% (1584/1616)   Checking out files:  98% (1594/1616)   Checking out files:  99% (1600/1616)   Checking out files: 100% (1616/1616)   Checking out files: 100% (1616/1616), done.
+Already on 'master'
+CMake Error at CMakeLists.txt:15 (cmake_minimum_required):
+  CMake 3.10 or higher is required.  You are running version 3.3.1
+
+
+make[2]: *** [SimpleITKSuperbuild-prefix/src/SimpleITKSuperbuild-stamp/SimpleITKSuperbuild-configure] Error 1
+make[1]: *** [CMakeFiles/SimpleITKSuperbuild.dir/all] Error 2
+make: *** [all] Error 2
+
+Error: Build error: Failed building.

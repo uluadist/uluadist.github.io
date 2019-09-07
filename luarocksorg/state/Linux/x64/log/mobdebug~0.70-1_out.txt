@@ -1,0 +1,6 @@
+Installing https://luarocks.org/mobdebug-0.70-1.rockspec...
+Using https://luarocks.org/mobdebug-0.70-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_mobdebug-0.70-1-7924/MobDebug/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+mobdebug 0.70-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

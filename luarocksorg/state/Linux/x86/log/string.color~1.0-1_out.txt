@@ -1,0 +1,6 @@
+Installing https://luarocks.org/string.color-1.0-1.rockspec...
+Using https://luarocks.org/string.color-1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_string.color-1.0-1-8032/string.color/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+string.color 1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

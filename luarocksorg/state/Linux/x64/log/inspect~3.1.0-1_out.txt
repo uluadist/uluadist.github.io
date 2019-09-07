@@ -1,0 +1,5 @@
+Installing https://luarocks.org/inspect-3.1.0-1.rockspec...
+Using https://luarocks.org/inspect-3.1.0-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+inspect 3.1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT <http://opensource.org/licenses/MIT>)
+

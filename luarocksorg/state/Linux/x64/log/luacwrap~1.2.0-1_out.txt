@@ -1,0 +1,13 @@
+Installing https://rocks.moonscript.org/luacwrap-1.2.0-1.rockspec...
+Using https://rocks.moonscript.org/luacwrap-1.2.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_luacwrap-1.2.0-1-5397/luacwrap/.git/
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/testluacwrap.c -o src/testluacwrap.o -I./include
+gcc -shared -o testluacwrap.so -L/home/sp/luajit//lib src/testluacwrap.o
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/luaaux.c -o src/luaaux.o -I./include
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/luacwrap.c -o src/luacwrap.o -I./include
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/wrapnumeric.c -o src/wrapnumeric.o -I./include
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/defconstants.c -o src/defconstants.o -I./include
+gcc -shared -o luacwrap.so -L/home/sp/luajit//lib src/luaaux.o src/luacwrap.o src/wrapnumeric.o src/defconstants.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+luacwrap 1.2.0-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

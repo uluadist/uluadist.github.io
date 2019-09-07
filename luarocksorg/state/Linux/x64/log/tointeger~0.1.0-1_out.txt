@@ -1,0 +1,8 @@
+Installing https://luarocks.org/tointeger-0.1.0-1.rockspec...
+Using https://luarocks.org/tointeger-0.1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_tointeger-0.1.0-1-1208/lua-tointeger/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/implc.c -o src/implc.o
+gcc -shared -o tointeger/implc.so -L/home/sp/Dropbox/Linux/x64/luajit//lib src/implc.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+tointeger 0.1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

@@ -1,0 +1,27 @@
+Parser.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\exception(361): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+dub.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\exception(361): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+xml_Parser.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\exception(361): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+xml_core.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\exception(361): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+xml_core.obj : warning LNK4197: export 'luaopen_xml_core' specified multiple times; using first specification
+   Creating library xml/core.lib and object xml/core.exp
+Installing https://luarocks.org/xml-1.1.3-1.src.rock...
+Using https://luarocks.org/xml-1.1.3-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/Parser.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/Parser.cpp -Iinclude -Isrc/bind -Isrc/vendor
+cl /nologo /MD /O2 -c -Fosrc/bind/dub/dub.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/bind/dub/dub.cpp -Iinclude -Isrc/bind -Isrc/vendor
+cl /nologo /MD /O2 -c -Fosrc/bind/xml_Parser.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/bind/xml_Parser.cpp -Iinclude -Isrc/bind -Isrc/vendor
+cl /nologo /MD /O2 -c -Fosrc/bind/xml_core.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ src/bind/xml_core.cpp -Iinclude -Isrc/bind -Isrc/vendor
+link -dll -def:core.def -out:xml/core.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib src/Parser.obj src/bind/dub/dub.obj src/bind/xml_Parser.obj src/bind/xml_core.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+xml 1.1.3-1 is now built and installed in C:\ste\x64\luarockstree (license: MIT)
+

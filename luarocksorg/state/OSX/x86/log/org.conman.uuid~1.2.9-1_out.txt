@@ -1,0 +1,5 @@
+mkdir so
+mkdir lib
+c99 -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -fPIC -undefined dynamic_lookup -all_load -c -o so/luauuid.o src/luauuid.c
+Installing https://luarocks.org/org.conman.uuid-1.2.9-1.src.rock...
+Using https://luarocks.org/org.conman.uuid-1.2.9-1.src.rock... switching to 'build' mode

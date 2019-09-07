@@ -1,0 +1,17 @@
+Warning: skipping dependency checks.
+Cloning into 'odielak'...
+Note: checking out '92038d26fc5a6c64aa1163285e5f8a4d9648f723'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+clang: error: invalid argument '-bundle' not allowed with '-dynamiclib'
+make: *** [odielak.so] Error 1
+
+Error: Build error: Failed installing.

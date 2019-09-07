@@ -1,0 +1,9 @@
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c lpc.c -o lpc.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o lpc.so lpc.o
+install -d /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lpc/1.0.0-2/lib
+install lpc.so /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lpc/1.0.0-2/lib
+Installing https://luarocks.org/lpc-1.0.0-2.src.rock...
+Using https://luarocks.org/lpc-1.0.0-2.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lpc 1.0.0-2 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

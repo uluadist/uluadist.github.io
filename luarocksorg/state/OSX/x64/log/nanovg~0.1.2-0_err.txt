@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+lua-nanovg.c:16:10: fatal error: 'nanovg/src/nanovg.h' file not found
+#include "nanovg/src/nanovg.h"
+         ^
+1 error generated.
+
+Error: Build error: Failed compiling object lua-nanovg.o

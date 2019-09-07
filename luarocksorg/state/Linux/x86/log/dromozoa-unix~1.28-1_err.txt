@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+configure: error: could not find lua
+
+Error: Build error: Failed building.

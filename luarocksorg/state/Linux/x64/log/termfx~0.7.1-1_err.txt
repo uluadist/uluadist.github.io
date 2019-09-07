@@ -1,0 +1,16 @@
+Warning: skipping dependency checks.
+../src/termbox.c: In function ‘sigwinch_handler’:
+../src/termbox.c:582:7: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+  write(winch_fds[1], &zzz, sizeof(int));
+       ^
+In file included from ../src/termbox.c:19:0:
+../src/bytebuffer.inl: In function ‘bytebuffer_flush’:
+../src/bytebuffer.inl:58:7: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+  write(fd, b->buf, b->len);
+       ^
+../src/termbox.c: In function ‘wait_fill_event’:
+../src/termbox.c:672:8: warning: ignoring return value of ‘read’, declared with attribute warn_unused_result [-Wunused-result]
+    read(winch_fds[0], &zzz, sizeof(int));
+        ^
+
+No existing manifest. Attempting to rebuild...

@@ -1,0 +1,8 @@
+Initialized empty Git repository in /tmp/luarocks_lpath-0.1.0-1-6169/lpath/.git/
+Installing https://rocks.moonscript.org/lpath-0.1.0-1.rockspec...
+Using https://rocks.moonscript.org/lpath-0.1.0-1.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c lpath.c -o lpath.o
+gcc -shared -o path.so -L/home/sp/luajit//lib lpath.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lpath 0.1.0-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

@@ -1,0 +1,16 @@
+Warning: skipping dependency checks.
+Note: checking out '0.1.1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at 8c98db5... Release 0.1.1
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-resty-consul-event 0.1.1-0: lua-resty-http == 0.12
+Missing dependency for lua-resty-consul-event 0.1.1-0: lua-resty-http == 0.12

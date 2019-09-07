@@ -1,0 +1,10 @@
+-- The C compiler identification is GNU
+-- Found assembler: /usr/bin/as
+-- Check for working C compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/gcc
+-- Check for working C compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Loaded CMakeASMInformation - ASM support is still experimental, please report issues
+-- Configuring incomplete, errors occurred!
+Installing https://luarocks.org/luv-1.8.0-4.src.rock...
+Using https://luarocks.org/luv-1.8.0-4.src.rock... switching to 'build' mode

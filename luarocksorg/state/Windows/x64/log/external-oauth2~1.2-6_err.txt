@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Directory kong-external-oauth not found inside archive kong-external-oauth.git

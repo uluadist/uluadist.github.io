@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+LIBUV_INCLUDE_DIR (ADVANCED)
+   used as include directory in directory /tmp/luarocks_pomelo-0.1.0-1-5012/lua-pomelo
+LIBUV_LIBRARY (ADVANCED)
+    linked by target "pomelo" in directory /tmp/luarocks_pomelo-0.1.0-1-5012/lua-pomelo
+
+
+Error: Build error: Failed cmake.

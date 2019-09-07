@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for wagon 0.2.1-1: luafilesystem 
+Missing dependency for wagon 0.2.1-1: luafilesystem 

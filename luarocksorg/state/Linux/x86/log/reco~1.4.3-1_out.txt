@@ -1,0 +1,8 @@
+Installing https://luarocks.org/reco-1.4.3-1.rockspec...
+Using https://luarocks.org/reco-1.4.3-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_reco-1.4.3-1-5160/lua-reco/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/reco.c -o src/reco.o
+gcc -shared -o reco.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/reco.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+reco 1.4.3-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

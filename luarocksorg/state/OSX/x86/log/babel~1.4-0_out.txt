@@ -1,0 +1,71 @@
+Archive:  v1.4-0.zip
+20b32347ffb53378912939ba3603ab331d2c6f5f
+   creating: babel-1.4-0/
+  inflating: babel-1.4-0/.gitignore  
+  inflating: babel-1.4-0/.luacov     
+  inflating: babel-1.4-0/.travis.yml  
+  inflating: babel-1.4-0/.travis_setup.sh  
+  inflating: babel-1.4-0/.zappr.yaml  
+  inflating: babel-1.4-0/CHANGELOG.md  
+  inflating: babel-1.4-0/LICENSE     
+  inflating: babel-1.4-0/README.md   
+  inflating: babel-1.4-0/babel.lua   
+   creating: babel-1.4-0/locales/
+  inflating: babel-1.4-0/locales/ar_SA.lua  
+  inflating: babel-1.4-0/locales/ca_ES.lua  
+  inflating: babel-1.4-0/locales/cz_CZ.lua  
+  inflating: babel-1.4-0/locales/da_DK.lua  
+  inflating: babel-1.4-0/locales/de_DE.lua  
+  inflating: babel-1.4-0/locales/el_EL.lua  
+  inflating: babel-1.4-0/locales/en_AU.lua  
+  inflating: babel-1.4-0/locales/en_CA.lua  
+  inflating: babel-1.4-0/locales/en_NZ.lua  
+  inflating: babel-1.4-0/locales/en_UK.lua  
+  inflating: babel-1.4-0/locales/en_US.lua  
+  inflating: babel-1.4-0/locales/eo_EO.lua  
+  inflating: babel-1.4-0/locales/es_ES.lua  
+  inflating: babel-1.4-0/locales/fi_FI.lua  
+  inflating: babel-1.4-0/locales/fr_FR.lua  
+  inflating: babel-1.4-0/locales/he_IL.lua  
+  inflating: babel-1.4-0/locales/hi_IN.lua  
+  inflating: babel-1.4-0/locales/hr_HR.lua  
+  inflating: babel-1.4-0/locales/hu_HU.lua  
+  inflating: babel-1.4-0/locales/id_ID.lua  
+  inflating: babel-1.4-0/locales/it_IT.lua  
+  inflating: babel-1.4-0/locales/jp_JP.lua  
+  inflating: babel-1.4-0/locales/ko_KR.lua  
+  inflating: babel-1.4-0/locales/nl_NL.lua  
+  inflating: babel-1.4-0/locales/no_NO.lua  
+  inflating: babel-1.4-0/locales/pl_PL.lua  
+  inflating: babel-1.4-0/locales/pt_BR.lua  
+  inflating: babel-1.4-0/locales/ru_RU.lua  
+  inflating: babel-1.4-0/locales/se_SE.lua  
+  inflating: babel-1.4-0/locales/sk_SK.lua  
+  inflating: babel-1.4-0/locales/sr_SR.lua  
+  inflating: babel-1.4-0/locales/tr_TR.lua  
+  inflating: babel-1.4-0/locales/uk_UA.lua  
+  inflating: babel-1.4-0/locales/zh_CN.lua  
+  inflating: babel-1.4-0/locales/zh_HK.lua  
+  inflating: babel-1.4-0/locales/zh_TW.lua  
+   creating: babel-1.4-0/rockspecs/
+  inflating: babel-1.4-0/rockspecs/babel-1.0-1.rockspec  
+  inflating: babel-1.4-0/rockspecs/babel-1.1-1.rockspec  
+  inflating: babel-1.4-0/rockspecs/babel-1.2-1.rockspec  
+  inflating: babel-1.4-0/rockspecs/babel-1.2-2.rockspec  
+  inflating: babel-1.4-0/rockspecs/babel-1.2-3.rockspec  
+  inflating: babel-1.4-0/rockspecs/babel-1.3-0.rockspec  
+  inflating: babel-1.4-0/rockspecs/babel-1.4-0.rockspec  
+   creating: babel-1.4-0/tests/
+  inflating: babel-1.4-0/tests/date_spec.lua  
+  inflating: babel-1.4-0/tests/lib_spec.lua  
+  inflating: babel-1.4-0/tests/love_mocks.lua  
+  inflating: babel-1.4-0/tests/love_spec.lua  
+  inflating: babel-1.4-0/tests/nums_spec.lua  
+  inflating: babel-1.4-0/tests/text_spec.lua  
+   creating: babel-1.4-0/tests/translations/
+  inflating: babel-1.4-0/tests/translations/fr_FR.lua  
+Installing https://luarocks.org/babel-1.4-0.rockspec...
+Using https://luarocks.org/babel-1.4-0.rockspec... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+babel 1.4-0 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

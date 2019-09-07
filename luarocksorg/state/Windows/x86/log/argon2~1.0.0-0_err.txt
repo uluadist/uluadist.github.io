@@ -1,0 +1,17 @@
+Cloning into 'lua-argon2'...
+Note: checking out '5a4bf0dc2b0bfcfa6c11a1a8cca6e600299e4379'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+cl : Command line error D8004 : '/I' requires an argument
+Warning: skipping dependency checks.
+Warning: unmatched variable ARGON2_INCDIR
+
+Error: Build error: Failed compiling object largon2.obj

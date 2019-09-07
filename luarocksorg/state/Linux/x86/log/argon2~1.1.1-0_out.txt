@@ -1,0 +1,4 @@
+Installing https://luarocks.org/argon2-1.1.1-0.rockspec...
+Using https://luarocks.org/argon2-1.1.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_argon2-1.1.1-0-3004/lua-argon2/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/argon2.c -o src/argon2.o -I

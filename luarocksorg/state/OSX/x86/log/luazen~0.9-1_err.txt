@@ -1,0 +1,370 @@
+Warning: skipping dependency checks.
+Cloning into 'luazen'...
+Note: checking out 'cb849cb99f2f5cedf17062fb0e6f7f7ea1223dc0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+src/luazen.c:108:25: warning: passing 'unsigned char [256]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    lua_pushlstring (L, buf, li); 
+                        ^~~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+src/luazen.c:148:37: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        norx_aead_encrypt(buf+aadln, &cln, aad, aadln, m, mln, 
+                                           ^~~
+src/norx.h:49:30: note: passing argument to parameter 'a' here
+        const unsigned char *a, size_t alen,
+                             ^
+src/luazen.c:148:49: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        norx_aead_encrypt(buf+aadln, &cln, aad, aadln, m, mln, 
+                                                       ^
+src/norx.h:50:30: note: passing argument to parameter 'm' here
+        const unsigned char *m, size_t mlen,
+                             ^
+src/luazen.c:149:20: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                          zad, zadln, actn, k);
+                          ^~~
+src/norx.h:51:30: note: passing argument to parameter 'z' here
+        const unsigned char *z, size_t zlen,
+                             ^
+src/luazen.c:149:32: warning: passing 'char [32]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                          zad, zadln, actn, k);
+                                      ^~~~
+src/norx.h:52:30: note: passing argument to parameter 'nonce' here
+        const unsigned char *nonce, const unsigned char *key);
+                             ^
+src/luazen.c:149:38: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                          zad, zadln, actn, k);
+                                            ^
+src/norx.h:52:58: note: passing argument to parameter 'key' here
+        const unsigned char *nonce, const unsigned char *key);
+                                                         ^
+src/luazen.c:153:22: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, buf, bufln); 
+                            ^~~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+src/luazen.c:183:35: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = norx_aead_decrypt(buf, &mln, c, aadln, c+aadln, 
+                                         ^
+src/norx.h:56:30: note: passing argument to parameter 'a' here
+        const unsigned char *a, size_t alen,
+                             ^
+src/luazen.c:183:45: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = norx_aead_decrypt(buf, &mln, c, aadln, c+aadln, 
+                                                   ^~~~~~~
+src/norx.h:57:30: note: passing argument to parameter 'c' here
+        const unsigned char *c, size_t clen,
+                             ^
+src/luazen.c:184:16: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                  boxln, c+aadln+boxln, zadln, actn, k);
+                                                         ^~~~~~~~~~~~~
+src/norx.h:58:30: note: passing argument to parameter 'z' here
+        const unsigned char *z, size_t zlen,
+                             ^
+src/luazen.c:184:38: warning: passing 'char [32]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                  boxln, c+aadln+boxln, zadln, actn, k);
+                                                                               ^~~~
+src/norx.h:59:30: note: passing argument to parameter 'nonce' here
+        const unsigned char *nonce, const unsigned char *key);
+                             ^
+src/luazen.c:184:44: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                                  boxln, c+aadln+boxln, zadln, actn, k);
+                                                                                     ^
+src/norx.h:59:58: note: passing argument to parameter 'key' here
+        const unsigned char *nonce, const unsigned char *key);
+                                                         ^
+src/luazen.c:191:22: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, buf, mln); 
+                            ^~~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+src/luazen.c:211:22: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, pk, 32); 
+                            ^~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+src/luazen.c:212:22: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, sk, 32); 
+                            ^~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+src/luazen.c:225:31: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        crypto_x25519_public_key(pk, sk);
+                                     ^~
+src/mono.h:89:45: note: passing argument to parameter 'secret_key' here
+                              const uint8_t secret_key[32]);
+                                            ^
+src/luazen.c:226:22: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, pk, 32); 
+                            ^~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+src/luazen.c:249:47: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    int status = crypto_x25519(shared_secret, sk, pk);
+                                              ^~
+src/mono.h:85:33: note: passing argument to parameter 'your_secret_key' here
+                  const uint8_t your_secret_key [32],
+                                ^
+src/luazen.c:249:51: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    int status = crypto_x25519(shared_secret, sk, pk);
+                                                  ^~
+src/mono.h:86:33: note: passing argument to parameter 'their_public_key' here
+                  const uint8_t their_public_key[32]);
+                                ^
+src/luazen.c:251:21: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring(L, k, 32); 
+                           ^
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+src/luazen.c:268:28: warning: passing 'char [64]' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    crypto_blake2b_general(digest, 64, 0, 0, m, mln);
+                           ^~~~~~
+src/mono.h:63:44: note: passing argument to parameter 'hash' here
+void crypto_blake2b_general(uint8_t       *hash    , size_t hash_size,
+                                           ^
+src/luazen.c:268:46: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    crypto_blake2b_general(digest, 64, 0, 0, m, mln);
+                                             ^
+src/mono.h:65:44: note: passing argument to parameter 'message' here
+                            const uint8_t *message , size_t message_size);
+                                           ^
+src/luazen.c:290:13: warning: comparison of unsigned expression < 0 is always false [-Wtautological-compare]
+        if ((keyln < 0)||(keyln > 64)) LERR("bad key size");
+             ~~~~~ ^ ~
+src/luazen.c:294:45: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    crypto_blake2b_general_init(ctx, digln, key, keyln);
+                                            ^~~
+src/mono.h:54:54: note: passing argument to parameter 'key' here
+                                 const uint8_t      *key, size_t key_size);
+                                                     ^
+src/luazen.c:310:32: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    crypto_blake2b_update(ctx, t, tln);
+                               ^
+src/mono.h:59:43: note: passing argument to parameter 'message' here
+                           const uint8_t *message, size_t message_size);
+                                          ^
+src/luazen.c:329:25: warning: passing 'unsigned char [64]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    lua_pushlstring (L, dig, digln); 
+                        ^~~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+src/luazen.c:345:22: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, pk, 32); 
+                            ^~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+src/luazen.c:346:22: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, sk, 32); 
+                            ^~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+src/luazen.c:359:29: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        crypto_sign_public_key(pk, sk);
+                                   ^~
+src/mono.h:96:44: note: passing argument to parameter 'secret_key' here
+                            const uint8_t  secret_key[32]);
+                                           ^
+src/luazen.c:360:22: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, pk, 32); 
+                            ^~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+src/luazen.c:378:19: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        crypto_sign(sig, sk, pk, m, mln);
+                         ^~
+src/mono.h:99:33: note: passing argument to parameter 'secret_key' here
+                 const uint8_t  secret_key[32],
+                                ^
+src/luazen.c:378:23: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        crypto_sign(sig, sk, pk, m, mln);
+                             ^~
+src/mono.h:100:33: note: passing argument to parameter 'public_key' here
+                 const uint8_t  public_key[32], // optional, may be 0
+                                ^
+src/luazen.c:378:27: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        crypto_sign(sig, sk, pk, m, mln);
+                                 ^
+src/mono.h:101:33: note: passing argument to parameter 'message' here
+                 const uint8_t *message, size_t message_size);
+                                ^
+src/luazen.c:379:22: warning: passing 'unsigned char [64]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, sig, 64); 
+                            ^~~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+src/luazen.c:397:19: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_check(sig, pk, m, mln);
+                         ^~~
+src/mono.h:103:33: note: passing argument to parameter 'signature' here
+int crypto_check(const uint8_t  signature [64],
+                                ^
+src/luazen.c:397:24: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_check(sig, pk, m, mln);
+                              ^~
+src/mono.h:104:33: note: passing argument to parameter 'public_key' here
+                 const uint8_t  public_key[32],
+                                ^
+src/luazen.c:397:28: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_check(sig, pk, m, mln);
+                                  ^
+src/mono.h:105:33: note: passing argument to parameter 'message' here
+                 const uint8_t *message, size_t message_size);
+                                ^
+src/luazen.c:424:6: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                                        pw, pwln, salt, saltln, 
+                                        ^~
+src/mono.h:76:36: note: passing argument to parameter 'password' here
+                    const uint8_t *password,  uint32_t password_size,
+                                   ^
+src/luazen.c:424:16: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                                        pw, pwln, salt, saltln, 
+                                                  ^~~~
+src/mono.h:77:36: note: passing argument to parameter 'salt' here
+                    const uint8_t *salt,      uint32_t salt_size,     // >= 8
+                                   ^
+src/luazen.c:425:6: warning: passing 'char [1]' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                                        "", 0, "", 0    // optional key and additional data
+                                        ^~
+src/mono.h:78:36: note: passing argument to parameter 'key' here
+                    const uint8_t *key,       uint32_t key_size,      // optional
+                                   ^
+src/luazen.c:425:13: warning: passing 'char [1]' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+                                        "", 0, "", 0    // optional key and additional data
+                                               ^~
+src/mono.h:79:36: note: passing argument to parameter 'ad' here
+                    const uint8_t *ad,        uint32_t ad_size);      // optional
+                                   ^
+src/luazen.c:428:22: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, k, 32); 
+                            ^
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+src/luazen.c:468:13: warning: passing 'char *' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        store32_le(buf, sln);
+                   ^~~
+src/luazen.c:447:32: note: passing argument to parameter 'out' here
+static void store32_le(uint8_t out[4], uint32_t in) {
+                               ^
+src/luazen.c:480:18: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        sln = load32_le(c);  
+                        ^
+src/luazen.c:440:41: note: passing argument to parameter 's' here
+static uint32_t load32_le(const uint8_t s[4]) {
+                                        ^
+src/luazen.c:596:18: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        rc4_setup(&ctx, key, kln); 
+                        ^~~
+src/rc4.h:10:51: note: passing argument to parameter 'key' here
+void rc4_setup(rc4_ctx *ctx, const unsigned char *key, int length);
+                                                  ^
+src/luazen.c:597:18: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        rc4_crypt(&ctx, src, dst, sln);
+                        ^~~
+src/rc4.h:11:51: note: passing argument to parameter 'src' here
+void rc4_crypt(rc4_ctx *ctx, const unsigned char *src, unsigned char *dst, int length);
+                                                  ^
+src/luazen.c:597:23: warning: passing 'char *' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        rc4_crypt(&ctx, src, dst, sln);
+                             ^~~
+src/rc4.h:11:71: note: passing argument to parameter 'dst' here
+void rc4_crypt(rc4_ctx *ctx, const unsigned char *src, unsigned char *dst, int length);
+                                                                      ^
+src/luazen.c:620:21: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    rc4_setup(&ctx, key, kln); 
+                    ^~~
+src/rc4.h:10:51: note: passing argument to parameter 'key' here
+void rc4_setup(rc4_ctx *ctx, const unsigned char *key, int length);
+                                                  ^
+src/luazen.c:622:21: warning: passing 'char [256]' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    rc4_crypt(&ctx, drop, drop, DROPLN);
+                    ^~~~
+src/rc4.h:11:51: note: passing argument to parameter 'src' here
+void rc4_crypt(rc4_ctx *ctx, const unsigned char *src, unsigned char *dst, int length);
+                                                  ^
+src/luazen.c:622:27: warning: passing 'char [256]' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    rc4_crypt(&ctx, drop, drop, DROPLN);
+                          ^~~~
+src/rc4.h:11:71: note: passing argument to parameter 'dst' here
+void rc4_crypt(rc4_ctx *ctx, const unsigned char *src, unsigned char *dst, int length);
+                                                                      ^
+src/luazen.c:624:21: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    rc4_crypt(&ctx, src, dst, sln);
+                    ^~~
+src/rc4.h:11:51: note: passing argument to parameter 'src' here
+void rc4_crypt(rc4_ctx *ctx, const unsigned char *src, unsigned char *dst, int length);
+                                                  ^
+src/luazen.c:624:26: warning: passing 'char *' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    rc4_crypt(&ctx, src, dst, sln);
+                         ^~~
+src/rc4.h:11:71: note: passing argument to parameter 'dst' here
+void rc4_crypt(rc4_ctx *ctx, const unsigned char *src, unsigned char *dst, int length);
+                                                                      ^
+src/luazen.c:642:22: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MD5_Update(&ctx, src, sln);
+                     ^~~
+src/md5.h:15:43: note: passing argument to parameter 'msg' here
+void MD5_Update(MD5_CTX *, const uint8_t *msg, int len);
+                                          ^
+src/luazen.c:643:15: warning: passing 'char [16]' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    MD5_Final(digest, &ctx);
+              ^~~~~~
+src/md5.h:16:25: note: passing argument to parameter 'digest' here
+void MD5_Final(uint8_t *digest, MD5_CTX *);
+                        ^
+src/luazen.c:777:18: warning: passing 'unsigned char [360]' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        bool r = b58enc(buf, &eln, b, bln);
+                        ^~~
+src/base58.h:6:26: note: passing argument to parameter 'b58' here
+extern bool b58enc(char *b58, size_t *b58sz, const char *bin, size_t binsz);
+                         ^
+src/luazen.c:780:22: warning: passing 'unsigned char [360]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, buf, eln); 
+                            ^~~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+src/luazen.c:799:20: warning: passing 'unsigned char [360]' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        bool r = b58tobin(buf, &bln, e, eln);
+                          ^~~
+src/base58.h:5:28: note: passing argument to parameter 'bin' here
+extern bool b58tobin(char *bin, size_t *binsz, const char *b58, size_t b58sz);
+                           ^
+src/luazen.c:806:22: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, buf+B58MAXENCLN-bln, bln); 
+                            ^~~~~~~~~~~~~~~~~~~
+/Users/sp/Dropbox/OSX/x86/luajit//include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+58 warnings generated.
+src/base58.c:43:17: warning: initializing 'unsigned char *' with an expression of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        unsigned char *binu = bin;
+                       ^      ~~~
+src/base58.c:107:7: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        binu = bin;
+             ^ ~~~
+src/base58.c:123:17: warning: initializing 'const uint8_t *' (aka 'const unsigned char *') with an expression of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        const uint8_t *bin = data;
+                       ^     ~~~~
+3 warnings generated.
+No existing manifest. Attempting to rebuild...

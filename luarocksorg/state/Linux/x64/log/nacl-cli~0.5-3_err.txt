@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for nacl-cli 0.5-3: sha2 
+Missing dependency for nacl-cli 0.5-3: luatweetnacl 
+Missing dependency for nacl-cli 0.5-3: lbase64 
+Missing dependency for nacl-cli 0.5-3: base58 
+Missing dependency for nacl-cli 0.5-3: sha2 
+Missing dependency for nacl-cli 0.5-3: luatweetnacl 
+Missing dependency for nacl-cli 0.5-3: lbase64 
+Missing dependency for nacl-cli 0.5-3: base58 

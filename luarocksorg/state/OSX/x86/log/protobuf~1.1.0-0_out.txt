@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/protobuf-1.1.0-0.rockspec...
+Using https://rocks.moonscript.org/protobuf-1.1.0-0.rockspec... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c src/pb.c -o src/pb.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o protobuf/pb.so -L/Users/sp/Dropbox/OSX/x86/luajit/lib src/pb.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+protobuf 1.1.0-0 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

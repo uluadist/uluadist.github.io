@@ -1,0 +1,22 @@
+Archive:  v0.1.0.zip
+7e2e2ac7999b8195ef801905e1940faa9c8f92de
+   creating: lua-lzmq-zmq-0.1.0/
+  inflating: lua-lzmq-zmq-0.1.0/.travis.yml  
+  inflating: lua-lzmq-zmq-0.1.0/LICENSE  
+  inflating: lua-lzmq-zmq-0.1.0/README.md  
+   creating: lua-lzmq-zmq-0.1.0/rockspecs/
+  inflating: lua-lzmq-zmq-0.1.0/rockspecs/lzmq-zmq-0.1.0-1.rockspec  
+  inflating: lua-lzmq-zmq-0.1.0/rockspecs/lzmq-zmq-scm-0.rockspec  
+   creating: lua-lzmq-zmq-0.1.0/src/
+  inflating: lua-lzmq-zmq-0.1.0/src/zmq.lua  
+   creating: lua-lzmq-zmq-0.1.0/src/zmq/
+  inflating: lua-lzmq-zmq-0.1.0/src/zmq/poller.lua  
+   creating: lua-lzmq-zmq-0.1.0/test/
+  inflating: lua-lzmq-zmq-0.1.0/test/.luacov  
+  inflating: lua-lzmq-zmq-0.1.0/test/test.lua  
+  inflating: lua-lzmq-zmq-0.1.0/test/utils.lua  
+Installing https://luarocks.org/lzmq-zmq-0.1.0-1.src.rock...
+Using https://luarocks.org/lzmq-zmq-0.1.0-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lzmq-zmq 0.1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

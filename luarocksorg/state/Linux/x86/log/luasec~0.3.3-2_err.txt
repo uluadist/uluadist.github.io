@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luasec 0.3.3-2: luasocket 
+Missing dependency for luasec 0.3.3-2: luasocket 

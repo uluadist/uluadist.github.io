@@ -1,0 +1,53 @@
+Archive:  v1.2.2.zip
+f75f5e4be37ead4c9e8134112330d64136402e68
+   creating: SimpleITKLuaRock-1.2.2/
+   creating: SimpleITKLuaRock-1.2.2/.circleci/
+  inflating: SimpleITKLuaRock-1.2.2/.circleci/config.yml  
+  inflating: SimpleITKLuaRock-1.2.2/CMakeLists.txt  
+  inflating: SimpleITKLuaRock-1.2.2/README.md  
+   creating: SimpleITKLuaRock-1.2.2/docs/
+  inflating: SimpleITKLuaRock-1.2.2/docs/making-a-custom-rock.md  
+   creating: SimpleITKLuaRock-1.2.2/examples/
+  inflating: SimpleITKLuaRock-1.2.2/examples/SimpleDerivative.lua  
+  inflating: SimpleITKLuaRock-1.2.2/simpleitk-1.1.0-0.rockspec  
+  inflating: SimpleITKLuaRock-1.2.2/simpleitk-1.2.0-0.rockspec  
+  inflating: SimpleITKLuaRock-1.2.2/simpleitk-1.2.2-0.rockspec  
+-- The C compiler identification is AppleClang 7.0.2.7000181
+-- The CXX compiler identification is AppleClang 7.0.2.7000181
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x64/cc
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x64/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Users/sp/Dropbox/Bin/OSX/x64/c++
+-- Check for working CXX compiler: /Users/sp/Dropbox/Bin/OSX/x64/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/luarocks_luarocks-source-simpleitk-1.2.2-0-6835/SimpleITKLuaRock-1.2.2/build.luarocks
+Scanning dependencies of target SimpleITKSuperbuild-download
+[  6%] Creating directories for 'SimpleITKSuperbuild-download'
+[ 12%] Performing download step (git clone) for 'SimpleITKSuperbuild-download'
+Your branch is up-to-date with 'origin/master'.
+[ 18%] No patch step for 'SimpleITKSuperbuild-download'
+[ 25%] Performing update step for 'SimpleITKSuperbuild-download'
+Current branch master is up to date.
+[ 31%] No configure step for 'SimpleITKSuperbuild-download'
+[ 37%] No build step for 'SimpleITKSuperbuild-download'
+[ 43%] No install step for 'SimpleITKSuperbuild-download'
+[ 50%] Completed 'SimpleITKSuperbuild-download'
+[ 50%] Built target SimpleITKSuperbuild-download
+Scanning dependencies of target SimpleITKSuperbuild
+[ 56%] Creating directories for 'SimpleITKSuperbuild'
+[ 62%] No download step for 'SimpleITKSuperbuild'
+[ 68%] No patch step for 'SimpleITKSuperbuild'
+[ 75%] No update step for 'SimpleITKSuperbuild'
+[ 81%] Performing configure step for 'SimpleITKSuperbuild'
+loading initial cache file /tmp/luarocks_luarocks-source-simpleitk-1.2.2-0-6835/SimpleITKLuaRock-1.2.2/build.luarocks/SimpleITKSuperbuild-prefix/tmp/SimpleITKSuperbuild-cache-.cmake
+-- Configuring incomplete, errors occurred!
+Installing https://luarocks.org/simpleitk-1.2.2-0.rockspec...
+Using https://luarocks.org/simpleitk-1.2.2-0.rockspec... switching to 'build' mode

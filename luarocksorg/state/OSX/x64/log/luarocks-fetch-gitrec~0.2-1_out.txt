@@ -1,0 +1,17 @@
+Archive:  v0.2.zip
+1b1c4fc93abfe2f49968ffe904ea98c7c30c73f7
+   creating: luarocks-fetch-gitrec-0.2/
+  inflating: luarocks-fetch-gitrec-0.2/LICENSE  
+  inflating: luarocks-fetch-gitrec-0.2/README.md  
+  inflating: luarocks-fetch-gitrec-0.2/gitrec.lua  
+ extracting: luarocks-fetch-gitrec-0.2/gitrec_file.lua  
+  inflating: luarocks-fetch-gitrec-0.2/gitrec_http.lua  
+ extracting: luarocks-fetch-gitrec-0.2/gitrec_https.lua  
+ extracting: luarocks-fetch-gitrec-0.2/gitrec_ssh.lua  
+  inflating: luarocks-fetch-gitrec-0.2/luarocks-fetch-gitrec-0.1-1.rockspec  
+  inflating: luarocks-fetch-gitrec-0.2/luarocks-fetch-gitrec-0.2-1.rockspec  
+Installing https://luarocks.org/luarocks-fetch-gitrec-0.2-1.src.rock...
+Using https://luarocks.org/luarocks-fetch-gitrec-0.2-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+luarocks-fetch-gitrec 0.2-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

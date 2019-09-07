@@ -1,0 +1,12 @@
+Warning: skipping dependency checks.
+make: Warning: File `Makefile' has modification time 6.3e+08 s in the future
+make: warning: Clock skew detected. Your build may be incomplete.
+/home/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/Linux/x86/luajit: (command line):1: function arguments expected near '<eof>'
+make: Warning: File `Makefile' has modification time 6.3e+08 s in the future
+src/luauuid.c:35:17: fatal error: lua.h: No such file or directory
+ #include <lua.h>
+                 ^
+compilation terminated.
+make: *** [so/luauuid.o] Error 1
+
+Error: Build error: Failed installing.

@@ -1,0 +1,5 @@
+Installing https://luarocks.org/tamale-1.2.2-1.src.rock...
+Using https://luarocks.org/tamale-1.2.2-1.src.rock... switching to 'build' mode
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+tamale 1.2.2-1 is now built and installed in C:\ste\x64\luarockstree (license: MIT/X11)
+

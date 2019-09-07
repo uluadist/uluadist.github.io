@@ -1,0 +1,4 @@
+Installing https://luarocks.org/wtf-plugin-honeybot-fake-wordpress-data-0.1-1.rockspec...
+Using https://luarocks.org/wtf-plugin-honeybot-fake-wordpress-data-0.1-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_wtf-plugin-honeybot-fake-wordpress-data-0.1-1-9393/wtf-plugin-honeybot-fake-wordpress/.git/
+WTFBASE=/usr/local/share/wtf/data/;PACKAGEPATH=honeybot/fake/wordpress;test -d $WTFBASE$PACKAGEPATH || mkdir -p $WTFBASE$PACKAGEPATH;cp -R _data/* $WTFBASE$PACKAGEPATH

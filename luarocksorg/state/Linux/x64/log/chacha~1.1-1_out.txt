@@ -1,0 +1,8 @@
+Installing https://rocks.moonscript.org/chacha-1.1-1.src.rock...
+Using https://rocks.moonscript.org/chacha-1.1-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c chacha.c -o chacha.o
+gcc -O2 -fPIC -I/home/sp/luajit//include -c lchacha.c -o lchacha.o
+gcc -shared -o chacha.so -L/home/sp/luajit//lib chacha.o lchacha.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+chacha 1.1-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

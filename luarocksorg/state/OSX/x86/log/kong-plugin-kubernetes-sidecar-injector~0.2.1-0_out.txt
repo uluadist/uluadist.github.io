@@ -1,0 +1,21 @@
+Archive:  v0.2.1.zip
+34b303124aaa876c0b7b921b08ea3fe7de7ebff8
+   creating: kubernetes-sidecar-injector-0.2.1/
+  inflating: kubernetes-sidecar-injector-0.2.1/.luacheckrc  
+  inflating: kubernetes-sidecar-injector-0.2.1/LICENSE  
+  inflating: kubernetes-sidecar-injector-0.2.1/NEWS  
+  inflating: kubernetes-sidecar-injector-0.2.1/README.md  
+  inflating: kubernetes-sidecar-injector-0.2.1/kong-plugin-kubernetes-sidecar-injector-0.2.1-0.rockspec  
+   creating: kubernetes-sidecar-injector-0.2.1/kong/
+   creating: kubernetes-sidecar-injector-0.2.1/kong/plugins/
+   creating: kubernetes-sidecar-injector-0.2.1/kong/plugins/kubernetes-sidecar-injector/
+  inflating: kubernetes-sidecar-injector-0.2.1/kong/plugins/kubernetes-sidecar-injector/api.lua  
+  inflating: kubernetes-sidecar-injector-0.2.1/kong/plugins/kubernetes-sidecar-injector/config.lua  
+  inflating: kubernetes-sidecar-injector-0.2.1/kong/plugins/kubernetes-sidecar-injector/handler.lua  
+  inflating: kubernetes-sidecar-injector-0.2.1/kong/plugins/kubernetes-sidecar-injector/schema.lua  
+  inflating: kubernetes-sidecar-injector-0.2.1/kong/plugins/kubernetes-sidecar-injector/typedefs.lua  
+Installing https://luarocks.org/kong-plugin-kubernetes-sidecar-injector-0.2.1-0.src.rock...
+Using https://luarocks.org/kong-plugin-kubernetes-sidecar-injector-0.2.1-0.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+kong-plugin-kubernetes-sidecar-injector 0.2.1-0 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: Apache 2.0)
+

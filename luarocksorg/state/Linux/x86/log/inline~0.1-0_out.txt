@@ -1,0 +1,6 @@
+Installing https://luarocks.org/inline-0.1-0.rockspec...
+Using https://luarocks.org/inline-0.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_inline-0.1-0-7938/inline/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+inline 0.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

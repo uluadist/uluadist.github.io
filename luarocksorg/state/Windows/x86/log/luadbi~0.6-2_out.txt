@@ -1,0 +1,5 @@
+Installing https://luarocks.org/luadbi-0.6-2.src.rock...
+Using https://luarocks.org/luadbi-0.6-2.src.rock... switching to 'build' mode
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+luadbi 0.6-2 is now built and installed in C:\ste\x86\luarockstree (license: MIT/X11)
+

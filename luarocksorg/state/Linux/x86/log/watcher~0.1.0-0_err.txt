@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for watcher 0.1.0-0: luafilesystem >= 1.6
+Missing dependency for watcher 0.1.0-0: luafilesystem >= 1.6

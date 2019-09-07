@@ -1,0 +1,7 @@
+optim.c
+serial/optim.c(342): error C2054: expected '(' to follow 'LUNARY_API'
+serial/optim.c(343): error C2085: 'luaopen_serial_optim': not in formal parameter list
+serial/optim.c(343): error C2143: syntax error: missing ';' before '{'
+Installing https://luarocks.org/lunary-optim-20181002-1.src.rock...
+Using https://luarocks.org/lunary-optim-20181002-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Foserial/optim.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src serial/optim.c -DLUAMOD_API=LUALIB_API -Dluaopen_module=luaopen_serial_optim

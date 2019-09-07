@@ -1,0 +1,23 @@
+Warning: skipping dependency checks.
+In file included from src/load.c:13:0:
+src/load.c: In function ‘load_table’:
+src/luainternals.h:44:19: error: ‘LUAI_BITSINT’ undeclared (first use in this function)
+ #define MAXBITS  (LUAI_BITSINT-2)
+                   ^
+src/luainternals.h:47:24: note: in expansion of macro ‘MAXBITS’
+ #define MAXASIZE (1 << MAXBITS)
+                        ^
+src/load.c:140:40: note: in expansion of macro ‘MAXASIZE’
+         array_size < 0 || array_size > MAXASIZE ||
+                                        ^
+src/luainternals.h:44:19: note: each undeclared identifier is reported only once for each function it appears in
+ #define MAXBITS  (LUAI_BITSINT-2)
+                   ^
+src/luainternals.h:47:24: note: in expansion of macro ‘MAXBITS’
+ #define MAXASIZE (1 << MAXBITS)
+                        ^
+src/load.c:140:40: note: in expansion of macro ‘MAXASIZE’
+         array_size < 0 || array_size > MAXASIZE ||
+                                        ^
+
+Error: Build error: Failed compiling object src/load.o

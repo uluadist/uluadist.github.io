@@ -1,0 +1,32 @@
+-- The C compiler identification is AppleClang 7.0.2.7000181
+-- The CXX compiler identification is AppleClang 7.0.2.7000181
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x64/cc
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x64/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Users/sp/Dropbox/Bin/OSX/x64/c++
+-- Check for working CXX compiler: /Users/sp/Dropbox/Bin/OSX/x64/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/luarocks_landlord-0.1.0-1-4976/FightTheLandlord/build.luarocks
+Scanning dependencies of target landlord
+[ 25%] Building CXX object CMakeFiles/landlord.dir/src/AndroidAI.cpp.o
+[ 50%] Building CXX object CMakeFiles/landlord.dir/src/GameLogic.cpp.o
+[ 75%] Building CXX object CMakeFiles/landlord.dir/src/lua_landlord.cpp.o
+[100%] Linking CXX shared module landlord.so
+[100%] Built target landlord
+[100%] Built target landlord
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/landlord/0.1.0-1/lib/landlord.so
+Installing https://luarocks.org/landlord-0.1.0-1.src.rock...
+Using https://luarocks.org/landlord-0.1.0-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+landlord 0.1.0-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

@@ -1,0 +1,4 @@
+Installing https://luarocks.org/crc32-1.1-1.src.rock...
+Using https://luarocks.org/crc32-1.1-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c crc32.c -o crc32.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c wrap.c -o wrap.o

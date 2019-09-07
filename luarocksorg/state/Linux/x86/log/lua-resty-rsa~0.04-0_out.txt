@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-resty-rsa-0.04-0.rockspec...
+Using https://luarocks.org/lua-resty-rsa-0.04-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-resty-rsa-0.04-0-5641/lua-resty-rsa/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-resty-rsa 0.04-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

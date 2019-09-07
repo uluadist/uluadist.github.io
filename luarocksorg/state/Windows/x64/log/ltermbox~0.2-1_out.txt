@@ -1,0 +1,7 @@
+ltermbox.c
+termbox.c
+termbox.c(8): fatal error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory
+Installing https://luarocks.org/ltermbox-0.2-1.src.rock...
+Using https://luarocks.org/ltermbox-0.2-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folua/ltermbox.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lua/ltermbox.c -I./
+cl /nologo /MD /O2 -c -Fotermbox.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ termbox.c -I./

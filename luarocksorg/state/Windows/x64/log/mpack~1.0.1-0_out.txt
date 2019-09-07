@@ -1,0 +1,16 @@
+lmpack.c
+c:\users\sp\appdata\local\temp\luarocks_luarocks-source-mpack-1.0.1-0-8060\libmpack-1.0.1\src\object.c(105): warning C4116: unnamed type definition in parentheses
+c:\users\sp\appdata\local\temp\luarocks_luarocks-source-mpack-1.0.1-0-8060\libmpack-1.0.1\src\rpc.c(245): warning C4116: unnamed type definition in parentheses
+lmpack.c(113): warning C4116: unnamed type definition in parentheses
+lmpack.c(126): warning C4116: unnamed type definition in parentheses
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library mpack.lib and object mpack.exp
+Installing https://luarocks.org/mpack-1.0.1-0.rockspec...
+Using https://luarocks.org/mpack-1.0.1-0.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folmpack.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src lmpack.c
+link -dll -def:mpack.def -out:mpack.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib lmpack.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+mpack 1.0.1-0 is now built and installed in C:\ste\x64\luarockstree (license: MIT)
+

@@ -1,0 +1,8 @@
+test "5.1" = "5.1"
+mkdir -p /private/tmp/luarocks_cqueues-20150119.51-1-1074/cqueues-rel-20150119/src/5.1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -std=gnu99 -fPIC -g -Wall -Wextra -Wno-missing-field-initializers -Wno-initializer-overrides -Wno-unused -Wno-deprecated-declarations -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -D_REENTRANT -D_THREAD_SAFE -D_GNU_SOURCE -DLUA_COMPAT_APIINTCASTS -DCQUEUES_VENDOR='"william@25thandClement.com"' -DCQUEUES_VERSION=20150119L   -c -o /private/tmp/luarocks_cqueues-20150119.51-1-1074/cqueues-rel-20150119/src/5.1/cqueues.o /private/tmp/luarocks_cqueues-20150119.51-1-1074/cqueues-rel-20150119/src/cqueues.c
+test "5.1" = "5.1"
+mkdir -p /private/tmp/luarocks_cqueues-20150119.51-1-1074/cqueues-rel-20150119/src/5.1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -std=gnu99 -fPIC -g -Wall -Wextra -Wno-missing-field-initializers -Wno-initializer-overrides -Wno-unused -Wno-deprecated-declarations -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -D_REENTRANT -D_THREAD_SAFE -D_GNU_SOURCE -DLUA_COMPAT_APIINTCASTS -DCQUEUES_VENDOR='"william@25thandClement.com"' -DCQUEUES_VERSION=20150119L   -c -o /private/tmp/luarocks_cqueues-20150119.51-1-1074/cqueues-rel-20150119/src/5.1/socket.o /private/tmp/luarocks_cqueues-20150119.51-1-1074/cqueues-rel-20150119/src/socket.c
+Installing https://luarocks.org/cqueues-20150119.51-1.src.rock...
+Using https://luarocks.org/cqueues-20150119.51-1.src.rock... switching to 'build' mode

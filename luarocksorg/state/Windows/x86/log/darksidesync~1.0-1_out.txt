@@ -1,0 +1,5 @@
+darksidesync.c
+c:\users\sp\appdata\local\temp\luarocks_darksidesync-1.0-1-8774\darksidesync-version_1.0\darksidesync\udpsocket.h(10): fatal error C1083: Cannot open include file: 'netdb.h': No such file or directory
+Installing https://luarocks.org/darksidesync-1.0-1.src.rock...
+Using https://luarocks.org/darksidesync-1.0-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fodarksidesync/darksidesync.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ darksidesync/darksidesync.c

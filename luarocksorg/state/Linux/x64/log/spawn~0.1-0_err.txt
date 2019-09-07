@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for spawn 0.1-0: lunix 
+Missing dependency for spawn 0.1-0: lunix 

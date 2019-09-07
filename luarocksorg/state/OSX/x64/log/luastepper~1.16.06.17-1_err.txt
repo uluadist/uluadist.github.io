@@ -1,0 +1,87 @@
+Warning: skipping dependency checks.
+Cloning into 'LuaStepper'...
+Note: checking out 'ca4ab45a658fd731235897bae22591affad9cc93'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+LuaStepper.c:137:14: error: use of undeclared identifier 'LUA_OK'
+        case LUA_OK:
+             ^
+LuaStepper.c:155:14: error: use of undeclared identifier 'LUA_ERRGCMM'
+        case LUA_ERRGCMM:
+             ^
+LuaStepper.c:324:5: warning: implicit declaration of function 'luaL_requiref' is invalid in C99 [-Wimplicit-function-declaration]
+    luaL_requiref(taskq[i].luaVM, "_G", luaopen_base, 1);                        // Base Library
+    ^
+LuaStepper.c:325:50: error: use of undeclared identifier 'luaopen_coroutine'; did you mean 'luaopen_string'?
+    luaL_requiref(taskq[i].luaVM, LUA_COLIBNAME, luaopen_coroutine, 1);          // Coroutine library
+                                                 ^~~~~~~~~~~~~~~~~
+                                                 luaopen_string
+/Users/sp/Dropbox/OSX/x64/luajit/include/lualib.h:27:16: note: 'luaopen_string' declared here
+LUALIB_API int luaopen_string(lua_State *L);
+               ^
+LuaStepper.c:330:51: error: use of undeclared identifier 'luaopen_bit32'; did you mean 'luaopen_bit'?
+    luaL_requiref(taskq[i].luaVM, LUA_BITLIBNAME, luaopen_bit32, 1);             // Bit library
+                                                  ^~~~~~~~~~~~~
+                                                  luaopen_bit
+/Users/sp/Dropbox/OSX/x64/luajit/include/lualib.h:33:16: note: 'luaopen_bit' declared here
+LUALIB_API int luaopen_bit(lua_State *L);
+               ^
+LuaStepper.c:342:2: warning: implicit declaration of function 'luaL_newlib' is invalid in C99 [-Wimplicit-function-declaration]
+        luaL_newlib(taskq[i].luaVM, threadFuncs); // Just returns the module as a table
+        ^
+LuaStepper.c:546:14: error: use of undeclared identifier 'LUA_OK'
+        case LUA_OK:
+             ^
+LuaStepper.c:551:22: error: use of undeclared identifier 'LUA_OK'
+                case LUA_OK:
+                     ^
+LuaStepper.c:558:22: error: use of undeclared identifier 'LUA_ERRGCMM'
+                case LUA_ERRGCMM:
+                     ^
+LuaStepper.c:583:14: error: use of undeclared identifier 'LUA_ERRGCMM'
+        case LUA_ERRGCMM:
+             ^
+LuaStepper.c:611:9: error: use of undeclared identifier 'LUA_OK'
+                        case LUA_OK:
+                             ^
+LuaStepper.c:616:11: error: use of undeclared identifier 'LUA_OK'
+                                        case LUA_OK:
+                                             ^
+LuaStepper.c:623:26: error: use of undeclared identifier 'LUA_ERRGCMM'
+                    case LUA_ERRGCMM:
+                         ^
+LuaStepper.c:648:18: error: use of undeclared identifier 'LUA_ERRGCMM'
+            case LUA_ERRGCMM:
+                 ^
+LuaStepper.c:671:8: error: use of undeclared identifier 'LUA_OK'
+                case LUA_OK:
+                     ^
+LuaStepper.c:1018:57: error: use of undeclared identifier 'LUA_RIDX_GLOBALS'
+    lua_rawgeti(taskq[tIndex].luaVM, LUA_REGISTRYINDEX, LUA_RIDX_GLOBALS);
+                                                        ^
+LuaStepper.c:1212:9: error: use of undeclared identifier 'LUA_OK'
+                        case LUA_OK:
+                             ^
+LuaStepper.c:1279:11: error: use of undeclared identifier 'LUA_OK'
+                                        case LUA_OK:
+                                             ^
+LuaStepper.c:1294:46: error: too many arguments to function call, expected 2, have 3
+                                                switch(lua_resume(taskq[i].thread,NULL,0))
+                                                       ~~~~~~~~~~                      ^
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:214:1: note: 'lua_resume' declared here
+LUA_API int  (lua_resume) (lua_State *L, int narg);
+^
+/Users/sp/Dropbox/OSX/x64/luajit/include/luaconf.h:138:18: note: expanded from macro 'LUA_API'
+#define LUA_API         extern
+                        ^
+2 warnings and 17 errors generated.
+
+Error: Build error: Failed compiling object LuaStepper.o

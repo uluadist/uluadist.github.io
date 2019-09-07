@@ -1,0 +1,88 @@
+lua-physfs.c
+archiver_dir.c
+archiver_grp.c
+archiver_hog.c
+archiver_iso9660.c
+archiver_lzma.c
+archiver_mvl.c
+archiver_qpak.c
+archiver_slb.c
+archiver_unpacked.c
+archiver_wad.c
+archiver_zip.c
+physfs.c
+physfs/physfs.c(1262): warning C4090: 'function': different 'const' qualifiers
+physfs/physfs.c(1263): warning C4090: 'function': different 'const' qualifiers
+physfs/physfs.c(1281): warning C4090: 'function': different 'const' qualifiers
+physfs/physfs.c(1282): warning C4090: 'function': different 'const' qualifiers
+physfs/physfs.c(1317): warning C4090: 'function': different 'const' qualifiers
+physfs/physfs.c(1323): warning C4090: 'function': different 'const' qualifiers
+physfs/physfs.c(1429): warning C4090: 'function': different 'const' qualifiers
+physfs/physfs.c(1433): warning C4090: 'function': different 'const' qualifiers
+Installing https://luarocks.org/physfs-0.1-3.src.rock...
+Using https://luarocks.org/physfs-0.1-3.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folua-physfs.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src lua-physfs.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/archiver_dir.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/archiver_dir.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/archiver_grp.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/archiver_grp.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/archiver_hog.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/archiver_hog.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/archiver_iso9660.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/archiver_iso9660.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/archiver_lzma.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/archiver_lzma.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/archiver_mvl.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/archiver_mvl.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/archiver_qpak.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/archiver_qpak.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/archiver_slb.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/archiver_slb.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/archiver_unpacked.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/archiver_unpacked.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/archiver_wad.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/archiver_wad.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/archiver_zip.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/archiver_zip.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/physfs.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/physfs.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/physfs_byteorder.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/physfs_byteorder.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORphysfs_byteorder.c
+physfs_unicode.c
+platform_macosx.c
+platform_posix.c
+platform_unix.c
+platform_windows.c
+7zCrc.c
+7zBuffer.c
+7zDecode.c
+7zExtract.c
+7zHeader.c
+7zIn.c
+7zItem.c
+7zMethodID.c
+TS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/physfs_unicode.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/physfs_unicode.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/platform_macosx.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/platform_macosx.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/platform_posix.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/platform_posix.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/platform_unix.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/platform_unix.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/platform_windows.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/platform_windows.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/lzma/C/7zCrc.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/lzma/C/7zCrc.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/lzma/C/Archive/7z/7zBuffer.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/lzma/C/Archive/7z/7zBuffer.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/lzma/C/Archive/7z/7zDecode.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/lzma/C/Archive/7z/7zDecode.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/lzma/C/Archive/7z/7zExtract.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/lzma/C/Archive/7z/7zExtract.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/lzma/C/Archive/7z/7zHeader.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/lzma/C/Archive/7z/7zHeader.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/lzma/C/Archive/7z/7zIn.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/lzma/C/Archive/7z/7zIn.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/lzma/C/Archive/7z/7zItem.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/lzma/C/Archive/7z/7zItem.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/lzma/C/Archive/7z/7zMethodID.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/lzma/C/Archive/7z/7zMethodID.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MBranchX86.c
+BranchX86_2.c
+LzmaDecode.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library physfs.lib and object physfs.exp
+platform_windows.obj : error LNK2019: unresolved external symbol __imp__OpenProcessToken@12 referenced in function ___PHYSFS_platformCalcUserDir
+platform_windows.obj : error LNK2019: unresolved external symbol __imp__GetMessageA@16 referenced in function _detectCDThread@4
+platform_windows.obj : error LNK2019: unresolved external symbol __imp__GetMessageW@16 referenced in function _detectCDThread@4
+platform_windows.obj : error LNK2019: unresolved external symbol __imp__TranslateMessage@4 referenced in function _detectCDThread@4
+platform_windows.obj : error LNK2019: unresolved external symbol __imp__DispatchMessageW@4 referenced in function _detectCDThread@4
+platform_windows.obj : error LNK2019: unresolved external symbol __imp__PostMessageW@16 referenced in function ___PHYSFS_platformDeinit
+platform_windows.obj : error LNK2019: unresolved external symbol __imp__DefWindowProcW@16 referenced in function _detectCDWndProc@16
+platform_windows.obj : error LNK2019: unresolved external symbol __imp__UnregisterClassA@8 referenced in function _detectCDThread@4
+platform_windows.obj : error LNK2019: unresolved external symbol __imp__RegisterClassExA@4 referenced in function _detectCDThread@4
+platform_windows.obj : error LNK2019: unresolved external symbol __imp__CreateWindowExA@48 referenced in function _detectCDThread@4
+platform_windows.obj : error LNK2019: unresolved external symbol __imp__DestroyWindow@4 referenced in function _detectCDThread@4
+platform_windows.obj : error LNK2019: unresolved external symbol __imp__SHGetFolderPathW@20 referenced in function ___PHYSFS_platformCalcPrefDir
+physfs.dll : fatal error LNK1120: 12 unresolved externals
+D /O2 -c -Fophysfs/lzma/C/Compress/Branch/BranchX86.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/lzma/C/Compress/Branch/BranchX86.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/lzma/C/Compress/Branch/BranchX86_2.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/lzma/C/Compress/Branch/BranchX86_2.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+cl /nologo /MD /O2 -c -Fophysfs/lzma/C/Compress/Lzma/LzmaDecode.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src physfs/lzma/C/Compress/Lzma/LzmaDecode.c -DPHYSFS_SUPPORTS_7Z -DPHYSFS_SUPPORTS_QPAK -DPHYSFS_SUPPORTS_GRP -DPHYSFS_SUPPORTS_HOG -DPHYSFS_SUPPORTS_MVL -DPHYSFS_SUPPORTS_WAD -DPHYSFS_SUPPORTS_SLB -DPHYSFS_SUPPORTS_ISO9660
+link -dll -def:physfs.def -out:physfs.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib lua-physfs.obj physfs/archiver_dir.obj physfs/archiver_grp.obj physfs/archiver_hog.obj physfs/archiver_iso9660.obj physfs/archiver_lzma.obj physfs/archiver_mvl.obj physfs/archiver_qpak.obj physfs/archiver_slb.obj physfs/archiver_unpacked.obj physfs/archiver_wad.obj physfs/archiver_zip.obj physfs/physfs.obj physfs/physfs_byteorder.obj physfs/physfs_unicode.obj physfs/platform_macosx.obj physfs/platform_posix.obj physfs/platform_unix.obj physfs/platform_windows.obj physfs/lzma/C/7zCrc.obj physfs/lzma/C/Archive/7z/7zBuffer.obj physfs/lzma/C/Archive/7z/7zDecode.obj physfs/lzma/C/Archive/7z/7zExtract.obj physfs/lzma/C/Archive/7z/7zHeader.obj physfs/lzma/C/Archive/7z/7zIn.obj physfs/lzma/C/Archive/7z/7zItem.obj physfs/lzma/C/Archive/7z/7zMethodID.obj physfs/lzma/C/Compress/Branch/BranchX86.obj physfs/lzma/C/Compress/Branch/BranchX86_2.obj physfs/lzma/C/Compress/Lzma/LzmaDecode.obj

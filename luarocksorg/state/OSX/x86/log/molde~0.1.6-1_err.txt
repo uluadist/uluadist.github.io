@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for molde 0.1.6-1: lpeglabel 
+Missing dependency for molde 0.1.6-1: lpeglabel 

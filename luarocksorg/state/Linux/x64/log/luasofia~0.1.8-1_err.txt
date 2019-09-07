@@ -1,0 +1,13 @@
+Warning: skipping dependency checks.
+configure: error: Package requirements (sofia-sip-ua >= 1.12.11) were not met:
+
+No package 'sofia-sip-ua' found
+
+Consider adjusting the PKG_CONFIG_PATH environment variable if you
+installed software in a non-standard prefix.
+
+Alternatively, you may set the environment variables SOFIA_SIP_UA_CFLAGS
+and SOFIA_SIP_UA_LIBS to avoid the need to call pkg-config.
+See the pkg-config man page for more details.
+
+Error: Build error: Failed building.

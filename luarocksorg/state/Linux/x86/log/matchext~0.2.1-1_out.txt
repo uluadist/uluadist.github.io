@@ -1,0 +1,7 @@
+Installing https://luarocks.org/matchext-0.2.1-1.src.rock...
+Using https://luarocks.org/matchext-0.2.1-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/matchext.c -o src/matchext.o
+gcc -shared -o matchext.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/matchext.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+matchext 0.2.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

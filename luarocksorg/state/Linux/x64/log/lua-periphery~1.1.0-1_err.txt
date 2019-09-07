@@ -1,0 +1,5 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-periphery 1.1.0-1: luarocks-fetch-gitrec >= 0.2
+Missing dependency for lua-periphery 1.1.0-1: luarocks-fetch-gitrec >= 0.2

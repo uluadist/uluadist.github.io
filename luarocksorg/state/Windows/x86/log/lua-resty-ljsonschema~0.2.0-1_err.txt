@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-resty-ljsonschema 0.2.0-1: net-url 
+Missing dependency for lua-resty-ljsonschema 0.2.0-1: net-url 

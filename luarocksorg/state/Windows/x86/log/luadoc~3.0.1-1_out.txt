@@ -1,0 +1,4 @@
+Installing https://luarocks.org/luadoc-3.0.1-1.all.rock...
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+
+luadoc 3.0.1-1 is now installed in C:\ste\x86\luarockstree (license: MIT/X11)

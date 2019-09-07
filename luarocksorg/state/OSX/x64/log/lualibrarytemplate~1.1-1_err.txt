@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lualibrarytemplate 1.1-1: luafilesystem 
+Missing dependency for lualibrarytemplate 1.1-1: datafile 
+Missing dependency for lualibrarytemplate 1.1-1: luafilesystem 
+Missing dependency for lualibrarytemplate 1.1-1: datafile 

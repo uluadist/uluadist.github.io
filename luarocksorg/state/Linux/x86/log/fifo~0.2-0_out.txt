@@ -1,0 +1,24 @@
+Archive:  0.2.zip
+2e627a090f303e6a8f3f707b7e5c858c63da2fea
+   creating: fifo.lua-0.2/
+ extracting: fifo.lua-0.2/.gitignore  
+  inflating: fifo.lua-0.2/.luacheckrc  
+  inflating: fifo.lua-0.2/.luacov    
+  inflating: fifo.lua-0.2/.travis.yml  
+   creating: fifo.lua-0.2/.travis/
+  inflating: fifo.lua-0.2/.travis/LICENSE  
+  inflating: fifo.lua-0.2/.travis/platform.sh  
+  inflating: fifo.lua-0.2/.travis/setup_lua.sh  
+  inflating: fifo.lua-0.2/LICENSE    
+  inflating: fifo.lua-0.2/README.md  
+   creating: fifo.lua-0.2/doc/
+  inflating: fifo.lua-0.2/doc/index.md  
+  inflating: fifo.lua-0.2/fifo-0.2-0.rockspec  
+  inflating: fifo.lua-0.2/fifo.lua   
+   creating: fifo.lua-0.2/spec/
+  inflating: fifo.lua-0.2/spec/fifo_spec.lua  
+Installing https://rocks.moonscript.org/fifo-0.2-0.src.rock...
+Using https://rocks.moonscript.org/fifo-0.2-0.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+fifo 0.2-0 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

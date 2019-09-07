@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_luarocks-rockspec-functorflow-0-5977/functorflow-0.rockspec: Type mismatch on field version: invalid value 0 does not match '[%w.]+-[%d]+'

@@ -1,0 +1,5 @@
+Installing https://luarocks.org/luamqtt-1.4.3-4.rockspec...
+Using https://luarocks.org/luamqtt-1.4.3-4.rockspec... switching to 'build' mode
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+luamqtt 1.4.3-4 is now built and installed in C:\ste\x86\luarockstree (license: MIT)
+

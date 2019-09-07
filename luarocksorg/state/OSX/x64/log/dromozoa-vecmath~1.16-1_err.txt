@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_dromozoa-vecmath-1.16-1-8388/dromozoa-vecmath-1.16-1.rockspec: Unknown field test

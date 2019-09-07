@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for kong-plugin-session 2.1.2-1: lua-resty-session == 2.24
+Missing dependency for kong-plugin-session 2.1.2-1: lua-resty-session == 2.24

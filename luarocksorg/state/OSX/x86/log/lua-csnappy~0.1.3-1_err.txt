@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+In file included from lsnappy.c:8:
+In file included from ./csnappy/csnappy_compress.c:38:
+In file included from ./csnappy/csnappy_internal.h:45:
+./csnappy/csnappy_internal_userspace.h:122:10: fatal error: 'endian.h' file not found
+#include <endian.h>
+         ^
+1 error generated.
+
+Error: Build error: Failed compiling object lsnappy.o

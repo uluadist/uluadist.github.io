@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/cwtest-1.2-1.rockspec...
+Using https://rocks.moonscript.org/cwtest-1.2-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_cwtest-1.2-1-3247/cwtest/.git/
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+cwtest 1.2-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/apidemo-1.0-2.src.rock...
+Using https://rocks.moonscript.org/apidemo-1.0-2.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c apidemo.c -o apidemo.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o apidemo.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib apidemo.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+apidemo 1.0-2 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: public domain)
+

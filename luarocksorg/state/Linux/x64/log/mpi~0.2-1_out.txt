@@ -1,0 +1,7 @@
+make[1]: Entering directory `/tmp/luarocks_mpi-0.2-1-9210/lua-mpi/gcc-lua'
+make[2]: Entering directory `/tmp/luarocks_mpi-0.2-1-9210/lua-mpi/gcc-lua/gcc'
+gcc -c -o gcclua.o -Iplugin/include -fPIC  -O2 -Wall -Wformat-security  gcclua.c
+make[2]: Leaving directory `/tmp/luarocks_mpi-0.2-1-9210/lua-mpi/gcc-lua/gcc'
+make[1]: Leaving directory `/tmp/luarocks_mpi-0.2-1-9210/lua-mpi/gcc-lua'
+Installing https://rocks.moonscript.org/mpi-0.2-1.src.rock...
+Using https://rocks.moonscript.org/mpi-0.2-1.src.rock... switching to 'build' mode

@@ -1,0 +1,4 @@
+Installing https://luarocks.org/libqrpng-0.1-0.rockspec...
+Using https://luarocks.org/libqrpng-0.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_libqrpng-0.1-0-7203/libqrpng/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c qrpng.c -o qrpng.o

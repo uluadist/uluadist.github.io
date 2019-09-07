@@ -1,0 +1,17 @@
+Warning: skipping dependency checks.
+Cloning into 'lua-uuid'...
+Note: checking out '8a7ae27c5da39f518e371166a9f9a49875e89611'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+ld: library not found for -luuid
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+Error: Build error: Failed compiling module lua_uuid.so

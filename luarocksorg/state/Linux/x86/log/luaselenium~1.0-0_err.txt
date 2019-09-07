@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luaselenium 1.0-0: luasocket >= 2.0
+Missing dependency for luaselenium 1.0-0: luasocket >= 2.0

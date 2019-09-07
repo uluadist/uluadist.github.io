@@ -1,0 +1,5 @@
+Installing https://rocks.moonscript.org/inspect-3.0-2.rockspec...
+Using https://rocks.moonscript.org/inspect-3.0-2.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+inspect 3.0-2 is now built and installed in /home/sp/luarockstree (license: MIT <http://opensource.org/licenses/MIT>)
+

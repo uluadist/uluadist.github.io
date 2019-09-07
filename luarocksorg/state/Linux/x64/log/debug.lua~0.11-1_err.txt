@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for debug.lua 0.11-1: mobdebug >= 0.63
+Missing dependency for debug.lua 0.11-1: termfx >= 0.6
+Missing dependency for debug.lua 0.11-1: mobdebug >= 0.63
+Missing dependency for debug.lua 0.11-1: termfx >= 0.6

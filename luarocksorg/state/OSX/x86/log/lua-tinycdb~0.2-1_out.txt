@@ -1,0 +1,18 @@
+Installing https://rocks.moonscript.org/lua-tinycdb-0.2-1.src.rock...
+Using https://rocks.moonscript.org/lua-tinycdb-0.2-1.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c cdb_find.c -o cdb_find.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c cdb_findnext.c -o cdb_findnext.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c cdb_hash.c -o cdb_hash.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c cdb_init.c -o cdb_init.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c cdb_make_add.c -o cdb_make_add.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c cdb_make.c -o cdb_make.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c cdb_make_put.c -o cdb_make_put.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c cdb_seek.c -o cdb_seek.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c cdb_seq.c -o cdb_seq.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c cdb_unpack.c -o cdb_unpack.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c lcdb.c -o lcdb.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o cdb.so -L/Users/sp/Dropbox/OSX/x86/luajit/lib cdb_find.o cdb_findnext.o cdb_hash.o cdb_init.o cdb_make_add.o cdb_make.o cdb_make_put.o cdb_seek.o cdb_seq.o cdb_unpack.o lcdb.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lua-tinycdb 0.2-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

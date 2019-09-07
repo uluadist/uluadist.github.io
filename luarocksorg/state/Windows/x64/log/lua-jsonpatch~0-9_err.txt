@@ -1,0 +1,2 @@
+
+Error: C:\Users\sp\AppData\Local\Temp/luarocks_lua-jsonpatch-0-9-6377/lua-jsonpatch-0-9.rockspec: Unknown field labels

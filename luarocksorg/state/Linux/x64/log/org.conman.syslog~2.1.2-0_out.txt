@@ -1,0 +1,7 @@
+Installing https://luarocks.org/org.conman.syslog-2.1.2-0.rockspec...
+Using https://luarocks.org/org.conman.syslog-2.1.2-0.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c syslog.c -o syslog.o
+gcc -shared -o org/conman/syslog.so -L/home/sp/Dropbox/Linux/x64/luajit//lib syslog.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+org.conman.syslog 2.1.2-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: LGPL)
+

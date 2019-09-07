@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/ltcltk-0.9-2.src.rock...
+Using https://rocks.moonscript.org/ltcltk-0.9-2.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c ltcl.c -o ltcl.o -I/usr/include/tk
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o ltcl.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib ltcl.o -ltcl8.5
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+ltcltk 0.9-2 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

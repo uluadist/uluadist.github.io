@@ -1,0 +1,6 @@
+Initialized empty Git repository in /tmp/luarocks_hc-0.1-1-880/HC/.git/
+Installing https://luarocks.org/hc-0.1-1.rockspec...
+Using https://luarocks.org/hc-0.1-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+hc 0.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

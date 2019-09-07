@@ -1,0 +1,31 @@
+Warning: skipping dependency checks.
+Cloning into 'lua-resty-libr3'...
+Note: checking out '8f9749212fe4f40ab48d16465c5c8bfdc41236ba'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+Cloning into 'r3'...
+Note: checking out '1b9e007dfc13008cd0a6d0873047bf3613eafe1c'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
++ rm -rf autom4te.cache Makefile.in aclocal.m4
++ aclocal --force
+./autogen.sh: line 5: aclocal: command not found
+make: *** [r3/configure] Error 127
+
+Error: Build error: Failed building.

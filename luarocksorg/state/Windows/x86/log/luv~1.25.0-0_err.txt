@@ -1,0 +1,8 @@
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+LUA_LIBRARIES
+    linked by target "luv" in directory C:/Users/sp/AppData/Local/Temp/luarocks_luv-1.25.0-0-7524/luv-1.25.0-0
+
+Warning: skipping dependency checks.
+
+Error: Build error: Failed cmake.

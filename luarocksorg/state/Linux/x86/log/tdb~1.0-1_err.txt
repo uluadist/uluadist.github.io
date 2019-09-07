@@ -1,0 +1,18 @@
+Warning: skipping dependency checks.
+Note: checking out 'v1.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at fce88a4... renamed for rock consistency
+src/tdb.c: In function ‘tdb_new_database’:
+src/tdb.c:984:7: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+  write( tdb->fd, TDB_MAGIC_FOOD, sizeof( TDB_MAGIC_FOOD ) );
+       ^
+No existing manifest. Attempting to rebuild...

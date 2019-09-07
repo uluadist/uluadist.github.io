@@ -1,0 +1,7 @@
+Installing https://luarocks.org/c-lua-package-1.0-1.src.rock...
+Using https://luarocks.org/c-lua-package-1.0-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/c-lua.c -o src/c-lua.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o c-lua.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib src/c-lua.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+c-lua-package 1.0-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

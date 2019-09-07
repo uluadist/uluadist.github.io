@@ -1,0 +1,12 @@
+Installing https://luarocks.org/ltermbox-0.2-1.src.rock...
+Using https://luarocks.org/ltermbox-0.2-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c lua/ltermbox.c -o lua/ltermbox.o -I./
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c termbox.c -o termbox.o -I./
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c term.c -o term.o -I./
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c input.c -o input.o -I./
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c ringbuffer.c -o ringbuffer.o -I./
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c utf8.c -o utf8.o -I./
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o ltermbox.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib lua/ltermbox.o termbox.o term.o input.o ringbuffer.o utf8.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+ltermbox 0.2-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: New BSD License)
+

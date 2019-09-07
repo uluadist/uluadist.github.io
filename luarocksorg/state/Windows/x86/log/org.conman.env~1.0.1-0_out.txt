@@ -1,0 +1,14 @@
+env.c
+env.c(44): warning C4273: '__p__environ': inconsistent dll linkage
+C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt\stdlib.h(1158): note: see previous definition of '__p__environ'
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library org/conman/env.lib and object org/conman/env.exp
+Installing https://luarocks.org/org.conman.env-1.0.1-0.rockspec...
+Using https://luarocks.org/org.conman.env-1.0.1-0.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Foenv.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src env.c
+link -dll -def:env.def -out:org/conman/env.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib env.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+org.conman.env 1.0.1-0 is now built and installed in C:\ste\x86\luarockstree (license: LGPL)
+

@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+CMake Error at deps/libuv/CMakeLists.txt:2 (cmake_minimum_required):
+  CMake 3.0 or higher is required.  You are running version 2.8.0
+
+
+
+Error: Build error: Failed cmake.

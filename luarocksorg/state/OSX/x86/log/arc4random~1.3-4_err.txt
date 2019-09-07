@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+src/main.c:54:10: warning: comparison of constant 9223372036854775807 with expression of type 'lua_Integer' (aka 'int') is always false [-Wtautological-constant-out-of-range-compare]
+        if( max == LUAINT_MAX ) {
+            ~~~ ^  ~~~~~~~~~~
+1 warning generated.
+No existing manifest. Attempting to rebuild...

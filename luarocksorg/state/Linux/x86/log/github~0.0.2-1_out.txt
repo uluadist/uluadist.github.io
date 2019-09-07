@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/github-0.0.2-1.rockspec...
+Using https://rocks.moonscript.org/github-0.0.2-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_github-0.0.2-1-3041/lua-github/.git/
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+github 0.0.2-1 is now built and installed in /home/sp/luarockstree (license: Apache)
+

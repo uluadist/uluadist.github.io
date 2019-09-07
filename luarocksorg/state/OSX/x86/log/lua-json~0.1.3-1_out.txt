@@ -1,0 +1,9 @@
+Installing https://luarocks.org/lua-json-0.1.3-1.src.rock...
+Using https://luarocks.org/lua-json-0.1.3-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/json.c -o src/json.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/json-encode.c -o src/json-encode.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/json-decode.c -o src/json-decode.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o json.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/json.o src/json-encode.o src/json-decode.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lua-json 0.1.3-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

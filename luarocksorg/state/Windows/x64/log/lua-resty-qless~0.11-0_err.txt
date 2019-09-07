@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-resty-qless 0.11-0: lua-resty-redis-connector >= 0.05
+Missing dependency for lua-resty-qless 0.11-0: lua-resty-redis-connector >= 0.05

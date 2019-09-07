@@ -1,0 +1,8 @@
+Initialized empty Git repository in /tmp/luarocks_luazen-0.9-1-6079/luazen/.git/
+Installing https://luarocks.org/luazen-0.9-1.rockspec...
+Using https://luarocks.org/luazen-0.9-1.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/luazen.c -o src/luazen.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/base58.c -o src/base58.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/lzf_c.c -o src/lzf_c.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/lzf_d.c -o src/lzf_d.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/mono.c -o src/mono.o

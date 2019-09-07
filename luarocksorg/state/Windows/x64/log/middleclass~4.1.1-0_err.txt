@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Error fetching file: Failed downloading https://github.com/kikito/middleclass/archive/v4.1.1.tar.gz - v4.1.1.tar.gz

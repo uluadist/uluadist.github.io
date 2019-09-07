@@ -1,0 +1,24 @@
+Archive:  v0.2.0.zip
+6e50c862e1203ddaebc66cf63a3523cffcac2f3e
+   creating: luarocks-build-cpp-0.2.0/
+  inflating: luarocks-build-cpp-0.2.0/.gitignore  
+  inflating: luarocks-build-cpp-0.2.0/.travis.yml  
+  inflating: luarocks-build-cpp-0.2.0/README.md  
+  inflating: luarocks-build-cpp-0.2.0/appveyor.yml  
+  inflating: luarocks-build-cpp-0.2.0/cpp.lua  
+   creating: luarocks-build-cpp-0.2.0/rockspecs/
+  inflating: luarocks-build-cpp-0.2.0/rockspecs/luarocks-build-cpp-0.1-1.rockspec  
+  inflating: luarocks-build-cpp-0.2.0/rockspecs/luarocks-build-cpp-0.2.0-1.rockspec  
+  inflating: luarocks-build-cpp-0.2.0/rockspecs/luarocks-build-cpp-scm-0.rockspec  
+   creating: luarocks-build-cpp-0.2.0/tests/
+  inflating: luarocks-build-cpp-0.2.0/tests/info.lua  
+  inflating: luarocks-build-cpp-0.2.0/tests/test01.lua  
+   creating: luarocks-build-cpp-0.2.0/tests/test01/
+  inflating: luarocks-build-cpp-0.2.0/tests/test01/main.cpp  
+  inflating: luarocks-build-cpp-0.2.0/tests/test01/moduletest01-scm-0.rockspec  
+  inflating: luarocks-build-cpp-0.2.0/tests/test01/util.hpp  
+Installing https://luarocks.org/luarocks-build-cpp-0.2.0-1.rockspec...
+Using https://luarocks.org/luarocks-build-cpp-0.2.0-1.rockspec... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+luarocks-build-cpp 0.2.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

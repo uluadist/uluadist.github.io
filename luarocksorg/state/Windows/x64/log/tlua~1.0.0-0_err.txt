@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for tlua 1.0.0-0: penlight >= 0.8
+Missing dependency for tlua 1.0.0-0: penlight >= 0.8

@@ -1,0 +1,5 @@
+lua-i2c.c
+lua-i2c.c(29): fatal error C1083: Cannot open include file: 'linux/i2c-dev.h': No such file or directory
+Installing https://luarocks.org/i2c-1.1.3-1.src.rock...
+Using https://luarocks.org/i2c-1.1.3-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folua-i2c.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src lua-i2c.c

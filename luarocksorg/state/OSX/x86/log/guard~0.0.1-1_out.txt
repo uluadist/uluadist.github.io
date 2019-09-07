@@ -1,0 +1,5 @@
+Installing https://luarocks.org/guard-0.0.1-1.rockspec...
+Using https://luarocks.org/guard-0.0.1-1.rockspec... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+guard 0.0.1-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT <http://www.opensource.org/licenses/mit-license.php>)
+

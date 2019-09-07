@@ -1,0 +1,9 @@
+Installing https://luarocks.org/lua-amf3-2.0.0rc1-1.src.rock...
+Using https://luarocks.org/lua-amf3-2.0.0rc1-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/amf3.c -o src/amf3.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/amf3_encode.c -o src/amf3_encode.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/amf3_decode.c -o src/amf3_decode.o
+gcc -shared -o amf3.so -L/home/sp/Dropbox/Linux/x64/luajit//lib src/amf3.o src/amf3_encode.o src/amf3_decode.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-amf3 2.0.0rc1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

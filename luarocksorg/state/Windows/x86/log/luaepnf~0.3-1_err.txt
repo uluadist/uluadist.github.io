@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luaepnf 0.3-1: lpeg >= 0.8
+Missing dependency for luaepnf 0.3-1: lpeg >= 0.8

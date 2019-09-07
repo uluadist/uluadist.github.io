@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lut 1.2.1-1: lub >= 1.0.3, < 2
+Missing dependency for lut 1.2.1-1: lub >= 1.0.3, < 2

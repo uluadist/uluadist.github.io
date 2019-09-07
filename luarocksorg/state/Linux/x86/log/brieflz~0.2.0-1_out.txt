@@ -1,0 +1,4 @@
+Installing https://luarocks.org/brieflz-0.2.0-1.src.rock...
+Using https://luarocks.org/brieflz-0.2.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/brieflz.c -o src/brieflz.o -Ivendor/brieflz/include
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c vendor/brieflz/src/brieflz.c -o vendor/brieflz/src/brieflz.o -Ivendor/brieflz/include

@@ -1,0 +1,16 @@
+Warning: skipping dependency checks.
+Cloning into 'lua-parser'...
+Note: checking out '9bcd3d6f7e2b6ec825dc1a44db26948fcba9888f'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-parser 0.1.1-1: lpeg >= 0.12
+Missing dependency for lua-parser 0.1.1-1: lpeg >= 0.12

@@ -1,0 +1,51 @@
+mkdir -p /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build
+rm -f /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/stamp-dehydrated-*
+mkdir -p /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/bin
+curl -sSLo /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/bin/dehydrated "https://raw.githubusercontent.com/lukas2511/dehydrated/v0.4.0/dehydrated"
+chmod +x /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/bin/dehydrated
+touch /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/stamp-dehydrated-2-v0.4.0
+rm -f /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/stamp-lua-resty-shell-*
+curl -sSLo /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/lib/resty/auto-ssl/vendor/shell.lua "https://raw.githubusercontent.com/juce/lua-resty-shell/955243d70506c21e7cc29f61d745d1a8a718994f/lib/resty/shell.lua"
+touch /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/stamp-lua-resty-shell-955243d70506c21e7cc29f61d745d1a8a718994f
+rm -f /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/stamp-sockproc-*
+mkdir -p /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/bin
+cd /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build && curl -sSLo sockproc-fc8ad3f15a7b2cf2eaf39663b90010efc55e207c.tar.gz "https://github.com/juce/sockproc/archive/fc8ad3f15a7b2cf2eaf39663b90010efc55e207c.tar.gz"
+cd /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build && tar -xf sockproc-fc8ad3f15a7b2cf2eaf39663b90010efc55e207c.tar.gz
+cd /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/sockproc-fc8ad3f15a7b2cf2eaf39663b90010efc55e207c && make
+gcc -Wall -Werror -o sockproc sockproc.c
+cp /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/sockproc-fc8ad3f15a7b2cf2eaf39663b90010efc55e207c/sockproc /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/bin/sockproc
+chmod +x /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/bin/sockproc
+touch /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/stamp-sockproc-2-fc8ad3f15a7b2cf2eaf39663b90010efc55e207c
+install -d /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl
+install -m 644 lib/resty/auto-ssl.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl.lua
+install -m 644 lib/resty/auto-ssl/init_master.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/init_master.lua
+install -m 644 lib/resty/auto-ssl/init_worker.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/init_worker.lua
+install -d /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/jobs
+install -m 644 lib/resty/auto-ssl/jobs/renewal.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/jobs/renewal.lua
+install -d /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/servers
+install -m 644 lib/resty/auto-ssl/servers/challenge.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/servers/challenge.lua
+install -m 644 lib/resty/auto-ssl/servers/hook.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/servers/hook.lua
+install -m 644 lib/resty/auto-ssl/request_info.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/request_info.lua
+install -m 644 lib/resty/auto-ssl/ssl_certificate.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/ssl_certificate.lua
+install -d /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/ssl_providers
+install -m 644 lib/resty/auto-ssl/ssl_providers/lets_encrypt.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/ssl_providers/lets_encrypt.lua
+install -m 644 lib/resty/auto-ssl/storage.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/storage.lua
+install -d /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/storage_adapters
+install -m 644 lib/resty/auto-ssl/storage_adapters/file.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/storage_adapters/file.lua
+install -m 644 lib/resty/auto-ssl/storage_adapters/redis.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/storage_adapters/redis.lua
+install -d /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/utils
+install -m 644 lib/resty/auto-ssl/utils/shell_execute.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/utils/shell_execute.lua
+install -m 644 lib/resty/auto-ssl/utils/start_sockproc.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/utils/start_sockproc.lua
+install -m 644 lib/resty/auto-ssl/utils/run_command.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/utils/run_command.lua
+install -d /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/vendor
+install -m 644 lib/resty/auto-ssl/vendor/shell.lua /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/lua/resty/auto-ssl/vendor/shell.lua
+install -d /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/bin/resty-auto-ssl
+install -m 755 bin/letsencrypt_hooks /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/bin/resty-auto-ssl/letsencrypt_hooks
+install -m 755 bin/start_sockproc /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/bin/resty-auto-ssl/start_sockproc
+install -m 755 /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/bin/dehydrated /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/bin/resty-auto-ssl/dehydrated
+install -m 755 /private/tmp/luarocks_lua-resty-auto-ssl-instrumented-0.11.1-10-5693/lua-resty-auto-ssl/build/bin/sockproc /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-resty-auto-ssl-instrumented/0.11.1-10/bin/resty-auto-ssl/sockproc
+Installing https://luarocks.org/lua-resty-auto-ssl-instrumented-0.11.1-10.src.rock...
+Using https://luarocks.org/lua-resty-auto-ssl-instrumented-0.11.1-10.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lua-resty-auto-ssl-instrumented 0.11.1-10 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

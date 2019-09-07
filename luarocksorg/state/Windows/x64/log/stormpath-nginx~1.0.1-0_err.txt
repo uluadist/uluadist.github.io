@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for stormpath-nginx 1.0.1-0: lua-resty-http == 0.08
+Missing dependency for stormpath-nginx 1.0.1-0: lua-resty-jwt == 0.1.5
+Missing dependency for stormpath-nginx 1.0.1-0: lua-resty-http == 0.08
+Missing dependency for stormpath-nginx 1.0.1-0: lua-resty-jwt == 0.1.5

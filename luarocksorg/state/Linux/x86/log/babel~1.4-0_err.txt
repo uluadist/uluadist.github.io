@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for babel 1.4-0: luafilesystem >= 1.6.0
+Missing dependency for babel 1.4-0: luafilesystem >= 1.6.0

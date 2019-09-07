@@ -1,0 +1,7 @@
+Installing https://luarocks.org/geo-1.1.0-1.rockspec...
+Using https://luarocks.org/geo-1.1.0-1.rockspec... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c geo.c -o geo.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o geo.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib geo.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+geo 1.1.0-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

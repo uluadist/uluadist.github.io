@@ -1,0 +1,36 @@
+cd ./lib_src && pwd && make -i clean && chmod +x ./configure && ./configure && make && make install && cd ..
+/tmp/luarocks_xls-read-1.0-1-8048/xls-read/lib_src
+make[1]: Entering directory `/tmp/luarocks_xls-read-1.0-1-8048/xls-read/lib_src'
+Making clean in include
+make[2]: Entering directory `/tmp/luarocks_xls-read-1.0-1-8048/xls-read/lib_src/include'
+rm -rf .libs _libs
+rm -f *.lo
+make[2]: Leaving directory `/tmp/luarocks_xls-read-1.0-1-8048/xls-read/lib_src/include'
+Making clean in src
+make[2]: Entering directory `/tmp/luarocks_xls-read-1.0-1-8048/xls-read/lib_src/src'
+ rm -f xls2csv
+test -z "libxlsreader.la" || rm -f libxlsreader.la
+rm -f ./so_locations
+rm -rf .libs _libs
+rm -f *.o
+rm -f *.lo
+make[2]: Leaving directory `/tmp/luarocks_xls-read-1.0-1-8048/xls-read/lib_src/src'
+Making clean in test
+make[2]: Entering directory `/tmp/luarocks_xls-read-1.0-1-8048/xls-read/lib_src/test'
+ rm -f test
+rm -rf .libs _libs
+ rm -f test test2
+rm -f *.o
+test -z "test.log" || rm -f test.log
+test -z "test.trs" || rm -f test.trs
+test -z "test-suite.log" || rm -f test-suite.log
+rm -f *.lo
+make[2]: Leaving directory `/tmp/luarocks_xls-read-1.0-1-8048/xls-read/lib_src/test'
+make[2]: Entering directory `/tmp/luarocks_xls-read-1.0-1-8048/xls-read/lib_src'
+rm -rf .libs _libs
+rm -f *.lo
+make[2]: Leaving directory `/tmp/luarocks_xls-read-1.0-1-8048/xls-read/lib_src'
+make[1]: Leaving directory `/tmp/luarocks_xls-read-1.0-1-8048/xls-read/lib_src'
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... Installing https://luarocks.org/xls-read-1.0-1.src.rock...
+Using https://luarocks.org/xls-read-1.0-1.src.rock... switching to 'build' mode

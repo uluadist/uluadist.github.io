@@ -1,0 +1,3 @@
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -std=c99 -O2 -fPIC -DNDEBUG -DVERSION='"1.0.0"'   -c -o cbor_c.o cbor_c.c
+Installing https://luarocks.org/org.conman.cbor-1.0.0-1.src.rock...
+Using https://luarocks.org/org.conman.cbor-1.0.0-1.src.rock... switching to 'build' mode

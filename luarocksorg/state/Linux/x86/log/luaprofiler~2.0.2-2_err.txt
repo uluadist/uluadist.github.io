@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+src/core_profiler.o: In function `lprofP_init_core_profiler':
+core_profiler.c:(.text+0x21b): warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+No existing manifest. Attempting to rebuild...

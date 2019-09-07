@@ -1,0 +1,60 @@
+Archive:  v0.4.1.zip
+757136f50b6df0ee7484c4ad472906403b5a6f39
+   creating: lua-mtstates-0.4.1/
+  inflating: lua-mtstates-0.4.1/.gitignore  
+  inflating: lua-mtstates-0.4.1/.travis.yml  
+  inflating: lua-mtstates-0.4.1/CMakeLists.txt  
+  inflating: lua-mtstates-0.4.1/LICENSE  
+  inflating: lua-mtstates-0.4.1/Makefile  
+  inflating: lua-mtstates-0.4.1/README.md  
+  inflating: lua-mtstates-0.4.1/appveyor.yml  
+   creating: lua-mtstates-0.4.1/examples/
+  inflating: lua-mtstates-0.4.1/examples/example01.lua  
+  inflating: lua-mtstates-0.4.1/examples/example02.lua  
+  inflating: lua-mtstates-0.4.1/examples/example03.lua  
+  inflating: lua-mtstates-0.4.1/examples/example04.lua  
+  inflating: lua-mtstates-0.4.1/examples/example05.lua  
+  inflating: lua-mtstates-0.4.1/examples/setup.sh  
+   creating: lua-mtstates-0.4.1/rockspecs/
+  inflating: lua-mtstates-0.4.1/rockspecs/mtstates-0.2.0-1.rockspec  
+  inflating: lua-mtstates-0.4.1/rockspecs/mtstates-0.3.0-1.rockspec  
+  inflating: lua-mtstates-0.4.1/rockspecs/mtstates-0.3.1-1.rockspec  
+  inflating: lua-mtstates-0.4.1/rockspecs/mtstates-0.3.2-1.rockspec  
+  inflating: lua-mtstates-0.4.1/rockspecs/mtstates-0.4.0-1.rockspec  
+  inflating: lua-mtstates-0.4.1/rockspecs/mtstates-0.4.1-1.rockspec  
+  inflating: lua-mtstates-0.4.1/rockspecs/mtstates-scm-0.rockspec  
+   creating: lua-mtstates-0.4.1/src/
+  inflating: lua-mtstates-0.4.1/src/async_defines.h  
+  inflating: lua-mtstates-0.4.1/src/async_util.c  
+  inflating: lua-mtstates-0.4.1/src/async_util.h  
+  inflating: lua-mtstates-0.4.1/src/compat-5.3.c  
+  inflating: lua-mtstates-0.4.1/src/compat-5.3.h  
+  inflating: lua-mtstates-0.4.1/src/error.c  
+  inflating: lua-mtstates-0.4.1/src/error.h  
+  inflating: lua-mtstates-0.4.1/src/main.c  
+  inflating: lua-mtstates-0.4.1/src/main.h  
+  inflating: lua-mtstates-0.4.1/src/mtstates_compat.c  
+  inflating: lua-mtstates-0.4.1/src/state.c  
+  inflating: lua-mtstates-0.4.1/src/state.h  
+  inflating: lua-mtstates-0.4.1/src/state_intern.h  
+  inflating: lua-mtstates-0.4.1/src/util.c  
+  inflating: lua-mtstates-0.4.1/src/util.h  
+   creating: lua-mtstates-0.4.1/tests/
+  inflating: lua-mtstates-0.4.1/tests/test01.lua  
+  inflating: lua-mtstates-0.4.1/tests/test02.lua  
+  inflating: lua-mtstates-0.4.1/tests/test03.lua  
+  inflating: lua-mtstates-0.4.1/tests/test04.lua  
+   creating: lua-mtstates-0.4.1/thirdparty/
+  inflating: lua-mtstates-0.4.1/thirdparty/lua-compat-license  
+Installing https://luarocks.org/mtstates-0.4.1-1.rockspec...
+Using https://luarocks.org/mtstates-0.4.1-1.rockspec... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/main.c -o src/main.o -DMTSTATES_VERSION=0.4.1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/state.c -o src/state.o -DMTSTATES_VERSION=0.4.1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/error.c -o src/error.o -DMTSTATES_VERSION=0.4.1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/util.c -o src/util.o -DMTSTATES_VERSION=0.4.1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/async_util.c -o src/async_util.o -DMTSTATES_VERSION=0.4.1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/mtstates_compat.c -o src/mtstates_compat.o -DMTSTATES_VERSION=0.4.1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o mtstates.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/main.o src/state.o src/error.o src/util.o src/async_util.o src/mtstates_compat.o -lpthread
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+mtstates 0.4.1-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

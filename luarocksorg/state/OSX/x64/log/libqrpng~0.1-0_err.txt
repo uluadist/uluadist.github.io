@@ -1,0 +1,19 @@
+Warning: skipping dependency checks.
+Cloning into 'libqrpng'...
+Note: checking out '00ec126c588416044b4eb6f8bd899199ff9f84d3'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+qrpng.c:10:10: fatal error: 'png.h' file not found
+#include "png.h"
+         ^
+1 error generated.
+
+Error: Build error: Failed compiling object qrpng.o

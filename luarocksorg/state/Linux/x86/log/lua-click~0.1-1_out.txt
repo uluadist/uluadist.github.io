@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-click-0.1-1.rockspec...
+Using https://luarocks.org/lua-click-0.1-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-click-0.1-1-9149/lua-click/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-click 0.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

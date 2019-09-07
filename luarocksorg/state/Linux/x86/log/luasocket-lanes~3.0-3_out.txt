@@ -1,0 +1,227 @@
+Archive:  v3.0-3.zip
+f37c40fee773c39e2375100753df9db85f83aa20
+   creating: luasocket-lanes-3.0-3/
+  inflating: luasocket-lanes-3.0-3/.gitignore  
+  inflating: luasocket-lanes-3.0-3/.travis.yml  
+   creating: luasocket-lanes-3.0-3/.vscode/
+  inflating: luasocket-lanes-3.0-3/.vscode/settings.json  
+  inflating: luasocket-lanes-3.0-3/FIX  
+  inflating: luasocket-lanes-3.0-3/LICENSE  
+  inflating: luasocket-lanes-3.0-3/Lua51.props  
+  inflating: luasocket-lanes-3.0-3/Lua52.props  
+  inflating: luasocket-lanes-3.0-3/NEW  
+  inflating: luasocket-lanes-3.0-3/README.md  
+  inflating: luasocket-lanes-3.0-3/TODO  
+  inflating: luasocket-lanes-3.0-3/WISH  
+   creating: luasocket-lanes-3.0-3/doc/
+  inflating: luasocket-lanes-3.0-3/doc/dns.html  
+  inflating: luasocket-lanes-3.0-3/doc/ftp.html  
+  inflating: luasocket-lanes-3.0-3/doc/http.html  
+  inflating: luasocket-lanes-3.0-3/doc/index.html  
+  inflating: luasocket-lanes-3.0-3/doc/installation.html  
+  inflating: luasocket-lanes-3.0-3/doc/introduction.html  
+  inflating: luasocket-lanes-3.0-3/doc/ltn12.html  
+  inflating: luasocket-lanes-3.0-3/doc/lua05.ppt  
+  inflating: luasocket-lanes-3.0-3/doc/luasocket.png  
+  inflating: luasocket-lanes-3.0-3/doc/mime.html  
+  inflating: luasocket-lanes-3.0-3/doc/reference.css  
+  inflating: luasocket-lanes-3.0-3/doc/reference.html  
+  inflating: luasocket-lanes-3.0-3/doc/smtp.html  
+  inflating: luasocket-lanes-3.0-3/doc/socket.html  
+  inflating: luasocket-lanes-3.0-3/doc/tcp.html  
+  inflating: luasocket-lanes-3.0-3/doc/udp.html  
+  inflating: luasocket-lanes-3.0-3/doc/url.html  
+   creating: luasocket-lanes-3.0-3/etc/
+  inflating: luasocket-lanes-3.0-3/etc/README  
+  inflating: luasocket-lanes-3.0-3/etc/b64.lua  
+  inflating: luasocket-lanes-3.0-3/etc/check-links.lua  
+  inflating: luasocket-lanes-3.0-3/etc/check-memory.lua  
+  inflating: luasocket-lanes-3.0-3/etc/cookie.lua  
+  inflating: luasocket-lanes-3.0-3/etc/dict.lua  
+  inflating: luasocket-lanes-3.0-3/etc/dispatch.lua  
+  inflating: luasocket-lanes-3.0-3/etc/eol.lua  
+  inflating: luasocket-lanes-3.0-3/etc/forward.lua  
+  inflating: luasocket-lanes-3.0-3/etc/get.lua  
+  inflating: luasocket-lanes-3.0-3/etc/links  
+  inflating: luasocket-lanes-3.0-3/etc/lp.lua  
+  inflating: luasocket-lanes-3.0-3/etc/qp.lua  
+  inflating: luasocket-lanes-3.0-3/etc/tftp.lua  
+   creating: luasocket-lanes-3.0-3/gem/
+  inflating: luasocket-lanes-3.0-3/gem/ex1.lua  
+  inflating: luasocket-lanes-3.0-3/gem/ex10.lua  
+  inflating: luasocket-lanes-3.0-3/gem/ex11.lua  
+  inflating: luasocket-lanes-3.0-3/gem/ex12.lua  
+  inflating: luasocket-lanes-3.0-3/gem/ex2.lua  
+  inflating: luasocket-lanes-3.0-3/gem/ex3.lua  
+  inflating: luasocket-lanes-3.0-3/gem/ex4.lua  
+  inflating: luasocket-lanes-3.0-3/gem/ex5.lua  
+  inflating: luasocket-lanes-3.0-3/gem/ex6.lua  
+  inflating: luasocket-lanes-3.0-3/gem/ex7.lua  
+  inflating: luasocket-lanes-3.0-3/gem/ex8.lua  
+  inflating: luasocket-lanes-3.0-3/gem/ex9.lua  
+  inflating: luasocket-lanes-3.0-3/gem/gem.c  
+  inflating: luasocket-lanes-3.0-3/gem/gt.b64  
+  inflating: luasocket-lanes-3.0-3/gem/input.bin  
+  inflating: luasocket-lanes-3.0-3/gem/ltn012.tex  
+  inflating: luasocket-lanes-3.0-3/gem/luasocket.png  
+  inflating: luasocket-lanes-3.0-3/gem/makefile  
+  inflating: luasocket-lanes-3.0-3/gem/myps2pdf  
+  inflating: luasocket-lanes-3.0-3/gem/t1.lua  
+  inflating: luasocket-lanes-3.0-3/gem/t1lf.txt  
+  inflating: luasocket-lanes-3.0-3/gem/t2.lua  
+  inflating: luasocket-lanes-3.0-3/gem/t2.txt  
+  inflating: luasocket-lanes-3.0-3/gem/t2gt.qp  
+  inflating: luasocket-lanes-3.0-3/gem/t3.lua  
+  inflating: luasocket-lanes-3.0-3/gem/t4.lua  
+  inflating: luasocket-lanes-3.0-3/gem/t5.lua  
+  inflating: luasocket-lanes-3.0-3/gem/test.lua  
+  inflating: luasocket-lanes-3.0-3/linux.cmd  
+  inflating: luasocket-lanes-3.0-3/logo.ps  
+  inflating: luasocket-lanes-3.0-3/ltn012.wiki  
+  inflating: luasocket-lanes-3.0-3/ltn013.wiki  
+  inflating: luasocket-lanes-3.0-3/luasocket-lanes-3.0-3.rockspec  
+  inflating: luasocket-lanes-3.0-3/luasocket.sln  
+  inflating: luasocket-lanes-3.0-3/macosx.cmd  
+  inflating: luasocket-lanes-3.0-3/makefile  
+  inflating: luasocket-lanes-3.0-3/makefile.dist  
+  inflating: luasocket-lanes-3.0-3/mime.vcxproj  
+  inflating: luasocket-lanes-3.0-3/mime.vcxproj.filters  
+  inflating: luasocket-lanes-3.0-3/mingw.cmd  
+   creating: luasocket-lanes-3.0-3/samples/
+  inflating: luasocket-lanes-3.0-3/samples/README  
+  inflating: luasocket-lanes-3.0-3/samples/cddb.lua  
+  inflating: luasocket-lanes-3.0-3/samples/daytimeclnt.lua  
+  inflating: luasocket-lanes-3.0-3/samples/echoclnt.lua  
+  inflating: luasocket-lanes-3.0-3/samples/echosrvr.lua  
+  inflating: luasocket-lanes-3.0-3/samples/listener.lua  
+  inflating: luasocket-lanes-3.0-3/samples/lpr.lua  
+  inflating: luasocket-lanes-3.0-3/samples/mclisten.lua  
+  inflating: luasocket-lanes-3.0-3/samples/mcsend.lua  
+  inflating: luasocket-lanes-3.0-3/samples/talker.lua  
+  inflating: luasocket-lanes-3.0-3/samples/tinyirc.lua  
+  inflating: luasocket-lanes-3.0-3/socket.vcxproj  
+  inflating: luasocket-lanes-3.0-3/socket.vcxproj.filters  
+   creating: luasocket-lanes-3.0-3/src/
+  inflating: luasocket-lanes-3.0-3/src/auxiliar.c  
+  inflating: luasocket-lanes-3.0-3/src/auxiliar.h  
+  inflating: luasocket-lanes-3.0-3/src/buffer.c  
+  inflating: luasocket-lanes-3.0-3/src/buffer.h  
+  inflating: luasocket-lanes-3.0-3/src/except.c  
+  inflating: luasocket-lanes-3.0-3/src/except.h  
+  inflating: luasocket-lanes-3.0-3/src/ftp-lanes.lua  
+  inflating: luasocket-lanes-3.0-3/src/headers-lanes.lua  
+  inflating: luasocket-lanes-3.0-3/src/http-lanes.lua  
+  inflating: luasocket-lanes-3.0-3/src/inet.c  
+  inflating: luasocket-lanes-3.0-3/src/inet.h  
+  inflating: luasocket-lanes-3.0-3/src/io.c  
+  inflating: luasocket-lanes-3.0-3/src/io.h  
+  inflating: luasocket-lanes-3.0-3/src/ltn12-lanes.lua  
+  inflating: luasocket-lanes-3.0-3/src/luasocket.c  
+  inflating: luasocket-lanes-3.0-3/src/luasocket.h  
+  inflating: luasocket-lanes-3.0-3/src/makefile  
+  inflating: luasocket-lanes-3.0-3/src/mbox-lanes.lua  
+  inflating: luasocket-lanes-3.0-3/src/mime-lanes.lua  
+  inflating: luasocket-lanes-3.0-3/src/mime.c  
+  inflating: luasocket-lanes-3.0-3/src/mime.h  
+  inflating: luasocket-lanes-3.0-3/src/options.c  
+  inflating: luasocket-lanes-3.0-3/src/options.h  
+  inflating: luasocket-lanes-3.0-3/src/select.c  
+  inflating: luasocket-lanes-3.0-3/src/select.h  
+  inflating: luasocket-lanes-3.0-3/src/serial.c  
+  inflating: luasocket-lanes-3.0-3/src/smtp-lanes.lua  
+  inflating: luasocket-lanes-3.0-3/src/socket-lanes.lua  
+  inflating: luasocket-lanes-3.0-3/src/socket.h  
+  inflating: luasocket-lanes-3.0-3/src/tcp.c  
+  inflating: luasocket-lanes-3.0-3/src/tcp.h  
+  inflating: luasocket-lanes-3.0-3/src/timeout.c  
+  inflating: luasocket-lanes-3.0-3/src/timeout.h  
+  inflating: luasocket-lanes-3.0-3/src/tp-lanes.lua  
+  inflating: luasocket-lanes-3.0-3/src/udp.c  
+  inflating: luasocket-lanes-3.0-3/src/udp.h  
+  inflating: luasocket-lanes-3.0-3/src/unix.c  
+  inflating: luasocket-lanes-3.0-3/src/unix.h  
+  inflating: luasocket-lanes-3.0-3/src/url-lanes.lua  
+  inflating: luasocket-lanes-3.0-3/src/usocket.c  
+  inflating: luasocket-lanes-3.0-3/src/usocket.h  
+  inflating: luasocket-lanes-3.0-3/src/wsocket.c  
+  inflating: luasocket-lanes-3.0-3/src/wsocket.h  
+   creating: luasocket-lanes-3.0-3/test/
+  inflating: luasocket-lanes-3.0-3/test/README  
+   creating: luasocket-lanes-3.0-3/test/auth/
+ extracting: luasocket-lanes-3.0-3/test/auth/.htpasswd  
+  inflating: luasocket-lanes-3.0-3/test/auth/index.html  
+   creating: luasocket-lanes-3.0-3/test/cgi/
+  inflating: luasocket-lanes-3.0-3/test/cgi/cat  
+  inflating: luasocket-lanes-3.0-3/test/cgi/cat-index-html  
+  inflating: luasocket-lanes-3.0-3/test/cgi/env  
+  inflating: luasocket-lanes-3.0-3/test/cgi/query-string  
+  inflating: luasocket-lanes-3.0-3/test/cgi/redirect-loop  
+  inflating: luasocket-lanes-3.0-3/test/cgi/request-uri  
+  inflating: luasocket-lanes-3.0-3/test/dicttest.lua  
+  inflating: luasocket-lanes-3.0-3/test/excepttest.lua  
+  inflating: luasocket-lanes-3.0-3/test/find-connect-limit  
+  inflating: luasocket-lanes-3.0-3/test/ftptest.lua  
+  inflating: luasocket-lanes-3.0-3/test/hello.lua  
+  inflating: luasocket-lanes-3.0-3/test/httptest.lua  
+  inflating: luasocket-lanes-3.0-3/test/index.html  
+  inflating: luasocket-lanes-3.0-3/test/ltn12test.lua  
+  inflating: luasocket-lanes-3.0-3/test/luasocket.png  
+  inflating: luasocket-lanes-3.0-3/test/mimetest.lua  
+  inflating: luasocket-lanes-3.0-3/test/smtptest.lua  
+  inflating: luasocket-lanes-3.0-3/test/stufftest.lua  
+  inflating: luasocket-lanes-3.0-3/test/tcp-getoptions  
+  inflating: luasocket-lanes-3.0-3/test/test_bind.lua  
+  inflating: luasocket-lanes-3.0-3/test/test_getaddrinfo.lua  
+  inflating: luasocket-lanes-3.0-3/test/test_socket_error.lua  
+  inflating: luasocket-lanes-3.0-3/test/testclnt.lua  
+  inflating: luasocket-lanes-3.0-3/test/testmesg.lua  
+  inflating: luasocket-lanes-3.0-3/test/testsrvr.lua  
+  inflating: luasocket-lanes-3.0-3/test/testsupport.lua  
+  inflating: luasocket-lanes-3.0-3/test/tftptest.lua  
+  inflating: luasocket-lanes-3.0-3/test/udp-zero-length-send  
+  inflating: luasocket-lanes-3.0-3/test/udp-zero-length-send-recv  
+  inflating: luasocket-lanes-3.0-3/test/udpconnectclnt.lua  
+  inflating: luasocket-lanes-3.0-3/test/udpconnectsrvr.lua  
+  inflating: luasocket-lanes-3.0-3/test/unixclnt.lua  
+  inflating: luasocket-lanes-3.0-3/test/unixsrvr.lua  
+  inflating: luasocket-lanes-3.0-3/test/upload.html  
+  inflating: luasocket-lanes-3.0-3/test/urltest.lua  
+  inflating: luasocket-lanes-3.0-3/test/utestclnt.lua  
+  inflating: luasocket-lanes-3.0-3/test/utestsrvr.lua  
+  inflating: luasocket-lanes-3.0-3/win32.cmd  
+Installing https://luarocks.org/luasocket-lanes-3.0-3.src.rock...
+Using https://luarocks.org/luasocket-lanes-3.0-3.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/buffer.c -o src/buffer.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/auxiliar.c -o src/auxiliar.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/options.c -o src/options.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/timeout.c -o src/timeout.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/io.c -o src/io.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/usocket.c -o src/usocket.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/unix.c -o src/unix.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -shared -o socket-lanes/unix.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/buffer.o src/auxiliar.o src/options.o src/timeout.o src/io.o src/usocket.o src/unix.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/mime.c -o src/mime.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -shared -o mime-lanes/core.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/mime.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/luasocket.c -o src/luasocket.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/timeout.c -o src/timeout.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/buffer.c -o src/buffer.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/io.c -o src/io.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/auxiliar.c -o src/auxiliar.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/options.c -o src/options.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/inet.c -o src/inet.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/except.c -o src/except.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/select.c -o src/select.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/tcp.c -o src/tcp.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/udp.c -o src/udp.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/usocket.c -o src/usocket.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -shared -o socket-lanes/core.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/luasocket.o src/timeout.o src/buffer.o src/io.o src/auxiliar.o src/options.o src/inet.o src/except.o src/select.o src/tcp.o src/udp.o src/usocket.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/buffer.c -o src/buffer.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/auxiliar.c -o src/auxiliar.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/options.c -o src/options.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/timeout.c -o src/timeout.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/io.c -o src/io.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/usocket.c -o src/usocket.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/serial.c -o src/serial.o -DLUA_COMPAT_APIINTCASTS -DLUASOCKET_DEBUG -DLUASOCKET_API=__attribute__((visibility("default"))) -DUNIX_API=__attribute__((visibility("default"))) -DMIME_API=__attribute__((visibility("default")))
+gcc -shared -o socket-lanes/serial.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/buffer.o src/auxiliar.o src/options.o src/timeout.o src/io.o src/usocket.o src/serial.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+luasocket-lanes 3.0-3 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

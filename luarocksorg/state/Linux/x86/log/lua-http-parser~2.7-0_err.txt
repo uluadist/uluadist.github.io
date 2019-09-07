@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-http-parser 2.7-0: luarocks-fetch-gitrec 
+Missing dependency for lua-http-parser 2.7-0: luarocks-fetch-gitrec 

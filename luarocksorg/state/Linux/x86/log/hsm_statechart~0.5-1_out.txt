@@ -1,0 +1,13 @@
+Installing https://rocks.moonscript.org/hsm_statechart-0.5-1.src.rock...
+Using https://rocks.moonscript.org/hsm_statechart-0.5-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c hsm/hsm_context.c -o hsm/hsm_context.o -I.
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c hsm/hsm_machine.c -o hsm/hsm_machine.o -I.
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c hsm/builder/hash.c -o hsm/builder/hash.o -I.
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c hsm/builder/lower.c -o hsm/builder/lower.o -I.
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c hsm/builder/hsm_builder.c -o hsm/builder/hsm_builder.o -I.
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c hsm/hula/hula.c -o hsm/hula/hula.o -I.
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c hsm/hula/hula_lib.c -o hsm/hula/hula_lib.o -I.
+gcc -shared -o hsm_statechart.so -L/home/sp/luajit/lib hsm/hsm_context.o hsm/hsm_machine.o hsm/builder/hash.o hsm/builder/lower.o hsm/builder/hsm_builder.o hsm/hula/hula.o hsm/hula/hula_lib.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+hsm_statechart 0.5-1 is now built and installed in /home/sp/luarockstree (license: New BSD License)
+

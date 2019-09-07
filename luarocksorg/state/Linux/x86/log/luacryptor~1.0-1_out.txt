@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/luacryptor-1.0-1.rockspec...
+Using https://rocks.moonscript.org/luacryptor-1.0-1.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c luacryptorext.c -o luacryptorext.o
+gcc -shared -o luacryptorext.so -L/home/sp/luajit/lib luacryptorext.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+luacryptor 1.0-1 is now built and installed in /home/sp/luarockstree (license: GPL-2+)
+

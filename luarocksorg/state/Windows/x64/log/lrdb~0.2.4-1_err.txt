@@ -1,0 +1,22 @@
+Cloning into 'LRDB'...
+Note: checking out '7144514a607cb5bc322ed41c7c5e954d6fbeb140'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Checking out files:  17% (136/776)   Checking out files:  18% (140/776)   Checking out files:  19% (148/776)   Checking out files:  20% (156/776)   Checking out files:  21% (163/776)   Checking out files:  22% (171/776)   Checking out files:  23% (179/776)   Checking out files:  24% (187/776)   Checking out files:  25% (194/776)   Checking out files:  26% (202/776)   Checking out files:  27% (210/776)   Checking out files:  28% (218/776)   Checking out files:  29% (226/776)   Checking out files:  30% (233/776)   Checking out files:  31% (241/776)   Checking out files:  32% (249/776)   Checking out files:  33% (257/776)   Checking out files:  34% (264/776)   Checking out files:  35% (272/776)   Checking out files:  35% (278/776)   Checking out files:  36% (280/776)   Checking out files:  37% (288/776)   Checking out files:  38% (295/776)   Checking out files:  39% (303/776)   Checking out files:  40% (311/776)   Checking out files:  41% (319/776)   Checking out files:  42% (326/776)   Checking out files:  43% (334/776)   Checking out files:  44% (342/776)   Checking out files:  45% (350/776)   Checking out files:  46% (357/776)   Checking out files:  47% (365/776)   Checking out files:  48% (373/776)   Checking out files:  49% (381/776)   Checking out files:  50% (388/776)   Checking out files:  51% (396/776)   Checking out files:  52% (404/776)   Checking out files:  53% (412/776)   Checking out files:  54% (420/776)   Checking out files:  55% (427/776)   Checking out files:  55% (431/776)   Checking out files:  56% (435/776)   Checking out files:  57% (443/776)   Checking out files:  58% (451/776)   Checking out files:  59% (458/776)   Checking out files:  60% (466/776)   Checking out files:  61% (474/776)   Checking out files:  62% (482/776)   Checking out files:  63% (489/776)   Checking out files:  64% (497/776)   Checking out files:  65% (505/776)   Checking out files:  66% (513/776)   Checking out files:  67% (520/776)   Checking out files:  68% (528/776)   Checking out files:  69% (536/776)   Checking out files:  70% (544/776)   Checking out files:  71% (551/776)   Checking out files:  72% (559/776)   Checking out files:  73% (567/776)   Checking out files:  73% (574/776)   Checking out files:  74% (575/776)   Checking out files:  75% (582/776)   Checking out files:  76% (590/776)   Checking out files:  77% (598/776)   Checking out files:  78% (606/776)   Checking out files:  79% (614/776)   Checking out files:  80% (621/776)   Checking out files:  81% (629/776)   Checking out files:  82% (637/776)   Checking out files:  83% (645/776)   Checking out files:  84% (652/776)   Checking out files:  85% (660/776)   Checking out files:  86% (668/776)   Checking out files:  87% (676/776)   Checking out files:  88% (683/776)   Checking out files:  89% (691/776)   Checking out files:  90% (699/776)   Checking out files:  90% (704/776)   Checking out files:  91% (707/776)   Checking out files:  92% (714/776)   Checking out files:  93% (722/776)   Checking out files:  94% (730/776)   Checking out files:  95% (738/776)   Checking out files:  96% (745/776)   Checking out files:  97% (753/776)   Checking out files:  98% (761/776)   Checking out files:  99% (769/776)   Checking out files: 100% (776/776)   Checking out files: 100% (776/776), done.
+CMake Error at luarocks_cmake.txt:36 (install):
+  install Library TARGETS given no DESTINATION!
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (include)
+
+
+Warning: skipping dependency checks.
+
+Error: Build error: Failed cmake.

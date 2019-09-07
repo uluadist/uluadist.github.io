@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+src/lua-hiredis.c:203:18: warning: comparison of array 'pContext->errstr' not equal to a null pointer is always true [-Wtautological-pointer-compare]
+      (pContext->errstr != NULL)
+       ~~~~~~~~~~^~~~~~    ~~~~
+1 warning generated.
+No existing manifest. Attempting to rebuild...

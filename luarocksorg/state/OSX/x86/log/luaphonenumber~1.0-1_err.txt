@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+Cloning into 'luaphonenumber'...
+Warning: variable CFLAGS was not passed in build_variables
+luaphonenumber.cpp:5:10: fatal error: 'phonenumbers/phonenumber.pb.h' file not found
+#include "phonenumbers/phonenumber.pb.h"
+         ^
+1 error generated.
+make: *** [luaphonenumber] Error 1
+
+Error: Build error: Failed building.

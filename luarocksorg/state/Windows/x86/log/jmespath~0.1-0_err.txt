@@ -1,0 +1,4 @@
+Z:\sp\Dropbox\Windows\x86\luarocks\2.2\tools\cp: omitting directory `jmespath.lua'
+Warning: skipping dependency checks.
+
+Error: Build error: Failed installing jmespath.lua in C:\ste\x86\luarockstree/lib/luarocks/rocks/jmespath/0.1-0/lua/jmespath.lua

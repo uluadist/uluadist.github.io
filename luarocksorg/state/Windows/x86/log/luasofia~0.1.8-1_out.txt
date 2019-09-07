@@ -1,0 +1,3 @@
+Installing https://luarocks.org/luasofia-0.1.8-1.src.rock...
+Using https://luarocks.org/luasofia-0.1.8-1.src.rock... switching to 'build' mode
+CFLAGS='/nologo /MD /O2' LUA_CMODULE=C:\ste\x86\luarockstree/lib/luarocks/rocks/luasofia/0.1.8-1/lib ./configure --prefix=C:\ste\x86\luarockstree/lib/luarocks/rocks/luasofia/0.1.8-1 --libdir=C:\ste\x86\luarockstree/lib/luarocks/rocks/luasofia/0.1.8-1/lib_version && make

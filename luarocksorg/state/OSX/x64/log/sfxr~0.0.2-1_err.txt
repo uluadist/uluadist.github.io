@@ -1,0 +1,14 @@
+Warning: skipping dependency checks.
+Cloning into 'sfxrlua'...
+Note: checking out '9aabdfbd707528b416e6c6b574ee98c245be25cc'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+No existing manifest. Attempting to rebuild...

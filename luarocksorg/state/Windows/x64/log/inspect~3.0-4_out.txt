@@ -1,0 +1,5 @@
+Installing https://luarocks.org/inspect-3.0-4.rockspec...
+Using https://luarocks.org/inspect-3.0-4.rockspec... switching to 'build' mode
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+inspect 3.0-4 is now built and installed in C:\ste\x64\luarockstree (license: MIT <http://opensource.org/licenses/MIT>)
+

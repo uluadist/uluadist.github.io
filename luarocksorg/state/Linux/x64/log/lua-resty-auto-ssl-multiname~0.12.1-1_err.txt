@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+Makefile:9: *** `curl` was not found in PATH. Please install `curl` first.  Stop.
+
+Error: Build error: Failed building.

@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/lua-llthreads-1.2-1.src.rock...
+Using https://rocks.moonscript.org/lua-llthreads-1.2-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/pre_generated-llthreads.nobj.c -o src/pre_generated-llthreads.nobj.o
+gcc -shared -o llthreads.so -L/home/sp/luajit//lib src/pre_generated-llthreads.nobj.o -lpthread
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lua-llthreads 1.2-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

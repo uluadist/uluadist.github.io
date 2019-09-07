@@ -1,0 +1,5 @@
+cd ./lib-gd && pwd && chmod +x ./configure && ./configure && make -i clean && make && make install && cd ..
+/tmp/luarocks_lua-gd-1.0-2-5641/lua-gd/lib-gd
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... Installing https://luarocks.org/lua-gd-1.0-2.src.rock...
+Using https://luarocks.org/lua-gd-1.0-2.src.rock... switching to 'build' mode

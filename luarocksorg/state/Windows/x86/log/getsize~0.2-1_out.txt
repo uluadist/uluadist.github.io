@@ -1,0 +1,106 @@
+getsize_multi.c
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\llimits.h(18): error C2061: syntax error: identifier 'lu_int32'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\llimits.h(18): error C2059: syntax error: ';'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\llimits.h(20): error C2061: syntax error: identifier 'lu_mem'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\llimits.h(20): error C2059: syntax error: ';'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\llimits.h(22): error C2061: syntax error: identifier 'l_mem'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\llimits.h(22): error C2059: syntax error: ';'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\llimits.h(47): error C2061: syntax error: identifier 'L_Umaxalign'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\llimits.h(47): error C2059: syntax error: ';'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\llimits.h(88): error C2061: syntax error: identifier 'Instruction'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\llimits.h(88): error C2059: syntax error: ';'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(200): error C2061: syntax error: identifier 'L_Umaxalign'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(207): error C2059: syntax error: '}'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(216): error C2061: syntax error: identifier 'L_Umaxalign'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(223): error C2059: syntax error: '}'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(234): error C2061: syntax error: identifier 'Instruction'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(238): error C2143: syntax error: missing '{' before '*'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(239): error C2143: syntax error: missing '{' before '*'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(253): error C2059: syntax error: '}'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(263): error C2061: syntax error: identifier 'TString'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(266): error C2059: syntax error: '}'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(365): error C2143: syntax error: missing '{' before 'const'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(369): error C2054: expected '(' to follow 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(369): error C2085: 'luaO_log2': not in formal parameter list
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(370): error C2061: syntax error: identifier 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(371): error C2054: expected '(' to follow 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(371): error C2085: 'luaO_fb2int': not in formal parameter list
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(372): error C2061: syntax error: identifier 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(373): error C2054: expected '(' to follow 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(373): error C2085: 'luaO_str2d': not in formal parameter list
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(374): error C2061: syntax error: identifier 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(376): error C2143: syntax error: missing '{' before 'const'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(377): error C2054: expected '(' to follow 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lobject.h(377): error C2085: 'luaO_chunkid': not in formal parameter list
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(37): error C2085: 'TMS': not in formal parameter list
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(46): error C2061: syntax error: identifier 'LUAI_DATA'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(49): error C2143: syntax error: missing '{' before 'const'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(49): error C2146: syntax error: missing ')' before identifier 'event'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(49): error C2081: 'TMS': name in formal parameter list illegal
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(49): error C2061: syntax error: identifier 'event'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(49): error C2059: syntax error: ';'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(49): error C2059: syntax error: ','
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(49): error C2059: syntax error: ')'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(50): error C2143: syntax error: missing '{' before 'const'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(51): error C2146: syntax error: missing ')' before identifier 'event'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(51): error C2081: 'TMS': name in formal parameter list illegal
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(51): error C2061: syntax error: identifier 'event'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(51): error C2059: syntax error: ';'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(51): error C2059: syntax error: ')'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(52): error C2054: expected '(' to follow 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\ltm.h(52): error C2085: 'luaT_init': not in formal parameter list
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lmem.h(41): error C2061: syntax error: identifier 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lmem.h(43): error C2054: expected '(' to follow 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lmem.h(43): error C2085: 'luaM_toobig': not in formal parameter list
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lmem.h(44): error C2061: syntax error: identifier 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lzio.h(46): error C2054: expected '(' to follow 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lzio.h(46): error C2085: 'luaZ_openspace': not in formal parameter list
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lzio.h(47): error C2061: syntax error: identifier 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lzio.h(49): error C2054: expected '(' to follow 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lzio.h(49): error C2085: 'luaZ_read': not in formal parameter list
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lzio.h(50): error C2061: syntax error: identifier 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lzio.h(65): error C2054: expected '(' to follow 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lzio.h(65): error C2085: 'luaZ_fill': not in formal parameter list
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(40): error C2061: syntax error: identifier 'lu_int32'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(42): error C2059: syntax error: '}'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(52): error C2143: syntax error: missing ';' before '*'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(52): error C2059: syntax error: '*'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(55): error C2059: syntax error: '}'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(69): error C2061: syntax error: identifier 'stringtable'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(82): error C2061: syntax error: identifier 'GCthreshold'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(82): error C2059: syntax error: ';'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(83): error C2061: syntax error: identifier 'totalbytes'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(83): error C2059: syntax error: ';'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(84): error C2061: syntax error: identifier 'estimate'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(84): error C2059: syntax error: ';'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(85): error C2061: syntax error: identifier 'gcdept'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(85): error C2059: syntax error: ';'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(93): error C2143: syntax error: missing '{' before '*'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(94): error C2059: syntax error: '}'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(105): error C2061: syntax error: identifier 'global_State'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(106): error C2143: syntax error: missing '{' before '*'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(107): error C2143: syntax error: missing '{' before '*'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(110): error C2143: syntax error: missing '{' before '*'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(111): error C2143: syntax error: missing '{' before '*'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(127): error C2059: syntax error: '}'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(138): error C2079: 'ts' uses undefined union 'TString'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(139): error C2079: 'u' uses undefined union 'Udata'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(142): error C2079: 'p' uses undefined struct 'Proto'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(144): error C2079: 'th' uses undefined struct 'lua_State'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(165): error C2054: expected '(' to follow 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(165): error C2085: 'luaE_newthread': not in formal parameter list
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1/lstate.h(166): error C2061: syntax error: identifier 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lgc.h(99): error C2054: expected '(' to follow 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lgc.h(99): error C2085: 'luaC_separateudata': not in formal parameter list
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lgc.h(100): error C2061: syntax error: identifier 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lgc.h(101): error C2054: expected '(' to follow 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lgc.h(101): error C2085: 'luaC_freeall': not in formal parameter list
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lgc.h(102): error C2061: syntax error: identifier 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lgc.h(103): error C2054: expected '(' to follow 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lgc.h(103): error C2085: 'luaC_fullgc': not in formal parameter list
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lgc.h(104): error C2061: syntax error: identifier 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lgc.h(105): error C2054: expected '(' to follow 'LUAI_FUNC'
+c:\users\sp\appdata\local\temp\luarocks_getsize-0.2-1-8318\lua-getsize-0.2\lua5.1\lgc.h(105): fatal error C1003: error count exceeds 100; stopping compilation
+Installing https://luarocks.org/getsize-0.2-1.src.rock...
+Using https://luarocks.org/getsize-0.2-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fogetsize_multi.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ getsize_multi.c -Idummy

@@ -1,0 +1,3 @@
+Installing https://luarocks.org/ac-clientoutput-1.1.0-1.src.rock...
+Using https://luarocks.org/ac-clientoutput-1.1.0-1.src.rock... switching to 'build' mode
+cp -r src/AC-ClientOutput C:\ste\x86\luarockstree/lib/luarocks/rocks/ac-clientoutput/1.1.0-1/lua/AC-ClientOutput

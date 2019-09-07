@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-resty-cookie-0.1.0-1.rockspec...
+Using https://luarocks.org/lua-resty-cookie-0.1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-resty-cookie-0.1.0-1-3223/lua-resty-cookie/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-resty-cookie 0.1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: BSD)
+

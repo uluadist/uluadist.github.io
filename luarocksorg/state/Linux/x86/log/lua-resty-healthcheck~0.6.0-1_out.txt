@@ -1,0 +1,5 @@
+Installing https://luarocks.org/lua-resty-healthcheck-0.6.0-1.src.rock...
+Using https://luarocks.org/lua-resty-healthcheck-0.6.0-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-resty-healthcheck 0.6.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: Apache 2.0)
+

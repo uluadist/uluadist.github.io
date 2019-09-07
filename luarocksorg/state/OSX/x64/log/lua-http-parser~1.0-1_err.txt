@@ -1,0 +1,40 @@
+Warning: skipping dependency checks.
+Warning: unmatched variable CMAKE_BUILD_TYPE
+Cloning into 'http-parser'...
+fatal: remote error: 
+  Repository not found.
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+LUA_INCLUDE_DIR (ADVANCED)
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+   used as include directory in directory /tmp/luarocks_lua-http-parser-1.0-1-335/lua-http-parser
+
+
+Error: Build error: Failed cmake.

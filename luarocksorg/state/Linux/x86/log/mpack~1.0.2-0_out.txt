@@ -1,0 +1,7 @@
+Installing https://luarocks.org/mpack-1.0.2-0.rockspec...
+Using https://luarocks.org/mpack-1.0.2-0.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c lmpack.c -o lmpack.o
+gcc -shared -o mpack.so -L/home/sp/Dropbox/Linux/x86/luajit//lib lmpack.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+mpack 1.0.2-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

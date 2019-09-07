@@ -1,0 +1,12 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for nginx-metrix 1.1.2-1: fun-alloyed 
+Missing dependency for nginx-metrix 1.1.2-1: dkjson 
+Missing dependency for nginx-metrix 1.1.2-1: lust 
+Missing dependency for nginx-metrix 1.1.2-1: lpeg 
+Missing dependency for nginx-metrix 1.1.2-1: inspect 
+Missing dependency for nginx-metrix 1.1.2-1: fun-alloyed 
+Missing dependency for nginx-metrix 1.1.2-1: dkjson 
+Missing dependency for nginx-metrix 1.1.2-1: lust 
+Missing dependency for nginx-metrix 1.1.2-1: lpeg 
+Missing dependency for nginx-metrix 1.1.2-1: inspect 

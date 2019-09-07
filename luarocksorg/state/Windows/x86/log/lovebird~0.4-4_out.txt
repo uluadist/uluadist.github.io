@@ -1,0 +1,5 @@
+Installing https://luarocks.org/lovebird-0.4-4.src.rock...
+Using https://luarocks.org/lovebird-0.4-4.src.rock... switching to 'build' mode
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+lovebird 0.4-4 is now built and installed in C:\ste\x86\luarockstree 
+

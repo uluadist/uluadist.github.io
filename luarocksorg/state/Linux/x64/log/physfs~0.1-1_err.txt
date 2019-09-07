@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+lua-physfs.c:5:20: fatal error: physfs.h: No such file or directory
+ #include "physfs.h"
+                    ^
+compilation terminated.
+
+Error: Build error: Failed compiling object lua-physfs.o

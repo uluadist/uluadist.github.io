@@ -1,0 +1,7 @@
+Installing https://luarocks.org/host-0.1.0-1.src.rock...
+Using https://luarocks.org/host-0.1.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c host.c -o host.o
+gcc -shared -o host.so -L/home/sp/Dropbox/Linux/x86/luajit//lib host.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+host 0.1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for fhirformats 1.2-1: lua-resty-prettycjson 
+Missing dependency for fhirformats 1.2-1: datafile 
+Missing dependency for fhirformats 1.2-1: rapidjson 
+Missing dependency for fhirformats 1.2-1: xml 
+Missing dependency for fhirformats 1.2-1: lua-resty-prettycjson 
+Missing dependency for fhirformats 1.2-1: datafile 
+Missing dependency for fhirformats 1.2-1: rapidjson 
+Missing dependency for fhirformats 1.2-1: xml 

@@ -1,0 +1,28 @@
+Warning: skipping dependency checks.
+clib/uuid.c:126:14: error: __int128 is not supported on this target
+    unsigned __int128 uuid_num;
+             ^
+clib/uuid.c:145:14: error: __int128 is not supported on this target
+    unsigned __int128 uuid_num;
+             ^
+clib/uuid.c:163:14: error: __int128 is not supported on this target
+    unsigned __int128 uuid_num;
+             ^
+clib/uuid.c:181:14: error: __int128 is not supported on this target
+    unsigned __int128 uuid_num;
+             ^
+clib/uuid.c:198:14: error: __int128 is not supported on this target
+    unsigned __int128 uuid_num;
+             ^
+clib/uuid.c:218:14: error: __int128 is not supported on this target
+    unsigned __int128 uuid_num;
+             ^
+clib/uuid.c:236:14: error: __int128 is not supported on this target
+    unsigned __int128 uuid_num;
+             ^
+clib/uuid.c:254:14: error: __int128 is not supported on this target
+    unsigned __int128 uuid_num;
+             ^
+8 errors generated.
+
+Error: Build error: Failed compiling object clib/uuid.o

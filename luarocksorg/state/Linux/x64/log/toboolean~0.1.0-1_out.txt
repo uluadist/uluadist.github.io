@@ -1,0 +1,6 @@
+Installing https://luarocks.org/toboolean-0.1.0-1.rockspec...
+Using https://luarocks.org/toboolean-0.1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_toboolean-0.1.0-1-9252/lua-toboolean/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+toboolean 0.1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

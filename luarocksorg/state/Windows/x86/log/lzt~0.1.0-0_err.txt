@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lzt 0.1.0-0: lustache 
+Missing dependency for lzt 0.1.0-0: luafilesystem 
+Missing dependency for lzt 0.1.0-0: lustache 
+Missing dependency for lzt 0.1.0-0: luafilesystem 

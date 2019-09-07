@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for depgraph 0.2.0-1: luafilesystem >= 1.6.3
+Missing dependency for depgraph 0.2.0-1: argparse >= 0.6.0
+Missing dependency for depgraph 0.2.0-1: luafilesystem >= 1.6.3
+Missing dependency for depgraph 0.2.0-1: argparse >= 0.6.0

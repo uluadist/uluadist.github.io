@@ -1,0 +1,4 @@
+make: Nothing to be done for `all'.
+install -d //usr/local/lib/lua//px
+Installing https://luarocks.org/perimeterx-nginx-plugin-6.0-3.src.rock...
+Using https://luarocks.org/perimeterx-nginx-plugin-6.0-3.src.rock... switching to 'build' mode

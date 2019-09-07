@@ -1,0 +1,11 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+clang: warning: argument unused during compilation: '-shared'
+clang: warning: argument unused during compilation: '-L/Users/sp/Dropbox/OSX/x64/luajit/lib'
+src/main.c:22:10: fatal error: 'fcgi_stdio.h' file not found
+#include <fcgi_stdio.h>
+         ^
+1 error generated.
+make: *** [src/main.o] Error 1
+
+Error: Build error: Failed building.

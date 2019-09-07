@@ -1,0 +1,8 @@
+Installing https://luarocks.org/teateatea-1.3-1.rockspec...
+Using https://luarocks.org/teateatea-1.3-1.rockspec... switching to 'build' mode
+mkdir -p obj
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -c -O3 -Wall -fPIC -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include src/tea_tcursor.c -o obj/tea_tcursor.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -c -O3 -Wall -fPIC -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include src/tea_pack.c -o obj/tea_pack.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -c -O3 -Wall -fPIC -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include src/teateatea.c -o obj/teateatea.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -shared -bundle -undefined dynamic_lookup -all_load obj/tea_tcursor.o obj/tea_pack.o obj/teateatea.o -o teateatea.so
+make install CC="env MACOSX_DEPLOYMENT_TARGET=10.8 gcc" LDFLAGS="-bundle -undefined dynamic_lookup -all_load" CFLAGS="-O2 -fPIC" LUA_INCDIR="-I/Users/sp/Dropbox/OSX/x64/luajit/include" LUA_LIBDIR="/Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/teateatea/1.3-1/lib"

@@ -1,0 +1,34 @@
+Archive:  v0.3.zip
+77aa5645c55e8f44060cab8657002d7a07de0e64
+   creating: lua-compat-5.3-0.3/
+  inflating: lua-compat-5.3-0.3/.gitignore  
+  inflating: lua-compat-5.3-0.3/LICENSE  
+  inflating: lua-compat-5.3-0.3/README.md  
+   creating: lua-compat-5.3-0.3/c-api/
+  inflating: lua-compat-5.3-0.3/c-api/compat-5.3.c  
+  inflating: lua-compat-5.3-0.3/c-api/compat-5.3.h  
+   creating: lua-compat-5.3-0.3/compat53/
+  inflating: lua-compat-5.3-0.3/compat53/init.lua  
+  inflating: lua-compat-5.3-0.3/compat53/module.lua  
+  inflating: lua-compat-5.3-0.3/lprefix.h  
+  inflating: lua-compat-5.3-0.3/lstrlib.c  
+  inflating: lua-compat-5.3-0.3/ltablib.c  
+  inflating: lua-compat-5.3-0.3/lutf8lib.c  
+   creating: lua-compat-5.3-0.3/rockspecs/
+  inflating: lua-compat-5.3-0.3/rockspecs/compat53-0.1-1.rockspec  
+  inflating: lua-compat-5.3-0.3/rockspecs/compat53-0.2-1.rockspec  
+  inflating: lua-compat-5.3-0.3/rockspecs/compat53-scm-0.rockspec  
+   creating: lua-compat-5.3-0.3/tests/
+  inflating: lua-compat-5.3-0.3/tests/test.lua  
+  inflating: lua-compat-5.3-0.3/tests/testmod.c  
+Installing https://rocks.moonscript.org/compat53-0.3-1.src.rock...
+Using https://rocks.moonscript.org/compat53-0.3-1.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lstrlib.c -o lstrlib.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o compat53/string.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lstrlib.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lutf8lib.c -o lutf8lib.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o compat53/utf8.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lutf8lib.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c ltablib.c -o ltablib.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o compat53/table.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib ltablib.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+compat53 0.3-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

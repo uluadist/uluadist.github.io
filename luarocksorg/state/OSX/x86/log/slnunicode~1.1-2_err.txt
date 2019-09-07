@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+successfully patched /tmp/luarocks_slnunicode-1.1-2-2010/slnunicode-1.1/slnunico.c
+slnunico.c:1325:2: warning: implicit declaration of function 'luaI_openlib' is invalid in C99 [-Wimplicit-function-declaration]
+        luaI_openlib(L, SLN_UNICODENAME ".ascii", uniclib, 1);
+        ^
+1 warning generated.
+No existing manifest. Attempting to rebuild...

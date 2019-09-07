@@ -1,0 +1,6 @@
+Initialized empty Git repository in /tmp/luarocks_lzw-1.0-1-2619/lua-lzw/.git/
+Installing https://luarocks.org/lzw-1.0-1.rockspec...
+Using https://luarocks.org/lzw-1.0-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lzw 1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: WTF)
+

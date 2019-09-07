@@ -1,0 +1,12 @@
+Installing https://luarocks.org/process-1.6.1-1.rockspec...
+Using https://luarocks.org/process-1.6.1-1.rockspec... switching to 'build' mode
+lua ./codegen.lua var/errno.txt var/waitpid_opt.txt tmpl/process_tmpl.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -Wall -Wno-trigraphs -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wno-switch -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -Wshadow -Wsign-compare -I/Users/sp/Dropbox/OSX/x86/luajit//include -o src/child.o -c src/child.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -Wall -Wno-trigraphs -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wno-switch -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -Wshadow -Wsign-compare -I/Users/sp/Dropbox/OSX/x86/luajit//include -o src/process.o -c src/process.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -o process.so src/child.o src/process.o -bundle -undefined dynamic_lookup -all_load  
+mkdir -p /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/process/1.6.1-1/lib
+cp process.so /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/process/1.6.1-1/lib
+rm -f src/child.o src/process.o process.so
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+process 1.6.1-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

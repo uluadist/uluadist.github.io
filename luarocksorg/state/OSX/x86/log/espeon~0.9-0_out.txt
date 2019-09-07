@@ -1,0 +1,5 @@
+Installing https://luarocks.org/espeon-0.9-0.rockspec...
+Using https://luarocks.org/espeon-0.9-0.rockspec... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+espeon 0.9-0 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

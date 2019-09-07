@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for xml 1.1.3-1: lub >= 1.0.3, < 2
+Missing dependency for xml 1.1.3-1: lub >= 1.0.3, < 2

@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+sh: scons: not found
+
+Error: Build error: Failed building.

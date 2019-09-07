@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/httpclient-0.1.0-7.rockspec...
+Using https://rocks.moonscript.org/httpclient-0.1.0-7.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_httpclient-0.1.0-7-2129/lua-httpclient/.git/
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+httpclient 0.1.0-7 is now built and installed in /home/sp/luarockstree (license: Apache)
+

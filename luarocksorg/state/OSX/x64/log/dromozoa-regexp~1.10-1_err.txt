@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for dromozoa-regexp 1.10-1: dromozoa-commons 
+Missing dependency for dromozoa-regexp 1.10-1: dromozoa-tree 
+Missing dependency for dromozoa-regexp 1.10-1: dromozoa-graph 
+Missing dependency for dromozoa-regexp 1.10-1: dromozoa-commons 
+Missing dependency for dromozoa-regexp 1.10-1: dromozoa-tree 
+Missing dependency for dromozoa-regexp 1.10-1: dromozoa-graph 

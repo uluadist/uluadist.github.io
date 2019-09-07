@@ -1,0 +1,5 @@
+Installing https://luarocks.org/luaconfig-0.1.9-0.src.rock...
+Using https://luarocks.org/luaconfig-0.1.9-0.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+luaconfig 0.1.9-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

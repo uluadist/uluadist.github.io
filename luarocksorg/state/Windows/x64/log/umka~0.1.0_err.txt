@@ -1,0 +1,2 @@
+
+Error: C:\Users\sp\AppData\Local\Temp/luarocks_luarocks-rockspec-umka-0.1.0-9302/umka-0.1.0.rockspec: Type mismatch on field version: invalid value 0.1.0 does not match '[%w.]+-[%d]+'

@@ -1,0 +1,3 @@
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -c -o gcclua.o -Iplugin/include -fPIC  -O2 -Wall -Wformat-security  gcclua.c
+Installing https://rocks.moonscript.org/hdf5-2.0.0-1.src.rock...
+Using https://rocks.moonscript.org/hdf5-2.0.0-1.src.rock... switching to 'build' mode

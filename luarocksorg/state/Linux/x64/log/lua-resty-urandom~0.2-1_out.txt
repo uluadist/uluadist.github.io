@@ -1,0 +1,3 @@
+Installing https://luarocks.org/lua-resty-urandom-0.2-1.rockspec...
+Using https://luarocks.org/lua-resty-urandom-0.2-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-resty-urandom-0.2-1-9625/lua-resty-urandom/.git/

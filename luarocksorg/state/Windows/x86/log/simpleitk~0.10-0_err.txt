@@ -1,0 +1,11 @@
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CFLAGS
+    CMAKE_BUILD_TYPE
+
+
+Warning: skipping dependency checks.
+Warning: unmatched variable CMAKE_BUILD_TYPE
+
+Error: Build error: Failed building.

@@ -1,0 +1,9 @@
+Installing https://luarocks.org/hasher-0.1.0-1.src.rock...
+Using https://luarocks.org/hasher-0.1.0-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lhasher.c -o lhasher.o -I./src
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/blake2b.c -o src/blake2b.o -I./src
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/base58.c -o src/base58.o -I./src
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o hasher.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lhasher.o src/blake2b.o src/base58.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+hasher 0.1.0-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

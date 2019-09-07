@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-resty-exec-1.1.1-0.rockspec...
+Using https://luarocks.org/lua-resty-exec-1.1.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-resty-exec-1.1.1-0-3813/lua-resty-exec/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-resty-exec 1.1.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

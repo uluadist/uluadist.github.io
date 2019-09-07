@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: omitting directory `is.lua'
+
+Error: Build error: Failed installing is.lua in /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/is/0.1.0-1/lua/is.lua

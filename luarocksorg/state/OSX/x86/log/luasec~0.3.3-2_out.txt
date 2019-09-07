@@ -1,0 +1,4 @@
+Installing https://rocks.moonscript.org/luasec-0.3.3-2.rockspec...
+Using https://rocks.moonscript.org/luasec-0.3.3-2.rockspec... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c src/buffer.c -o src/buffer.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c src/context.c -o src/context.o

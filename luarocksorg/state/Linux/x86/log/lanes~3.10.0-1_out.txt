@@ -1,0 +1,13 @@
+Installing https://rocks.moonscript.org/lanes-3.10.0-1.rockspec...
+Using https://rocks.moonscript.org/lanes-3.10.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lanes-3.10.0-1-5998/lanes/.git/
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/compat.c -o src/compat.o -Isrc
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/deep.c -o src/deep.o -Isrc
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/lanes.c -o src/lanes.o -Isrc
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/keeper.c -o src/keeper.o -Isrc
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/tools.c -o src/tools.o -Isrc
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/threading.c -o src/threading.o -Isrc
+gcc -shared -o lanes/core.so -L/home/sp/luajit/lib src/compat.o src/deep.o src/lanes.o src/keeper.o src/tools.o src/threading.o -lpthread
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lanes 3.10.0-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

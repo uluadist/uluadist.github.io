@@ -1,0 +1,5 @@
+Installing https://luarocks.org/lugate-0.4.0-1.src.rock...
+Using https://luarocks.org/lugate-0.4.0-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lugate 0.4.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

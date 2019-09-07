@@ -1,0 +1,52 @@
+Archive:  lua-cjson-2.1.0.zip
+   creating: lua-cjson-2.1.0/
+  inflating: lua-cjson-2.1.0/runtests.sh  
+  inflating: lua-cjson-2.1.0/fpconv.c  
+  inflating: lua-cjson-2.1.0/lua-cjson.spec  
+  inflating: lua-cjson-2.1.0/rfc4627.txt  
+  inflating: lua-cjson-2.1.0/dtoa.c  
+  inflating: lua-cjson-2.1.0/lua-cjson-2.1.0-1.rockspec  
+  inflating: lua-cjson-2.1.0/manual.txt  
+  inflating: lua-cjson-2.1.0/performance.html  
+  inflating: lua-cjson-2.1.0/CMakeLists.txt  
+  inflating: lua-cjson-2.1.0/fpconv.h  
+  inflating: lua-cjson-2.1.0/strbuf.h  
+  inflating: lua-cjson-2.1.0/strbuf.c  
+  inflating: lua-cjson-2.1.0/NEWS    
+  inflating: lua-cjson-2.1.0/manual.html  
+  inflating: lua-cjson-2.1.0/lua_cjson.c  
+  inflating: lua-cjson-2.1.0/LICENSE  
+  inflating: lua-cjson-2.1.0/dtoa_config.h  
+   creating: lua-cjson-2.1.0/tests/
+  inflating: lua-cjson-2.1.0/tests/bench.lua  
+  inflating: lua-cjson-2.1.0/tests/numbers.json  
+  inflating: lua-cjson-2.1.0/tests/example3.json  
+  inflating: lua-cjson-2.1.0/tests/octets-escaped.dat  
+ extracting: lua-cjson-2.1.0/tests/types.json  
+  inflating: lua-cjson-2.1.0/tests/genutf8.pl  
+  inflating: lua-cjson-2.1.0/tests/rfc-example1.json  
+  inflating: lua-cjson-2.1.0/tests/example4.json  
+  inflating: lua-cjson-2.1.0/tests/example2.json  
+  inflating: lua-cjson-2.1.0/tests/README  
+  inflating: lua-cjson-2.1.0/tests/rfc-example2.json  
+  inflating: lua-cjson-2.1.0/tests/test.lua  
+  inflating: lua-cjson-2.1.0/tests/example5.json  
+  inflating: lua-cjson-2.1.0/tests/example1.json  
+  inflating: lua-cjson-2.1.0/g_fmt.c  
+  inflating: lua-cjson-2.1.0/Makefile  
+   creating: lua-cjson-2.1.0/lua/
+  inflating: lua-cjson-2.1.0/lua/lua2json.lua  
+  inflating: lua-cjson-2.1.0/lua/json2lua.lua  
+   creating: lua-cjson-2.1.0/lua/cjson/
+  inflating: lua-cjson-2.1.0/lua/cjson/util.lua  
+  inflating: lua-cjson-2.1.0/performance.txt  
+  inflating: lua-cjson-2.1.0/THANKS  
+Installing https://rocks.moonscript.org/lua-cjson-2.1.0-1.src.rock...
+Using https://rocks.moonscript.org/lua-cjson-2.1.0-1.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c lua_cjson.c -o lua_cjson.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c strbuf.c -o strbuf.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c fpconv.c -o fpconv.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o cjson.so -L/Users/sp/Dropbox/OSX/x86/luajit/lib lua_cjson.o strbuf.o fpconv.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lua-cjson 2.1.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

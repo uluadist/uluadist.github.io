@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/lpath-0.1.0-1.rockspec...
+Using https://rocks.moonscript.org/lpath-0.1.0-1.rockspec... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lpath.c -o lpath.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o path.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lpath.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lpath 0.1.0-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

@@ -1,0 +1,16 @@
+Warning: skipping dependency checks.
+Cloning into 'inline'...
+Note: checking out 'f125dbdad041f2ab0aa0f3abf11067a2ea8f7237'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+No existing manifest. Attempting to rebuild...
+Missing dependency for inline 0.1-0: murmurhash3 >= 1.3
+Missing dependency for inline 0.1-0: murmurhash3 >= 1.3

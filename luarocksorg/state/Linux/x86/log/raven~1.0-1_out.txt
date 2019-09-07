@@ -1,0 +1,3 @@
+Initialized empty Git repository in /tmp/luarocks_raven-1.0-1-6761/raven.lua/.git/
+Installing https://luarocks.org/raven-1.0-1.rockspec...
+Using https://luarocks.org/raven-1.0-1.rockspec... switching to 'build' mode

@@ -1,0 +1,4 @@
+Initialized empty Git repository in /tmp/luarocks_luaphonenumber-1.0-1-8695/luaphonenumber/.git/
+g++ -std=c++11 -Wall -fPIC -c luaphonenumber.cpp
+Installing https://luarocks.org/luaphonenumber-1.0-1.rockspec...
+Using https://luarocks.org/luaphonenumber-1.0-1.rockspec... switching to 'build' mode

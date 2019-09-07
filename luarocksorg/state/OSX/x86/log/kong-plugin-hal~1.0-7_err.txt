@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for kong-plugin-hal 1.0-7: dkjson ~> 2.5-2
+Missing dependency for kong-plugin-hal 1.0-7: dkjson ~> 2.5-2

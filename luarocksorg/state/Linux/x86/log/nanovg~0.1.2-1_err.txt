@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+In file included from lua-nanovg.c:24:0:
+gles2.h:834:20: fatal error: GL/glx.h: No such file or directory
+ #include <GL/glx.h>
+                    ^
+compilation terminated.
+
+Error: Build error: Failed compiling object lua-nanovg.o

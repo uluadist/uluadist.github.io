@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/lua_bufflib-0.2.1-1.src.rock...
+Using https://rocks.moonscript.org/lua_bufflib-0.2.1-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lua_bufflib.c -o lua_bufflib.o
+gcc -shared -o bufflib.so -L/home/sp/luajit/lib lua_bufflib.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lua_bufflib 0.2.1-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

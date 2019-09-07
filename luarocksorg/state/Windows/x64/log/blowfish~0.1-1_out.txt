@@ -1,0 +1,5 @@
+lua_blowfish.c
+c:\users\sp\appdata\local\temp\luarocks_blowfish-0.1-1-7702\lua-blowfish\src\lua_blowfish.h(3): fatal error C1083: Cannot open include file: 'lua5.1/lua.h': No such file or directory
+Installing https://luarocks.org/blowfish-0.1-1.rockspec...
+Using https://luarocks.org/blowfish-0.1-1.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/lua_blowfish.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/lua_blowfish.c

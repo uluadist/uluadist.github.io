@@ -1,0 +1,15 @@
+Warning: skipping dependency checks.
+darksidesync/waithandle.c:32:11: warning: 'sem_init' is deprecated [-Wdeprecated-declarations]
+        int rt = sem_init(&(wh->semaphore), 0, 0);
+                 ^
+/usr/include/sys/semaphore.h:55:5: note: 'sem_init' has been explicitly marked deprecated here
+int sem_init(sem_t *, int, unsigned int) __deprecated;
+    ^
+darksidesync/waithandle.c:109:3: warning: 'sem_destroy' is deprecated [-Wdeprecated-declarations]
+                sem_destroy(&(wh->semaphore));
+                ^
+/usr/include/sys/semaphore.h:53:5: note: 'sem_destroy' has been explicitly marked deprecated here
+int sem_destroy(sem_t *) __deprecated;
+    ^
+2 warnings generated.
+No existing manifest. Attempting to rebuild...

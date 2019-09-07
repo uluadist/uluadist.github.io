@@ -1,0 +1,16 @@
+Warning: skipping dependency checks.
+bigint-glue.cpp:74:14: error: call to constructor of 'BigInt' is ambiguous
+    *b = new BigInt(lua_tointeger(L, argidx));
+             ^      ~~~~~~~~~~~~~~~~~~~~~~~~
+./BigInt.h:58:2: note: candidate constructor
+        BigInt(long);
+        ^
+./BigInt.h:59:2: note: candidate constructor
+        BigInt(unsigned long);
+        ^
+./BigInt.h:55:2: note: candidate constructor
+        BigInt(const BigInt&);
+        ^
+1 error generated.
+
+Error: Build error: Failed compiling object bigint-glue.o

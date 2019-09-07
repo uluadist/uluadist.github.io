@@ -1,0 +1,7 @@
+Installing https://luarocks.org/nvim-client-0.0.1-26.src.rock...
+Using https://luarocks.org/nvim-client-0.0.1-26.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c nvim/native.c -o nvim/native.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o nvim/native.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib nvim/native.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+nvim-client 0.0.1-26 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: Apache)
+

@@ -1,0 +1,5 @@
+Installing https://luarocks.org/nacl-cli-0.5-3.src.rock...
+Using https://luarocks.org/nacl-cli-0.5-3.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+nacl-cli 0.5-3 is now built and installed in /home/sp/PrjLocal/luarockstree (license: LGPL)
+

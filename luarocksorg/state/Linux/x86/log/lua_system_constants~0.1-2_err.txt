@@ -1,0 +1,17 @@
+Warning: skipping dependency checks.
+lua_system_constants.c: In function ‘get_S_IWUSR’:
+lua_system_constants.c:32:22: error: ‘S_IWUSR’ undeclared (first use in this function)
+   lua_pushinteger(L, S_IWUSR);
+                      ^
+lua_system_constants.c:32:22: note: each undeclared identifier is reported only once for each function it appears in
+lua_system_constants.c: In function ‘get_S_IRUSR’:
+lua_system_constants.c:37:22: error: ‘S_IRUSR’ undeclared (first use in this function)
+   lua_pushinteger(L, S_IRUSR);
+                      ^
+lua_system_constants.c: In function ‘get_S_IXUSR’:
+lua_system_constants.c:42:22: error: ‘S_IXUSR’ undeclared (first use in this function)
+   lua_pushinteger(L, S_IXUSR);
+                      ^
+make: *** [lua_system_constants.o] Error 1
+
+Error: Build error: Failed building.

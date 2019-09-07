@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_dromozoa-fuse-1.16-1-5373/dromozoa-fuse-1.16-1.rockspec: Unknown field test

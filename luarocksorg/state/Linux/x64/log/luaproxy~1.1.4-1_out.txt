@@ -1,0 +1,8 @@
+Installing https://luarocks.org/luaproxy-1.1.4-1.rockspec...
+Using https://luarocks.org/luaproxy-1.1.4-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_luaproxy-1.1.4-1-265/luaproxy/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c luaproxy.c -o luaproxy.o
+gcc -shared -o proxy.so -L/home/sp/Dropbox/Linux/x64/luajit//lib luaproxy.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+luaproxy 1.1.4-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: 3-clause BSD)
+

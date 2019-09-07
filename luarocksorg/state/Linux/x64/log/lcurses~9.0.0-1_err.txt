@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+In file included from ext/curses.c:85:0:
+./ext/include/_helpers.c:37:18: fatal error: term.h: No such file or directory
+ #include <term.h>
+                  ^
+compilation terminated.
+make[1]: *** [ext/curses.lo] Error 1
+make: *** [all] Error 2
+
+Error: Build error: Failed building.

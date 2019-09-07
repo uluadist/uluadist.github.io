@@ -1,0 +1,70 @@
+Archive:  v0.1.3.zip
+d3f3fc7bf61a9cb00f9fd4edc14c580dcf63e755
+   creating: lua-AesFileEncrypt-0.1.3/
+  inflating: lua-AesFileEncrypt-0.1.3/.gitignore  
+  inflating: lua-AesFileEncrypt-0.1.3/.travis.yml  
+   creating: lua-AesFileEncrypt-0.1.3/.travis/
+  inflating: lua-AesFileEncrypt-0.1.3/.travis/platform.sh  
+  inflating: lua-AesFileEncrypt-0.1.3/.travis/setup_lua.sh  
+  inflating: lua-AesFileEncrypt-0.1.3/CMakeLists.txt  
+  inflating: lua-AesFileEncrypt-0.1.3/README.md  
+   creating: lua-AesFileEncrypt-0.1.3/cmake/
+  inflating: lua-AesFileEncrypt-0.1.3/cmake/FindLua.cmake  
+  inflating: lua-AesFileEncrypt-0.1.3/cmake/dist.cmake  
+  inflating: lua-AesFileEncrypt-0.1.3/cmake/lua.cmake  
+  inflating: lua-AesFileEncrypt-0.1.3/dist.info  
+   creating: lua-AesFileEncrypt-0.1.3/examples/
+  inflating: lua-AesFileEncrypt-0.1.3/examples/eload.lua  
+  inflating: lua-AesFileEncrypt-0.1.3/examples/fileenc.lua  
+ extracting: lua-AesFileEncrypt-0.1.3/examples/prog.elua  
+  inflating: lua-AesFileEncrypt-0.1.3/examples/prog.lua  
+  inflating: lua-AesFileEncrypt-0.1.3/lakeconfig.lua  
+  inflating: lua-AesFileEncrypt-0.1.3/lakefile  
+   creating: lua-AesFileEncrypt-0.1.3/rockspecs/
+  inflating: lua-AesFileEncrypt-0.1.3/rockspecs/aesfileencrypt-0.1.0-1.rockspec  
+  inflating: lua-AesFileEncrypt-0.1.3/rockspecs/aesfileencrypt-0.1.1-1.rockspec  
+  inflating: lua-AesFileEncrypt-0.1.3/rockspecs/aesfileencrypt-0.1.2-1.rockspec  
+  inflating: lua-AesFileEncrypt-0.1.3/rockspecs/aesfileencrypt-0.1.3-1.rockspec  
+  inflating: lua-AesFileEncrypt-0.1.3/rockspecs/aesfileencrypt-scm-0.rockspec  
+   creating: lua-AesFileEncrypt-0.1.3/src/
+  inflating: lua-AesFileEncrypt-0.1.3/src/AesFileEncrypt.c  
+  inflating: lua-AesFileEncrypt-0.1.3/src/AesFileEncrypt.def  
+   creating: lua-AesFileEncrypt-0.1.3/src/fileenc/
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/aes.h  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/aes_modes.c  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/aes_via_ace.h  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/aescrypt.c  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/aeskey.c  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/aesopt.h  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/aestab.c  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/aestab.h  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/brg_endian.h  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/brg_types.h  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/fileenc.c  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/fileenc.h  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/hmac.c  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/hmac.h  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/pwd2key.c  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/pwd2key.h  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/sha1.c  
+  inflating: lua-AesFileEncrypt-0.1.3/src/fileenc/sha1.h  
+  inflating: lua-AesFileEncrypt-0.1.3/src/l52util.c  
+  inflating: lua-AesFileEncrypt-0.1.3/src/l52util.h  
+   creating: lua-AesFileEncrypt-0.1.3/test/
+  inflating: lua-AesFileEncrypt-0.1.3/test/test.lua  
+Installing https://luarocks.org/aesfileencrypt-0.1.3-1.src.rock...
+Using https://luarocks.org/aesfileencrypt-0.1.3-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/fileenc/aescrypt.c -o src/fileenc/aescrypt.o -DUSE_SHA1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/fileenc/aeskey.c -o src/fileenc/aeskey.o -DUSE_SHA1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/fileenc/aestab.c -o src/fileenc/aestab.o -DUSE_SHA1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/fileenc/fileenc.c -o src/fileenc/fileenc.o -DUSE_SHA1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/fileenc/hmac.c -o src/fileenc/hmac.o -DUSE_SHA1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/fileenc/aes_modes.c -o src/fileenc/aes_modes.o -DUSE_SHA1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/fileenc/pwd2key.c -o src/fileenc/pwd2key.o -DUSE_SHA1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/fileenc/sha1.c -o src/fileenc/sha1.o -DUSE_SHA1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/AesFileEncrypt.c -o src/AesFileEncrypt.o -DUSE_SHA1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/l52util.c -o src/l52util.o -DUSE_SHA1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o AesFileEncrypt.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/fileenc/aescrypt.o src/fileenc/aeskey.o src/fileenc/aestab.o src/fileenc/fileenc.o src/fileenc/hmac.o src/fileenc/aes_modes.o src/fileenc/pwd2key.o src/fileenc/sha1.o src/AesFileEncrypt.o src/l52util.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+aesfileencrypt 0.1.3-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: GPL)
+

@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-resty-auto-ssl-instrumented 0.11.1-10: lua-resty-http 
+Missing dependency for lua-resty-auto-ssl-instrumented 0.11.1-10: resty-raven 
+Missing dependency for lua-resty-auto-ssl-instrumented 0.11.1-10: lua-resty-http 
+Missing dependency for lua-resty-auto-ssl-instrumented 0.11.1-10: resty-raven 

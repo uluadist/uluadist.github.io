@@ -1,0 +1,4 @@
+Installing https://rocks.moonscript.org/luaidl-1.0.5-1.all.rock...
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+
+luaidl 1.0.5-1 is now installed in /home/sp/luarockstree (license: MIT/X11)

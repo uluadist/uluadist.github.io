@@ -1,0 +1,12 @@
+pb.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library pb.lib and object pb.exp
+Installing https://luarocks.org/lua-protobuf-0.3.0-1.src.rock...
+Using https://luarocks.org/lua-protobuf-0.3.0-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fopb.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src pb.c
+link -dll -def:pb.def -out:pb.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib pb.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+lua-protobuf 0.3.0-1 is now built and installed in C:\ste\x86\luarockstree (license: MIT)
+

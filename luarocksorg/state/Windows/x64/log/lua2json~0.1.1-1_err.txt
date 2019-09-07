@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua2json 0.1.1-1: luajson 
+Missing dependency for lua2json 0.1.1-1: luajson 

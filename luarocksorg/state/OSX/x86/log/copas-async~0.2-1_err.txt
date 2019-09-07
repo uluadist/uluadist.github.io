@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for copas-async 0.2-1: lanes >= 3.10.0
+Missing dependency for copas-async 0.2-1: copas >= 2.0.1
+Missing dependency for copas-async 0.2-1: lanes >= 3.10.0
+Missing dependency for copas-async 0.2-1: copas >= 2.0.1

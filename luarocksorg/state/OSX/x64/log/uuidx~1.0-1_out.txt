@@ -1,0 +1,4 @@
+Installing https://luarocks.org/uuidx-1.0-1.src.rock...
+Using https://luarocks.org/uuidx-1.0-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c clib/uuid.c -o clib/uuid.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o libuuidx.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib clib/uuid.o -luuid

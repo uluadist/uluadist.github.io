@@ -1,0 +1,3 @@
+c++ -I/Users/sp/Dropbox/OSX/x64/luajit/include -I`mecab-config --inc-dir` -fPIC -c lua-mecab.cpp -o lua-mecab.o
+Installing https://luarocks.org/mecab-1.0-7.src.rock...
+Using https://luarocks.org/mecab-1.0-7.src.rock... switching to 'build' mode

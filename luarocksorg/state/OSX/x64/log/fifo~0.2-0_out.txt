@@ -1,0 +1,4 @@
+Installing https://luarocks.org/fifo-0.2-0.all.rock...
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+
+fifo 0.2-0 is now installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)

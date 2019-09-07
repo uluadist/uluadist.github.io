@@ -1,0 +1,30 @@
+g++ -O2 -fPIC -I/home/sp/luajit//include -std=c++11 -c lua_brotli.cc -o lua_brotli.o
+make -C brotli/enc
+make[1]: Entering directory `/tmp/luarocks_lua-brotli-1.0-2-4187/lua-brotli/brotli/enc'
+g++ -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -std=c++11   -c -o backward_references.o backward_references.cc
+g++ -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -std=c++11   -c -o block_splitter.o block_splitter.cc
+g++ -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -std=c++11   -c -o brotli_bit_stream.o brotli_bit_stream.cc
+g++ -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -std=c++11   -c -o encode.o encode.cc
+g++ -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -std=c++11   -c -o encode_parallel.o encode_parallel.cc
+g++ -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -std=c++11   -c -o entropy_encode.o entropy_encode.cc
+g++ -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -std=c++11   -c -o histogram.o histogram.cc
+g++ -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -std=c++11   -c -o literal_cost.o literal_cost.cc
+g++ -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -std=c++11   -c -o metablock.o metablock.cc
+g++ -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -std=c++11   -c -o static_dict.o static_dict.cc
+g++ -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -std=c++11   -c -o streams.o streams.cc
+make[1]: Leaving directory `/tmp/luarocks_lua-brotli-1.0-2-4187/lua-brotli/brotli/enc'
+make -C brotli/dec
+make[1]: Entering directory `/tmp/luarocks_lua-brotli-1.0-2-4187/lua-brotli/brotli/dec'
+gcc -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -Wall   -c -o bit_reader.o bit_reader.c
+gcc -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -Wall   -c -o decode.o decode.c
+gcc -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -Wall   -c -o huffman.o huffman.c
+gcc -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -Wall   -c -o state.o state.c
+gcc -fno-omit-frame-pointer -no-canonical-prefixes -O2 -fPIC -fno-tree-vrp -Wall   -c -o streams.o streams.c
+make[1]: Leaving directory `/tmp/luarocks_lua-brotli-1.0-2-4187/lua-brotli/brotli/dec'
+g++ -shared -L/home/sp/luajit//lib lua_brotli.o brotli/enc/*.o brotli/dec/*.o -o brotli.so
+cp brotli.so /home/sp/luarockstree/lib/luarocks/rocks/lua-brotli/1.0-2/lib
+Installing https://rocks.moonscript.org/lua-brotli-1.0-2.src.rock...
+Using https://rocks.moonscript.org/lua-brotli-1.0-2.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lua-brotli 1.0-2 is now built and installed in /home/sp/luarockstree (license: Apache License 2.0)
+

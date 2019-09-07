@@ -1,0 +1,4 @@
+Installing https://rocks.moonscript.org/lua-netudpif-0.1-0.src.rock...
+Using https://rocks.moonscript.org/lua-netudpif-0.1-0.src.rock... switching to 'build' mode
+cp -r netudpif /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-netudpif/0.1-0/lua
+	

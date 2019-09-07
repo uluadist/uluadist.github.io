@@ -1,0 +1,257 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+parser.cpp:319:31: error: no member named 'emplace_back' in 'std::list<Object::Field, std::allocator<Object::Field> >'
+                            r.emplace_back(f.name, f.hide, body);
+                            ~ ^
+parser.cpp:404:32: error: no member named 'emplace_back' in 'std::list<Object::Field, std::allocator<Object::Field> >'
+                        fields.emplace_back(field_expr, field_hide, body);
+                        ~~~~~~ ^
+parser.cpp:428:32: error: no member named 'emplace_back' in 'std::list<Object::Field, std::allocator<Object::Field> >'
+                        fields.emplace_back(field_expr, field_hide,
+                        ~~~~~~ ^
+parser.cpp:486:56: error: no matching constructor for initialization of 'std::vector<const Identifier *>'
+                        std::vector<const Identifier*> params = {id};
+                                                       ^        ~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: no known conversion from 'const Identifier *' to 'const allocator_type' (aka 'const std::allocator<const Identifier *>') for 1st argument
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'const Identifier *' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: no known conversion from 'const Identifier *' to 'const std::vector<const Identifier *, std::allocator<const Identifier *> > &' for 1st argument
+      vector(const vector& __x)
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor template not viable: requires at least 2 arguments, but 1 was provided
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+parser.cpp:503:47: error: no matching constructor for initialization of 'std::vector<AST *>'
+                            std::vector<AST*> args = {filter_func, map_func, arr};
+                                              ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor [with _InputIterator = AST *] not viable: no known conversion from 'AST *' to 'const allocator_type' (aka 'const std::allocator<AST *>') for 3rd argument
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'AST *' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: allows at most single argument '__a', but 3 arguments were provided
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: requires single argument '__x', but 3 arguments were provided
+      vector(const vector& __x)
+      ^
+parser.cpp:785:34: error: no matching constructor for initialization of 'std::vector<std::string>'
+        case 2: return {"floor", {"x"}};
+                                 ^~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const allocator_type' (aka 'const std::allocator<std::basic_string<char> >') for 1st argument
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > > &' for 1st argument
+      vector(const vector& __x)
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor template not viable: requires at least 2 arguments, but 1 was provided
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+parser.cpp:786:33: error: no matching constructor for initialization of 'std::vector<std::string>'
+        case 3: return {"ceil", {"x"}};
+                                ^~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const allocator_type' (aka 'const std::allocator<std::basic_string<char> >') for 1st argument
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > > &' for 1st argument
+      vector(const vector& __x)
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor template not viable: requires at least 2 arguments, but 1 was provided
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+parser.cpp:787:33: error: no matching constructor for initialization of 'std::vector<std::string>'
+        case 4: return {"sqrt", {"x"}};
+                                ^~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const allocator_type' (aka 'const std::allocator<std::basic_string<char> >') for 1st argument
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > > &' for 1st argument
+      vector(const vector& __x)
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor template not viable: requires at least 2 arguments, but 1 was provided
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+parser.cpp:788:32: error: no matching constructor for initialization of 'std::vector<std::string>'
+        case 5: return {"sin", {"x"}};
+                               ^~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const allocator_type' (aka 'const std::allocator<std::basic_string<char> >') for 1st argument
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > > &' for 1st argument
+      vector(const vector& __x)
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor template not viable: requires at least 2 arguments, but 1 was provided
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+parser.cpp:789:32: error: no matching constructor for initialization of 'std::vector<std::string>'
+        case 6: return {"cos", {"x"}};
+                               ^~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const allocator_type' (aka 'const std::allocator<std::basic_string<char> >') for 1st argument
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > > &' for 1st argument
+      vector(const vector& __x)
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor template not viable: requires at least 2 arguments, but 1 was provided
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+parser.cpp:790:32: error: no matching constructor for initialization of 'std::vector<std::string>'
+        case 7: return {"tan", {"x"}};
+                               ^~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const allocator_type' (aka 'const std::allocator<std::basic_string<char> >') for 1st argument
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > > &' for 1st argument
+      vector(const vector& __x)
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor template not viable: requires at least 2 arguments, but 1 was provided
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+parser.cpp:791:33: error: no matching constructor for initialization of 'std::vector<std::string>'
+        case 8: return {"asin", {"x"}};
+                                ^~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const allocator_type' (aka 'const std::allocator<std::basic_string<char> >') for 1st argument
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > > &' for 1st argument
+      vector(const vector& __x)
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor template not viable: requires at least 2 arguments, but 1 was provided
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+parser.cpp:792:33: error: no matching constructor for initialization of 'std::vector<std::string>'
+        case 9: return {"acos", {"x"}};
+                                ^~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const allocator_type' (aka 'const std::allocator<std::basic_string<char> >') for 1st argument
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > > &' for 1st argument
+      vector(const vector& __x)
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor template not viable: requires at least 2 arguments, but 1 was provided
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+parser.cpp:793:34: error: no matching constructor for initialization of 'std::vector<std::string>'
+        case 10: return {"atan", {"x"}};
+                                 ^~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const allocator_type' (aka 'const std::allocator<std::basic_string<char> >') for 1st argument
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > > &' for 1st argument
+      vector(const vector& __x)
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor template not viable: requires at least 2 arguments, but 1 was provided
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+parser.cpp:794:34: error: no matching constructor for initialization of 'std::vector<std::string>'
+        case 11: return {"type", {"x"}};
+                                 ^~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const allocator_type' (aka 'const std::allocator<std::basic_string<char> >') for 1st argument
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > > &' for 1st argument
+      vector(const vector& __x)
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor template not viable: requires at least 2 arguments, but 1 was provided
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+parser.cpp:797:36: error: no matching constructor for initialization of 'std::vector<std::string>'
+        case 14: return {"length", {"x"}};
+                                   ^~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const allocator_type' (aka 'const std::allocator<std::basic_string<char> >') for 1st argument
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > > &' for 1st argument
+      vector(const vector& __x)
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor template not viable: requires at least 2 arguments, but 1 was provided
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+parser.cpp:798:42: error: no matching constructor for initialization of 'std::vector<std::string>'
+        case 15: return {"objectFields", {"obj"}};
+                                         ^~~~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: no known conversion from 'const char [4]' to 'const allocator_type' (aka 'const std::allocator<std::basic_string<char> >') for 1st argument
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'const char [4]' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: no known conversion from 'const char [4]' to 'const std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > > &' for 1st argument
+      vector(const vector& __x)
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor template not viable: requires at least 2 arguments, but 1 was provided
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+parser.cpp:799:39: error: no matching constructor for initialization of 'std::vector<std::string>'
+        case 16: return {"codepoint", {"str"}};
+                                      ^~~~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: no known conversion from 'const char [4]' to 'const allocator_type' (aka 'const std::allocator<std::basic_string<char> >') for 1st argument
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'const char [4]' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: no known conversion from 'const char [4]' to 'const std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > > &' for 1st argument
+      vector(const vector& __x)
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor template not viable: requires at least 2 arguments, but 1 was provided
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+parser.cpp:800:34: error: no matching constructor for initialization of 'std::vector<std::string>'
+        case 17: return {"char", {"n"}};
+                                 ^~~~~
+/usr/include/c++/4.2.1/bits/stl_vector.h:201:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const allocator_type' (aka 'const std::allocator<std::basic_string<char> >') for 1st argument
+      vector(const allocator_type& __a = allocator_type())
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:213:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'size_type' (aka 'unsigned long') for 1st argument
+      vector(size_type __n, const value_type& __value = value_type(),
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:231:7: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'const std::vector<std::basic_string<char>, std::allocator<std::basic_string<char> > > &' for 1st argument
+      vector(const vector& __x)
+      ^
+/usr/include/c++/4.2.1/bits/stl_vector.h:255:9: note: candidate constructor template not viable: requires at least 2 arguments, but 1 was provided
+        vector(_InputIterator __first, _InputIterator __last,
+        ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make[1]: *** [parser.o] Error 1
+make: *** [install] Error 2
+
+Error: Build error: Failed building.

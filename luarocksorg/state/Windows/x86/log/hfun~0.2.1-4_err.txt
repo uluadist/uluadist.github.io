@@ -1,0 +1,4 @@
+Z:\sp\Dropbox\Windows\x86\luarocks\tools\cp: cannot stat `hfun.lua': No such file or directory
+Warning: skipping dependency checks.
+
+Error: Build error: Failed installing hfun.lua in C:\ste\x86\luarockstree/lib/luarocks/rocks/hfun/0.2.1-4/lua/hfun.lua

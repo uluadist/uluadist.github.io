@@ -1,0 +1,6 @@
+Installing https://luarocks.org/oxd-web-lua-1.0-0.src.rock...
+Using https://luarocks.org/oxd-web-lua-1.0-0.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+oxd-web-lua 1.0-0 is now built and installed in C:\ste\x86\luarockstree (license: MIT)
+

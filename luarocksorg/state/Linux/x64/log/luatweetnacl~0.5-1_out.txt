@@ -1,0 +1,10 @@
+Initialized empty Git repository in /tmp/luarocks_luatweetnacl-0.5-1-2501/luatweetnacl/.git/
+Installing https://luarocks.org/luatweetnacl-0.5-1.rockspec...
+Using https://luarocks.org/luatweetnacl-0.5-1.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c luatweetnacl.c -o luatweetnacl.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c tweetnacl.c -o tweetnacl.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c randombytes.c -o randombytes.o
+gcc -shared -o luatweetnacl.so -L/home/sp/Dropbox/Linux/x64/luajit//lib luatweetnacl.o tweetnacl.o randombytes.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+luatweetnacl 0.5-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

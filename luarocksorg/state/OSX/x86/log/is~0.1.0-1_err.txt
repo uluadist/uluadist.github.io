@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: is.lua is a directory (not copied).
+
+Error: Build error: Failed installing is.lua in /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/is/0.1.0-1/lua/is.lua

@@ -1,0 +1,89 @@
+Warning: skipping dependency checks.
+In file included from compressor.cpp:23:
+common.hpp:24:21: error: jpeglib.h: No such file or directory
+common.hpp:25:20: error: jerror.h: No such file or directory
+common.hpp:32:2: error: #error unexpected BITS_IN_JSAMPLE
+In file included from compressor.cpp:23:
+common.hpp:36: error: ‘j_common_ptr’ was not declared in this scope
+common.hpp:38: error: variable or field ‘error_exit’ declared void
+common.hpp:38: error: ‘j_common_ptr’ was not declared in this scope
+common.hpp:50: error: ‘j_decompress_ptr’ does not name a type
+common.hpp:67: error: ‘j_compress_ptr’ does not name a type
+compressor.cpp:31: error: ‘j_compress_ptr’ does not name a type
+compressor.cpp: In function ‘void dromozoa::<unnamed>::impl_set_image_width(lua_State*)’:
+compressor.cpp:61: error: ‘check_compressor’ was not declared in this scope
+compressor.cpp:61: error: ‘JDIMENSION’ was not declared in this scope
+compressor.cpp:61: error: no matching function for call to ‘luaX_check_integer(lua_State*&, int)’
+compressor.cpp: In function ‘void dromozoa::<unnamed>::impl_set_image_height(lua_State*)’:
+compressor.cpp:66: error: ‘check_compressor’ was not declared in this scope
+compressor.cpp:66: error: ‘JDIMENSION’ was not declared in this scope
+compressor.cpp:66: error: no matching function for call to ‘luaX_check_integer(lua_State*&, int)’
+compressor.cpp: In function ‘void dromozoa::<unnamed>::impl_set_input_components(lua_State*)’:
+compressor.cpp:71: error: ‘check_compressor’ was not declared in this scope
+compressor.cpp:71: error: ‘MAX_COMPONENTS’ was not declared in this scope
+compressor.cpp: In function ‘void dromozoa::<unnamed>::impl_set_in_color_space(lua_State*)’:
+compressor.cpp:76: error: ‘check_compressor’ was not declared in this scope
+compressor.cpp:76: error: ‘J_COLOR_SPACE’ was not declared in this scope
+compressor.cpp:76: error: no matching function for call to ‘luaX_check_enum(lua_State*&, int)’
+compressor.cpp: In function ‘void dromozoa::<unnamed>::impl_set_defaults(lua_State*)’:
+compressor.cpp:81: error: ‘check_compressor’ was not declared in this scope
+compressor.cpp:81: error: ‘jpeg_set_defaults’ was not declared in this scope
+compressor.cpp: In function ‘void dromozoa::<unnamed>::impl_set_colorspace(lua_State*)’:
+compressor.cpp:86: error: ‘J_COLOR_SPACE’ was not declared in this scope
+compressor.cpp:86: error: expected ‘;’ before ‘colorspace’
+compressor.cpp:87: error: ‘check_compressor’ was not declared in this scope
+compressor.cpp:87: error: ‘colorspace’ was not declared in this scope
+compressor.cpp:87: error: ‘jpeg_set_colorspace’ was not declared in this scope
+compressor.cpp: In function ‘void dromozoa::<unnamed>::impl_default_colorspace(lua_State*)’:
+compressor.cpp:92: error: ‘check_compressor’ was not declared in this scope
+compressor.cpp:92: error: ‘jpeg_default_colorspace’ was not declared in this scope
+compressor.cpp: In function ‘void dromozoa::<unnamed>::impl_set_quality(lua_State*)’:
+compressor.cpp:98: error: ‘boolean’ was not declared in this scope
+compressor.cpp:98: error: expected ‘;’ before ‘force_baseline’
+compressor.cpp:100: error: ‘force_baseline’ was not declared in this scope
+compressor.cpp:100: error: ‘FALSE’ was not declared in this scope
+compressor.cpp:102: error: ‘check_compressor’ was not declared in this scope
+compressor.cpp:102: error: ‘force_baseline’ was not declared in this scope
+compressor.cpp:102: error: ‘jpeg_set_quality’ was not declared in this scope
+compressor.cpp: In function ‘void dromozoa::<unnamed>::impl_get_next_scanline(lua_State*)’:
+compressor.cpp:107: error: ‘check_compressor’ was not declared in this scope
+compressor.cpp: In function ‘void dromozoa::<unnamed>::impl_start_compress(lua_State*)’:
+compressor.cpp:111: error: ‘boolean’ was not declared in this scope
+compressor.cpp:111: error: expected ‘;’ before ‘write_all_tables’
+compressor.cpp:113: error: ‘write_all_tables’ was not declared in this scope
+compressor.cpp:113: error: ‘FALSE’ was not declared in this scope
+compressor.cpp:115: error: ‘class dromozoa::compressor_handle’ has no member named ‘get’
+compressor.cpp:115: error: ‘write_all_tables’ was not declared in this scope
+compressor.cpp:115: error: ‘jpeg_start_compress’ was not declared in this scope
+compressor.cpp: In function ‘void dromozoa::<unnamed>::impl_write_marker(lua_State*)’:
+compressor.cpp:122: error: ‘class dromozoa::compressor_handle’ has no member named ‘get’
+compressor.cpp:122: error: ISO C++ forbids declaration of ‘type name’ with no type
+compressor.cpp:122: error: expected ‘>’ before ‘JOCTET’
+compressor.cpp:122: error: expected ‘(’ before ‘JOCTET’
+compressor.cpp:122: error: ‘JOCTET’ was not declared in this scope
+compressor.cpp:122: error: expected primary-expression before ‘>’ token
+compressor.cpp: In function ‘void dromozoa::<unnamed>::impl_write_scanlines(lua_State*)’:
+compressor.cpp:129: error: ‘JDIMENSION’ was not declared in this scope
+compressor.cpp:129: error: expected ‘;’ before ‘num_lines’
+compressor.cpp:130: error: ‘class dromozoa::compressor_handle’ has no member named ‘get’
+compressor.cpp:130: error: ‘class dromozoa::compressor_handle’ has no member named ‘get’
+compressor.cpp:131: error: ‘JSAMPLE’ was not declared in this scope
+compressor.cpp:131: error: template argument 1 is invalid
+compressor.cpp:131: error: template argument 2 is invalid
+compressor.cpp:131: error: invalid type in declaration before ‘(’ token
+compressor.cpp:131: error: ‘num_lines’ was not declared in this scope
+compressor.cpp:132: error: ‘JSAMPROW’ was not declared in this scope
+compressor.cpp:132: error: template argument 1 is invalid
+compressor.cpp:132: error: template argument 2 is invalid
+compressor.cpp:132: error: invalid type in declaration before ‘(’ token
+compressor.cpp:133: error: expected ‘;’ before ‘i’
+compressor.cpp:133: error: ‘i’ was not declared in this scope
+compressor.cpp:139: error: ‘class dromozoa::compressor_handle’ has no member named ‘get’
+compressor.cpp:139: error: invalid types ‘int[int]’ for array subscript
+compressor.cpp:139: error: ‘jpeg_write_scanlines’ was not declared in this scope
+compressor.cpp: In function ‘void dromozoa::<unnamed>::impl_finish_compress(lua_State*)’:
+compressor.cpp:143: error: ‘class dromozoa::compressor_handle’ has no member named ‘get’
+compressor.cpp:143: error: ‘jpeg_finish_compress’ was not declared in this scope
+make: *** [compressor.o] Error 1
+
+Error: Build error: Failed building.

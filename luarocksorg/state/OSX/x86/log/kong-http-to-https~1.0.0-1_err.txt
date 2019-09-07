@@ -1,0 +1,14 @@
+Warning: skipping dependency checks.
+Cloning into 'kong-plugin-http-to-https'...
+Note: checking out 'f9357772031017d04019e4b4d71cbd77eb7fc7fb'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+No existing manifest. Attempting to rebuild...

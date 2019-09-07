@@ -1,0 +1,4 @@
+Z:\sp\Dropbox\Windows\x86\luarocks\tools\cp: cannot stat `lib/std/prototype/version.lua': No such file or directory
+Warning: skipping dependency checks.
+
+Error: Build error: Failed installing lib/std/prototype/version.lua in C:\ste\x86\luarockstree/lib/luarocks/rocks/std.prototype/1.0-1/lua/std/prototype/version.lua

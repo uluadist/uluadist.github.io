@@ -1,0 +1,27 @@
+Installing https://luarocks.org/lrdb-0.2.0-1.rockspec...
+Using https://luarocks.org/lrdb-0.2.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lrdb-0.2.0-1-4457/LRDB/.git/
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/gcc
+-- Check for working C compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/c++
+-- Check for working CXX compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/luarocks_lrdb-0.2.0-1-4457/LRDB/build.luarocks
+Scanning dependencies of target lrdb_server
+[100%] Building CXX object CMakeFiles/lrdb_server.dir/src/debug_server_module.cpp.o
+Linking CXX shared library lrdb_server.so
+[100%] Built target lrdb_server
+[100%] Built target lrdb_server
+Install the project...
+-- Install configuration: ""
+-- Installing: /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/lrdb/0.2.0-1/lib/lrdb_server.so
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lrdb 0.2.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: Boost)
+

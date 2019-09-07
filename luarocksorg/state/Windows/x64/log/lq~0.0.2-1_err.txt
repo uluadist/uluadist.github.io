@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lq 0.0.2-1: microlight >= 1.0
+Missing dependency for lq 0.0.2-1: argparse >= 0.5
+Missing dependency for lq 0.0.2-1: stdlib >= 41
+Missing dependency for lq 0.0.2-1: lpeg >= 1.0
+Missing dependency for lq 0.0.2-1: microlight >= 1.0
+Missing dependency for lq 0.0.2-1: argparse >= 0.5
+Missing dependency for lq 0.0.2-1: stdlib >= 41
+Missing dependency for lq 0.0.2-1: lpeg >= 1.0

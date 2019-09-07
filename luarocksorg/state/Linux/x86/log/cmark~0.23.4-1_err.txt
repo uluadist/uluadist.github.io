@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+ext/buffer.c: In function ‘cmark_strbuf_strrchr’:
+ext/buffer.c:220:3: error: ‘for’ loop initial declarations are only allowed in C99 mode
+   for (bufsize_t i = pos; i >= 0; i--) {
+   ^
+ext/buffer.c:220:3: note: use option -std=c99 or -std=gnu99 to compile your code
+
+Error: Build error: Failed compiling object ext/buffer.o

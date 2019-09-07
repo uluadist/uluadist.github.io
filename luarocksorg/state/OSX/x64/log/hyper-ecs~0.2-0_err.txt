@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for hyper-ecs 0.2-0: middleclass ~> 4.1.1
+Missing dependency for hyper-ecs 0.2-0: middleclass ~> 4.1.1

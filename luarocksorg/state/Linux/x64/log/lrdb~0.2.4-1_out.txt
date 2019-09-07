@@ -1,0 +1,24 @@
+Installing https://luarocks.org/lrdb-0.2.4-1.rockspec...
+Using https://luarocks.org/lrdb-0.2.4-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lrdb-0.2.4-1-9650/LRDB/.git/
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/gcc
+-- Check for working C compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/c++
+-- Check for working CXX compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/luarocks_lrdb-0.2.4-1-9650/LRDB/build.luarocks
+Scanning dependencies of target lrdb_server
+[100%] Building CXX object CMakeFiles/lrdb_server.dir/src/debug_server_module.cpp.o
+Linking CXX shared library lrdb_server.so
+/usr/bin/ld: cannot find -llua
+collect2: error: ld returned 1 exit status
+make[2]: *** [lrdb_server.so] Error 1
+make[1]: *** [CMakeFiles/lrdb_server.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,11 @@
+Installing https://rocks.moonscript.org/darksidesync-1.0-1.src.rock...
+Using https://rocks.moonscript.org/darksidesync-1.0-1.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c darksidesync/darksidesync.c -o darksidesync/darksidesync.o -D_GNU_SOURCE
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c darksidesync/delivery.c -o darksidesync/delivery.o -D_GNU_SOURCE
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c darksidesync/locking.c -o darksidesync/locking.o -D_GNU_SOURCE
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c darksidesync/udpsocket.c -o darksidesync/udpsocket.o -D_GNU_SOURCE
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c darksidesync/waithandle.c -o darksidesync/waithandle.o -D_GNU_SOURCE
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o darksidesync.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib darksidesync/darksidesync.o darksidesync/delivery.o darksidesync/locking.o darksidesync/udpsocket.o darksidesync/waithandle.o -lpthread
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+darksidesync 1.0-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

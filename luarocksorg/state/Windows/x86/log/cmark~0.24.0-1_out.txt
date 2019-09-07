@@ -1,0 +1,106 @@
+cmark_wrap.c
+ext\cmark.h(26): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(26): error C2091: function returns function
+ext\cmark.h(26): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(26): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(26): error C2059: syntax error: 'string'
+ext\cmark.h(26): error C2059: syntax error: ')'
+ext\cmark.h(97): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(97): error C2091: function returns function
+ext\cmark.h(97): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(97): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(97): error C2059: syntax error: 'string'
+ext\cmark.h(97): error C2059: syntax error: ')'
+ext\cmark.h(101): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(101): error C2091: function returns function
+ext\cmark.h(101): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(101): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(101): error C2059: syntax error: 'string'
+ext\cmark.h(101): error C2059: syntax error: ')'
+ext\cmark.h(110): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(110): error C2091: function returns function
+ext\cmark.h(110): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(110): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(110): error C2059: syntax error: 'string'
+ext\cmark.h(110): error C2059: syntax error: ')'
+ext\cmark.h(115): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(115): error C2091: function returns function
+ext\cmark.h(115): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(115): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(115): error C2059: syntax error: 'string'
+ext\cmark.h(115): error C2059: syntax error: ')'
+ext\cmark.h(119): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(119): error C2091: function returns function
+ext\cmark.h(119): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(119): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(119): error C2059: syntax error: 'string'
+ext\cmark.h(119): error C2059: syntax error: ')'
+ext\cmark.h(123): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(123): error C2091: function returns function
+ext\cmark.h(123): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(123): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(123): error C2059: syntax error: 'string'
+ext\cmark.h(123): error C2059: syntax error: ')'
+ext\cmark.h(127): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(127): error C2091: function returns function
+ext\cmark.h(127): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(127): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(127): error C2059: syntax error: 'string'
+ext\cmark.h(127): error C2059: syntax error: ')'
+ext\cmark.h(184): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(184): error C2091: function returns function
+ext\cmark.h(184): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(184): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(184): error C2059: syntax error: 'string'
+ext\cmark.h(184): error C2059: syntax error: ')'
+ext\cmark.h(189): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(189): error C2091: function returns function
+ext\cmark.h(189): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(189): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(189): error C2059: syntax error: 'string'
+ext\cmark.h(189): error C2059: syntax error: ')'
+ext\cmark.h(195): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(195): error C2091: function returns function
+ext\cmark.h(195): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(195): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(195): error C2059: syntax error: 'string'
+ext\cmark.h(195): error C2059: syntax error: ')'
+ext\cmark.h(200): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(200): error C2091: function returns function
+ext\cmark.h(200): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(200): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(200): error C2059: syntax error: 'string'
+ext\cmark.h(200): error C2059: syntax error: ')'
+ext\cmark.h(205): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(205): error C2091: function returns function
+ext\cmark.h(205): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(205): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(205): error C2059: syntax error: 'string'
+ext\cmark.h(205): error C2059: syntax error: ')'
+ext\cmark.h(210): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(210): error C2091: function returns function
+ext\cmark.h(210): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(210): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(210): error C2059: syntax error: 'string'
+ext\cmark.h(210): error C2059: syntax error: ')'
+ext\cmark.h(217): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(217): error C2091: function returns function
+ext\cmark.h(217): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(217): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(217): error C2059: syntax error: 'string'
+ext\cmark.h(217): error C2059: syntax error: ')'
+ext\cmark.h(227): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(227): error C2091: function returns function
+ext\cmark.h(227): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(227): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(227): error C2059: syntax error: 'string'
+ext\cmark.h(227): error C2059: syntax error: ')'
+ext\cmark.h(232): error C2143: syntax error: missing ')' before '('
+ext\cmark.h(232): error C2091: function returns function
+ext\cmark.h(232): error C2143: syntax error: missing ')' before 'string'
+ext\cmark.h(232): error C2143: syntax error: missing '{' before 'string'
+ext\cmark.h(232): error C2059: syntax error: 'string'
+ext\cmark.h(232): fatal error C1003: error count exceeds 100; stopping compilation
+Installing https://luarocks.org/cmark-0.24.0-1.src.rock...
+Using https://luarocks.org/cmark-0.24.0-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Focmark_wrap.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ cmark_wrap.c -I. -Iext

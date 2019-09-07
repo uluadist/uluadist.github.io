@@ -1,0 +1,5 @@
+Installing https://rocks.moonscript.org/lusty-store-mysql-0.4-4.rockspec...
+Using https://rocks.moonscript.org/lusty-store-mysql-0.4-4.rockspec... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lusty-store-mysql 0.4-4 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT <http://opensource.org/licenses/MIT>)
+

@@ -1,0 +1,9 @@
+Warning: skipping dependency checks.
+src/closures.c: In function 'dlmmap_locked':
+src/closures.c:383:17: warning: ignoring return value of 'ftruncate', declared with attribute warn_unused_result [-Wunused-result]
+       ftruncate (execfd, offset);
+                 ^
+src/closures.c:395:17: warning: ignoring return value of 'ftruncate', declared with attribute warn_unused_result [-Wunused-result]
+       ftruncate (execfd, offset);
+                 ^
+No existing manifest. Attempting to rebuild...

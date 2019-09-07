@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/testingunit-0.1-0.rockspec...
+Using https://rocks.moonscript.org/testingunit-0.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_testingunit-0.1-0-2407/testingunit/.git/
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+testingunit 0.1-0 is now built and installed in /home/sp/luarockstree (license: MIT)
+

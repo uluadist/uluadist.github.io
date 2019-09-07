@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+gunzip: 0.1.2-0.tar.gz: trailing garbage ignored
+No existing manifest. Attempting to rebuild...

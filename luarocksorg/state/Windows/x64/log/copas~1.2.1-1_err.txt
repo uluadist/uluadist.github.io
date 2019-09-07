@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for copas 1.2.1-1: luasocket >= 2.1
+Missing dependency for copas 1.2.1-1: coxpcall >= 1.14
+Missing dependency for copas 1.2.1-1: luasocket >= 2.1
+Missing dependency for copas 1.2.1-1: coxpcall >= 1.14

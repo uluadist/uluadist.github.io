@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+C-fluidsynth.c:18:10: fatal error: 'fluidsynth.h' file not found
+#include <fluidsynth.h>
+         ^
+1 error generated.
+
+Error: Build error: Failed compiling object C-fluidsynth.o

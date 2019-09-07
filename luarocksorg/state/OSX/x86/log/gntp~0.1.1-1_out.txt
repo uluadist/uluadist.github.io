@@ -1,0 +1,38 @@
+Archive:  v0.1.1.zip
+13c245b271edf95d52c42fe7dcf7b5ebe43a1cf6
+   creating: lua-gntp-0.1.1/
+  inflating: lua-gntp-0.1.1/.travis.yml  
+   creating: lua-gntp-0.1.1/.travis/
+  inflating: lua-gntp-0.1.1/.travis/platform.sh  
+  inflating: lua-gntp-0.1.1/.travis/setenv_lua.sh  
+  inflating: lua-gntp-0.1.1/.travis/setup_lua.sh  
+  inflating: lua-gntp-0.1.1/.travis/setup_uv.sh  
+  inflating: lua-gntp-0.1.1/LICENSE  
+  inflating: lua-gntp-0.1.1/README.md  
+   creating: lua-gntp-0.1.1/examples/
+  inflating: lua-gntp-0.1.1/examples/GNTPLuaSocket.lua  
+  inflating: lua-gntp-0.1.1/examples/GNTPSubscribe.lua  
+  inflating: lua-gntp-0.1.1/lakeconfig.lua  
+  inflating: lua-gntp-0.1.1/lakefile  
+   creating: lua-gntp-0.1.1/rockspecs/
+  inflating: lua-gntp-0.1.1/rockspecs/gntp-0.1.0-1.rockspec  
+  inflating: lua-gntp-0.1.1/rockspecs/gntp-0.1.1-1.rockspec  
+  inflating: lua-gntp-0.1.1/rockspecs/gntp-scm-0.rockspec  
+   creating: lua-gntp-0.1.1/src/
+   creating: lua-gntp-0.1.1/src/lua/
+  inflating: lua-gntp-0.1.1/src/lua/gntp.lua  
+   creating: lua-gntp-0.1.1/src/lua/gntp/
+   creating: lua-gntp-0.1.1/src/lua/gntp/connector/
+  inflating: lua-gntp-0.1.1/src/lua/gntp/connector/lluv.lua  
+  inflating: lua-gntp-0.1.1/src/lua/gntp/connector/luasocket.lua  
+  inflating: lua-gntp-0.1.1/src/lua/gntp/crypto.lua  
+  inflating: lua-gntp-0.1.1/src/lua/gntp/utils.lua  
+   creating: lua-gntp-0.1.1/test/
+  inflating: lua-gntp-0.1.1/test/.luacov  
+  inflating: lua-gntp-0.1.1/test/test.lua  
+  inflating: lua-gntp-0.1.1/test/utils.lua  
+Installing https://luarocks.org/gntp-0.1.1-1.src.rock...
+Using https://luarocks.org/gntp-0.1.1-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+gntp 0.1.1-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

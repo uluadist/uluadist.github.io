@@ -1,0 +1,5 @@
+Installing https://luarocks.org/scene-1.0-0.src.rock...
+Using https://luarocks.org/scene-1.0-0.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+scene 1.0-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

@@ -1,0 +1,9 @@
+Warning: skipping dependency checks.
+In file included from compressor.cpp:23:
+./common.hpp:24:10: fatal error: 'jpeglib.h' file not found
+#include <jpeglib.h>
+         ^
+1 error generated.
+make: *** [compressor.o] Error 1
+
+Error: Build error: Failed building.

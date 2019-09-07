@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: mkdirp.lua is a directory (not copied).
+
+Error: Build error: Failed installing mkdirp.lua in /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/mkdirp/0.1.0-2/lua/mkdirp.lua

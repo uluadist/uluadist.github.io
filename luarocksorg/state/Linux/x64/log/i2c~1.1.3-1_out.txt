@@ -1,0 +1,7 @@
+Installing https://luarocks.org/i2c-1.1.3-1.src.rock...
+Using https://luarocks.org/i2c-1.1.3-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c lua-i2c.c -o lua-i2c.o
+gcc -shared -o i2c.so -L/home/sp/Dropbox/Linux/x64/luajit//lib lua-i2c.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+i2c 1.1.3-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

@@ -1,0 +1,6 @@
+Installing https://luarocks.org/luacc-0.9-4.rockspec...
+Using https://luarocks.org/luacc-0.9-4.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_luacc-0.9-4-9743/luacc/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+luacc 0.9-4 is now built and installed in /home/sp/PrjLocal/luarockstree (license: GPLv2)
+

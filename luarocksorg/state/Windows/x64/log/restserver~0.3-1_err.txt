@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for restserver 0.3-1: dkjson 
+Missing dependency for restserver 0.3-1: wsapi 
+Missing dependency for restserver 0.3-1: dkjson 
+Missing dependency for restserver 0.3-1: wsapi 

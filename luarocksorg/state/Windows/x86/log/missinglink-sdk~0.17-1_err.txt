@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for missinglink-sdk 0.17-1: luajson >= 1.3.3
+Missing dependency for missinglink-sdk 0.17-1: httpclient >= 0.1
+Missing dependency for missinglink-sdk 0.17-1: luajson >= 1.3.3
+Missing dependency for missinglink-sdk 0.17-1: httpclient >= 0.1

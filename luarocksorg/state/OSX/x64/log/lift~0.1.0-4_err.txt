@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lift 0.1.0-4: lpeg >= 1.0.0
+Missing dependency for lift 0.1.0-4: luv >= 1.8.0-2
+Missing dependency for lift 0.1.0-4: lpeg >= 1.0.0
+Missing dependency for lift 0.1.0-4: luv >= 1.8.0-2

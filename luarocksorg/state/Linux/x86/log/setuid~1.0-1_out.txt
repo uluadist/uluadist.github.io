@@ -1,0 +1,7 @@
+gcc -O2 -shared -fPIC -std=c11 -D_GNU_SOURCE -Wall -Wextra -Wno-nonnull -Wwrite-strings -Wformat=2 -DNDEBUG -I/home/sp/luajit/include/lua5.1   -c -o src/main.o src/main.c
+gcc -o setuid.so src/main.o -O2 -shared -fPIC -std=c11 -D_GNU_SOURCE -Wall -Wextra -Wno-nonnull -Wwrite-strings -Wformat=2 -DNDEBUG -I/home/sp/luajit/include/lua5.1 
+Installing https://rocks.moonscript.org/setuid-1.0-1.src.rock...
+Using https://rocks.moonscript.org/setuid-1.0-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+setuid 1.0-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

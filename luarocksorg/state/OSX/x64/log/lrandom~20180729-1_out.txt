@@ -1,0 +1,8 @@
+Installing https://luarocks.org/lrandom-20180729-1.src.rock...
+Using https://luarocks.org/lrandom-20180729-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lrandom.c -o lrandom.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c random.c -o random.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o random.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lrandom.o random.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lrandom 20180729-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

@@ -1,0 +1,10 @@
+/home/sp/Dropbox/Linux/x86/luajit//bin/lua mkinc.lua `basename expectsrc.inc .inc`
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c lpty.c -o lpty.o
+gcc -shared  -o lpty.so -L/home/sp/Dropbox/Linux/x86/luajit//lib lpty.o
+mkdir -p /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/lpty/1.2.2-1/lib
+cp lpty.so /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/lpty/1.2.2-1/lib
+Installing https://luarocks.org/lpty-1.2.2-1.src.rock...
+Using https://luarocks.org/lpty-1.2.2-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lpty 1.2.2-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

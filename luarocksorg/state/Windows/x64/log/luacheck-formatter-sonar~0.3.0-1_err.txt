@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luacheck-formatter-sonar 0.3.0-1: rapidjson >= 0.4.2
+Missing dependency for luacheck-formatter-sonar 0.3.0-1: rapidjson >= 0.4.2

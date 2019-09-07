@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: lua-fp-v1.5.17/luafp/array.lua: No such file or directory
+
+Error: Build error: Failed installing lua-fp-v1.5.17/luafp/array.lua in /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/lua-fp/1.5-17/lua/luafp/array.lua

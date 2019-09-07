@@ -1,0 +1,10 @@
+Installing https://luarocks.org/lua-m6502-1.0-1.src.rock...
+Using https://luarocks.org/lua-m6502-1.0-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/main.c -o src/main.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/utils.c -o src/utils.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/lutils.c -o src/lutils.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lib/piumarta/lib6502.c -o lib/piumarta/lib6502.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o M6502.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib src/main.o src/utils.o src/lutils.o lib/piumarta/lib6502.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lua-m6502 1.0-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

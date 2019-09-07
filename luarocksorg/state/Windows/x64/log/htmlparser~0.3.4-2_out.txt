@@ -1,0 +1,5 @@
+Installing https://luarocks.org/htmlparser-0.3.4-2.src.rock...
+Using https://luarocks.org/htmlparser-0.3.4-2.src.rock... switching to 'build' mode
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+htmlparser 0.3.4-2 is now built and installed in C:\ste\x64\luarockstree (license: LGPL+)
+

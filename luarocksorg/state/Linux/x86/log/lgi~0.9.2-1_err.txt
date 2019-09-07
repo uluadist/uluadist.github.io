@@ -1,0 +1,9 @@
+Warning: skipping dependency checks.
+Package gobject-introspection-1.0 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `gobject-introspection-1.0.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'gobject-introspection-1.0' found
+make[1]: *** [.depcheck] Error 1
+make: *** [all] Error 2
+
+Error: Build error: Failed building.

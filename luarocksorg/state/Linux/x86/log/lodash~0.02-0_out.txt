@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/lodash-0.02-0.rockspec...
+Using https://rocks.moonscript.org/lodash-0.02-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lodash-0.02-0-4918/lodash.lua/.git/
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lodash 0.02-0 is now built and installed in /home/sp/luarockstree (license: MIT)
+

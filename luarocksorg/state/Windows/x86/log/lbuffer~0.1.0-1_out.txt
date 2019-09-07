@@ -1,0 +1,13 @@
+lbuffer.c
+lbufflib.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library buffer.lib and object buffer.exp
+lbufflib.obj : error LNK2019: unresolved external symbol _luaI_openlib referenced in function _luaopen_buffer
+buffer.dll : fatal error LNK1120: 1 unresolved externals
+Installing https://luarocks.org/lbuffer-0.1.0-1.rockspec...
+Using https://luarocks.org/lbuffer-0.1.0-1.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folbuffer.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ lbuffer.c
+cl /nologo /MD /O2 -c -Folbufflib.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ lbufflib.c
+link -dll -def:buffer.def -out:buffer.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib lbuffer.obj lbufflib.obj

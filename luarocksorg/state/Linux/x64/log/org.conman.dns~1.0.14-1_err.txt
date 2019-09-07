@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+No existing manifest. Attempting to rebuild...

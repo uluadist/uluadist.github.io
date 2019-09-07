@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+lunzip.c:5:40: fatal error: zlib/contrib/minizip/unzip.h: No such file or directory
+ #include "zlib/contrib/minizip/unzip.h"
+                                        ^
+compilation terminated.
+
+Error: Build error: Failed compiling object lunzip.o

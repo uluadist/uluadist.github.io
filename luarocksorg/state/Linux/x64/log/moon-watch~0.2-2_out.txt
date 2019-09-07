@@ -1,0 +1,5 @@
+Installing https://rocks.moonscript.org/moon-watch-0.2-2.src.rock...
+Using https://rocks.moonscript.org/moon-watch-0.2-2.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+moon-watch 0.2-2 is now built and installed in /home/sp/luarockstree (license: MIT)
+

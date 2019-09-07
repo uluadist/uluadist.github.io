@@ -1,0 +1,28 @@
+l52util.c
+lua_int64.c
+lua_mtutil.c
+lua_tstring.c
+luawin_dllerror.c
+win_privileges.c
+win_registry.c
+win_trace.c
+winreg.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library winreg.lib and object winreg.exp
+Installing https://luarocks.org/winreg-1.0.0-1.src.rock...
+Using https://luarocks.org/winreg-1.0.0-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/l52util.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/l52util.c -DWIN32 -D_WIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -DWINDLL -DUSRDLL -DNDEBUG -D_CRT_SECURE_NO_WARNINGS -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -DWINREG_EXPORTS -DWINREG_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/lua_int64.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/lua_int64.c -DWIN32 -D_WIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -DWINDLL -DUSRDLL -DNDEBUG -D_CRT_SECURE_NO_WARNINGS -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -DWINREG_EXPORTS -DWINREG_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/lua_mtutil.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/lua_mtutil.c -DWIN32 -D_WIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -DWINDLL -DUSRDLL -DNDEBUG -D_CRT_SECURE_NO_WARNINGS -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -DWINREG_EXPORTS -DWINREG_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/lua_tstring.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/lua_tstring.c -DWIN32 -D_WIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -DWINDLL -DUSRDLL -DNDEBUG -D_CRT_SECURE_NO_WARNINGS -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -DWINREG_EXPORTS -DWINREG_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/luawin_dllerror.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/luawin_dllerror.c -DWIN32 -D_WIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -DWINDLL -DUSRDLL -DNDEBUG -D_CRT_SECURE_NO_WARNINGS -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -DWINREG_EXPORTS -DWINREG_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/win_privileges.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/win_privileges.c -DWIN32 -D_WIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -DWINDLL -DUSRDLL -DNDEBUG -D_CRT_SECURE_NO_WARNINGS -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -DWINREG_EXPORTS -DWINREG_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/win_registry.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/win_registry.c -DWIN32 -D_WIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -DWINDLL -DUSRDLL -DNDEBUG -D_CRT_SECURE_NO_WARNINGS -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -DWINREG_EXPORTS -DWINREG_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/win_trace.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/win_trace.c -DWIN32 -D_WIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -DWINDLL -DUSRDLL -DNDEBUG -D_CRT_SECURE_NO_WARNINGS -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -DWINREG_EXPORTS -DWINREG_API=__declspec(dllexport)
+cl /nologo /MD /O2 -c -Fosrc/winreg.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/winreg.c -DWIN32 -D_WIN32 -D_WINDOWS -DWIN32_LEAN_AND_MEAN -DWINDLL -DUSRDLL -DNDEBUG -D_CRT_SECURE_NO_WARNINGS -DCRTAPI1=_cdecl -DCRTAPI2=_cdecl -DWINREG_EXPORTS -DWINREG_API=__declspec(dllexport)
+link -dll -def:winreg.def -out:winreg.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib src/l52util.obj src/lua_int64.obj src/lua_mtutil.obj src/lua_tstring.obj src/luawin_dllerror.obj src/win_privileges.obj src/win_registry.obj src/win_trace.obj src/winreg.obj advapi32.lib kernel32.lib user32.lib
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+winreg 1.0.0-1 is now built and installed in C:\ste\x86\luarockstree (license: MIT/X11)
+

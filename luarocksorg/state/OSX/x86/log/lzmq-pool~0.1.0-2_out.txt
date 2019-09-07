@@ -1,0 +1,28 @@
+Archive:  v0.1.0.zip
+66479d917ecac6e31052c92c20de418e1e9a117d
+   creating: lzmq-pool-0.1.0/
+  inflating: lzmq-pool-0.1.0/.gitignore  
+  inflating: lzmq-pool-0.1.0/.travis.yml  
+  inflating: lzmq-pool-0.1.0/README.md  
+   creating: lzmq-pool-0.1.0/doc/
+  inflating: lzmq-pool-0.1.0/doc/zpool.ldoc  
+   creating: lzmq-pool-0.1.0/examples/
+  inflating: lzmq-pool-0.1.0/examples/hwclient.lua  
+  inflating: lzmq-pool-0.1.0/lakeconfig.lua  
+  inflating: lzmq-pool-0.1.0/lakefile  
+   creating: lzmq-pool-0.1.0/msvc/
+  inflating: lzmq-pool-0.1.0/msvc/pool.sln  
+  inflating: lzmq-pool-0.1.0/msvc/pool.vcproj  
+   creating: lzmq-pool-0.1.0/rockspecs/
+  inflating: lzmq-pool-0.1.0/rockspecs/lzmq-pool-0.1.0-1.rockspec  
+  inflating: lzmq-pool-0.1.0/rockspecs/lzmq-pool-scm-0.rockspec  
+   creating: lzmq-pool-0.1.0/src/
+   creating: lzmq-pool-0.1.0/src/lua/
+  inflating: lzmq-pool-0.1.0/src/lua/pool.lua  
+   creating: lzmq-pool-0.1.0/test/
+  inflating: lzmq-pool-0.1.0/test/test_pool.lua  
+Installing https://rocks.moonscript.org/lzmq-pool-0.1.0-2.src.rock...
+Using https://rocks.moonscript.org/lzmq-pool-0.1.0-2.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lzmq-pool 0.1.0-2 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

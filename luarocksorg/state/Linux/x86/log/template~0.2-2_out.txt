@@ -1,0 +1,6 @@
+Initialized empty Git repository in /tmp/luarocks_template-0.2-2-4526/lua-template/.git/
+Installing https://luarocks.org/template-0.2-2.rockspec...
+Using https://luarocks.org/template-0.2-2.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+template 0.2-2 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

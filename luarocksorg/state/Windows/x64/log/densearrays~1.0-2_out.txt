@@ -1,0 +1,11 @@
+array.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library array.lib and object array.exp
+array.obj : error LNK2019: unresolved external symbol bzero referenced in function l_array
+array.dll : fatal error LNK1120: 1 unresolved externals
+Installing https://luarocks.org/densearrays-1.0-2.src.rock...
+Using https://luarocks.org/densearrays-1.0-2.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Foarray.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ array.c
+link -dll -def:array.def -out:array.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib array.obj

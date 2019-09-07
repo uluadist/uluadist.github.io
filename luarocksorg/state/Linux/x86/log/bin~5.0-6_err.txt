@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: cannot stat `bin/support/extrablocks.lua': No such file or directory
+
+Error: Build error: Failed installing bin/support/extrablocks.lua in /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/bin/5.0-6/lua/bin/support/extrablocks.lua

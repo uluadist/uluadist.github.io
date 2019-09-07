@@ -1,0 +1,5 @@
+Installing https://luarocks.org/libssh2-0.1-0.src.rock...
+Using https://luarocks.org/libssh2-0.1-0.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+libssh2 0.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

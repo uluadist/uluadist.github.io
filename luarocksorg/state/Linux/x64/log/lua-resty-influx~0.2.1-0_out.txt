@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-resty-influx-0.2.1-0.rockspec...
+Using https://luarocks.org/lua-resty-influx-0.2.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-resty-influx-0.2.1-0-3688/lua-resty-influx/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-resty-influx 0.2.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: GPVv3)
+

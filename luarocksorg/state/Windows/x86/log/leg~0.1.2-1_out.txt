@@ -1,0 +1,4 @@
+Installing https://luarocks.org/leg-0.1.2-1.all.rock...
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+
+leg 0.1.2-1 is now installed in C:\ste\x86\luarockstree (license: MIT/X11)

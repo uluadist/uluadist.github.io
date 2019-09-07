@@ -1,0 +1,4 @@
+Installing https://rocks.moonscript.org/autoinstall-0.1-1.src.rock...
+Using https://rocks.moonscript.org/autoinstall-0.1-1.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include -c src/autoinstall.c -o src/autoinstall.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o autoinstall.so -L/Users/sp/Dropbox/OSX/x86/luajit/lib src/autoinstall.o -lc -ldl -llua5.1

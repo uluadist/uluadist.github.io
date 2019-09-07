@@ -1,0 +1,14 @@
+lrandom.c
+random.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library random.lib and object random.exp
+Installing https://luarocks.org/lrandom-20180729-1.src.rock...
+Using https://luarocks.org/lrandom-20180729-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folrandom.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src lrandom.c
+cl /nologo /MD /O2 -c -Forandom.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src random.c
+link -dll -def:random.def -out:random.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib lrandom.obj random.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+lrandom 20180729-1 is now built and installed in C:\ste\x86\luarockstree (license: MIT)
+

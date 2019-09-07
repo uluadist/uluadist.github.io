@@ -1,0 +1,5 @@
+Warning: skipping dependency checks.
+cc1plus: error: unrecognized command line option "-std=c++11"
+make: *** [lua_brotli.o] Error 1
+
+Error: Build error: Failed building.

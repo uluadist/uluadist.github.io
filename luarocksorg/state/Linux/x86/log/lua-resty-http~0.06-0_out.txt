@@ -1,0 +1,5 @@
+Installing https://rocks.moonscript.org/lua-resty-http-0.06-0.src.rock...
+Using https://rocks.moonscript.org/lua-resty-http-0.06-0.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lua-resty-http 0.06-0 is now built and installed in /home/sp/luarockstree (license: 2-clause BSD)
+

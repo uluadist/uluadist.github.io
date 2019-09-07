@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+In file included from lua_cjson.c:47:
+./fpconv.h:15:20: warning: inline function 'fpconv_init' is not defined [-Wundefined-inline]
+extern inline void fpconv_init();
+                   ^
+lua_cjson.c:1359:5: note: used here
+    fpconv_init();
+    ^
+1 warning generated.
+No existing manifest. Attempting to rebuild...

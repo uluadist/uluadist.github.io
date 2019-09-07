@@ -1,0 +1,14 @@
+Installing https://luarocks.org/lua-crypt-1.0.0-0.src.rock...
+Using https://luarocks.org/lua-crypt-1.0.0-0.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/base64.c -o src/base64.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/crypt.c -o src/crypt.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/crypt_md5.c -o src/crypt_md5.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/crypt_sha256.c -o src/crypt_sha256.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/crypt_sha512.c -o src/crypt_sha512.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/luasha.c -o src/luasha.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/luassha.c -o src/luassha.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/sha1.c -o src/sha1.o
+gcc -shared -o crypt/core.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/base64.o src/crypt.o src/crypt_md5.o src/crypt_sha256.o src/crypt_sha512.o src/luasha.o src/luassha.o src/sha1.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-crypt 1.0.0-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

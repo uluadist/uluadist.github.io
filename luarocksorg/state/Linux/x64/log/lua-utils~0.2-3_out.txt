@@ -1,0 +1,3 @@
+Initialized empty Git repository in /tmp/luarocks_lua-utils-0.2-3-1560/lua-utils/.git/
+Installing https://luarocks.org/lua-utils-0.2-3.rockspec...
+Using https://luarocks.org/lua-utils-0.2-3.rockspec... switching to 'build' mode

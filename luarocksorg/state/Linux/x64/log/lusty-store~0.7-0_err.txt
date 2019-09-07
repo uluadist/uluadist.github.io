@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lusty-store 0.7-0: lusty >= 0.2-0
+Missing dependency for lusty-store 0.7-0: busted >= 1.7-1
+Missing dependency for lusty-store 0.7-0: lusty >= 0.2-0
+Missing dependency for lusty-store 0.7-0: busted >= 1.7-1

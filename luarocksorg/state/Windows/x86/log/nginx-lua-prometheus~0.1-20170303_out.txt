@@ -1,0 +1,5 @@
+Installing https://luarocks.org/nginx-lua-prometheus-0.1-20170303.src.rock...
+Using https://luarocks.org/nginx-lua-prometheus-0.1-20170303.src.rock... switching to 'build' mode
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+nginx-lua-prometheus 0.1-20170303 is now built and installed in C:\ste\x86\luarockstree (license: MIT)
+

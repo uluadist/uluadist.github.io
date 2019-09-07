@@ -1,0 +1,4 @@
+/Library/Developer/CommandLineTools/usr/bin/make -C lgi
+pkg-config --exists 'gobject-introspection-1.0 >= 0.10.8' --print-errors
+Installing https://luarocks.org/lgi-0.9.1-1.src.rock...
+Using https://luarocks.org/lgi-0.9.1-1.src.rock... switching to 'build' mode

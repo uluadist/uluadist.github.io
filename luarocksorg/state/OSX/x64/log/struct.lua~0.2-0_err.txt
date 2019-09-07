@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: struct.lua is a directory (not copied).
+
+Error: Build error: Failed installing struct.lua in /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/struct.lua/0.2-0/lua/struct.lua

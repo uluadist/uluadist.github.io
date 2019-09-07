@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+serial/optim.c:342:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘int’
+ LUNARY_API int luaopen_module(lua_State* L)
+            ^
+
+Error: Build error: Failed compiling object serial/optim.o

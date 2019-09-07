@@ -1,0 +1,52 @@
+Archive:  v0.3.0.zip
+8cf1ea6f50e321e5f18678d50bced9ed9b949e75
+   creating: lua-mtint-0.3.0/
+  inflating: lua-mtint-0.3.0/.gitignore  
+  inflating: lua-mtint-0.3.0/.travis.yml  
+  inflating: lua-mtint-0.3.0/CMakeLists.txt  
+  inflating: lua-mtint-0.3.0/LICENSE  
+  inflating: lua-mtint-0.3.0/Makefile  
+  inflating: lua-mtint-0.3.0/README.md  
+  inflating: lua-mtint-0.3.0/appveyor.yml  
+   creating: lua-mtint-0.3.0/examples/
+  inflating: lua-mtint-0.3.0/examples/example01.lua  
+  inflating: lua-mtint-0.3.0/examples/example02.lua  
+  inflating: lua-mtint-0.3.0/examples/example03.lua  
+  inflating: lua-mtint-0.3.0/examples/example04.lua  
+  inflating: lua-mtint-0.3.0/examples/setup.sh  
+   creating: lua-mtint-0.3.0/rockspecs/
+  inflating: lua-mtint-0.3.0/rockspecs/mtint-0.3.0-1.rockspec  
+  inflating: lua-mtint-0.3.0/rockspecs/mtint-scm-0.rockspec  
+   creating: lua-mtint-0.3.0/src/
+  inflating: lua-mtint-0.3.0/src/async_defines.h  
+  inflating: lua-mtint-0.3.0/src/async_util.c  
+  inflating: lua-mtint-0.3.0/src/async_util.h  
+  inflating: lua-mtint-0.3.0/src/compat-5.3.c  
+  inflating: lua-mtint-0.3.0/src/compat-5.3.h  
+  inflating: lua-mtint-0.3.0/src/error.c  
+  inflating: lua-mtint-0.3.0/src/error.h  
+  inflating: lua-mtint-0.3.0/src/interruptible.c  
+  inflating: lua-mtint-0.3.0/src/interruptible.h  
+  inflating: lua-mtint-0.3.0/src/main.c  
+  inflating: lua-mtint-0.3.0/src/main.h  
+  inflating: lua-mtint-0.3.0/src/mtint_compat.c  
+  inflating: lua-mtint-0.3.0/src/util.c  
+  inflating: lua-mtint-0.3.0/src/util.h  
+   creating: lua-mtint-0.3.0/tests/
+  inflating: lua-mtint-0.3.0/tests/test00.lua  
+  inflating: lua-mtint-0.3.0/tests/test01.lua  
+  inflating: lua-mtint-0.3.0/tests/test02.lua  
+   creating: lua-mtint-0.3.0/thirdparty/
+  inflating: lua-mtint-0.3.0/thirdparty/lua-compat-license  
+Installing https://luarocks.org/mtint-0.3.0-1.rockspec...
+Using https://luarocks.org/mtint-0.3.0-1.rockspec... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/main.c -o src/main.o -DMTINT_VERSION=0.3.0
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/interruptible.c -o src/interruptible.o -DMTINT_VERSION=0.3.0
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/error.c -o src/error.o -DMTINT_VERSION=0.3.0
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/util.c -o src/util.o -DMTINT_VERSION=0.3.0
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/async_util.c -o src/async_util.o -DMTINT_VERSION=0.3.0
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/mtint_compat.c -o src/mtint_compat.o -DMTINT_VERSION=0.3.0
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o mtint.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib src/main.o src/interruptible.o src/error.o src/util.o src/async_util.o src/mtint_compat.o -lpthread
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+mtint 0.3.0-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

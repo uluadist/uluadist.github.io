@@ -1,0 +1,16 @@
+Warning: skipping dependency checks.
+Cloning into 'combine'...
+Note: checking out '4cae6aafe848cf63849dcea20ef9a47f1afde8f5'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+cp: src/combine.lua: No such file or directory
+
+Error: Build error: Failed installing src/combine.lua in /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/combine/1.0-1/lua/combine.lua

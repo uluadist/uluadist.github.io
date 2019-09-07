@@ -1,0 +1,14 @@
+Warning: skipping dependency checks.
+Cloning into 'lua-argon2-ffi'...
+Note: checking out '91f6582e6847518b12e4a002e0e4db219d8c5f6d'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+No existing manifest. Attempting to rebuild...

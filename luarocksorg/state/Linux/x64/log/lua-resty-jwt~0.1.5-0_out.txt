@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-resty-jwt-0.1.5-0.rockspec...
+Using https://luarocks.org/lua-resty-jwt-0.1.5-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-resty-jwt-0.1.5-0-1830/lua-resty-jwt/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-resty-jwt 0.1.5-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: Apache License Version 2)
+

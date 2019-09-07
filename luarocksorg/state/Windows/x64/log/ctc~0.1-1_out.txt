@@ -1,0 +1,12 @@
+ctc.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library ctc.lib and object ctc.exp
+Installing https://luarocks.org/ctc-0.1-1.src.rock...
+Using https://luarocks.org/ctc-0.1-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/ctc.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/ctc.c
+link -dll -def:ctc.def -out:ctc.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib src/ctc.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+ctc 0.1-1 is now built and installed in C:\ste\x64\luarockstree (license: MIT)
+

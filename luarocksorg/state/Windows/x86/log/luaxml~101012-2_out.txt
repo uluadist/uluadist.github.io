@@ -1,0 +1,12 @@
+LuaXML_lib.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library LuaXML_lib.lib and object LuaXML_lib.exp
+Installing https://luarocks.org/luaxml-101012-2.src.rock...
+Using https://luarocks.org/luaxml-101012-2.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -FoLuaXML_lib.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ LuaXML_lib.c
+link -dll -def:LuaXML_lib.def -out:LuaXML_lib.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib LuaXML_lib.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+luaxml 101012-2 is now built and installed in C:\ste\x86\luarockstree (license: MIT/X11)
+

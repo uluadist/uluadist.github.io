@@ -1,0 +1,7 @@
+Installing https://luarocks.org/lunix-20170920-1.src.rock...
+Using https://luarocks.org/lunix-20170920-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/unix.c -o src/unix.o -D_REENTRANT -D_THREAD_SAFE -D_GNU_SOURCE
+gcc -shared -o unix.so -L/home/sp/Dropbox/Linux/x64/luajit//lib src/unix.o -lrt
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lunix 20170920-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

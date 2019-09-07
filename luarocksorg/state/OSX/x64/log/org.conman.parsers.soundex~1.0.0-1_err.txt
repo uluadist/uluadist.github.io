@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for org.conman.parsers.soundex 1.0.0-1: lpeg >= 1.0.0
+Missing dependency for org.conman.parsers.soundex 1.0.0-1: lpeg >= 1.0.0

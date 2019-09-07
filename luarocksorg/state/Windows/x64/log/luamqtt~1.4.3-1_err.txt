@@ -1,0 +1,16 @@
+Cloning into 'luamqtt'...
+Note: checking out 'e2e16e029ff06f622d4750463ba64c18674d8d1f'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luamqtt 1.4.3-1: luasocket >= 3.0rc1-2
+Missing dependency for luamqtt 1.4.3-1: luasocket >= 3.0rc1-2

@@ -1,0 +1,9 @@
+cl : Command line warning D9021 : no action performed
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+LINK : fatal error LNK1181: cannot open input file '.obj'
+Installing https://luarocks.org/lua-resty-aws-sdk-0.1-0.src.rock...
+Using https://luarocks.org/lua-resty-aws-sdk-0.1-0.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fo.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src lib/resty/aws/sns
+link -dll -def:sns.def -out:resty/aws/sns.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib .obj

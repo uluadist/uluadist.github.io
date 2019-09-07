@@ -1,0 +1,17 @@
+Warning: skipping dependency checks.
+Note: checking out '1.2.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at ae263e2... Merge pull request #16 from thibaultCha/release/1.2.0
+Warning: unmatched variable ARGON2_INCDIR
+gcc: error: missing path after ‘-I’
+
+Error: Build error: Failed compiling object src/argon2.o

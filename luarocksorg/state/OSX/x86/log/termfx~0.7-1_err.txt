@@ -1,0 +1,18 @@
+Warning: skipping dependency checks.
+termfx_color.c:87:8: warning: comparison of unsigned expression < 0 is always false [-Wtautological-compare]
+        if (r < 0 || r > 5 || g < 0 || g > 5 || b < 0 || b > 5) {
+            ~ ^ ~
+termfx_color.c:87:26: warning: comparison of unsigned expression < 0 is always false [-Wtautological-compare]
+        if (r < 0 || r > 5 || g < 0 || g > 5 || b < 0 || b > 5) {
+                              ~ ^ ~
+termfx_color.c:87:44: warning: comparison of unsigned expression < 0 is always false [-Wtautological-compare]
+        if (r < 0 || r > 5 || g < 0 || g > 5 || b < 0 || b > 5) {
+                                                ~ ^ ~
+termfx_color.c:124:8: warning: comparison of unsigned expression < 0 is always false [-Wtautological-compare]
+        if (v < 0 || v > 25) {
+            ~ ^ ~
+termfx_color.c:174:54: warning: comparison of unsigned expression < 0 is always false [-Wtautological-compare]
+        if ((omode == TB_OUTPUT_NORMAL && col >= 16) || col < 0 || col > 255) {
+                                                        ~~~ ^ ~
+5 warnings generated.
+No existing manifest. Attempting to rebuild...

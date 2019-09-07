@@ -1,0 +1,26 @@
+compat.c
+deep.c
+lanes.c
+linda.c
+keeper.c
+tools.c
+threading.c
+universe.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library lanes/core.lib and object lanes/core.exp
+Installing https://luarocks.org/lanes-3.13.0-0.rockspec...
+Using https://luarocks.org/lanes-3.13.0-0.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/compat.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/compat.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/deep.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/deep.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/lanes.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/lanes.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/linda.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/linda.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/keeper.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/keeper.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/tools.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/tools.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/threading.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/threading.c -Isrc
+cl /nologo /MD /O2 -c -Fosrc/universe.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/universe.c -Isrc
+link -dll -def:core.def -out:lanes/core.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib src/compat.obj src/deep.obj src/lanes.obj src/linda.obj src/keeper.obj src/tools.obj src/threading.obj src/universe.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+lanes 3.13.0-0 is now built and installed in C:\ste\x86\luarockstree (license: MIT/X11)
+

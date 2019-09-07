@@ -1,0 +1,4 @@
+Z:\sp\Dropbox\Windows\x64\luarocks\tools\cp: cannot stat `lua-fp-v1.5.15/luafp/collection.lua': No such file or directory
+Warning: skipping dependency checks.
+
+Error: Build error: Failed installing lua-fp-v1.5.15/luafp/collection.lua in C:\ste\x64\luarockstree/lib/luarocks/rocks/lua-fp/1.5-15/lua/luafp/collection.lua

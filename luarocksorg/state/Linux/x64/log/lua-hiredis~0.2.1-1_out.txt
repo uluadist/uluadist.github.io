@@ -1,0 +1,12 @@
+Installing https://rocks.moonscript.org/lua-hiredis-0.2.1-1.src.rock...
+Using https://rocks.moonscript.org/lua-hiredis-0.2.1-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/lua-hiredis.c -o src/lua-hiredis.o -Isrc/ -Ilib/hiredis/
+gcc -O2 -fPIC -I/home/sp/luajit//include -c lib/hiredis/net.c -o lib/hiredis/net.o -Isrc/ -Ilib/hiredis/
+gcc -O2 -fPIC -I/home/sp/luajit//include -c lib/hiredis/async.c -o lib/hiredis/async.o -Isrc/ -Ilib/hiredis/
+gcc -O2 -fPIC -I/home/sp/luajit//include -c lib/hiredis/dict.c -o lib/hiredis/dict.o -Isrc/ -Ilib/hiredis/
+gcc -O2 -fPIC -I/home/sp/luajit//include -c lib/hiredis/hiredis.c -o lib/hiredis/hiredis.o -Isrc/ -Ilib/hiredis/
+gcc -O2 -fPIC -I/home/sp/luajit//include -c lib/hiredis/sds.c -o lib/hiredis/sds.o -Isrc/ -Ilib/hiredis/
+gcc -shared -o hiredis.so -L/home/sp/luajit//lib src/lua-hiredis.o lib/hiredis/net.o lib/hiredis/async.o lib/hiredis/dict.o lib/hiredis/hiredis.o lib/hiredis/sds.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lua-hiredis 0.2.1-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

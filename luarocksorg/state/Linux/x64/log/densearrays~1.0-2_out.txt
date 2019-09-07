@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/densearrays-1.0-2.src.rock...
+Using https://rocks.moonscript.org/densearrays-1.0-2.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c array.c -o array.o
+gcc -shared -o array.so -L/home/sp/luajit//lib array.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+densearrays 1.0-2 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

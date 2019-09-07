@@ -1,0 +1,16 @@
+Warning: skipping dependency checks.
+Cloning into 'multimethod.lua'...
+Note: checking out '3d9d4e0827733a3910f9f048b847c091e267a6d1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+cp: multimethod.lua is a directory (not copied).
+
+Error: Build error: Failed installing multimethod.lua in /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/multimethod/0.0-1/lua/multimethod.lua

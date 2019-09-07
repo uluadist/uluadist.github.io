@@ -1,0 +1,3 @@
+Installing https://luarocks.org/luabibtex-0.1.0-1.rockspec...
+Using https://luarocks.org/luabibtex-0.1.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_luabibtex-0.1.0-1-4349/luabibtex/.git/

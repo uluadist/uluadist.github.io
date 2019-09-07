@@ -1,0 +1,30 @@
+Archive:  v1.4.zip
+6ebec659456c8201cb894e97b138b273bb632cb5
+   creating: optparse-1.4/
+  inflating: optparse-1.4/.gitignore  
+  inflating: optparse-1.4/.luacov    
+  inflating: optparse-1.4/.travis.yml  
+  inflating: optparse-1.4/LICENSE.md  
+  inflating: optparse-1.4/Makefile   
+  inflating: optparse-1.4/NEWS.md    
+  inflating: optparse-1.4/README.md  
+   creating: optparse-1.4/build-aux/
+  inflating: optparse-1.4/build-aux/config.ld.in  
+   creating: optparse-1.4/doc/
+  inflating: optparse-1.4/doc/index.html  
+  inflating: optparse-1.4/doc/ldoc.css  
+   creating: optparse-1.4/lib/
+   creating: optparse-1.4/lib/optparse/
+  inflating: optparse-1.4/lib/optparse/_strict.lua  
+  inflating: optparse-1.4/lib/optparse/init.lua  
+ extracting: optparse-1.4/lib/optparse/version.lua  
+  inflating: optparse-1.4/optparse-1.4-1.rockspec  
+   creating: optparse-1.4/spec/
+  inflating: optparse-1.4/spec/optparse_spec.yaml  
+  inflating: optparse-1.4/spec/spec_helper.lua  
+  inflating: optparse-1.4/spec/version_spec.yaml  
+Installing https://luarocks.org/optparse-1.4-1.src.rock...
+Using https://luarocks.org/optparse-1.4-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+optparse 1.4-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

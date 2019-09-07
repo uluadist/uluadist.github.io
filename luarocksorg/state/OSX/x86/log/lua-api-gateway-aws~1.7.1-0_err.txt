@@ -1,0 +1,18 @@
+Warning: skipping dependency checks.
+Cloning into 'api-gateway-aws'...
+Note: checking out 'e44349ed05c78a91bf0f1545e2c3b208caa926ac'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-api-gateway-aws 1.7.1-0: lua-api-gateway-hmac 
+Missing dependency for lua-api-gateway-aws 1.7.1-0: lua-resty-http 
+Missing dependency for lua-api-gateway-aws 1.7.1-0: lua-api-gateway-hmac 
+Missing dependency for lua-api-gateway-aws 1.7.1-0: lua-resty-http 

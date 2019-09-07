@@ -1,0 +1,3 @@
+Installing https://rocks.moonscript.org/nanovg-0.1.0-1.src.rock...
+Using https://rocks.moonscript.org/nanovg-0.1.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lua-nanovg.c -o lua-nanovg.o

@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/cmark-0.24.1-1.src.rock...
+Using https://rocks.moonscript.org/cmark-0.24.1-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c cmark_wrap.c -o cmark_wrap.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c ext/blocks.c -o ext/blocks.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c ext/houdini_html_u.c -o ext/houdini_html_u.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c ext/references.c -o ext/references.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c ext/buffer.c -o ext/buffer.o -I. -Iext

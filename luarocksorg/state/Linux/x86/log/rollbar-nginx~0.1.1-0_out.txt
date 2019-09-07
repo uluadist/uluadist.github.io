@@ -1,0 +1,6 @@
+Installing https://luarocks.org/rollbar-nginx-0.1.1-0.rockspec...
+Using https://luarocks.org/rollbar-nginx-0.1.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_rollbar-nginx-0.1.1-0-3571/rollbar-nginx/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+rollbar-nginx 0.1.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree 
+

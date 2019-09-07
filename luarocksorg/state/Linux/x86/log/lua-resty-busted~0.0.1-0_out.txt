@@ -1,0 +1,3 @@
+Installing https://luarocks.org/lua-resty-busted-0.0.1-0.rockspec...
+Using https://luarocks.org/lua-resty-busted-0.0.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-resty-busted-0.0.1-0-4798/lua-resty-busted/.git/

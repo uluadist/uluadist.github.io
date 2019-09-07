@@ -1,0 +1,5 @@
+lua-cputime.c
+c:\users\sp\appdata\local\temp\luarocks_cputime-0.2.0-0-5447\lua-cputime\src\lua-cputime.h(22): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+Installing https://luarocks.org/cputime-0.2.0-0.src.rock...
+Using https://luarocks.org/cputime-0.2.0-0.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/lua-cputime.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src src/lua-cputime.c

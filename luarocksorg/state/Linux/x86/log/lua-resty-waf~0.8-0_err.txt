@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+cp: target `/usr/local/openresty/lualib/resty/' is not a directory
+make: *** [install-hard] Error 1
+
+Error: Build error: Failed installing.

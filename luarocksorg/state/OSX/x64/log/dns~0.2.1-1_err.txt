@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Directory dns.lua-0.2.1 not found inside archive 0.2.1.tar.gz

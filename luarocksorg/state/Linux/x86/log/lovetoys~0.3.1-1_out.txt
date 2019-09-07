@@ -1,0 +1,6 @@
+Initialized empty Git repository in /tmp/luarocks_lovetoys-0.3.1-1-1586/lovetoys/.git/
+Installing https://luarocks.org/lovetoys-0.3.1-1.rockspec...
+Using https://luarocks.org/lovetoys-0.3.1-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lovetoys 0.3.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT <http://opensource.org/licenses/MIT>)
+

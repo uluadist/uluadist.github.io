@@ -1,0 +1,69 @@
+lcomplex.c
+lcomplex.c(30): error C2061: syntax error: identifier 'Pget'
+lcomplex.c(30): error C2059: syntax error: ';'
+lcomplex.c(30): error C2059: syntax error: '<parameter-list>'
+lcomplex.c(42): error C2146: syntax error: missing ')' before identifier 'z'
+lcomplex.c(42): error C2061: syntax error: identifier 'z'
+lcomplex.c(42): error C2059: syntax error: ';'
+lcomplex.c(42): error C2059: syntax error: ')'
+lcomplex.c(43): error C2449: found '{' at file scope (missing function header?)
+lcomplex.c(48): error C2059: syntax error: '}'
+lcomplex.c(57): error C2146: syntax error: missing ';' before identifier 'z'
+lcomplex.c(57): error C2065: 'z': undeclared identifier
+lcomplex.c(58): error C2065: 'z': undeclared identifier
+lcomplex.c(58): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(58): warning C4024: 'creal': different types for formal and actual parameter 1
+lcomplex.c(59): error C2065: 'z': undeclared identifier
+lcomplex.c(59): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(59): warning C4024: 'cimag': different types for formal and actual parameter 1
+lcomplex.c(86): error C2088: '*': illegal for struct
+lcomplex.c(92): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(92): warning C4024: 'cabs': different types for formal and actual parameter 1
+lcomplex.c(93): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(93): warning C4024: 'cacos': different types for formal and actual parameter 1
+lcomplex.c(94): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(94): warning C4024: 'cacosh': different types for formal and actual parameter 1
+lcomplex.c(95): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(95): warning C4024: 'carg': different types for formal and actual parameter 1
+lcomplex.c(96): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(96): warning C4024: 'casin': different types for formal and actual parameter 1
+lcomplex.c(97): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(97): warning C4024: 'casinh': different types for formal and actual parameter 1
+lcomplex.c(98): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(98): warning C4024: 'catan': different types for formal and actual parameter 1
+lcomplex.c(99): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(99): warning C4024: 'catanh': different types for formal and actual parameter 1
+lcomplex.c(100): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(100): warning C4024: 'conj': different types for formal and actual parameter 1
+lcomplex.c(101): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(101): warning C4024: 'ccos': different types for formal and actual parameter 1
+lcomplex.c(102): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(102): warning C4024: 'ccosh': different types for formal and actual parameter 1
+lcomplex.c(103): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(103): warning C4024: 'cexp': different types for formal and actual parameter 1
+lcomplex.c(104): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(104): warning C4024: 'cimag': different types for formal and actual parameter 1
+lcomplex.c(105): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(105): warning C4024: 'clog': different types for formal and actual parameter 1
+lcomplex.c(106): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(106): warning C4024: 'cpow': different types for formal and actual parameter 1
+lcomplex.c(106): warning C4024: 'cpow': different types for formal and actual parameter 2
+lcomplex.c(107): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(107): warning C4024: 'cproj': different types for formal and actual parameter 1
+lcomplex.c(108): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(108): warning C4024: 'creal': different types for formal and actual parameter 1
+lcomplex.c(109): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(109): warning C4024: 'csin': different types for formal and actual parameter 1
+lcomplex.c(110): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(110): warning C4024: 'csinh': different types for formal and actual parameter 1
+lcomplex.c(111): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(111): warning C4024: 'csqrt': different types for formal and actual parameter 1
+lcomplex.c(112): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(112): warning C4024: 'ctan': different types for formal and actual parameter 1
+lcomplex.c(113): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+lcomplex.c(113): warning C4024: 'ctanh': different types for formal and actual parameter 1
+lcomplex.c(119): error C2065: 'Leq': undeclared identifier
+lcomplex.c(148): error C2099: initializer is not a constant
+Installing https://luarocks.org/lcomplex-20180729-1.src.rock...
+Using https://luarocks.org/lcomplex-20180729-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folcomplex.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src lcomplex.c

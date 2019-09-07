@@ -1,0 +1,61 @@
+-- The C compiler identification is AppleClang 7.0.2.7000181
+-- The ASM compiler identification is AppleClang
+-- Found assembler: /Users/sp/Dropbox/Bin/OSX/x64/cc
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x64/cc
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x64/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is AppleClang 7.0.2.7000181
+-- Check for working CXX compiler: /Users/sp/Dropbox/Bin/OSX/x64/c++
+-- Check for working CXX compiler: /Users/sp/Dropbox/Bin/OSX/x64/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Lua: using information from luarocks
+-- LUA_LIBDIR: /Users/sp/Dropbox/OSX/x64/luajit/lib
+-- LUA_INCDIR: /Users/sp/Dropbox/OSX/x64/luajit/include
+-- LUA: /Users/sp/Dropbox/OSX/x64/luajit/bin/lua
+-- Lua library: LUA_LIBRARIES-NOTFOUND
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/luarocks_luv-1.22.0-0-4944/luv-1.22.0-0/build.luarocks
+Scanning dependencies of target uv
+[  1%] Building C object deps/libuv/CMakeFiles/uv.dir/src/fs-poll.c.o
+[  3%] Building C object deps/libuv/CMakeFiles/uv.dir/src/inet.c.o
+[  4%] Building C object deps/libuv/CMakeFiles/uv.dir/src/threadpool.c.o
+[  6%] Building C object deps/libuv/CMakeFiles/uv.dir/src/timer.c.o
+[  7%] Building C object deps/libuv/CMakeFiles/uv.dir/src/uv-common.c.o
+[  9%] Building C object deps/libuv/CMakeFiles/uv.dir/src/uv-data-getter-setters.c.o
+[ 10%] Building C object deps/libuv/CMakeFiles/uv.dir/src/version.c.o
+[ 12%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/async.c.o
+[ 14%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/core.c.o
+[ 15%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/dl.c.o
+[ 17%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/fs.c.o
+[ 18%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/getaddrinfo.c.o
+[ 20%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/getnameinfo.c.o
+[ 21%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/loop-watcher.c.o
+[ 23%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/loop.c.o
+[ 25%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/pipe.c.o
+[ 26%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/poll.c.o
+[ 28%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/process.c.o
+[ 29%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/signal.c.o
+[ 31%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/stream.c.o
+[ 32%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/tcp.c.o
+[ 34%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/thread.c.o
+[ 35%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/tty.c.o
+[ 37%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/udp.c.o
+[ 39%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/proctitle.c.o
+[ 40%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/bsd-ifaddrs.c.o
+[ 42%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/kqueue.c.o
+[ 43%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/darwin-proctitle.c.o
+[ 45%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/darwin.c.o
+[ 46%] Building C object deps/libuv/CMakeFiles/uv.dir/src/unix/fsevents.c.o
+[ 48%] Linking C shared library libuv.dylib
+[ 48%] Built target uv
+Scanning dependencies of target luv
+[ 50%] Building C object CMakeFiles/luv.dir/src/luv.c.o
+Installing https://luarocks.org/luv-1.22.0-0.src.rock...
+Using https://luarocks.org/luv-1.22.0-0.src.rock... switching to 'build' mode

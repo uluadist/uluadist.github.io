@@ -1,0 +1,17 @@
+Cloning into 'teateatea'...
+Note: checking out '526872bf42707ac9b6e0f07fae4aab2e06c11174'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+'make' is not recognized as an internal or external command,
+operable program or batch file.
+Warning: skipping dependency checks.
+
+Error: Build error: Failed installing.

@@ -1,0 +1,6 @@
+Initialized empty Git repository in /tmp/luarocks_lua-resty-beanstalkd-0.0-5-977/lua-resty-beanstalkd/.git/
+Installing https://luarocks.org/lua-resty-beanstalkd-0.0-5.rockspec...
+Using https://luarocks.org/lua-resty-beanstalkd-0.0-5.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-resty-beanstalkd 0.0-5 is now built and installed in /home/sp/PrjLocal/luarockstree (license: 2bsd)
+

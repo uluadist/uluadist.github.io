@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: cannot stat `ltypekit/type/Char.lua': No such file or directory
+
+Error: Build error: Failed installing ltypekit/type/Char.lua in /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/ltypekit/4.0-1/lua/ltypekit/type/Char.lua

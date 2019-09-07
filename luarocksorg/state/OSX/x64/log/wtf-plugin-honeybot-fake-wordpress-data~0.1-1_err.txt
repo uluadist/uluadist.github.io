@@ -1,0 +1,19 @@
+Warning: skipping dependency checks.
+Cloning into 'wtf-plugin-honeybot-fake-wordpress'...
+Note: checking out '3cbbb76b7ceae44eb2cc4cdd1257f0014869a69b'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+Checking out files:  40% (2810/6919)   Checking out files:  41% (2837/6919)   Checking out files:  42% (2906/6919)   Checking out files:  43% (2976/6919)   Checking out files:  44% (3045/6919)   Checking out files:  45% (3114/6919)   Checking out files:  46% (3183/6919)   Checking out files:  47% (3252/6919)   Checking out files:  48% (3322/6919)   Checking out files:  49% (3391/6919)   Checking out files:  50% (3460/6919)   Checking out files:  51% (3529/6919)   Checking out files:  52% (3598/6919)   Checking out files:  53% (3668/6919)   Checking out files:  54% (3737/6919)   Checking out files:  55% (3806/6919)   Checking out files:  56% (3875/6919)   Checking out files:  57% (3944/6919)   Checking out files:  58% (4014/6919)   Checking out files:  59% (4083/6919)   Checking out files:  60% (4152/6919)   Checking out files:  61% (4221/6919)   Checking out files:  62% (4290/6919)   Checking out files:  63% (4359/6919)   Checking out files:  64% (4429/6919)   Checking out files:  65% (4498/6919)   Checking out files:  66% (4567/6919)   Checking out files:  67% (4636/6919)   Checking out files:  67% (4663/6919)   Checking out files:  68% (4705/6919)   Checking out files:  69% (4775/6919)   Checking out files:  70% (4844/6919)   Checking out files:  71% (4913/6919)   Checking out files:  72% (4982/6919)   Checking out files:  73% (5051/6919)   Checking out files:  74% (5121/6919)   Checking out files:  75% (5190/6919)   Checking out files:  76% (5259/6919)   Checking out files:  77% (5328/6919)   Checking out files:  78% (5397/6919)   Checking out files:  79% (5467/6919)   Checking out files:  80% (5536/6919)   Checking out files:  81% (5605/6919)   Checking out files:  82% (5674/6919)   Checking out files:  83% (5743/6919)   Checking out files:  84% (5812/6919)   Checking out files:  85% (5882/6919)   Checking out files:  86% (5951/6919)   Checking out files:  87% (6020/6919)   Checking out files:  88% (6089/6919)   Checking out files:  89% (6158/6919)   Checking out files:  89% (6179/6919)   Checking out files:  90% (6228/6919)   Checking out files:  91% (6297/6919)   Checking out files:  92% (6366/6919)   Checking out files:  93% (6435/6919)   Checking out files:  94% (6504/6919)   Checking out files:  94% (6542/6919)   Checking out files:  95% (6574/6919)   Checking out files:  96% (6643/6919)   Checking out files:  97% (6712/6919)   Checking out files:  98% (6781/6919)   Checking out files:  99% (6850/6919)   Checking out files: 100% (6919/6919)   Checking out files: 100% (6919/6919), done.
+mkdir: /usr/local/share/wtf/data/honeybot/fake/wordpress: Permission denied
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+
+Error: Build error: Failed building.

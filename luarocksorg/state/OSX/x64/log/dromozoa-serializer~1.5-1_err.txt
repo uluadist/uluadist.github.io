@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_dromozoa-serializer-1.5-1-5563/dromozoa-serializer-1.5-1.rockspec: Unknown field test

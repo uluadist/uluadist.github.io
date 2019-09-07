@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/luaunit-2.1-1.rockspec...
+Using https://rocks.moonscript.org/luaunit-2.1-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_luaunit-2.1-1-6932/luaunit/.git/
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+luaunit 2.1-1 is now built and installed in /home/sp/luarockstree (license: X11)
+

@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for injarg 0.1.0-0: luafilesystem 
+Missing dependency for injarg 0.1.0-0: luafilesystem 

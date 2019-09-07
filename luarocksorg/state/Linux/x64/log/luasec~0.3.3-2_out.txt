@@ -1,0 +1,12 @@
+Installing https://rocks.moonscript.org/luasec-0.3.3-2.rockspec...
+Using https://rocks.moonscript.org/luasec-0.3.3-2.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/buffer.c -o src/buffer.o
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/context.c -o src/context.o
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/io.c -o src/io.o
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/ssl.c -o src/ssl.o
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/timeout.c -o src/timeout.o
+gcc -O2 -fPIC -I/home/sp/luajit//include -c src/usocket.c -o src/usocket.o
+gcc -shared -o ssl.so -L/home/sp/luajit//lib src/buffer.o src/context.o src/io.o src/ssl.o src/timeout.o src/usocket.o -lssl -lcrypto
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+luasec 0.3.3-2 is now built and installed in /home/sp/luarockstree (license: MIT)
+

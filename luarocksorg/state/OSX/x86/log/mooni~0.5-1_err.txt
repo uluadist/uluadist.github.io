@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for mooni 0.5-1: linenoise 
+Missing dependency for mooni 0.5-1: moonscript 
+Missing dependency for mooni 0.5-1: linenoise 
+Missing dependency for mooni 0.5-1: moonscript 

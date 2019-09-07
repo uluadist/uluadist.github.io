@@ -1,0 +1,65 @@
+Warning: skipping dependency checks.
+In file included from getsize_multi.c:20:
+In file included from ./lua5.1/lobject.h:15:
+./lua5.1/llimits.h:18:9: error: unknown type name 'LUAI_UINT32'
+typedef LUAI_UINT32 lu_int32;
+        ^
+./lua5.1/llimits.h:20:9: error: unknown type name 'LUAI_UMEM'
+typedef LUAI_UMEM lu_mem;
+        ^
+./lua5.1/llimits.h:22:9: error: unknown type name 'LUAI_MEM'
+typedef LUAI_MEM l_mem;
+        ^
+./lua5.1/llimits.h:47:9: error: unknown type name 'LUAI_USER_ALIGNMENT_T'
+typedef LUAI_USER_ALIGNMENT_T L_Umaxalign;
+        ^
+In file included from getsize_multi.c:20:
+./lua5.1/lobject.h:365:1: error: unknown type name 'LUAI_DATA'
+LUAI_DATA const TValue luaO_nilobject_;
+^
+./lua5.1/lobject.h:365:11: error: expected identifier or '('
+LUAI_DATA const TValue luaO_nilobject_;
+          ^
+./lua5.1/lobject.h:369:1: error: unknown type name 'LUAI_FUNC'
+LUAI_FUNC int luaO_log2 (unsigned int x);
+^
+./lua5.1/lobject.h:369:11: error: expected identifier or '('
+LUAI_FUNC int luaO_log2 (unsigned int x);
+          ^
+./lua5.1/lobject.h:370:1: error: unknown type name 'LUAI_FUNC'
+LUAI_FUNC int luaO_int2fb (unsigned int x);
+^
+./lua5.1/lobject.h:370:11: error: expected identifier or '('
+LUAI_FUNC int luaO_int2fb (unsigned int x);
+          ^
+./lua5.1/lobject.h:371:1: error: unknown type name 'LUAI_FUNC'
+LUAI_FUNC int luaO_fb2int (int x);
+^
+./lua5.1/lobject.h:371:11: error: expected identifier or '('
+LUAI_FUNC int luaO_fb2int (int x);
+          ^
+./lua5.1/lobject.h:372:1: error: unknown type name 'LUAI_FUNC'
+LUAI_FUNC int luaO_rawequalObj (const TValue *t1, const TValue *t2);
+^
+./lua5.1/lobject.h:372:11: error: expected identifier or '('
+LUAI_FUNC int luaO_rawequalObj (const TValue *t1, const TValue *t2);
+          ^
+./lua5.1/lobject.h:373:1: error: unknown type name 'LUAI_FUNC'
+LUAI_FUNC int luaO_str2d (const char *s, lua_Number *result);
+^
+./lua5.1/lobject.h:373:11: error: expected identifier or '('
+LUAI_FUNC int luaO_str2d (const char *s, lua_Number *result);
+          ^
+./lua5.1/lobject.h:374:1: error: unknown type name 'LUAI_FUNC'
+LUAI_FUNC const char *luaO_pushvfstring (lua_State *L, const char *fmt,
+^
+./lua5.1/lobject.h:374:11: error: expected identifier or '('
+LUAI_FUNC const char *luaO_pushvfstring (lua_State *L, const char *fmt,
+          ^
+./lua5.1/lobject.h:376:1: error: unknown type name 'LUAI_FUNC'
+LUAI_FUNC const char *luaO_pushfstring (lua_State *L, const char *fmt, ...);
+^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+
+Error: Build error: Failed compiling object getsize_multi.o

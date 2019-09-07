@@ -1,0 +1,22 @@
+Archive:  luafft-1.1.zip
+   creating: luafft-1.1/
+  inflating: luafft-1.1/CHANGELOG    
+   creating: luafft-1.1/docs/
+   creating: luafft-1.1/docs/files/
+  inflating: luafft-1.1/docs/files/luafft.html  
+  inflating: luafft-1.1/docs/index.html  
+  inflating: luafft-1.1/docs/luadoc.css  
+   creating: luafft-1.1/examples/
+  inflating: luafft-1.1/examples/example1.lua  
+  inflating: luafft-1.1/README       
+   creating: luafft-1.1/rockspec/
+  inflating: luafft-1.1/rockspec/luafft-1.0-1.rockspec  
+  inflating: luafft-1.1/rockspec/luafft-1.1-1.rockspec  
+   creating: luafft-1.1/src/
+  inflating: luafft-1.1/src/complex.lua  
+  inflating: luafft-1.1/src/luafft.lua  
+Installing https://rocks.moonscript.org/luafft-1.1-1.src.rock...
+Using https://rocks.moonscript.org/luafft-1.1-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+luafft 1.1-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

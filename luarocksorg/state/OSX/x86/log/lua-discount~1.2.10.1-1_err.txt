@@ -1,0 +1,32 @@
+Warning: skipping dependency checks.
+markdown.c:151:14: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+    if ( ret = bsearch(&key,blocktags,SZTAGS,sizeof key, (stfu)casort))
+         ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+markdown.c:151:14: note: place parentheses around the assignment to silence this warning
+    if ( ret = bsearch(&key,blocktags,SZTAGS,sizeof key, (stfu)casort))
+             ^
+         (                                                            )
+markdown.c:151:14: note: use '==' to turn this assignment into an equality comparison
+    if ( ret = bsearch(&key,blocktags,SZTAGS,sizeof key, (stfu)casort))
+             ^
+             ==
+markdown.c:623:12: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if ( para = (q != text) ) {
+             ~~~~~^~~~~~~~~~~~~
+markdown.c:623:12: note: place parentheses around the assignment to silence this warning
+        if ( para = (q != text) ) {
+                  ^
+             (                 )
+markdown.c:623:12: note: use '==' to turn this assignment into an equality comparison
+        if ( para = (q != text) ) {
+                  ^
+                  ==
+2 warnings generated.
+ldiscount.c:110:20: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  doc = mkd_string(str, len, MKD_TABSTOP|MKD_NOHEADER);
+                   ^~~
+./markdown.h:108:34: note: passing argument to parameter here
+extern Document *mkd_string(char*,int, int);
+                                 ^
+1 warning generated.
+No existing manifest. Attempting to rebuild...

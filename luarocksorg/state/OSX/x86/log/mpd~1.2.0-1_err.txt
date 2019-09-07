@@ -1,0 +1,16 @@
+Warning: skipping dependency checks.
+Cloning into 'lua-mpd'...
+Note: checking out '50cb8e2742b63dc0708f2da60d4ea70ca70b50d9'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+No existing manifest. Attempting to rebuild...
+Missing dependency for mpd 1.2.0-1: luasocket 
+Missing dependency for mpd 1.2.0-1: luasocket 

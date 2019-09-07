@@ -1,0 +1,9 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+luaphonenumber.cpp:5:41: fatal error: phonenumbers/phonenumber.pb.h: No such file or directory
+ #include "phonenumbers/phonenumber.pb.h"
+                                         ^
+compilation terminated.
+make: *** [luaphonenumber] Error 1
+
+Error: Build error: Failed building.

@@ -1,0 +1,14 @@
+Warning: skipping dependency checks.
+Cloning into 'rocksolver'...
+Note: checking out '9f4e3d089a5d41a37f788c1c70f9c77dc30f2243'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+No existing manifest. Attempting to rebuild...

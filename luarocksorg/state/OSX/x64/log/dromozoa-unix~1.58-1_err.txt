@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_dromozoa-unix-1.58-1-6476/dromozoa-unix-1.58-1.rockspec: Unknown field test

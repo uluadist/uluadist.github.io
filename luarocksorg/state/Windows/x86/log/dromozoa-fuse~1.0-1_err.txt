@@ -1,0 +1,2 @@
+
+Error: Rockspec format 3.0 is not supported, please upgrade LuaRocks.

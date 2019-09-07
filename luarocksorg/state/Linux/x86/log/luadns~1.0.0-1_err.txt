@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+Warning: unmatched variable LUA_DIR
+dns.c:10:17: fatal error: lua.h: No such file or directory
+ #include "lua.h"
+                 ^
+compilation terminated.
+make: *** [dns.o] Error 1
+
+Error: Build error: Failed building.

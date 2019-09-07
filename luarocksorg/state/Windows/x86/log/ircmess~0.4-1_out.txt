@@ -1,0 +1,10 @@
+ircmess.c
+ircmess.c(12): warning C4090: 'initializing': different 'const' qualifiers
+irc.c
+src/irc.c(49): error C2057: expected constant expression
+src/irc.c(49): error C2466: cannot allocate an array of constant size 0
+src/irc.c(49): error C2133: 'argv': unknown size
+Installing https://luarocks.org/ircmess-0.4-1.src.rock...
+Using https://luarocks.org/ircmess-0.4-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Foircmess.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ ircmess.c -Iinclude
+cl /nologo /MD /O2 -c -Fosrc/irc.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/irc.c -Iinclude

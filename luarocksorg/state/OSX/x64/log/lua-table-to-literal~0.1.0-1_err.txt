@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Directory lua-table-to-literal-string not found inside archive lua-table-to-literal-string.git

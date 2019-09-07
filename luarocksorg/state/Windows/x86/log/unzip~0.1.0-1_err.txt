@@ -1,0 +1,4 @@
+Cloning into 'lunzip'...
+Warning: skipping dependency checks.
+
+Error: Build error: Failed compiling object lunzip.obj

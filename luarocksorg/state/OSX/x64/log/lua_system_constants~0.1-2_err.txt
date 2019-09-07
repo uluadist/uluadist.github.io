@@ -1,0 +1,16 @@
+Warning: skipping dependency checks.
+/Users/sp/Dropbox/OSX/x64/luajit/bin/lua: test/lua_system_constants_test.lua:1: module 'lua_system_constants' not found:
+	no field package.preload['lua_system_constants']
+	no file '/Users/sp/Dropbox/Prj/scilua/head/lua_system_constants/init.lua'
+	no file '/Users/sp/Dropbox/Prj/scilua/head/lua_system_constants.lua'
+	no file '/Users/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/OSX/x64/lua_system_constants/init.lua'
+	no file '/Users/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/OSX/x64/lua_system_constants.lua'
+	no file '/Users/sp/Dropbox/Prj/scilua/head/lua_system_constants.so'
+	no file '/Users/sp/Dropbox/Prj/scilua/head/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	test/lua_system_constants_test.lua:1: in main chunk
+	[C]: at 0x0100001540
+make: *** [lua_system_constants.so] Error 1
+
+Error: Build error: Failed building.

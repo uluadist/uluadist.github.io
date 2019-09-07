@@ -1,0 +1,6 @@
+Initialized empty Git repository in /tmp/luarocks_inifile-1.0-1-3185/love-misc-libs/.git/
+Installing https://rocks.moonscript.org/inifile-1.0-1.rockspec...
+Using https://rocks.moonscript.org/inifile-1.0-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+inifile 1.0-1 is now built and installed in /home/sp/luarockstree (license: Simplified BSD license)
+

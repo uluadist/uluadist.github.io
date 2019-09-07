@@ -1,0 +1,2 @@
+
+Error: C:\Users\sp\AppData\Local\Temp/luarocks_dromozoa-vecmath-1.7-1-6243/dromozoa-vecmath-1.7-1.rockspec: Unknown field test

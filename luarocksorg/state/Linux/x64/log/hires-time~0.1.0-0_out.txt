@@ -1,0 +1,8 @@
+Installing https://luarocks.org/hires-time-0.1.0-0.rockspec...
+Using https://luarocks.org/hires-time-0.1.0-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_hires-time-0.1.0-0-2718/lua-hires-time/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c src/hires-time.c -o src/hires-time.o
+gcc -shared -o hires_time.so -L/home/sp/Dropbox/Linux/x64/luajit//lib src/hires-time.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+hires-time 0.1.0-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

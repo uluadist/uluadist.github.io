@@ -1,0 +1,9 @@
+lsx_sha256.c
+lsx_twofish.c
+lsx_bzero.c
+src/lsx_bzero.c(20): error C2065: 'asm': undeclared identifier
+Installing https://luarocks.org/lualsx-1.0-1.src.rock...
+Using https://luarocks.org/lualsx-1.0-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/lsx_sha256.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/lsx_sha256.c -Iinclude
+cl /nologo /MD /O2 -c -Fosrc/lsx_twofish.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/lsx_twofish.c -Iinclude
+cl /nologo /MD /O2 -c -Fosrc/lsx_bzero.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/lsx_bzero.c -Iinclude

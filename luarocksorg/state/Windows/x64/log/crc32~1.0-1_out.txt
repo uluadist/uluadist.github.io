@@ -1,0 +1,17 @@
+crc32.c
+wrap.c
+wrap.c(54): error C2061: syntax error: identifier 'lua_Unsigned'
+wrap.c(54): error C2059: syntax error: ';'
+wrap.c(72): error C2061: syntax error: identifier 'LUAI_INT32'
+wrap.c(72): error C2059: syntax error: '}'
+wrap.c(110): error C2146: syntax error: missing ')' before identifier 'u'
+wrap.c(110): error C2081: 'lua_Unsigned': name in formal parameter list illegal
+wrap.c(110): error C2061: syntax error: identifier 'u'
+wrap.c(110): error C2059: syntax error: ';'
+wrap.c(110): error C2059: syntax error: ')'
+wrap.c(110): error C2449: found '{' at file scope (missing function header?)
+wrap.c(114): error C2059: syntax error: '}'
+Installing https://luarocks.org/crc32-1.0-1.src.rock...
+Using https://luarocks.org/crc32-1.0-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Focrc32.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ crc32.c
+cl /nologo /MD /O2 -c -Fowrap.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ wrap.c

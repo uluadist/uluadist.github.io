@@ -1,0 +1,5 @@
+portutils.c
+portutils.c(12): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+Installing https://luarocks.org/portutils-0.1-7.rockspec...
+Using https://luarocks.org/portutils-0.1-7.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Foportutils.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ portutils.c

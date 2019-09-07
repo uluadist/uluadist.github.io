@@ -1,0 +1,12 @@
+lua_bufflib.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library bufflib.lib and object bufflib.exp
+Installing https://luarocks.org/lua_bufflib-0.2.1-1.src.rock...
+Using https://luarocks.org/lua_bufflib-0.2.1-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folua_bufflib.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ lua_bufflib.c
+link -dll -def:bufflib.def -out:bufflib.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib lua_bufflib.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+lua_bufflib 0.2.1-1 is now built and installed in C:\ste\x86\luarockstree (license: MIT/X11)
+

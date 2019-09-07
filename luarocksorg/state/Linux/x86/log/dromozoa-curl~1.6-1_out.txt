@@ -1,0 +1,3 @@
+g++ -Ibind -I/home/sp/Dropbox/Linux/x86/luajit//include -Wall -W -O2 -fPIC -c easy.cpp
+Installing https://luarocks.org/dromozoa-curl-1.6-1.src.rock...
+Using https://luarocks.org/dromozoa-curl-1.6-1.src.rock... switching to 'build' mode

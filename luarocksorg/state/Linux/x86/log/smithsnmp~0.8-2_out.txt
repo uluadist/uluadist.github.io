@@ -1,0 +1,28 @@
+Installing https://luarocks.org/smithsnmp-0.8-2.src.rock...
+Using https://luarocks.org/smithsnmp-0.8-2.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c 3rd/crypto/openssl_aes.c -o 3rd/crypto/openssl_aes.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c 3rd/crypto/openssl_aes_cfb.c -o 3rd/crypto/openssl_aes_cfb.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c 3rd/crypto/openssl_aes_core.c -o 3rd/crypto/openssl_aes_core.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c 3rd/crypto/openssl_cfb128.c -o 3rd/crypto/openssl_cfb128.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c 3rd/crypto/openssl_md5.c -o 3rd/crypto/openssl_md5.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c 3rd/crypto/openssl_sha.c -o 3rd/crypto/openssl_sha.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/agentx.c -o core/agentx.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/agentx_decoder.c -o core/agentx_decoder.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/agentx_encoder.c -o core/agentx_encoder.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/agentx_msg_in.c -o core/agentx_msg_in.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/agentx_msg_out.c -o core/agentx_msg_out.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/agentx_msg_proc.c -o core/agentx_msg_proc.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/agentx_tcp_transport.c -o core/agentx_tcp_transport.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/event_loop.c -o core/event_loop.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/mib_tree.c -o core/mib_tree.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/mib_view.c -o core/mib_view.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/smithsnmp.c -o core/smithsnmp.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/snmp.c -o core/snmp.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/snmp_decoder.c -o core/snmp_decoder.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/snmp_encoder.c -o core/snmp_encoder.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/snmp_msg_in.c -o core/snmp_msg_in.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/snmp_msg_out.c -o core/snmp_msg_out.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/snmp_msg_proc.c -o core/snmp_msg_proc.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/snmp_trap.c -o core/snmp_trap.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c core/snmp_udp_transport.c -o core/snmp_udp_transport.o -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX
+gcc -shared -o smithsnmp/core.so -L/home/sp/Dropbox/Linux/x86/luajit//lib 3rd/crypto/openssl_aes.o 3rd/crypto/openssl_aes_cfb.o 3rd/crypto/openssl_aes_core.o 3rd/crypto/openssl_cfb128.o 3rd/crypto/openssl_md5.o 3rd/crypto/openssl_sha.o core/agentx.o core/agentx_decoder.o core/agentx_encoder.o core/agentx_msg_in.o core/agentx_msg_out.o core/agentx_msg_proc.o core/agentx_tcp_transport.o core/event_loop.o core/mib_tree.o core/mib_view.o core/smithsnmp.o core/snmp.o core/snmp_decoder.o core/snmp_encoder.o core/snmp_msg_in.o core/snmp_msg_out.o core/snmp_msg_proc.o core/snmp_trap.o core/snmp_udp_transport.o -lm -ldl -llua5.1

@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for fusionscript 0.2.1-1: lpeg >= 1.0
+Missing dependency for fusionscript 0.2.1-1: luafilesystem 
+Missing dependency for fusionscript 0.2.1-1: lpeg >= 1.0
+Missing dependency for fusionscript 0.2.1-1: luafilesystem 

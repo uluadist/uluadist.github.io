@@ -1,0 +1,24 @@
+Installing https://luarocks.org/bencode-2.2.0-1.rockspec...
+Using https://luarocks.org/bencode-2.2.0-1.rockspec... switching to 'build' mode
+Archive:  lua-bencode-2.2.0.zip
+   creating: lua-bencode-2.2.0/
+  inflating: lua-bencode-2.2.0/bencode-push.lua  
+  inflating: lua-bencode-2.2.0/bencode.lua  
+  inflating: lua-bencode-2.2.0/COPYING  
+   creating: lua-bencode-2.2.0/doc/
+  inflating: lua-bencode-2.2.0/doc/bencode.markdown  
+   creating: lua-bencode-2.2.0/examples/
+  inflating: lua-bencode-2.2.0/examples/tracker.cgi  
+  inflating: lua-bencode-2.2.0/examples/dumptorrent.lua  
+  inflating: lua-bencode-2.2.0/examples/push.lua  
+  inflating: lua-bencode-2.2.0/README.markdown  
+  inflating: lua-bencode-2.2.0/RELNOTES  
+   creating: lua-bencode-2.2.0/tests/
+  inflating: lua-bencode-2.2.0/tests/NOTE  
+  inflating: lua-bencode-2.2.0/tests/compare.lua  
+  inflating: lua-bencode-2.2.0/tests/neg_int.lua  
+  inflating: lua-bencode-2.2.0/tests/runtests.lua  
+  inflating: lua-bencode-2.2.0/tests/short_string.lua  
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+bencode 2.2.0-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

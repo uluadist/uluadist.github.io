@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: File not found: git@github.com:pantsel/kong-middleman-plugin.git

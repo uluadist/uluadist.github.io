@@ -1,0 +1,73 @@
+Archive:  v0.1.5.zip
+e33999a890c8bfdb0c1f753820e4261dabb67faa
+   creating: lua-llthreads2-0.1.5/
+  inflating: lua-llthreads2-0.1.5/.gitignore  
+  inflating: lua-llthreads2-0.1.5/.travis.yml  
+  inflating: lua-llthreads2-0.1.5/CMakeLists.txt  
+  inflating: lua-llthreads2-0.1.5/COPYRIGHT.llthreads  
+  inflating: lua-llthreads2-0.1.5/LICENSE  
+  inflating: lua-llthreads2-0.1.5/README.md  
+  inflating: lua-llthreads2-0.1.5/appveyor.yml  
+   creating: lua-llthreads2-0.1.5/cmake/
+  inflating: lua-llthreads2-0.1.5/cmake/FindLua.cmake  
+  inflating: lua-llthreads2-0.1.5/cmake/dist.cmake  
+  inflating: lua-llthreads2-0.1.5/cmake/lua.cmake  
+  inflating: lua-llthreads2-0.1.5/dist.info  
+  inflating: lua-llthreads2-0.1.5/lakeconfig.lua  
+  inflating: lua-llthreads2-0.1.5/lakefile  
+   creating: lua-llthreads2-0.1.5/msvc/
+  inflating: lua-llthreads2-0.1.5/msvc/llthreads.sln  
+  inflating: lua-llthreads2-0.1.5/msvc/llthreads.vcproj  
+   creating: lua-llthreads2-0.1.5/rockspecs/
+  inflating: lua-llthreads2-0.1.5/rockspecs/lua-llthreads2-0.1.0-1.rockspec  
+  inflating: lua-llthreads2-0.1.5/rockspecs/lua-llthreads2-0.1.1-1.rockspec  
+  inflating: lua-llthreads2-0.1.5/rockspecs/lua-llthreads2-0.1.2-1.rockspec  
+  inflating: lua-llthreads2-0.1.5/rockspecs/lua-llthreads2-0.1.3-1.rockspec  
+  inflating: lua-llthreads2-0.1.5/rockspecs/lua-llthreads2-0.1.4-1.rockspec  
+  inflating: lua-llthreads2-0.1.5/rockspecs/lua-llthreads2-0.1.5-1.rockspec  
+  inflating: lua-llthreads2-0.1.5/rockspecs/lua-llthreads2-compat-0.1.0-1.rockspec  
+  inflating: lua-llthreads2-0.1.5/rockspecs/lua-llthreads2-compat-0.1.1-1.rockspec  
+  inflating: lua-llthreads2-0.1.5/rockspecs/lua-llthreads2-compat-0.1.2-1.rockspec  
+  inflating: lua-llthreads2-0.1.5/rockspecs/lua-llthreads2-compat-0.1.3-1.rockspec  
+  inflating: lua-llthreads2-0.1.5/rockspecs/lua-llthreads2-compat-0.1.4-1.rockspec  
+  inflating: lua-llthreads2-0.1.5/rockspecs/lua-llthreads2-compat-0.1.5-1.rockspec  
+  inflating: lua-llthreads2-0.1.5/rockspecs/lua-llthreads2-compat-scm-0.rockspec  
+  inflating: lua-llthreads2-0.1.5/rockspecs/lua-llthreads2-scm-0.rockspec  
+   creating: lua-llthreads2-0.1.5/src/
+  inflating: lua-llthreads2-0.1.5/src/copy.inc  
+  inflating: lua-llthreads2-0.1.5/src/l52util.c  
+  inflating: lua-llthreads2-0.1.5/src/l52util.h  
+  inflating: lua-llthreads2-0.1.5/src/llthread.c  
+   creating: lua-llthreads2-0.1.5/src/lua/
+   creating: lua-llthreads2-0.1.5/src/lua/llthreads2/
+  inflating: lua-llthreads2-0.1.5/src/lua/llthreads2/ex.lua  
+  inflating: lua-llthreads2-0.1.5/src/traceback.inc  
+   creating: lua-llthreads2-0.1.5/test/
+  inflating: lua-llthreads2-0.1.5/test/test_alive.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_integer.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_join_detach.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_join_error.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_join_timeout.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_llthreads.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_load_llthreads2.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_logger.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_pass_cfunction.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_register_ffi.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_register_llthreads.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_table_copy.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_threads.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_threads_attr.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_threads_ex.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_threads_ex_arg.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_threads_ex_opt.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_threads_ex_opt_2.lua  
+  inflating: lua-llthreads2-0.1.5/test/test_version.lua  
+  inflating: lua-llthreads2-0.1.5/test/utils.lua  
+Installing https://luarocks.org/lua-llthreads2-compat-0.1.5-1.src.rock...
+Using https://luarocks.org/lua-llthreads2-compat-0.1.5-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/l52util.c -o src/l52util.o -DLLTHREAD_MODULE_NAME=llthreads
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/llthread.c -o src/llthread.o -DLLTHREAD_MODULE_NAME=llthreads
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o llthreads.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/l52util.o src/llthread.o -lpthread
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lua-llthreads2-compat 0.1.5-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

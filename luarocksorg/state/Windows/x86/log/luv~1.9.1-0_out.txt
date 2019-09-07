@@ -1,0 +1,26 @@
+-- Building for: Visual Studio 14 2015
+-- The C compiler identification is MSVC 19.0.23026.0
+-- The ASM compiler identification is MSVC
+-- Found assembler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+-- Check for working C compiler using: Visual Studio 14 2015
+-- Check for working C compiler using: Visual Studio 14 2015 -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Warning: Did not find file Compiler/MSVC-ASM
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of void*
+-- Check size of void* - done
+-- Lua: using information from luarocks
+-- LUA_LIBDIR: Z:/sp/Dropbox/Windows/x86/luajit/src
+-- LUA_INCDIR: Z:/sp/Dropbox/Windows/x86/luajit/src
+-- LUA: luajit.exe
+-- Lua library: LUA_LIBRARIES-NOTFOUND
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/sp/AppData/Local/Temp/luarocks_luv-1.9.1-0-3284/luv-1.9.1-0/build.luarocks/CMakeFiles/CMakeOutput.log".
+Installing https://luarocks.org/luv-1.9.1-0.src.rock...
+Using https://luarocks.org/luv-1.9.1-0.src.rock... switching to 'build' mode

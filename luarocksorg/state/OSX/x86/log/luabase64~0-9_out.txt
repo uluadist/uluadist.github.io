@@ -1,0 +1,9 @@
+Installing https://luarocks.org/luabase64-0-9.src.rock...
+Using https://luarocks.org/luabase64-0-9.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/LuaBase64.c -o src/LuaBase64.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/b64enc.c -o src/b64enc.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/b64dec.c -o src/b64dec.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o LuaBase64/c.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/LuaBase64.o src/b64enc.o src/b64dec.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+luabase64 0-9 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

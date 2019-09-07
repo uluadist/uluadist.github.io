@@ -1,0 +1,8 @@
+Installing https://luarocks.org/bcrypt-ffi-1.0.0-0.src.rock...
+Using https://luarocks.org/bcrypt-ffi-1.0.0-0.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/bcrypt.c -o src/bcrypt.o -Isrc/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/blowfish.c -o src/blowfish.o -Isrc/
+gcc -shared -o libluabcrypt.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/bcrypt.o src/blowfish.o -lcrypto
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+bcrypt-ffi 1.0.0-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

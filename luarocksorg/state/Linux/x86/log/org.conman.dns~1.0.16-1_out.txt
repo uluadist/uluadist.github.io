@@ -1,0 +1,8 @@
+gcc -std=c99 -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -DVERSION='"v1.0.16"' -fPIC -c -o src/luadns.oo src/luadns.c
+gcc -std=c99 -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -DVERSION='"v1.0.16"' -fPIC -c -o src/codec.oo src/codec.c
+gcc -std=c99 -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -DVERSION='"v1.0.16"' -fPIC -c -o src/mappings.oo src/mappings.c
+gcc -std=c99 -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -DVERSION='"v1.0.16"' -fPIC -c -o src/netsimple.oo src/netsimple.c
+gcc -std=c99 -shared -o src/dns.so src/luadns.oo src/codec.oo src/mappings.oo src/netsimple.oo
+gcc -g -DVERSION='"v1.0.16"' -fPIC -c -o src/luadns.oo src/luadns.c
+Installing https://luarocks.org/org.conman.dns-1.0.16-1.src.rock...
+Using https://luarocks.org/org.conman.dns-1.0.16-1.src.rock... switching to 'build' mode

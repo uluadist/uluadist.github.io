@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for nvim-client 0.0.1-26: coxpcall 
+Missing dependency for nvim-client 0.0.1-26: luv 
+Missing dependency for nvim-client 0.0.1-26: mpack 
+Missing dependency for nvim-client 0.0.1-26: coxpcall 
+Missing dependency for nvim-client 0.0.1-26: luv 
+Missing dependency for nvim-client 0.0.1-26: mpack 

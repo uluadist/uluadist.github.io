@@ -1,0 +1,7 @@
+Installing https://luarocks.org/lua-protobuf-0.2.0-1.src.rock...
+Using https://luarocks.org/lua-protobuf-0.2.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c pb.c -o pb.o
+gcc -shared -o pb.so -L/home/sp/Dropbox/Linux/x86/luajit//lib pb.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-protobuf 0.2.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

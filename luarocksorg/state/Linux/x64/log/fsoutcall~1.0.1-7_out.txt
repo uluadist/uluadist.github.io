@@ -1,0 +1,6 @@
+Installing https://luarocks.org/fsoutcall-1.0.1-7.rockspec...
+Using https://luarocks.org/fsoutcall-1.0.1-7.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_fsoutcall-1.0.1-7-5040/fsoutcall/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+fsoutcall 1.0.1-7 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

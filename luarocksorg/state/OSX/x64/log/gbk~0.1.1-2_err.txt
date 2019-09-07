@@ -1,0 +1,19 @@
+Warning: skipping dependency checks.
+lpinyin.c:355:45: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        printf("%d:%d:%d: (%08X) - %08X\n", b, mid, t, curkey, key);
+                ~~                          ^
+                %zu
+lpinyin.c:355:48: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        printf("%d:%d:%d: (%08X) - %08X\n", b, mid, t, curkey, key);
+                   ~~                          ^~~
+                   %zu
+lpinyin.c:355:53: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+        printf("%d:%d:%d: (%08X) - %08X\n", b, mid, t, curkey, key);
+                      ~~                            ^
+                      %zu
+3 warnings generated.
+lgbk.c:216:14: warning: self-comparison always evaluates to false [-Wtautological-compare]
+    if (pose > pose) return 0;
+             ^
+1 warning generated.
+No existing manifest. Attempting to rebuild...

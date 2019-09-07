@@ -1,0 +1,13 @@
+crc16.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+crc16.obj : warning LNK4197: export 'luaopen_crc16' specified multiple times; using first specification
+   Creating library crc16.lib and object crc16.exp
+Installing https://luarocks.org/luacrc16-1.0-1.rockspec...
+Using https://luarocks.org/luacrc16-1.0-1.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Focrc16.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ crc16.c
+link -dll -def:crc16.def -out:crc16.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib crc16.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+luacrc16 1.0-1 is now built and installed in C:\ste\x64\luarockstree (license: MIT/X11)
+

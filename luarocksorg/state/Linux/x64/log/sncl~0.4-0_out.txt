@@ -1,0 +1,3 @@
+Initialized empty Git repository in /tmp/luarocks_sncl-0.4-0-2792/sncl/.git/
+Installing https://luarocks.org/sncl-0.4-0.rockspec...
+Using https://luarocks.org/sncl-0.4-0.rockspec... switching to 'build' mode

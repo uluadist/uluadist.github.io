@@ -1,0 +1,15 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+/Users/sp/Dropbox/OSX/x86/luajit/bin/lua: ...uarocks_opencl-1.2.0-1-8/lua-opencl/test/../opencl/C.lua:1144: dlopen(libOpenCL.dylib, 5): image not found
+stack traceback:
+	[C]: in function 'load'
+	...uarocks_opencl-1.2.0-1-8/lua-opencl/test/../opencl/C.lua:1144: in main chunk
+	[C]: in function 'require'
+	...ocks_opencl-1.2.0-1-8/lua-opencl/test/../opencl/init.lua:7: in main chunk
+	[C]: in function 'require'
+	platform.lua:11: in main chunk
+	[C]: at 0x00002030
+make[1]: *** [platform] Error 1
+make: *** [test] Error 2
+
+Error: Build error: Failed building.

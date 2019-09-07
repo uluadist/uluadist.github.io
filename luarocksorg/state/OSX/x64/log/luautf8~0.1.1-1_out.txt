@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/luautf8-0.1.1-1.src.rock...
+Using https://rocks.moonscript.org/luautf8-0.1.1-1.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lutf8lib.c -o lutf8lib.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o lua-utf8.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lutf8lib.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+luautf8 0.1.1-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

@@ -1,0 +1,25 @@
+Archive:  0.1.2.zip
+eba6350c01c9ae048a1f271676d777cfc4514508
+   creating: lua-nanovg-0.1.2/
+  inflating: lua-nanovg-0.1.2/.gitignore  
+  inflating: lua-nanovg-0.1.2/.gitmodules  
+  inflating: lua-nanovg-0.1.2/Makefile  
+  inflating: lua-nanovg-0.1.2/README.md  
+  inflating: lua-nanovg-0.1.2/build_win32.bat  
+  inflating: lua-nanovg-0.1.2/canvas.lua  
+  inflating: lua-nanovg-0.1.2/gl_2_0_core.h  
+  inflating: lua-nanovg-0.1.2/gles2.h  
+   creating: lua-nanovg-0.1.2/glfw/
+  inflating: lua-nanovg-0.1.2/lbind.h  
+  inflating: lua-nanovg-0.1.2/lua-glfw.c  
+  inflating: lua-nanovg-0.1.2/lua-nanovg.c  
+   creating: lua-nanovg-0.1.2/nanovg/
+  inflating: lua-nanovg-0.1.2/nanovg.def  
+   creating: lua-nanovg-0.1.2/rockspecs/
+  inflating: lua-nanovg-0.1.2/rockspecs/glfw-0.1.1-1.rockspec  
+  inflating: lua-nanovg-0.1.2/rockspecs/glfw-scm-1.rockspec  
+  inflating: lua-nanovg-0.1.2/rockspecs/nanovg-0.1.1-1.rockspec  
+  inflating: lua-nanovg-0.1.2/rockspecs/nanovg-scm-1.rockspec  
+  inflating: lua-nanovg-0.1.2/test.lua  
+Installing https://luarocks.org/glfw-0.1.2-0.src.rock...
+Using https://luarocks.org/glfw-0.1.2-0.src.rock... switching to 'build' mode

@@ -1,0 +1,4 @@
+Installing https://rocks.moonscript.org/crc32-1.0-1.src.rock...
+Using https://rocks.moonscript.org/crc32-1.0-1.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c crc32.c -o crc32.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c wrap.c -o wrap.o

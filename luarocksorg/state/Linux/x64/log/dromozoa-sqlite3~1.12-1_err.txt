@@ -1,0 +1,9 @@
+Warning: skipping dependency checks.
+In file included from context.cpp:18:0:
+common.hpp:21:21: fatal error: sqlite3.h: No such file or directory
+ #include <sqlite3.h>
+                     ^
+compilation terminated.
+make: *** [context.o] Error 1
+
+Error: Build error: Failed building.

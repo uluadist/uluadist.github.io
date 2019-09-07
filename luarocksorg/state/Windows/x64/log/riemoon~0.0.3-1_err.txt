@@ -1,0 +1,6 @@
+Cloning into 'riemoon'...
+'autoreconf' is not recognized as an internal or external command,
+operable program or batch file.
+Warning: skipping dependency checks.
+
+Error: Build error: Failed building.

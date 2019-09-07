@@ -1,0 +1,15 @@
+slnunico.c
+slnudata.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library unicode.lib and object unicode.exp
+slnunico.obj : error LNK2019: unresolved external symbol luaI_openlib referenced in function luaopen_unicode
+unicode.dll : fatal error LNK1120: 1 unresolved externals
+Installing https://luarocks.org/slnunicode-1.1-2.src.rock...
+Using https://luarocks.org/slnunicode-1.1-2.src.rock... switching to 'build' mode
+Applying patch fix.patch...
+Do not use 'module' as a build type. Use 'builtin' instead.
+cl /nologo /MD /O2 -c -Foslnunico.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ slnunico.c
+cl /nologo /MD /O2 -c -Foslnudata.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ slnudata.c
+link -dll -def:unicode.def -out:unicode.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib slnunico.obj slnudata.obj

@@ -1,0 +1,11 @@
+Warning: skipping dependency checks.
+In file included from /tmp/luarocks_luv-1.22.0-0-6775/luv-1.22.0-0/src/luv.c:18:
+/tmp/luarocks_luv-1.22.0-0-6775/luv-1.22.0-0/src/luv.h:54:10: fatal error: 'c-api/compat-5.3.h' file not found
+#include "c-api/compat-5.3.h"
+         ^
+1 error generated.
+make[2]: *** [CMakeFiles/luv.dir/src/luv.c.o] Error 1
+make[1]: *** [CMakeFiles/luv.dir/all] Error 2
+make: *** [all] Error 2
+
+Error: Build error: Failed building.

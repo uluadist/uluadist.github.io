@@ -1,0 +1,47 @@
+Warning: skipping dependency checks.
+In file included from bind/dromozoa/bind.hpp:21,
+                 from common.hpp:42,
+                 from easy.cpp:18:
+bind/dromozoa/bind/luaX.hpp: In constructor ‘dromozoa::bind::luaX_reference<1u>::luaX_reference()’:
+bind/dromozoa/bind/luaX.hpp:933: error: class ‘dromozoa::bind::luaX_reference<1u>’ does not have any field named ‘luaX_reference_impl’
+bind/dromozoa/bind/luaX.hpp:933: error: no matching function for call to ‘dromozoa::bind::luaX_reference_impl<1u>::luaX_reference_impl()’
+bind/dromozoa/bind/luaX.hpp:912: note: candidates are: dromozoa::bind::luaX_reference_impl<T>::luaX_reference_impl(lua_State*) [with unsigned int T = 1u]
+bind/dromozoa/bind/luaX.hpp:870: note:                 dromozoa::bind::luaX_reference_impl<1u>::luaX_reference_impl(const dromozoa::bind::luaX_reference_impl<1u>&)
+bind/dromozoa/bind/luaX.hpp: In constructor ‘dromozoa::bind::luaX_reference<1u>::luaX_reference(lua_State*, int)’:
+bind/dromozoa/bind/luaX.hpp:935: error: class ‘dromozoa::bind::luaX_reference<1u>’ does not have any field named ‘luaX_reference_impl’
+bind/dromozoa/bind/luaX.hpp:935: error: no matching function for call to ‘dromozoa::bind::luaX_reference_impl<1u>::luaX_reference_impl()’
+bind/dromozoa/bind/luaX.hpp:912: note: candidates are: dromozoa::bind::luaX_reference_impl<T>::luaX_reference_impl(lua_State*) [with unsigned int T = 1u]
+bind/dromozoa/bind/luaX.hpp:870: note:                 dromozoa::bind::luaX_reference_impl<1u>::luaX_reference_impl(const dromozoa::bind::luaX_reference_impl<1u>&)
+bind/dromozoa/bind/luaX.hpp: In constructor ‘dromozoa::bind::luaX_reference<2u>::luaX_reference()’:
+bind/dromozoa/bind/luaX.hpp:943: error: class ‘dromozoa::bind::luaX_reference<2u>’ does not have any field named ‘luaX_reference_impl’
+bind/dromozoa/bind/luaX.hpp:943: error: no matching function for call to ‘dromozoa::bind::luaX_reference_impl<2u>::luaX_reference_impl()’
+bind/dromozoa/bind/luaX.hpp:912: note: candidates are: dromozoa::bind::luaX_reference_impl<T>::luaX_reference_impl(lua_State*) [with unsigned int T = 2u]
+bind/dromozoa/bind/luaX.hpp:870: note:                 dromozoa::bind::luaX_reference_impl<2u>::luaX_reference_impl(const dromozoa::bind::luaX_reference_impl<2u>&)
+bind/dromozoa/bind/luaX.hpp: In constructor ‘dromozoa::bind::luaX_reference<2u>::luaX_reference(lua_State*, int, int)’:
+bind/dromozoa/bind/luaX.hpp:945: error: class ‘dromozoa::bind::luaX_reference<2u>’ does not have any field named ‘luaX_reference_impl’
+bind/dromozoa/bind/luaX.hpp:945: error: no matching function for call to ‘dromozoa::bind::luaX_reference_impl<2u>::luaX_reference_impl()’
+bind/dromozoa/bind/luaX.hpp:912: note: candidates are: dromozoa::bind::luaX_reference_impl<T>::luaX_reference_impl(lua_State*) [with unsigned int T = 2u]
+bind/dromozoa/bind/luaX.hpp:870: note:                 dromozoa::bind::luaX_reference_impl<2u>::luaX_reference_impl(const dromozoa::bind::luaX_reference_impl<2u>&)
+bind/dromozoa/bind/luaX.hpp: In constructor ‘dromozoa::bind::luaX_reference<3u>::luaX_reference()’:
+bind/dromozoa/bind/luaX.hpp:954: error: class ‘dromozoa::bind::luaX_reference<3u>’ does not have any field named ‘luaX_reference_impl’
+bind/dromozoa/bind/luaX.hpp:954: error: no matching function for call to ‘dromozoa::bind::luaX_reference_impl<3u>::luaX_reference_impl()’
+bind/dromozoa/bind/luaX.hpp:912: note: candidates are: dromozoa::bind::luaX_reference_impl<T>::luaX_reference_impl(lua_State*) [with unsigned int T = 3u]
+bind/dromozoa/bind/luaX.hpp:870: note:                 dromozoa::bind::luaX_reference_impl<3u>::luaX_reference_impl(const dromozoa::bind::luaX_reference_impl<3u>&)
+bind/dromozoa/bind/luaX.hpp: In constructor ‘dromozoa::bind::luaX_reference<3u>::luaX_reference(lua_State*, int, int, int)’:
+bind/dromozoa/bind/luaX.hpp:956: error: class ‘dromozoa::bind::luaX_reference<3u>’ does not have any field named ‘luaX_reference_impl’
+bind/dromozoa/bind/luaX.hpp:956: error: no matching function for call to ‘dromozoa::bind::luaX_reference_impl<3u>::luaX_reference_impl()’
+bind/dromozoa/bind/luaX.hpp:912: note: candidates are: dromozoa::bind::luaX_reference_impl<T>::luaX_reference_impl(lua_State*) [with unsigned int T = 3u]
+bind/dromozoa/bind/luaX.hpp:870: note:                 dromozoa::bind::luaX_reference_impl<3u>::luaX_reference_impl(const dromozoa::bind::luaX_reference_impl<3u>&)
+bind/dromozoa/bind/luaX.hpp: In constructor ‘dromozoa::bind::luaX_reference<4u>::luaX_reference()’:
+bind/dromozoa/bind/luaX.hpp:966: error: class ‘dromozoa::bind::luaX_reference<4u>’ does not have any field named ‘luaX_reference_impl’
+bind/dromozoa/bind/luaX.hpp:966: error: no matching function for call to ‘dromozoa::bind::luaX_reference_impl<4u>::luaX_reference_impl()’
+bind/dromozoa/bind/luaX.hpp:912: note: candidates are: dromozoa::bind::luaX_reference_impl<T>::luaX_reference_impl(lua_State*) [with unsigned int T = 4u]
+bind/dromozoa/bind/luaX.hpp:870: note:                 dromozoa::bind::luaX_reference_impl<4u>::luaX_reference_impl(const dromozoa::bind::luaX_reference_impl<4u>&)
+bind/dromozoa/bind/luaX.hpp: In constructor ‘dromozoa::bind::luaX_reference<4u>::luaX_reference(lua_State*, int, int, int, int)’:
+bind/dromozoa/bind/luaX.hpp:968: error: class ‘dromozoa::bind::luaX_reference<4u>’ does not have any field named ‘luaX_reference_impl’
+bind/dromozoa/bind/luaX.hpp:968: error: no matching function for call to ‘dromozoa::bind::luaX_reference_impl<4u>::luaX_reference_impl()’
+bind/dromozoa/bind/luaX.hpp:912: note: candidates are: dromozoa::bind::luaX_reference_impl<T>::luaX_reference_impl(lua_State*) [with unsigned int T = 4u]
+bind/dromozoa/bind/luaX.hpp:870: note:                 dromozoa::bind::luaX_reference_impl<4u>::luaX_reference_impl(const dromozoa::bind::luaX_reference_impl<4u>&)
+make: *** [easy.o] Error 1
+
+Error: Build error: Failed building.

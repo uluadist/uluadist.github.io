@@ -1,0 +1,6 @@
+Installing https://luarocks.org/obey-0.1.0-7.rockspec...
+Using https://luarocks.org/obey-0.1.0-7.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_obey-0.1.0-7-3839/obey/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+obey 0.1.0-7 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT <http://opensource.org/licenses/MIT>)
+

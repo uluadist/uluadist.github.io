@@ -1,0 +1,22 @@
+l52util.c
+luq.c
+luq_library_lock.c
+luq_map.c
+luq_pthread.c
+luq_qvoid.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library luq.lib and object luq.exp
+Installing https://luarocks.org/luq-0.1.2-1.rockspec...
+Using https://luarocks.org/luq-0.1.2-1.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/l52util.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/l52util.c
+cl /nologo /MD /O2 -c -Fosrc/luq.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/luq.c
+cl /nologo /MD /O2 -c -Fosrc/luq_library_lock.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/luq_library_lock.c
+cl /nologo /MD /O2 -c -Fosrc/luq_map.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/luq_map.c
+cl /nologo /MD /O2 -c -Fosrc/luq_pthread.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/luq_pthread.c
+cl /nologo /MD /O2 -c -Fosrc/luq_qvoid.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ src/luq_qvoid.c
+link -dll -def:luq.def -out:luq.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib src/l52util.obj src/luq.obj src/luq_library_lock.obj src/luq_map.obj src/luq_pthread.obj src/luq_qvoid.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+luq 0.1.2-1 is now built and installed in C:\ste\x86\luarockstree (license: MIT/X11)
+

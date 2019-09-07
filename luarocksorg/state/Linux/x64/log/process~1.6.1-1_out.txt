@@ -1,0 +1,13 @@
+Installing https://luarocks.org/process-1.6.1-1.rockspec...
+Using https://luarocks.org/process-1.6.1-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_process-1.6.1-1-7163/lua-process/.git/
+lua ./codegen.lua var/errno.txt var/waitpid_opt.txt tmpl/process_tmpl.c
+gcc -O2 -fPIC -Wall -Wno-trigraphs -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wno-switch -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -Wshadow -Wsign-compare -I/home/sp/Dropbox/Linux/x64/luajit//include -o src/child.o -c src/child.c
+gcc -O2 -fPIC -Wall -Wno-trigraphs -Wmissing-field-initializers -Wreturn-type -Wmissing-braces -Wparentheses -Wno-switch -Wunused-function -Wunused-label -Wunused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -Wshadow -Wsign-compare -I/home/sp/Dropbox/Linux/x64/luajit//include -o src/process.o -c src/process.c
+gcc -o process.so src/child.o src/process.o -shared  
+mkdir -p /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/process/1.6.1-1/lib
+cp process.so /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/process/1.6.1-1/lib
+rm -f src/child.o src/process.o process.so
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+process 1.6.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

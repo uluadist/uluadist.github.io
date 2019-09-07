@@ -1,0 +1,11 @@
+Warning: skipping dependency checks.
+lua-mecab.cpp:2:17: error: lua.h: No such file or directory
+lua-mecab.cpp:3:20: error: lualib.h: No such file or directory
+lua-mecab.cpp:4:21: error: lauxlib.h: No such file or directory
+lua-mecab.cpp:10:19: error: mecab.h: No such file or directory
+lua-mecab.cpp:14: error: ‘lua_State’ was not declared in this scope
+lua-mecab.cpp:14: error: ‘L’ was not declared in this scope
+lua-mecab.cpp:15: error: expected ‘,’ or ‘;’ before ‘{’ token
+make: *** [lua-mecab.o] Error 1
+
+Error: Build error: Failed building.

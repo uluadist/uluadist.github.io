@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/object-model-0.1.2-1.rockspec...
+Using https://rocks.moonscript.org/object-model-0.1.2-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_object-model-0.1.2-1-4338/lua-object-model/.git/
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+object-model 0.1.2-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

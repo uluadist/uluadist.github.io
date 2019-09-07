@@ -1,0 +1,6 @@
+Installing https://luarocks.org/auth0-nginx-1.4.2-0.rockspec...
+Using https://luarocks.org/auth0-nginx-1.4.2-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_auth0-nginx-1.4.2-0-2140/auth0-nginx/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+auth0-nginx 1.4.2-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: Apache2)
+

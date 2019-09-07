@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+src/unix.c:3475:11: warning: comparison of constant 18446744073709551615 with expression of type 'size_t' (aka 'unsigned long') is always false [-Wtautological-constant-out-of-range-compare]
+        if (size > UNIXL_UNSIGNED_MAX)
+            ~~~~ ^ ~~~~~~~~~~~~~~~~~~
+1 warning generated.
+No existing manifest. Attempting to rebuild...

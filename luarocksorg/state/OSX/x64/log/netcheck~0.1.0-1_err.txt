@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for netcheck 0.1.0-1: luasocket >= 2.0.0
+Missing dependency for netcheck 0.1.0-1: luasocket >= 2.0.0

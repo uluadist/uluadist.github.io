@@ -1,0 +1,14 @@
+Archive:  radarchart-1.0.1-1.zip
+f5f59cfca2865747dd4b644311cfd3aa4e7af91b
+   creating: RadarChart-1.0.1/
+ extracting: RadarChart-1.0.1/.gitignore  
+  inflating: RadarChart-1.0.1/config.ld  
+  inflating: RadarChart-1.0.1/main.lua  
+  inflating: RadarChart-1.0.1/radarchart.lua  
+  inflating: RadarChart-1.0.1/readme.md  
+Installing https://luarocks.org/radarchart-1.0.1-1.rockspec...
+Using https://luarocks.org/radarchart-1.0.1-1.rockspec... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+radarchart 1.0.1-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: zlib/libpng)
+

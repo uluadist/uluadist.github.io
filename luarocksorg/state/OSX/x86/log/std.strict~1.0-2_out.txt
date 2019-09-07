@@ -1,0 +1,26 @@
+Archive:  v1.0.zip
+576283d4fe8de8cb95a1a269dcfd98903fc7c4b2
+   creating: strict-1.0/
+  inflating: strict-1.0/.gitignore   
+  inflating: strict-1.0/.travis.yml  
+  inflating: strict-1.0/AUTHORS.md   
+  inflating: strict-1.0/LICENSE.md   
+  inflating: strict-1.0/Makefile     
+  inflating: strict-1.0/NEWS.md      
+  inflating: strict-1.0/README.md    
+   creating: strict-1.0/doc/
+  inflating: strict-1.0/doc/config.ld.in  
+   creating: strict-1.0/lib/
+   creating: strict-1.0/lib/std/
+   creating: strict-1.0/lib/std/strict/
+  inflating: strict-1.0/lib/std/strict/init.lua  
+ extracting: strict-1.0/lib/std/strict/version.lua  
+   creating: strict-1.0/specs/
+  inflating: strict-1.0/specs/spec_helper.lua  
+  inflating: strict-1.0/specs/strict_spec.yaml  
+  inflating: strict-1.0/std.strict-1.0-1.rockspec  
+Installing https://luarocks.org/std.strict-1.0-2.src.rock...
+Using https://luarocks.org/std.strict-1.0-2.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+std.strict 1.0-2 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

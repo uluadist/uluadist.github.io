@@ -1,0 +1,5 @@
+Installing https://luarocks.org/rubyapi-1.0-1.rockspec...
+Using https://luarocks.org/rubyapi-1.0-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+rubyapi 1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: GNU GPL v3)
+

@@ -1,0 +1,19 @@
+Archive:  v0.1.zip
+05b71363bf99bbe0d5548a727de7fbbfa395665e
+   creating: moonbox-0.1/
+ extracting: moonbox-0.1/.gitignore  
+  inflating: moonbox-0.1/.travis.yml  
+  inflating: moonbox-0.1/LICENCE     
+  inflating: moonbox-0.1/Makefile    
+  inflating: moonbox-0.1/README.md   
+   creating: moonbox-0.1/bin/
+  inflating: moonbox-0.1/bin/moonbox  
+  inflating: moonbox-0.1/configure   
+   creating: moonbox-0.1/test/
+  inflating: moonbox-0.1/test/check_dependencies.bash  
+  inflating: moonbox-0.1/test/test_suite.bats  
+Installing https://rocks.moonscript.org/moonbox-0.1-1.rockspec...
+Using https://rocks.moonscript.org/moonbox-0.1-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+moonbox 0.1-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

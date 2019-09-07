@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for pegex 0.2-1: lpeg >= 0.12
+Missing dependency for pegex 0.2-1: lpeg >= 0.12

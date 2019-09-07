@@ -1,0 +1,18 @@
+Cloning into 'stormpath-nginx'...
+Note: checking out '40e89e108490a8257fd42fb2b68ff151987f8a8f'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for stormpath-nginx 1.0-1: lua-resty-http == 0.08
+Missing dependency for stormpath-nginx 1.0-1: lua-resty-jwt == 0.1.5
+Missing dependency for stormpath-nginx 1.0-1: lua-resty-http == 0.08
+Missing dependency for stormpath-nginx 1.0-1: lua-resty-jwt == 0.1.5

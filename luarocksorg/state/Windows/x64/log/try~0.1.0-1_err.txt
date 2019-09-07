@@ -1,0 +1,2 @@
+
+Error: Failed unpacking rock file: C:\Users\sp\AppData\Local\Temp/luarocks_luarocks-rock-try-0.1.0-1-1874/try-0.1.0-1.src.rock

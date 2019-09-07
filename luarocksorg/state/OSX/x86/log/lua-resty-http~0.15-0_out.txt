@@ -1,0 +1,5 @@
+Installing https://luarocks.org/lua-resty-http-0.15-0.src.rock...
+Using https://luarocks.org/lua-resty-http-0.15-0.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lua-resty-http 0.15-0 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: 2-clause BSD)
+

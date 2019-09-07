@@ -1,0 +1,31 @@
+Archive:  v1.2.zip
+59ee190a50ae431c32d89e00a15008b1e578ee67
+   creating: strict-1.2/
+  inflating: strict-1.2/.gitignore   
+  inflating: strict-1.2/.luacov      
+  inflating: strict-1.2/.travis.yml  
+  inflating: strict-1.2/AUTHORS.md   
+  inflating: strict-1.2/LICENSE.md   
+  inflating: strict-1.2/NEWS.md      
+  inflating: strict-1.2/README.md    
+   creating: strict-1.2/build-aux/
+  inflating: strict-1.2/build-aux/config.ld.in  
+  inflating: strict-1.2/build-aux/luke  
+   creating: strict-1.2/doc/
+  inflating: strict-1.2/doc/index.html  
+  inflating: strict-1.2/doc/ldoc.css  
+   creating: strict-1.2/lib/
+   creating: strict-1.2/lib/std/
+   creating: strict-1.2/lib/std/strict/
+  inflating: strict-1.2/lib/std/strict/_base.lua  
+  inflating: strict-1.2/lib/std/strict/init.lua  
+ extracting: strict-1.2/lib/std/strict/version.lua  
+ extracting: strict-1.2/lib/std/strict/version.lua.in  
+  inflating: strict-1.2/lukefile     
+   creating: strict-1.2/specs/
+  inflating: strict-1.2/specs/spec_helper.lua  
+  inflating: strict-1.2/specs/strict_spec.yaml  
+  inflating: strict-1.2/std.strict-1.2-1.rockspec  
+Installing https://luarocks.org/std.strict-1.2-1.src.rock...
+Using https://luarocks.org/std.strict-1.2-1.src.rock... switching to 'build' mode
+build-aux/luke PACKAGE="std.strict" VERSION="1.2-1" PREFIX="/home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/std.strict/1.2-1" LUA="/home/sp/Dropbox/Linux/x64/luajit//bin/lua" INST_LIBDIR="/home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/std.strict/1.2-1/lib" INST_LUADIR="/home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/std.strict/1.2-1/lua"

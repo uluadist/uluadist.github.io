@@ -1,0 +1,3 @@
+c99 -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include  -c -o src/luadns.oo src/luadns.c
+Installing https://luarocks.org/org.conman.dns-1.0.12-1.src.rock...
+Using https://luarocks.org/org.conman.dns-1.0.12-1.src.rock... switching to 'build' mode

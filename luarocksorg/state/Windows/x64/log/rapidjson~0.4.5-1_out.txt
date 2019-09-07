@@ -1,0 +1,195 @@
+-- Building for: Visual Studio 14 2015
+-- The C compiler identification is MSVC 19.0.23026.0
+-- The CXX compiler identification is MSVC 19.0.23026.0
+-- Check for working C compiler using: Visual Studio 14 2015
+-- Check for working C compiler using: Visual Studio 14 2015 -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler using: Visual Studio 14 2015
+-- Check for working CXX compiler using: Visual Studio 14 2015 -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/sp/AppData/Local/Temp/luarocks_rapidjson-0.4.5-1-4570/lua-rapidjson/build.luarocks
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/15/2016 2:39:05 PM.
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj" on node 1 (default targets).
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj" (1) is building "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "x64\Release\ZERO_CHECK\".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ZERO_CHECK.vcxproj]
+  Creating directory "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Checking Build System
+  CMake does not need to re-run because C:/Users/sp/AppData/Local/Temp/luarocks_rapidjson-0.4.5-1-4570/lua-rapidjson/build.luarocks/CMakeFiles/generate.stamp is up-to-date.
+FinalizeBuildStatus:
+  Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+  Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ZERO_CHECK.vcxproj" (default targets).
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj" (1) is building "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\rapidjson.vcxproj" (3) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "rapidjson.dir\Release\".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\rapidjson.vcxproj]
+  Creating directory "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\Release\".
+  Creating directory "rapidjson.dir\Release\rapidjson.tlog\".
+InitializeBuildStatus:
+  Creating "rapidjson.dir\Release\rapidjson.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule C:/Users/sp/AppData/Local/Temp/luarocks_rapidjson-0.4.5-1-4570/lua-rapidjson/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\CMakeFiles\generate.stamp is up-to-date.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IZ:\sp\Dropbox\Windows\x64\luajit\src /I"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\rapidjson\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D "LUA_RAPIDJSON_VERSION=\"0.4.5\"" /D LUA_BUILD_AS_DLL /D LUA_LIB /D "CMAKE_INTDIR=\"Release\"" /D rapidjson_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"rapidjson.dir\Release\\" /Fd"rapidjson.dir\Release\vc140.pdb" /Gd /TP /errorReport:queue "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\src\rapidjson.cpp"
+  rapidjson.cpp
+C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\src\rapidjson.cpp(381): warning C4244: '=': conversion from 'lua_Integer' to 'int', possible loss of data [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\rapidjson.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\Release\rapidjson.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Z:\sp\Dropbox\Windows\x64\luajit\src\lua51.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/sp/AppData/Local/Temp/luarocks_rapidjson-0.4.5-1-4570/lua-rapidjson/build.luarocks/Release/rapidjson.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/sp/AppData/Local/Temp/luarocks_rapidjson-0.4.5-1-4570/lua-rapidjson/build.luarocks/Release/rapidjson.lib" /MACHINE:X64  /machine:x64 /DLL rapidjson.dir\Release\rapidjson.obj
+     Creating library C:/Users/sp/AppData/Local/Temp/luarocks_rapidjson-0.4.5-1-4570/lua-rapidjson/build.luarocks/Release/rapidjson.lib and object C:/Users/sp/AppData/Local/Temp/luarocks_rapidjson-0.4.5-1-4570/lua-rapidjson/build.luarocks/Release/rapidjson.exp
+  rapidjson.vcxproj -> C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\Release\rapidjson.dll
+FinalizeBuildStatus:
+  Deleting file "rapidjson.dir\Release\rapidjson.tlog\unsuccessfulbuild".
+  Touching "rapidjson.dir\Release\rapidjson.tlog\rapidjson.lastbuildstate".
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\rapidjson.vcxproj" (default targets).
+PrepareForBuild:
+  Creating directory "x64\Release\ALL_BUILD\".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj]
+  Creating directory "x64\Release\ALL_BUILD\ALL_BUILD.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule C:/Users/sp/AppData/Local/Temp/luarocks_rapidjson-0.4.5-1-4570/lua-rapidjson/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\CMakeFiles\generate.stamp is up-to-date.
+FinalizeBuildStatus:
+  Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+  Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ZERO_CHECK.vcxproj" (default target) (2) ->
+(PrepareForBuild target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ZERO_CHECK.vcxproj]
+
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\rapidjson.vcxproj" (default target) (3) ->
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\rapidjson.vcxproj]
+
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\rapidjson.vcxproj" (default target) (3) ->
+(ClCompile target) -> 
+  C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\src\rapidjson.cpp(381): warning C4244: '=': conversion from 'lua_Integer' to 'int', possible loss of data [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\rapidjson.vcxproj]
+
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj" (default target) (1) ->
+(PrepareForBuild target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj]
+
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.13
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2/15/2016 2:39:08 PM.
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\install.vcxproj" on node 1 (default targets).
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\install.vcxproj" (1) is building "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj" (2) on node 1 (default targets).
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj" (2) is building "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ZERO_CHECK.vcxproj" (3) on node 1 (default targets).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ZERO_CHECK.vcxproj]
+InitializeBuildStatus:
+  Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+FinalizeBuildStatus:
+  Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+  Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ZERO_CHECK.vcxproj" (default targets).
+Project "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj" (2) is building "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\rapidjson.vcxproj" (4) on node 1 (default targets).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\rapidjson.vcxproj]
+InitializeBuildStatus:
+  Creating "rapidjson.dir\Release\rapidjson.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+  rapidjson.vcxproj -> C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\Release\rapidjson.dll
+FinalizeBuildStatus:
+  Deleting file "rapidjson.dir\Release\rapidjson.tlog\unsuccessfulbuild".
+  Touching "rapidjson.dir\Release\rapidjson.tlog\rapidjson.lastbuildstate".
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\rapidjson.vcxproj" (default targets).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj]
+InitializeBuildStatus:
+  Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+FinalizeBuildStatus:
+  Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+  Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj" (default targets).
+PrepareForBuild:
+  Creating directory "x64\Release\INSTALL\".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\install.vcxproj]
+  Creating directory "x64\Release\INSTALL\INSTALL.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+PostBuildEvent:
+  setlocal
+  "C:\Program Files (x86)\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+  if %errorlevel% neq 0 goto :cmEnd
+  :cmEnd
+  endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+  :cmErrorLevel
+  exit /b %1
+  :cmDone
+  if %errorlevel% neq 0 goto :VCEnd
+  :VCEnd
+  -- Install configuration: "Release"
+  -- Installing: C:/ste/x64/luarockstree/lib/luarocks/rocks/rapidjson/0.4.5-1/lib/rapidjson.dll
+FinalizeBuildStatus:
+  Deleting file "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+  Touching "x64\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+Done Building Project "C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\install.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\install.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj" (default target) (2) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ZERO_CHECK.vcxproj" (default target) (3) ->
+(PrepareForBuild target) -> 
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ZERO_CHECK.vcxproj]
+
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\install.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj" (default target) (2) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\rapidjson.vcxproj" (default target) (4) ->
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\rapidjson.vcxproj]
+
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\install.vcxproj" (default target) (1) ->
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj" (default target) (2) ->
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\ALL_BUILD.vcxproj]
+
+
+"C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\install.vcxproj" (default target) (1) ->
+  C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(400,5): warning MSB8029: The Intermediate directory or Output directory cannot reside under the Temporary directory as it could lead to issues with incremental build. [C:\Users\sp\AppData\Local\Temp\luarocks_rapidjson-0.4.5-1-4570\lua-rapidjson\build.luarocks\install.vcxproj]
+
+    4 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.71
+Installing https://luarocks.org/rapidjson-0.4.5-1.src.rock...
+Using https://luarocks.org/rapidjson-0.4.5-1.src.rock... switching to 'build' mode
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+rapidjson 0.4.5-1 is now built and installed in C:\ste\x64\luarockstree (license: MIT)
+

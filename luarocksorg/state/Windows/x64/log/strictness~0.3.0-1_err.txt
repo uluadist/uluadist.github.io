@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Error fetching file: Failed downloading https://github.com/Yonaba/strictness/archive/strictness-0.3.0-1.tar.gz - strictness-0.3.0-1.tar.gz

@@ -1,0 +1,5 @@
+Warning: skipping dependency checks.
+ld: library not found for -luuid
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+Error: Build error: Failed compiling module libuuidx.so

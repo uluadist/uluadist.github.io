@@ -1,0 +1,19 @@
+Warning: skipping dependency checks.
+LUA FOUND OK
+CMake Error at CMakeLists.txt:11 (message):
+  message called with incorrect number of arguments
+
+
+CMake Error at CMakeLists.txt:12 (message):
+  message called with incorrect number of arguments
+
+
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+Boost_INCLUDE_DIR (ADVANCED)
+   used as include directory in directory /tmp/luarocks_spaces-0.4-0-1350/libspaces
+LUA_INCLUDE_DIR (ADVANCED)
+   used as include directory in directory /tmp/luarocks_spaces-0.4-0-1350/libspaces
+
+
+Error: Build error: Failed cmake.

@@ -1,0 +1,16 @@
+Warning: skipping dependency checks.
+Cloning into 'luabibtex'...
+Note: checking out '543cc835b2488f5759c7278dff347e4578757a65'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+cp: bibParser.lua: No such file or directory
+
+Error: Build error: Failed installing bibParser.lua in /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/luabibtex/0.1.0-1/lua/luaBibTex/bibParser.lua

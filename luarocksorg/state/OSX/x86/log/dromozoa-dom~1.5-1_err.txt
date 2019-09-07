@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for dromozoa-dom 1.5-1: dromozoa-utf8 
+Missing dependency for dromozoa-dom 1.5-1: dromozoa-utf8 

@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luv-coro-channel 1.8.0-1: luv ~> 1.8
+Missing dependency for luv-coro-channel 1.8.0-1: luv ~> 1.8

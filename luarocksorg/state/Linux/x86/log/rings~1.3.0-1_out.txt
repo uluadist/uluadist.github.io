@@ -1,0 +1,46 @@
+Archive:  v_1_3_0.zip
+2b8a900f8b9dbde304859a3ac9d437795c3fdde3
+   creating: rings-v_1_3_0/
+  inflating: rings-v_1_3_0/Makefile  
+  inflating: rings-v_1_3_0/Makefile.win  
+  inflating: rings-v_1_3_0/README    
+  inflating: rings-v_1_3_0/config    
+  inflating: rings-v_1_3_0/config.win  
+  inflating: rings-v_1_3_0/configure  
+   creating: rings-v_1_3_0/doc/
+   creating: rings-v_1_3_0/doc/us/
+  inflating: rings-v_1_3_0/doc/us/index.html  
+  inflating: rings-v_1_3_0/doc/us/license.html  
+  inflating: rings-v_1_3_0/doc/us/manual.html  
+  inflating: rings-v_1_3_0/doc/us/rings.png  
+   creating: rings-v_1_3_0/rockspecs/
+  inflating: rings-v_1_3_0/rockspecs/rings-1.2.0-1.rockspec  
+  inflating: rings-v_1_3_0/rockspecs/rings-1.2.0-2.rockspec  
+  inflating: rings-v_1_3_0/rockspecs/rings-1.2.1-1.rockspec  
+  inflating: rings-v_1_3_0/rockspecs/rings-1.2.1rc1-1.rockspec  
+  inflating: rings-v_1_3_0/rockspecs/rings-1.2.2-1.rockspec  
+  inflating: rings-v_1_3_0/rockspecs/rings-1.2.2-2.rockspec  
+  inflating: rings-v_1_3_0/rockspecs/rings-1.2.3-1.rockspec  
+  inflating: rings-v_1_3_0/rockspecs/rings-1.3.0-1.rockspec  
+  inflating: rings-v_1_3_0/rockspecs/rings-cvs-2.rockspec  
+  inflating: rings-v_1_3_0/rockspecs/rings-cvs-3.rockspec  
+  inflating: rings-v_1_3_0/rockspecs/rings-cvs-4.rockspec  
+   creating: rings-v_1_3_0/src/
+  inflating: rings-v_1_3_0/src/rings.c  
+  inflating: rings-v_1_3_0/src/rings.def  
+  inflating: rings-v_1_3_0/src/stable.lua  
+   creating: rings-v_1_3_0/tests/
+  inflating: rings-v_1_3_0/tests/sample.lua  
+  inflating: rings-v_1_3_0/tests/sample_state.lua  
+  inflating: rings-v_1_3_0/tests/test.lua  
+   creating: rings-v_1_3_0/vc6/
+  inflating: rings-v_1_3_0/vc6/rings.def  
+  inflating: rings-v_1_3_0/vc6/rings.dsw  
+  inflating: rings-v_1_3_0/vc6/rings_dll.dsp  
+Installing https://rocks.moonscript.org/rings-1.3.0-1.src.rock...
+Using https://rocks.moonscript.org/rings-1.3.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/rings.c -o src/rings.o
+gcc -shared -o rings.so -L/home/sp/luajit/lib src/rings.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+rings 1.3.0-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for ldoc 1.4.6-2: penlight 
+Missing dependency for ldoc 1.4.6-2: markdown 
+Missing dependency for ldoc 1.4.6-2: penlight 
+Missing dependency for ldoc 1.4.6-2: markdown 

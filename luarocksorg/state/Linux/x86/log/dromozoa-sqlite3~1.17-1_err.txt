@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_dromozoa-sqlite3-1.17-1-9703/dromozoa-sqlite3-1.17-1.rockspec: Unknown field test

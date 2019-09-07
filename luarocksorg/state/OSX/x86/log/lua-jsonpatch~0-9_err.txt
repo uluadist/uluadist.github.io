@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_lua-jsonpatch-0-9-6416/lua-jsonpatch-0-9.rockspec: Unknown field labels

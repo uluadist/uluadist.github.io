@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for oil 0.5-2: luasocket >= 2.0
+Missing dependency for oil 0.5-2: luaidl == 1.0.5
+Missing dependency for oil 0.5-2: loop == 2.3beta
+Missing dependency for oil 0.5-2: luasocket >= 2.0
+Missing dependency for oil 0.5-2: luaidl == 1.0.5
+Missing dependency for oil 0.5-2: loop == 2.3beta

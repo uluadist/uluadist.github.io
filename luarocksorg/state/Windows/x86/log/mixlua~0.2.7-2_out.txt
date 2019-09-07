@@ -1,0 +1,14 @@
+mixlua.c
+mixlua.c(140): warning C4098: 'mix_skip_comment': 'void' function returning a value
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library mixlua.lib and object mixlua.exp
+Installing https://luarocks.org/mixlua-0.2.7-2.src.rock...
+Using https://luarocks.org/mixlua-0.2.7-2.src.rock... switching to 'build' mode
+Do not use 'module' as a build type. Use 'builtin' instead.
+cl /nologo /MD /O2 -c -Fomixlua.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src/ mixlua.c
+link -dll -def:mixlua.def -out:mixlua.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib mixlua.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+mixlua 0.2.7-2 is now built and installed in C:\ste\x86\luarockstree (license: MIT/X11)
+

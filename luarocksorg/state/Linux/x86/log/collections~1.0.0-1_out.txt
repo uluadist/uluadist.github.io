@@ -1,0 +1,6 @@
+Initialized empty Git repository in /tmp/luarocks_collections-1.0.0-1-2357/collections/.git/
+Installing https://luarocks.org/collections-1.0.0-1.rockspec...
+Using https://luarocks.org/collections-1.0.0-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+collections 1.0.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

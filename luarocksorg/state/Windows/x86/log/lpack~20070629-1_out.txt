@@ -1,0 +1,4 @@
+Installing https://luarocks.org/lpack-20070629-1.win32-x86.rock...
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+
+lpack 20070629-1 is now installed in C:\ste\x86\luarockstree (license: Public domain)

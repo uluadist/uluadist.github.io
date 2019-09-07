@@ -1,0 +1,30 @@
+Warning: skipping dependency checks.
+src/autoinstall.c:297:21: warning: second argument to 'va_arg' is of promotable type 'mode_t' (aka 'unsigned short'); this va_arg has undefined behavior because arguments will be promoted to 'int' [-Wvarargs]
+  mode = va_arg(ap, mode_t);
+                    ^~~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.0.0/include/stdarg.h:35:50: note: expanded from macro 'va_arg'
+#define va_arg(ap, type)    __builtin_va_arg(ap, type)
+                                                 ^
+src/autoinstall.c:341:21: warning: second argument to 'va_arg' is of promotable type 'mode_t' (aka 'unsigned short'); this va_arg has undefined behavior because arguments will be promoted to 'int' [-Wvarargs]
+  mode = va_arg(ap, mode_t);
+                    ^~~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.0.0/include/stdarg.h:35:50: note: expanded from macro 'va_arg'
+#define va_arg(ap, type)    __builtin_va_arg(ap, type)
+                                                 ^
+src/autoinstall.c:385:21: warning: second argument to 'va_arg' is of promotable type 'mode_t' (aka 'unsigned short'); this va_arg has undefined behavior because arguments will be promoted to 'int' [-Wvarargs]
+  mode = va_arg(ap, mode_t);
+                    ^~~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.0.0/include/stdarg.h:35:50: note: expanded from macro 'va_arg'
+#define va_arg(ap, type)    __builtin_va_arg(ap, type)
+                                                 ^
+src/autoinstall.c:429:21: warning: second argument to 'va_arg' is of promotable type 'mode_t' (aka 'unsigned short'); this va_arg has undefined behavior because arguments will be promoted to 'int' [-Wvarargs]
+  mode = va_arg(ap, mode_t);
+                    ^~~~~~
+/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.0.0/include/stdarg.h:35:50: note: expanded from macro 'va_arg'
+#define va_arg(ap, type)    __builtin_va_arg(ap, type)
+                                                 ^
+4 warnings generated.
+ld: library not found for -llua5.1
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+Error: Build error: Failed compiling module autoinstall.so

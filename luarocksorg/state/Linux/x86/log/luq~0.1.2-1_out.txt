@@ -1,0 +1,52 @@
+Archive:  v0.1.2.zip
+5038090ad1a0c1c1ce2a001093f33cb196bcddbb
+   creating: lua-luq-0.1.2/
+  inflating: lua-luq-0.1.2/.gitignore  
+  inflating: lua-luq-0.1.2/.travis.yml  
+   creating: lua-luq-0.1.2/.travis/
+  inflating: lua-luq-0.1.2/.travis/platform.sh  
+  inflating: lua-luq-0.1.2/.travis/setup_lua.sh  
+  inflating: lua-luq-0.1.2/CMakeLists.txt  
+  inflating: lua-luq-0.1.2/LICENSE   
+  inflating: lua-luq-0.1.2/README.md  
+   creating: lua-luq-0.1.2/cmake/
+  inflating: lua-luq-0.1.2/cmake/FindLua.cmake  
+  inflating: lua-luq-0.1.2/cmake/dist.cmake  
+  inflating: lua-luq-0.1.2/cmake/lua.cmake  
+  inflating: lua-luq-0.1.2/dist.info  
+  inflating: lua-luq-0.1.2/lakeconfig.lua  
+  inflating: lua-luq-0.1.2/lakefile  
+   creating: lua-luq-0.1.2/msvc/
+  inflating: lua-luq-0.1.2/msvc/luq.sln  
+  inflating: lua-luq-0.1.2/msvc/luq.vcproj  
+   creating: lua-luq-0.1.2/rockspecs/
+  inflating: lua-luq-0.1.2/rockspecs/luq-0.1.0-1.rockspec  
+  inflating: lua-luq-0.1.2/rockspecs/luq-0.1.1-1.rockspec  
+  inflating: lua-luq-0.1.2/rockspecs/luq-0.1.2-1.rockspec  
+  inflating: lua-luq-0.1.2/rockspecs/luq-scm-0.rockspec  
+   creating: lua-luq-0.1.2/src/
+  inflating: lua-luq-0.1.2/src/l52util.c  
+  inflating: lua-luq-0.1.2/src/l52util.h  
+  inflating: lua-luq-0.1.2/src/luq.c  
+  inflating: lua-luq-0.1.2/src/luq_library_lock.c  
+  inflating: lua-luq-0.1.2/src/luq_library_lock.h  
+  inflating: lua-luq-0.1.2/src/luq_map.c  
+  inflating: lua-luq-0.1.2/src/luq_map.h  
+  inflating: lua-luq-0.1.2/src/luq_pthread.c  
+  inflating: lua-luq-0.1.2/src/luq_pthread.h  
+  inflating: lua-luq-0.1.2/src/luq_qvoid.c  
+  inflating: lua-luq-0.1.2/src/luq_qvoid.h  
+   creating: lua-luq-0.1.2/test/
+  inflating: lua-luq-0.1.2/test/test_pool.lua  
+Installing https://rocks.moonscript.org/luq-0.1.2-1.rockspec...
+Using https://rocks.moonscript.org/luq-0.1.2-1.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/l52util.c -o src/l52util.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/luq.c -o src/luq.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/luq_library_lock.c -o src/luq_library_lock.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/luq_map.c -o src/luq_map.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/luq_pthread.c -o src/luq_pthread.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c src/luq_qvoid.c -o src/luq_qvoid.o
+gcc -shared -o luq.so -L/home/sp/luajit/lib src/l52util.o src/luq.o src/luq_library_lock.o src/luq_map.o src/luq_pthread.o src/luq_qvoid.o -lpthread -lrt
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+luq 0.1.2-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

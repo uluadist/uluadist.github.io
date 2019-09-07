@@ -1,0 +1,5 @@
+Installing https://rocks.moonscript.org/moon-redis-0.1-1.rockspec...
+Using https://rocks.moonscript.org/moon-redis-0.1-1.rockspec... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+moon-redis 0.1-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

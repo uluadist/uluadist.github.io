@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-resty-memcached-0.13-0.rockspec...
+Using https://luarocks.org/lua-resty-memcached-0.13-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-resty-memcached-0.13-0-2262/lua-resty-memcached/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-resty-memcached 0.13-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: BSD)
+

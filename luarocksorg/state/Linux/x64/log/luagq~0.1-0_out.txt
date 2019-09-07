@@ -1,0 +1,4 @@
+==== C++ Building ... ====
+g++ -fPIC -c main.cpp -o main.o -I./gq -I./gumbo -std=c++11
+Installing https://luarocks.org/luagq-0.1-0.src.rock...
+Using https://luarocks.org/luagq-0.1-0.src.rock... switching to 'build' mode

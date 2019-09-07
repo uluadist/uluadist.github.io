@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lpeg_patterns 0.5-0: lpeg 
+Missing dependency for lpeg_patterns 0.5-0: lpeg 

@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_xhmoon-1.2.0-1-5533/xhmoon-1.2.0-1.rockspec: Unknown field labels

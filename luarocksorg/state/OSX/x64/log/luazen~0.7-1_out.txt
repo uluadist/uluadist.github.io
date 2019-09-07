@@ -1,0 +1,13 @@
+Installing https://luarocks.org/luazen-0.7-1.src.rock...
+Using https://luarocks.org/luazen-0.7-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/luazen.c -o src/luazen.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/base58.c -o src/base58.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/lzf_c.c -o src/lzf_c.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/lzf_d.c -o src/lzf_d.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/md5.c -o src/md5.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/sha1.c -o src/sha1.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/rc4.c -o src/rc4.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o luazen.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib src/luazen.o src/base58.o src/lzf_c.o src/lzf_d.o src/md5.o src/sha1.o src/rc4.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+luazen 0.7-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

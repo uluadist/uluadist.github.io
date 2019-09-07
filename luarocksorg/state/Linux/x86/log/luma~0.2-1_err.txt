@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luma 0.2-1: cosmo 
+Missing dependency for luma 0.2-1: lpeg >= 0.10
+Missing dependency for luma 0.2-1: cosmo 
+Missing dependency for luma 0.2-1: lpeg >= 0.10

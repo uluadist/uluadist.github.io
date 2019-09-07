@@ -1,0 +1,9 @@
+Warning: skipping dependency checks.
+In file included from error.cpp:18:
+./common.hpp:21:10: fatal error: 'png.h' file not found
+#include <png.h>
+         ^
+1 error generated.
+make: *** [error.o] Error 1
+
+Error: Build error: Failed building.

@@ -1,0 +1,14 @@
+cbor_c.c
+dnf.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library org/conman/cbor_c.lib and object org/conman/cbor_c.exp
+Installing https://luarocks.org/org.conman.cbor-1.2.12-1.src.rock...
+Using https://luarocks.org/org.conman.cbor-1.2.12-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Focbor_c.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src cbor_c.c -DVERSION="1.2.12"
+cl /nologo /MD /O2 -c -Fodnf.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src dnf.c -DVERSION="1.2.12"
+link -dll -def:cbor_c.def -out:org/conman/cbor_c.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib cbor_c.obj dnf.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+org.conman.cbor 1.2.12-1 is now built and installed in C:\ste\x64\luarockstree (license: LGPL-3)
+

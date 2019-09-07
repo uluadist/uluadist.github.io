@@ -1,0 +1,16 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for doccotest 0.3-1: rings >= 1
+Missing dependency for doccotest 0.3-1: luacov >= 0.7
+Missing dependency for doccotest 0.3-1: lua_cliargs >= 2
+Missing dependency for doccotest 0.3-1: lualogging >= 1
+Missing dependency for doccotest 0.3-1: serpent >= 0
+Missing dependency for doccotest 0.3-1: ansicolors >= 1
+Missing dependency for doccotest 0.3-1: i18n >= 0
+Missing dependency for doccotest 0.3-1: rings >= 1
+Missing dependency for doccotest 0.3-1: luacov >= 0.7
+Missing dependency for doccotest 0.3-1: lua_cliargs >= 2
+Missing dependency for doccotest 0.3-1: lualogging >= 1
+Missing dependency for doccotest 0.3-1: serpent >= 0
+Missing dependency for doccotest 0.3-1: ansicolors >= 1
+Missing dependency for doccotest 0.3-1: i18n >= 0

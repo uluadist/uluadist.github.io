@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+-- LUA_RAPIDJSON_VERSION: 0.6.1
+
+Error: Build error: Failed building.

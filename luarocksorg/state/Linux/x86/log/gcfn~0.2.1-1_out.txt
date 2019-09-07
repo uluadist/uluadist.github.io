@@ -1,0 +1,8 @@
+Installing https://luarocks.org/gcfn-0.2.1-1.rockspec...
+Using https://luarocks.org/gcfn-0.2.1-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_gcfn-0.2.1-1-1129/lua-gcfn/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/gcfn.c -o src/gcfn.o
+gcc -shared -o gcfn.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/gcfn.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+gcfn 0.2.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

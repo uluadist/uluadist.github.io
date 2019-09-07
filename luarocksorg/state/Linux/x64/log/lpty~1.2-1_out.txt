@@ -1,0 +1,10 @@
+/home/sp/luajit//bin/lua mkinc.lua `basename expectsrc.inc .inc`
+gcc -O2 -fPIC -I/home/sp/luajit//include -c lpty.c -o lpty.o
+gcc -shared  -o lpty.so -L/home/sp/luajit//lib lpty.o
+mkdir -p /home/sp/luarockstree/lib/luarocks/rocks/lpty/1.2-1/lib
+cp lpty.so /home/sp/luarockstree/lib/luarocks/rocks/lpty/1.2-1/lib
+Installing https://rocks.moonscript.org/lpty-1.2-1.src.rock...
+Using https://rocks.moonscript.org/lpty-1.2-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lpty 1.2-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

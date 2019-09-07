@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/lua_system_constants-0.1.1-0.rockspec...
+Using https://rocks.moonscript.org/lua_system_constants-0.1.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua_system_constants-0.1.1-0-5035/lua-system-constants/.git/
+gcc -c -O2 -fPIC -fPIC -I/home/sp/luajit/include/lua5.1 lua_system_constants.c -o lua_system_constants.o
+gcc -shared -L/home/sp/luajit/lib -o lua_system_constants.so lua_system_constants.o
+/home/sp/luajit/bin/lua test/lua_system_constants_test.lua

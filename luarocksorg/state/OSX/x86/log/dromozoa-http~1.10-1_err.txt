@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for dromozoa-http 1.10-1: dromozoa-commons 
+Missing dependency for dromozoa-http 1.10-1: dromozoa-commons 

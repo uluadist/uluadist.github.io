@@ -1,0 +1,20 @@
+Warning: skipping dependency checks.
+In file included from /tmp/luarocks_netfoxpack-0.1.3-1-5595/netfoxpack/src/lua_netfoxpack.cpp:2:
+/tmp/luarocks_netfoxpack-0.1.3-1-5595/netfoxpack/src/../LuaFunction.hpp:37:14: error: no type named 'function' in namespace 'std'
+typedef std::function<void(lua_State* aL)> CheckReturnFunction;
+        ~~~~~^
+/tmp/luarocks_netfoxpack-0.1.3-1-5595/netfoxpack/src/../LuaFunction.hpp:37:22: error: expected unqualified-id
+typedef std::function<void(lua_State* aL)> CheckReturnFunction;
+                     ^
+/tmp/luarocks_netfoxpack-0.1.3-1-5595/netfoxpack/src/../LuaFunction.hpp:77:33: error: unknown type name 'CheckReturnFunction'
+    void setCheckReturnFunction(CheckReturnFunction call) { checkReturn_ = call; }
+                                ^
+/tmp/luarocks_netfoxpack-0.1.3-1-5595/netfoxpack/src/../LuaFunction.hpp:81:5: error: unknown type name 'CheckReturnFunction'
+    CheckReturnFunction checkReturn_;
+    ^
+4 errors generated.
+make[2]: *** [CMakeFiles/netfoxpack.dir/src/lua_netfoxpack.cpp.o] Error 1
+make[1]: *** [CMakeFiles/netfoxpack.dir/all] Error 2
+make: *** [all] Error 2
+
+Error: Build error: Failed building.

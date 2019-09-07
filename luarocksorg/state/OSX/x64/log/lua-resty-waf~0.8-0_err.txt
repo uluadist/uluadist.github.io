@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+Cloning into 'lua-resty-waf'...
+Warning: variable CFLAGS was not passed in build_variables
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+make: *** [install-hard] Error 64
+
+Error: Build error: Failed installing.

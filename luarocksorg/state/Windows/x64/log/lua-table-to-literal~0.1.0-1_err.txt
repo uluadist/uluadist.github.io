@@ -1,0 +1,3 @@
+Warning: skipping dependency checks.
+
+Error: Error fetching file: Failed downloading https://github.com/reTsubasa/lua-table-to-literal-string.git - lua-table-to-literal-string.git

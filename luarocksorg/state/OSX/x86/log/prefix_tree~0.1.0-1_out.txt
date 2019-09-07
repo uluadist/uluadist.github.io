@@ -1,0 +1,24 @@
+Archive:  v0.1.0.zip
+5c51f8ea0a6e1435daabdadc4f2db81ef2b67d4c
+   creating: lua-prefix_tree-0.1.0/
+  inflating: lua-prefix_tree-0.1.0/.travis.yml  
+  inflating: lua-prefix_tree-0.1.0/LICENSE  
+  inflating: lua-prefix_tree-0.1.0/README.md  
+   creating: lua-prefix_tree-0.1.0/rockspecs/
+  inflating: lua-prefix_tree-0.1.0/rockspecs/prefix_tree-0.1.0-1.rockspec  
+  inflating: lua-prefix_tree-0.1.0/rockspecs/prefix_tree-scm-0.rockspec  
+   creating: lua-prefix_tree-0.1.0/src/
+  inflating: lua-prefix_tree-0.1.0/src/prefix_tree.lua  
+   creating: lua-prefix_tree-0.1.0/src/prefix_tree/
+  inflating: lua-prefix_tree-0.1.0/src/prefix_tree/list.lua  
+  inflating: lua-prefix_tree-0.1.0/src/prefix_tree/tree.lua  
+  inflating: lua-prefix_tree-0.1.0/src/prefix_tree/utils.lua  
+   creating: lua-prefix_tree-0.1.0/test/
+  inflating: lua-prefix_tree-0.1.0/test/.luacov  
+  inflating: lua-prefix_tree-0.1.0/test/test.lua  
+  inflating: lua-prefix_tree-0.1.0/test/utils.lua  
+Installing https://luarocks.org/prefix_tree-0.1.0-1.src.rock...
+Using https://luarocks.org/prefix_tree-0.1.0-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+prefix_tree 0.1.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

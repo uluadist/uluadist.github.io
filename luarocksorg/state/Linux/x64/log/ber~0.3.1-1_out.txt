@@ -1,0 +1,46 @@
+CC           = gcc
+CFLAGS       = -O2 -fPIC
+CPPFLAGS     = -I/home/sp/Dropbox/Linux/x64/luajit//include
+LDFLAGS      = -L/home/sp/Dropbox/Linux/x64/luajit//lib
+LIBFLAG      = -shared
+LUA          = /home/sp/Dropbox/Linux/x64/luajit//bin/lua
+LUA_VERSION  = 5.1
+LUA_INCDIR   = /home/sp/Dropbox/Linux/x64/luajit//include
+DESTDIR      = 
+INST_PREFIX  = /usr/local
+INST_BINDIR  = /usr/local/bin
+INST_LIBDIR  = /usr/local/lib/lua/5.1
+INST_LUADIR  = /usr/local/share/lua/5.1
+INST_CONFDIR = /usr/local/etc
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include  -c -o src/ber.o src/ber.c
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include  -c -o src/ber_util.o src/ber_util.c
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include  -c -o src/luaber.o src/luaber.c
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include  -c -o src/mmodr.o src/mmodr.c
+gcc -shared -o ber.so -L/home/sp/Dropbox/Linux/x64/luajit//lib src/ber.o src/ber_util.o src/luaber.o src/mmodr.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include  -c -o src/asn/asn.o src/asn/asn.c
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include  -c -o src/asn/map.o src/asn/map.c
+gcc -o asn2odr -L/home/sp/Dropbox/Linux/x64/luajit//lib src/asn/asn.o src/asn/map.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include  -c -o src/pdu/pdu.o src/pdu/pdu.c
+gcc -o odr2pdu -L/home/sp/Dropbox/Linux/x64/luajit//lib src/pdu/pdu.o src/mmodr.o
+CC           = gcc
+CFLAGS       = -fPIC
+CPPFLAGS     = 
+LDFLAGS      = 
+LIBFLAG      = -shared
+LUA          = lua
+LUA_VERSION  = 
+LUA_INCDIR   = 
+DESTDIR      = 
+INST_PREFIX  = /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/ber/0.3.1-1
+INST_BINDIR  = /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/ber/0.3.1-1/bin
+INST_LIBDIR  = /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/ber/0.3.1-1/lib
+INST_LUADIR  = /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/ber/0.3.1-1/lua
+INST_CONFDIR = /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/ber/0.3.1-1/conf
+install -Dm755 ber.so /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/ber/0.3.1-1/lib/ber.so
+install -Dm755 asn2odr /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/ber/0.3.1-1/bin/asn2odr
+install -Dm755 odr2pdu /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/ber/0.3.1-1/bin/odr2pdu
+Installing https://luarocks.org/ber-0.3.1-1.src.rock...
+Using https://luarocks.org/ber-0.3.1-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+ber 0.3.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: Public Domain)
+

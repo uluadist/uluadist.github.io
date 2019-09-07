@@ -1,0 +1,2 @@
+
+Error: Failed unpacking rock file: C:\Users\sp\AppData\Local\Temp/luarocks_luarocks-rock-binaryheap-0.2-1-7988/binaryheap-0.2-1.src.rock

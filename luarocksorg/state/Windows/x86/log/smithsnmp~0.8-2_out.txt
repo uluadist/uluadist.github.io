@@ -1,0 +1,5 @@
+openssl_aes.c
+c:\users\sp\appdata\local\temp\luarocks_smithsnmp-0.8-2-2848\smithsnmp-0.8.1\core\utils.h(77): error C2010: '.': unexpected in macro formal parameter list
+Installing https://luarocks.org/smithsnmp-0.8-2.src.rock...
+Using https://luarocks.org/smithsnmp-0.8-2.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fo3rd/crypto/openssl_aes.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src 3rd/crypto/openssl_aes.c -DLITTLE_ENDIAN -D_XOPEN_SOURCE=600 -DUSE_AGENTX

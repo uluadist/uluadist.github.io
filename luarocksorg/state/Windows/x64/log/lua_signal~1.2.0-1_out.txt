@@ -1,0 +1,17 @@
+lsignal.c
+lsignal.c(287): error C2079: 'act' uses undefined struct 'sigaction'
+lsignal.c(288): error C2224: left of '.sa_handler' must have struct/union type
+lsignal.c(289): error C2224: left of '.sa_mask' must have struct/union type
+lsignal.c(290): error C2224: left of '.sa_flags' must have struct/union type
+lsignal.c(336): error C2065: 'sigset_t': undeclared identifier
+lsignal.c(336): error C2146: syntax error: missing ';' before identifier 'mask'
+lsignal.c(336): error C2065: 'mask': undeclared identifier
+lsignal.c(336): error C2065: 'old_mask': undeclared identifier
+lsignal.c(337): error C2065: 'mask': undeclared identifier
+lsignal.c(338): error C2065: 'SIG_BLOCK': undeclared identifier
+lsignal.c(338): error C2065: 'mask': undeclared identifier
+lsignal.c(338): error C2065: 'old_mask': undeclared identifier
+lsignal.c(339): error C2065: 'old_mask': undeclared identifier
+Installing https://luarocks.org/lua_signal-1.2.0-1.src.rock...
+Using https://luarocks.org/lua_signal-1.2.0-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folsignal.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lsignal.c

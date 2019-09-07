@@ -1,0 +1,3 @@
+Installing https://rocks.moonscript.org/unzip-0.1.0-1.rockspec...
+Using https://rocks.moonscript.org/unzip-0.1.0-1.rockspec... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lunzip.c -o lunzip.o -Izlib

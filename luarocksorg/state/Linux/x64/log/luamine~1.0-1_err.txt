@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: cannot stat `divs.lua': No such file or directory
+
+Error: Build error: Failed installing divs.lua in /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/luamine/1.0-1/lua/discretization.lua

@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+core.c:10:24: warning: implicit declaration of function 'isatty' is invalid in C99 [-Wimplicit-function-declaration]
+    lua_pushboolean(L, isatty(fileno(*fp)));
+                       ^
+1 warning generated.
+No existing manifest. Attempting to rebuild...

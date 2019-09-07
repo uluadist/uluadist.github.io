@@ -1,0 +1,8 @@
+Installing https://luarocks.org/cctea-0.1.0-1.src.rock...
+Using https://luarocks.org/cctea-0.1.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c xxtea.c -o xxtea.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c lua-cctea.c -o lua-cctea.o
+gcc -shared -o cctea.so -L/home/sp/Dropbox/Linux/x86/luajit//lib xxtea.o lua-cctea.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+cctea 0.1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: The PHP License)
+

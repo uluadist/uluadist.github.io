@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for layeredata 0.4-4: c3 >= 1
+Missing dependency for layeredata 0.4-4: coronest >= 1
+Missing dependency for layeredata 0.4-4: c3 >= 1
+Missing dependency for layeredata 0.4-4: coronest >= 1

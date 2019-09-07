@@ -1,0 +1,5 @@
+Installing https://luarocks.org/cmath-0.1-0.src.rock...
+Using https://luarocks.org/cmath-0.1-0.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+cmath 0.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: GPL-2)
+

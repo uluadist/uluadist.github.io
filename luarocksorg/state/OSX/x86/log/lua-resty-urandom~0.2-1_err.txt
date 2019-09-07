@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+Cloning into 'lua-resty-urandom'...
+warning: Could not find remote branch 0.2 to clone.
+fatal: Remote branch 0.2 not found in upstream origin
+
+Error: Failed cloning git repository.

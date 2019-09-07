@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+successfully patched C:\Users\sp\AppData\Local\Temp/luarocks_slnunicode-1.1-2-623/slnunicode-1.1/slnunico.c
+
+Error: Build error: Failed compiling module unicode.dll

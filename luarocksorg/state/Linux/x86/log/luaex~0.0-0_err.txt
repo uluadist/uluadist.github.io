@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: cannot stat `luaex/luaex.lua': No such file or directory
+
+Error: Failed copying luaex/luaex.lua

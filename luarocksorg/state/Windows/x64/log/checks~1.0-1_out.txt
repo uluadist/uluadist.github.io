@@ -1,0 +1,12 @@
+checks.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library checks.lib and object checks.exp
+Installing https://luarocks.org/checks-1.0-1.src.rock...
+Using https://luarocks.org/checks-1.0-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fochecks.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ checks.c
+link -dll -def:checks.def -out:checks.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib checks.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+checks 1.0-1 is now built and installed in C:\ste\x64\luarockstree (license: Eclipse public license)
+

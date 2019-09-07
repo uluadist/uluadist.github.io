@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for resty-shared-session 0.1.1-2: lua-resty-cookie >= 0.1.0-1
+Missing dependency for resty-shared-session 0.1.1-2: lua-resty-cookie >= 0.1.0-1

@@ -1,0 +1,5 @@
+Installing https://rocks.moonscript.org/ljsyscall-0.11-1.rockspec...
+Using https://rocks.moonscript.org/ljsyscall-0.11-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+ljsyscall 0.11-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

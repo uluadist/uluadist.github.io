@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+src/uuidlib_v3.c:24:10: fatal error: 'openssl/evp.h' file not found
+#include <openssl/evp.h>
+         ^
+1 error generated.
+make: *** [so/uuidlib_v3.o] Error 1
+
+Error: Build error: Failed building.

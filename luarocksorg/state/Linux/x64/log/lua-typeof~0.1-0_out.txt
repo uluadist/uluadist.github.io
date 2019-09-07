@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-typeof-0.1-0.rockspec...
+Using https://luarocks.org/lua-typeof-0.1-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-typeof-0.1-0-4671/lua-typeof/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-typeof 0.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: Apache License 2.0)
+

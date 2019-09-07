@@ -1,0 +1,8 @@
+Installing https://luarocks.org/lua-http-parser-2.7-0.src.rock...
+Using https://luarocks.org/lua-http-parser-2.7-0.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c http-parser/http_parser.c -o http-parser/http_parser.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lua-http-parser.c -o lua-http-parser.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o http/parser.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib http-parser/http_parser.o lua-http-parser.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lua-http-parser 2.7-0 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

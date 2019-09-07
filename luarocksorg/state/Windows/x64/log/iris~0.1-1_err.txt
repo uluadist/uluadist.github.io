@@ -1,0 +1,16 @@
+Cloning into 'iris-lua'...
+Note: checking out 'ebf7dbc3b79a0b4cb34604f195913b98841a73d9'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for iris 0.1-1: luasocket 
+Missing dependency for iris 0.1-1: luasocket 

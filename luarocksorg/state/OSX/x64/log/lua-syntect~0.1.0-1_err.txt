@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_lua-syntect-0.1.0-1-2498/lua-syntect-0.1.0-1.rockspec: Unknown field build_dependencies

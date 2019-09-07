@@ -1,0 +1,249 @@
+Warning: skipping dependency checks.
+luatweetnacl.c:91:25: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    lua_pushlstring (L, buf, bufln); 
+                        ^~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luatweetnacl.c:101:22: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, pk, crypto_box_PUBLICKEYBYTES); 
+                            ^~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luatweetnacl.c:102:22: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, sk, crypto_box_SECRETKEYBYTES); 
+                            ^~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luatweetnacl.c:112:37: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        int r = crypto_scalarmult_base(pk, sk);
+                                           ^~
+./tweetnacl.h:168:89: note: passing argument to parameter here
+extern int crypto_scalarmult_curve25519_tweet_base(unsigned char *,const unsigned char *);
+                                                                                        ^
+luatweetnacl.c:113:22: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, pk, crypto_box_PUBLICKEYBYTES); 
+                            ^~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luatweetnacl.c:132:45: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        int r = crypto_box(buf, buf+64-32, mln+32, n, pk, sk);
+                                                   ^
+./tweetnacl.h:42:134: note: passing argument to parameter here
+extern int crypto_box_curve25519xsalsa20poly1305_tweet(unsigned char *,const unsigned char *,unsigned long long,const unsigned char *,const unsigned char *,const unsigned char *);
+                                                                                                                                     ^
+luatweetnacl.c:132:48: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        int r = crypto_box(buf, buf+64-32, mln+32, n, pk, sk);
+                                                      ^~
+./tweetnacl.h:42:156: note: passing argument to parameter here
+extern int crypto_box_curve25519xsalsa20poly1305_tweet(unsigned char *,const unsigned char *,unsigned long long,const unsigned char *,const unsigned char *,const unsigned char *);
+                                                                                                                                                           ^
+luatweetnacl.c:132:52: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        int r = crypto_box(buf, buf+64-32, mln+32, n, pk, sk);
+                                                          ^~
+./tweetnacl.h:42:178: note: passing argument to parameter here
+extern int crypto_box_curve25519xsalsa20poly1305_tweet(unsigned char *,const unsigned char *,unsigned long long,const unsigned char *,const unsigned char *,const unsigned char *);
+                                                                                                                                                                                 ^
+luatweetnacl.c:133:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring(L, buf+16, mln+16); 
+                           ^~~~~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luatweetnacl.c:154:50: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        int r = crypto_box_open(buf, buf+64-16, cln+16, n, pk, sk);
+                                                        ^
+./tweetnacl.h:43:139: note: passing argument to parameter here
+extern int crypto_box_curve25519xsalsa20poly1305_tweet_open(unsigned char *,const unsigned char *,unsigned long long,const unsigned char *,const unsigned char *,const unsigned char *);
+                                                                                                                                          ^
+luatweetnacl.c:154:53: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        int r = crypto_box_open(buf, buf+64-16, cln+16, n, pk, sk);
+                                                           ^~
+./tweetnacl.h:43:161: note: passing argument to parameter here
+extern int crypto_box_curve25519xsalsa20poly1305_tweet_open(unsigned char *,const unsigned char *,unsigned long long,const unsigned char *,const unsigned char *,const unsigned char *);
+                                                                                                                                                                ^
+luatweetnacl.c:154:57: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        int r = crypto_box_open(buf, buf+64-16, cln+16, n, pk, sk);
+                                                               ^~
+./tweetnacl.h:43:183: note: passing argument to parameter here
+extern int crypto_box_curve25519xsalsa20poly1305_tweet_open(unsigned char *,const unsigned char *,unsigned long long,const unsigned char *,const unsigned char *,const unsigned char *);
+                                                                                                                                                                                      ^
+luatweetnacl.c:163:22: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, buf+32, cln-16); 
+                            ^~~~~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luatweetnacl.c:176:29: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_box_beforenm(k, pk, sk);
+                                   ^~
+./tweetnacl.h:45:102: note: passing argument to parameter here
+extern int crypto_box_curve25519xsalsa20poly1305_tweet_beforenm(unsigned char *,const unsigned char *,const unsigned char *);
+                                                                                                     ^
+luatweetnacl.c:176:33: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_box_beforenm(k, pk, sk);
+                                       ^~
+./tweetnacl.h:45:124: note: passing argument to parameter here
+extern int crypto_box_curve25519xsalsa20poly1305_tweet_beforenm(unsigned char *,const unsigned char *,const unsigned char *);
+                                                                                                                           ^
+luatweetnacl.c:177:21: warning: passing 'u8 [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring(L, k, 32); 
+                           ^
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luatweetnacl.c:195:47: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_secretbox(buf, buf+64-32, mln+32, n, k);
+                                                     ^
+./tweetnacl.h:189:130: note: passing argument to parameter here
+extern int crypto_secretbox_xsalsa20poly1305_tweet(unsigned char *,const unsigned char *,unsigned long long,const unsigned char *,const unsigned char *);
+                                                                                                                                 ^
+luatweetnacl.c:195:50: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_secretbox(buf, buf+64-32, mln+32, n, k);
+                                                        ^
+./tweetnacl.h:189:152: note: passing argument to parameter here
+extern int crypto_secretbox_xsalsa20poly1305_tweet(unsigned char *,const unsigned char *,unsigned long long,const unsigned char *,const unsigned char *);
+                                                                                                                                                       ^
+luatweetnacl.c:197:22: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, buf+16, mln+16); 
+                            ^~~~~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luatweetnacl.c:216:53: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_secretbox_open(buf, buf+128-16, cln+16, n, k);
+                                                           ^
+./tweetnacl.h:190:135: note: passing argument to parameter here
+extern int crypto_secretbox_xsalsa20poly1305_tweet_open(unsigned char *,const unsigned char *,unsigned long long,const unsigned char *,const unsigned char *);
+                                                                                                                                      ^
+luatweetnacl.c:216:56: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_secretbox_open(buf, buf+128-16, cln+16, n, k);
+                                                              ^
+./tweetnacl.h:190:157: note: passing argument to parameter here
+extern int crypto_secretbox_xsalsa20poly1305_tweet_open(unsigned char *,const unsigned char *,unsigned long long,const unsigned char *,const unsigned char *);
+                                                                                                                                                            ^
+luatweetnacl.c:225:22: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, buf+32, cln-16); 
+                            ^~~~~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luatweetnacl.c:242:30: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_stream(buf, mln, n, k);
+                                    ^
+./tweetnacl.h:233:97: note: passing argument to parameter here
+extern int crypto_stream_xsalsa20_tweet(unsigned char *,unsigned long long,const unsigned char *,const unsigned char *);
+                                                                                                ^
+luatweetnacl.c:242:33: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_stream(buf, mln, n, k);
+                                       ^
+./tweetnacl.h:233:119: note: passing argument to parameter here
+extern int crypto_stream_xsalsa20_tweet(unsigned char *,unsigned long long,const unsigned char *,const unsigned char *);
+                                                                                                                      ^
+luatweetnacl.c:243:22: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, buf, mln); 
+                            ^~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luatweetnacl.c:260:29: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_stream_xor(buf, m, mln, n, k);
+                                   ^
+./tweetnacl.h:234:82: note: passing argument to parameter here
+extern int crypto_stream_xsalsa20_tweet_xor(unsigned char *,const unsigned char *,unsigned long long,const unsigned char *,const unsigned char *);
+                                                                                 ^
+luatweetnacl.c:260:37: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_stream_xor(buf, m, mln, n, k);
+                                           ^
+./tweetnacl.h:234:123: note: passing argument to parameter here
+extern int crypto_stream_xsalsa20_tweet_xor(unsigned char *,const unsigned char *,unsigned long long,const unsigned char *,const unsigned char *);
+                                                                                                                          ^
+luatweetnacl.c:260:40: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_stream_xor(buf, m, mln, n, k);
+                                              ^
+./tweetnacl.h:234:145: note: passing argument to parameter here
+extern int crypto_stream_xsalsa20_tweet_xor(unsigned char *,const unsigned char *,unsigned long long,const unsigned char *,const unsigned char *);
+                                                                                                                                                ^
+luatweetnacl.c:261:22: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, buf, mln); 
+                            ^~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luatweetnacl.c:274:30: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_onetimeauth(mac, m, mln, k);
+                                    ^
+./tweetnacl.h:149:83: note: passing argument to parameter here
+extern int crypto_onetimeauth_poly1305_tweet(unsigned char *,const unsigned char *,unsigned long long,const unsigned char *);
+                                                                                  ^
+luatweetnacl.c:274:38: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_onetimeauth(mac, m, mln, k);
+                                            ^
+./tweetnacl.h:149:124: note: passing argument to parameter here
+extern int crypto_onetimeauth_poly1305_tweet(unsigned char *,const unsigned char *,unsigned long long,const unsigned char *);
+                                                                                                                           ^
+luatweetnacl.c:275:25: warning: passing 'u8 [16]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    lua_pushlstring (L, mac, 16); 
+                        ^~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luatweetnacl.c:286:14: warning: passing 'char [64]' to parameter of type 'unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        crypto_hash(digest, (const unsigned char *) src, (unsigned long long) sln);  
+                    ^~~~~~
+./tweetnacl.h:127:52: note: passing argument to parameter here
+extern int crypto_hash_sha512_tweet(unsigned char *,const unsigned char *,unsigned long long);
+                                                   ^
+luatweetnacl.c:302:22: warning: passing 'unsigned char [32]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, pk, 32); 
+                            ^~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luatweetnacl.c:303:22: warning: passing 'unsigned char [64]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring (L, sk, 64); 
+                            ^~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luatweetnacl.c:316:31: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_sign(buf, &usmln, m, mln, sk);
+                                     ^
+./tweetnacl.h:212:96: note: passing argument to parameter here
+extern int crypto_sign_ed25519_tweet(unsigned char *,unsigned long long *,const unsigned char *,unsigned long long,const unsigned char *);
+                                                                                               ^
+luatweetnacl.c:316:39: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_sign(buf, &usmln, m, mln, sk);
+                                             ^~
+./tweetnacl.h:212:137: note: passing argument to parameter here
+extern int crypto_sign_ed25519_tweet(unsigned char *,unsigned long long *,const unsigned char *,unsigned long long,const unsigned char *);
+                                                                                                                                        ^
+luatweetnacl.c:323:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring(L, buf, usmln); 
+                           ^~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+luatweetnacl.c:336:35: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_sign_open(buf, &umln, sm, smln, pk);
+                                         ^~
+./tweetnacl.h:213:101: note: passing argument to parameter here
+extern int crypto_sign_ed25519_tweet_open(unsigned char *,unsigned long long *,const unsigned char *,unsigned long long,const unsigned char *);
+                                                                                                    ^
+luatweetnacl.c:336:45: warning: passing 'const char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        r = crypto_sign_open(buf, &umln, sm, smln, pk);
+                                                   ^~
+./tweetnacl.h:213:142: note: passing argument to parameter here
+extern int crypto_sign_ed25519_tweet_open(unsigned char *,unsigned long long *,const unsigned char *,unsigned long long,const unsigned char *);
+                                                                                                                                             ^
+luatweetnacl.c:343:21: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        lua_pushlstring(L, buf, umln); 
+                           ^~~
+/Users/sp/Dropbox/OSX/x64/luajit/include/lua.h:163:60: note: passing argument to parameter 's' here
+LUA_API void  (lua_pushlstring) (lua_State *L, const char *s, size_t l);
+                                                           ^
+41 warnings generated.
+No existing manifest. Attempting to rebuild...

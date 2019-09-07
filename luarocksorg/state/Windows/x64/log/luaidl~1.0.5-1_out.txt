@@ -1,0 +1,4 @@
+Installing https://luarocks.org/luaidl-1.0.5-1.all.rock...
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+
+luaidl 1.0.5-1 is now installed in C:\ste\x64\luarockstree (license: MIT/X11)

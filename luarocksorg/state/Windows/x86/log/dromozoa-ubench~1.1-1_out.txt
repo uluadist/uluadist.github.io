@@ -1,0 +1,5 @@
+gettimeofday.c
+dromozoa/ubench/gettimeofday.c(22): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+Installing https://luarocks.org/dromozoa-ubench-1.1-1.src.rock...
+Using https://luarocks.org/dromozoa-ubench-1.1-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fodromozoa/ubench/gettimeofday.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src dromozoa/ubench/gettimeofday.c

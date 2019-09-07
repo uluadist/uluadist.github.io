@@ -1,0 +1,3 @@
+Warning: Failed searching manifest: Failed fetching manifest for https://luarocks.org - Failed downloading https://luarocks.org/manifest - C:\Users\sp\AppData\Local/LuaRocks/Cache/https___luarocks.org/manifest
+
+Error: No results matching query were found.

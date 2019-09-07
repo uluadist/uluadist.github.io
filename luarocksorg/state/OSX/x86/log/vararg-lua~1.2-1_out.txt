@@ -1,0 +1,31 @@
+Archive:  v1.2.zip
+6cb6470ea8c7cdbdda792508b3104b468c33a634
+   creating: lua-vararg-1.2/
+  inflating: lua-vararg-1.2/.travis.yml  
+   creating: lua-vararg-1.2/.travis/
+  inflating: lua-vararg-1.2/.travis/platform.sh  
+  inflating: lua-vararg-1.2/.travis/setup_lua.sh  
+  inflating: lua-vararg-1.2/LICENSE  
+  inflating: lua-vararg-1.2/Makefile  
+  inflating: lua-vararg-1.2/README.md  
+  inflating: lua-vararg-1.2/lakeconfig.lua  
+  inflating: lua-vararg-1.2/lakefile  
+   creating: lua-vararg-1.2/rockspecs/
+  inflating: lua-vararg-1.2/rockspecs/vararg-1.0-1.rockspec  
+  inflating: lua-vararg-1.2/rockspecs/vararg-1.1-1.rockspec  
+  inflating: lua-vararg-1.2/rockspecs/vararg-1.1.patch1-1.rockspec  
+  inflating: lua-vararg-1.2/rockspecs/vararg-1.2-1.rockspec  
+  inflating: lua-vararg-1.2/rockspecs/vararg-lua-1.1.patch1-1.rockspec  
+  inflating: lua-vararg-1.2/rockspecs/vararg-lua-1.2-1.rockspec  
+  inflating: lua-vararg-1.2/rockspecs/vararg-lua-scm-0.rockspec  
+  inflating: lua-vararg-1.2/rockspecs/vararg-scm-0.rockspec  
+   creating: lua-vararg-1.2/test/
+  inflating: lua-vararg-1.2/test/.luacov  
+  inflating: lua-vararg-1.2/test/test.lua  
+  inflating: lua-vararg-1.2/vararg.c  
+  inflating: lua-vararg-1.2/vararg.lua  
+Installing https://rocks.moonscript.org/vararg-lua-1.2-1.src.rock...
+Using https://rocks.moonscript.org/vararg-lua-1.2-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+vararg-lua 1.2-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

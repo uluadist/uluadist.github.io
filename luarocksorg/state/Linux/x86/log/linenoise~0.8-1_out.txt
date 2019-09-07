@@ -1,0 +1,8 @@
+Installing https://rocks.moonscript.org/linenoise-0.8-1.rockspec...
+Using https://rocks.moonscript.org/linenoise-0.8-1.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c linenoise.c -o linenoise.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c linenoiselib.c -o linenoiselib.o
+gcc -shared -o linenoise.so -L/home/sp/luajit/lib linenoise.o linenoiselib.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+linenoise 0.8-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

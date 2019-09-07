@@ -1,0 +1,12 @@
+Warning: skipping dependency checks.
+src/lua-urlencode.c: In function ‘_encode_url’:
+src/lua-urlencode.c:62:9: error: ‘for’ loop initial declarations are only allowed in C99 mode
+         for (int i = 0; i < charlen; i++, in_cursor++) {
+         ^
+src/lua-urlencode.c:62:9: note: use option -std=c99 or -std=gnu99 to compile your code
+src/lua-urlencode.c: In function ‘_decode_url’:
+src/lua-urlencode.c:149:9: error: ‘for’ loop initial declarations are only allowed in C99 mode
+         for (int i = 0; i < charlen; i++, in_cursor++) {
+         ^
+
+Error: Build error: Failed compiling object src/lua-urlencode.o

@@ -1,0 +1,5 @@
+lua-physfs.c
+lua-physfs.c(5): fatal error C1083: Cannot open include file: 'physfs.h': No such file or directory
+Installing https://luarocks.org/physfs-0.1-1.src.rock...
+Using https://luarocks.org/physfs-0.1-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folua-physfs.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src lua-physfs.c -DPHYSFS_SUPPORTS_7Z

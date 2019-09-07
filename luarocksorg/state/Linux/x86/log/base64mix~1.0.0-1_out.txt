@@ -1,0 +1,8 @@
+Installing https://luarocks.org/base64mix-1.0.0-1.rockspec...
+Using https://luarocks.org/base64mix-1.0.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_base64mix-1.0.0-1-5713/lua-base64mix/.git/
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/base64.c -o src/base64.o
+gcc -shared -o base64mix.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/base64.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+base64mix 1.0.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

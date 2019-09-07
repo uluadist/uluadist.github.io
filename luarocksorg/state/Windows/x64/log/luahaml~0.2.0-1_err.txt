@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luahaml 0.2.0-1: lpeg 
+Missing dependency for luahaml 0.2.0-1: lpeg 

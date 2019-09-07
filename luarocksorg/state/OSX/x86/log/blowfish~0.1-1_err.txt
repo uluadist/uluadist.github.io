@@ -1,0 +1,45 @@
+Warning: skipping dependency checks.
+Cloning into 'lua-blowfish'...
+Note: checking out '0d3937580a79dc932956256a1db37d8848d27e96'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+src/lua_blowfish.c:55:43: warning: passing 'char *' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        blowfish_encrypt (ctx, datalen+paddingc, encdata, encdata);
+                                                 ^~~~~~~
+src/blowfish.h:65:44: note: passing argument to parameter 'dst' here
+                 unsigned length, uint8_t *dst,
+                                           ^
+src/lua_blowfish.c:55:52: warning: passing 'char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        blowfish_encrypt (ctx, datalen+paddingc, encdata, encdata);
+                                                          ^~~~~~~
+src/blowfish.h:66:33: note: passing argument to parameter 'src' here
+                 const uint8_t *src);
+                                ^
+src/lua_blowfish.c:93:43: warning: passing 'char *' to parameter of type 'uint8_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        blowfish_decrypt (ctx, datalen+paddingc, decdata, decdata);
+                                                 ^~~~~~~
+src/blowfish.h:69:44: note: passing argument to parameter 'dst' here
+                 unsigned length, uint8_t *dst,
+                                           ^
+src/lua_blowfish.c:93:52: warning: passing 'char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        blowfish_decrypt (ctx, datalen+paddingc, decdata, decdata);
+                                                          ^~~~~~~
+src/blowfish.h:70:33: note: passing argument to parameter 'src' here
+                 const uint8_t *src);
+                                ^
+src/lua_blowfish.c:127:33: warning: passing 'const char *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+        blowfish_set_key (ctx, keylen, key);
+                                       ^~~
+src/blowfish.h:61:50: note: passing argument to parameter 'key' here
+                 unsigned length, const uint8_t *key);
+                                                 ^
+5 warnings generated.
+No existing manifest. Attempting to rebuild...

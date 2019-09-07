@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for cosmo 10.04.06-1: lpeg >= 0.9
+Missing dependency for cosmo 10.04.06-1: lpeg >= 0.9

@@ -1,0 +1,3 @@
+Initialized empty Git repository in /tmp/luarocks_luamine-1.0-1-5065/luamine/.git/
+Installing https://luarocks.org/luamine-1.0-1.rockspec...
+Using https://luarocks.org/luamine-1.0-1.rockspec... switching to 'build' mode

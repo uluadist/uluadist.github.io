@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_cppjwt-0.0-1-483/cppjwt-0.0-1.rockspec: Unknown field labels

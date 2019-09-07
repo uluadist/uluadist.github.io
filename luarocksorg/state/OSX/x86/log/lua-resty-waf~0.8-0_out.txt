@@ -1,0 +1,4 @@
+make: Nothing to be done for `all'.
+cp -r `pwd`/lib/resty/* /usr/local/openresty/lualib/resty/
+Installing https://luarocks.org/lua-resty-waf-0.8-0.rockspec...
+Using https://luarocks.org/lua-resty-waf-0.8-0.rockspec... switching to 'build' mode

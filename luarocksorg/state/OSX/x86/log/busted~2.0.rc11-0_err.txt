@@ -1,0 +1,20 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for busted 2.0.rc11-0: lua_cliargs >= 2.5-0, < 3.0.rc-1
+Missing dependency for busted 2.0.rc11-0: say >= 1.3-0
+Missing dependency for busted 2.0.rc11-0: penlight >= 1.3.2-2
+Missing dependency for busted 2.0.rc11-0: luassert >= 1.7.8-0
+Missing dependency for busted 2.0.rc11-0: luafilesystem >= 1.5.0
+Missing dependency for busted 2.0.rc11-0: luasocket >= 2.0.1
+Missing dependency for busted 2.0.rc11-0: lua-term >= 0.1-1
+Missing dependency for busted 2.0.rc11-0: mediator_lua >= 1.1.1-0
+Missing dependency for busted 2.0.rc11-0: dkjson >= 2.1.0
+Missing dependency for busted 2.0.rc11-0: lua_cliargs >= 2.5-0, < 3.0.rc-1
+Missing dependency for busted 2.0.rc11-0: say >= 1.3-0
+Missing dependency for busted 2.0.rc11-0: penlight >= 1.3.2-2
+Missing dependency for busted 2.0.rc11-0: luassert >= 1.7.8-0
+Missing dependency for busted 2.0.rc11-0: luafilesystem >= 1.5.0
+Missing dependency for busted 2.0.rc11-0: luasocket >= 2.0.1
+Missing dependency for busted 2.0.rc11-0: lua-term >= 0.1-1
+Missing dependency for busted 2.0.rc11-0: mediator_lua >= 1.1.1-0
+Missing dependency for busted 2.0.rc11-0: dkjson >= 2.1.0

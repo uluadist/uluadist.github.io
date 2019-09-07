@@ -1,0 +1,38 @@
+Archive:  lsqlite3_fsl09x.zip
+   creating: lsqlite3_fsl09x/
+  inflating: lsqlite3_fsl09x/HISTORY  
+  inflating: lsqlite3_fsl09x/Makefile  
+  inflating: lsqlite3_fsl09x/README  
+   creating: lsqlite3_fsl09x/doc/
+  inflating: lsqlite3_fsl09x/doc/lsqlite3.wiki  
+   creating: lsqlite3_fsl09x/examples/
+  inflating: lsqlite3_fsl09x/examples/aggregate.lua  
+  inflating: lsqlite3_fsl09x/examples/function.lua  
+  inflating: lsqlite3_fsl09x/examples/hooks_advanced.lua  
+  inflating: lsqlite3_fsl09x/examples/order.lua  
+  inflating: lsqlite3_fsl09x/examples/simple.lua  
+  inflating: lsqlite3_fsl09x/examples/smart.lua  
+  inflating: lsqlite3_fsl09x/examples/statement.lua  
+  inflating: lsqlite3_fsl09x/examples/tracing.lua  
+  inflating: lsqlite3_fsl09x/examples/update_hook.lua  
+   creating: lsqlite3_fsl09x/extras/
+  inflating: lsqlite3_fsl09x/extras/Makefile  
+  inflating: lsqlite3_fsl09x/extras/extension-functions.c  
+  inflating: lsqlite3_fsl09x/extras/installpath.lua  
+  inflating: lsqlite3_fsl09x/lsqlite3-0.9.4-2.rockspec  
+  inflating: lsqlite3_fsl09x/lsqlite3.c  
+  inflating: lsqlite3_fsl09x/lsqlite3complete-0.9.4-2.rockspec  
+  inflating: lsqlite3_fsl09x/sqlite3.c  
+  inflating: lsqlite3_fsl09x/sqlite3.h  
+   creating: lsqlite3_fsl09x/test/
+  inflating: lsqlite3_fsl09x/test/test-dyld.lua  
+  inflating: lsqlite3_fsl09x/test/test.lua  
+  inflating: lsqlite3_fsl09x/test/tests-sqlite3.lua  
+Installing https://luarocks.org/lsqlite3complete-0.9.4-2.src.rock...
+Using https://luarocks.org/lsqlite3complete-0.9.4-2.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c lsqlite3.c -o lsqlite3.o -DLSQLITE_VERSION="0.9.4" -Dluaopen_lsqlite3=luaopen_lsqlite3complete
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c sqlite3.c -o sqlite3.o -DLSQLITE_VERSION="0.9.4" -Dluaopen_lsqlite3=luaopen_lsqlite3complete
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o lsqlite3complete.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib lsqlite3.o sqlite3.o -lpthread -lm -ldl
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lsqlite3complete 0.9.4-2 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

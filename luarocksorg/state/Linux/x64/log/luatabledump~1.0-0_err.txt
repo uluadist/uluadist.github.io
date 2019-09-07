@@ -1,0 +1,21 @@
+Warning: skipping dependency checks.
+
+Error: Failed initializing build back-end for build type 'buildin': module 'luarocks.build.buildin' not found:No LuaRocks module found for luarocks.build.buildin
+	no field package.preload['luarocks.build.buildin']
+	no file '/home/sp/Dropbox/Linux/x64/luarocks/share/lua/5.1/luarocks/build/buildin.lua'
+	no file '/home/sp/Dropbox/Prj/scilua/head/luarocks/build/buildin/init.lua'
+	no file '/home/sp/Dropbox/Prj/scilua/head/luarocks/build/buildin.lua'
+	no file '/home/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/Linux/x64/luarocks/build/buildin/init.lua'
+	no file '/home/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/Linux/x64/luarocks/build/buildin.lua'
+	no file '/home/sp/.luarocks/share/lua/5.1/luarocks/build/buildin.lua'
+	no file '/home/sp/.luarocks/share/lua/5.1/luarocks/build/buildin/init.lua'
+	no file '/home/sp/PrjLocal/luarockstree/share/lua/5.1/luarocks/build/buildin.lua'
+	no file '/home/sp/PrjLocal/luarockstree/share/lua/5.1/luarocks/build/buildin/init.lua'
+	no file '/home/sp/Dropbox/Prj/scilua/head/luarocks/build/buildin.so'
+	no file '/home/sp/Dropbox/Prj/scilua/head/loadall.so'
+	no file '/home/sp/.luarocks/lib/lua/5.1/luarocks/build/buildin.so'
+	no file '/home/sp/PrjLocal/luarockstree/lib/lua/5.1/luarocks/build/buildin.so'
+	no file '/home/sp/Dropbox/Prj/scilua/head/luarocks.so'
+	no file '/home/sp/Dropbox/Prj/scilua/head/loadall.so'
+	no file '/home/sp/.luarocks/lib/lua/5.1/luarocks.so'
+	no file '/home/sp/PrjLocal/luarockstree/lib/lua/5.1/luarocks.so'

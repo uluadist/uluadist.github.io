@@ -1,0 +1,3 @@
+Installing https://rocks.moonscript.org/fluidsynth-1.7-0.src.rock...
+Using https://rocks.moonscript.org/fluidsynth-1.7-0.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c C-fluidsynth.c -o C-fluidsynth.o

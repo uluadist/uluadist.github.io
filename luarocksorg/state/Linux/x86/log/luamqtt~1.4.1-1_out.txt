@@ -1,0 +1,6 @@
+Installing https://luarocks.org/luamqtt-1.4.1-1.rockspec...
+Using https://luarocks.org/luamqtt-1.4.1-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_luamqtt-1.4.1-1-6953/luamqtt/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+luamqtt 1.4.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

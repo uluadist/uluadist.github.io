@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/bigint-1.0.0-1.rockspec...
+Using https://rocks.moonscript.org/bigint-1.0.0-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_bigint-1.0.0-1-433/lua-bigint/.git/
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c BigInt.cpp -o BigInt.o -DVERSION="1.0"
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c mainlib.c -o mainlib.o -DVERSION="1.0"
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c bigint-glue.cpp -o bigint-glue.o -DVERSION="1.0"

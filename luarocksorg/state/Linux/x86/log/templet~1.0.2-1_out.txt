@@ -1,0 +1,4 @@
+Installing https://rocks.moonscript.org/templet-1.0.2-1.all.rock...
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+
+templet 1.0.2-1 is now installed in /home/sp/luarockstree (license: MIT/X11)

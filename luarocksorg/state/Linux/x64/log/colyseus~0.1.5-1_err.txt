@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for colyseus 0.1.5-1: lua-messagepack 
+Missing dependency for colyseus 0.1.5-1: dromozoa-json 
+Missing dependency for colyseus 0.1.5-1: lua-messagepack 
+Missing dependency for colyseus 0.1.5-1: dromozoa-json 

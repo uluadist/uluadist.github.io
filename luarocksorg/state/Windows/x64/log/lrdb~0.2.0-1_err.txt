@@ -1,0 +1,22 @@
+Cloning into 'LRDB'...
+Note: checking out '037a333ab48abdcbb603e51f7424e4f19d79548b'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Checking out files:  17% (139/773)   Checking out files:  18% (140/773)   Checking out files:  19% (147/773)   Checking out files:  20% (155/773)   Checking out files:  21% (163/773)   Checking out files:  22% (171/773)   Checking out files:  23% (178/773)   Checking out files:  24% (186/773)   Checking out files:  25% (194/773)   Checking out files:  26% (201/773)   Checking out files:  27% (209/773)   Checking out files:  28% (217/773)   Checking out files:  29% (225/773)   Checking out files:  30% (232/773)   Checking out files:  31% (240/773)   Checking out files:  32% (248/773)   Checking out files:  33% (256/773)   Checking out files:  34% (263/773)   Checking out files:  35% (271/773)   Checking out files:  36% (279/773)   Checking out files:  37% (287/773)   Checking out files:  38% (294/773)   Checking out files:  39% (302/773)   Checking out files:  40% (310/773)   Checking out files:  41% (317/773)   Checking out files:  42% (325/773)   Checking out files:  43% (333/773)   Checking out files:  44% (341/773)   Checking out files:  45% (348/773)   Checking out files:  46% (356/773)   Checking out files:  47% (364/773)   Checking out files:  48% (372/773)   Checking out files:  49% (379/773)   Checking out files:  50% (387/773)   Checking out files:  51% (395/773)   Checking out files:  52% (402/773)   Checking out files:  53% (410/773)   Checking out files:  54% (418/773)   Checking out files:  54% (420/773)   Checking out files:  55% (426/773)   Checking out files:  56% (433/773)   Checking out files:  57% (441/773)   Checking out files:  58% (449/773)   Checking out files:  59% (457/773)   Checking out files:  60% (464/773)   Checking out files:  61% (472/773)   Checking out files:  62% (480/773)   Checking out files:  63% (487/773)   Checking out files:  64% (495/773)   Checking out files:  65% (503/773)   Checking out files:  66% (511/773)   Checking out files:  67% (518/773)   Checking out files:  68% (526/773)   Checking out files:  69% (534/773)   Checking out files:  70% (542/773)   Checking out files:  71% (549/773)   Checking out files:  72% (557/773)   Checking out files:  73% (565/773)   Checking out files:  74% (573/773)   Checking out files:  75% (580/773)   Checking out files:  76% (588/773)   Checking out files:  77% (596/773)   Checking out files:  78% (603/773)   Checking out files:  79% (611/773)   Checking out files:  80% (619/773)   Checking out files:  81% (627/773)   Checking out files:  82% (634/773)   Checking out files:  83% (642/773)   Checking out files:  83% (648/773)   Checking out files:  84% (650/773)   Checking out files:  85% (658/773)   Checking out files:  86% (665/773)   Checking out files:  87% (673/773)   Checking out files:  88% (681/773)   Checking out files:  89% (688/773)   Checking out files:  90% (696/773)   Checking out files:  91% (704/773)   Checking out files:  92% (712/773)   Checking out files:  93% (719/773)   Checking out files:  94% (727/773)   Checking out files:  95% (735/773)   Checking out files:  96% (743/773)   Checking out files:  97% (750/773)   Checking out files:  98% (758/773)   Checking out files:  98% (765/773)   Checking out files:  99% (766/773)   Checking out files: 100% (773/773)   Checking out files: 100% (773/773), done.
+CMake Error at luarocks_cmake.txt:33 (install):
+  install Library TARGETS given no DESTINATION!
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (include)
+
+
+Warning: skipping dependency checks.
+
+Error: Build error: Failed cmake.

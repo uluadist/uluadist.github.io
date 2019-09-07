@@ -1,0 +1,6 @@
+Installing https://luarocks.org/vmake-1.4.1-8.rockspec...
+Using https://luarocks.org/vmake-1.4.1-8.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_vmake-1.4.1-8-2031/vMake/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+vmake 1.4.1-8 is now built and installed in /home/sp/PrjLocal/luarockstree (license: NCSA (BSD-like))
+

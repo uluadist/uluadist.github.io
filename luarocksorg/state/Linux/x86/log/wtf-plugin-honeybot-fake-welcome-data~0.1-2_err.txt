@@ -1,0 +1,5 @@
+Warning: skipping dependency checks.
+mkdir: cannot create directory `/usr/local/share/wtf': Permission denied
+cp: target `/usr/local/share/wtf/data/honeybot/fake/welcome' is not a directory
+
+Error: Build error: Failed building.

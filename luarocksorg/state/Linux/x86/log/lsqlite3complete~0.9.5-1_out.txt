@@ -1,0 +1,39 @@
+Archive:  lsqlite3_fsl09y.zip
+   creating: lsqlite3_fsl09y/
+  inflating: lsqlite3_fsl09y/HISTORY  
+  inflating: lsqlite3_fsl09y/Makefile  
+  inflating: lsqlite3_fsl09y/README  
+   creating: lsqlite3_fsl09y/doc/
+  inflating: lsqlite3_fsl09y/doc/lsqlite3.wiki  
+   creating: lsqlite3_fsl09y/examples/
+  inflating: lsqlite3_fsl09y/examples/aggregate.lua  
+  inflating: lsqlite3_fsl09y/examples/function.lua  
+  inflating: lsqlite3_fsl09y/examples/hooks_advanced.lua  
+  inflating: lsqlite3_fsl09y/examples/order.lua  
+  inflating: lsqlite3_fsl09y/examples/simple.lua  
+  inflating: lsqlite3_fsl09y/examples/smart.lua  
+  inflating: lsqlite3_fsl09y/examples/statement.lua  
+  inflating: lsqlite3_fsl09y/examples/tracing.lua  
+  inflating: lsqlite3_fsl09y/examples/update_hook.lua  
+   creating: lsqlite3_fsl09y/extras/
+  inflating: lsqlite3_fsl09y/extras/Makefile  
+  inflating: lsqlite3_fsl09y/extras/extension-functions.c  
+  inflating: lsqlite3_fsl09y/extras/installpath.lua  
+  inflating: lsqlite3_fsl09y/lsqlite3-0.9.5-1.rockspec  
+  inflating: lsqlite3_fsl09y/lsqlite3.c  
+  inflating: lsqlite3_fsl09y/lsqlite3complete-0.9.4-2.rockspec  
+  inflating: lsqlite3_fsl09y/lsqlite3complete-0.9.5-1.rockspec  
+  inflating: lsqlite3_fsl09y/sqlite3.c  
+  inflating: lsqlite3_fsl09y/sqlite3.h  
+   creating: lsqlite3_fsl09y/test/
+  inflating: lsqlite3_fsl09y/test/test-dyld.lua  
+  inflating: lsqlite3_fsl09y/test/test.lua  
+  inflating: lsqlite3_fsl09y/test/tests-sqlite3.lua  
+Installing https://luarocks.org/lsqlite3complete-0.9.5-1.src.rock...
+Using https://luarocks.org/lsqlite3complete-0.9.5-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c lsqlite3.c -o lsqlite3.o -DLSQLITE_VERSION="0.9.5" -Dluaopen_lsqlite3=luaopen_lsqlite3complete
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c sqlite3.c -o sqlite3.o -DLSQLITE_VERSION="0.9.5" -Dluaopen_lsqlite3=luaopen_lsqlite3complete
+gcc -shared -o lsqlite3complete.so -L/home/sp/Dropbox/Linux/x86/luajit//lib lsqlite3.o sqlite3.o -lpthread -lm -ldl
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lsqlite3complete 0.9.5-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

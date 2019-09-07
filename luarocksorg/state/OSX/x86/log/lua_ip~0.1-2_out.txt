@@ -1,0 +1,5 @@
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -c -O2 -fPIC -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit/include lua_ip.c -o lua_ip.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -L/Users/sp/Dropbox/OSX/x86/luajit/lib -o lua_ip.so lua_ip.o
+/Users/sp/Dropbox/OSX/x86/luajit/bin/lua test/lua_ip_test.lua
+Installing https://rocks.moonscript.org/lua_ip-0.1-2.rockspec...
+Using https://rocks.moonscript.org/lua_ip-0.1-2.rockspec... switching to 'build' mode

@@ -1,0 +1,20 @@
+Warning: skipping dependency checks.
+In file included from lua-nanovg.c:7:0:
+lbind.h:343:17: error: conflicting types for ‘luaL_setfuncs’
+ LUALIB_API void luaL_setfuncs(lua_State *L, luaL_Reg *l, int nup) {
+                 ^
+In file included from lua-nanovg.c:7:0:
+lbind.h:24:18: note: previous declaration of ‘luaL_setfuncs’ was here
+ LUALIB_API void (luaL_setfuncs) (lua_State *L, const luaL_Reg *l, int nup);
+                  ^
+In file included from lua-nanovg.c:7:0:
+lbind.h:382:13: error: static declaration of ‘luaL_traceback’ follows non-static declaration
+ static void luaL_traceback(lua_State *L, lua_State *L1, const char *msg, int level) {
+             ^
+In file included from lbind.h:6:0,
+                 from lua-nanovg.c:7:
+/home/sp/luajit/include/lua5.1/lauxlib.h:85:17: note: previous declaration of ‘luaL_traceback’ was here
+ LUALIB_API void luaL_traceback (lua_State *L, lua_State *L1, const char *msg,
+                 ^
+
+Error: Build error: Failed compiling object lua-nanovg.o

@@ -1,0 +1,14 @@
+http_parser.c
+lua-http-parser.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library http/parser.lib and object http/parser.exp
+Installing https://luarocks.org/lua-http-parser-2.7-0.src.rock...
+Using https://luarocks.org/lua-http-parser-2.7-0.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fohttp-parser/http_parser.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src http-parser/http_parser.c
+cl /nologo /MD /O2 -c -Folua-http-parser.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src lua-http-parser.c
+link -dll -def:parser.def -out:http/parser.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib http-parser/http_parser.obj lua-http-parser.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+lua-http-parser 2.7-0 is now built and installed in C:\ste\x86\luarockstree (license: MIT)
+

@@ -1,0 +1,13 @@
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -I/Users/sp/Dropbox/OSX/x64/luajit/include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG -O0 -c -o compat/safebfuns.o compat/safebfuns.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -I/Users/sp/Dropbox/OSX/x64/luajit/include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/bcrypt/bcrypt.o compat/bcrypt/bcrypt.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -I/Users/sp/Dropbox/OSX/x64/luajit/include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/bcrypt/blowfish.o compat/bcrypt/blowfish.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -I/Users/sp/Dropbox/OSX/x64/luajit/include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/arc4random/arc4random.o compat/arc4random/arc4random.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -I/Users/sp/Dropbox/OSX/x64/luajit/include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/strlcpy.o compat/strlcpy.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -I/Users/sp/Dropbox/OSX/x64/luajit/include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/getentropy/getentropy_osx.o compat/getentropy/getentropy_osx.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -I/Users/sp/Dropbox/OSX/x64/luajit/include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o src/main.o src/main.c
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -o bcrypt.so compat/safebfuns.o compat/bcrypt/bcrypt.o compat/bcrypt/blowfish.o compat/arc4random/arc4random.o compat/strlcpy.o compat/getentropy/getentropy_osx.o src/main.o -bundle -undefined dynamic_lookup
+Installing https://luarocks.org/bcrypt-2.1-4.src.rock...
+Using https://luarocks.org/bcrypt-2.1-4.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+bcrypt 2.1-4 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: ISC)
+

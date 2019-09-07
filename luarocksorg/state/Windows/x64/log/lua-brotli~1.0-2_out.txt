@@ -1,0 +1,97 @@
+lua_brotli.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\exception(361): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+backward_references.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\limits(214): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+block_splitter.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\limits(214): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+brotli_bit_stream.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\vector(1138): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\vector(1132): note: while compiling class template member function 'void std::vector<uint16_t,std::allocator<_Ty>>::resize(unsigned __int64)'
+        with
+        [
+            _Ty=uint16_t
+        ]
+brotli/enc/brotli_bit_stream.cc(470): note: see reference to function template instantiation 'void std::vector<uint16_t,std::allocator<_Ty>>::resize(unsigned __int64)' being compiled
+        with
+        [
+            _Ty=uint16_t
+        ]
+c:\users\sp\appdata\local\temp\luarocks_lua-brotli-1.0-2-4575\lua-brotli\brotli\enc\./brotli_bit_stream.h(87): note: see reference to class template instantiation 'std::vector<uint16_t,std::allocator<_Ty>>' being compiled
+        with
+        [
+            _Ty=uint16_t
+        ]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\limits(214): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+encode.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\exception(361): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+encode_parallel.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\exception(361): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+entropy_encode.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\vector(1623): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\vector(1620): note: while compiling class template member function 'void std::vector<brotli::`anonymous-namespace'::HuffmanTree,std::allocator<_Ty>>::_Reallocate(unsigned __int64)'
+        with
+        [
+            _Ty=brotli::`anonymous-namespace'::HuffmanTree
+        ]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\vector(1036): note: see reference to function template instantiation 'void std::vector<brotli::`anonymous-namespace'::HuffmanTree,std::allocator<_Ty>>::_Reallocate(unsigned __int64)' being compiled
+        with
+        [
+            _Ty=brotli::`anonymous-namespace'::HuffmanTree
+        ]
+brotli/enc/entropy_encode.cc(89): note: see reference to class template instantiation 'std::vector<brotli::`anonymous-namespace'::HuffmanTree,std::allocator<_Ty>>' being compiled
+        with
+        [
+            _Ty=brotli::`anonymous-namespace'::HuffmanTree
+        ]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\limits(214): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+histogram.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\limits(214): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+literal_cost.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\limits(214): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+metablock.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\limits(214): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+static_dict.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\limits(214): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+streams.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\xlocale(341): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE\exception(361): warning C4577: 'noexcept' used with no exception handling mode specified; termination on exception is not guaranteed. Specify /EHsc
+bit_reader.c
+decode.c
+huffman.c
+state.c
+streams.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+lua_brotli.obj : warning LNK4197: export 'luaopen_brotli' specified multiple times; using first specification
+   Creating library brotli.lib and object brotli.exp
+Installing https://luarocks.org/lua-brotli-1.0-2.src.rock...
+Using https://luarocks.org/lua-brotli-1.0-2.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folua_brotli.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ lua_brotli.cc -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/enc/backward_references.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/enc/backward_references.cc -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/enc/block_splitter.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/enc/block_splitter.cc -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/enc/brotli_bit_stream.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/enc/brotli_bit_stream.cc -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/enc/encode.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/enc/encode.cc -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/enc/encode_parallel.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/enc/encode_parallel.cc -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/enc/entropy_encode.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/enc/entropy_encode.cc -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/enc/histogram.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/enc/histogram.cc -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/enc/literal_cost.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/enc/literal_cost.cc -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/enc/metablock.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/enc/metablock.cc -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/enc/static_dict.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/enc/static_dict.cc -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/enc/streams.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/enc/streams.cc -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/dec/bit_reader.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/dec/bit_reader.c -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/dec/decode.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/dec/decode.c -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/dec/huffman.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/dec/huffman.c -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/dec/state.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/dec/state.c -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+cl /nologo /MD /O2 -c -Fobrotli/dec/streams.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src/ brotli/dec/streams.c -DLUA_BUILD_AS_DLL -DLUA_LIB -DWIN32_LEAN_AND_MEAN
+link -dll -def:brotli.def -out:brotli.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib lua_brotli.obj brotli/enc/backward_references.obj brotli/enc/block_splitter.obj brotli/enc/brotli_bit_stream.obj brotli/enc/encode.obj brotli/enc/encode_parallel.obj brotli/enc/entropy_encode.obj brotli/enc/histogram.obj brotli/enc/literal_cost.obj brotli/enc/metablock.obj brotli/enc/static_dict.obj brotli/enc/streams.obj brotli/dec/bit_reader.obj brotli/dec/decode.obj brotli/dec/huffman.obj brotli/dec/state.obj brotli/dec/streams.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+lua-brotli 1.0-2 is now built and installed in C:\ste\x64\luarockstree (license: Apache License 2.0)
+

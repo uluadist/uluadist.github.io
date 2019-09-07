@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+lua-mecab.cpp:2:10: fatal error: 'lua.h' file not found
+#include <lua.h>
+         ^
+1 error generated.
+make: *** [lua-mecab.o] Error 1
+
+Error: Build error: Failed building.

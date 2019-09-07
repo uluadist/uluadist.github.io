@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+lua/ltermbox.c:213:12: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+LUALIB_API luaopen_ltermbox(lua_State *L) {
+~~~~~~~~~~ ^
+1 warning generated.
+No existing manifest. Attempting to rebuild...

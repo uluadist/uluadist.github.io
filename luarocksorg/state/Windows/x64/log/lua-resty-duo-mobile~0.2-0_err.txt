@@ -1,0 +1,16 @@
+Cloning into 'lua-resty-duo-mobile'...
+Note: checking out '7ec5348eb72c22e03d9dd8e177093330d03550f0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lua-resty-duo-mobile 0.2-0: lua-resty-http == 0.12
+Missing dependency for lua-resty-duo-mobile 0.2-0: lua-resty-http == 0.12

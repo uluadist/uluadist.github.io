@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for eaw-abstraction-layer 0.2-3: penlight >= 1.5.4
+Missing dependency for eaw-abstraction-layer 0.2-3: penlight >= 1.5.4

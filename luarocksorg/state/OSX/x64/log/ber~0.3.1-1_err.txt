@@ -1,0 +1,18 @@
+Warning: skipping dependency checks.
+src/pdu/pdu.c:17:22: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+    fprintf (stderr, msg);
+                     ^~~
+src/pdu/pdu.c:77:3: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+         mid - odr.modules, odr.names + mid->nameaddr);
+         ^~~~~~~~~~~~~~~~~
+2 warnings generated.
+/Users/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/OSX/x64/luajit: (command line):1: unexpected symbol near '<eof>'
+install: illegal option -- D
+usage: install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 file2
+       install [-bCcpSsv] [-B suffix] [-f flags] [-g group] [-m mode]
+               [-o owner] file1 ... fileN directory
+       install -d [-v] [-g group] [-m mode] [-o owner] directory ...
+make: *** [install] Error 64
+
+Error: Build error: Failed installing.

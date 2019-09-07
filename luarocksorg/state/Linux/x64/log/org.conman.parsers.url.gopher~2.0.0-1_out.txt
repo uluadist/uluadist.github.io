@@ -1,0 +1,5 @@
+Installing https://luarocks.org/org.conman.parsers.url.gopher-2.0.0-1.src.rock...
+Using https://luarocks.org/org.conman.parsers.url.gopher-2.0.0-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+org.conman.parsers.url.gopher 2.0.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: LGPL)
+

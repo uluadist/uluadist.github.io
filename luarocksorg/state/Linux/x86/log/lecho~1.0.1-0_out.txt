@@ -1,0 +1,7 @@
+Installing https://luarocks.org/lecho-1.0.1-0.src.rock...
+Using https://luarocks.org/lecho-1.0.1-0.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c lecho.c -o lecho.o
+gcc -shared -o lecho/core.so -L/home/sp/Dropbox/Linux/x86/luajit//lib lecho.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lecho 1.0.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

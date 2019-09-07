@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for kong-plugin-abac 0.0.1-1: lua-resty-http == 0.12
+Missing dependency for kong-plugin-abac 0.0.1-1: dkjson == 2.5
+Missing dependency for kong-plugin-abac 0.0.1-1: lua-resty-http == 0.12
+Missing dependency for kong-plugin-abac 0.0.1-1: dkjson == 2.5

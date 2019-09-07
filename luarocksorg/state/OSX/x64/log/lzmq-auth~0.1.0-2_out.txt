@@ -1,0 +1,25 @@
+Archive:  v0.1.0.zip
+59a2147d847ff77c1503ffba4d63e43dc97264c7
+   creating: lzmq-auth-0.1.0/
+  inflating: lzmq-auth-0.1.0/.gitignore  
+  inflating: lzmq-auth-0.1.0/.travis.yml  
+  inflating: lzmq-auth-0.1.0/LICENSE  
+  inflating: lzmq-auth-0.1.0/README.md  
+  inflating: lzmq-auth-0.1.0/lakeconfig.lua  
+  inflating: lzmq-auth-0.1.0/lakefile  
+   creating: lzmq-auth-0.1.0/rockspecs/
+  inflating: lzmq-auth-0.1.0/rockspecs/lzmq-auth-scm-0.rockspec  
+   creating: lzmq-auth-0.1.0/src/
+   creating: lzmq-auth-0.1.0/src/lua/
+  inflating: lzmq-auth-0.1.0/src/lua/auth.lua  
+  inflating: lzmq-auth-0.1.0/src/lua/cert.lua  
+   creating: lzmq-auth-0.1.0/src/lua/impl/
+  inflating: lzmq-auth-0.1.0/src/lua/impl/auth_zap.lua  
+   creating: lzmq-auth-0.1.0/test/
+  inflating: lzmq-auth-0.1.0/test/test_auth.lua  
+  inflating: lzmq-auth-0.1.0/test/test_cert.lua  
+Installing https://luarocks.org/lzmq-auth-0.1.0-2.src.rock...
+Using https://luarocks.org/lzmq-auth-0.1.0-2.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lzmq-auth 0.1.0-2 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

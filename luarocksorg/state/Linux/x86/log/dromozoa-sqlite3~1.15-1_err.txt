@@ -1,0 +1,67 @@
+Warning: skipping dependency checks.
+In file included from context.cpp:18:
+common.hpp:21:21: error: sqlite3.h: No such file or directory
+In file included from context.cpp:18:
+common.hpp:32: error: expected ‘)’ before ‘*’ token
+common.hpp:35: error: ISO C++ forbids declaration of ‘sqlite3’ with no type
+common.hpp:35: error: expected ‘;’ before ‘*’ token
+common.hpp:38: error: ISO C++ forbids declaration of ‘sqlite3’ with no type
+common.hpp:38: error: expected ‘;’ before ‘*’ token
+common.hpp:46: error: ‘sqlite3’ has not been declared
+common.hpp:48: error: expected constructor, destructor, or type conversion before ‘*’ token
+common.hpp:52: error: expected ‘)’ before ‘*’ token
+common.hpp:55: error: ISO C++ forbids declaration of ‘sqlite3_stmt’ with no type
+common.hpp:55: error: expected ‘;’ before ‘*’ token
+common.hpp:57: error: ISO C++ forbids declaration of ‘sqlite3_stmt’ with no type
+common.hpp:57: error: expected ‘;’ before ‘*’ token
+common.hpp:62: error: ‘sqlite3_stmt’ has not been declared
+common.hpp:63: error: expected constructor, destructor, or type conversion before ‘*’ token
+common.hpp:65: error: ‘sqlite3_context’ has not been declared
+common.hpp:69: error: ‘sqlite3’ has not been declared
+common.hpp:70: error: ‘sqlite3_stmt’ has not been declared
+context.cpp:22: error: expected constructor, destructor, or type conversion before ‘*’ token
+context.cpp:26: error: ‘sqlite3_context’ has not been declared
+context.cpp: In function ‘void dromozoa::<unnamed>::result_text(lua_State*, int*)’:
+context.cpp:31: error: ‘SQLITE_TRANSIENT’ was not declared in this scope
+context.cpp:31: error: ‘sqlite3_result_text’ was not declared in this scope
+context.cpp:33: error: ‘SQLITE_STATIC’ was not declared in this scope
+context.cpp:33: error: ‘sqlite3_result_text’ was not declared in this scope
+context.cpp: In function ‘void dromozoa::<unnamed>::impl_result_int64(lua_State*)’:
+context.cpp:38: error: ‘check_context’ was not declared in this scope
+context.cpp:38: error: ‘sqlite3_int64’ was not declared in this scope
+context.cpp:38: error: no matching function for call to ‘luaX_check_integer(lua_State*&, int)’
+context.cpp:38: error: ‘sqlite3_result_int64’ was not declared in this scope
+context.cpp: In function ‘void dromozoa::<unnamed>::impl_result_double(lua_State*)’:
+context.cpp:43: error: ‘check_context’ was not declared in this scope
+context.cpp:43: error: ‘sqlite3_result_double’ was not declared in this scope
+context.cpp: In function ‘void dromozoa::<unnamed>::impl_result_text(lua_State*)’:
+context.cpp:48: error: ‘check_context’ was not declared in this scope
+context.cpp: In function ‘void dromozoa::<unnamed>::impl_result_blob(lua_State*)’:
+context.cpp:53: error: ‘sqlite3_context’ was not declared in this scope
+context.cpp:53: error: ‘context’ was not declared in this scope
+context.cpp:53: error: ‘check_context’ was not declared in this scope
+context.cpp:58: error: ‘SQLITE_TRANSIENT’ was not declared in this scope
+context.cpp:58: error: ‘sqlite3_result_blob’ was not declared in this scope
+context.cpp:60: error: ‘sqlite3_result_zeroblob’ was not declared in this scope
+context.cpp: In function ‘void dromozoa::<unnamed>::impl_result_null(lua_State*)’:
+context.cpp:66: error: ‘check_context’ was not declared in this scope
+context.cpp:66: error: ‘sqlite3_result_null’ was not declared in this scope
+context.cpp: In function ‘void dromozoa::<unnamed>::impl_result(lua_State*)’:
+context.cpp:71: error: ‘sqlite3_context’ was not declared in this scope
+context.cpp:71: error: ‘context’ was not declared in this scope
+context.cpp:71: error: ‘check_context’ was not declared in this scope
+context.cpp:75: error: ‘sqlite3_int64’ was not declared in this scope
+context.cpp:75: error: no matching function for call to ‘luaX_check_integer(lua_State*&, int)’
+context.cpp:75: error: ‘sqlite3_result_int64’ was not declared in this scope
+context.cpp:77: error: ‘sqlite3_result_double’ was not declared in this scope
+context.cpp:84: error: ‘sqlite3_result_int64’ was not declared in this scope
+context.cpp:87: error: ‘sqlite3_result_null’ was not declared in this scope
+context.cpp: At global scope:
+context.cpp:93: error: ‘sqlite3_context’ has not been declared
+context.cpp: In function ‘void dromozoa::new_context(lua_State*, int*)’:
+context.cpp:94: error: ‘sqlite3_context’ was not declared in this scope
+context.cpp:94: error: parse error in template argument list
+context.cpp:94: error: no matching function for call to ‘luaX_new(lua_State*&, int*&)’
+make: *** [context.o] Error 1
+
+Error: Build error: Failed building.

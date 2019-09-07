@@ -1,0 +1,8 @@
+Installing https://rocks.moonscript.org/lua-cmsgpack-0.4.0-0.rockspec...
+Using https://rocks.moonscript.org/lua-cmsgpack-0.4.0-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-cmsgpack-0.4.0-0-9454/lua-cmsgpack/.git/
+gcc -O2 -fPIC -I/home/sp/luajit//include -c lua_cmsgpack.c -o lua_cmsgpack.o
+gcc -shared -o cmsgpack.so -L/home/sp/luajit//lib lua_cmsgpack.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lua-cmsgpack 0.4.0-0 is now built and installed in /home/sp/luarockstree (license: Two-clause BSD)
+

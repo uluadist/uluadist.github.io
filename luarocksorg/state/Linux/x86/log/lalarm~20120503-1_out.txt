@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/lalarm-20120503-1.src.rock...
+Using https://rocks.moonscript.org/lalarm-20120503-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lalarm.c -o lalarm.o
+gcc -shared -o alarm.so -L/home/sp/luajit/lib lalarm.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+lalarm 20120503-1 is now built and installed in /home/sp/luarockstree (license: Public domain)
+

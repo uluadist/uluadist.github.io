@@ -1,0 +1,6 @@
+Installing https://luarocks.org/lua-resty-socket-0.0.6-0.rockspec...
+Using https://luarocks.org/lua-resty-socket-0.0.6-0.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_lua-resty-socket-0.0.6-0-8053/lua-resty-socket/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-resty-socket 0.0.6-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

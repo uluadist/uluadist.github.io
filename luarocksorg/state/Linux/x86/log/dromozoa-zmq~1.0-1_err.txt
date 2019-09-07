@@ -1,0 +1,21 @@
+Warning: skipping dependency checks.
+In file included from context.cpp:18:
+common.hpp:23:17: error: zmq.h: No such file or directory
+In file included from context.cpp:18:
+common.hpp:67: error: ISO C++ forbids declaration of ‘zmq_msg_t’ with no type
+common.hpp:67: error: expected ‘;’ before ‘*’ token
+common.hpp:71: error: ‘zmq_msg_t’ does not name a type
+common.hpp:77: error: expected constructor, destructor, or type conversion before ‘*’ token
+context.cpp: In function ‘void dromozoa::<unnamed>::impl_call(lua_State*)’:
+context.cpp:27: error: ‘zmq_ctx_new’ was not declared in this scope
+context.cpp: In function ‘void dromozoa::<unnamed>::impl_shutdown(lua_State*)’:
+context.cpp:44: error: ‘zmq_ctx_shutdown’ was not declared in this scope
+context.cpp: In function ‘void dromozoa::<unnamed>::impl_socket(lua_State*)’:
+context.cpp:53: error: ‘zmq_socket’ was not declared in this scope
+context.cpp: In function ‘void dromozoa::<unnamed>::impl_get(lua_State*)’:
+context.cpp:62: error: ‘zmq_ctx_get’ was not declared in this scope
+context.cpp: In function ‘void dromozoa::<unnamed>::impl_set(lua_State*)’:
+context.cpp:73: error: ‘zmq_ctx_set’ was not declared in this scope
+make: *** [context.o] Error 1
+
+Error: Build error: Failed building.

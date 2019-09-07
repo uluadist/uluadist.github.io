@@ -1,0 +1,3 @@
+gcc -c -O2 -fPIC -fPIC -I/home/sp/luajit/include/lua5.1 lua_system_constants.c -o lua_system_constants.o
+Installing https://rocks.moonscript.org/lua_system_constants-0.1-2.rockspec...
+Using https://rocks.moonscript.org/lua_system_constants-0.1-2.rockspec... switching to 'build' mode

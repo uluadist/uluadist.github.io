@@ -1,0 +1,17 @@
+Warning: skipping dependency checks.
+Note: checking out '0.3'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+HEAD is now at 5bca586... integration fix
+mkdir: cannot create directory `/usr/local/share/wtf': Permission denied
+cp: target `/usr/local/share/wtf/data/honeybot/fake/drupal' is not a directory
+
+Error: Build error: Failed building.

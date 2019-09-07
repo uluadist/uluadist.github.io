@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/iris-0.1-1.rockspec...
+Using https://rocks.moonscript.org/iris-0.1-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_iris-0.1-1-1561/iris-lua/.git/
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+iris 0.1-1 is now built and installed in /home/sp/luarockstree (license: MIT/X11)
+

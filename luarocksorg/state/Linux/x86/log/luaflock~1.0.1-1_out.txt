@@ -1,0 +1,7 @@
+Installing https://luarocks.org/luaflock-1.0.1-1.src.rock...
+Using https://luarocks.org/luaflock-1.0.1-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c flock.c -o flock.o
+gcc -shared -o flock.so -L/home/sp/Dropbox/Linux/x86/luajit//lib flock.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+luaflock 1.0.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: zlib)
+

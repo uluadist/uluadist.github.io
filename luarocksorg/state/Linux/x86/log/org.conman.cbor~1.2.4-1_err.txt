@@ -1,0 +1,15 @@
+Warning: skipping dependency checks.
+fatal: Not a git repository (or any of the parent directories): .git
+/home/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/Linux/x86/luajit: (command line):1: function arguments expected near '<eof>'
+make: Warning: File `Makefile' has modification time 6.3e+08 s in the future
+make: warning: Clock skew detected. Your build may be incomplete.
+fatal: Not a git repository (or any of the parent directories): .git
+/home/sp/Dropbox/Prj/scilua/head/luajit/2_1_head20151128/Linux/x86/luajit: (command line):1: function arguments expected near '<eof>'
+make: Warning: File `Makefile' has modification time 6.3e+08 s in the future
+cbor_c.c:28:17: fatal error: lua.h: No such file or directory
+ #include <lua.h>
+                 ^
+compilation terminated.
+make: *** [cbor_c.o] Error 1
+
+Error: Build error: Failed installing.

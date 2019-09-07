@@ -1,0 +1,3 @@
+Installing https://luarocks.org/lua-epoll-1.0-1.src.rock...
+Using https://luarocks.org/lua-epoll-1.0-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lepoll.c -o lepoll.o

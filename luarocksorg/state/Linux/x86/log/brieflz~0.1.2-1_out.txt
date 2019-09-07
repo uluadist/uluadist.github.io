@@ -1,0 +1,9 @@
+Installing https://luarocks.org/brieflz-0.1.2-1.src.rock...
+Using https://luarocks.org/brieflz-0.1.2-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/brieflz.c -o src/brieflz.o -Ivendor/brieflz
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c vendor/brieflz/brieflz.c -o vendor/brieflz/brieflz.o -Ivendor/brieflz
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c vendor/brieflz/depacks.c -o vendor/brieflz/depacks.o -Ivendor/brieflz
+gcc -shared -o brieflz.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/brieflz.o vendor/brieflz/brieflz.o vendor/brieflz/depacks.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+brieflz 0.1.2-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: zlib)
+

@@ -1,0 +1,22 @@
+Warning: skipping dependency checks.
+Cloning into 'lunamark'...
+Note: checking out '572b8fabc0d4a31f29e80bb6372a2d87e58b64cf'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+No existing manifest. Attempting to rebuild...
+Missing dependency for lunamark 0.5.0-1: luautf8 >= 0.1.1
+Missing dependency for lunamark 0.5.0-1: lpeg >= 0.10
+Missing dependency for lunamark 0.5.0-1: alt-getopt >= 0.7
+Missing dependency for lunamark 0.5.0-1: cosmo >= 10.0
+Missing dependency for lunamark 0.5.0-1: luautf8 >= 0.1.1
+Missing dependency for lunamark 0.5.0-1: lpeg >= 0.10
+Missing dependency for lunamark 0.5.0-1: alt-getopt >= 0.7
+Missing dependency for lunamark 0.5.0-1: cosmo >= 10.0

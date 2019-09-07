@@ -1,0 +1,74 @@
+Archive:  v1.0.1.zip
+bb1fb609259ad77011275128498cef117aa20f91
+   creating: SimpleITKLuaRock-1.0.1/
+  inflating: SimpleITKLuaRock-1.0.1/CMakeLists.txt  
+  inflating: SimpleITKLuaRock-1.0.1/README.md  
+  inflating: SimpleITKLuaRock-1.0.1/circle.yml  
+   creating: SimpleITKLuaRock-1.0.1/examples/
+  inflating: SimpleITKLuaRock-1.0.1/examples/SimpleDerivative.lua  
+  inflating: SimpleITKLuaRock-1.0.1/simpleitk-0.10-0.rockspec  
+  inflating: SimpleITKLuaRock-1.0.1/simpleitk-1.0-0.rockspec  
+  inflating: SimpleITKLuaRock-1.0.1/simpleitk-1.0.1-0.rockspec  
+-- The C compiler identification is AppleClang 7.0.2.7000181
+-- The CXX compiler identification is AppleClang 7.0.2.7000181
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x86/cc
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x86/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Users/sp/Dropbox/Bin/OSX/x86/c++
+-- Check for working CXX compiler: /Users/sp/Dropbox/Bin/OSX/x86/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/luarocks_luarocks-source-simpleitk-1.0.1-0-5646/SimpleITKLuaRock-1.0.1/build.luarocks
+Scanning dependencies of target SimpleITKSuperbuild-download
+[  6%] Creating directories for 'SimpleITKSuperbuild-download'
+[ 12%] Performing download step (git clone) for 'SimpleITKSuperbuild-download'
+Your branch is up-to-date with 'origin/master'.
+[ 18%] No patch step for 'SimpleITKSuperbuild-download'
+[ 25%] Performing update step for 'SimpleITKSuperbuild-download'
+Current branch master is up to date.
+[ 31%] No configure step for 'SimpleITKSuperbuild-download'
+[ 37%] No build step for 'SimpleITKSuperbuild-download'
+[ 43%] No install step for 'SimpleITKSuperbuild-download'
+[ 50%] Completed 'SimpleITKSuperbuild-download'
+[ 50%] Built target SimpleITKSuperbuild-download
+Scanning dependencies of target SimpleITKSuperbuild
+[ 56%] Creating directories for 'SimpleITKSuperbuild'
+[ 62%] No download step for 'SimpleITKSuperbuild'
+[ 68%] No patch step for 'SimpleITKSuperbuild'
+[ 75%] No update step for 'SimpleITKSuperbuild'
+[ 81%] Performing configure step for 'SimpleITKSuperbuild'
+loading initial cache file /tmp/luarocks_luarocks-source-simpleitk-1.0.1-0-5646/SimpleITKLuaRock-1.0.1/build.luarocks/SimpleITKSuperbuild-prefix/tmp/SimpleITKSuperbuild-cache-.cmake
+-- The C compiler identification is AppleClang 7.0.2.7000181
+-- The CXX compiler identification is AppleClang 7.0.2.7000181
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x86/cc
+-- Check for working C compiler: /Users/sp/Dropbox/Bin/OSX/x86/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Users/sp/Dropbox/Bin/OSX/x86/c++
+-- Check for working CXX compiler: /Users/sp/Dropbox/Bin/OSX/x86/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Git: /usr/bin/git (found version "2.5.4 (Apple Git-61)") 
+-- Setting build type to 'Release' as none was specified.
+-- Performing Test CXX_HAS_stdcxx11
+-- Performing Test CXX_HAS_stdcxx11 - Success
+-- Checking if c++11 is required...
+-- Checking if c++11 is required... NO
+-- Performing Test Weak Link MODULE -> SHARED (gnu_ld_ignore) - Failed
+-- Performing Test Weak Link MODULE -> SHARED (osx_dynamic_lookup) - Success
+-- Configuring incomplete, errors occurred!
+See also "/tmp/luarocks_luarocks-source-simpleitk-1.0.1-0-5646/SimpleITKLuaRock-1.0.1/build.luarocks/SimpleITKSuperbuild-build/CMakeFiles/CMakeOutput.log".
+See also "/tmp/luarocks_luarocks-source-simpleitk-1.0.1-0-5646/SimpleITKLuaRock-1.0.1/build.luarocks/SimpleITKSuperbuild-build/CMakeFiles/CMakeError.log".
+Installing https://luarocks.org/simpleitk-1.0.1-0.rockspec...
+Using https://luarocks.org/simpleitk-1.0.1-0.rockspec... switching to 'build' mode

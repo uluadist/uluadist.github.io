@@ -1,0 +1,14 @@
+lua-whereami.c
+whereami.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library whereami/core.lib and object whereami/core.exp
+Installing https://luarocks.org/whereami-1.2.1-0.rockspec...
+Using https://luarocks.org/whereami-1.2.1-0.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Folua-whereami.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src lua-whereami.c -Iwhereami/src
+cl /nologo /MD /O2 -c -Fowhereami/src/whereami.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src whereami/src/whereami.c -Iwhereami/src
+link -dll -def:core.def -out:whereami/core.dll Z:/sp/Dropbox/Windows/x86/luajit/src/lua51.lib lua-whereami.obj whereami/src/whereami.obj
+Updating manifest for C:\ste\x86\luarockstree/lib/luarocks/rocks
+whereami 1.2.1-0 is now built and installed in C:\ste\x86\luarockstree (license: MIT)
+

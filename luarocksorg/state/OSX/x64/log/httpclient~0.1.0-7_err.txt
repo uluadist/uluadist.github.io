@@ -1,0 +1,18 @@
+Warning: skipping dependency checks.
+Cloning into 'lua-httpclient'...
+Note: checking out '33d57c792d303f472a5da201f24a68b9cc1abf25'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+No existing manifest. Attempting to rebuild...
+Missing dependency for httpclient 0.1.0-7: luasocket ~> 3.0rc1-1
+Missing dependency for httpclient 0.1.0-7: inspect ~> 3.0-1
+Missing dependency for httpclient 0.1.0-7: luasocket ~> 3.0rc1-1
+Missing dependency for httpclient 0.1.0-7: inspect ~> 3.0-1

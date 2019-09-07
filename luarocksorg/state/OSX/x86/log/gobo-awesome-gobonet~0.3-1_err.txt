@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+gobo/awesome/gobonet/core.c:23:4: warning: implicit declaration of function 'close' is invalid in C99 [-Wimplicit-function-declaration]
+   close(fd);
+   ^
+1 warning generated.
+No existing manifest. Attempting to rebuild...

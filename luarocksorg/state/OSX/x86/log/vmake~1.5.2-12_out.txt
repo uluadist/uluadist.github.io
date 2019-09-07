@@ -1,0 +1,5 @@
+Installing https://luarocks.org/vmake-1.5.2-12.rockspec...
+Using https://luarocks.org/vmake-1.5.2-12.rockspec... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+vmake 1.5.2-12 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: NCSA (BSD-like))
+

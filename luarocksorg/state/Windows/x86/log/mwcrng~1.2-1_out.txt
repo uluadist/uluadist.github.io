@@ -1,0 +1,18 @@
+l_rng.c
+l_rng.c(7): error C2061: syntax error: identifier 'seeds'
+l_rng.c(7): error C2059: syntax error: ';'
+l_rng.c(7): error C2059: syntax error: '['
+l_rng.c(8): error C2061: syntax error: identifier 'carry'
+l_rng.c(8): error C2059: syntax error: ';'
+l_rng.c(8): error C2513: '/*global*/ ': no variable declared before '='
+l_rng.c(12): error C2146: syntax error: missing ')' before identifier 'metaseed'
+l_rng.c(12): error C2061: syntax error: identifier 'metaseed'
+l_rng.c(12): error C2059: syntax error: ';'
+l_rng.c(12): error C2059: syntax error: ')'
+l_rng.c(13): error C2449: found '{' at file scope (missing function header?)
+l_rng.c(30): error C2059: syntax error: '}'
+l_rng.c(57): error C2065: 'uint32_t': undeclared identifier
+l_rng.c(57): error C2146: syntax error: missing ')' before identifier 'luaL_checkinteger'
+Installing https://luarocks.org/mwcrng-1.2-1.src.rock...
+Using https://luarocks.org/mwcrng-1.2-1.src.rock... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fol_rng.obj -IZ:/sp/Dropbox/Windows/x86/luajit/src l_rng.c

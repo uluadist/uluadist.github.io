@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lusty 0.8-1: mediator_lua >= 1.1-2
+Missing dependency for lusty 0.8-1: busted >= 1.7-1
+Missing dependency for lusty 0.8-1: mediator_lua >= 1.1-2
+Missing dependency for lusty 0.8-1: busted >= 1.7-1

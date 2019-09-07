@@ -1,0 +1,6 @@
+Installing https://luarocks.org/many2one-1.17.3.1-1.rockspec...
+Using https://luarocks.org/many2one-1.17.3.1-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_many2one-1.17.3.1-1-4795/many2one/.git/
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+many2one 1.17.3.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

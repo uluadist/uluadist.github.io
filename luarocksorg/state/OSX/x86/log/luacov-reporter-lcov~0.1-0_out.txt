@@ -1,0 +1,19 @@
+Archive:  v0.1.zip
+c445a36b898e9433a82c8cb386c5176a194a9022
+   creating: luacov-reporter-lcov-0.1/
+  inflating: luacov-reporter-lcov-0.1/.gitignore  
+  inflating: luacov-reporter-lcov-0.1/.luacov  
+  inflating: luacov-reporter-lcov-0.1/LICENSE.md  
+ extracting: luacov-reporter-lcov-0.1/NEWS  
+  inflating: luacov-reporter-lcov-0.1/README.md  
+  inflating: luacov-reporter-lcov-0.1/luacov-reporter-lcov-0.1-0.rockspec  
+   creating: luacov-reporter-lcov-0.1/luacov/
+   creating: luacov-reporter-lcov-0.1/luacov/reporter/
+  inflating: luacov-reporter-lcov-0.1/luacov/reporter/lcov.lua  
+   creating: luacov-reporter-lcov-0.1/spec/
+  inflating: luacov-reporter-lcov-0.1/spec/lcov_spec.lua  
+Installing https://luarocks.org/luacov-reporter-lcov-0.1-0.src.rock...
+Using https://luarocks.org/luacov-reporter-lcov-0.1-0.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+luacov-reporter-lcov 0.1-0 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT)
+

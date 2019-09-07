@@ -1,0 +1,18 @@
+Warning: skipping dependency checks.
+Cloning into 'auth0-nginx'...
+Note: checking out '43f889ad12a667ea55b1d108b4e9b77ab999ffb1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+No existing manifest. Attempting to rebuild...
+Missing dependency for auth0-nginx 1.5.0-0: lua-resty-http == 0.08
+Missing dependency for auth0-nginx 1.5.0-0: lua-resty-jwt == 0.1.5
+Missing dependency for auth0-nginx 1.5.0-0: lua-resty-http == 0.08
+Missing dependency for auth0-nginx 1.5.0-0: lua-resty-jwt == 0.1.5

@@ -1,0 +1,15 @@
+Installing https://luarocks.org/teateatea-1.1-1.rockspec...
+Using https://luarocks.org/teateatea-1.1-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_teateatea-1.1-1-1485/teateatea/.git/
+mkdir -p obj
+gcc -c -O3 -Wall -fPIC -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include src/tea_tcursor.c -o obj/tea_tcursor.o
+gcc -c -O3 -Wall -fPIC -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include src/tea_pack.c -o obj/tea_pack.o
+gcc -c -O3 -Wall -fPIC -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include src/teateatea.c -o obj/teateatea.o
+gcc -shared -shared obj/tea_tcursor.o obj/tea_pack.o obj/teateatea.o -o teateatea.so
+mkdir -p /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/teateatea/1.1-1/lib
+cp teateatea.so /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/teateatea/1.1-1/lib/teateatea.so
+chmod 755 /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/teateatea/1.1-1/lib/teateatea.so
+make install CC="gcc" LDFLAGS="-shared" CFLAGS="-O2 -fPIC" LUA_INCDIR="-I/home/sp/Dropbox/Linux/x86/luajit//include" LUA_LIBDIR="/home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/teateatea/1.1-1/lib"
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+teateatea 1.1-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+src/spi.c:19:10: fatal error: 'linux/spi/spidev.h' file not found
+#include <linux/spi/spidev.h>
+         ^
+1 error generated.
+make[1]: *** [obj/spi.o] Error 1
+make: *** [c-periphery/periphery.a] Error 2
+
+Error: Build error: Failed building.

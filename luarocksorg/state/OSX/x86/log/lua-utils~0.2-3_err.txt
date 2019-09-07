@@ -1,0 +1,5 @@
+Warning: skipping dependency checks.
+Cloning into 'lua-utils'...
+cp: lib/string.lua: No such file or directory
+
+Error: Build error: Failed installing lib/string.lua in /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/lua-utils/0.2-3/lua/utils/string.lua

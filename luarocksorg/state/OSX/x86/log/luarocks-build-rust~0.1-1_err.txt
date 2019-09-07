@@ -1,0 +1,2 @@
+
+Error: /tmp/luarocks_luarocks-build-rust-0.1-1-7199/luarocks-build-rust-0.1-1.rockspec: Mandatory field build is missing.

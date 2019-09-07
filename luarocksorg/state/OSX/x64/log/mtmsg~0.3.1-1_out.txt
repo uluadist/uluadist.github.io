@@ -1,0 +1,64 @@
+Archive:  v0.3.1.zip
+53a8a36f829295e910926bd59d7179d43efe33a7
+   creating: lua-mtmsg-0.3.1/
+  inflating: lua-mtmsg-0.3.1/.gitignore  
+  inflating: lua-mtmsg-0.3.1/.travis.yml  
+  inflating: lua-mtmsg-0.3.1/CMakeLists.txt  
+  inflating: lua-mtmsg-0.3.1/LICENSE  
+  inflating: lua-mtmsg-0.3.1/Makefile  
+  inflating: lua-mtmsg-0.3.1/README.md  
+  inflating: lua-mtmsg-0.3.1/appveyor.yml  
+   creating: lua-mtmsg-0.3.1/examples/
+  inflating: lua-mtmsg-0.3.1/examples/example01.lua  
+  inflating: lua-mtmsg-0.3.1/examples/example02.lua  
+  inflating: lua-mtmsg-0.3.1/examples/example03.lua  
+  inflating: lua-mtmsg-0.3.1/examples/example04.lua  
+  inflating: lua-mtmsg-0.3.1/examples/example05.lua  
+  inflating: lua-mtmsg-0.3.1/examples/setup.sh  
+   creating: lua-mtmsg-0.3.1/rockspecs/
+  inflating: lua-mtmsg-0.3.1/rockspecs/mtmsg-0.1.0-1.rockspec  
+  inflating: lua-mtmsg-0.3.1/rockspecs/mtmsg-0.2.0-1.rockspec  
+  inflating: lua-mtmsg-0.3.1/rockspecs/mtmsg-0.3.0-1.rockspec  
+  inflating: lua-mtmsg-0.3.1/rockspecs/mtmsg-0.3.1-1.rockspec  
+  inflating: lua-mtmsg-0.3.1/rockspecs/mtmsg-scm-0.rockspec  
+   creating: lua-mtmsg-0.3.1/src/
+  inflating: lua-mtmsg-0.3.1/src/async_defines.h  
+  inflating: lua-mtmsg-0.3.1/src/async_util.c  
+  inflating: lua-mtmsg-0.3.1/src/async_util.h  
+  inflating: lua-mtmsg-0.3.1/src/buffer.c  
+  inflating: lua-mtmsg-0.3.1/src/buffer.h  
+  inflating: lua-mtmsg-0.3.1/src/compat-5.3.c  
+  inflating: lua-mtmsg-0.3.1/src/compat-5.3.h  
+  inflating: lua-mtmsg-0.3.1/src/error.c  
+  inflating: lua-mtmsg-0.3.1/src/error.h  
+  inflating: lua-mtmsg-0.3.1/src/listener.c  
+  inflating: lua-mtmsg-0.3.1/src/listener.h  
+  inflating: lua-mtmsg-0.3.1/src/main.c  
+  inflating: lua-mtmsg-0.3.1/src/main.h  
+  inflating: lua-mtmsg-0.3.1/src/mtmsg_compat.c  
+  inflating: lua-mtmsg-0.3.1/src/util.c  
+  inflating: lua-mtmsg-0.3.1/src/util.h  
+   creating: lua-mtmsg-0.3.1/tests/
+ extracting: lua-mtmsg-0.3.1/tests/test00.lua  
+  inflating: lua-mtmsg-0.3.1/tests/test01.lua  
+  inflating: lua-mtmsg-0.3.1/tests/test02.lua  
+  inflating: lua-mtmsg-0.3.1/tests/test03.lua  
+  inflating: lua-mtmsg-0.3.1/tests/test04.lua  
+  inflating: lua-mtmsg-0.3.1/tests/test05.lua  
+  inflating: lua-mtmsg-0.3.1/tests/test06.lua  
+  inflating: lua-mtmsg-0.3.1/tests/test07.lua  
+   creating: lua-mtmsg-0.3.1/thirdparty/
+  inflating: lua-mtmsg-0.3.1/thirdparty/lua-compat-license  
+Installing https://luarocks.org/mtmsg-0.3.1-1.rockspec...
+Using https://luarocks.org/mtmsg-0.3.1-1.rockspec... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/main.c -o src/main.o -DMTMSG_VERSION=0.3.1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/buffer.c -o src/buffer.o -DMTMSG_VERSION=0.3.1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/listener.c -o src/listener.o -DMTMSG_VERSION=0.3.1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/error.c -o src/error.o -DMTMSG_VERSION=0.3.1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/util.c -o src/util.o -DMTMSG_VERSION=0.3.1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/async_util.c -o src/async_util.o -DMTMSG_VERSION=0.3.1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c src/mtmsg_compat.c -o src/mtmsg_compat.o -DMTMSG_VERSION=0.3.1
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o mtmsg.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib src/main.o src/buffer.o src/listener.o src/error.o src/util.o src/async_util.o src/mtmsg_compat.o -lpthread
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+mtmsg 0.3.1-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT/X11)
+

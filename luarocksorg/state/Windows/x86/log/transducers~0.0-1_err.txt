@@ -1,0 +1,16 @@
+Cloning into 'transducers.lua'...
+Note: checking out '7e50c8ea0df122ecb7813e723e000b03a5138931'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Z:\sp\Dropbox\Windows\x86\luarocks\2.2\tools\cp: omitting directory `transducers.lua'
+Warning: skipping dependency checks.
+
+Error: Build error: Failed installing transducers.lua in C:\ste\x86\luarockstree/lib/luarocks/rocks/transducers/0.0-1/lua/transducers.lua

@@ -1,0 +1,25 @@
+Warning: skipping dependency checks.
+Warning: unmatched variable CMAKE_BUILD_TYPE
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CFLAGS
+
+
+Cloning into 'SimpleITKSuperbuild'...
+Already on 'master'
+CMake Error at /Applications/CMake.app/Contents/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake:148 (message):
+  Could NOT find Lua (missing: LUA_LIBRARIES LUA_INCLUDE_DIR)
+Call Stack (most recent call first):
+  /Applications/CMake.app/Contents/share/cmake-3.3/Modules/FindPackageHandleStandardArgs.cmake:388 (_FPHSA_FAILURE_MESSAGE)
+  /Applications/CMake.app/Contents/share/cmake-3.3/Modules/FindLua.cmake:167 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  /tmp/luarocks_luarocks-source-simpleitk-1.0.1-0-1698/SimpleITKLuaRock-1.0.1/build.luarocks/SimpleITKSuperbuild/CMake/sitkLanguageOptions.cmake:46 (find_package)
+  SuperBuild.cmake:270 (include)
+  CMakeLists.txt:38 (include)
+
+
+make[2]: *** [SimpleITKSuperbuild-prefix/src/SimpleITKSuperbuild-stamp/SimpleITKSuperbuild-configure] Error 1
+make[1]: *** [CMakeFiles/SimpleITKSuperbuild.dir/all] Error 2
+make: *** [all] Error 2
+
+Error: Build error: Failed building.

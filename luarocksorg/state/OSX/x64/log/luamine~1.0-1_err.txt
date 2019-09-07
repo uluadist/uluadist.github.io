@@ -1,0 +1,5 @@
+Warning: skipping dependency checks.
+Cloning into 'luamine'...
+cp: divs.lua: No such file or directory
+
+Error: Build error: Failed installing divs.lua in /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks/luamine/1.0-1/lua/discretization.lua

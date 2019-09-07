@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for promise 0.1-0: busted >= 1.10-0
+Missing dependency for promise 0.1-0: busted >= 1.10-0

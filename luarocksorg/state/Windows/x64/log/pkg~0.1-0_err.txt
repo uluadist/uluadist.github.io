@@ -1,0 +1,16 @@
+Cloning into 'package'...
+Note: checking out '67d97fc6177c5f62c273ef13d96fa19430069f1b'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+Z:\sp\Dropbox\Windows\x64\luarocks\tools\cp: cannot stat `pkg/version.lua': No such file or directory
+Warning: skipping dependency checks.
+
+Error: Build error: Failed installing pkg/version.lua in C:\ste\x64\luarockstree/lib/luarocks/rocks/pkg/0.1-0/lua/pkg/version.lua

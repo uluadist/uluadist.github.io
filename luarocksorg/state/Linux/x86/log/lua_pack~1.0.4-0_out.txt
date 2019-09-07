@@ -1,0 +1,7 @@
+Installing https://luarocks.org/lua_pack-1.0.4-0.rockspec...
+Using https://luarocks.org/lua_pack-1.0.4-0.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c lua_pack.c -o lua_pack.o
+gcc -shared -o lua_pack.so -L/home/sp/Dropbox/Linux/x86/luajit//lib lua_pack.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua_pack 1.0.4-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

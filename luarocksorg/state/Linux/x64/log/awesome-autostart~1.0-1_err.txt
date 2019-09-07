@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for awesome-autostart 1.0-1: luafilesystem 
+Missing dependency for awesome-autostart 1.0-1: luafilesystem 

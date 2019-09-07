@@ -1,0 +1,18 @@
+Warning: skipping dependency checks.
+Cloning into 'lgi'...
+Note: checking out '0f203a0cd0a5cfa1c034fdd267ca3307fae78494'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+make[1]: pkg-config: No such file or directory
+make[1]: *** [.depcheck] Error 1
+make: *** [all] Error 2
+
+Error: Build error: Failed building.

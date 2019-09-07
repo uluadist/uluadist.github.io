@@ -1,0 +1,8 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for luahue 1.0-1: luasocket 
+Missing dependency for luahue 1.0-1: luajson 
+Missing dependency for luahue 1.0-1: penlight 
+Missing dependency for luahue 1.0-1: luasocket 
+Missing dependency for luahue 1.0-1: luajson 
+Missing dependency for luahue 1.0-1: penlight 

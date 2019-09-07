@@ -1,0 +1,26 @@
+Installing https://luarocks.org/cmark-0.28.0-1.src.rock...
+Using https://luarocks.org/cmark-0.28.0-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c cmark_wrap.c -o cmark_wrap.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/blocks.c -o ext/blocks.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/houdini_html_u.c -o ext/houdini_html_u.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/references.c -o ext/references.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/buffer.c -o ext/buffer.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/html.c -o ext/html.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/render.c -o ext/render.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/cmark.c -o ext/cmark.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/inlines.c -o ext/inlines.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/scanners.c -o ext/scanners.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/cmark_ctype.c -o ext/cmark_ctype.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/iterator.c -o ext/iterator.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/utf8.c -o ext/utf8.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/commonmark.c -o ext/commonmark.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/latex.c -o ext/latex.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/xml.c -o ext/xml.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/houdini_href_e.c -o ext/houdini_href_e.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/man.c -o ext/man.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/houdini_html_e.c -o ext/houdini_html_e.o -I. -Iext
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c ext/node.c -o ext/node.o -I. -Iext
+gcc -shared -o cmark.so -L/home/sp/Dropbox/Linux/x86/luajit//lib cmark_wrap.o ext/blocks.o ext/houdini_html_u.o ext/references.o ext/buffer.o ext/html.o ext/render.o ext/cmark.o ext/inlines.o ext/scanners.o ext/cmark_ctype.o ext/iterator.o ext/utf8.o ext/commonmark.o ext/latex.o ext/xml.o ext/houdini_href_e.o ext/man.o ext/houdini_html_e.o ext/node.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+cmark 0.28.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: BSD2)
+

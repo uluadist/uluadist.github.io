@@ -1,0 +1,12 @@
+Warning: skipping dependency checks.
+lua.path: MACOSX_DEPLOYMENT_TARGET=10.8: command not found
+lua.path: MACOSX_DEPLOYMENT_TARGET=10.8: command not found
+lua.path: MACOSX_DEPLOYMENT_TARGET=10.8: command not found
+lua.path: MACOSX_DEPLOYMENT_TARGET=10.8: command not found
+/private/tmp/luarocks_cqueues-20150119.51-1-1074/cqueues-rel-20150119/src/socket.c:40:10: fatal error: 'openssl/crypto.h' file not found
+#include <openssl/crypto.h> /* CRYPTO_LOCK_SSL CRYPTO_add() */
+         ^
+1 error generated.
+make: *** [/private/tmp/luarocks_cqueues-20150119.51-1-1074/cqueues-rel-20150119/src/5.1/socket.o] Error 1
+
+Error: Build error: Failed building.

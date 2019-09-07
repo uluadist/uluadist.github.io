@@ -1,0 +1,7 @@
+Installing https://luarocks.org/apidemo-1.0-3.src.rock...
+Using https://luarocks.org/apidemo-1.0-3.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c apidemo.c -o apidemo.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o apidemo.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib apidemo.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+apidemo 1.0-3 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: public domain)
+

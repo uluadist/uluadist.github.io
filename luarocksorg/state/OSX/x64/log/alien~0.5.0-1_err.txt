@@ -1,0 +1,21 @@
+Warning: skipping dependency checks.
+src/alien/core.c:717:12: warning: 14 enumeration values not handled in switch: 'AT_SHORT', 'AT_USHORT', 'AT_INT'... [-Wswitch]
+    switch(af->params[i]) {
+           ^
+src/alien/core.c:836:12: warning: 14 enumeration values not handled in switch: 'AT_SHORT', 'AT_USHORT', 'AT_INT'... [-Wswitch]
+    switch(af->params[i]) {
+           ^
+2 warnings generated.
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libffi.a(ffi.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libffi.a(darwin.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libffi.a(ffi.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libffi.a(darwin.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libffi_convenience.a(ffi.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libffi_convenience.a(darwin.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libffi_convenience.a(ffi.o) has no symbols
+/Library/Developer/CommandLineTools/usr/bin/ranlib: file: .libs/libffi_convenience.a(darwin.o) has no symbols
+ld: library not found for -lgcc
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [src/alien/core.so] Error 1
+
+Error: Build error: Failed building.

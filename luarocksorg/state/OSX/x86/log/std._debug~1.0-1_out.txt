@@ -1,0 +1,30 @@
+Archive:  v1.0.zip
+69ccde7c66186ce6f2111bc0eaa2d84789888922
+   creating: _debug-1.0/
+  inflating: _debug-1.0/.gitignore   
+  inflating: _debug-1.0/.luacov      
+  inflating: _debug-1.0/.travis.yml  
+  inflating: _debug-1.0/AUTHORS.md   
+  inflating: _debug-1.0/LICENSE.md   
+  inflating: _debug-1.0/Makefile     
+  inflating: _debug-1.0/NEWS.md      
+  inflating: _debug-1.0/README.md    
+   creating: _debug-1.0/build-aux/
+  inflating: _debug-1.0/build-aux/config.ld.in  
+   creating: _debug-1.0/doc/
+  inflating: _debug-1.0/doc/index.html  
+  inflating: _debug-1.0/doc/ldoc.css  
+   creating: _debug-1.0/lib/
+   creating: _debug-1.0/lib/std/
+   creating: _debug-1.0/lib/std/_debug/
+  inflating: _debug-1.0/lib/std/_debug/init.lua  
+ extracting: _debug-1.0/lib/std/_debug/version.lua  
+   creating: _debug-1.0/spec/
+  inflating: _debug-1.0/spec/spec_helper.lua  
+  inflating: _debug-1.0/spec/version_spec.yaml  
+  inflating: _debug-1.0/std._debug-1.0-1.rockspec  
+Installing https://luarocks.org/std._debug-1.0-1.src.rock...
+Using https://luarocks.org/std._debug-1.0-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+std._debug 1.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

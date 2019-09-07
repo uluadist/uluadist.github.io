@@ -1,0 +1,7 @@
+Warning: skipping dependency checks.
+src/autoinstall.c:30:24: fatal error: lua5.1/lua.h: No such file or directory
+ #include <lua5.1/lua.h>
+                        ^
+compilation terminated.
+
+Error: Build error: Failed compiling object src/autoinstall.o

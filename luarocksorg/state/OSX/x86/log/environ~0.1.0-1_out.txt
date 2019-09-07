@@ -1,0 +1,36 @@
+Archive:  v0.1.0.zip
+83885aa7e1f592862707973fd51eeb38bb301eb2
+   creating: lua-environ-0.1.0/
+  inflating: lua-environ-0.1.0/.travis.yml  
+  inflating: lua-environ-0.1.0/LICENSE  
+  inflating: lua-environ-0.1.0/README.md  
+  inflating: lua-environ-0.1.0/appveyor.yml  
+   creating: lua-environ-0.1.0/examples/
+  inflating: lua-environ-0.1.0/examples/example.lua  
+  inflating: lua-environ-0.1.0/lakefile  
+   creating: lua-environ-0.1.0/rockspecs/
+  inflating: lua-environ-0.1.0/rockspecs/environ-0.1.0-1.rockspec  
+  inflating: lua-environ-0.1.0/rockspecs/environ-scm-0.rockspec  
+   creating: lua-environ-0.1.0/src/
+  inflating: lua-environ-0.1.0/src/environ.c  
+   creating: lua-environ-0.1.0/src/lua/
+  inflating: lua-environ-0.1.0/src/lua/environ.lua  
+   creating: lua-environ-0.1.0/src/lua/environ/
+  inflating: lua-environ-0.1.0/src/lua/environ/process.lua  
+  inflating: lua-environ-0.1.0/src/lua/environ/system.lua  
+  inflating: lua-environ-0.1.0/src/lua/environ/user.lua  
+  inflating: lua-environ-0.1.0/src/lua/environ/utils.lua  
+  inflating: lua-environ-0.1.0/src/lua/environ/volatile.lua  
+   creating: lua-environ-0.1.0/src/lua/environ/win32/
+  inflating: lua-environ-0.1.0/src/lua/environ/win32/reg.lua  
+  inflating: lua-environ-0.1.0/src/lua/environ/win32/system.lua  
+   creating: lua-environ-0.1.0/test/
+  inflating: lua-environ-0.1.0/test/test.lua  
+  inflating: lua-environ-0.1.0/test/utils.lua  
+Installing https://luarocks.org/environ-0.1.0-1.src.rock...
+Using https://luarocks.org/environ-0.1.0-1.src.rock... switching to 'build' mode
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x86/luajit//include -c src/environ.c -o src/environ.o
+env MACOSX_DEPLOYMENT_TARGET=10.8 gcc -bundle -undefined dynamic_lookup -all_load -o environ/core.so -L/Users/sp/Dropbox/OSX/x86/luajit//lib src/environ.o
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+environ 0.1.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

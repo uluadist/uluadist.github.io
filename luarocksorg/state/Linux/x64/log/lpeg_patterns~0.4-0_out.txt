@@ -1,0 +1,4 @@
+Installing https://luarocks.org/lpeg_patterns-0.4-0.all.rock...
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+
+lpeg_patterns 0.4-0 is now installed in /home/sp/PrjLocal/luarockstree (license: MIT)

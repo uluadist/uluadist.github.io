@@ -1,0 +1,4 @@
+Initialized empty Git repository in /tmp/luarocks_unzip-0.1.0-1-1636/lunzip/.git/
+Installing https://rocks.moonscript.org/unzip-0.1.0-1.rockspec...
+Using https://rocks.moonscript.org/unzip-0.1.0-1.rockspec... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c lunzip.c -o lunzip.o -Izlib

@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for alfons 2.3.2-1: ltext 
+Missing dependency for alfons 2.3.2-1: ltext 

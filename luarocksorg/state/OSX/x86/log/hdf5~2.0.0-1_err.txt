@@ -1,0 +1,19 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+gcclua-config.h:1:10: fatal error: 'gcc-plugin.h' file not found
+#include "gcc-plugin.h"
+         ^
+1 error generated.
+/bin/sh: pkg-config: command not found
+/bin/sh: pkg-config: command not found
+/bin/sh: pkg-config: command not found
+/bin/sh: pkg-config: command not found
+gcclua.c:7:10: fatal error: 'gcc-plugin.h' file not found
+#include "gcc-plugin.h"
+         ^
+1 error generated.
+make[2]: *** [gcclua.o] Error 1
+make[1]: *** [gcc] Error 2
+make: *** [gcc-lua] Error 2
+
+Error: Build error: Failed building.

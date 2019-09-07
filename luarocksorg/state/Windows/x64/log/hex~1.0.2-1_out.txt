@@ -1,0 +1,12 @@
+hex.c
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+   Creating library hex.lib and object hex.exp
+Installing https://luarocks.org/hex-1.0.2-1.rockspec...
+Using https://luarocks.org/hex-1.0.2-1.rockspec... switching to 'build' mode
+cl /nologo /MD /O2 -c -Fosrc/hex.obj -IZ:/sp/Dropbox/Windows/x64/luajit/src src/hex.c
+link -dll -def:hex.def -out:hex.dll Z:/sp/Dropbox/Windows/x64/luajit/src/lua51.lib src/hex.obj
+Updating manifest for C:\ste\x64\luarockstree/lib/luarocks/rocks
+hex 1.0.2-1 is now built and installed in C:\ste\x64\luarockstree (license: MIT/X11)
+

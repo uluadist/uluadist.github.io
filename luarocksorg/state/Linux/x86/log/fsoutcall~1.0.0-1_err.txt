@@ -1,0 +1,2 @@
+
+Error: Error fetching file: Failed downloading https://luarocks.org/fsoutcall-1.0.0-1.rockspec - fsoutcall-1.0.0-1.rockspec

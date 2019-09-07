@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+cp: omitting directory `jmespath.lua'
+
+Error: Build error: Failed installing jmespath.lua in /home/sp/luarockstree/lib/luarocks/rocks/jmespath/0.1-0/lua/jmespath.lua

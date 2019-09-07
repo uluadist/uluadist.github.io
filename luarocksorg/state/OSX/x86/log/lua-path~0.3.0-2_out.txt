@@ -1,0 +1,79 @@
+Archive:  v0.3.0.zip
+4a11ae68cbae4c4528f620085f1db4b5385ae8e8
+   creating: lua-path-0.3.0/
+   creating: lua-path-0.3.0/.appveyor/
+  inflating: lua-path-0.3.0/.appveyor/install.bat  
+  inflating: lua-path-0.3.0/.appveyor/set_compiler_env.bat  
+  inflating: lua-path-0.3.0/.appveyor/winmake.bat  
+  inflating: lua-path-0.3.0/.travis.yml  
+   creating: lua-path-0.3.0/.travis/
+  inflating: lua-path-0.3.0/.travis/platform.sh  
+  inflating: lua-path-0.3.0/.travis/setenv_lua.sh  
+  inflating: lua-path-0.3.0/.travis/setup_lua.sh  
+  inflating: lua-path-0.3.0/CMakeLists.txt  
+  inflating: lua-path-0.3.0/LICENCE.txt  
+  inflating: lua-path-0.3.0/README.md  
+  inflating: lua-path-0.3.0/appveyor.yml  
+   creating: lua-path-0.3.0/cmake/
+  inflating: lua-path-0.3.0/cmake/FindLua.cmake  
+  inflating: lua-path-0.3.0/cmake/dist.cmake  
+  inflating: lua-path-0.3.0/cmake/lua.cmake  
+  inflating: lua-path-0.3.0/dist.info  
+   creating: lua-path-0.3.0/doc/
+  inflating: lua-path-0.3.0/doc/config.ld  
+  inflating: lua-path-0.3.0/doc/fs.ldoc  
+  inflating: lua-path-0.3.0/doc/path.ldoc  
+   creating: lua-path-0.3.0/examples/
+  inflating: lua-path-0.3.0/examples/walk_empty_dirs.lua  
+  inflating: lua-path-0.3.0/examples/walk_old_files.lua  
+  inflating: lua-path-0.3.0/lakefile  
+   creating: lua-path-0.3.0/lua/
+  inflating: lua-path-0.3.0/lua/path.lua  
+   creating: lua-path-0.3.0/lua/path/
+  inflating: lua-path-0.3.0/lua/path/findfile.lua  
+  inflating: lua-path-0.3.0/lua/path/fs.lua  
+   creating: lua-path-0.3.0/lua/path/lfs/
+  inflating: lua-path-0.3.0/lua/path/lfs/fs.lua  
+   creating: lua-path-0.3.0/lua/path/lfs/impl/
+  inflating: lua-path-0.3.0/lua/path/lfs/impl/fs.lua  
+  inflating: lua-path-0.3.0/lua/path/module.lua  
+   creating: lua-path-0.3.0/lua/path/syscall/
+  inflating: lua-path-0.3.0/lua/path/syscall/fs.lua  
+   creating: lua-path-0.3.0/lua/path/win32/
+   creating: lua-path-0.3.0/lua/path/win32/alien/
+  inflating: lua-path-0.3.0/lua/path/win32/alien/fs.lua  
+  inflating: lua-path-0.3.0/lua/path/win32/alien/types.lua  
+  inflating: lua-path-0.3.0/lua/path/win32/alien/utils.lua  
+  inflating: lua-path-0.3.0/lua/path/win32/alien/wcs.lua  
+   creating: lua-path-0.3.0/lua/path/win32/ffi/
+  inflating: lua-path-0.3.0/lua/path/win32/ffi/fs.lua  
+  inflating: lua-path-0.3.0/lua/path/win32/ffi/types.lua  
+  inflating: lua-path-0.3.0/lua/path/win32/ffi/wcs.lua  
+  inflating: lua-path-0.3.0/lua/path/win32/fs.lua  
+  inflating: lua-path-0.3.0/lua/path/win32/wcs.lua  
+   creating: lua-path-0.3.0/rockspecs/
+  inflating: lua-path-0.3.0/rockspecs/lua-path-0.1.0-1.rockspec  
+  inflating: lua-path-0.3.0/rockspecs/lua-path-0.1.1-1.rockspec  
+  inflating: lua-path-0.3.0/rockspecs/lua-path-0.2.0-1.rockspec  
+  inflating: lua-path-0.3.0/rockspecs/lua-path-0.2.1-1.rockspec  
+  inflating: lua-path-0.3.0/rockspecs/lua-path-0.2.2-1.rockspec  
+  inflating: lua-path-0.3.0/rockspecs/lua-path-0.2.3-1.rockspec  
+  inflating: lua-path-0.3.0/rockspecs/lua-path-0.2.4-1.rockspec  
+  inflating: lua-path-0.3.0/rockspecs/lua-path-0.3.0-1.rockspec  
+  inflating: lua-path-0.3.0/rockspecs/lua-path-scm-0.rockspec  
+   creating: lua-path-0.3.0/test/
+  inflating: lua-path-0.3.0/test/.luacov  
+  inflating: lua-path-0.3.0/test/each_perf.lua  
+  inflating: lua-path-0.3.0/test/report_coverage.lua  
+  inflating: lua-path-0.3.0/test/run.lua  
+  inflating: lua-path-0.3.0/test/test.lua  
+  inflating: lua-path-0.3.0/test/test_each.lua  
+  inflating: lua-path-0.3.0/test/test_fs.lua  
+  inflating: lua-path-0.3.0/test/test_lfs.lua  
+  inflating: lua-path-0.3.0/test/test_wcs.lua  
+  inflating: lua-path-0.3.0/test/utils.lua  
+Installing https://luarocks.org/lua-path-0.3.0-2.src.rock...
+Using https://luarocks.org/lua-path-0.3.0-2.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+lua-path 0.3.0-2 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

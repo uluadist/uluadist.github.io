@@ -1,0 +1,39 @@
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/gcc
+-- Check for working C compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/c++
+-- Check for working CXX compiler: /mnt/hgfs/Dropbox/Bin/Linux/x64/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/luarocks_rapidjson-0.4.5-1-1516/lua-rapidjson/build.luarocks
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/luarocks_rapidjson-0.4.5-1-1516/lua-rapidjson/build.luarocks
+Scanning dependencies of target rapidjson
+make[2]: Warning: File `../src/rapidjson.cpp' has modification time 2.4e+09 s in the future
+[100%] Building CXX object CMakeFiles/rapidjson.dir/src/rapidjson.cpp.o
+Linking CXX shared module rapidjson.so
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target rapidjson
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/luarocks_rapidjson-0.4.5-1-1516/lua-rapidjson/build.luarocks
+Scanning dependencies of target rapidjson
+make[2]: Warning: File `../src/rapidjson.cpp' has modification time 2.4e+09 s in the future
+[100%] Building CXX object CMakeFiles/rapidjson.dir/src/rapidjson.cpp.o
+Linking CXX shared module rapidjson.so
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target rapidjson
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/rapidjson/0.4.5-1/lib/rapidjson.so
+Installing https://luarocks.org/rapidjson-0.4.5-1.src.rock...
+Using https://luarocks.org/rapidjson-0.4.5-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+rapidjson 0.4.5-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

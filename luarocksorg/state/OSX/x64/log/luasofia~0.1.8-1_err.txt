@@ -1,0 +1,14 @@
+Warning: skipping dependency checks.
+configure: error: in `/tmp/luarocks_luasofia-0.1.8-1-8957/luasofia-0.1.8':
+configure: error: The pkg-config script could not be found or is too old.  Make sure it
+is in your PATH or set the PKG_CONFIG environment variable to the full
+path to pkg-config.
+
+Alternatively, you may set the environment variables SOFIA_SIP_UA_CFLAGS
+and SOFIA_SIP_UA_LIBS to avoid the need to call pkg-config.
+See the pkg-config man page for more details.
+
+To get pkg-config, see <http://pkg-config.freedesktop.org/>.
+See `config.log' for more details
+
+Error: Build error: Failed building.

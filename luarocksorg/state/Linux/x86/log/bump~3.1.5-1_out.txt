@@ -1,0 +1,6 @@
+Installing https://rocks.moonscript.org/bump-3.1.5-1.rockspec...
+Using https://rocks.moonscript.org/bump-3.1.5-1.rockspec... switching to 'build' mode
+Initialized empty Git repository in /tmp/luarocks_bump-3.1.5-1-8121/bump.lua/.git/
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+bump 3.1.5-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

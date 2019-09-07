@@ -1,0 +1,19 @@
+Warning: skipping dependency checks.
+src/load.c:140:40: error: use of undeclared identifier 'LUAI_BITSINT'
+        array_size < 0 || array_size > MAXASIZE ||
+                                       ^
+src/luainternals.h:47:24: note: expanded from macro 'MAXASIZE'
+#define MAXASIZE        (1 << MAXBITS)
+                              ^
+src/luainternals.h:44:19: note: expanded from macro 'MAXBITS'
+#define MAXBITS         (LUAI_BITSINT-2)
+                         ^
+src/load.c:142:63: error: use of undeclared identifier 'LUAI_BITSINT'
+        (hash_size > 0 && ceillog2((unsigned int)hash_size) > MAXBITS) ||
+                                                              ^
+src/luainternals.h:44:19: note: expanded from macro 'MAXBITS'
+#define MAXBITS         (LUAI_BITSINT-2)
+                         ^
+2 errors generated.
+
+Error: Build error: Failed compiling object src/load.o

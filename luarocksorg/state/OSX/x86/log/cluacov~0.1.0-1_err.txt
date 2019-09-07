@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for cluacov 0.1.0-1: luacov >= 0.12.0, < 0.13.0
+Missing dependency for cluacov 0.1.0-1: luacov >= 0.12.0, < 0.13.0

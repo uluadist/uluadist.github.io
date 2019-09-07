@@ -1,0 +1,9 @@
+Installing https://luarocks.org/luaec25519-0.5-1.src.rock...
+Using https://luarocks.org/luaec25519-0.5-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c luaec25519.c -o luaec25519.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c tweetnacl.c -o tweetnacl.o
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x64/luajit//include -c randombytes.c -o randombytes.o
+gcc -shared -o luaec25519.so -L/home/sp/Dropbox/Linux/x64/luajit//lib luaec25519.o tweetnacl.o randombytes.o
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+luaec25519 0.5-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT)
+

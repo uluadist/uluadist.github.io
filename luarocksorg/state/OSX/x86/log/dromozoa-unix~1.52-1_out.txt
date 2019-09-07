@@ -1,0 +1,155 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... ./install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking build system type... x86_64-apple-darwin15.3.0
+checking host system type... x86_64-apple-darwin15.3.0
+checking how to print strings... printf
+checking whether make supports the include directive... yes (GNU style)
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by gcc... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm
+checking the name lister (/usr/bin/nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 196608
+checking how to convert x86_64-apple-darwin15.3.0 file names to x86_64-apple-darwin15.3.0 format... func_convert_file_noop
+checking how to convert x86_64-apple-darwin15.3.0 file names to toolchain format... func_convert_file_noop
+checking for /Library/Developer/CommandLineTools/usr/bin/ld option to reload object files... -r
+checking for objdump... no
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... no
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dsymutil... dsymutil
+checking for nmedit... nmedit
+checking for lipo... lipo
+checking for otool... otool
+checking for otool64... no
+checking for -single_module linker flag... yes
+checking for -exported_symbols_list linker flag... yes
+checking for -force_load linker flag... yes
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... yes
+checking for gcc option to produce PIC... -fno-common -DPIC
+checking if gcc PIC flag -fno-common -DPIC works... yes
+checking if gcc static flag -static works... no
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin15.3.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /Library/Developer/CommandLineTools/usr/bin/ld
+checking if the linker (/Library/Developer/CommandLineTools/usr/bin/ld) is GNU ld... no
+checking whether the g++ linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fno-common -DPIC
+checking if g++ PIC flag -fno-common -DPIC works... yes
+checking if g++ static flag -static works... no
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/Library/Developer/CommandLineTools/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... darwin15.3.0 dyld
+checking how to hardcode library paths into programs... immediate
+checking for accept4... no
+checking for epoll_create1... no
+checking for epoll_create... no
+checking for kqueue... yes
+checking for mach_absolute_time... yes
+checking for mkostemp... no
+checking for pipe2... no
+checking for sched_getaffinity... no
+checking for sched_getparam... no
+checking for sched_getscheduler... no
+checking for sched_setaffinity... no
+checking for sched_setscheduler... no
+checking for sysctlbyname... yes
+checking for struct stat.st_atim... no
+checking for struct stat.st_atimespec... yes
+checking for struct stat.st_ctim... no
+checking for struct stat.st_ctimespec... yes
+checking for struct stat.st_mtim... no
+checking for struct stat.st_mtimespec... yes
+checking for library containing clock_gettime... no
+checking whether gcc is Clang... yes
+checking whether Clang needs flag to prevent "argument unused" warning when linking with -pthread... -Qunused-arguments
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for library containing pthread_sigmask... none required
+checking if /Users/sp/Dropbox/OSX/x86/luajit//bin/lua is a Lua interpreter... yes
+checking whether /Users/sp/Dropbox/OSX/x86/luajit//bin/lua version >= 5.1... yes
+checking for /Users/sp/Dropbox/OSX/x86/luajit//bin/lua version... 5.1
+checking for /Users/sp/Dropbox/OSX/x86/luajit//bin/lua platform... unknown
+checking for /Users/sp/Dropbox/OSX/x86/luajit//bin/lua script directory... ${prefix}/share/lua/5.1
+checking for /Users/sp/Dropbox/OSX/x86/luajit//bin/lua module directory... ${exec_prefix}/lib/lua/5.1
+checking if LUA_VERSION is defined... yes
+checking lua.h usability... yes
+checking lua.h presence... yes
+checking for lua.h... yes
+checking lualib.h usability... yes
+checking lualib.h presence... yes
+checking for lualib.h... yes
+checking lauxlib.h usability... yes
+checking lauxlib.h presence... yes
+checking for lauxlib.h... yes
+checking luaconf.h usability... yes
+checking luaconf.h presence... yes
+checking for luaconf.h... yes
+checking for Lua header version... 5.1
+checking if Lua header version matches 5.1... yes
+checking if LUA_VERSION is defined... yes
+checking for library containing exp... none required
+checking for library containing dlopen... none required
+checking for library containing lua_load... no
+Installing https://luarocks.org/dromozoa-unix-1.52-1.src.rock...
+Using https://luarocks.org/dromozoa-unix-1.52-1.src.rock... switching to 'build' mode
+env PATH="/Users/sp/Dropbox/OSX/x86/luajit//bin:$PATH" CPPFLAGS="$CPPFLAGS -I/Users/sp/Dropbox/OSX/x86/luajit//include" CXXFLAGS="$CXXFLAGS -Wall -W -Wno-missing-field-initializers -O2 -fPIC" LDFLAGS="$LDFLAGS -L/Users/sp/Dropbox/OSX/x86/luajit//lib" LUA="/Users/sp/Dropbox/OSX/x86/luajit//bin/lua" ./configure --prefix="/Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/dromozoa-unix/1.52-1" && make

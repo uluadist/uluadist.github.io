@@ -1,0 +1,25 @@
+Warning: skipping dependency checks.
+spawn/posix.c:198:29: error: use of undeclared identifier 'POSIX_SPAWN_SETSCHEDULER'
+        lua_pushboolean(L, flags & POSIX_SPAWN_SETSCHEDULER);
+                                   ^
+spawn/posix.c:200:29: error: use of undeclared identifier 'POSIX_SPAWN_SETSCHEDPARAM'
+        lua_pushboolean(L, flags & POSIX_SPAWN_SETSCHEDPARAM);
+                                   ^
+spawn/posix.c:231:37: error: use of undeclared identifier 'POSIX_SPAWN_SETSCHEDULER'
+        if (lua_toboolean(L, -1)) flags |= POSIX_SPAWN_SETSCHEDULER;
+                                           ^
+spawn/posix.c:233:37: error: use of undeclared identifier 'POSIX_SPAWN_SETSCHEDPARAM'
+        if (lua_toboolean(L, -1)) flags |= POSIX_SPAWN_SETSCHEDPARAM;
+                                           ^
+spawn/posix.c:284:16: warning: implicit declaration of function 'posix_spawnattr_getschedpolicy' is invalid in C99 [-Wimplicit-function-declaration]
+        if (0 != (r = posix_spawnattr_getschedpolicy(attr, &schedpolicy))) {
+                      ^
+spawn/posix.c:298:16: warning: implicit declaration of function 'posix_spawnattr_setschedpolicy' is invalid in C99 [-Wimplicit-function-declaration]
+        if (0 != (r = posix_spawnattr_setschedpolicy(attr, schedpolicy))) {
+                      ^
+spawn/posix.c:408:38: error: use of undeclared identifier 'O_RSYNC'
+                if (lua_toboolean(L, -1)) oflag |= O_RSYNC;
+                                                   ^
+2 warnings and 5 errors generated.
+
+Error: Build error: Failed compiling object spawn/posix.o

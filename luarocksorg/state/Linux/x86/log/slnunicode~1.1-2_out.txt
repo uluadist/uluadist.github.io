@@ -1,0 +1,10 @@
+Installing https://rocks.moonscript.org/slnunicode-1.1-2.src.rock...
+Using https://rocks.moonscript.org/slnunicode-1.1-2.src.rock... switching to 'build' mode
+Applying patch fix.patch...
+Do not use 'module' as a build type. Use 'builtin' instead.
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c slnunico.c -o slnunico.o
+gcc -O2 -fPIC -I/home/sp/luajit/include/lua5.1 -c slnudata.c -o slnudata.o
+gcc -shared -o unicode.so -L/home/sp/luajit/lib slnunico.o slnudata.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+slnunicode 1.1-2 is now built and installed in /home/sp/luarockstree (license: Tcl License + MIT/X11)
+

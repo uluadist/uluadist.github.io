@@ -1,0 +1,10 @@
+Warning: skipping dependency checks.
+linenoise.c: In function ‘l_linenoise’:
+linenoise.c:80:5: warning: passing argument 1 of ‘free’ discards ‘const’ qualifier from pointer target type [enabled by default]
+     free(line);
+     ^
+In file included from linenoise.c:27:0:
+/usr/include/stdlib.h:488:13: note: expected ‘void *’ but argument is of type ‘const char *’
+ extern void free (void *__ptr) __THROW;
+             ^
+No existing manifest. Attempting to rebuild...

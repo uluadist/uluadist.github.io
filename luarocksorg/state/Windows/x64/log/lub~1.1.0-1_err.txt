@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for lub 1.1.0-1: luafilesystem >= 1.4.0
+Missing dependency for lub 1.1.0-1: luafilesystem >= 1.4.0

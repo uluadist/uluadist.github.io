@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/luautf8-0.1.1-1.src.rock...
+Using https://rocks.moonscript.org/luautf8-0.1.1-1.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/luajit//include -c lutf8lib.c -o lutf8lib.o
+gcc -shared -o lua-utf8.so -L/home/sp/luajit//lib lutf8lib.o
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+luautf8 0.1.1-1 is now built and installed in /home/sp/luarockstree (license: MIT)
+

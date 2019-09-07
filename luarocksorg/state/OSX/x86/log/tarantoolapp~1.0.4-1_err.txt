@@ -1,0 +1,6 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for tarantoolapp 1.0.4-1: luarocks-fetch-gitrec 
+Missing dependency for tarantoolapp 1.0.4-1: lua-resty-template ~> 1.9
+Missing dependency for tarantoolapp 1.0.4-1: luarocks-fetch-gitrec 
+Missing dependency for tarantoolapp 1.0.4-1: lua-resty-template ~> 1.9

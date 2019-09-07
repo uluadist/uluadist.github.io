@@ -1,0 +1,8 @@
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -I/Users/sp/Dropbox/OSX/x64/luajit/include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG -O0 -c -o compat/safebfuns.o compat/safebfuns.c
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -I/Users/sp/Dropbox/OSX/x64/luajit/include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/bcrypt/bcrypt.o compat/bcrypt/bcrypt.c
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -I/Users/sp/Dropbox/OSX/x64/luajit/include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/bcrypt/blowfish.o compat/bcrypt/blowfish.c
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -I/Users/sp/Dropbox/OSX/x64/luajit/include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/arc4random/arc4random.o compat/arc4random/arc4random.c
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -I/Users/sp/Dropbox/OSX/x64/luajit/include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/strlcpy.o compat/strlcpy.c
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -I/Users/sp/Dropbox/OSX/x64/luajit/include -DOPENSSL_cleanse=explicit_bzero -D__BSD_VISIBLE -DHAVE_STRNDUP -Iinclude -Wall -Wno-pointer-sign -O2 -fPIC -DNDEBUG   -c -o compat/sha/sha512.o compat/sha/sha512.c
+Installing https://rocks.moonscript.org/bcrypt-2.1-2.src.rock...
+Using https://rocks.moonscript.org/bcrypt-2.1-2.src.rock... switching to 'build' mode

@@ -1,0 +1,5 @@
+Installing https://rocks.moonscript.org/mach-3.0-1.rockspec...
+Using https://rocks.moonscript.org/mach-3.0-1.rockspec... switching to 'build' mode
+Updating manifest for /home/sp/luarockstree/lib/luarocks/rocks
+mach 3.0-1 is now built and installed in /home/sp/luarockstree (license: MIT <http://opensource.org/licenses/MIT>)
+

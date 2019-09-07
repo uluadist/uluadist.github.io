@@ -1,0 +1,7 @@
+Installing https://rocks.moonscript.org/lua_signal-1.2.0-1.src.rock...
+Using https://rocks.moonscript.org/lua_signal-1.2.0-1.src.rock... switching to 'build' mode
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -O2 -fPIC -I/Users/sp/Dropbox/OSX/x64/luajit/include -c lsignal.c -o lsignal.o
+export MACOSX_DEPLOYMENT_TARGET=10.8; gcc -bundle -undefined dynamic_lookup -all_load -o signal.so -L/Users/sp/Dropbox/OSX/x64/luajit/lib lsignal.o
+Updating manifest for /Users/sp/PrjLocal/x64/luarockstree/lib/luarocks/rocks
+lua_signal 1.2.0-1 is now built and installed in /Users/sp/PrjLocal/x64/luarockstree (license: MIT)
+

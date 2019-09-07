@@ -1,0 +1,18 @@
+cd c-periphery; make
+make[1]: Entering directory `/tmp/luarocks_lua-periphery-1.1.0-1-4907/lua-periphery/c-periphery'
+mkdir obj
+gcc -std=gnu99 -pedantic -Wall -Wextra -Wno-unused-parameter -Wno-pointer-to-int-cast  -fPIC  -c src/gpio.c -o obj/gpio.o
+gcc -std=gnu99 -pedantic -Wall -Wextra -Wno-unused-parameter -Wno-pointer-to-int-cast  -fPIC  -c src/spi.c -o obj/spi.o
+gcc -std=gnu99 -pedantic -Wall -Wextra -Wno-unused-parameter -Wno-pointer-to-int-cast  -fPIC  -c src/i2c.c -o obj/i2c.o
+gcc -std=gnu99 -pedantic -Wall -Wextra -Wno-unused-parameter -Wno-pointer-to-int-cast  -fPIC  -c src/mmio.c -o obj/mmio.o
+gcc -std=gnu99 -pedantic -Wall -Wextra -Wno-unused-parameter -Wno-pointer-to-int-cast  -fPIC  -c src/serial.c -o obj/serial.o
+ar rcs periphery.a obj/gpio.o obj/spi.o obj/i2c.o obj/mmio.o obj/serial.o
+make[1]: Leaving directory `/tmp/luarocks_lua-periphery-1.1.0-1-4907/lua-periphery/c-periphery'
+gcc  -std=c99 -pedantic -D_XOPEN_SOURCE=700 -Wall -Wextra -Wno-unused-parameter  -fPIC -I. -I/home/sp/Dropbox/Linux/x86/luajit//include  -shared src/lua_periphery.c src/lua_mmio.c src/lua_gpio.c src/lua_spi.c src/lua_i2c.c src/lua_serial.c c-periphery/periphery.a -o periphery.so
+mkdir -p /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/lua-periphery/1.1.0-1/lib
+cp periphery.so /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks/lua-periphery/1.1.0-1/lib/periphery.so
+Installing https://luarocks.org/lua-periphery-1.1.0-1.src.rock...
+Using https://luarocks.org/lua-periphery-1.1.0-1.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+lua-periphery 1.1.0-1 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

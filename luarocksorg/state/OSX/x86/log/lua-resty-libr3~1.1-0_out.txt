@@ -1,0 +1,4 @@
+Installing https://luarocks.org/lua-resty-libr3-1.1-0.rockspec...
+Using https://luarocks.org/lua-resty-libr3-1.1-0.rockspec... switching to 'build' mode
+git clone -b 2.0.2-iresty https://github.com/iresty/r3.git
+cd r3 && ./autogen.sh

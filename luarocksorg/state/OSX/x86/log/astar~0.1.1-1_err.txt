@@ -1,0 +1,11 @@
+Warning: skipping dependency checks.
+In file included from /tmp/luarocks_astar-0.1.1-1-3894/a-star-algorithm/src/AStar.cpp:1:
+/tmp/luarocks_astar-0.1.1-1-3894/a-star-algorithm/src/AStar.h:11:10: fatal error: 'cstdint' file not found
+#include <cstdint>
+         ^
+1 error generated.
+make[2]: *** [CMakeFiles/astar.dir/src/AStar.cpp.o] Error 1
+make[1]: *** [CMakeFiles/astar.dir/all] Error 2
+make: *** [all] Error 2
+
+Error: Build error: Failed building.

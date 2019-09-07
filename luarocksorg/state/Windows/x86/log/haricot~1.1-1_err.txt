@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for haricot 1.1-1: luasocket 
+Missing dependency for haricot 1.1-1: luasocket 

@@ -1,0 +1,14 @@
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+LIBUV_INCLUDE_DIR (ADVANCED)
+   used as include directory in directory C:/Users/sp/AppData/Local/Temp/luarocks_pomelo-0.1.0-1-7038/lua-pomelo
+LIBUV_LIBRARY (ADVANCED)
+    linked by target "pomelo" in directory C:/Users/sp/AppData/Local/Temp/luarocks_pomelo-0.1.0-1-7038/lua-pomelo
+LIB_EAY_LIBRARY
+    linked by target "pomelo" in directory C:/Users/sp/AppData/Local/Temp/luarocks_pomelo-0.1.0-1-7038/lua-pomelo
+SSL_EAY_LIBRARY
+    linked by target "pomelo" in directory C:/Users/sp/AppData/Local/Temp/luarocks_pomelo-0.1.0-1-7038/lua-pomelo
+
+Warning: skipping dependency checks.
+
+Error: Build error: Failed cmake.

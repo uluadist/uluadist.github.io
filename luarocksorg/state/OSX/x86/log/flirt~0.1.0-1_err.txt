@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for flirt 0.1.0-1: loadconf ~> 0.1
+Missing dependency for flirt 0.1.0-1: loadconf ~> 0.1

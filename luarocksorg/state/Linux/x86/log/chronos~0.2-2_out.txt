@@ -1,0 +1,20 @@
+Archive:  v0.2-2.zip
+46318a09d89f238c077d9fc69c3cf4db4de92ece
+   creating: chronos-0.2-2/
+  inflating: chronos-0.2-2/.gitignore  
+  inflating: chronos-0.2-2/LICENSE   
+  inflating: chronos-0.2-2/README.md  
+   creating: chronos-0.2-2/rockspecs/
+  inflating: chronos-0.2-2/rockspecs/chronos-0.2-0.rockspec  
+  inflating: chronos-0.2-2/rockspecs/chronos-0.2-1.rockspec  
+  inflating: chronos-0.2-2/rockspecs/chronos-0.2-2.rockspec  
+   creating: chronos-0.2-2/src/
+  inflating: chronos-0.2-2/src/chronos.c  
+  inflating: chronos-0.2-2/update_rockspec.lua  
+Installing https://luarocks.org/chronos-0.2-2.src.rock...
+Using https://luarocks.org/chronos-0.2-2.src.rock... switching to 'build' mode
+gcc -O2 -fPIC -I/home/sp/Dropbox/Linux/x86/luajit//include -c src/chronos.c -o src/chronos.o
+gcc -shared -o chronos.so -L/home/sp/Dropbox/Linux/x86/luajit//lib src/chronos.o -lrt
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+chronos 0.2-2 is now built and installed in /home/sp/PrjLocal/luarockstree (license: MIT/X11)
+

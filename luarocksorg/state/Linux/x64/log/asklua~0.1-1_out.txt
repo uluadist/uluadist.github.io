@@ -1,0 +1,4 @@
+Installing https://luarocks.org/asklua-0.1-1.all.rock...
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+
+asklua 0.1-1 is now installed in /home/sp/PrjLocal/luarockstree (license: Public domain)

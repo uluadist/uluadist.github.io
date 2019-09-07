@@ -1,0 +1,9 @@
+Warning: skipping dependency checks.
+linenoise.c:80:10: warning: passing 'const char *' to parameter of type 'void *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    free(line);
+         ^~~~
+/usr/include/stdlib.h:143:18: note: passing argument to parameter here
+void     free(void *);
+                    ^
+1 warning generated.
+No existing manifest. Attempting to rebuild...

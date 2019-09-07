@@ -1,0 +1,4 @@
+Warning: Failed searching manifest: Failed fetching manifest for https://luarocks.org - Failed downloading https://luarocks.org/manifest - C:\Users\sp\AppData\Local/LuaRocks/Cache/https___luarocks.org/manifest
+Warning: Failed searching manifest: Failed fetching manifest for https://raw.githubusercontent.com/rocks-moonscript-org/moonrocks-mirror/master/ - Failed downloading https://raw.githubusercontent.com/rocks-moonscript-org/moonrocks-mirror/master/manifest - C:\Users\sp\AppData\Local/LuaRocks/Cache/https___raw.githubusercontent.com_rocks-moonscript-org_moonrocks-mirror_master_/manifest
+
+Error: No results matching query were found.

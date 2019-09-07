@@ -1,0 +1,5 @@
+Installing https://luarocks.org/xcomposer-3.2.1-0.src.rock...
+Using https://luarocks.org/xcomposer-3.2.1-0.src.rock... switching to 'build' mode
+Updating manifest for /home/sp/PrjLocal/luarockstree/lib/luarocks/rocks
+xcomposer 3.2.1-0 is now built and installed in /home/sp/PrjLocal/luarockstree (license: GPLv3)
+

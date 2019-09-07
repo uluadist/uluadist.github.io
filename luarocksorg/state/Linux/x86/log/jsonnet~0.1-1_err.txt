@@ -1,0 +1,171 @@
+Warning: skipping dependency checks.
+Warning: variable CFLAGS was not passed in build_variables
+In file included from parser.cpp:29:
+ast.h: In destructor ‘Allocator::~Allocator()’:
+ast.h:398: error: expected initializer before ‘:’ token
+ast.h:401: error: could not convert ‘((Allocator*)this)->Allocator::allocated.std::vector<_Tp, _Alloc>::clear [with _Tp = AST*, _Alloc = std::allocator<AST*>]()’ to ‘bool’
+ast.h:402: error: expected primary-expression before ‘for’
+ast.h:402: error: expected ‘)’ before ‘for’
+ast.h:402: error: expected initializer before ‘:’ token
+ast.h:405: error: could not convert ‘((Allocator*)this)->Allocator::internedIdentifiers.std::map<_Key, _Tp, _Compare, _Alloc>::clear [with _Key = std::basic_string<char, std::char_traits<char>, std::allocator<char> >, _Tp = const Identifier*, _Compare = std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, _Alloc = std::allocator<std::pair<const std::basic_string<char, std::char_traits<char>, std::allocator<char> >, const Identifier*> >]()’ to ‘bool’
+ast.h:406: error: expected primary-expression before ‘}’ token
+ast.h:406: error: expected ‘)’ before ‘}’ token
+ast.h:406: error: expected primary-expression before ‘}’ token
+ast.h:406: error: expected ‘;’ before ‘}’ token
+parser.cpp: At global scope:
+parser.cpp:180: error: ‘nullptr’ was not declared in this scope
+parser.cpp: In member function ‘Token<unnamed>::Parser::popExpect(Token::Kind, const char*)’:
+parser.cpp:188: error: ‘nullptr’ was not declared in this scope
+parser.cpp: In member function ‘std::vector<const Identifier*, std::allocator<const Identifier*> ><unnamed>::Parser::parseIdentifierList(const std::string&, unsigned int)’:
+parser.cpp:250: error: expected initializer before ‘:’ token
+parser.cpp:261: error: expected primary-expression at end of input
+parser.cpp:261: error: expected ‘;’ at end of input
+parser.cpp:261: error: expected primary-expression at end of input
+parser.cpp:261: error: expected ‘)’ at end of input
+parser.cpp:261: error: expected statement at end of input
+parser.cpp:261: error: expected ‘}’ at end of input
+parser.cpp:261: warning: no return statement in function returning non-void
+parser.cpp: In member function ‘void<unnamed>::Parser::parseBind(std::map<const Identifier*, AST*, std::less<const Identifier*>, std::allocator<std::pair<const Identifier* const, AST*> > >&, unsigned int)’:
+parser.cpp:265: error: the default argument for parameter 1 of ‘Token<unnamed>::Parser::popExpect(Token::Kind, const char*)’ has not yet been parsed
+parser.cpp: In member function ‘Token<unnamed>::Parser::parseObjectRemainder(AST*&, const Token&, unsigned int)’:
+parser.cpp:317: error: expected initializer before ‘:’ token
+parser.cpp:321: error: expected primary-expression before ‘}’ token
+parser.cpp:321: error: expected ‘;’ before ‘}’ token
+parser.cpp:321: error: expected primary-expression before ‘}’ token
+parser.cpp:321: error: expected ‘)’ before ‘}’ token
+parser.cpp:321: error: expected primary-expression before ‘}’ token
+parser.cpp:321: error: expected ‘;’ before ‘}’ token
+parser.cpp:346: error: the default argument for parameter 1 of ‘Token<unnamed>::Parser::popExpect(Token::Kind, const char*)’ has not yet been parsed
+parser.cpp:348: error: the default argument for parameter 1 of ‘Token<unnamed>::Parser::popExpect(Token::Kind, const char*)’ has not yet been parsed
+parser.cpp:350: error: the default argument for parameter 1 of ‘Token<unnamed>::Parser::popExpect(Token::Kind, const char*)’ has not yet been parsed
+parser.cpp:380: error: the default argument for parameter 1 of ‘Token<unnamed>::Parser::popExpect(Token::Kind, const char*)’ has not yet been parsed
+parser.cpp:417: error: the default argument for parameter 1 of ‘Token<unnamed>::Parser::popExpect(Token::Kind, const char*)’ has not yet been parsed
+parser.cpp:418: error: the default argument for parameter 1 of ‘Token<unnamed>::Parser::popExpect(Token::Kind, const char*)’ has not yet been parsed
+parser.cpp: In member function ‘AST*<unnamed>::Parser::parseTerminal(unsigned int)’:
+parser.cpp:484: error: the default argument for parameter 1 of ‘Token<unnamed>::Parser::popExpect(Token::Kind, const char*)’ has not yet been parsed
+parser.cpp:489: error: the default argument for parameter 1 of ‘Token<unnamed>::Parser::popExpect(Token::Kind, const char*)’ has not yet been parsed
+parser.cpp:499: error: the default argument for parameter 1 of ‘Token<unnamed>::Parser::popExpect(Token::Kind, const char*)’ has not yet been parsed
+parser.cpp:538: error: the default argument for parameter 1 of ‘Token<unnamed>::Parser::popExpect(Token::Kind, const char*)’ has not yet been parsed
+parser.cpp:545: error: ‘nullptr’ was not declared in this scope
+parser.cpp:561: error: the default argument for parameter 1 of ‘Token<unnamed>::Parser::popExpect(Token::Kind, const char*)’ has not yet been parsed
+parser.cpp:566: error: the default argument for parameter 1 of ‘Token<unnamed>::Parser::popExpect(Token::Kind, const char*)’ has not yet been parsed
+parser.cpp:590: error: ‘nullptr’ was not declared in this scope
+parser.cpp: In member function ‘AST*<unnamed>::Parser::parse(int, unsigned int)’:
+parser.cpp:610: error: the default argument for parameter 1 of ‘Token<unnamed>::Parser::popExpect(Token::Kind, const char*)’ has not yet been parsed
+parser.cpp:632: error: expected initializer before ‘:’ token
+parser.cpp:774: error: expected primary-expression at end of input
+parser.cpp:774: error: expected ‘;’ at end of input
+parser.cpp:774: error: expected primary-expression at end of input
+parser.cpp:774: error: expected ‘)’ at end of input
+parser.cpp:774: error: expected statement at end of input
+parser.cpp:630: warning: unused variable ‘body’
+parser.cpp:774: error: expected ‘}’ at end of input
+parser.cpp:774: error: expected ‘}’ at end of input
+parser.cpp:774: error: expected ‘}’ at end of input
+parser.cpp:597: warning: enumeration value ‘BRACE_L’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘BRACE_R’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘BRACKET_L’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘BRACKET_R’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘COLON’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘COMMA’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘DOLLAR’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘DOT’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘PAREN_L’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘PAREN_R’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘SEMICOLON’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘IDENTIFIER’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘NUMBER’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘OPERATOR’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘STRING’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘ELSE’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘FALSE’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘FOR’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘IMPORT’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘IMPORTSTR’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘IN’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘LOCAL’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘NULL_LIT’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘TAILSTRICT’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘THEN’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘SELF’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘SUPER’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘TRUE’ not handled in switch
+parser.cpp:597: warning: enumeration value ‘END_OF_FILE’ not handled in switch
+parser.cpp:774: error: expected ‘}’ at end of input
+parser.cpp: At global scope:
+parser.cpp:593: warning: unused parameter ‘precedence’
+parser.cpp: In function ‘BuiltinDecl jsonnet_builtin_decl(long unsigned int)’:
+parser.cpp:783: error: could not convert ‘{"makeArray", {"sz", "func"}}’ to ‘BuiltinDecl’
+parser.cpp:784: error: could not convert ‘{"pow", {"x", "n"}}’ to ‘BuiltinDecl’
+parser.cpp:785: error: could not convert ‘{"floor", {"x"}}’ to ‘BuiltinDecl’
+parser.cpp:786: error: could not convert ‘{"ceil", {"x"}}’ to ‘BuiltinDecl’
+parser.cpp:787: error: could not convert ‘{"sqrt", {"x"}}’ to ‘BuiltinDecl’
+parser.cpp:788: error: could not convert ‘{"sin", {"x"}}’ to ‘BuiltinDecl’
+parser.cpp:789: error: could not convert ‘{"cos", {"x"}}’ to ‘BuiltinDecl’
+parser.cpp:790: error: could not convert ‘{"tan", {"x"}}’ to ‘BuiltinDecl’
+parser.cpp:791: error: could not convert ‘{"asin", {"x"}}’ to ‘BuiltinDecl’
+parser.cpp:792: error: could not convert ‘{"acos", {"x"}}’ to ‘BuiltinDecl’
+parser.cpp:793: error: could not convert ‘{"atan", {"x"}}’ to ‘BuiltinDecl’
+parser.cpp:794: error: could not convert ‘{"type", {"x"}}’ to ‘BuiltinDecl’
+parser.cpp:795: error: could not convert ‘{"filter", {"func", "arr"}}’ to ‘BuiltinDecl’
+parser.cpp:796: error: could not convert ‘{"objectHas", {"obj", "f"}}’ to ‘BuiltinDecl’
+parser.cpp:797: error: could not convert ‘{"length", {"x"}}’ to ‘BuiltinDecl’
+parser.cpp:798: error: could not convert ‘{"objectFields", {"obj"}}’ to ‘BuiltinDecl’
+parser.cpp:799: error: could not convert ‘{"codepoint", {"str"}}’ to ‘BuiltinDecl’
+parser.cpp:800: error: could not convert ‘{"char", {"n"}}’ to ‘BuiltinDecl’
+parser.cpp:801: error: could not convert ‘{"log", {"n"}}’ to ‘BuiltinDecl’
+parser.cpp:802: error: could not convert ‘{"exp", {"n"}}’ to ‘BuiltinDecl’
+parser.cpp:803: error: could not convert ‘{"mantissa", {"n"}}’ to ‘BuiltinDecl’
+parser.cpp:804: error: could not convert ‘{"exponent", {"n"}}’ to ‘BuiltinDecl’
+parser.cpp:805: error: could not convert ‘{"modulo", {"a", "b"}}’ to ‘BuiltinDecl’
+parser.cpp:806: error: could not convert ‘{"extVar", {"x"}}’ to ‘BuiltinDecl’
+parser.cpp: At global scope:
+parser.cpp:832: error: expected initializer before ‘char’
+parser.cpp: In function ‘AST* jsonnet_parse(Allocator*, const std::string&, const char*)’:
+parser.cpp:842: error: ‘STD_CODE’ was not declared in this scope
+parser.cpp:842: error: unable to deduce ‘auto*’ from ‘<expression error>’
+parser.cpp:852: error: expected initializer before ‘:’ token
+parser.cpp:855: error: could not convert ‘((std::list<Object::Field, std::allocator<Object::Field> >*)fields)->std::list<_Tp, _Alloc>::emplace_back [with _Args = LiteralString*, Object::Field::Hide, BuiltinFunction*, _Tp = Object::Field, _Alloc = std::allocator<Object::Field>](((LiteralString*&&)(& alloc->Allocator::make [with T = LiteralString, Args = LocationRange, std::basic_string<char, std::char_traits<char>, std::allocator<char> >](LocationRange(((const LocationRange&)(& l))), std::basic_string<char, std::char_traits<char>, std::allocator<char> >(((const std::basic_string<char, std::char_traits<char>, std::allocator<char> >&)(& decl->BuiltinDecl::name)))))), ((Object::Field::Hide&&)(&(Object::Field::Hide)1u)), ((BuiltinFunction*&&)(& alloc->Allocator::make [with T = BuiltinFunction, Args = LocationRange, long unsigned int, std::vector<const Identifier*, std::allocator<const Identifier*> >](LocationRange(((const LocationRange&)(& l))), c, std::vector<const Identifier*, std::allocator<const Identifier*> >(((const std::vector<const Identifier*, std::allocator<const Identifier*> >&)((const std::vector<const Identifier*, std::allocator<const Identifier*> >*)(& params))))))))’ to ‘bool’
+parser.cpp:856: error: expected primary-expression before ‘}’ token
+parser.cpp:856: error: expected ‘)’ before ‘}’ token
+parser.cpp:856: error: expected primary-expression before ‘}’ token
+parser.cpp:856: error: expected ‘;’ before ‘}’ token
+parser.cpp: In function ‘std::string unparse(const AST*)’:
+parser.cpp:919: error: expected initializer before ‘:’ token
+parser.cpp:924: error: expected primary-expression before ‘}’ token
+parser.cpp:924: error: expected ‘)’ before ‘}’ token
+parser.cpp:924: error: expected primary-expression before ‘}’ token
+parser.cpp:924: error: expected ‘;’ before ‘}’ token
+parser.cpp:918: warning: unused variable ‘prefix’
+parser.cpp:931: error: expected initializer before ‘:’ token
+parser.cpp:937: error: expected primary-expression before ‘}’ token
+parser.cpp:937: error: expected ‘)’ before ‘}’ token
+parser.cpp:937: error: expected primary-expression before ‘}’ token
+parser.cpp:937: error: expected ‘;’ before ‘}’ token
+parser.cpp:930: warning: unused variable ‘prefix’
+parser.cpp:958: error: expected initializer before ‘:’ token
+parser.cpp:964: error: expected primary-expression before ‘}’ token
+parser.cpp:964: error: expected ‘)’ before ‘}’ token
+parser.cpp:964: error: expected primary-expression before ‘}’ token
+parser.cpp:964: error: expected ‘;’ before ‘}’ token
+parser.cpp:957: warning: unused variable ‘prefix’
+parser.cpp:976: error: expected initializer before ‘:’ token
+parser.cpp:982: error: expected primary-expression before ‘}’ token
+parser.cpp:982: error: expected ‘)’ before ‘}’ token
+parser.cpp:982: error: expected primary-expression before ‘}’ token
+parser.cpp:982: error: expected ‘;’ before ‘}’ token
+parser.cpp:975: warning: unused variable ‘prefix’
+parser.cpp:999: error: expected initializer before ‘:’ token
+parser.cpp:1050: error: expected primary-expression at end of input
+parser.cpp:1050: error: expected ‘;’ at end of input
+parser.cpp:1050: error: expected primary-expression at end of input
+parser.cpp:1050: error: expected ‘)’ at end of input
+parser.cpp:1050: error: expected statement at end of input
+parser.cpp:998: warning: unused variable ‘prefix’
+parser.cpp:1050: error: expected ‘}’ at end of input
+parser.cpp:1050: error: expected ‘}’ at end of input
+parser.cpp:1050: error: expected ‘}’ at end of input
+make[1]: *** [parser.o] Error 1
+make: *** [install] Error 2
+
+Error: Build error: Failed building.

@@ -1,0 +1,4 @@
+-- Building for: Visual Studio 14 2015
+-- Configuring incomplete, errors occurred!
+Installing https://luarocks.org/luacoap-0.1-0.src.rock...
+Using https://luarocks.org/luacoap-0.1-0.src.rock... switching to 'build' mode

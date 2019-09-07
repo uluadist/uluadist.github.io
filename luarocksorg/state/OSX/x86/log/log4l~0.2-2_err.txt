@@ -1,0 +1,4 @@
+Warning: skipping dependency checks.
+No existing manifest. Attempting to rebuild...
+Missing dependency for log4l 0.2-2: luasocket 
+Missing dependency for log4l 0.2-2: luasocket 

@@ -1,0 +1,3 @@
+Installing https://luarocks.org/luaorm-1.1.0-1.src.rock...
+Using https://luarocks.org/luaorm-1.1.0-1.src.rock... switching to 'build' mode
+cp -r src C:\ste\x64\luarockstree/lib/luarocks/rocks/luaorm/1.1.0-1/lua/LuaORM

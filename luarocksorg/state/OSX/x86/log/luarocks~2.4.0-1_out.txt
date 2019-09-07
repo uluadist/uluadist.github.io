@@ -1,0 +1,24 @@
+mkdir -p "/Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/luarocks/2.4.0-1/bin"
+cd src/bin && \
+	luaver="" && [ -n "$luaver" ] || luaver=`/Users/sp/Dropbox/OSX/x86/luajit//bin/lua -e 'print(_VERSION:sub(5))'`; \
+	for f in luarocks luarocks-admin; \
+	do \
+	   cp "$f" "/Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/luarocks/2.4.0-1/bin/$f-$luaver"; \
+	   chmod +rx "/Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/luarocks/2.4.0-1/bin/$f-$luaver"; \
+	   ln -nfs "$f-$luaver" "/Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/luarocks/2.4.0-1/bin/$f"; \
+	done
+mkdir -p "/Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/luarocks/2.4.0-1/lua/luarocks"
+cd src/luarocks && for f in fs/tools.lua fs/unix/tools.lua fs/unix.lua fs/win32/tools.lua fs/win32.lua fs/lua.lua persist.lua list.lua require.lua repos.lua dir.lua make_manifest.lua command_line.lua config_cmd.lua install.lua build/command.lua build/cmake.lua build/make.lua build/builtin.lua fetch/cvs.lua fetch/git.lua fetch/sscm.lua tools/patch.lua fetch/svn.lua tools/zip.lua tools/tar.lua pack.lua type_check.lua make.lua remove.lua fs.lua manif.lua add.lua deps.lua build.lua search.lua show.lua manif_core.lua fetch.lua unpack.lua validate.lua cfg.lua download.lua help.lua util.lua index.lua cache.lua refresh_cache.lua loader.lua admin_remove.lua fetch/hg.lua fetch/git_file.lua new_version.lua lint.lua purge.lua path.lua path_cmd.lua write_rockspec.lua doc.lua upload.lua upload/api.lua upload/multipart.lua fetch/git_http.lua fetch/hg_http.lua fetch/hg_https.lua fetch/hg_ssh.lua fetch/git_https.lua fetch/git_ssh.lua; \
+	do \
+	   d="/Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/luarocks/2.4.0-1/lua/luarocks"/`dirname "$f"` && \
+	   mkdir -p "$d" && \
+	   cp "$f" "$d" || exit 1; \
+	done
+luaver="" && [ -n "$luaver" ] || luaver=`/Users/sp/Dropbox/OSX/x86/luajit//bin/lua -e 'print(_VERSION:sub(5))'`; \
+	mkdir -p "/Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/luarocks/2.4.0-1/lua/luarocks"; \
+	cp /Users/sp/Dropbox/OSX/x86/luarocks/share/lua/$luaver/luarocks/site_config.lua "/Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks/luarocks/2.4.0-1/lua/luarocks"
+Installing https://luarocks.org/luarocks-2.4.0-1.src.rock...
+Using https://luarocks.org/luarocks-2.4.0-1.src.rock... switching to 'build' mode
+Updating manifest for /Users/sp/PrjLocal/x86/luarockstree/lib/luarocks/rocks
+luarocks 2.4.0-1 is now built and installed in /Users/sp/PrjLocal/x86/luarockstree (license: MIT/X11)
+

@@ -1,0 +1,3 @@
+-- Configuring incomplete, errors occurred!
+Installing https://luarocks.org/spaces-0.4-0.src.rock...
+Using https://luarocks.org/spaces-0.4-0.src.rock... switching to 'build' mode
