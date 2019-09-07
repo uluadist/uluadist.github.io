@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://ulua.io/</loc>
+  <lastmod>2015-12-07T23:30:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://ulua.io/index.html</loc>
+  <lastmod>2015-12-07T23:30:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://ulua.io/pkg.html</loc>
+  <lastmod>2015-12-01T12:29:57+00:00</lastmod>
+</url>
+<url>
+  <loc>http://ulua.io/native_packages.html</loc>
+  <lastmod>2015-12-01T12:18:09+00:00</lastmod>
+</url>
+<url>
+  <loc>http://ulua.io/luarocks_packages.html</loc>
+  <lastmod>2015-12-07T23:30:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://ulua.io/luarocks_autobuild.html</loc>
+  <lastmod>2015-12-08T07:12:08+00:00</lastmod>
+</url>
+<url>
+  <loc>http://ulua.io/specs.html</loc>
+  <lastmod>2015-12-01T12:30:34+00:00</lastmod>
+</url>
+<url>
+  <loc>http://ulua.io/contact.html</loc>
+  <lastmod>2015-12-01T12:08:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://ulua.io/license.html</loc>
+  <lastmod>2015-11-25T22:17:02+00:00</lastmod>
+</url>
+</urlset>
