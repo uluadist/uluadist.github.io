@@ -1,31 +1,29 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="css/theme.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/custom.css" />
 
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="icon" href="images/favicon.ico">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="icon" href="images/favicon.ico" />
 
-    <link rel="stylesheet" href="css/prism-ghcolors.css">
+    <link rel="stylesheet" href="css/prism-ghcolors.css" />
 
-    <meta name="description" content="ULua: Universal Lua Distribution">
-    <meta name="author" content="Stefano Peluchetti">
+    <meta name="description" content="ULua: Universal Lua Distribution" />
+    <meta name="author" content="Stefano Peluchetti" />
     <title>ULua - Specs</title>
   </head>
   <body>
-    
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topnavbar">
-            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> 
+            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html">ULua</a>
         </div>
@@ -34,12 +32,12 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Packages<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                  <li><a href="native_packages.html">Native</a></li>
-                  <li><a href="luarocks_packages.html">LuaRocks</a></li>
-                  <li><a href="luarocks_autobuild.html">AutoBuild</a></li>
+                <li><a href="native_packages.html">Native</a></li>
+                <li><a href="luarocks_packages.html">LuaRocks</a></li>
+                <li><a href="luarocks_autobuild.html">AutoBuild</a></li>
               </ul>
             </li>
-            <li><a href="pkg.html">Pkg</a></li> 
+            <li><a href="pkg.html">Pkg</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">More<span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -50,34 +48,41 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="contact.html"><i class="fa fa-envelope-o"></i> Contact</a></li>
+            <li>
+              <a href="contact.html"><i class="fa fa-envelope-o"></i> Contact</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
     <div class="container-fluid">
-
       <h1>Specifications</h1>
 
       <p>Key features:</p>
 
       <ul>
-      <li>1-versioned-package &lt;-&gt; 1-sub-folder of <code>ulua</code></li>
-      <li>everything is a package (LuaJIT binaries and package manager included)</li>
-      <li>standard Lua modules + Lua meta-data and standardized conventions</li>
-      <li><a href="http://semver.org/">semantic versioning</a> and multiple versions</li>
+        <li>1-versioned-package &lt;-&gt; 1-sub-folder of <code>ulua</code></li>
+        <li>everything is a package (LuaJIT binaries and package manager included)</li>
+        <li>standard Lua modules + Lua meta-data and standardized conventions</li>
+        <li><a href="http://semver.org/">semantic versioning</a> and multiple versions</li>
       </ul>
 
       <p>An ULua package is a zip file <code>packagename~packageversion.zip</code> containing a single folder <code>packagename</code>.</p>
 
-      <p> Module names not consisting exclusively of lowercase alphabetical characters <code>[a-z]</code> are supported only for legacy reasons and should not be used.</p>
+      <p>Module names not consisting exclusively of lowercase alphabetical characters <code>[a-z]</code> are supported only for legacy reasons and should not be used.</p>
 
-      <p>The folder <code>packagename</code> is a standard Lua module with additional meta-data. As such ULua packages can be unzipped and used directly with other Lua distributions.</p>
+      <p>
+        The folder <code>packagename</code> is a standard Lua module with additional meta-data. As such ULua packages can be unzipped and used directly with other Lua
+        distributions.
+      </p>
 
-      <p>There is a clean separation between module-data and meta-data because all meta-data files and folders start with <code>__</code>. The only required meta-data file is <code>__meta.lua</code>:</p>
+      <p>
+        There is a clean separation between module-data and meta-data because all meta-data files and folders start with <code>__</code>. The only required meta-data file is
+        <code>__meta.lua</code>:
+      </p>
 
-<pre><code class="language-lua">
+      <pre><code class="language-lua">
 return {
   name        = 'packagename',
   version     = 'packageversion',
@@ -90,22 +95,29 @@ return {
 
       <p>Versions follow the semantic versioning format <code>major.minor.patch-pre+build</code>.</p>
 
-      <p>Modules are backward-compatible unless <code>major</code> changes (or is <code>0</code>), incrementing <code>minor</code> signifies the introduction of new functionality and incrementing <code>patch</code> signifies bug-fixes. The <code>pre</code> component is used for pre-releases and the <code>build</code> component is here only supported for legacy reasons and should not be used.</p>
+      <p>
+        Modules are backward-compatible unless <code>major</code> changes (or is <code>0</code>), incrementing <code>minor</code> signifies the introduction of new
+        functionality and incrementing <code>patch</code> signifies bug-fixes. The <code>pre</code> component is used for pre-releases and the <code>build</code> component is
+        here only supported for legacy reasons and should not be used.
+      </p>
 
       <p>Please refer to <a href="http://semver.org/">semver</a> for the full specifications. Example of valid versions:</p>
 
-<pre><code class="language-lua">
+      <pre><code class="language-lua">
 2
 2.0.4
 2.1-20150906
 2.1-beta1
 </code></pre>
 
-      <p>Because semantic versioning is used there is no need for complicated dependency rules: for each dependency a single version is specified. The latest compatible version of each dependency is safely selected. The dependency version for <code>luajit</code> must always be specified.</p>
+      <p>
+        Because semantic versioning is used there is no need for complicated dependency rules: for each dependency a single version is specified. The latest compatible version
+        of each dependency is safely selected. The dependency version for <code>luajit</code> must always be specified.
+      </p>
 
       <p>Example of a valid <code>__meta.lua</code> file:</p>
 
-<pre><code class="language-lua">
+      <pre><code class="language-lua">
 return {
   name        = 'sci',
   version     = '1.0-beta8',
@@ -116,7 +128,10 @@ return {
 }
 </code></pre>
 
-      <p>The information in <code>__meta.lua</code> is used not only to install, update and remove packages, but also to select the right modules to load by <code>require()</code>.</p>
+      <p>
+        The information in <code>__meta.lua</code> is used not only to install, update and remove packages, but also to select the right modules to load by
+        <code>require()</code>.
+      </p>
 
       <h2>Executable Scripts</h2>
 
@@ -124,14 +139,16 @@ return {
 
       <p>Corresponding Windows, OSX and Linux executable scripts will be automatically created in the <code>ulua/bin</code> folder.</p>
 
-      <p>A trailing <code>.lua</code> is ignored in the Lua command line script filenames for convenience. For example, both <code>__bin/script</code> and <code>__bin/script.lua</code> would correspond to <code>ulua/bin/script</code>.</p>
+      <p>
+        A trailing <code>.lua</code> is ignored in the Lua command line script filenames for convenience. For example, both <code>__bin/script</code> and
+        <code>__bin/script.lua</code> would correspond to <code>ulua/bin/script</code>.
+      </p>
 
       <h2>C-Lua modules (TODO)</h2>
 
       <p>Folders naming conventions result in the loading of the C-Lua module for the correct OS/arch combination.</p>
 
       <p>A mechanism is present to pre-load dynamic libraries required by the C-Lua module.</p>
-
     </div>
 
     <footer class="footer">
@@ -141,14 +158,22 @@ return {
     </footer>
 
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
 
-      ga('create', 'UA-53199019-2', 'auto');
-      ga('send', 'pageview');
-
+      ga("create", "UA-53199019-2", "auto");
+      ga("send", "pageview");
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

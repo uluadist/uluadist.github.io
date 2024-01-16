@@ -1,31 +1,29 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="css/theme.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/custom.css" />
 
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="icon" href="images/favicon.ico" />
 
-    <link rel="stylesheet" href="css/prism-ghcolors.css">
+    <link rel="stylesheet" href="css/prism-ghcolors.css" />
 
-    <meta name="description" content="ULua: Universal Lua Distribution">
-    <meta name="author" content="Stefano Peluchetti">
+    <meta name="description" content="ULua: Universal Lua Distribution" />
+    <meta name="author" content="Stefano Peluchetti" />
     <title>ULua - LuaRocks Packages</title>
   </head>
   <body>
-    
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topnavbar">
-            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> 
+            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html">ULua</a>
         </div>
@@ -34,12 +32,12 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Packages<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                  <li><a href="native_packages.html">Native</a></li>
-                  <li class="active"><a href="luarocks_packages.html">LuaRocks</a></li>
-                  <li><a href="luarocks_autobuild.html">AutoBuild</a></li>
+                <li><a href="native_packages.html">Native</a></li>
+                <li class="active"><a href="luarocks_packages.html">LuaRocks</a></li>
+                <li><a href="luarocks_autobuild.html">AutoBuild</a></li>
               </ul>
             </li>
-            <li><a href="pkg.html">Pkg</a></li> 
+            <li><a href="pkg.html">Pkg</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">More<span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -50,24 +48,34 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="contact.html"><i class="fa fa-envelope-o"></i> Contact</a></li>
+            <li>
+              <a href="contact.html"><i class="fa fa-envelope-o"></i> Contact</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
     <div class="container-fluid">
-
       <h1>LuaRocks Packages</h1>
 
       <p>Listed below are all available packages successfully imported from LuaRocks.</p>
 
-      <p><em>To rocks maintainers: if your package is not available please check the state of the rock build at <a href="luarocks_autobuild.html">LuaRocks AutoBuild</a>, your collaboration is appreciated.</em></p>
+      <p>
+        <em
+          >To rocks maintainers: if your package is not available please check the state of the rock build at <a href="luarocks_autobuild.html">LuaRocks AutoBuild</a>, your
+          collaboration is appreciated.</em
+        >
+      </p>
 
       <table class="table">
-        <tr><th>Module</th><th>Description</th><th>Versions</th></tr>
-${modules}      </table>
-
+        <tr>
+          <th>Module</th>
+          <th>Description</th>
+          <th>Versions</th>
+        </tr>
+        ${modules}
+      </table>
     </div>
 
     <footer class="footer">
@@ -77,14 +85,22 @@ ${modules}      </table>
     </footer>
 
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
 
-      ga('create', 'UA-53199019-2', 'auto');
-      ga('send', 'pageview');
-
+      ga("create", "UA-53199019-2", "auto");
+      ga("send", "pageview");
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

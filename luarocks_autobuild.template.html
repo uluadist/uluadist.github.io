@@ -1,31 +1,29 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="css/theme.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/custom.css" />
 
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="icon" href="images/favicon.ico" />
 
-    <link rel="stylesheet" href="css/prism-ghcolors.css">
+    <link rel="stylesheet" href="css/prism-ghcolors.css" />
 
-    <meta name="description" content="ULua: Universal Lua Distribution">
-    <meta name="author" content="Stefano Peluchetti">
+    <meta name="description" content="ULua: Universal Lua Distribution" />
+    <meta name="author" content="Stefano Peluchetti" />
     <title>ULua - AutoBuild Status</title>
   </head>
   <body>
-    
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topnavbar">
-            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span> 
+            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html">ULua</a>
         </div>
@@ -34,12 +32,12 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Packages<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                  <li><a href="native_packages.html">Native</a></li>
-                  <li><a href="luarocks_packages.html">LuaRocks</a></li>
-                  <li class="active"><a href="luarocks_autobuild.html">AutoBuild</a></li>
+                <li><a href="native_packages.html">Native</a></li>
+                <li><a href="luarocks_packages.html">LuaRocks</a></li>
+                <li class="active"><a href="luarocks_autobuild.html">AutoBuild</a></li>
               </ul>
             </li>
-            <li><a href="pkg.html">Pkg</a></li> 
+            <li><a href="pkg.html">Pkg</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">More<span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -50,14 +48,15 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="contact.html"><i class="fa fa-envelope-o"></i> Contact</a></li>
+            <li>
+              <a href="contact.html"><i class="fa fa-envelope-o"></i> Contact</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
     <div class="container-fluid">
-
       <h1>AutoBuild Status</h1>
 
       <p>For each OS/arch combination, in order for a rock install to be attempted the following pre-conditions must be satisfied:</p>
@@ -71,16 +70,29 @@
         <li>the rock must not depend on another rock whose build failed or which is not available</li>
       </ul>
 
-      <p>If all these conditions are satisfied, the rock install (i.e. <code>luarocks install ...</code>) is attempted and the <code>stdout</code> and <code>stderr</code> outputs are logged in case of failure.</p>
+      <p>
+        If all these conditions are satisfied, the rock install (i.e. <code>luarocks install ...</code>) is attempted and the <code>stdout</code> and
+        <code>stderr</code> outputs are logged in case of failure.
+      </p>
 
-      <p>Following a successful rock install for each OS/arch combination (for now: WIP), it is also verified that no path conflict arise. Rocks belonging to the same <em>product</em> are successfully bundled together and the resulting ULua package name will be of the form <code>rootname-bundle</code>. All other path conflict results in a failure.</p>
+      <p>
+        Following a successful rock install for each OS/arch combination (for now: WIP), it is also verified that no path conflict arise. Rocks belonging to the same
+        <em>product</em> are successfully bundled together and the resulting ULua package name will be of the form <code>rootname-bundle</code>. All other path conflict results
+        in a failure.
+      </p>
 
       <p>In the following table green means success, red failure and yellow exclusion.</p>
 
       <table class="table">
-        <tr><th>LuaRock</th><th>Version</th><th>OS</th><th>Arch</th><th>Info</th></tr>
-${state}      </table>
-
+        <tr>
+          <th>LuaRock</th>
+          <th>Version</th>
+          <th>OS</th>
+          <th>Arch</th>
+          <th>Info</th>
+        </tr>
+        ${state}
+      </table>
     </div>
 
     <footer class="footer">
@@ -90,14 +102,22 @@ ${state}      </table>
     </footer>
 
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
 
-      ga('create', 'UA-53199019-2', 'auto');
-      ga('send', 'pageview');
-
+      ga("create", "UA-53199019-2", "auto");
+      ga("send", "pageview");
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
